@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ingest *_result.json files into Qdrant with dense+hybrid (sparse) vectors."""
+"""Ingest output/final/*_final.json files into Qdrant with dense vectors."""
 from __future__ import annotations
 
 import argparse
@@ -12,6 +12,11 @@ import uuid
 import requests
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qmodels
+from enum import Enum
+
+
+class Collection(Enum):
+    FINAL = "final_embeddings"
 
 
 def load_json(path: Path):
@@ -23,52 +28,37 @@ def load_json(path: Path):
 
 
 def iter_records(base_dir: Path) -> Iterable[Dict[str, object]]:
-    for doc_dir in sorted(base_dir.iterdir()):
-        if not doc_dir.is_dir():
+    mapping = {
+        "texts_final.json": "text",
+        "tables_str_final.json": "table_str",
+        "tables_unstr_final.json": "table_unstr",
+        "images_formula_final.json": "image_formula",
+        "images_sum_final.json": "image_sum",
+        "images_trans_final.json": "image_trans",
+    }
+    for fname, rtype in mapping.items():
+        fpath = base_dir / fname
+        if not fpath.exists():
             continue
-        doc_folder = doc_dir.name
-
-        text_path = doc_dir / "text_result.json"
-        if text_path.exists():
-            for item in load_json(text_path):
-                text = item.get("text", "")
-                if not text:
-                    continue
-                yield {
-                    "id": item.get("id") or item.get("page"),
-                    "content": str(text),
-                    "record_type": "text",
-                    "source_file": str(text_path),
-                    "doc_folder": doc_folder,
-                }
-
-        table_final = doc_dir / "table_final_result.json"
-        if table_final.exists():
-            for item in load_json(table_final):
-                summary = item.get("summary") or ""
-                if not summary:
-                    continue
-                yield {
-                    "id": item.get("id"),
-                    "content": str(summary),
-                    "record_type": "table",
-                    "source_file": str(table_final),
-                    "doc_folder": doc_folder,
-                }
-
-        img_path = doc_dir / "image_final_result.json"
-        if img_path.exists():
-            for item in load_json(img_path):
-                summary = item.get("summary", "")
-                if not summary:
-                    continue
-                yield {
-                    "id": item.get("id"),
-                    "content": str(summary),
-                    "record_type": "image",
-                    "source_file": str(img_path),
-                    "doc_folder": doc_folder,
-                }
+        for item in load_json(fpath):
+            raw_text = item.get("text", "")
+            if isinstance(raw_text, list):
+                text = "\n".join(str(x) for x in raw_text if x is not None)
+            else:
+                text = str(raw_text or "")
+            if not text.strip():
+                continue
+            rec = {
+                "id": item.get("id") or str(uuid.uuid4()),
+                "record_type": rtype,
+                "source_file": str(fpath),
+                "text": text,
+            }
+            # 메타데이터 보존
+            for key in ["placeholder", "component_type", "image_link", "section_path", "filename", "page"]:
+                if key in item:
+                    rec[key] = item.get(key)
+            yield rec
 
 
 def embed_dense(text: str, model: str, url: str, timeout: float = 120.0) -> List[float]:
@@ -93,9 +83,8 @@ def ensure_collection(client: QdrantClient, name: str, dense_size: int) -> None:
 
 
 def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Hybrid ingest (dense + sparse) into Qdrant.")
-    parser.add_argument("--base-dir", default="output/sanitize", type=Path, help="sanitize 루트")
-    parser.add_argument("--collection", default="sanitize_hybrid", help="Qdrant 컬렉션명")
+    parser = argparse.ArgumentParser(description="Ingest final JSONs into Qdrant (dense embeddings).")
+    parser.add_argument("--base-dir", default="output/final", type=Path, help="final JSON 루트")
     parser.add_argument("--qdrant-url", default=os.environ.get("QDRANT_URL", "http://localhost:6333"))
     parser.add_argument("--ollama-url", default=os.environ.get("OLLAMA_URL", "http://localhost:11434"))
     parser.add_argument("--embed-model", default="snowflake-arctic-embed2", help="Ollama 임베딩 모델명")
@@ -121,20 +110,20 @@ def main(argv: Optional[List[str]] = None) -> int:
             return
         ids = [str(uuid.uuid4()) for _ in buffer]
         client.upsert(
-            collection_name=args.collection,
+            collection_name=Collection.FINAL.value,
             points=qmodels.Batch(ids=ids, vectors={"dense": dense_vectors}, payloads=buffer),
         )
         buffer.clear()
         dense_vectors.clear()
 
     for record in iter_records(args.base_dir):
-        content = (record.get("content") or "").strip()
+        content = (record.get("text") or "").strip()
         if not content:
             continue
         dense = embed_dense(content, model=args.embed_model, url=args.ollama_url)
         if dense_size is None:
             dense_size = len(dense)
-            ensure_collection(client, args.collection, dense_size)
+            ensure_collection(client, Collection.FINAL.value, dense_size)
         buffer.append(record)
         dense_vectors.append(dense)
 
@@ -144,10 +133,10 @@ def main(argv: Optional[List[str]] = None) -> int:
     if buffer:
         if dense_size is None:
             raise RuntimeError("No embeddings generated.")
-        ensure_collection(client, args.collection, dense_size)
+        ensure_collection(client, Collection.FINAL.value, dense_size)
         flush_batch()
 
-    print(f"[DONE] Ingested into collection '{args.collection}'")
+    print(f"[DONE] Ingested into collection '{Collection.FINAL.value}'")
     return 0
 
 

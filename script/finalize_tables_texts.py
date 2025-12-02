@@ -45,11 +45,17 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
     finals: List[Dict[str, Any]] = []
 
     for tbl in tables:
+        prefix_parts = []
+        if tbl.get("filename"):
+            prefix_parts.append(f"[문서: {tbl.get('filename')}]")
+        if tbl.get("section_path"):
+            prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
+        prefix = " ".join(prefix_parts)
         base = {
             "id": tbl.get("id"),
             "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
-            "text": tbl.get("row_flatten"),
+            "text": (f"{prefix} {tbl.get('row_flatten')}".strip() if prefix else tbl.get("row_flatten")),
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
             "filename": tbl.get("filename"),
@@ -60,11 +66,12 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
         rows = tbl.get("row_flatten") or []
         if isinstance(rows, list):
             for idx, row in enumerate(rows, start=1):
+                row_text = (f"{prefix} {row}".strip() if prefix else row)
                 finals.append(
                     {
                         "id": f"{tbl.get('id')}#{idx}",
                         "component_type": "table_row",
-                        "text": row,
+                        "text": row_text,
                         "image_link": tbl.get("image_link"),
                         "section_path": tbl.get("section_path"),
                         "filename": tbl.get("filename"),
@@ -73,11 +80,13 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
                 )
 
         if tbl.get("id") in summaries:
+            sum_text = summaries[tbl.get("id")]
+            sum_text = (f"{prefix} {sum_text}".strip() if prefix else sum_text)
             finals.append(
                 {
                     "id": f"{tbl.get('id')}#summary",
                     "component_type": "table_summary",
-                    "text": summaries[tbl.get("id")],
+                    "text": sum_text,
                     "image_link": tbl.get("image_link"),
                     "section_path": tbl.get("section_path"),
                     "filename": tbl.get("filename"),
@@ -104,13 +113,24 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
     for tbl in tables:
         summary = summary_map.get(tbl.get("id"))
         fallback_text = "No Description"
+        prefix_parts = []
+        if tbl.get("filename"):
+            prefix_parts.append(f"[문서: {tbl.get('filename')}]")
+        if tbl.get("section_path"):
+            prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
+        prefix = " ".join(prefix_parts)
+        base_text = (
+            summary
+            if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary))
+            else (tbl.get("full_html") or fallback_text)
+        )
+        if prefix:
+            base_text = f"{prefix} {base_text}".strip()
         entry = {
             "id": tbl.get("id"),
             "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
-            "text": summary
-            if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary))
-            else (tbl.get("full_html") or fallback_text),
+            "text": base_text,
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
             "filename": tbl.get("filename"),
@@ -127,12 +147,21 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
     comps = load_json(src_path)
     finals: List[Dict[str, Any]] = []
     for comp in comps:
+        prefix_parts = []
+        if comp.get("filename"):
+            prefix_parts.append(f"[문서: {comp.get('filename')}]")
+        if comp.get("section_path"):
+            prefix_parts.append(f"[경로: {comp.get('section_path')}]")
+        prefix = " ".join(prefix_parts)
+        text_val = comp.get("description") or "No Description"
+        if prefix:
+            text_val = f"{prefix} {text_val}".strip()
         finals.append(
             {
                 "id": comp.get("id"),
                 "placeholder": comp.get("placeholder"),
                 "component_type": comp.get("component_type"),
-                "text": comp.get("description") or "",
+                "text": text_val,
                 "image_link": comp.get("image_link"),
                 "section_path": comp.get("section_path"),
                 "filename": comp.get("filename"),
@@ -171,6 +200,14 @@ def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str,
         summary = res.get("summary")
         keywords = res.get("keyword") or []
         text_val = summary if isinstance(summary, str) and summary.strip() else "No Description"
+        prefix_parts = []
+        if comp.get("filename"):
+            prefix_parts.append(f"[문서: {comp.get('filename')}]")
+        if comp.get("section_path"):
+            prefix_parts.append(f"[경로: {comp.get('section_path')}]")
+        prefix = " ".join(prefix_parts)
+        if prefix:
+            text_val = f"{prefix} {text_val}".strip()
         finals.append(
             {
                 "id": iid,
@@ -199,7 +236,23 @@ def finalize_texts() -> List[Dict[str, Any]]:
     src_path = EXTRACT_DIR / "components_texts.json"
     if not src_path.exists():
         return []
-    return load_json(src_path)
+    texts = load_json(src_path)
+    finals: List[Dict[str, Any]] = []
+    for item in texts:
+        filename = item.get("filename") or ""
+        section_path = item.get("section_path") or ""
+        prefix_parts = []
+        if filename:
+            prefix_parts.append(f"[문서: {filename}]")
+        if section_path:
+            prefix_parts.append(f"[경로: {section_path}]")
+        prefix = " ".join(prefix_parts)
+        text_body = item.get("text") or ""
+        combined = f"{prefix} {text_body}".strip() if prefix else str(text_body)
+        new_item = dict(item)
+        new_item["text"] = combined
+        finals.append(new_item)
+    return finals
 
 
 def main() -> None:
