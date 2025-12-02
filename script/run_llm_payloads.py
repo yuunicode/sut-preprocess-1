@@ -155,6 +155,7 @@ def run_chat(model, tokenizer, prompt: str, image: Image.Image | None = None, ma
 def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
     payloads = load_payload(path)
     results = []
+    out_path = path.with_name(path.name.replace("_payload", "_result"))
 
     for entry in payloads:
         entry_status = "성공"
@@ -193,6 +194,8 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
             if not ok:
                 log_error(f"file={path.name} id={entry_id} error=invalid_output resp='{resp_text[:200]}'")
                 entry_status = "실패"
+            else:
+                print(f"[출력성공] {path.name} id={entry_id}")
         else:
             log_error(f"file={path.name} id={entry_id} error=empty_response")
             entry_status = "실패"
@@ -202,9 +205,9 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
         result_entry["raw_response"] = resp_text
         results.append(result_entry)
         print(f"[{entry_status}] {path.name} id={entry_id}")
+        # 중간 진행상황도 바로 저장
+        out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    out_path = path.with_name(path.name.replace("_payload", "_result"))
-    out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[INFO] wrote {out_path} ({len(results)} items)")
 
 
