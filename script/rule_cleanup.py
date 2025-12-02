@@ -592,7 +592,8 @@ def process_inline_math(content: str) -> Tuple[str, dict]:
         prefix, body, suffix = match.groups()
         new_body, n = normalize_math_text(body)
         count += n
-        return f"{prefix}{new_body}{suffix}"
+        # math 태그 자체는 제거하고 내용만 남긴다.
+        return new_body
 
     new_content = INLINE_MATH_RE.sub(repl, content)
     return new_content, {"math_inlines": count}
@@ -609,6 +610,7 @@ def process_block_math(content: str) -> Tuple[str, dict]:
         prefix, body, suffix = match.groups()
         new_body, n = normalize_math_text(body)
         count += n
+        # block math는 태그를 유지한다.
         return f"{prefix}{new_body}{suffix}"
 
     new_content = BLOCK_MATH_RE.sub(repl, content)
