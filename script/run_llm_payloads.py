@@ -10,6 +10,7 @@ import torch
 from pathlib import Path
 from typing import Any, Dict, Tuple
 
+from PIL import Image
 from transformers import AutoModelForVision2Seq, AutoTokenizer
 from huggingface_hub.errors import HFValidationError
 
@@ -88,13 +89,22 @@ def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
 
 
 # --------------------- LLM 호출 (Vision-Language) ---------------------
-def build_vl_messages(prompt: str, image_path: Path | None) -> list[dict]:
-    if image_path and image_path.exists():
+def load_image(image_path: Path) -> Image.Image | None:
+    try:
+        img = Image.open(image_path).convert("RGB")
+        return img
+    except Exception as exc:
+        log_error(f"image open failed: {image_path} ({exc})")
+        return None
+
+
+def build_vl_messages(prompt: str, image: Image.Image | None) -> list[dict]:
+    if image is not None:
         return [
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": str(image_path)},
+                    {"type": "image", "image": image},
                     {"type": "text", "text": prompt},
                 ],
             }
@@ -125,7 +135,7 @@ def load_qwen(model_path: Path, device: str = DEFAULT_DEVICE):
     return tokenizer, model
 
 
-def run_chat(model, tokenizer, prompt: str, image: Path | None = None, max_new_tokens: int = 512) -> str:
+def run_chat(model, tokenizer, prompt: str, image: Image.Image | None = None, max_new_tokens: int = 512) -> str:
     messages = build_vl_messages(prompt, image)
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer(text, return_tensors="pt").to(model.device)
@@ -144,7 +154,7 @@ def run_chat(model, tokenizer, prompt: str, image: Path | None = None, max_new_t
 # --------------------- 메인 처리 ---------------------
 def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
     payloads = load_payload(path)
-    updated_payloads = []
+    results = []
 
     for entry in payloads:
         entry_status = "성공"
@@ -152,7 +162,7 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
         instruction = entry.get("instruction", "")
         input_payload = entry.get("input", {}) or {}
         template_output = entry.get("output", {}) or {}
-        image_path = None
+        image_obj = None
         if isinstance(input_payload, dict):
             img_link = input_payload.get("image_link")
             if img_link:
@@ -160,12 +170,18 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
                 if not img_candidate.is_absolute():
                     img_candidate = Path(__file__).resolve().parents[1] / img_link
                 if img_candidate.exists():
-                    image_path = img_candidate
+                    image_obj = load_image(img_candidate)
+                    if image_obj:
+                        print(f"[이미지사용] {path.name} id={entry_id} image={img_candidate}")
+                    else:
+                        print(f"[이미지없음] {path.name} id={entry_id} image_link={img_link} (로드 실패)")
+                else:
+                    print(f"[이미지없음] {path.name} id={entry_id} image_link={img_link} (파일 없음)")
 
         resp_text = ""
         try:
             prompt = build_prompt(instruction, input_payload)
-            resp_text = run_chat(model, tokenizer, prompt, image=image_path, max_new_tokens=max_new_tokens)
+            resp_text = run_chat(model, tokenizer, prompt, image=image_obj, max_new_tokens=max_new_tokens)
         except Exception as exc:  # pragma: no cover
             log_error(f"file={path.name} id={entry_id} error=LLM call failed: {exc}")
             resp_text = ""
@@ -181,13 +197,15 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
             log_error(f"file={path.name} id={entry_id} error=empty_response")
             entry_status = "실패"
 
-        entry["output"] = merged
-        entry["raw_response"] = resp_text
-        updated_payloads.append(entry)
+        result_entry = dict(entry)
+        result_entry["output"] = merged
+        result_entry["raw_response"] = resp_text
+        results.append(result_entry)
         print(f"[{entry_status}] {path.name} id={entry_id}")
 
-    path.write_text(json.dumps(updated_payloads, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[INFO] updated {path} ({len(updated_payloads)} items)")
+    out_path = path.with_name(path.name.replace("_payload", "_result"))
+    out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[INFO] wrote {out_path} ({len(results)} items)")
 
 
 def main() -> None:
