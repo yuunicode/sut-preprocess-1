@@ -10,11 +10,13 @@ from pathlib import Path
 from typing import Any, Dict, Tuple
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from huggingface_hub.errors import HFValidationError
 
 LLM_DIR = Path(__file__).resolve().parents[1] / "output" / "llm"
 LOG_DIR = Path(__file__).resolve().parents[1] / "logs"
 DEFAULT_MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "qwen"
 ERROR_LOG = LOG_DIR / "llm_errors.log"
+DEFAULT_DEVICE = "cuda"
 
 
 # --------------------- 공통 유틸 ---------------------
@@ -85,12 +87,19 @@ def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
 
 
 # --------------------- LLM 호출 ---------------------
-def load_qwen_pipeline(model_path: Path, device: str = "auto"):
+def load_qwen_pipeline(model_path: Path, device: str = DEFAULT_DEVICE):
     model_path = model_path.resolve()
-    tokenizer = AutoTokenizer.from_pretrained(str(model_path), trust_remote_code=True, local_files_only=True)
-    model = AutoModelForCausalLM.from_pretrained(
-        str(model_path), trust_remote_code=True, device_map=device, local_files_only=True
-    )
+    if not model_path.exists():
+        raise FileNotFoundError(f"model path not found: {model_path}")
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(
+            str(model_path), trust_remote_code=True, local_files_only=True, cache_dir=str(model_path)
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            str(model_path), trust_remote_code=True, device_map=device, local_files_only=True, cache_dir=str(model_path)
+        )
+    except HFValidationError as exc:  # pragma: no cover
+        raise FileNotFoundError(f"local model files not found under {model_path}: {exc}") from exc
     return pipeline(
         "text-generation",
         model=model,
@@ -147,7 +156,6 @@ def main() -> None:
     parser.add_argument("--model-path", type=Path, default=DEFAULT_MODEL_PATH, help="로컬 Qwen 모델 경로 (기본: models/qwen)")
     parser.add_argument("--payload", action="append", type=Path, help="처리할 payload 파일 경로(여러 번 지정 가능). 없으면 output/llm/*_payload.json 전부.")
     parser.add_argument("--max-new-tokens", type=int, default=512, help="생성 토큰 수 (기본 512)")
-    parser.add_argument("--device", default="auto", help="transformers device_map (기본 auto, GPU 가능 시 cuda)")
     args = parser.parse_args()
 
     targets = args.payload
@@ -159,7 +167,7 @@ def main() -> None:
         return
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
-    generator = load_qwen_pipeline(args.model_path, device=args.device)
+    generator = load_qwen_pipeline(args.model_path, device=DEFAULT_DEVICE)
 
     for path in targets:
         if path.is_dir():
