@@ -5,6 +5,61 @@ import re
 from pathlib import Path
 from typing import Tuple
 
+# \frac{a}{b} 변환용
+FRAC_RE = re.compile(r"\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}")
+SQRT_RE = re.compile(r"\\sqrt\s*\{([^{}]+)\}")
+FALLBACK_FRAC_RE = re.compile(r"\\frac\s*\{([^}]*)\}\s*\{([^}]*)\}", re.DOTALL)
+UNBALANCED_FRAC_RE = re.compile(r"\\frac\s*\{([^{}]*?)\}\s*\{([^}]*)", re.DOTALL)
+
+
+def _extract_braced(text: str, start: int) -> tuple[str | None, int]:
+    """텍스트에서 start 위치의 { ... }를 파싱해 내용과 다음 인덱스를 반환한다."""
+    if start >= len(text) or text[start] != "{":
+        return None, start
+    depth = 0
+    idx = start
+    while idx < len(text):
+        ch = text[idx]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start + 1 : idx], idx + 1
+        idx += 1
+    return None, start
+
+
+def convert_fracs(text: str) -> tuple[str, int]:
+    """중첩된 \\frac{...}{...}을 [()/()] 형태로 변환한다."""
+    out: list[str] = []
+    idx = 0
+    replaced = 0
+    while idx < len(text):
+        if text.startswith(r"\frac", idx):
+            num, next_idx = _extract_braced(text, idx + 5)
+            if num is None:
+                out.append(text[idx])
+                idx += 1
+                continue
+            den, final_idx = _extract_braced(text, next_idx)
+            num_conv, num_repl = convert_fracs(num)
+            if den is None:
+                den_raw = text[next_idx:].lstrip("{").rstrip()
+                den_conv, den_repl = convert_fracs(den_raw)
+                out.append(f"[({num_conv})/({den_conv})]")
+                replaced += 1 + num_repl + den_repl
+                idx = len(text)
+            else:
+                den_conv, den_repl = convert_fracs(den)
+                out.append(f"[({num_conv})/({den_conv})]")
+                replaced += 1 + num_repl + den_repl
+                idx = final_idx
+        else:
+            out.append(text[idx])
+            idx += 1
+    return "".join(out), replaced
+
 # 키-값 매핑(LaTeX 표현 -> 유니코드/플레인텍스트)
 # 1차: 섭씨/그리스/수학 기호
 PRIMARY_MAP = [
@@ -33,20 +88,28 @@ PRIMARY_MAP = [
     (r"\\downarrow", "↓"),
     (r"\\leftrightarrow", "↔"),
     (r"\\rightarrow", "→"),
+    (r"rightarrow", "→"),
+    (r"\\nightarrow", "→"),  # markdown 파싱 오류 대응
+    (r"nightarrow", "→"),  # markdown 파싱 오류 대응
+    (r"(?<![A-Za-z])ightarrow(?![A-Za-z])", "→"),  # 파싱 중 앞글자 누락 대응
     (r"\\to", "→"),
     (r"\\pm", "±"),
     (r"\\%", "%"),
     (r"\\times", "×"),
+    (r"times", "×"),
     (r"\\cdot", "·"),
     (r"\\dots", "…"),
     (r"\\le(?!ft)", "≤"),  # \left 보호
     (r"\\ge(?!ft)", "≥"),  # \left 보호
-    (r"\\sim", "~"),    
+    (r"\\sim", "~"),  
+    (r"&Gt;", ">")  
     (r"\\circ", "◯"),
     (r"\\triangle", "△"),
     (r"\\square", "□"),
     (r"\\div", "÷"),
     (r"\\approx", "≒"),
+    (r"\\arrow", "→"),
+    (r"(?<![A-Za-z])arrow(?![A-Za-z])", "→"),
     (r"\\quad", "     "),
 ]
 
@@ -112,6 +175,7 @@ SECONDARY_MAP = [
     (r"\s*\\mathrm\{\s*cm\s*\}\s*\^\s*\{?\s*2\s*\}?", "cm²"),
     (r"\s*\\mathrm\{\s*Kg\s*\}", "kg"),
     (r"\s*\\mathrm\{\s*mm\s*\}", "mm"),
+    (r"\s*\\mathrm\{\s*O\s*\}", "O"),
     (r"\s*\\mathrm\{\s*cm\s*\}", "cm"),
 ]
 
@@ -147,8 +211,17 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
         total += 1
         return content.translate(sup_map)
 
+    def sup_paren_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        content = match.group(1).replace(" ", "")
+        if not re.fullmatch(r"-?\d+", content):
+            return match.group(0)
+        total += 1
+        return content.translate(sup_map)
+    
     text = re.sub(r"_(\d)", sub_digit_repl, text)
     text = re.sub(r"\^\s*\{\s*(-?\d+)\s*\}", sup_brace_repl, text)
+    text = re.sub(r"\^\s*\(\s*(-?\d+)\s*\)", sup_paren_repl, text)
     text = re.sub(r"\^(-?\d)", sup_digit_repl, text)
 
     def sum_paren_repl(match: re.Match[str]) -> str:
@@ -165,6 +238,40 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"\\sum\s*\(\s*([^\)]*)\s*\)", sum_paren_repl, text)
     text = re.sub(r"\\sum\b", sum_word_repl, text)
 
+    # \frac{...}{...} → [(...)/(...) ] (중첩 포함)
+    text, frac_repl_count = convert_fracs(text)
+    total += frac_repl_count
+
+
+    while True:
+        new_text, n = FALLBACK_FRAC_RE.subn(
+            lambda m: f"[({m.group(1).strip()})/({m.group(2).strip()})]", text
+        )
+        total += n
+        if n == 0:
+            break
+        text = new_text
+    
+    # 여전히 남은 불완전 frac 처리 (닫힘 누락 등)
+    if "\\frac" in text:
+        text, n = UNBALANCED_FRAC_RE.subn(
+            lambda m: f"[({m.group(1).strip()})/({m.group(2).strip()})]", text
+        )
+        total += n
+        
+    # \sqrt{...} → √(...)
+    def sqrt_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        inner = match.group(1).strip()
+        total += 1
+        return f"√({inner})"
+
+    text = SQRT_RE.sub(sqrt_repl, text)
+
+    # \left / \right 제거 (구분자는 그대로 둠)
+    text = re.sub(r"\\left\s*", "", text)
+    text = re.sub(r"\\right\s*", "", text)
+
     for mapping in (PRIMARY_MAP, SECONDARY_MAP):
         for pattern, repl in mapping:
             text, n = re.subn(pattern, lambda m, r=repl: r, text, flags=re.IGNORECASE)
@@ -180,8 +287,11 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"\\?text\s*\{\s*(.*?)\s*\}", strip_text, text)
     text = re.sub(r"\bext\s*\{\s*(.*?)\s*\}", strip_text, text)
 
+    # \boxed{...}, \underlined{...} 제거 (내용만 남기고 양쪽 공백 제거)
+    text = re.sub(r"\\boxed\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+    text = re.sub(r"\\underlined\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+    
     return text, total
-
 
 def process_inline_math(content: str) -> Tuple[str, dict]:
     """
