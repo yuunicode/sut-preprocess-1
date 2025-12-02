@@ -8,6 +8,7 @@ from pathlib import Path
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[1] / "output" / "sanitize"
 LOG_DIR = Path(__file__).resolve().parents[1] / "logs"
+EXTRACT_DIR = Path(__file__).resolve().parents[1] / "output" / "extract"
 DEFAULT_OUT = LOG_DIR / "components_total.json"
 
 
@@ -78,16 +79,25 @@ def main() -> None:
     for img in images_translation:
         acc["images_trans"].append(img)
 
-    (LOG_DIR / "components_tables_str.json").write_text(json.dumps(acc["tables_str"], ensure_ascii=False, indent=2), encoding="utf-8")
-    (LOG_DIR / "components_tables_unstr.json").write_text(json.dumps(acc["tables_unstr"], ensure_ascii=False, indent=2), encoding="utf-8")
-    (LOG_DIR / "components_images_sum.json").write_text(json.dumps(acc["images_sum"], ensure_ascii=False, indent=2), encoding="utf-8")
-    (LOG_DIR / "components_images_trans.json").write_text(json.dumps(acc["images_trans"], ensure_ascii=False, indent=2), encoding="utf-8")
-    (LOG_DIR / "components_images_formula.json").write_text(json.dumps(acc["images_formula"], ensure_ascii=False, indent=2), encoding="utf-8")
-    (LOG_DIR / "components_texts.json").write_text(json.dumps(acc["texts"], ensure_ascii=False, indent=2), encoding="utf-8")
+    split_files = {
+        "components_tables_str.json": acc["tables_str"],
+        "components_tables_unstr.json": acc["tables_unstr"],
+        "components_images_sum.json": acc["images_sum"],
+        "components_images_trans.json": acc["images_trans"],
+        "components_images_formula.json": acc["images_formula"],
+        "components_texts.json": acc["texts"],
+    }
+    for name, data in split_files.items():
+        (LOG_DIR / name).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # output/extract에도 total을 제외한 분리본을 저장
+    EXTRACT_DIR.mkdir(parents=True, exist_ok=True)
+    for name, data in split_files.items():
+        (EXTRACT_DIR / name).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(
         f"[INFO] merged {len(tables)} tables, {len(images_summary)} image_summary, {len(images_translation)} image_translation, {len(texts)} texts "
-        f"into {args.out} and split JSONs under {LOG_DIR}"
+        f"into {args.out} and split JSONs under {LOG_DIR} (mirrored to {EXTRACT_DIR} without total)"
     )
 
 
