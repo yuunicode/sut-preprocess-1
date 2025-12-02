@@ -24,6 +24,7 @@ TOP_LEVEL_TITLES_NORM = [re.sub(r"\s+", "", t) for t in TOP_LEVEL_TITLES]
 HANGUL_SUBSECTION_RE = re.compile(r"^[가-힣]\.")
 MAX_MAJOR_LEVEL = 6
 MAX_SUB_LEVEL = 30
+PAGE_BREAK_COMMENT = "<!-- 페이지번호: {page}, 파일명: {filename} -->"
 
 # \frac{a}{b} 변환용
 FRAC_RE = re.compile(r"\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}")
@@ -272,6 +273,169 @@ def normalize_html_subsup(text: str) -> str:
     text = re.sub(r"<sup>(.*?)</sup>", sup_repl, text, flags=re.IGNORECASE | re.DOTALL)
     return text
 
+
+def extract_page_sections(content: str) -> list[tuple[str, str]]:
+    """<h2>Page N</h2> 블록을 쪼개어 페이지별 내용과 번호를 반환한다."""
+    sections: list[tuple[str, str]] = []
+    pattern = re.compile(r"(<h2>Page\s+(\d+)</h2>)(.*?)(?=(<h2>Page\s+\d+</h2>)|$)", re.DOTALL)
+    pos = 0
+    while True:
+        match = pattern.search(content, pos)
+        if not match:
+            break
+        page_num = match.group(2)
+        body = match.group(3).strip()
+        sections.append((page_num, body))
+        pos = match.end()
+    if not sections:
+        sections.append(("1", content.strip()))
+    return sections
+
+
+def extract_display_filename(filename: str) -> str:
+    """
+    파일명에서 TP-XXX-XXX-XXX 이후, (Rev.) 앞까지의 제목을 추출한다.
+    접두어는 제외하고, "(Rev" 직전에서 잘라낸다.
+    """
+    stem = Path(filename).stem
+    match = re.search(r"TP-\d{3}-\d{3}-\d{3}\s+(.+?)(?=\(Rev\.)", stem)
+    if match:
+        return match.group(1).strip()
+    rev_idx = stem.find("(Rev")
+    if rev_idx != -1:
+        title_part = stem[:rev_idx].strip()
+        parts = title_part.split(maxsplit=1)
+        if len(parts) == 2:
+            return parts[1].strip()
+        return title_part
+    return stem
+
+
+def insert_page_breaks(content: str, filename: str) -> str:
+    """페이지 division 사이에 주석을 삽입한다."""
+    sections = extract_page_sections(content)
+    display_name = extract_display_filename(filename)
+    fragments = []
+    for page, body in sections:
+        comment = PAGE_BREAK_COMMENT.format(page=page, filename=display_name)
+        body_text = body.strip()
+        if body_text:
+            fragments.append(f"{comment}\n{body_text}")
+        else:
+            fragments.append(comment)
+    return "\n\n".join(fragments)
+
+
+def preprocess_special_math(text: str) -> str:
+    """
+    파일명이 '조업공정식 해설' 계열일 때 실행:
+    1) block math 내부의 인라인 <math>...</math> 제거
+    2) block math 외부 인라인 <math>...</math> 제거
+    3) block math가 숫자형(예: 4.3.11H₂, 4.3.9 대기습분...)으로 시작하면 '=' 앞까지를 제목으로 추출해
+       해당 블록 위에 숫자형에 맞는 레벨(#/##/###)의 헤딩을 삽입
+    4) 본문에 숫자형이 포함된 <p>...</p> 또는 맨 앞 숫자형 라인은 원문을 유지한 채,
+       동일한 레벨의 헤딩을 해당 라인 바로 위에 추가
+    5) block math가 '>= ' 또는 '=' 로 시작하면 직전 헤딩 라인(마지막으로 삽입된 헤딩)을 복제해 블록 위에 한 번 더 삽입
+    """
+    def make_heading(label: str, title: str) -> str:
+        parts = parse_numeric_label(label)
+        if not parts:
+            return ""
+        level = 1 if len(parts) == 1 else 2 if len(parts) == 2 else 3
+        heading_title = f"{label} {title}".strip()
+        return f"{'#' * level} {heading_title}"
+
+    def remove_inline_math(content: str) -> str:
+        return re.sub(r"<math(?![^>]*display=\"block\")[^>]*>(.*?)</math>", r"\1", content, flags=re.IGNORECASE | re.DOTALL)
+
+    last_heading_line = ""
+
+    def block_repl(match: re.Match[str]) -> str:
+        prefix, body, suffix = match.groups()
+        cleaned_body = remove_inline_math(body)
+        heading = ""
+        start = cleaned_body.lstrip()
+        num_match = re.match(r"(\d+(?:\.\d+){1,2})([^=\n]*)", start)
+        if num_match:
+            label = num_match.group(1)
+            title_part = num_match.group(2)
+            title = title_part.split("=", 1)[0].strip()
+            heading_line = make_heading(label, title)
+            if heading_line:
+                heading = f"{heading_line}\n"
+                nonlocal last_heading_line
+                last_heading_line = heading_line
+        # '>=', '=' 시작 시 헤딩 복제 로직은 제거 (요청에 따라 비활성화)
+        return f"{heading}{prefix}{cleaned_body}{suffix}"
+
+    # 1) block math 내부 인라인 제거 + 헤딩 삽입
+    text = BLOCK_MATH_RE.sub(block_repl, text)
+    # 2) block math 외부 인라인 제거
+    text = remove_inline_math(text)
+    # 3) 숫자형 <p>...</p> 또는 라인 앞 숫자형에 대해 헤딩 삽입 (원문 유지)
+    new_lines: list[str] = []
+    for line in text.splitlines():
+        p_match = re.match(r"\s*<p>\s*(\d+(?:\.\d+){0,2})\s*([^<]*)</p>\s*$", line, flags=re.IGNORECASE)
+        plain_match = re.match(r"\s*(\d+(?:\.\d+){0,2})\s+(.+)$", line) if not p_match else None
+        label = ""
+        title = ""
+        if p_match:
+            label = p_match.group(1)
+            title = p_match.group(2).strip()
+        elif plain_match:
+            label = plain_match.group(1)
+            title = plain_match.group(2).strip()
+        if label:
+            heading_line = make_heading(label, title)
+            if heading_line:
+                new_lines.append(heading_line)
+        new_lines.append(line)
+    text = "\n".join(new_lines)
+    # src="..." 내부는 보존하기 위해 마스킹 (아래첨자 변환 영향 제거)
+    src_placeholders: list[str] = []
+    def mask_src(match: re.Match[str]) -> str:
+        src_placeholders.append(match.group(0))
+        return f"__SRCPLACEHOLDER{len(src_placeholders)-1}__"
+    text = re.sub(r'src="[^"]*"', mask_src, text, flags=re.IGNORECASE)
+    # 4) 특수 기호/윗·아랫첨자 보정 (조업공정식 해설 전용)
+    sup_map = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+    sub_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+
+    def sup_repl(match: re.Match[str]) -> str:
+        digit = match.group(1)
+        return digit.translate(sup_map)
+
+    def sub_repl(match: re.Match[str]) -> str:
+        digit = match.group(1)
+        return digit.translate(sub_map)
+
+    text = re.sub(r"\^\s*\{?\s*([0-9])(?![0-9.])\s*\}?", sup_repl, text)
+    text = re.sub(r"_\s*\{?\s*([0-9])(?![0-9.])\s*\}?", sub_repl, text)
+    text = text.replace(r"\mu", "μ")
+    text = text.replace(r"\varepsilon", "ϵ")
+    text = text.replace(r"\beta", "β")
+    text = text.replace(r"\Delta", "Δ")
+    text = text.replace(r"\rightarrow", "→")
+    text = text.replace(r"rightarrow", "→")
+    text = text.replace(r"\approx", "≒")
+    text = re.sub(r"\s*\^\s*\{?\s*\\circ\s*\}?", "°", text)
+    # \underline 제거 및 간단 기호 치환
+    text = re.sub(r"\\underline\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+    text = text.replace(r"\cdot", "·")
+    text = text.replace(r"\eta", "η")
+    text = text.replace(r"\%", "%")
+    # \text{...} 내용만 남기기 (트림)
+    text = re.sub(r"\\text\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text)
+    # 깨진 \frac{...{...} 형태 보정 후 변환
+    text = re.sub(r"\\frac\s*\{\s*([^{}]+)\s*\{\s*([^{}]+)\}\s*\}", r"\\frac{\1}{\2}", text)
+    text, _ = convert_fracs(text)
+    # 마스킹 복원
+    def restore_src(match: re.Match[str]) -> str:
+        idx = int(match.group(1))
+        return src_placeholders[idx] if 0 <= idx < len(src_placeholders) else match.group(0)
+    text = re.sub(r"__SRCPLACEHOLDER(\d+)__", restore_src, text)
+    return text
+
 def normalize_math_text(text: str) -> Tuple[str, int]:
     """1차(섭씨/그리스/수학) 후 2차(화학식/단위) 순서로 변환한다."""
     total = 0
@@ -401,8 +565,9 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     # 4) 남은 \\ 제거 (붙어있는 경우 포함) + \\bulet 등 제거
     text = re.sub(r"\\\\bulet", "", text)
     text = re.sub(r"\\\\", "", text)
-    # 5) &amp; 제거
+    # 5) &amp; 제거 (+ %amp; 오기까지 보정)
     text = text.replace("&amp;", "")
+    text = text.replace("%amp;", "&")
     # 6) h₂ -> H₂
     text = text.replace("h₂", "H₂")
     # 7) ^\to C 변형 -> ℃ (섭씨 기호) (whitespace 허용)
@@ -503,11 +668,15 @@ def process_headings(content: str) -> Tuple[str, dict]:
     last_level = 0
     last_parts: list[int] = []
 
-    def apply_heading(idx: int, level: int, title: str, label_parts: list[int] | None = None):
+    def apply_heading(idx: int, level: int, title: str, label_parts: list[int] | None = None, original_line: str | None = None):
         nonlocal last_level, last_parts, lines
         if level > last_level + 1:
             level = last_level + 1 if last_level else level
-        lines[idx] = f"{'#' * level} {title}"
+        heading_line = f"{'#' * level} {title}"
+        if original_line is not None:
+            lines[idx] = f"{heading_line}\n{original_line}"
+        else:
+            lines[idx] = heading_line
         headings.append({"level": level, "title": title})
         last_level = level
         if label_parts is not None:
@@ -519,8 +688,11 @@ def process_headings(content: str) -> Tuple[str, dict]:
     for idx, line in enumerate(lines):
         stripped = line.strip()
         p_match = re.match(r"<p>\s*(.*?)\s*</p>", stripped, flags=re.IGNORECASE | re.DOTALL)
+        is_p_heading = bool(p_match)
         if p_match:
-            stripped = re.sub(r"<[^>]+>", "", p_match.group(1)).strip()
+            inner = re.sub(r"<[^>]+>", "", p_match.group(1)).strip()
+            # <p> 내부 헤딩 후보는 ':' 앞까지만 검사
+            stripped = inner.split(":", 1)[0].strip() if ":" in inner else inner
         md = re.match(r"^(#{1,6})\s+(.*)$", stripped)
         numbered = NUMBERED_HEADING_RE.match(stripped)
 
@@ -539,7 +711,7 @@ def process_headings(content: str) -> Tuple[str, dict]:
             level = label_to_level(parts, title)
             if not ok_prefix(parts, last_parts):
                 continue
-            apply_heading(idx, level, f"{label} {title}", parts)
+            apply_heading(idx, level, f"{label} {title}", parts, original_line=line if is_p_heading else None)
             continue
 
         loose = re.match(r"^(\d+(?:\.\d+){0,2})\s+(.+)$", stripped)
@@ -552,20 +724,25 @@ def process_headings(content: str) -> Tuple[str, dict]:
             level = label_to_level(parts, title)
             if not ok_prefix(parts, last_parts):
                 continue
-            apply_heading(idx, level, f"{label} {title}", parts)
+            apply_heading(idx, level, f"{label} {title}", parts, original_line=line if is_p_heading else None)
             continue
 
         if HANGUL_SUBSECTION_RE.match(stripped):
-            if last_level == 0:
-                continue
-            level = min(last_level + 1, 3)
-            apply_heading(idx, level, stripped)
+            # 한글 소제목 표기는 마크다운/HTML 헤딩 태그가 있을 때만 승격한다.
+            # 태그 없이 단독으로 등장하면 본문 문단으로 처리한다.
+            lines[idx] = f"<p>{stripped}</p>"
 
     return "\n".join(lines), {"headings": headings}
 
 def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
     """단일 파일을 정규화하고 _rule_sanitized.md로 저장한다."""
     text = path.read_text(encoding="utf-8")
+    # 페이지 주석 삽입 후 아래/윗첨자, math 처리, 헤딩 처리 순서로 진행
+    text = insert_page_breaks(text, path.name)
+    # 특정 파일명(조업공정식 해설) 전용 사전처리
+    stem_no_space = re.sub(r"\s+", "", path.stem)
+    if "조업공정식해설" in stem_no_space:
+        text = preprocess_special_math(text)
     # math 태그 외부에 있는 HTML sub/sup까지 포함해 숫자 아래/윗첨자로 변환
     text = normalize_html_subsup(text)
     text, _ = process_inline_math(text)
