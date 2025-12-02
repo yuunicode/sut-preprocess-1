@@ -103,10 +103,14 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
     finals: List[Dict[str, Any]] = []
     for tbl in tables:
         summary = summary_map.get(tbl.get("id"))
+        fallback_text = "No Description"
         entry = {
             "id": tbl.get("id"),
+            "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
-            "text": summary if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary)) else " ",
+            "text": summary
+            if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary))
+            else (tbl.get("full_html") or fallback_text),
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
             "filename": tbl.get("filename"),
@@ -114,6 +118,81 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
         }
         finals.append(entry)
     return finals
+
+
+def finalize_images_formula() -> List[Dict[str, Any]]:
+    src_path = EXTRACT_DIR / "components_images_formula.json"
+    if not src_path.exists():
+        return []
+    comps = load_json(src_path)
+    finals: List[Dict[str, Any]] = []
+    for comp in comps:
+        finals.append(
+            {
+                "id": comp.get("id"),
+                "placeholder": comp.get("placeholder"),
+                "component_type": comp.get("component_type"),
+                "text": comp.get("description") or "",
+                "image_link": comp.get("image_link"),
+                "section_path": comp.get("section_path"),
+                "filename": comp.get("filename"),
+                "page": comp.get("page"),
+            }
+        )
+    return finals
+
+
+def _load_image_results(filename: str) -> Dict[str, Dict[str, Any]]:
+    path = LLM_DIR / filename
+    if not path.exists():
+        return {}
+    data = load_json(path)
+    result_map: Dict[str, Dict[str, Any]] = {}
+    for item in data:
+        iid = item.get("id")
+        out = item.get("output") or {}
+        if iid:
+            result_map[iid] = {
+                "summary": out.get("image_summary"),
+                "keyword": out.get("image_keyword") if isinstance(out.get("image_keyword"), list) else [],
+            }
+    return result_map
+
+
+def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str, Any]]:
+    if not src_path.exists():
+        return []
+    comps = load_json(src_path)
+    result_map = _load_image_results(result_file)
+    finals: List[Dict[str, Any]] = []
+    for comp in comps:
+        iid = comp.get("id")
+        res = result_map.get(iid, {})
+        summary = res.get("summary")
+        keywords = res.get("keyword") or []
+        text_val = summary if isinstance(summary, str) and summary.strip() else "No Description"
+        finals.append(
+            {
+                "id": iid,
+                "placeholder": comp.get("placeholder"),
+                "component_type": comp.get("component_type"),
+                "text": text_val,
+                "keyword": keywords,
+                "image_link": comp.get("image_link"),
+                "section_path": comp.get("section_path"),
+                "filename": comp.get("filename"),
+                "page": comp.get("page"),
+            }
+        )
+    return finals
+
+
+def finalize_images_sum() -> List[Dict[str, Any]]:
+    return _finalize_images_generic(EXTRACT_DIR / "components_images_sum.json", "llm_images_sum_result.json")
+
+
+def finalize_images_trans() -> List[Dict[str, Any]]:
+    return _finalize_images_generic(EXTRACT_DIR / "components_images_trans.json", "llm_images_trans_result.json")
 
 
 def finalize_texts() -> List[Dict[str, Any]]:
@@ -135,8 +214,19 @@ def main() -> None:
     tables_unstr = finalize_tables_unstr()
     save_json(FINAL_DIR / "tables_unstr_final.json", tables_unstr)
 
+    images_formula = finalize_images_formula()
+    save_json(FINAL_DIR / "images_formula_final.json", images_formula)
+
+    images_sum = finalize_images_sum()
+    save_json(FINAL_DIR / "images_sum_final.json", images_sum)
+
+    images_trans = finalize_images_trans()
+    save_json(FINAL_DIR / "images_trans_final.json", images_trans)
+
     print(
-        f"[INFO] final outputs written: texts={len(texts)}, tables_str={len(tables_str)}, tables_unstr={len(tables_unstr)}"
+        f"[INFO] final outputs written: texts={len(texts)}, tables_str={len(tables_str)}, "
+        f"tables_unstr={len(tables_unstr)}, images_formula={len(images_formula)}, "
+        f"images_sum={len(images_sum)}, images_trans={len(images_trans)}"
     )
 
 
