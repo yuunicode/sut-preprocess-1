@@ -5,6 +5,26 @@ import re
 from pathlib import Path
 from typing import Tuple
 
+# 헤딩/경로 설정
+DEFAULT_TARGET = Path("output/chandra")
+DEFAULT_OUTPUT = Path("output/sanitize")
+LOG_DIR = Path("logs")
+HEADING_LOG = LOG_DIR / "headings.log"
+PAGE_BREAK_COMMENT = "<!-- 페이지번호: {page}, 파일명: {filename} -->"
+NUMBERED_HEADING_RE = re.compile(r"^(?P<label>\d+(?:\.\d+)*)(?:\.)?\s+(?P<title>.+)$")
+TOP_LEVEL_TITLES = [
+    "1. 적용범위",
+    "2. 목적",
+    "3. 중점관리 항목",
+    "4. 조업기준",
+    "5. 이상판단 및 조치기준",
+    "6. 기술이론",
+]
+TOP_LEVEL_TITLES_NORM = [re.sub(r"\s+", "", t) for t in TOP_LEVEL_TITLES]
+HANGUL_SUBSECTION_RE = re.compile(r"^[가-힣]\.")
+MAX_MAJOR_LEVEL = 6
+MAX_SUB_LEVEL = 30
+
 # \frac{a}{b} 변환용
 FRAC_RE = re.compile(r"\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}")
 SQRT_RE = re.compile(r"\\sqrt\s*\{([^{}]+)\}")
@@ -89,6 +109,23 @@ def apply_minor_fixes(text: str) -> str:
     text = text.replace(r"\gammaCO", "ηCO")
     return text
 
+
+def parse_numeric_label(label: str) -> list[int] | None:
+    parts = label.split(".")
+    values: list[int] = []
+    for idx, part in enumerate(parts):
+        if not part.isdigit():
+            return None
+        value = int(part)
+        if idx == 0:
+            if not (1 <= value <= MAX_MAJOR_LEVEL):
+                return None
+        else:
+            if not (0 <= value <= MAX_SUB_LEVEL):
+                return None
+        values.append(value)
+    return values
+
 # 키-값 매핑(LaTeX 표현 -> 유니코드/플레인텍스트)
 # 1차: 섭씨/그리스/수학 기호
 PRIMARY_MAP = [
@@ -133,7 +170,7 @@ PRIMARY_MAP = [
     (r"\\le(?!ft)", "≤"),  # \left 보호
     (r"\\ge(?!ft)", "≥"),  # \left 보호
     (r"\\sim", "~"),  
-    (r"&Gt;", ">")  
+    (r"&Gt;", ">"),  
     (r"\\circ", "◯"),
     (r"\\triangle", "△"),
     (r"\\square", "□"),
@@ -217,6 +254,24 @@ INLINE_OR_BLOCK_RE = re.compile(r"(<math[^>]*>)(.*?)(</math>)", re.IGNORECASE | 
 DEFAULT_TARGET = Path("output/chandra")
 DEFAULT_OUTPUT = Path("output/sanitize")
 
+
+def normalize_html_subsup(text: str) -> str:
+    """모든 영역에서 <sub>…</sub>, <sup>…</sup>를 숫자 아래/윗첨자로 변환한다."""
+    sub_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+    sup_map = str.maketrans("-0123456789", "⁻⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+    def sub_repl(match: re.Match[str]) -> str:
+        inner = match.group(1).strip()
+        return inner.translate(sub_map)
+
+    def sup_repl(match: re.Match[str]) -> str:
+        inner = match.group(1).strip()
+        return inner.translate(sup_map)
+
+    text = re.sub(r"<sub>(.*?)</sub>", sub_repl, text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<sup>(.*?)</sup>", sup_repl, text, flags=re.IGNORECASE | re.DOTALL)
+    return text
+
 def normalize_math_text(text: str) -> Tuple[str, int]:
     """1차(섭씨/그리스/수학) 후 2차(화학식/단위) 순서로 변환한다."""
     total = 0
@@ -224,6 +279,18 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     # 숫자 아래첨자/윗첨자 유니코드 변환 (_2 -> ₂, ^-2 -> ⁻²) - 한 자리 또는 음수 한 자리만 대상
     sub_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
     sup_map = str.maketrans("-0123456789", "⁻⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+    def html_sub_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        inner = match.group(1).strip()
+        total += 1
+        return inner.translate(sub_map)
+
+    def html_sup_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        inner = match.group(1).strip()
+        total += 1
+        return inner.translate(sup_map)
 
     def sub_digit_repl(match: re.Match[str]) -> str:
         nonlocal total
@@ -257,6 +324,8 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"\^\s*\{\s*(-?\d+)\s*\}", sup_brace_repl, text)
     text = re.sub(r"\^\s*\(\s*(-?\d+)\s*\)", sup_paren_repl, text)
     text = re.sub(r"\^(-?\d)", sup_digit_repl, text)
+    text = re.sub(r"<sub>(.*?)</sub>", html_sub_repl, text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<sup>(.*?)</sup>", html_sup_repl, text, flags=re.IGNORECASE | re.DOTALL)
 
     def sum_paren_repl(match: re.Match[str]) -> str:
         nonlocal total
@@ -390,22 +459,138 @@ def process_block_math(content: str) -> Tuple[str, dict]:
 
 def process_headings(content: str) -> Tuple[str, dict]:
     """
-    헤딩 변환/정리를 처리한다.
-    현재는 베이스라인: 그대로 반환.
+    헤딩을 정규화하고 로그용 데이터를 반환한다.
+    대상: HTML <h1>~<h6>, Markdown #, 숫자형(1./1.1/1.1.1), <p>안의 숫자형, 한글 소제목(가. 등)
+    규칙:
+      - TOP_LEVEL_TITLES(공백 무시) 포함 시 무조건 level 1
+      - 숫자형: len(parts)==1 -> #, len==2 -> ##, len>=3 -> ###
+      - 계층: 하위는 상위 prefix가 같을 때만 승격
+      - 레벨 점프 시 이전레벨+1로 보정
+      - 한글 소제목은 직전 헤딩이 있을 때 level+1 (최대 3)
     """
-    return content, {"headings": []}
+    def is_top_level(title: str) -> bool:
+        norm = re.sub(r"\s+", "", title)
+        return any(t in norm for t in TOP_LEVEL_TITLES_NORM)
+
+    def html_to_md(match: re.Match[str]) -> str:
+        level = int(match.group(1))
+        raw_title = re.sub(r"<[^>]+>", "", match.group(2)).strip()
+        hashes = "#" * level
+        return f"{hashes} {raw_title}\n"
+
+    def label_to_level(parts: list[int], title: str) -> int:
+        if is_top_level(title):
+            return 1
+        if len(parts) == 1:
+            return 1
+        if len(parts) == 2:
+            return 2
+        return 3
+
+    def ok_prefix(parts: list[int], prev_parts: list[int]) -> bool:
+        """하위 번호가 상위 번호 prefix를 따르는지 확인한다."""
+        if len(parts) == 1:
+            return True
+        if not prev_parts:
+            return False
+        need = len(parts) - 1
+        return prev_parts[:need] == parts[:need]
+
+    # 1) HTML 헤딩 변환
+    content = re.sub(r"<h([1-6])>(.*?)</h\1>", html_to_md, content, flags=re.IGNORECASE | re.DOTALL)
+
+    headings: list[dict] = []
+    last_level = 0
+    last_parts: list[int] = []
+
+    def apply_heading(idx: int, level: int, title: str, label_parts: list[int] | None = None):
+        nonlocal last_level, last_parts, lines
+        if level > last_level + 1:
+            level = last_level + 1 if last_level else level
+        lines[idx] = f"{'#' * level} {title}"
+        headings.append({"level": level, "title": title})
+        last_level = level
+        if label_parts is not None:
+            # 숫자형 헤딩일 때만 계층 prefix 추적
+            last_parts = label_parts
+
+    lines = content.splitlines()
+
+    for idx, line in enumerate(lines):
+        stripped = line.strip()
+        p_match = re.match(r"<p>\s*(.*?)\s*</p>", stripped, flags=re.IGNORECASE | re.DOTALL)
+        if p_match:
+            stripped = re.sub(r"<[^>]+>", "", p_match.group(1)).strip()
+        md = re.match(r"^(#{1,6})\s+(.*)$", stripped)
+        numbered = NUMBERED_HEADING_RE.match(stripped)
+
+        if md:
+            hashes, title = md.groups()
+            level = 1 if is_top_level(title) else len(hashes)
+            apply_heading(idx, level, title)
+            continue
+
+        if numbered:
+            label = numbered.group("label")
+            title = numbered.group("title")
+            parts = parse_numeric_label(label)
+            if not parts:
+                continue
+            level = label_to_level(parts, title)
+            if not ok_prefix(parts, last_parts):
+                continue
+            apply_heading(idx, level, f"{label} {title}", parts)
+            continue
+
+        loose = re.match(r"^(\d+(?:\.\d+){0,2})\s+(.+)$", stripped)
+        if loose:
+            label = loose.group(1)
+            title = loose.group(2)
+            parts = parse_numeric_label(label)
+            if not parts:
+                continue
+            level = label_to_level(parts, title)
+            if not ok_prefix(parts, last_parts):
+                continue
+            apply_heading(idx, level, f"{label} {title}", parts)
+            continue
+
+        if HANGUL_SUBSECTION_RE.match(stripped):
+            if last_level == 0:
+                continue
+            level = min(last_level + 1, 3)
+            apply_heading(idx, level, stripped)
+
+    return "\n".join(lines), {"headings": headings}
 
 def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
     """단일 파일을 정규화하고 _rule_sanitized.md로 저장한다."""
     text = path.read_text(encoding="utf-8")
+    # math 태그 외부에 있는 HTML sub/sup까지 포함해 숫자 아래/윗첨자로 변환
+    text = normalize_html_subsup(text)
     text, _ = process_inline_math(text)
     text, _ = process_block_math(text)
-    text, _ = process_headings(text)
+    text, heading_meta = process_headings(text)
 
     rel = path.relative_to(target_dir)
     dest = out_dir / rel.parent / f"{rel.stem}_rule_sanitized{rel.suffix}"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(text, encoding="utf-8")
+    headings = heading_meta.get("headings") or []
+    missing_top = [t for t in TOP_LEVEL_TITLES if not any(re.sub(r"\s+", "", t) in re.sub(r"\s+", "", h["title"]) for h in headings)]
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    with HEADING_LOG.open("a", encoding="utf-8") as f:
+        f.write(f"{rel}\n")
+        f.write("parsed_headings:\n")
+        for h in headings:
+            f.write(f"- {h['level']} {h['title']}\n")
+        f.write("missing:\n")
+        if missing_top:
+            for m in missing_top:
+                f.write(f"- {m}\n")
+        else:
+            f.write("NONE\n")
+        f.write("\n")
     return dest
 
 
