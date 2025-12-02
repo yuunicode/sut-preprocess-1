@@ -147,6 +147,7 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
     updated_payloads = []
 
     for entry in payloads:
+        entry_status = "성공"
         entry_id = entry.get("id", "")
         instruction = entry.get("instruction", "")
         input_payload = entry.get("input", {}) or {}
@@ -175,12 +176,15 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
             merged, ok = validate_output(template_output, candidate)
             if not ok:
                 log_error(f"file={path.name} id={entry_id} error=invalid_output resp='{resp_text[:200]}'")
+                entry_status = "실패"
         else:
             log_error(f"file={path.name} id={entry_id} error=empty_response")
+            entry_status = "실패"
 
         entry["output"] = merged
         entry["raw_response"] = resp_text
         updated_payloads.append(entry)
+        print(f"[{entry_status}] {path.name} id={entry_id}")
 
     path.write_text(json.dumps(updated_payloads, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[INFO] updated {path} ({len(updated_payloads)} items)")
