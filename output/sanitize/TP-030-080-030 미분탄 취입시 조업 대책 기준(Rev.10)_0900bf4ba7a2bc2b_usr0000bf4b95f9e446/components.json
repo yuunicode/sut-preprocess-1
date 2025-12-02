@@ -1,0 +1,251 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 품질영향인자 | col2: 공정영향인자",
+        "col1: [Si], [S] | col2: 풍압, 노열"
+      ],
+      "table_html": "<table><tr><td>품질영향인자</td><td>공정영향인자</td></tr><tr><td>[Si], [S]</td><td>풍압, 노열</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td>품질영향인자</td><td>공정영향인자</td></tr><tr><td>[Si], [S]</td><td>풍압, 노열</td></tr></table><p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3 중점관리 항목",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "현상 및 문제점: 분포제어 기술향상 | 조치 내용: 고 O/C 하 적정 중심, 주변류 제어기술",
+        "현상 및 문제점: 연원료 변경시 노열, 염기도 및 성분 변동 대 | 조치 내용: Pellet 품질목표 재설정PC 탄 Mixing 사용 기준정립",
+        "현상 및 문제점: 노내 용용물 배출강화 | 조치 내용: [Si] 하향을 위한 대책수립고 PCI, 고출선비형 Mud 지속 개선저 S.V 조업으로 풍액성 향상고 PCI 조업시 Slag 유동성 정량화",
+        "현상 및 문제점: 미분탄 취입관련 설비 추가 보완 | 조치 내용: 취입 V/V 마모방지를 위한 재질강화Lance 연결부 마모에 의한 파손대비 적정 수명관리LBP 내 Lance 떨림에 의한 피로현상 누적으로 Lance 연결부 절손방지PC 분사방향 풍구 접촉시 풍구 마모방지 설비개선"
+      ],
+      "table_html": "<table><thead><tr><th>현상 및 문제점</th><th>조치 내용</th></tr></thead><tbody><tr><td>분포제어 기술향상</td><td>고 O/C 하 적정 중심, 주변류 제어기술</td></tr><tr><td>연원료 변경시 노열, 염기도 및 성분 변동 대</td><td>Pellet 품질목표 재설정<br/>PC 탄 Mixing 사용 기준정립</td></tr><tr><td>노내 용용물 배출강화</td><td>[Si] 하향을 위한 대책수립<br/>고 PCI, 고출선비형 Mud 지속 개선<br/>저 S.V 조업으로 풍액성 향상<br/>고 PCI 조업시 Slag 유동성 정량화</td></tr><tr><td>미분탄 취입관련 설비 추가 보완</td><td>취입 V/V 마모방지를 위한 재질강화<br/>Lance 연결부 마모에 의한 파손대비 적정 수명관리<br/>LBP 내 Lance 떨림에 의한 피로현상 누적으로 Lance 연결부 절손방지<br/>PC 분사방향 풍구 접촉시 풍구 마모방지 설비개선</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>현상 및 문제점</th><th>조치 내용</th></tr></thead><tbody><tr><td>분포제어 기술향상</td><td>고 O/C 하 적정 중심, 주변류 제어기술</td></tr><tr><td>연원료 변경시 노열, 염기도 및 성분 변동 대</td><td>Pellet 품질목표 재설정<br/>PC 탄 Mixing 사용 기준정립</td></tr><tr><td>노내 용용물 배출강화</td><td>[Si] 하향을 위한 대책수립<br/>고 PCI, 고출선비형 Mud 지속 개선<br/>저 S.V 조업으로 풍액성 향상<br/>고 PCI 조업시 Slag 유동성 정량화</td></tr><tr><td>미분탄 취입관련 설비 추가 보완</td><td>취입 V/V 마모방지를 위한 재질강화<br/>Lance 연결부 마모에 의한 파손대비 적정 수명관리<br/>LBP 내 Lance 떨림에 의한 피로현상 누적으로 Lance 연결부 절손방지<br/>PC 분사방향 풍구 접촉시 풍구 마모방지 설비개선</td></tr></tbody></table><p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_01.png",
+      "section_path": "4 조업기준 / 4.2 예방판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "현상 및 문제점: 고 O/C 하 노내통기저항 증가 | 조치 내용: Coke 강도 개선소결광 품질개선원료 BIN Gate 전동화로 효율개선Yard 입조시 Screen 강화방안 수립하절기 소결 중수리 조정",
+        "현상 및 문제점: Tf 저하 및 PC 연소성 저하 | 조치 내용: 산소부화 능력증대",
+        "현상 및 문제점: 분포제어 기술 향상 | 조치 내용: 고 O/C 하 적정 중심, 주변류 제어기술노체 열부하 저감 분포제어기술",
+        "현상 및 문제점: 연료비 및 출선량 저하 | 조치 내용: Pellet 사용비 증대기술 확보저 SiO₂, 고피환원성 소결광 제조Coke 수분최소화 및 편차감소",
+        "현상 및 문제점: 노내상황의 정량 분석Sensor 미보유 | 조치 내용: 3점식 수직 Probe 설치(국산화 개발)",
+        "현상 및 문제점: 연원료 변경시 노열, 염기도 및 성분 변동 대 | 조치 내용: Pellet Brand 축소 및 품질목표 재설정PC 탄층 축소사용 및 Mixing 사용 기준정립",
+        "현상 및 문제점: 미분탄 취입 관련설비 추가 보완 | 조치 내용: 산소압력저하 대책수립미분탄 Hunting 최소화미분탄 취입단관 개선",
+        "현상 및 문제점: 노내용용물 배출강화 | 조치 내용: Si 하향을 위한 대책수립고 PCI, 고출선비형 MUD(MRC-5)지속 개선"
+      ],
+      "table_html": "<table><thead><tr><th>현상 및 문제점</th><th>조치 내용</th></tr></thead><tbody><tr><td>고 O/C 하 노내통기저항 증가</td><td>Coke 강도 개선<br/>소결광 품질개선<br/>원료 BIN Gate 전동화로 효율개선<br/>Yard 입조시 Screen 강화방안 수립<br/>하절기 소결 중수리 조정</td></tr><tr><td>Tf 저하 및 PC 연소성 저하</td><td>산소부화 능력증대</td></tr><tr><td>분포제어 기술 향상</td><td>고 O/C 하 적정 중심, 주변류 제어기술<br/>노체 열부하 저감 분포제어기술</td></tr><tr><td>연료비 및 출선량 저하</td><td>Pellet 사용비 증대기술 확보<br/>저 SiO₂, 고피환원성 소결광 제조<br/>Coke 수분최소화 및 편차감소</td></tr><tr><td>노내상황의 정량 분석<br/>Sensor 미보유</td><td>3점식 수직 Probe 설치(국산화 개발)</td></tr><tr><td>연원료 변경시 노열, 염기도 및 성분 변동 대</td><td>Pellet Brand 축소 및 품질목표 재설정<br/>PC 탄층 축소사용 및 Mixing 사용 기준정립</td></tr><tr><td>미분탄 취입 관련설비 추가 보완</td><td>산소압력저하 대책수립<br/>미분탄 Hunting 최소화<br/>미분탄 취입단관 개선</td></tr><tr><td>노내용용물 배출강화</td><td>Si 하향을 위한 대책수립<br/>고 PCI, 고출선비형 MUD(MRC-5)지속 개선</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>현상 및 문제점</th><th>조치 내용</th></tr></thead><tbody><tr><td>고 O/C 하 노내통기저항 증가</td><td>Coke 강도 개선<br/>소결광 품질개선<br/>원료 BIN Gate 전동화로 효율개선<br/>Yard 입조시 Screen 강화방안 수립<br/>하절기 소결 중수리 조정</td></tr><tr><td>Tf 저하 및 PC 연소성 저하</td><td>산소부화 능력증대</td></tr><tr><td>분포제어 기술 향상</td><td>고 O/C 하 적정 중심, 주변류 제어기술<br/>노체 열부하 저감 분포제어기술</td></tr><tr><td>연료비 및 출선량 저하</td><td>Pellet 사용비 증대기술 확보<br/>저 SiO₂, 고피환원성 소결광 제조<br/>Coke 수분최소화 및 편차감소</td></tr><tr><td>노내상황의 정량 분석<br/>Sensor 미보유</td><td>3점식 수직 Probe 설치(국산화 개발)</td></tr><tr><td>연원료 변경시 노열, 염기도 및 성분 변동 대</td><td>Pellet Brand 축소 및 품질목표 재설정<br/>PC 탄층 축소사용 및 Mixing 사용 기준정립</td></tr><tr><td>미분탄 취입 관련설비 추가 보완</td><td>산소압력저하 대책수립<br/>미분탄 Hunting 최소화<br/>미분탄 취입단관 개선</td></tr><tr><td>노내용용물 배출강화</td><td>Si 하향을 위한 대책수립<br/>고 PCI, 고출선비형 MUD(MRC-5)지속 개선</td></tr></tbody></table><p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_02.png",
+      "section_path": "5. 이상판단 및 조치기준 / 5.1 이상판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1:  | col2: o 저 S.V 조업으로 품액성 향상o 고 PCI 조업시 SLAG 유동성 정량화",
+        "col1: 미분탄 취입 유량 편차 | col2: o 연원료 입도 관리를 통한 분장입 최소화o 취입량별 수송 에어 유량 재설정o 코크스 성상(DI, CSR, MS) 개선o 미분탄 성상(입도, 발열량, Ash 량) 관리 강화o 장입물 분포 제어",
+        "col1: 노저온도 상승방지 | col2: o 열풍제어변 사용기술 개선o Coke 강도 및 CSR 개선o 중심 코크스 장입량 증대를 통한 노저 바닥부 활성화와 중심가스류 형성o 출선 강화를 통한 노체온도 안정o PCR 증대에 따른 노심 오염 방지 위해 Tf 상향 관리o 풍구 분 TiO₂ 최적 취입o 풍량 증대를 통한 Raceway 확보"
+      ],
+      "table_html": "<table><tr><td></td><td>o 저 S.V 조업으로 품액성 향상<br/>o 고 PCI 조업시 SLAG 유동성 정량화</td></tr><tr><td>미분탄 취입 유량 편차</td><td>o 연원료 입도 관리를 통한 분장입 최소화<br/>o 취입량별 수송 에어 유량 재설정<br/>o 코크스 성상(DI, CSR, MS) 개선<br/>o 미분탄 성상(입도, 발열량, Ash 량) 관리 강화<br/>o 장입물 분포 제어</td></tr><tr><td>노저온도 상승방지</td><td>o 열풍제어변 사용기술 개선<br/>o Coke 강도 및 CSR 개선<br/>o 중심 코크스 장입량 증대를 통한 노저 바닥부 활성화와 중심<br/>가스류 형성<br/>o 출선 강화를 통한 노체온도 안정<br/>o PCR 증대에 따른 노심 오염 방지 위해 Tf 상향 관리<br/>o 풍구 분 TiO₂ 최적 취입<br/>o 풍량 증대를 통한 Raceway 확보</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td></td><td>o 저 S.V 조업으로 품액성 향상<br/>o 고 PCI 조업시 SLAG 유동성 정량화</td></tr><tr><td>미분탄 취입 유량 편차</td><td>o 연원료 입도 관리를 통한 분장입 최소화<br/>o 취입량별 수송 에어 유량 재설정<br/>o 코크스 성상(DI, CSR, MS) 개선<br/>o 미분탄 성상(입도, 발열량, Ash 량) 관리 강화<br/>o 장입물 분포 제어</td></tr><tr><td>노저온도 상승방지</td><td>o 열풍제어변 사용기술 개선<br/>o Coke 강도 및 CSR 개선<br/>o 중심 코크스 장입량 증대를 통한 노저 바닥부 활성화와 중심<br/>가스류 형성<br/>o 출선 강화를 통한 노체온도 안정<br/>o PCR 증대에 따른 노심 오염 방지 위해 Tf 상향 관리<br/>o 풍구 분 TiO₂ 최적 취입<br/>o 풍량 증대를 통한 Raceway 확보</td></tr></table><p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "5. 이상판단 및 조치기준 / 5.1 이상판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 3
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th rowspan=\"2\">구분</th><th colspan=\"2\">포항고로</th><th colspan=\"2\">광양</th><th colspan=\"2\">일본</th><th colspan=\"2\">중국</th></tr><tr><th>3고로<br/>('07 2/4)</th><th>4고로<br/>('07 2/4)</th><th>2고로<br/>('07 1/4)</th><th>4고로<br/>('07 1/4)</th><th>名古屋 3고로<br/>(06.1~9)</th><th>寶山 3고로<br/>(04.7~05.6)</th></tr></thead><tbody><tr><th>내용적</th><td>m³</td><td>4350</td><td>5600</td><td>4350</td><td>5500</td><td>4300</td><td>4350</td></tr><tr><th>출선비</th><td>T/D/m³</td><td>2.11</td><td>2.26</td><td>2.28</td><td>2.24</td><td>2.28</td><td>2.51</td></tr><tr><th rowspan=\"2\">환원제비</th><td>Kg/T-P</td><td>502.7</td><td>484.8</td><td>483.5</td><td>476.2</td><td>485.4</td><td>495.3</td></tr><tr><td>C.R</td><td>Kg/T-P</td><td>303.3</td><td>325.4</td><td>291.1</td><td>300.0</td><td>345.5</td><td>303.1</td></tr><tr><th rowspan=\"2\">PCR</th><td>Kg/T-P</td><td>199.4</td><td>159.5</td><td>192.3</td><td>176.1</td><td>139.9</td><td>192.2</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>SR(PR)</th><td>%</td><td>82.0(4.2)</td><td>84.1(0.3)</td><td>80.0(5.51)</td><td>81.5(2.55)</td><td>74.7(6.5)</td><td>—</td></tr><tr><th>산소부화</th><td>%</td><td>5.48</td><td>3.65</td><td>5.55</td><td>4.45</td><td>3.7</td><td>4.8</td></tr><tr><th>조습</th><td>g/N m³</td><td>16.3</td><td>25.3</td><td>8.69</td><td>8.27</td><td>16.0</td><td>11.0</td></tr><tr><th>Slag V.</th><td>Kg/T-P</td><td>275</td><td>288</td><td>290.6</td><td>295.5</td><td>294</td><td>267</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th rowspan=\"2\">구분</th><th colspan=\"2\">포항고로</th><th colspan=\"2\">광양</th><th colspan=\"2\">일본</th><th colspan=\"2\">중국</th></tr><tr><th>3고로<br/>('07 2/4)</th><th>4고로<br/>('07 2/4)</th><th>2고로<br/>('07 1/4)</th><th>4고로<br/>('07 1/4)</th><th>名古屋 3고로<br/>(06.1~9)</th><th>寶山 3고로<br/>(04.7~05.6)</th></tr></thead><tbody><tr><th>내용적</th><td>m³</td><td>4350</td><td>5600</td><td>4350</td><td>5500</td><td>4300</td><td>4350</td></tr><tr><th>출선비</th><td>T/D/m³</td><td>2.11</td><td>2.26</td><td>2.28</td><td>2.24</td><td>2.28</td><td>2.51</td></tr><tr><th rowspan=\"2\">환원제비</th><td>Kg/T-P</td><td>502.7</td><td>484.8</td><td>483.5</td><td>476.2</td><td>485.4</td><td>495.3</td></tr><tr><td>C.R</td><td>Kg/T-P</td><td>303.3</td><td>325.4</td><td>291.1</td><td>300.0</td><td>345.5</td><td>303.1</td></tr><tr><th rowspan=\"2\">PCR</th><td>Kg/T-P</td><td>199.4</td><td>159.5</td><td>192.3</td><td>176.1</td><td>139.9</td><td>192.2</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>SR(PR)</th><td>%</td><td>82.0(4.2)</td><td>84.1(0.3)</td><td>80.0(5.51)</td><td>81.5(2.55)</td><td>74.7(6.5)</td><td>—</td></tr><tr><th>산소부화</th><td>%</td><td>5.48</td><td>3.65</td><td>5.55</td><td>4.45</td><td>3.7</td><td>4.8</td></tr><tr><th>조습</th><td>g/N m³</td><td>16.3</td><td>25.3</td><td>8.69</td><td>8.27</td><td>16.0</td><td>11.0</td></tr><tr><th>Slag V.</th><td>Kg/T-P</td><td>275</td><td>288</td><td>290.6</td><td>295.5</td><td>294</td><td>267</td></tr></tbody></table><p><a href=\"components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "4 조업기준 / 4.1 조업 실적",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "<div>가. Ore/coke 비 증대→ Ore 량 증대 → 노심부 하중증가 → 노심 Coke 밀도증가, Coke free space 영역 감소 → 노저부 통기· 품액성불량→ Coke 량 감소 → Slit 두께 감소 → 광석 환원성 저하에 따른 연화용착대 두께 증가 → 연화용착대 및 Shaft 부 통기불량, 압손증대, 중심약화, 주변발달 중간부 통기장애→ 중심부 노정 Gas 흐름 불안정 → 반경방향 Coke layer 두께편차증대 → Gas류 분포 불안정 (국부적 편류 발생) → 장입물 강하속도 편차발생→ Gas 흐름 불균일 주변류 증가 → 노체 열부하 증가, 노벽손상, 냉각판 파손, 장입물 강하 불안정 → 대책대책<ul><li>분포조정 적정화 벽부 O/C 증가 Coke 중심장입 중고 Coke 장입 C.B 저하조업</li><li>연원료 성상개선 분율, 강도</li></ul>뒷장 계속</div>",
+      "context_html": "",
+      "full_html": "<div><p>가. Ore/coke 비 증대</p><p>→ Ore 량 증대 → 노심부 하중증가 → 노심 Coke 밀도증가, Coke free space 영역 감소 → 노저부 통기· 품액성불량</p><p>→ Coke 량 감소 → Slit 두께 감소 → 광석 환원성 저하에 따른 연화용착대 두께 증가 → 연화용착대 및 Shaft 부 통기불량, 압손증대, 중심약화, 주변발달 중간부 통기장애</p><p>→ 중심부 노정 Gas 흐름 불안정 → 반경방향 Coke layer 두께편차증대 → Gas류 분포 불안정 (국부적 편류 발생) → 장입물 강하속도 편차발생</p><p>→ Gas 흐름 불균일 주변류 증가 → 노체 열부하 증가, 노벽손상, 냉각판 파손, 장입물 강하 불안정 → 대책</p><p>대책</p><ul><li>분포조정 적정화<ul><li>벽부 O/C 증가</li><li>Coke 중심장입</li><li>중고 Coke 장입</li><li>C.B 저하조업</li></ul></li><li>연원료 성상개선<ul><li>분율, 강도</li></ul></li></ul><p>뒷장 계속</p></div><img alt=\"Figure snippet\" src=\"components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp",
+      "section_path": "6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 3
+    }
+  ],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 1 적용범위\n미분탄 취입조업시 예상되는 제반 조업문제점 및 대책에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1 적용범위",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 2 목적\n미분탄 취입조업중 발생하였거나 추후 발생이 예상되는 제반 문제점을 도출하고 적절한 대책을 강구하여 향후 고미분탄 조업시 원활한 미분탄 취입과 고로조업 안정화를 도모하고자 함.",
+      "placeholders": {},
+      "section_path": "2 목적",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 3 중점관리 항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3 중점관리 항목",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "# 4 조업기준",
+      "placeholders": {},
+      "section_path": "4 조업기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "## 4.1 조업 실적\n\n{{TB_UNSTR_001}}",
+      "placeholders": {
+        "TB_UNSTR_001": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "4 조업기준 / 4.1 조업 실적",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.2 예방판단 및 조치기준\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_01.png"
+      },
+      "section_path": "4 조업기준 / 4.2 예방판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 5.1 이상판단 및 조치기준\n\n{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_02.png"
+      },
+      "section_path": "5. 이상판단 및 조치기준 / 5.1 이상판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "{{TB_STR_004}}",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "5. 이상판단 및 조치기준 / 5.1 이상판단 및 조치기준",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "# 6. 기술이론",
+      "placeholders": {},
+      "section_path": "6. 기술이론",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "## 6.1 미분탄 취입비 증대시 문제점\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "### 나. PCR 증대\n\n### 다. 풍구 선단 조건변",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점 / 다. 풍구 선단 조건변",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "## 6.2 하절기 미분탄 조업시 중점관리 사항\n● 대기습분 상승으로 연료비 상승 및 Coal 연소성 저하에 대한 대책수립\n● 우기로 인한 연원료의 품질변동으로 노황불안정 가능성 크므로 조업 밀착관리\n● 사용 연원료 개선: 소결광 품질(기술기준 'TP-030-020-030_소결광 품질관리 기준' 참조) Coke 품질(기술기준 'TP-030-020-070_Coke 및 Coal 품질관리 기준'참조') 확보\n● 장기간 미분탄 다량취입시 노황 Control 불량 (산소부화율 증대 및 원료품질 개선)\n● 노저온도 상승방지 및 노내 용용물 배출강화 (열풍제어변, 조벽용 Mud 재 사용)\n● 노내 적정 장입률 분포제어 실시 (노내 통기성 개선 및 분장입량 감소)\n● 연료비 저하 위한 노내 GAS 류 분포 정밀분석 필요 (수직 Probe 설치추진)\n● 광종 및 탄종 변경에 따른 노열 및 노황 변동 크므로 Pellet 및 PC 탄종 축소 필요",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.2 하절기 미분탄 조업시 중점관리 사항",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "page": 4
+    }
+  ]
+}

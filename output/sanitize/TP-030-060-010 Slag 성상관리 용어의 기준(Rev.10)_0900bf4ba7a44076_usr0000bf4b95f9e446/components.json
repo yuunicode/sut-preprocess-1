@@ -1,0 +1,90 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질영향 인자: 해 당 없음 | 공정영향 인자: 해 당 없음"
+      ],
+      "table_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>해 당 없음</td><td>해 당 없음</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>해 당 없음</td><td>해 당 없음</td></tr></tbody></table><p><a href=\"components/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446/components/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점관리 항목",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\nSlag 성상 관리와 관련된 기술용어에 대해 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목 적\nSlag 는 노내에서 용선과 더불어 고로 노황 및 용선품질을 결정 짓는 중요한 요소로서 용어에 대한 바른 이해와 인식으로 노황 및 품질안정을 유지할 필요가 있다.",
+      "placeholders": {},
+      "section_path": "2. 목 적",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리 항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446/components/TP-030-060-010 Slag 성상관리 용어의 기준(Rev.10)_0900bf4ba7a44076_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점관리 항목",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업기준",
+      "placeholders": {},
+      "section_path": "4. 조업기준",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 Slag 염기도 및 유동성 관련 용어\n\n### 가. 염기도 : Slag 의 물성을 나타내는 용어로써 통상 CaO/SiO₂ 를 염기도 (B1 염기도)라 하고, (CaO+MgO) / (SiO₂ + Al₂O₃) 는 복합 염기도 (B2 염기도)라 한다.\n\n### 나. Slag 유동성 : Slag 의 점성, 표면장력, 밀도 및 유체의 온도에 따라 달라지며 Slag 가 흐르는 정도를 말한다.\n\n### 다. 임계온도 : 온도저하에 따라 Slag 의 유동성이 급격하게 나빠지는 온도",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.1 Slag 염기도 및 유동성 관련 용어 / 다. 임계온도 : 온도저하에 따라 Slag 의 유동성이 급격하게 나빠지는 온도",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "## 4.2 Slag Volume 관련 용어\n\n### 가. Slag Volume\n노내에서 생성되는 Slag 의 양으로 통상 용선 Ton 당 생성량 (kg/t-p)으로 나타낸다.\n\n### 나. SOR (Sinter Ore Ratio)\n고로 철광석 장입량 중 소결광 구성비.",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.2 Slag Volume 관련 용어 / 나. SOR (Sinter Ore Ratio)",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "Slag 성상관리 용어의 기준",
+      "page": 1
+    }
+  ]
+}

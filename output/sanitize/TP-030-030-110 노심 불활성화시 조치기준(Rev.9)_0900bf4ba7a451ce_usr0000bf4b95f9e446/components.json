@@ -1,0 +1,463 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질영향요인: [Si], [S] | 공정요인: 풍압, 노열,"
+      ],
+      "table_html": "<table><thead><tr><th>품질영향요인</th><th>공정요인</th></tr></thead><tbody><tr><td>[Si], [S]</td><td>풍압, 노열,</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질영향요인</th><th>공정요인</th></tr></thead><tbody><tr><td>[Si], [S]</td><td>풍압, 노열,</td></tr></tbody></table><p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점관리항목",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "현상: 출선구별 온도차 발생(출선 3 회연속 30℃ 이상 온도차발생시)노심 활성화 지수(1 고로 직접 계산, 2, 3, 4 고로 BOSO System 활용) 75 이하 | 제어방법 (단계별): 온도낮은 출선구의 출선강화(연속출선, 출선간격 단축 등)온도높은 방향의 풍구 2~4 개 PCI Cut",
+        "현상: Slag 배출 지연(출선후 30 분이상 지연 1 일지속) | 제어방법 (단계별): 중심 Coke 량 증대, Coke 평균입도 상향 조정",
+        "현상: 용융물 배출편차 발생(특정출선구별로 Slag 배출, 용선만 배출 되는 현상반복)노벽부(Hearth wall) 온도상승, Hearth, Bottom 부 온도하락 | 제어방법 (단계별): 노심 Semi-Cleaning 조업실시- 정상조업대비 고환원제비 조업실시(F.R +20~30kg/T-P)- 조습확보 및 노열상향조업 실시(용선온도 : 최소 연속 3tap 1550℃ 이상)- 전출선구 심도확보- LAP 출선강화"
+      ],
+      "table_html": "<table><thead><tr><th>현상</th><th>제어방법 (단계별)</th></tr></thead><tbody><tr><td><ul><li>출선구별 온도차 발생<br/>(출선 3 회연속 30℃ 이상 온도차발생시)</li><li>노심 활성화 지수(1 고로 직접 계산, 2, 3, 4 고로 BOSO System 활용) 75 이하</li></ul></td><td><ul><li>온도낮은 출선구의 출선강화<br/>(연속출선, 출선간격 단축 등)</li><li>온도높은 방향의 풍구 2~4 개 PCI Cut</li></ul></td></tr><tr><td><ul><li>Slag 배출 지연<br/>(출선후 30 분이상 지연 1 일지속)</li></ul></td><td><ul><li>중심 Coke 량 증대, Coke 평균입도 상향 조정</li></ul></td></tr><tr><td><ul><li>용융물 배출편차 발생<br/>(특정출선구별로 Slag 배출, 용선만 배출 되는 현상반복)</li><li>노벽부(Hearth wall) 온도상승, Hearth, Bottom 부 온도하락</li></ul></td><td><ul><li>노심 Semi-Cleaning 조업실시<br/>- 정상조업대비 고환원제비 조업실시<br/>(F.R +20~30kg/T-P)<br/>- 조습확보 및 노열상향조업 실시<br/>(용선온도 : 최소 연속 3tap 1550℃ 이상)<br/>- 전출선구 심도확보<br/>- LAP 출선강화</li></ul></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>현상</th><th>제어방법 (단계별)</th></tr></thead><tbody><tr><td><ul><li>출선구별 온도차 발생<br/>(출선 3 회연속 30℃ 이상 온도차발생시)</li><li>노심 활성화 지수(1 고로 직접 계산, 2, 3, 4 고로 BOSO System 활용) 75 이하</li></ul></td><td><ul><li>온도낮은 출선구의 출선강화<br/>(연속출선, 출선간격 단축 등)</li><li>온도높은 방향의 풍구 2~4 개 PCI Cut</li></ul></td></tr><tr><td><ul><li>Slag 배출 지연<br/>(출선후 30 분이상 지연 1 일지속)</li></ul></td><td><ul><li>중심 Coke 량 증대, Coke 평균입도 상향 조정</li></ul></td></tr><tr><td><ul><li>용융물 배출편차 발생<br/>(특정출선구별로 Slag 배출, 용선만 배출 되는 현상반복)</li><li>노벽부(Hearth wall) 온도상승, Hearth, Bottom 부 온도하락</li></ul></td><td><ul><li>노심 Semi-Cleaning 조업실시<br/>- 정상조업대비 고환원제비 조업실시<br/>(F.R +20~30kg/T-P)<br/>- 조습확보 및 노열상향조업 실시<br/>(용선온도 : 최소 연속 3tap 1550℃ 이상)<br/>- 전출선구 심도확보<br/>- LAP 출선강화</li></ul></td></tr></tbody></table><p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p002_table_01.png",
+      "section_path": "4. 조업기준 / 4.2 노심불활성 판단 및 조치기준 (전고로공통)",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "관련특허, 문헌: 고로 미분탄 및 철원 동시투입법 (JP97-155709) | 기술개요: 풍구로 철원취입을 실시하여 통기, 풍액성 조절, 미분탄 취입라인 반대쪽에 철원 취입관 설치 | 비고: Carbon 코팅광석 취입방법 시도중 (광양)",
+        "관련특허, 문헌: 통기관 삽입송풍 ('97 CAMP,120) | 기술개요: 통기파이프 2~3개 계속투입분 퇴적층 관통하여 파이프에 의해 노심과 연결, 재송풍시 가열 | 비고: 간이삽입송풍 실시중 (광양)",
+        "관련특허, 문헌: 고로조업법 (JP99-12617) | 기술개요: 버드네스트를 폭탄으로 파괴 | 비고: 건전 코크스 파손",
+        "관련특허, 문헌: 고로조업방법 (JP97-157709) | 기술개요: 장입물 레벨을 70~80%까지 하강시켜 중심류를 강하게 조장함으로써 분제거 | 비고: 생산성 감소",
+        "관련특허, 문헌: 고로조업방법 (JP96-225812) | 기술개요: 풍구상부 노체에 버드네스트까지 직접 관통할 수 있는 삽입관 설치, 조업중 산소 직접취입 | 비고: 위치추적방법",
+        "관련특허, 문헌: 고로조업방법 (JP94-12908) | 기술개요: 파이프네 대립 코크스와 용액용 Flux 혼합한 것을 버드네스트부에 삽입하여 풍액, 통기성 유지 | 비고: 일회성"
+      ],
+      "table_html": "<table><thead><tr><th>관련특허, 문헌</th><th>기술개요</th><th>비고</th></tr></thead><tbody><tr><td>고로 미분탄 및 철원 동시투입법 (JP97-155709)</td><td>풍구로 철원취입을 실시하여 통기, 풍액성 조절, 미분탄 취입라인 반대쪽에 철원 취입관 설치</td><td>Carbon 코팅광석 취입방법 시도중 (광양)</td></tr><tr><td>통기관 삽입송풍 ('97 CAMP,120)</td><td>통기파이프 2~3개 계속투입분 퇴적층 관통하여 파이프에 의해 노심과 연결, 재송풍시 가열</td><td>간이삽입송풍 실시중 (광양)</td></tr><tr><td>고로조업법 (JP99-12617)</td><td>버드네스트를 폭탄으로 파괴</td><td>건전 코크스 파손</td></tr><tr><td>고로조업방법 (JP97-157709)</td><td>장입물 레벨을 70~80%까지 하강시켜 중심류를 강하게 조장함으로써 분제거</td><td>생산성 감소</td></tr><tr><td>고로조업방법 (JP96-225812)</td><td>풍구상부 노체에 버드네스트까지 직접 관통할 수 있는 삽입관 설치, 조업중 산소 직접취입</td><td>위치추적방법</td></tr><tr><td>고로조업방법 (JP94-12908)</td><td>파이프네 대립 코크스와 용액용 Flux 혼합한 것을 버드네스트부에 삽입하여 풍액, 통기성 유지</td><td>일회성</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p010_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>관련특허, 문헌</th><th>기술개요</th><th>비고</th></tr></thead><tbody><tr><td>고로 미분탄 및 철원 동시투입법 (JP97-155709)</td><td>풍구로 철원취입을 실시하여 통기, 풍액성 조절, 미분탄 취입라인 반대쪽에 철원 취입관 설치</td><td>Carbon 코팅광석 취입방법 시도중 (광양)</td></tr><tr><td>통기관 삽입송풍 ('97 CAMP,120)</td><td>통기파이프 2~3개 계속투입분 퇴적층 관통하여 파이프에 의해 노심과 연결, 재송풍시 가열</td><td>간이삽입송풍 실시중 (광양)</td></tr><tr><td>고로조업법 (JP99-12617)</td><td>버드네스트를 폭탄으로 파괴</td><td>건전 코크스 파손</td></tr><tr><td>고로조업방법 (JP97-157709)</td><td>장입물 레벨을 70~80%까지 하강시켜 중심류를 강하게 조장함으로써 분제거</td><td>생산성 감소</td></tr><tr><td>고로조업방법 (JP96-225812)</td><td>풍구상부 노체에 버드네스트까지 직접 관통할 수 있는 삽입관 설치, 조업중 산소 직접취입</td><td>위치추적방법</td></tr><tr><td>고로조업방법 (JP94-12908)</td><td>파이프네 대립 코크스와 용액용 Flux 혼합한 것을 버드네스트부에 삽입하여 풍액, 통기성 유지</td><td>일회성</td></tr></tbody></table><p><a href=\"components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p010_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p010_table_01.png",
+      "section_path": "6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착 / 6.2.3 기타 노심활성화 대책",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "Flowchart illustrating the mechanism of coke deactivation and its impact on operation:<ol><li>노심내 온도저하 (Coke temperature decrease)</li><li>통기, 흡액성 악화 (Decreased permeability and absorption capacity)</li><li>용선주변류 발달 (Development of molten slag flow around the tuyere)</li><li>노저내화물 침식 (Erosion of molten slag inside the tuyere)</li><li>고로수명 단축 (Shortened furnace life)</li></ol>Feedback loop: 용선생산량 저하 (Decreased molten slag production) leads back to the flow.Final state: 뒷장 계속 (Continue to next stage).",
+      "context_html": "",
+      "full_html": "<p>Flowchart illustrating the mechanism of coke deactivation and its impact on operation:</p><ol><li>노심내 온도저하 (Coke temperature decrease)</li><li>통기, 흡액성 악화 (Decreased permeability and absorption capacity)</li><li>용선주변류 발달 (Development of molten slag flow around the tuyere)</li><li>노저내화물 침식 (Erosion of molten slag inside the tuyere)</li><li>고로수명 단축 (Shortened furnace life)</li></ol><p>Feedback loop: 용선생산량 저하 (Decreased molten slag production) leads back to the flow.</p><p>Final state: 뒷장 계속 (Continue to next stage).</p><img alt=\"Figure snippet\" src=\"components/fcdabc1f556e43f52c516a4b6976f2a5_10_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/fcdabc1f556e43f52c516a4b6976f2a5_10_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노심 불활성화에 의한 조업영향 Mechanism",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "IMG_SUM_002",
+      "placeholder": "{{IMG_SUM_002}}",
+      "component_type": "image_summary",
+      "description": "1-5-1. Decrease of area of high temperature by reduction of coke size and porosity in deadman and hearth[Base] [MS of deadman coke -10% porosity -26%]NIPPON STEEL",
+      "context_html": "",
+      "full_html": "<p>1-5-1. Decrease of area of high temperature by reduction of coke size and porosity in deadman and hearth</p><p>[Base] [MS of deadman coke -10% porosity -26%]</p><p>NIPPON STEEL</p><img alt=\"Figure snippet\" src=\"components/bb50efe0543da74fd41fbb68324f7a83_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_2_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_SUM_003",
+      "placeholder": "{{IMG_SUM_003}}",
+      "component_type": "image_summary",
+      "description": "노심 Coke 와 노저부에서의 Coke 입도감소에 따른 저온영역Tobata-No.4 BFPCr (kg/t)Average Thrust at 1.5-2.0m from tuyere nose (ton)Hearth bottom Q₂ [kcal/m²]Upper shaft zonde ηCO at center (%)DI (%)Average Thrust (ton) (1.5-2.0m from tuyere nose)Improvement activitiesPCR (kg/t)Stability of coke quality<br/>Large coke center charging<br/>PCI double lance",
+      "context_html": "",
+      "full_html": "<p>노심 Coke 와 노저부에서의 Coke 입도감소에 따른 저온영역</p><p>Tobata-No.4 BF</p><p>PCr (kg/t)</p><p>Average Thrust at 1.5-2.0m from tuyere nose (ton)</p><p>Hearth bottom Q₂ [kcal/m²]</p><p>Upper shaft zonde ηCO at center (%)</p><p>DI (%)</p><p>Average Thrust (ton) (1.5-2.0m from tuyere nose)</p><p>Improvement activities</p><p>PCR (kg/t)</p><p>Stability of coke quality<br/>Large coke center charging<br/>PCI double lance</p><img alt=\"Figure snippet\" src=\"components/bb50efe0543da74fd41fbb68324f7a83_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_3_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_SUM_004",
+      "placeholder": "{{IMG_SUM_004}}",
+      "component_type": "image_summary",
+      "description": "Diagram illustrating the position of traced coke after charging. The vertical axis is Height above hearth bottom in m (0 to 11). The coke movement is shown starting near the bottom (0m), moving up through the Active coke channel, passing through the Cohesive zone, and reaching the Furnace Level (around 7m). The diagram shows the position of the traced coke at various time intervals (1 day, 2 days, 3 days, 4 days, 5 days, 6 days, 11 days) relative to the furnace structure, including the Dead zone and the Active coke channel.",
+      "context_html": "",
+      "full_html": "<p>Diagram illustrating the position of traced coke after charging. The vertical axis is Height above hearth bottom in m (0 to 11). The coke movement is shown starting near the bottom (0m), moving up through the Active coke channel, passing through the Cohesive zone, and reaching the Furnace Level (around 7m). The diagram shows the position of the traced coke at various time intervals (1 day, 2 days, 3 days, 4 days, 5 days, 6 days, 11 days) relative to the furnace structure, including the Dead zone and the Active coke channel.</p><img alt=\"Figure snippet\" src=\"components/604d498500544ae41589379fe2b316cd_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/604d498500544ae41589379fe2b316cd_7_img.webp",
+      "section_path": "6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    }
+  ],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "Diagram of a coke oven (고로) showing the charging and coking process, labeled with '버드네스트' (Bird's Nest).",
+      "context_html": "",
+      "full_html": "<img alt=\"Diagram of a coke oven (고로) showing the charging and coking process, labeled with '버드네스트' (Bird's Nest).\" src=\"components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Four cross-sectional diagrams showing the temperature distribution (contours) within a coke oven, illustrating the effect of coke particle size (Dp.c = 30mm) and porosity (ε) on temperature profiles. The diagrams are labeled with temperature values (e.g., 1073, 1473, 1873, 2273, 2673) and corresponding porosity values (ε = 0.45, ε = 0.30, ε = 0.20, ε = 0.15).",
+      "context_html": "",
+      "full_html": "<img alt=\"Four cross-sectional diagrams showing the temperature distribution (contours) within a coke oven, illustrating the effect of coke particle size (Dp.c = 30mm) and porosity (ε) on temperature profiles. The diagrams are labeled with temperature values (e.g., 1073, 1473, 1873, 2273, 2673) and corresponding porosity values (ε = 0.45, ε = 0.30, ε = 0.20, ε = 0.15).\" src=\"components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_TR_003",
+      "placeholder": "{{IMG_TR_003}}",
+      "component_type": "image_trans",
+      "description": "Four diagrams illustrating the change in coke distribution (Dp1) in a blast furnace. The diagrams show the location of coke particles (solid line) and potential coke movement paths (dashed line). The parameters Dp1 are 0.1mm, 0.5mm, 1.0mm, and 3.0mm, respectively.",
+      "context_html": "",
+      "full_html": "<img alt=\"Four diagrams illustrating the change in coke distribution (Dp1) in a blast furnace. The diagrams show the location of coke particles (solid line) and potential coke movement paths (dashed line). The parameters Dp1 are 0.1mm, 0.5mm, 1.0mm, and 3.0mm, respectively.\" src=\"components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_TR_004",
+      "placeholder": "{{IMG_TR_004}}",
+      "component_type": "image_trans",
+      "description": "Figure showing the relationship between Melt temperature in the deadman (°C) and Fuel rate (kg/t-pig). The graph plots Melt temperature (Y-axis, 1460 to 1520 °C) against Fuel rate (X-axis, 500 to 530 kg/t-pig). A dashed line indicates the boundary for Central slag conditions. Key points are labeled: 1877, 1862, 1824, 1860, 1800, and 1800. The boundary is defined by two equations: Central Lo/(Lo+Lc) ≒ 0.53 (lower boundary) and Central Lo/(Lo+Lc) ≒ 0.25 (upper boundary). A note at the top reads: figure: gas temp. in the deadman (°C).",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure showing the relationship between Melt temperature in the deadman (°C) and Fuel rate (kg/t-pig). The graph plots Melt temperature (Y-axis, 1460 to 1520 °C) against Fuel rate (X-axis, 500 to 530 kg/t-pig). A dashed line indicates the boundary for Central slag conditions. Key points are labeled: 1877, 1862, 1824, 1860, 1800, and 1800. The boundary is defined by two equations: Central Lo/(Lo+Lc) ≒ 0.53 (lower boundary) and Central Lo/(Lo+Lc) ≒ 0.25 (upper boundary). A note at the top reads: figure: gas temp. in the deadman (°C).\" src=\"components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_TR_005",
+      "placeholder": "{{IMG_TR_005}}",
+      "component_type": "image_trans",
+      "description": "Line graph showing Coke size less than 6.3 mm in percent versus distance from tuyere tip in cm. The X-axis ranges from 0 to 500 cm. The Y-axis ranges from 0 to 50%. The graph illustrates three conditions: With coal (166 kg/t HM), With coal (120 kg/t HM), and Without coal. The 'Raceway' region (up to 125 cm) shows low coke size (< 15%). The 'Transition zone' (125 cm to 230 cm) shows increasing coke size, with the 'Without coal' condition having the highest increase (reaching around 30% at 200 cm). The 'Dead man' region (beyond 230 cm) shows stable coke size (around 30-35%).",
+      "context_html": "",
+      "full_html": "<img alt=\"Line graph showing Coke size less than 6.3 mm in percent versus distance from tuyere tip in cm. The X-axis ranges from 0 to 500 cm. The Y-axis ranges from 0 to 50%. The graph illustrates three conditions: With coal (166 kg/t HM), With coal (120 kg/t HM), and Without coal. The 'Raceway' region (up to 125 cm) shows low coke size (< 15%). The 'Transition zone' (125 cm to 230 cm) shows increasing coke size, with the 'Without coal' condition having the highest increase (reaching around 30% at 200 cm). The 'Dead man' region (beyond 230 cm) shows stable coke size (around 30-35%).\" src=\"components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 7
+    },
+    {
+      "id": "IMG_TR_006",
+      "placeholder": "{{IMG_TR_006}}",
+      "component_type": "image_trans",
+      "description": "Graph showing the relationship between CSR (Coke Reactivity Index) in % (X-axis, 50 to 70) and the Distance of the increase in coke fines < 6.3 mm from the tuyere tip in cm (Y-axis, 0 to 200). Two lines are plotted: a solid blue line and a dotted blue line. Both lines show an increasing trend with CSR, indicating that higher CSR leads to a greater distance of fine coke accumulation from the tuyere tip. The solid line generally follows the trend of the data points (red diamonds).",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph showing the relationship between CSR (Coke Reactivity Index) in % (X-axis, 50 to 70) and the Distance of the increase in coke fines < 6.3 mm from the tuyere tip in cm (Y-axis, 0 to 200). Two lines are plotted: a solid blue line and a dotted blue line. Both lines show an increasing trend with CSR, indicating that higher CSR leads to a greater distance of fine coke accumulation from the tuyere tip. The solid line generally follows the trend of the data points (red diamonds).\" src=\"components/15a3b1e729cb0909873593f3331993df_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/15a3b1e729cb0909873593f3331993df_2_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_TR_007",
+      "placeholder": "{{IMG_TR_007}}",
+      "component_type": "image_trans",
+      "description": "Two scatter plots showing the relationship between CSR in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 1 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher CSR leads to higher HM temperature and higher Carbon content in HM.",
+      "context_html": "",
+      "full_html": "<img alt=\"Two scatter plots showing the relationship between CSR in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 1 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher CSR leads to higher HM temperature and higher Carbon content in HM.\" src=\"components/222906026cb13f6c609aff92e4ef0070_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_3_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_TR_008",
+      "placeholder": "{{IMG_TR_008}}",
+      "component_type": "image_trans",
+      "description": "Two scatter plots showing the relationship between I40 in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 2 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher I40 leads to higher HM temperature and higher Carbon content in HM.",
+      "context_html": "",
+      "full_html": "<img alt=\"Two scatter plots showing the relationship between I40 in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 2 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher I40 leads to higher HM temperature and higher Carbon content in HM.\" src=\"components/222906026cb13f6c609aff92e4ef0070_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_5_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 9
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n노황관리 기술중 고로하부 노심 Coke 의 오염 및 불활성으로 인한 불량노황 초래시 복구조업기준과 관리방안 및 작업조치수순에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목 적\n노하부(Hearth 부)의 건전한 노심 Coke 형성 및 활성화로 적정노열과 Gas류 분배를 최적화함으로써 효율적인 고로조업과 노장수명화에 기여한다.",
+      "placeholders": {},
+      "section_path": "2. 목 적",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점관리항목",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업기준",
+      "placeholders": {},
+      "section_path": "4. 조업기준",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 노심 불활성화에 의한 조업영향 Mechanism\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/fcdabc1f556e43f52c516a4b6976f2a5_10_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노심 불활성화에 의한 조업영향 Mechanism",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "## 4.2 노심불활성 판단 및 조치기준 (전고로공통)\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p002_table_01.png"
+      },
+      "section_path": "4. 조업기준 / 4.2 노심불활성 판단 및 조치기준 (전고로공통)",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.3 Semi-Cleaning 완료판단 기준\n출선구별 용선온도 편차 발생현상 해소 (± 15°C) 또는 SLAG 분리가 지연된 출선구의 SLAG 분리 시간이 10 분이내로 개선 및 용융물 배출현상 정상궤도진입 판단시",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.3 Semi-Cleaning 완료판단 기준",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "# 6. 기술이론",
+      "placeholders": {},
+      "section_path": "6. 기술이론",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "## 6.1 노심의 기능과 역할, 조업영향",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "### 6.1.1 노심의 기능\n\n#### 가. 고로 노열의 보지(保持) 및 안정 유지 기능\n\n#### 나. 중심부 용착대 강하시 밝혀주는 그릇 역할\n\n#### 다. 미분탄에서 발생되는 미연소 Char 를 연소시키는 기능",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능 / 다. 미분탄에서 발생되는 미연소 Char 를 연소시키는 기능",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "{{IMG_TR_001}}\n고로의 상, 중, 하부 노심상",
+      "placeholders": {
+        "IMG_TR_001": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능 / 다. 미분탄에서 발생되는 미연소 Char 를 연소시키는 기능",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "### 6.1.2 노심 영향인자\n\n#### 가. 노심 총진구조에 영향을 주는 인자 (노심내 가스흐름, 분이동, 전열을 결정)\no 코크스입경, 공극율의 영향\n\n● 코크스입경 40~15mm 내에서 노심내 가스온도 큰 변화 없음\n● 공극율 0.45~0.15 내에서 0.2 이하에서 1800°C이하의 저온 노심불활성영역 발생\n● 공극율 감소 원인은 슬래그·예탈·분등의 퇴적\n\n{{IMG_TR_002}}\n노심 Coke의 공극변화에 따른 가스온도분포 추정",
+      "placeholders": {
+        "IMG_TR_002": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자 / 가. 노심 총진구조에 영향을 주는 인자 (노심내 가스흐름, 분이동, 전열을 결정)",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "○ 미연 Char 입경의 영향\n\n- 입경을 0.1~3.0mm로 변경시 0.5mm 이하에서는 압손에 큰 변화 없음. 각 고로에서 0.1mm 이하로 관리하는 것이 바람직하다.\n\n○ 분코크스 입경의 영향\n\n- 입경 0.5mm 기점으로 압손에 큰 변화가 있는 것은 미연화와 동일. 입경 1.0mm 이상 분은 노저부로 유입된다.\n\n{{IMG_TR_003}}\n분 Coke 분을 변화에 따른 부피변화 추정\n\n#### 나. 노심불활성에 미치는 조업조건의 영향\n○ 노심온도에 미치는 조업조건의 영향\n\n노심불활성이 되기 쉬운 고로와 어려운 고로가 철강 각사에는 존재한다.\n\n두가지 예를 들어 출선회, 미분탄비가 거의 동일한 양 고로 중 ① 환원제비는 B 고로가 높고\n\n(A 고로대비 28kg/t-p) ② 중심부 O/C 는 A 고로가 높고, B 고로는 낮은 2 가지의 특징이 있다.\n\n노심불활성을 나타내는 지표인 풍구 중심 레벨의 노심내 용융물 온도와 코크스 입경을 비교하면 어느쪽도 A 고로의 값이 적고 노심 불활성이 쉬운 상태를 나타낸다.\n\n노심내 용융물 온도와 환원제비의 관계에서 중심부 광석 총후비를 extbraceleftLo/(Lo+Lc)extbraceright로 총별하였을 때, 용융물온도는 extbraceleftLo/(Lo+Lc)extbraceright가 낮은 때에 상승한다. 또는 extbraceleftLo/(Lo+Lc)extbraceright가 낮은 때는 환원제비가 증가함에 따라 용융물 온도는 더욱 상승 한다.\n\n즉 extbraceleftLo/(Lo+Lc)extbraceright에 의해 노심 불활성이 되기 쉽게 변하고 extbraceleftLo/(Lo+Lc)extbraceright가 낮은때는 어렵고 환원제비에 따라 되기 쉽게 변하지는 않는다. 단 extbraceleftLo/(Lo+Lc)extbraceright가 낮은 경우 환원제비 증가에 의해 더욱 어렵게 된다.",
+      "placeholders": {
+        "IMG_TR_003": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자 / 나. 노심불활성에 미치는 조업조건의 영향",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "{{IMG_TR_004}}\n## 노심 용용물 온도와 환원제비 관\n\n### ○ 노심불활성 상태로부터 조업도 상승\n노심불활성을 회복하기 위해서는 노심 상부 Slag 중 FeO(광석환원물)성분을 극단적으로 낮은 레벨로 유지할 필요가 있다. 즉 대폭적인 환원제비 상승 Action을 취할 필요가 있다. 또한 고로 노심 온도 저하의 상태를 회복시키기 위해서는 노심내에 가스가 흐르는 것을 전제로 가스유속이 0.1m/s 정도만 되어도 효과가 크고, 가스흐름이 없고 열전도만의 전열밖에 기대 할 수 없는 노심에서는 회복이 불가능하다고 할 수 있다.",
+      "placeholders": {
+        "IMG_TR_004": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp"
+      },
+      "section_path": "6. 기술이론 / 노심 용용물 온도와 환원제비 관 / ○ 노심불활성 상태로부터 조업도 상승",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "## 6.2 타사 노심불활성 판단 및 조치실적",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_017",
+      "component_type": "text",
+      "text": "### 6.2.1 일본 NSC 노심활성화 방안\n노심불활성화의 원인은 공극을 감소이고 해소방안은 코크스성상 개선, 노심코크스의 빠른 치환, 미분탄 연소성 향상 등이 일반적인 사항임.\n\n### ○ 중심 Coke 장입 증대효과\n● 도바다 1 고로 중심 Coke 장입량 증대시 Gas 중심류 편차저하 효과 → 중심 Coke 량 저하시 노심 Coke 및 노저불활성 야기\n● 도바다 4 고로 중심 Coke 장입 System 설치('00.10월)\n● 중심 Coke 량 50%이상 증대시 Ore 장입시 중심류 저하방지 및 안정성확보\n\n### ○ Coke 입도 증대효과\n● Coke 1mm 증가시 Gas 유속증가에 의한 Bosh Gas Volume 1.5%증가 → 노하부 Flooding 감소 → 노심활성화 및 용착대 하부 가스안정화 효과\n● Coke size 52 mm 까지 증대조업중\n● Coke DI 관리목표 : 86%이상\n● Coke 품질 안정화, 중심 Coke 입도 증대, PCI Double lance 사용",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_018",
+      "component_type": "text",
+      "text": "{{IMG_SUM_002}}\n\n{{IMG_SUM_003}}\nCoke 입도증대 및 PCI Double Lance 사용 효과",
+      "placeholders": {
+        "IMG_SUM_002": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_2_img.webp",
+        "IMG_SUM_003": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_3_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_019",
+      "component_type": "text",
+      "text": "### 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용\n풍구 Sampler 를 이용한 노심 Coke 분석 결과를 기반으로 하여, Coke 의 풍질과 영향, 중요성에 큰 비중을 두고 있다.\n\n#### 가. Coke 분화와 미분탄 취입비의 관계 (풍구 Sampling 결과)\n● All Coke 조업시 6.3mm 이하 Coke 잔존율 Raceway (풍구선단~125cm) : 15% 변이구역 (Transition zone, Raceway~Deadman 사이구역, 125~230cm) : 지속증대 Deadman Coke 내부 (풍구선단 230cm 이상) : 30%에서 일정\n  ● Raceway (풍구선단~125cm) : 15%\n  ● 변이구역 (Transition zone, Raceway~Deadman 사이구역, 125~230cm) : 지속증대\n  ● Deadman Coke 내부 (풍구선단 230cm 이상) : 30%에서 일정\n● PCR 120kg/T-P 이상인 경우 변이구역(Transition zone)에서 미분 Coke 의 증가폭이 큼. 취입량 증가에 따라 변이구역이 풍구앞으로 가까워짐.(Raceway 축소) 변이구역 축소→풍구선단 150cm 이상에서 6.3mm 이하 Coke 잔존율 : 35%이상\n  ● 변이구역(Transition zone)에서 미분 Coke 의 증가폭이 큼.\n  ● 취입량 증가에 따라 변이구역이 풍구앞으로 가까워짐.(Raceway 축소)\n  ● 변이구역 축소→풍구선단 150cm 이상에서 6.3mm 이하 Coke 잔존율 : 35%이상\n\n{{IMG_TR_005}}\n풍구 level 에서 Coke sampling 시 6.3mm 미만 Coke 분율 잔존추이 (Schwelgern 1 고로, All Coke 조업과 미분탄 취입시)\n\n● Coke CSR 이 Raceway 영역에 미치는 영향 Coke CSR 증가에 따라 풍구전 Raceway 영역 확대 ; CSR (50→60%)증가시 Raceway 영역이 60→100cm 까지 증대 ⇒ 거의 2 배 수준 CSR 60%이상인 경우는 Raceway 영역이 더 커짐.\n  ● Coke CSR 증가에 따라 풍구전 Raceway 영역 확대 ; CSR (50→60%)증가시 Raceway 영역이 60→100cm 까지 증대 ⇒ 거의 2 배 수준\n  ● CSR 60%이상인 경우는 Raceway 영역이 더 커짐.\n● ※ 풍구 Sampler (Tuyere-level Probe) 측정결과, 6.3mm 미만 Coke 분율 증가폭이 갑자기 증가하는 시점까지를 풍구앞의 Raceway 영역으로 측정한 것임.",
+      "placeholders": {
+        "IMG_TR_005": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용 / 가. Coke 분화와 미분탄 취입비의 관계 (풍구 Sampling 결과)",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_020",
+      "component_type": "text",
+      "text": "※ 풍구로 Laser 를 이용한 측정결과와 비슷한 결과 도출\n\n{{IMG_TR_006}}\n####\n● Coke CSR 증가에 따라 CRI(Coke Reactivity Index-반응성지수)는 감소하고, 풍구 Level 에서의 6.3mm 이하 미분 Coke 비율 또한 감소한다.\n● 특히 변이구역(Raceway~Deadman 사이구역)에서의 미분 Coke 분율 증가폭이 두드러짐. → 통기성 및 용선, Slag 의 풍액성 개선효과\n\n#### 나. 고로하부에서 Coke 풍질의 중요성\n용착대에서의 용선 및 Slag 거동 및 Gas 통기성은 Belly, Bosh, Hearth 부에서의 여러요소중 Coke 풍질에 의해서 크게 영향을 받는다.",
+      "placeholders": {
+        "IMG_TR_006": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/15a3b1e729cb0909873593f3331993df_2_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용 / 나. 고로하부에서 Coke 풍질의 중요성",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_021",
+      "component_type": "text",
+      "text": "#### 다. Coke 품질이 용선의 Carbon 함유량과 온도에 미치는 영향\no Coke 강도 증가에 따라 용선온도 및 Carbon 함유량 상승\n\n{{IMG_TR_007}}\n{{IMG_TR_008}}\n● 용선중 Carbon 함유량은 Carbon 포화선을 따라 일정한 추이를 보임.\n● Coke 품질향상으로 용선온도 및 Carbon 함유량 상승을 유도하여 균일한 고로조업과 환원제비 저감 효과를 기대할 수 있음.\n\n#### 라. 노저에서의 Coke 체류시간\n● 96년 7월, Schwelgern 1 고로 개수시 Deadman 지역에서의 Coke 치환거동 조사\n● Sample 제조 : ZrO₂, Cr₂O₃를 투여한 Coke 생산\n● → 종풍후 해체시 ZrO₂, Cr₂O₃첨가된 Coke 회수\n● → 특수 셸플링 Probe 를 풍구와 출선구를 통하여 삽입(풍구~출선구: 4.3m)",
+      "placeholders": {
+        "IMG_TR_007": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_3_img.webp",
+        "IMG_TR_008": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_5_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용 / 라. 노저에서의 Coke 체류시간",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 9
+    },
+    {
+      "id": "TEXT_022",
+      "component_type": "text",
+      "text": "- ZrO₂, Cr₂O₃첨가 Coke Sample 을 풍구에서 노저 Bottom 까지 추적하여 Time Diagram 을 도출함으로써 다음 사항의 결과를 얻음.\n\nCoke 장입 4 일후 부분적으로 풍구 Level 까지 도달",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용 / 라. 노저에서의 Coke 체류시간",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    },
+    {
+      "id": "TEXT_023",
+      "component_type": "text",
+      "text": "# 5 일후 장입 Coke 풍구 Level 까지 도달",
+      "placeholders": {},
+      "section_path": "5 일후 장입 Coke 풍구 Level 까지 도달",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    },
+    {
+      "id": "TEXT_024",
+      "component_type": "text",
+      "text": "# 6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착\n8~9 일후 풍구 Level 통과, 풍구하부 5m 지역 안착\n\n11~12 일후 노저 Bottom 도달\n\n{{IMG_SUM_004}}\n고로 노저에서의 Coke 치환",
+      "placeholders": {
+        "IMG_SUM_004": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/604d498500544ae41589379fe2b316cd_7_img.webp"
+      },
+      "section_path": "6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    },
+    {
+      "id": "TEXT_025",
+      "component_type": "text",
+      "text": "## 6.2.3 기타 노심활성화 대책\n\n{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p010_table_01.png"
+      },
+      "section_path": "6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착 / 6.2.3 기타 노심활성화 대책",
+      "filename": "노심 불활성화시 조치기준",
+      "page": 10
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 품질 영향인자 | col2: 공정 영향인자",
+        "col1: 해당사항 없음 | col2: 해당사항 없음"
+      ],
+      "table_html": "<table><tbody><tr><td>품질 영향인자</td><td>공정 영향인자</td></tr><tr><td>해당사항 없음</td><td>해당사항 없음</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tbody><tr><td>품질 영향인자</td><td>공정 영향인자</td></tr><tr><td>해당사항 없음</td><td>해당사항 없음</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점 관리항목",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 소결광 (Sinter Ore) | 단위: - | 정의: 세립의 분광석을 용융결합에 의하여 과성광의 형태로 만든 것으로서 대량생산 방식으로 널리 채용되고 있다.",
+        "용어: 정립광 (Sized Ore) | 단위: - | 정의: 과상의 철광석을 파쇄, 선별 또는 선별과정을 통하여 고로에서 사용하기에 적당한 크기(8~30 mm)로 만든 광석",
+        "용어: 자철광 (Magnetite, Fe₃O₄) | 단위: - | 정의: 강한 자성을 나타내는 광석종 하나이다. 이 자성광은 FeO 함유량에 특성이 좌우된다.특징: 고로내에서 열균열성 낮음환원성은 적철광에 비해 떨어짐사용 방법: 고로에 직접 넣지 않고 소결광으로 제조하여 환원성과 강도를 높여 사용함.",
+        "용어: 적철광 (Hematite, Fe₂O₃) | 단위: - | 정의: 적철광은 자철광에 비해 양적으로 풍부하게 매장되어 있다.특징: 불순물 함유량 적음환원성 우수 → 고로용, 소결용, Pellet 용으로 사용 빈도 높음과광은 열균열이나 환원 분화성을 나타내는 것이 있음소결시에는 통기성을 저해하는 경우도 있음",
+        "용어: 갈철광 (Limonite, 2Fe₂O₃.3H₂O) | 단위: - | 정의: 철광석종 Fe₂O₃.nH₂O와 같이 수분을 함유한 상태로 존재함.특징: 통상 Total Fe가 59.5% 정도 낮다.",
+        "용어: Pellet | 단위: - | 정의: 미분의 분철광석을 고로 원료로써 사용하기 위하여 과성광으로 만든 것이다.구성 성분: 325mesh(44μ) 이하의 분철광석을 80~90% 함유, Bentonite(석회석) 0.5% 첨가"
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>소결광 (Sinter Ore)</td><td>-</td><td>세립의 분광석을 용융결합에 의하여 과성광의 형태로 만든 것으로서 대량생산 방식으로 널리 채용되고 있다.</td></tr><tr><td>정립광 (Sized Ore)</td><td>-</td><td>과상의 철광석을 파쇄, 선별 또는 선별과정을 통하여 고로에서 사용하기에 적당한 크기(8~30 mm)로 만든 광석</td></tr><tr><td>자철광 (Magnetite, Fe₃O₄)</td><td>-</td><td>강한 자성을 나타내는 광석종 하나이다. 이 자성광은 FeO 함유량에 특성이 좌우된다.<ul><li>특징: 고로내에서 열균열성 낮음</li><li>환원성은 적철광에 비해 떨어짐</li><li>사용 방법: 고로에 직접 넣지 않고 소결광으로 제조하여 환원성과 강도를 높여 사용함.</li></ul></td></tr><tr><td>적철광 (Hematite, Fe₂O₃)</td><td>-</td><td>적철광은 자철광에 비해 양적으로 풍부하게 매장되어 있다.<ul><li>특징: 불순물 함유량 적음</li><li>환원성 우수 → 고로용, 소결용, Pellet 용으로 사용 빈도 높음</li><li>과광은 열균열이나 환원 분화성을 나타내는 것이 있음</li><li>소결시에는 통기성을 저해하는 경우도 있음</li></ul></td></tr><tr><td>갈철광 (Limonite, 2Fe₂O₃.3H₂O)</td><td>-</td><td>철광석종 Fe₂O₃.nH₂O와 같이 수분을 함유한 상태로 존재함.<ul><li>특징: 통상 Total Fe가 59.5% 정도 낮다.</li></ul></td></tr><tr><td>Pellet</td><td>-</td><td>미분의 분철광석을 고로 원료로써 사용하기 위하여 과성광으로 만든 것이다.<ul><li>구성 성분: 325mesh(44μ) 이하의 분철광석을 80~90% 함유, Bentonite(석회석) 0.5% 첨가</li></ul></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>소결광 (Sinter Ore)</td><td>-</td><td>세립의 분광석을 용융결합에 의하여 과성광의 형태로 만든 것으로서 대량생산 방식으로 널리 채용되고 있다.</td></tr><tr><td>정립광 (Sized Ore)</td><td>-</td><td>과상의 철광석을 파쇄, 선별 또는 선별과정을 통하여 고로에서 사용하기에 적당한 크기(8~30 mm)로 만든 광석</td></tr><tr><td>자철광 (Magnetite, Fe₃O₄)</td><td>-</td><td>강한 자성을 나타내는 광석종 하나이다. 이 자성광은 FeO 함유량에 특성이 좌우된다.<ul><li>특징: 고로내에서 열균열성 낮음</li><li>환원성은 적철광에 비해 떨어짐</li><li>사용 방법: 고로에 직접 넣지 않고 소결광으로 제조하여 환원성과 강도를 높여 사용함.</li></ul></td></tr><tr><td>적철광 (Hematite, Fe₂O₃)</td><td>-</td><td>적철광은 자철광에 비해 양적으로 풍부하게 매장되어 있다.<ul><li>특징: 불순물 함유량 적음</li><li>환원성 우수 → 고로용, 소결용, Pellet 용으로 사용 빈도 높음</li><li>과광은 열균열이나 환원 분화성을 나타내는 것이 있음</li><li>소결시에는 통기성을 저해하는 경우도 있음</li></ul></td></tr><tr><td>갈철광 (Limonite, 2Fe₂O₃.3H₂O)</td><td>-</td><td>철광석종 Fe₂O₃.nH₂O와 같이 수분을 함유한 상태로 존재함.<ul><li>특징: 통상 Total Fe가 59.5% 정도 낮다.</li></ul></td></tr><tr><td>Pellet</td><td>-</td><td>미분의 분철광석을 고로 원료로써 사용하기 위하여 과성광으로 만든 것이다.<ul><li>구성 성분: 325mesh(44μ) 이하의 분철광석을 80~90% 함유, Bentonite(석회석) 0.5% 첨가</li></ul></td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1:  | col2:  | col3: 제조 방법: ① 위 성분을 포함하는 원료에 8~10%정도의 수분 첨가 및 흔련② Pelletizer 로 입경 10~30mm 정도의 구상형의 생펠렛 (Green Pellet) 제조③ 1200~1300℃로 가열 소성",
+        "col1: 부원료(Flux) | col2: - | col3: 고로 조업에 알맞은 Slag 제조 및 후공정 요구에 알맞은 용선 품질을 만들기 위해 첨가하는 원료의 통칭종류: 규석, 석회석, 사문암, 망간, CIP 등",
+        "col1: CIP(Combined Pellet) | col2: - | col3: 제철소 내에서 발생하는 Dust 와 결합제(시멘트)를 첨가하여 Pellet을 만들어 고상화 시킨 것",
+        "col1: TiO₂광 | col2: - | col3: 사용 목적: 고로의 노저온도 상승시 노저 부위에 티탄층을 형성시켜 노저를 보호하기 위한 목적으로 사용",
+        "col1: 석회석(Lime Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능",
+        "col1: 사문암(Serpentite) | col2: - | col3: 사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용",
+        "col1: 규석(Silica Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 높을 때 낮추기 위해 사용 → Slag 유동성 개선 가능",
+        "col1: 망간(Manganese) | col2: - | col3: 사용 목적: 용선중 [Mn]을 높이고 Slag 유동성 개선 산소 및 황과의 친화력이 Fe 보다 크기 때문에 탈산 및 탈황 작용 발생"
+      ],
+      "table_html": "<table><tr><td></td><td></td><td><ul><li>제조 방법: ① 위 성분을 포함하는 원료에 8~10%정도의 수분 첨가 및 흔련</li><li>② Pelletizer 로 입경 10~30mm 정도의 구상형의 생펠렛 (Green Pellet) 제조</li><li>③ 1200~1300℃로 가열 소성</li></ul></td></tr><tr><td>부원료(Flux)</td><td>-</td><td><ul><li>고로 조업에 알맞은 Slag 제조 및 후공정 요구에 알맞은 용선 품질을 만들기 위해 첨가하는 원료의 통칭</li><li>종류: 규석, 석회석, 사문암, 망간, CIP 등</li></ul></td></tr><tr><td>CIP<br/>(Combined Pellet)</td><td>-</td><td>제철소 내에서 발생하는 Dust 와 결합제(시멘트)를 첨가하여 Pellet을 만들어 고상화 시킨 것</td></tr><tr><td>TiO₂광</td><td>-</td><td><ul><li>사용 목적: 고로의 노저온도 상승시 노저 부위에 티탄층을 형성시켜 노저를 보호하기 위한 목적으로 사용</li></ul></td></tr><tr><td>석회석<br/>(Lime Stone)</td><td>-</td><td><ul><li>사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가</li><li>효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능</li></ul></td></tr><tr><td>사문암<br/>(Serpentite)</td><td>-</td><td><ul><li>사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.</li><li>사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용</li></ul></td></tr><tr><td>규석<br/>(Silica Stone)</td><td>-</td><td><ul><li>사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 높을 때 낮추기 위해 사용 → Slag 유동성 개선 가능</li></ul></td></tr><tr><td>망간<br/>(Manganese)</td><td>-</td><td><ul><li>사용 목적: 용선중 [Mn]을 높이고 Slag 유동성 개선 산소 및 황과의 친화력이 Fe 보다 크기 때문에 탈산 및 탈황 작용 발생</li></ul></td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td></td><td></td><td><ul><li>제조 방법: ① 위 성분을 포함하는 원료에 8~10%정도의 수분 첨가 및 흔련</li><li>② Pelletizer 로 입경 10~30mm 정도의 구상형의 생펠렛 (Green Pellet) 제조</li><li>③ 1200~1300℃로 가열 소성</li></ul></td></tr><tr><td>부원료(Flux)</td><td>-</td><td><ul><li>고로 조업에 알맞은 Slag 제조 및 후공정 요구에 알맞은 용선 품질을 만들기 위해 첨가하는 원료의 통칭</li><li>종류: 규석, 석회석, 사문암, 망간, CIP 등</li></ul></td></tr><tr><td>CIP<br/>(Combined Pellet)</td><td>-</td><td>제철소 내에서 발생하는 Dust 와 결합제(시멘트)를 첨가하여 Pellet을 만들어 고상화 시킨 것</td></tr><tr><td>TiO₂광</td><td>-</td><td><ul><li>사용 목적: 고로의 노저온도 상승시 노저 부위에 티탄층을 형성시켜 노저를 보호하기 위한 목적으로 사용</li></ul></td></tr><tr><td>석회석<br/>(Lime Stone)</td><td>-</td><td><ul><li>사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가</li><li>효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능</li></ul></td></tr><tr><td>사문암<br/>(Serpentite)</td><td>-</td><td><ul><li>사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.</li><li>사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용</li></ul></td></tr><tr><td>규석<br/>(Silica Stone)</td><td>-</td><td><ul><li>사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 높을 때 낮추기 위해 사용 → Slag 유동성 개선 가능</li></ul></td></tr><tr><td>망간<br/>(Manganese)</td><td>-</td><td><ul><li>사용 목적: 용선중 [Mn]을 높이고 Slag 유동성 개선 산소 및 황과의 친화력이 Fe 보다 크기 때문에 탈산 및 탈황 작용 발생</li></ul></td></tr></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 피환원성 | 단위: - | 정의: 철광석 중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로의 연료비 및 생산성에 큰 영향을 주는 요소이다. 따라서 피환원성이 큰 정립광을 사용하는 것이 고로조업의 효율성을 높일 수 있다.",
+        "용어: 열할성 | 단위: - | 정의: 광석의 분화 정도를 나타내는 지수를 말한다.즉 20mm 의 시료중 수분을 완전히 제거한 500g 을 가열된 (700℃)로에 30분간 유지시킨후 텅블러에 900(30rpm)회전시켜 -5mm 발생비를 측정한 것.열할성이 냉난 철광석을 고로에서 사용시 고상대에서 통기성 확보측면에서 불리함.",
+        "용어: 선광(beneficiation) | 단위: - | 정의: 광석이나 그 밖의 공업원료 광물을 다른 목적광물 또는 무가치한 성분에서 물리적·기계적 방법 등으로 분리하는 작업을 말한다."
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>피환원성</td><td>-</td><td>철광석 중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로의 연료비 및 생산성에 큰 영향을 주는 요소이다. 따라서 피환원성이 큰 정립광을 사용하는 것이 고로조업의 효율성을 높일 수 있다.</td></tr><tr><td>열할성</td><td>-</td><td>광석의 분화 정도를 나타내는 지수를 말한다.<br/>즉 20mm 의 시료중 수분을 완전히 제거한 500g 을 가열된 (700℃)로에 30분간 유지시킨후 텅블러에 900(30rpm)회전시켜 -5mm 발생비를 측정한 것.<br/>열할성이 냉난 철광석을 고로에서 사용시 고상대에서 통기성 확보측면에서 불리함.</td></tr><tr><td>선광(beneficiation)</td><td>-</td><td>광석이나 그 밖의 공업원료 광물을 다른 목적광물 또는 무가치한 성분에서 물리적·기계적 방법 등으로 분리하는 작업을 말한다.</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>피환원성</td><td>-</td><td>철광석 중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로의 연료비 및 생산성에 큰 영향을 주는 요소이다. 따라서 피환원성이 큰 정립광을 사용하는 것이 고로조업의 효율성을 높일 수 있다.</td></tr><tr><td>열할성</td><td>-</td><td>광석의 분화 정도를 나타내는 지수를 말한다.<br/>즉 20mm 의 시료중 수분을 완전히 제거한 500g 을 가열된 (700℃)로에 30분간 유지시킨후 텅블러에 900(30rpm)회전시켜 -5mm 발생비를 측정한 것.<br/>열할성이 냉난 철광석을 고로에서 사용시 고상대에서 통기성 확보측면에서 불리함.</td></tr><tr><td>선광(beneficiation)</td><td>-</td><td>광석이나 그 밖의 공업원료 광물을 다른 목적광물 또는 무가치한 성분에서 물리적·기계적 방법 등으로 분리하는 작업을 말한다.</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_02.png",
+      "section_path": "4. 조업 기준 / 4.2 정립광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_005",
+      "placeholder": "{{TB_STR_005}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 자력선광(magnetic separation) | col2: - | col3: 광물(鑛物)이 가진 자성(磁性)의 차를 이용해서 두 가지 이상의 광물을 분리·선별하는 방법을 말한다.",
+        "col1: 부유선광(floation) | col2: - | col3: 광석을 미세하게 뿜아 물에 넣고, 현탁액을 만든 후 그 액속에 기포를 불어넣어 광석입자 중에서 소수성(疏水性) 표면을 가진 광물이 기포의 표면에 붙어서 액의 표면으로 부상하게 하고, 친수성(親水性) 표면의 광물은 물 속에 남게 하여 분리하는 선광법을 말한다.",
+        "col1: 배소(roasting) | col2: - | col3: 광석을 쉽게 환원처리(還元處理)하기 위해 금속을 그 녹는점 이하의 고온으로 가열하여 물리·화학적 성질을 변화시키는 일",
+        "col1: ROM(Run Of Mine) | col2: mm | col3: 산지에서 1 차 가공만 거친 원료로서 실수율(50%)이 낮고, 분진발생이 많아 공해발생 요인이 되며, 입도가 커서 원료수송과정중 Belt- Con' 및 Chute 등 설비 손상을 일으키는 경우가 있다.",
+        "col1: SL(Size Lump) | col2: mm | col3: 산지에서 +6 ~ -30 mm로 가공하여 입하된 원료로서 수송과정중 발생된 분을 원료공장에서 재선별 처리하여 사용한다.",
+        "col1: 분광 | col2: - | col3: 소결용과 Pellet 제조용으로 구분되며, 최근에는 원가 절감을 위해 Pellet Feed를 소결용으로도 사용하고 있다."
+      ],
+      "table_html": "<table><tr><td>자력선광<br/>(magnetic separation)</td><td>-</td><td>광물(鑛物)이 가진 자성(磁性)의 차를 이용해서 두 가지 이상의 광물을 분리·선별하는 방법을 말한다.</td></tr><tr><td>부유선광(floation)</td><td>-</td><td>광석을 미세하게 뿜아 물에 넣고, 현탁액을 만든 후 그 액속에 기포를 불어넣어 광석입자 중에서 소수성(疏水性) 표면을 가진 광물이 기포의 표면에 붙어서 액의 표면으로 부상하게 하고, 친수성(親水性) 표면의 광물은 물 속에 남게 하여 분리하는 선광법을 말한다.</td></tr><tr><td>배소(roasting)</td><td>-</td><td>광석을 쉽게 환원처리(還元處理)하기 위해 금속을 그 녹는점 이하의 고온으로 가열하여 물리·화학적 성질을 변화시키는 일</td></tr><tr><td>ROM(Run Of Mine)</td><td>mm</td><td>산지에서 1 차 가공만 거친 원료로서 실수율(50%)이 낮고, 분진발생이 많아 공해발생 요인이 되며, 입도가 커서 원료수송과정중 Belt- Con' 및 Chute 등 설비 손상을 일으키는 경우가 있다.</td></tr><tr><td>SL(Size Lump)</td><td>mm</td><td>산지에서 +6 ~ -30 mm로 가공하여 입하된 원료로서 수송과정중 발생된 분을 원료공장에서 재선별 처리하여 사용한다.</td></tr><tr><td>분광</td><td>-</td><td>소결용과 Pellet 제조용으로 구분되며, 최근에는 원가 절감을 위해 Pellet Feed를 소결용으로도 사용하고 있다.</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td>자력선광<br/>(magnetic separation)</td><td>-</td><td>광물(鑛物)이 가진 자성(磁性)의 차를 이용해서 두 가지 이상의 광물을 분리·선별하는 방법을 말한다.</td></tr><tr><td>부유선광(floation)</td><td>-</td><td>광석을 미세하게 뿜아 물에 넣고, 현탁액을 만든 후 그 액속에 기포를 불어넣어 광석입자 중에서 소수성(疏水性) 표면을 가진 광물이 기포의 표면에 붙어서 액의 표면으로 부상하게 하고, 친수성(親水性) 표면의 광물은 물 속에 남게 하여 분리하는 선광법을 말한다.</td></tr><tr><td>배소(roasting)</td><td>-</td><td>광석을 쉽게 환원처리(還元處理)하기 위해 금속을 그 녹는점 이하의 고온으로 가열하여 물리·화학적 성질을 변화시키는 일</td></tr><tr><td>ROM(Run Of Mine)</td><td>mm</td><td>산지에서 1 차 가공만 거친 원료로서 실수율(50%)이 낮고, 분진발생이 많아 공해발생 요인이 되며, 입도가 커서 원료수송과정중 Belt- Con' 및 Chute 등 설비 손상을 일으키는 경우가 있다.</td></tr><tr><td>SL(Size Lump)</td><td>mm</td><td>산지에서 +6 ~ -30 mm로 가공하여 입하된 원료로서 수송과정중 발생된 분을 원료공장에서 재선별 처리하여 사용한다.</td></tr><tr><td>분광</td><td>-</td><td>소결용과 Pellet 제조용으로 구분되며, 최근에는 원가 절감을 위해 Pellet Feed를 소결용으로도 사용하고 있다.</td></tr></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "4. 조업 기준 / 4.2 정립광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_006",
+      "placeholder": "{{TB_STR_006}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.",
+        "용어: 피환원성 | 단위: - | 정의: 철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다."
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>환원율(RI)<br/>(Reduction Index)</td><td>%</td><td>고로내에서 소결광의 환원성을 나타내는 지수이다.</td></tr><tr><td>피환원성</td><td>-</td><td>철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다.</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>환원율(RI)<br/>(Reduction Index)</td><td>%</td><td>고로내에서 소결광의 환원성을 나타내는 지수이다.</td></tr><tr><td>피환원성</td><td>-</td><td>철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다.</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_02.png",
+      "section_path": "4. 조업 기준 / 4.3 소결광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_007",
+      "placeholder": "{{TB_STR_007}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 부풀음(Swelling) | 단위: - | 정의: 철광석 또는 Pellet 이 고로내에서 용융되기 전에 팽창하여 부푸는 현상을 말한다.",
+        "용어: SUL(Softening Under Load) | 단위: - | 정의: 고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 현상을 해석하는 장치를 말한다.",
+        "용어: 하중연화시험(Softening Under Load Test) | 단위: - | 정의: 고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 시험을 말한다.",
+        "용어: Pelletizing | 단위: - | 정의: 분체 · 용용액 · 농축액 등을 입상(粒狀)으로 하는 조작을 조립(造粒: granulation)이라고 하는데, 펠레타이징은 그것들 중의 한 방법이다"
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>부풀음(Swelling)</td><td>-</td><td>철광석 또는 Pellet 이 고로내에서 용융되기 전에 팽창하여 부푸는 현상을 말한다.</td></tr><tr><td>SUL<br/>(Softening Under Load)</td><td>-</td><td>고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 현상을 해석하는 장치를 말한다.</td></tr><tr><td>하중연화시험<br/>(Softening Under Load Test)</td><td>-</td><td>고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 시험을 말한다.</td></tr><tr><td>Pelletizing</td><td>-</td><td>분체 · 용용액 · 농축액 등을 입상(粒狀)으로 하는 조작을 조립(造粒: granulation)이라고 하는데, 펠레타이징은 그것들 중의 한 방법이다</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>부풀음(Swelling)</td><td>-</td><td>철광석 또는 Pellet 이 고로내에서 용융되기 전에 팽창하여 부푸는 현상을 말한다.</td></tr><tr><td>SUL<br/>(Softening Under Load)</td><td>-</td><td>고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 현상을 해석하는 장치를 말한다.</td></tr><tr><td>하중연화시험<br/>(Softening Under Load Test)</td><td>-</td><td>고로내 현상과 유사한 실험조건으로 가스조성, 반응온도 및 인가하중을 변화시켜 고온에서의 장입물의 하중연화 시험을 말한다.</td></tr><tr><td>Pelletizing</td><td>-</td><td>분체 · 용용액 · 농축액 등을 입상(粒狀)으로 하는 조작을 조립(造粒: granulation)이라고 하는데, 펠레타이징은 그것들 중의 한 방법이다</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_01.png",
+      "section_path": "4. 조업 기준 / 4.4 Pellet 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 4
+    },
+    {
+      "id": "TB_STR_008",
+      "placeholder": "{{TB_STR_008}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 종괴 Coke(Nut Coke) | 단위: mm | 정의: Screen 후 Return 되는 분 Coke 를 재 Screen 하여 고로에 사용하는 8 ~ 25mm 의 Coke 를 말한다.",
+        "용어: Coke | 단위: - | 정의: 고로용 Coke 원이 되는 원료탄 대신에 고로의 풍구로 취입하여 사용하는 저가의 일반탄(분탄)으로 입도는 200 Mesh 이하가 80% 이다.",
+        "용어: 점결성 | 단위: - | 정의: 석탄을 건류(乾溜) · 연소할 때 석탄입자가 연화용용(軟化溶融)하여 서로 점결하는 성질을 말한다. 자유펑창지수(FSI), 유동도(L-MF), 전팽창(TD)",
+        "용어: 약점탄(weak coking coal), | 단위: - | 정의: 석탄을 가열하였을 때 용결(熔結)하는 성질이 약한 석탄을 말한다. (V.M 31% 이상)",
+        "용어: 일반탄 | 단위: - | 정의: 석탄을 용도별로 분류했을 때 코크스의 원료가 되는 원료탄에 대하여 주로 열에너지원으로서 소비되는 석탄을 말한다.",
+        "용어: 비점결탄(non-coking coal) | 단위: - | 정의: 석탄을 건류 · 연소시킬 때에, 석탄 입자가 서로 연화용용(軟化溶融)하지 않고, 점결하지 않는 석탄을 말한다. (V.M 10~12%)",
+        "용어: 고정탄소(Fix Carbon) | 단위: % | 정의: 탄화의 정도가 진행된 석탄일수록 고정탄소의 함유량이 많고 휘발분이 적다. 무연탄이 가장 탄화도가 높은 석탄으로 고정탄소의 함유율은 90~95%, 발열량은 7,000~8,000kcal/kg에 이른다.",
+        "용어: 무연탄 (anthracite) | 단위: - | 정의: 탄화가 잘 되어 연기를 내지 않고 연소하는 석탄"
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>종괴 Coke<br/>(Nut Coke)</td><td>mm</td><td>Screen 후 Return 되는 분 Coke 를 재 Screen 하여 고로에 사용하는 8 ~ 25mm 의 Coke 를 말한다.</td></tr><tr><td>Coke</td><td>-</td><td>고로용 Coke 원이 되는 원료탄 대신에 고로의 풍구로 취입하여 사용하는 저가의 일반탄(분탄)으로 입도는 200 Mesh 이하가 80% 이다.</td></tr><tr><td>점결성</td><td>-</td><td>석탄을 건류(乾溜) · 연소할 때 석탄입자가 연화용용(軟化溶融)하여 서로 점결하는 성질을 말한다. 자유펑창지수(FSI), 유동도(L-MF), 전팽창(TD)</td></tr><tr><td>약점탄<br/>(weak coking coal),</td><td>-</td><td>석탄을 가열하였을 때 용결(熔結)하는 성질이 약한 석탄을 말한다. (V.M 31% 이상)</td></tr><tr><td>일반탄</td><td>-</td><td>석탄을 용도별로 분류했을 때 코크스의 원료가 되는 원료탄에 대하여 주로 열에너지원으로서 소비되는 석탄을 말한다.</td></tr><tr><td>비점결탄<br/>(non-coking coal)</td><td>-</td><td>석탄을 건류 · 연소시킬 때에, 석탄 입자가 서로 연화용용(軟化溶融)하지 않고, 점결하지 않는 석탄을 말한다. (V.M 10~12%)</td></tr><tr><td>고정탄소<br/>(Fix Carbon)</td><td>%</td><td>탄화의 정도가 진행된 석탄일수록 고정탄소의 함유량이 많고 휘발분이 적다. 무연탄이 가장 탄화도가 높은 석탄으로 고정탄소의 함유율은 90~95%, 발열량은 7,000~8,000kcal/kg에 이른다.</td></tr><tr><td>무연탄 (anthracite)</td><td>-</td><td>탄화가 잘 되어 연기를 내지 않고 연소하는 석탄</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>종괴 Coke<br/>(Nut Coke)</td><td>mm</td><td>Screen 후 Return 되는 분 Coke 를 재 Screen 하여 고로에 사용하는 8 ~ 25mm 의 Coke 를 말한다.</td></tr><tr><td>Coke</td><td>-</td><td>고로용 Coke 원이 되는 원료탄 대신에 고로의 풍구로 취입하여 사용하는 저가의 일반탄(분탄)으로 입도는 200 Mesh 이하가 80% 이다.</td></tr><tr><td>점결성</td><td>-</td><td>석탄을 건류(乾溜) · 연소할 때 석탄입자가 연화용용(軟化溶融)하여 서로 점결하는 성질을 말한다. 자유펑창지수(FSI), 유동도(L-MF), 전팽창(TD)</td></tr><tr><td>약점탄<br/>(weak coking coal),</td><td>-</td><td>석탄을 가열하였을 때 용결(熔結)하는 성질이 약한 석탄을 말한다. (V.M 31% 이상)</td></tr><tr><td>일반탄</td><td>-</td><td>석탄을 용도별로 분류했을 때 코크스의 원료가 되는 원료탄에 대하여 주로 열에너지원으로서 소비되는 석탄을 말한다.</td></tr><tr><td>비점결탄<br/>(non-coking coal)</td><td>-</td><td>석탄을 건류 · 연소시킬 때에, 석탄 입자가 서로 연화용용(軟化溶融)하지 않고, 점결하지 않는 석탄을 말한다. (V.M 10~12%)</td></tr><tr><td>고정탄소<br/>(Fix Carbon)</td><td>%</td><td>탄화의 정도가 진행된 석탄일수록 고정탄소의 함유량이 많고 휘발분이 적다. 무연탄이 가장 탄화도가 높은 석탄으로 고정탄소의 함유율은 90~95%, 발열량은 7,000~8,000kcal/kg에 이른다.</td></tr><tr><td>무연탄 (anthracite)</td><td>-</td><td>탄화가 잘 되어 연기를 내지 않고 연소하는 석탄</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_02.png",
+      "section_path": "4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 4
+    },
+    {
+      "id": "TB_STR_009",
+      "placeholder": "{{TB_STR_009}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 발열량(Calorific Value) | 단위: Kcal/kg | 정의: 단위질량의 물질이 완전연소했을 때 방출하는 열량PCI Coal의 발열량은 Ash 함량에 의해 크게 좌우되며 발열량이 높은 Coal 사용시 연료비 저하 효과가 있으며, BFG 열량이 증가하는 효과가 있다.",
+        "용어: V.M(휘발분)Volatile Matter | 단위: % | 정의: 일정 입도(粒度: 0.25mm)로 만든 항온시료(恒溫試料) 1g을 용기에 넣어 105 ~ 106℃로 1시간 가열, 건조할 때의 시료 감량(%)에서 수분이 없어진 값을 휘발분으로 한다.",
+        "용어: HGI(파쇄성)Hardgrove Grindability Index | 단위: % | 정의: HGI 증가에 따라 Coal Grinding 량이 증가하며 200mesh 이하 발생량이 증가한다. 그러나 높은 HGI는 과파쇄에 의한 Coal 수송시 배관 막힘 등을 유발한다."
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>발열량(Calorific Value)</td><td>Kcal/kg</td><td>단위질량의 물질이 완전연소했을 때 방출하는 열량<br/>PCI Coal의 발열량은 Ash 함량에 의해 크게 좌우되며 발열량이 높은 Coal 사용시 연료비 저하 효과가 있으며, BFG 열량이 증가하는 효과가 있다.</td></tr><tr><td>V.M(휘발분)<br/>Volatile Matter</td><td>%</td><td>일정 입도(粒度: 0.25mm)로 만든 항온시료(恒溫試料) 1g을 용기에 넣어 105 ~ 106℃로 1시간 가열, 건조할 때의 시료 감량(%)에서 수분이 없어진 값을 휘발분으로 한다.</td></tr><tr><td>HGI(파쇄성)<br/>Hardgrove Grindability Index</td><td>%</td><td>HGI 증가에 따라 Coal Grinding 량이 증가하며 200mesh 이하 발생량이 증가한다. 그러나 높은 HGI는 과파쇄에 의한 Coal 수송시 배관 막힘 등을 유발한다.</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>발열량(Calorific Value)</td><td>Kcal/kg</td><td>단위질량의 물질이 완전연소했을 때 방출하는 열량<br/>PCI Coal의 발열량은 Ash 함량에 의해 크게 좌우되며 발열량이 높은 Coal 사용시 연료비 저하 효과가 있으며, BFG 열량이 증가하는 효과가 있다.</td></tr><tr><td>V.M(휘발분)<br/>Volatile Matter</td><td>%</td><td>일정 입도(粒度: 0.25mm)로 만든 항온시료(恒溫試料) 1g을 용기에 넣어 105 ~ 106℃로 1시간 가열, 건조할 때의 시료 감량(%)에서 수분이 없어진 값을 휘발분으로 한다.</td></tr><tr><td>HGI(파쇄성)<br/>Hardgrove Grindability Index</td><td>%</td><td>HGI 증가에 따라 Coal Grinding 량이 증가하며 200mesh 이하 발생량이 증가한다. 그러나 높은 HGI는 과파쇄에 의한 Coal 수송시 배관 막힘 등을 유발한다.</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_01.png",
+      "section_path": "4. 조업 기준 / 4.6 Coke 및 Coal 품질 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 5
+    },
+    {
+      "id": "TB_STR_010",
+      "placeholder": "{{TB_STR_010}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: Screen | 단위: mm | 정의: 각 고로의 장입원료 및 Coke를 Bin 하부에서 고로에서 요구하는 입도로 분리하는 설비이다. Screen은 고로에서 요구하는 적정입도의 안정된 원, 연료의 공급을 가능하게 한다.",
+        "용어: Screen 청소장치 | 단위: - | 정의: 가동중인 스크린에 자동 또는 수동으로 불규칙적인 물리적 충격을 가하여 스크린 사목막힘을 방지하는 기계장치",
+        "용어: P/P(Punched Plate) | 단위: - | 정의: 고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Coke에 많이 사용하고 있다. (Size에 따라 상, 하부 사용)",
+        "용어: G/B(Grizzly Bar) | 단위: - | 정의: 고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 상부 Screen으로 사용하고 있다.",
+        "용어: W/C(Wire Cloth) | 단위: - | 정의: 고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Sinter 하부 Screen으로 사용하고 있다."
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>Screen</td><td>mm</td><td>각 고로의 장입원료 및 Coke를 Bin 하부에서 고로에서 요구하는 입도로 분리하는 설비이다. Screen은 고로에서 요구하는 적정입도의 안정된 원, 연료의 공급을 가능하게 한다.</td></tr><tr><td>Screen 청소장치</td><td>-</td><td>가동중인 스크린에 자동 또는 수동으로 불규칙적인 물리적 충격을 가하여 스크린 사목막힘을 방지하는 기계장치</td></tr><tr><td>P/P(Punched Plate)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Coke에 많이 사용하고 있다. (Size에 따라 상, 하부 사용)</td></tr><tr><td>G/B(Grizzly Bar)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 상부 Screen으로 사용하고 있다.</td></tr><tr><td>W/C(Wire Cloth)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Sinter 하부 Screen으로 사용하고 있다.</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>Screen</td><td>mm</td><td>각 고로의 장입원료 및 Coke를 Bin 하부에서 고로에서 요구하는 입도로 분리하는 설비이다. Screen은 고로에서 요구하는 적정입도의 안정된 원, 연료의 공급을 가능하게 한다.</td></tr><tr><td>Screen 청소장치</td><td>-</td><td>가동중인 스크린에 자동 또는 수동으로 불규칙적인 물리적 충격을 가하여 스크린 사목막힘을 방지하는 기계장치</td></tr><tr><td>P/P(Punched Plate)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Coke에 많이 사용하고 있다. (Size에 따라 상, 하부 사용)</td></tr><tr><td>G/B(Grizzly Bar)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 상부 Screen으로 사용하고 있다.</td></tr><tr><td>W/C(Wire Cloth)</td><td>-</td><td>고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Sinter 하부 Screen으로 사용하고 있다.</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_02.png",
+      "section_path": "4. 조업 기준 / 4.7 원, 연료 Screen 관리기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 5
+    },
+    {
+      "id": "TB_STR_011",
+      "placeholder": "{{TB_STR_011}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용어: 운영 재고 | 단위: 일 | 정의: 정상가동에 소요되는 원료의 양을 말하며, 입고의 소요가 계속될 때 입고시점과 입고시점간의 수량을 말한다.",
+        "용어: 안전 재고 | 단위: 일 | 정의: 원료의 실질적인 소요증가, 공급원의 불가항력 사태로 원료조달 곤란, 수송중 문제점 발생으로 인한 도착지연 등의 원료품절 상태에 대비하여 보유하는 원료의 양을 말한다.",
+        "용어: 입고 재고 | 단위: 일 | 정의: 안전재고와 운영재고의 합계로서 통상적으로 Yard 에 보유하게되는 원료의 양을 말한다."
+      ],
+      "table_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>운영 재고</td><td>일</td><td>정상가동에 소요되는 원료의 양을 말하며, 입고의 소요가 계속될 때 입고시점과 입고시점간의 수량을 말한다.</td></tr><tr><td>안전 재고</td><td>일</td><td>원료의 실질적인 소요증가, 공급원의 불가항력 사태로 원료조달 곤란, 수송중 문제점 발생으로 인한 도착지연 등의 원료품절 상태에 대비하여 보유하는 원료의 양을 말한다.</td></tr><tr><td>입고 재고</td><td>일</td><td>안전재고와 운영재고의 합계로서 통상적으로 Yard 에 보유하게되는 원료의 양을 말한다.</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용어</th><th>단위</th><th>정의</th></tr></thead><tbody><tr><td>운영 재고</td><td>일</td><td>정상가동에 소요되는 원료의 양을 말하며, 입고의 소요가 계속될 때 입고시점과 입고시점간의 수량을 말한다.</td></tr><tr><td>안전 재고</td><td>일</td><td>원료의 실질적인 소요증가, 공급원의 불가항력 사태로 원료조달 곤란, 수송중 문제점 발생으로 인한 도착지연 등의 원료품절 상태에 대비하여 보유하는 원료의 양을 말한다.</td></tr><tr><td>입고 재고</td><td>일</td><td>안전재고와 운영재고의 합계로서 통상적으로 Yard 에 보유하게되는 원료의 양을 말한다.</td></tr></tbody></table><p><a href=\"components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p006_table_01.png",
+      "section_path": "4. 조업 기준 / 4.8 Coal Yard 재고관리 기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 6
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n장입 원, 연료의 기술과 관련된 용어를 정의할 때 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n\n## 가. 고로공정중 장입 원, 연료에 관련된 용어를 정확하게 인식하여 공정관리자 및 조업자 상호간의 원활한 의사 소통과 정보 전달을 가능하기 위함이다.나. 고로 장입물(원, 연료)의 특성을 이해하여 입조 및 관리 기준, 재고상태 등을 파악하여, 향후 노황을 예측하여 고로에서 요구하는 양질의 원, 연료를 안정적으로 공급하기 위함이다.",
+      "placeholders": {},
+      "section_path": "2. 목적 / 가. 고로공정중 장입 원, 연료에 관련된 용어를 정확하게 인식하여 공정관리자 및 조업자 상호간의 원활한 의사 소통과 정보 전달을 가능하기 위함이다.나. 고로 장입물(원, 연료)의 특성을 이해하여 입조 및 관리 기준, 재고상태 등을 파악하여, 향후 노황을 예측하여 고로에서 요구하는 양질의 원, 연료를 안정적으로 공급하기 위함이다.",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점 관리항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점 관리항목",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 고로사용 원료의 종류 및 정의 (특징)\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.2 정립광 품질관리 용어\n\n{{TB_STR_004}}",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.2 정립광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "{{TB_STR_005}}",
+      "placeholders": {
+        "TB_STR_005": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.2 정립광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 4.3 소결광 품질관리 용어\n\n{{TB_STR_006}}",
+      "placeholders": {
+        "TB_STR_006": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.3 소결광 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "## 4.4 Pellet 품질관리 용어\n\n{{TB_STR_007}}",
+      "placeholders": {
+        "TB_STR_007": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.4 Pellet 품질관리 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "## 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)\n\n{{TB_STR_008}}",
+      "placeholders": {
+        "TB_STR_008": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "## 4.6 Coke 및 Coal 품질 용어\n\n{{TB_STR_009}}",
+      "placeholders": {
+        "TB_STR_009": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.6 Coke 및 Coal 품질 용어",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "## 4.7 원, 연료 Screen 관리기준\n\n{{TB_STR_010}}",
+      "placeholders": {
+        "TB_STR_010": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.7 원, 연료 Screen 관리기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "## 4.8 Coal Yard 재고관리 기준\n\n{{TB_STR_011}}",
+      "placeholders": {
+        "TB_STR_011": "output/sanitize/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446/components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p006_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.8 Coal Yard 재고관리 기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치 기준\n해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치 기준",
+      "filename": "장입 연,원료 용어의 기준",
+      "page": 6
+    }
+  ]
+}

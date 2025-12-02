@@ -1,0 +1,184 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 품질영향 인자 | col2: 공정영향 인자",
+        "col1: 해당없음 | col2: 해당없음"
+      ],
+      "table_html": "<table><tbody><tr><td>품질영향 인자</td><td>공정영향 인자</td></tr><tr><td>해당없음</td><td>해당없음</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tbody><tr><td>품질영향 인자</td><td>공정영향 인자</td></tr><tr><td>해당없음</td><td>해당없음</td></tr></tbody></table><p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점 관리항목",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: Cleaning 시간 | P1R2: 68°50' | P2R1: 99°50' | P4R1: 66°55' | P2R2: 72° | P3R2: 96° | P4R2: 32°30'"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>P1R2</th><th>P2R1</th><th>P4R1</th><th>P2R2</th><th>P3R2</th><th><u>P4R2</u></th></tr></thead><tbody><tr><td>Cleaning 시간</td><td>68°50'</td><td>99°50'</td><td>66°55'</td><td>72°</td><td>96°</td><td><u>32°30'</u></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>P1R2</th><th>P2R1</th><th>P4R1</th><th>P2R2</th><th>P3R2</th><th><u>P4R2</u></th></tr></thead><tbody><tr><td>Cleaning 시간</td><td>68°50'</td><td>99°50'</td><td>66°55'</td><td>72°</td><td>96°</td><td><u>32°30'</u></td></tr></tbody></table><p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.1 Cleaning 조업 계획 / 가. Cleaning 조업기간 / o 타고로 Cleaning 조업기간",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th rowspan=\"2\">항목</th><th colspan=\"2\">조업방침</th><th>P4R1 실적</th><th>P3R2 실적</th><th>G3R1 실적</th><th>P4R2 실적<br/>(6/30 22:25~7/2 07:00)</th></tr><tr><th colspan=\"2\"></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td rowspan=\"2\">부착물<br/>생성억제<br/>(1단계)</td><td>입량 ZnO 규제<br/>(0.15 kg/t-p 이하)</td><td>2개월전 실시</td><td>Zn : 0.17</td><td>Zn : 0.12→0.10</td><td>입시휴풍때까지<br/>DRI 4.0T/Ch 지속 사용</td></tr><tr><td>입량 TiO₂ 규제<br/>(2.0 kg/t-p 이하)</td><td>4개월전 실시</td><td>TiO₂ : 2.2kg/t-p</td><td>D-169 TiO₂ Cut<br/>(공빈위해 일부사용)</td><td></td></tr><tr><td rowspan=\"3\">부착물<br/>제거<br/>(2단계)</td><td>환원제비 상승 조업</td><td>538 kg/t-p<br/>1,534 °C</td><td>498 kg/t-p<br/>1,515 °C<br/>(정상조업 유지)</td><td>500 kg/t-p<br/>1,500±10 °C<br/>(정상조업 유지)</td><td>478.3 kg/t-p ('10.2Q)<br/>1,510±10 °C<br/>(정상조업 유지)</td></tr><tr><td>노저<br/>점조층<br/>용해</td><td>Bottom 수냉<br/>6→4→Cut</td><td>0</td><td>26→16 m³</td><td>조정하지않음</td></tr><tr><td></td><td>H/Wall 살수<br/>23.5→Cut</td><td>35→29</td><td>32→15 m³</td><td>* 임시휴풍(6/30, 종풍 D-3)까지<br/>노저측벽 살수량 유지 (절피 보충)<br/>* 노저 Bottom 수냉량 조정 없음<br/>* 종풍 H-3 측벽 살수량 최소화<br/>(17→4 m³/min)<br/>* 임시휴풍시 부터 노저출선 방향<br/>(240°~300°) 측벽 살수량 Cut</td></tr><tr><td rowspan=\"4\">용선재<br/>유동성확보<br/>(3단계)</td><td>• 노저 Bottom 수냉</td><td></td><td>H/B : 0 m³</td><td>H/B : 16→0 m³</td><td></td></tr><tr><td>• 노저 Wall 살수</td><td></td><td>H/W : 25→13→0</td><td>H/W : 10 m³</td><td></td></tr><tr><td>• 용선<br/>노열 1,530±10<br/>[Si] 0.50~1.2%</td><td></td><td>노열 1545±10<br/>[Si] 0.5→1.0</td><td>노열 1540±10<br/>[Si] 0.8</td><td>노열 1515±10<br/>[Si] 0.65</td></tr><tr><td>• Slag<br/>C/S : 1.12±0.03<br/>Al₂O₃ : 15.0%이하<br/>MgO : 4~5%</td><td></td><td>C/S : 1.10<br/>Al₂O₃ : 14.0</td><td>C/S : 1.12<br/>Al₂O₃ : 14.5</td><td>C/S : 1.182<br/>Al₂O₃ : 14.2</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th rowspan=\"2\">항목</th><th colspan=\"2\">조업방침</th><th>P4R1 실적</th><th>P3R2 실적</th><th>G3R1 실적</th><th>P4R2 실적<br/>(6/30 22:25~7/2 07:00)</th></tr><tr><th colspan=\"2\"></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td rowspan=\"2\">부착물<br/>생성억제<br/>(1단계)</td><td>입량 ZnO 규제<br/>(0.15 kg/t-p 이하)</td><td>2개월전 실시</td><td>Zn : 0.17</td><td>Zn : 0.12→0.10</td><td>입시휴풍때까지<br/>DRI 4.0T/Ch 지속 사용</td></tr><tr><td>입량 TiO₂ 규제<br/>(2.0 kg/t-p 이하)</td><td>4개월전 실시</td><td>TiO₂ : 2.2kg/t-p</td><td>D-169 TiO₂ Cut<br/>(공빈위해 일부사용)</td><td></td></tr><tr><td rowspan=\"3\">부착물<br/>제거<br/>(2단계)</td><td>환원제비 상승 조업</td><td>538 kg/t-p<br/>1,534 °C</td><td>498 kg/t-p<br/>1,515 °C<br/>(정상조업 유지)</td><td>500 kg/t-p<br/>1,500±10 °C<br/>(정상조업 유지)</td><td>478.3 kg/t-p ('10.2Q)<br/>1,510±10 °C<br/>(정상조업 유지)</td></tr><tr><td>노저<br/>점조층<br/>용해</td><td>Bottom 수냉<br/>6→4→Cut</td><td>0</td><td>26→16 m³</td><td>조정하지않음</td></tr><tr><td></td><td>H/Wall 살수<br/>23.5→Cut</td><td>35→29</td><td>32→15 m³</td><td>* 임시휴풍(6/30, 종풍 D-3)까지<br/>노저측벽 살수량 유지 (절피 보충)<br/>* 노저 Bottom 수냉량 조정 없음<br/>* 종풍 H-3 측벽 살수량 최소화<br/>(17→4 m³/min)<br/>* 임시휴풍시 부터 노저출선 방향<br/>(240°~300°) 측벽 살수량 Cut</td></tr><tr><td rowspan=\"4\">용선재<br/>유동성확보<br/>(3단계)</td><td>• 노저 Bottom 수냉</td><td></td><td>H/B : 0 m³</td><td>H/B : 16→0 m³</td><td></td></tr><tr><td>• 노저 Wall 살수</td><td></td><td>H/W : 25→13→0</td><td>H/W : 10 m³</td><td></td></tr><tr><td>• 용선<br/>노열 1,530±10<br/>[Si] 0.50~1.2%</td><td></td><td>노열 1545±10<br/>[Si] 0.5→1.0</td><td>노열 1540±10<br/>[Si] 0.8</td><td>노열 1515±10<br/>[Si] 0.65</td></tr><tr><td>• Slag<br/>C/S : 1.12±0.03<br/>Al₂O₃ : 15.0%이하<br/>MgO : 4~5%</td><td></td><td>C/S : 1.10<br/>Al₂O₃ : 14.0</td><td>C/S : 1.12<br/>Al₂O₃ : 14.5</td><td>C/S : 1.182<br/>Al₂O₃ : 14.2</td></tr></tbody></table><p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.1 Cleaning 조업 계획 / 다. Cleaning 조업방침 및 실적",
+      "filename": "Cleaning 조업기술",
+      "page": 2
+    },
+    {
+      "id": "TB_UNSTR_002",
+      "placeholder": "{{TB_UNSTR_002}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th rowspan=\"2\">구 분</th><th colspan=\"3\">타고로 3단계 Cleaning 조업실적</th></tr><tr><th>P4R2</th><th>P3R2</th><th>G3R1</th></tr></thead><tbody><tr><td rowspan=\"4\">생산</td><td>O/C</td><td>5.21→3.99</td><td>4.2→3.0</td><td>4.5→3.0</td></tr><tr><td>풍량 (N m³/min)</td><td>5,709</td><td>5,900</td><td>(All Coke 조업)</td></tr><tr><td>산소 (N m³/Hr)</td><td>10,392</td><td>16,000</td><td>—</td></tr><tr><td>출선량 (T/D)</td><td>최대생산</td><td>최대생산</td><td>최대생산</td></tr><tr><td rowspan=\"5\">출선재</td><td>용선온도 (°C)</td><td>1515±10</td><td>1545±10</td><td>1540±10</td></tr><tr><td>[Si] (%)</td><td>0.43→0.65</td><td>0.6 → 1.8</td><td>0.8</td></tr><tr><td>[S] (%)</td><td>—</td><td>0.030→0.008</td><td>0.015</td></tr><tr><td>C/S</td><td>1.25→1.18</td><td>1.10</td><td>1.12</td></tr><tr><td>Al₂O₃ (%)</td><td>14.2</td><td>14.0 이하</td><td>14.5</td></tr><tr><td rowspan=\"3\">노저 관리</td><td>풍구유속(m/sec)</td><td>259→263→244</td><td>240</td><td>270</td></tr><tr><td>노저 Bottom 수냉량 (m³/min)</td><td>41→29→17</td><td>0</td><td>0</td></tr><tr><td>H.W 살수량 (m³/min)</td><td>30→31→33</td><td>25→13→0</td><td>10</td></tr><tr><td rowspan=\"4\">장입</td><td>Zn (kg/T-P)</td><td>0.1</td><td>0.17</td><td>0.10</td></tr><tr><td>Alkali (kg/T-P)</td><td>4.2</td><td>1.8</td><td>2.0</td></tr><tr><td>TiO₂ (kg/T-P)</td><td>2.2</td><td>2.2</td><td>0</td></tr><tr><td>Coke</td><td>최대입도</td><td>최대입도</td><td>최대입도</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th rowspan=\"2\">구 분</th><th colspan=\"3\">타고로 3단계 Cleaning 조업실적</th></tr><tr><th>P4R2</th><th>P3R2</th><th>G3R1</th></tr></thead><tbody><tr><td rowspan=\"4\">생산</td><td>O/C</td><td>5.21→3.99</td><td>4.2→3.0</td><td>4.5→3.0</td></tr><tr><td>풍량 (N m³/min)</td><td>5,709</td><td>5,900</td><td>(All Coke 조업)</td></tr><tr><td>산소 (N m³/Hr)</td><td>10,392</td><td>16,000</td><td>—</td></tr><tr><td>출선량 (T/D)</td><td>최대생산</td><td>최대생산</td><td>최대생산</td></tr><tr><td rowspan=\"5\">출선재</td><td>용선온도 (°C)</td><td>1515±10</td><td>1545±10</td><td>1540±10</td></tr><tr><td>[Si] (%)</td><td>0.43→0.65</td><td>0.6 → 1.8</td><td>0.8</td></tr><tr><td>[S] (%)</td><td>—</td><td>0.030→0.008</td><td>0.015</td></tr><tr><td>C/S</td><td>1.25→1.18</td><td>1.10</td><td>1.12</td></tr><tr><td>Al₂O₃ (%)</td><td>14.2</td><td>14.0 이하</td><td>14.5</td></tr><tr><td rowspan=\"3\">노저 관리</td><td>풍구유속(m/sec)</td><td>259→263→244</td><td>240</td><td>270</td></tr><tr><td>노저 Bottom 수냉량 (m³/min)</td><td>41→29→17</td><td>0</td><td>0</td></tr><tr><td>H.W 살수량 (m³/min)</td><td>30→31→33</td><td>25→13→0</td><td>10</td></tr><tr><td rowspan=\"4\">장입</td><td>Zn (kg/T-P)</td><td>0.1</td><td>0.17</td><td>0.10</td></tr><tr><td>Alkali (kg/T-P)</td><td>4.2</td><td>1.8</td><td>2.0</td></tr><tr><td>TiO₂ (kg/T-P)</td><td>2.2</td><td>2.2</td><td>0</td></tr><tr><td>Coke</td><td>최대입도</td><td>최대입도</td><td>최대입도</td></tr></tbody></table><p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.2 Cleaning 실적 비교",
+      "filename": "Cleaning 조업기술",
+      "page": 3
+    },
+    {
+      "id": "TB_UNSTR_003",
+      "placeholder": "{{TB_UNSTR_003}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th>주 관</th><th>작 업 항 목</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"5\">공사팀</td><td>- 노저출선 철피절개 및 가용접</td><td></td></tr><tr><td>- 노저출선 임시 Runner 연결 및 연와적 Stamping</td><td></td></tr><tr><td>- 노저 집진 Duct 조정, 노저철피 살수 Line 개조</td><td></td></tr><tr><td>- N2 유량계 개조 (능력증대), 노정압력 Manometer 설치</td><td></td></tr><tr><td>- 노저배관 Nozzle 취부, 취합(노저살수 유량계, 적산계 확인)</td><td></td></tr><tr><td rowspan=\"4\">조업, 정비</td><td>- D/C 하부 주수냉각 배수통 설치</td><td></td></tr><tr><td>- Gas Chro Range 변경</td><td></td></tr><tr><td>- 심차 Sounding 점검 및 “0점 조정”</td><td></td></tr><tr><td>- 각 Purge Valve 작동 Test (N2, Air, Steam, 살수)</td><td></td></tr><tr><td></td><td>- PCI Lance 취외, Gas Leak 부 Check</td><td></td></tr><tr><td></td><td>- 풍구 및 노체(냉각반등) 용손검지 실시</td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>주 관</th><th>작 업 항 목</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"5\">공사팀</td><td>- 노저출선 철피절개 및 가용접</td><td></td></tr><tr><td>- 노저출선 임시 Runner 연결 및 연와적 Stamping</td><td></td></tr><tr><td>- 노저 집진 Duct 조정, 노저철피 살수 Line 개조</td><td></td></tr><tr><td>- N2 유량계 개조 (능력증대), 노정압력 Manometer 설치</td><td></td></tr><tr><td>- 노저배관 Nozzle 취부, 취합(노저살수 유량계, 적산계 확인)</td><td></td></tr><tr><td rowspan=\"4\">조업, 정비</td><td>- D/C 하부 주수냉각 배수통 설치</td><td></td></tr><tr><td>- Gas Chro Range 변경</td><td></td></tr><tr><td>- 심차 Sounding 점검 및 “0점 조정”</td><td></td></tr><tr><td>- 각 Purge Valve 작동 Test (N2, Air, Steam, 살수)</td><td></td></tr><tr><td></td><td>- PCI Lance 취외, Gas Leak 부 Check</td><td></td></tr><tr><td></td><td>- 풍구 및 노체(냉각반등) 용손검지 실시</td><td></td></tr></tbody></table><p><a href=\"components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png",
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.3 Cleaning 기간중 사전휴풍시 작업사항",
+      "filename": "Cleaning 조업기술",
+      "page": 3
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로 개수의 원활한 수행을 위한 종풍조업의 사전작업인 Cleaning 조업에 대해 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n종풍전 고열조업을 실시하여 노벽 및 노저부의 부착물을 용해, 제거함으로써 안정된 감척, 종풍을 확보함과 동시에 종풍후 해체물량을 최소화 시키고, 탕류부를 승온시켜 Hearth 부 점조층 (Salamander)을 용해시켜 노저출선을 원활하게 하기 위하여 실시한다.",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점 관리항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점 관리항목",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 Cleaning 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "### 4.1.1 Cleaning 조업 계획\n\n#### 가. Cleaning 조업기간\n타고로 종풍시의 Cleaning 조업실적을 고려하여 Cleaning 기간을 결정한다.\n\n##### o 타고로 Cleaning 조업기간\n\n{{TB_STR_002}}\n\n##### 나. Cleaning 조업계획\n타고로 종풍시의 Cleaning 조업실적을 근거로 조업계획을 수립한다",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.1 Cleaning 조업 계획 / 가. Cleaning 조업기간 / 나. Cleaning 조업계획",
+      "filename": "Cleaning 조업기술",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "#### 다. Cleaning 조업방침 및 실적\n\n{{TB_UNSTR_001}}",
+      "placeholders": {
+        "TB_UNSTR_001": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.1 Cleaning 조업 계획 / 다. Cleaning 조업방침 및 실적",
+      "filename": "Cleaning 조업기술",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "### 4.1.2 Cleaning 실적 비교\n\n{{TB_UNSTR_002}}",
+      "placeholders": {
+        "TB_UNSTR_002": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.2 Cleaning 실적 비교",
+      "filename": "Cleaning 조업기술",
+      "page": 3
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "### 4.1.3 Cleaning 기간중 사전휴풍시 작업사항\n\n{{TB_UNSTR_003}}",
+      "placeholders": {
+        "TB_UNSTR_003": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.3 Cleaning 기간중 사전휴풍시 작업사항",
+      "filename": "Cleaning 조업기술",
+      "page": 3
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "# 5 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "Cleaning 조업기술",
+      "page": 3
+    }
+  ]
+}

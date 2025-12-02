@@ -1,0 +1,466 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "기호: L1 | 설명: Scale 두께 | 값: 0.5mm | 기호: K3 | 설명: Stamp 열전도율 | 값: 6",
+        "기호: L2 | 설명: 철피 두께 | 값: 60 | 기호: K4 | 설명: Carbon 열전도율 | 값: 10",
+        "기호: L3 | 설명: Stamp 두께 | 값: 100 | 기호: K6 | 설명: Alumina 열전도율 | 값: 2",
+        "기호: L4 | 설명: T/C 삽입장 | 값: 100,200 | 기호: Ks | 설명: 응고층 열전도율 | 값: 2",
+        "기호: L5 | 설명: Wall Carbon 두께 | 값:  | 기호: Tp | 설명: 가동면 온도 | 값: 1150,1300°C",
+        "기호: L6 | 설명: HB0~HB3 단 거리 | 값:  | 기호: Tw | 설명: 벽부냉각수 온도 | 값: 30°C",
+        "기호: L7 | 설명: HB3~Alumina 거리 | 값:  | 기호: Tb | 설명: Cooling Pipe 냉각수 온도 | 값: 30°C",
+        "기호: K1 | 설명: Scale 열전도도 | 값: 1.25kcal/m hr °C | 기호: Hw | 설명: 벽부냉각수 열전달계수 | 값: 6000kcal/m2hr °C",
+        "기호: K2 | 설명: 철피 열전도율 | 값: 45 | 기호: Hb | 설명: Cooling Pipe 열전달계수 | 값: 30"
+      ],
+      "table_html": "<table><thead><tr><th>기호</th><th>설명</th><th>값</th><th>기호</th><th>설명</th><th>값</th></tr></thead><tbody><tr><td>L1</td><td>Scale 두께</td><td>0.5mm</td><td>K3</td><td>Stamp 열전도율</td><td>6</td></tr><tr><td>L2</td><td>철피 두께</td><td>60</td><td>K4</td><td>Carbon 열전도율</td><td>10</td></tr><tr><td>L3</td><td>Stamp 두께</td><td>100</td><td>K6</td><td>Alumina 열전도율</td><td>2</td></tr><tr><td>L4</td><td>T/C 삽입장</td><td>100,200</td><td>Ks</td><td>응고층 열전도율</td><td>2</td></tr><tr><td>L5</td><td>Wall Carbon 두께</td><td></td><td>Tp</td><td>가동면 온도</td><td>1150,1300°C</td></tr><tr><td>L6</td><td>HB0~HB3 단 거리</td><td></td><td>Tw</td><td>벽부냉각수 온도</td><td>30°C</td></tr><tr><td>L7</td><td>HB3~Alumina 거리</td><td></td><td>Tb</td><td>Cooling Pipe 냉각수 온도</td><td>30°C</td></tr><tr><td>K1</td><td>Scale 열전도도</td><td>1.25<br/>kcal/m hr °C</td><td>Hw</td><td>벽부냉각수 열전달계수</td><td>6000<br/>kcal/m2hr °C</td></tr><tr><td>K2</td><td>철피 열전도율</td><td>45</td><td>Hb</td><td>Cooling Pipe 열전달계수</td><td>30</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>기호</th><th>설명</th><th>값</th><th>기호</th><th>설명</th><th>값</th></tr></thead><tbody><tr><td>L1</td><td>Scale 두께</td><td>0.5mm</td><td>K3</td><td>Stamp 열전도율</td><td>6</td></tr><tr><td>L2</td><td>철피 두께</td><td>60</td><td>K4</td><td>Carbon 열전도율</td><td>10</td></tr><tr><td>L3</td><td>Stamp 두께</td><td>100</td><td>K6</td><td>Alumina 열전도율</td><td>2</td></tr><tr><td>L4</td><td>T/C 삽입장</td><td>100,200</td><td>Ks</td><td>응고층 열전도율</td><td>2</td></tr><tr><td>L5</td><td>Wall Carbon 두께</td><td></td><td>Tp</td><td>가동면 온도</td><td>1150,1300°C</td></tr><tr><td>L6</td><td>HB0~HB3 단 거리</td><td></td><td>Tw</td><td>벽부냉각수 온도</td><td>30°C</td></tr><tr><td>L7</td><td>HB3~Alumina 거리</td><td></td><td>Tb</td><td>Cooling Pipe 냉각수 온도</td><td>30°C</td></tr><tr><td>K1</td><td>Scale 열전도도</td><td>1.25<br/>kcal/m hr °C</td><td>Hw</td><td>벽부냉각수 열전달계수</td><td>6000<br/>kcal/m2hr °C</td></tr><tr><td>K2</td><td>철피 열전도율</td><td>45</td><td>Hb</td><td>Cooling Pipe 열전달계수</td><td>30</td></tr></tbody></table><p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정 / 나. 노저 Bottom 부 잔존연와 및 응고층 두께 계산식",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "노저개공위치: GL+10,700mm | 개공심도: 3,000mm | 비고: 105°방향",
+        "노저개공위치: GL+7,800mm | 개공심도: 4,000m | 비고: 15°방향",
+        "노저개공위치: GL+7,600mm | 개공심도: 3,000mm | 비고: 15°방향"
+      ],
+      "table_html": "<table><thead><tr><th>노저개공위치</th><th>개공심도</th><th>비고</th></tr></thead><tbody><tr><td>GL+10,700mm</td><td>3,000mm</td><td>105°방향</td></tr><tr><td>GL+7,800mm</td><td>4,000m</td><td>15°방향</td></tr><tr><td>GL+7,600mm</td><td>3,000mm</td><td>15°방향</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>노저개공위치</th><th>개공심도</th><th>비고</th></tr></thead><tbody><tr><td>GL+10,700mm</td><td>3,000mm</td><td>105°방향</td></tr><tr><td>GL+7,800mm</td><td>4,000m</td><td>15°방향</td></tr><tr><td>GL+7,600mm</td><td>3,000mm</td><td>15°방향</td></tr></tbody></table><p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_02.png",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: 예상출선량 | P3R2계획: 710.7 | P4R1: 136톤 | P2R1: 333톤 | G1R1: 736톤 | G2R1: 667톤",
+        "구분: 적용공극율 | P3R2계획: 1/4.33 | P4R1: 1/4.33 | P2R1: 1/4.33 | G1R1: 1/4.33 | G2R1: 1/4.33",
+        "구분: 실적출선량 | P3R2계획: - | P4R1: 115톤 | P2R1: 300톤 | G1R1: 772톤 | G2R1: 1042톤"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>P3R2계획</th><th>P4R1</th><th>P2R1</th><th>G1R1</th><th>G2R1</th></tr></thead><tbody><tr><td>예상출선량</td><td>710.7</td><td>136톤</td><td>333톤</td><td>736톤</td><td>667톤</td></tr><tr><td>적용공극율</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td></tr><tr><td>실적출선량</td><td>-</td><td>115톤</td><td>300톤</td><td>772톤</td><td>1042톤</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>P3R2계획</th><th>P4R1</th><th>P2R1</th><th>G1R1</th><th>G2R1</th></tr></thead><tbody><tr><td>예상출선량</td><td>710.7</td><td>136톤</td><td>333톤</td><td>736톤</td><td>667톤</td></tr><tr><td>적용공극율</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td><td>1/4.33</td></tr><tr><td>실적출선량</td><td>-</td><td>115톤</td><td>300톤</td><td>772톤</td><td>1042톤</td></tr></tbody></table><p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p004_table_01.png",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로) / 가. 노저 저선량 계산",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: Ladle 수선 | 장 단 점: 용선처리가 용이노저출선→Ladle 수선→타고로차입(Mixing)→제강이송임시출선구 및 탕도설치를 위한 사전작업이 필요고로노저 구조상 Ladle 수선을 위해서는 탕도거리가 너무 길고 경사각이 적어 탕도내의 용용물 응고 가능성이 높아 Over Flow 에 의한 대형사고 위험성이 높음 | 비 고: P2R1P3R1 적용",
+        "구분: D/P 수선 | 장 단 점: 임시출선구 및 탕도설치를 위한 사전작업이 필요Dry-Pit 에 수선하므로 우천시 대비가 필요노저 임시출선구 방향이 제한작업부하 및 사고발생등을 고려할 때 Ladle 수선보다 유리함용선처리노저출선→Dry-Pit 수선→파쇄→형선으로 사용 | 비 고: P1R1P1R2P4R1 적용",
+        "구분: 노저 발파 | 장 단 점: 사전작업에 의한 설비휴지 불필요정확한 침식 Line 추정공란에 따른 문제점 없음발파 기술상의 문제점해체 공정상의 경제적, 시간적 유, 불리에 대해 불명확 | 비 고: 노저발파를 행한고로는 주로 개수후Stand-By 나 폐쇄고로를 대상으로실시하였음(日本)"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>장 단 점</th><th>비 고</th></tr></thead><tbody><tr><td>Ladle 수선</td><td><ul><li>용선처리가 용이</li><li>노저출선→Ladle 수선→타고로차입(Mixing)→제강이송</li><li>임시출선구 및 탕도설치를 위한 사전작업이 필요</li><li>고로노저 구조상 Ladle 수선을 위해서는 탕도거리가 너무 길고 경사각이 적어 탕도내의 용용물 응고 가능성이 높아 Over Flow 에 의한 대형사고 위험성이 높음</li></ul></td><td><p>P2R1<br/>P3R1 적용</p></td></tr><tr><td>D/P 수선</td><td><ul><li>임시출선구 및 탕도설치를 위한 사전작업이 필요</li><li>Dry-Pit 에 수선하므로 우천시 대비가 필요</li><li>노저 임시출선구 방향이 제한</li><li>작업부하 및 사고발생등을 고려할 때 Ladle 수선보다 유리함</li><li>용선처리</li><li>노저출선→Dry-Pit 수선→파쇄→형선으로 사용</li></ul></td><td><p>P1R1<br/>P1R2<br/>P4R1 적용</p></td></tr><tr><td>노저 발파</td><td><ul><li>사전작업에 의한 설비휴지 불필요</li><li>정확한 침식 Line 추정공란에 따른 문제점 없음</li><li>발파 기술상의 문제점</li><li>해체 공정상의 경제적, 시간적 유, 불리에 대해 불명확</li></ul></td><td><p>노저발파를 행한<br/>고로는 주로 개수후<br/>Stand-By 나 폐쇄<br/>고로를 대상으로<br/>실시하였음(日本)</p></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>장 단 점</th><th>비 고</th></tr></thead><tbody><tr><td>Ladle 수선</td><td><ul><li>용선처리가 용이</li><li>노저출선→Ladle 수선→타고로차입(Mixing)→제강이송</li><li>임시출선구 및 탕도설치를 위한 사전작업이 필요</li><li>고로노저 구조상 Ladle 수선을 위해서는 탕도거리가 너무 길고 경사각이 적어 탕도내의 용용물 응고 가능성이 높아 Over Flow 에 의한 대형사고 위험성이 높음</li></ul></td><td><p>P2R1<br/>P3R1 적용</p></td></tr><tr><td>D/P 수선</td><td><ul><li>임시출선구 및 탕도설치를 위한 사전작업이 필요</li><li>Dry-Pit 에 수선하므로 우천시 대비가 필요</li><li>노저 임시출선구 방향이 제한</li><li>작업부하 및 사고발생등을 고려할 때 Ladle 수선보다 유리함</li><li>용선처리</li><li>노저출선→Dry-Pit 수선→파쇄→형선으로 사용</li></ul></td><td><p>P1R1<br/>P1R2<br/>P4R1 적용</p></td></tr><tr><td>노저 발파</td><td><ul><li>사전작업에 의한 설비휴지 불필요</li><li>정확한 침식 Line 추정공란에 따른 문제점 없음</li><li>발파 기술상의 문제점</li><li>해체 공정상의 경제적, 시간적 유, 불리에 대해 불명확</li></ul></td><td><p>노저발파를 행한<br/>고로는 주로 개수후<br/>Stand-By 나 폐쇄<br/>고로를 대상으로<br/>실시하였음(日本)</p></td></tr></tbody></table><p><a href=\"components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p006_table_01.png",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법 / 나. 잔선 수선방법 (예:포항 3고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 6
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_formula",
+      "description": "Lx = K4 × ( [(Tp-Tm)/(Tm-Tw)] ) × ( [(1)/(Hw)] + [(L1)/(K1)] + [(L2)/(K2)] + [(L3)/(K3)] + [(L4)/(K4)] ) + L4",
+      "context_html": "",
+      "full_html": "<math display=\"block\">Lx = K4 × ( [(Tp-Tm)/(Tm-Tw)] ) × ( [(1)/(Hw)] + [(L1)/(K1)] + [(L2)/(K2)] + [(L3)/(K3)] + [(L4)/(K4)] ) + L4</math><img alt=\"Equation-Block snippet\" src=\"components/6193c54b6a4ffc64a76a75a39491306d_15_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/6193c54b6a4ffc64a76a75a39491306d_15_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "IMG_SUM_002",
+      "placeholder": "{{IMG_SUM_002}}",
+      "component_type": "image_formula",
+      "description": "L_x = K₆ × [ ( [(T_p - T_m)/(T_m - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L₅ - L₄)/(K₄)] ] + L₄ + L₅",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_x = K₆ × [ ( [(T_p - T_m)/(T_m - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L₅ - L₄)/(K₄)] ] + L₄ + L₅</math><img alt=\"Equation-Block snippet\" src=\"components/7210d3430fb00ba181f828171a9cd371_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_2_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_003",
+      "placeholder": "{{IMG_SUM_003}}",
+      "component_type": "image_formula",
+      "description": "L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L_x - L₄)/(K₄)] ]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L_x - L₄)/(K₄)] ]</math><img alt=\"Equation-Block snippet\" src=\"components/7210d3430fb00ba181f828171a9cd371_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_5_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_004",
+      "placeholder": "{{IMG_SUM_004}}",
+      "component_type": "image_formula",
+      "description": "L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L₅ - L₄)/(K₄)] - [(L_x - L₄ - L₅)/(K₆)] ]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_w)] ) × ( [(1)/(H_w)] + [(L₁)/(K₁)] + [(L₂)/(K₂)] + [(L₃)/(K₃)] + [(L₄)/(K₄)] ) - [(L₅ - L₄)/(K₄)] - [(L_x - L₄ - L₅)/(K₆)] ]</math><img alt=\"Equation-Block snippet\" src=\"components/7210d3430fb00ba181f828171a9cd371_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_7_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_005",
+      "placeholder": "{{IMG_SUM_005}}",
+      "component_type": "image_formula",
+      "description": "L_x = K₄ × ( [(T_p - T_m)/(T_m - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] )",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_x = K₄ × ( [(T_p - T_m)/(T_m - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] )</math><img alt=\"Equation-Block snippet\" src=\"components/7210d3430fb00ba181f828171a9cd371_11_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_11_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_006",
+      "placeholder": "{{IMG_SUM_006}}",
+      "component_type": "image_formula",
+      "description": "L_x = K₆ × [ ( [(T_p - T_m)/(T_m - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L₇)/(K₄)] ]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_x = K₆ × [ ( [(T_p - T_m)/(T_m - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L₇)/(K₄)] ]</math><img alt=\"Equation-Block snippet\" src=\"components/7210d3430fb00ba181f828171a9cd371_13_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_13_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_007",
+      "placeholder": "{{IMG_SUM_007}}",
+      "component_type": "image_formula",
+      "description": "L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L_x - L₁)/(K₄)] ]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L_x - L₁)/(K₄)] ]</math><img alt=\"Equation-Block snippet\" src=\"components/b328a4ab638aaa27e435a1b20206bb3e_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/b328a4ab638aaa27e435a1b20206bb3e_3_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_SUM_008",
+      "placeholder": "{{IMG_SUM_008}}",
+      "component_type": "image_formula",
+      "description": "L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L₇)/(K₄)] - [(L_x - L₆ - L₇)/(K₆)] ]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">L_s = K_s × [ ( [(T_p - T_c)/(T_c - T_b)] ) × ( [(1)/(H_b)] + [(L₆)/(K₄)] ) - [(L₇)/(K₄)] - [(L_x - L₆ - L₇)/(K₆)] ]</math><img alt=\"Equation-Block snippet\" src=\"components/b328a4ab638aaa27e435a1b20206bb3e_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/b328a4ab638aaa27e435a1b20206bb3e_5_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_SUM_009",
+      "placeholder": "{{IMG_SUM_009}}",
+      "component_type": "image_formula",
+      "description": "= (출선구 Center ~ HW2) - A",
+      "context_html": "",
+      "full_html": "<math display=\"block\">= (출선구 Center ~ HW2) - A</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_5_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_010",
+      "placeholder": "{{IMG_SUM_010}}",
+      "component_type": "image_formula",
+      "description": "= 2859.3 - 520.9",
+      "context_html": "",
+      "full_html": "<math display=\"block\">= 2859.3 - 520.9</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_6_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_011",
+      "placeholder": "{{IMG_SUM_011}}",
+      "component_type": "image_formula",
+      "description": "= 2338.4mm (2373.1mm)",
+      "context_html": "",
+      "full_html": "<math display=\"block\">= 2338.4mm (2373.1mm)</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_7_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_012",
+      "placeholder": "{{IMG_SUM_012}}",
+      "component_type": "image_formula",
+      "description": "= 2338.4 + 831 = 3169.4mm (3204.1mm)",
+      "context_html": "",
+      "full_html": "<math display=\"block\">= 2338.4 + 831 = 3169.4mm (3204.1mm)</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_10_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_10_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_013",
+      "placeholder": "{{IMG_SUM_013}}",
+      "component_type": "image_formula",
+      "description": "o 노저 용적(V) = π × ([(D)/(2)])² × H = 441.6m³ (446.4m³)",
+      "context_html": "",
+      "full_html": "<math display=\"block\">o 노저 용적(V) = π × ([(D)/(2)])² × H = 441.6m³ (446.4m³)</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_12_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_12_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_014",
+      "placeholder": "{{IMG_SUM_014}}",
+      "component_type": "image_formula",
+      "description": "o 저선 용량 = V × 7.0 × 0.23 = 710.9ton-pig (718.7ton-pig)",
+      "context_html": "",
+      "full_html": "<math display=\"block\">o 저선 용량 = V × 7.0 × 0.23 = 710.9ton-pig (718.7ton-pig)</math><img alt=\"Equation-Block snippet\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_13_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_13_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_015",
+      "placeholder": "{{IMG_SUM_015}}",
+      "component_type": "image_summary",
+      "description": "Flowchart illustrating the drilling and oxygen lance process:<ol><li>Start: Core Drill Bit 이용 (GL 7300→7900)</li><li>Condition: Carbon Drilling 깊이: 1300~2000mm</li><li>Decision Point 1: 완료기준: 400 ~ 500°C (Core Drill 불가)</li><ul><li>If No (Not met): Loop back to Core Drill Bit 이용.</li><li>If Yes (Met): Proceed to next step.</li></ul><li>Proceed to: 일발 Drill Bit 이용 (GL 7300→7900)</li><li>Condition: 부착총 Drilling 깊이: 500 ~ 1000mm</li><li>Decision Point 2: 완료기준: 800°C</li><ul><li>If Yes (Met): Proceed to next step.</li><li>If No (Not met): Loop back to 일발 Drill Bit 이용.</li></ul><li>Proceed to: O₂ Lancing 실시 (GL 7300→7900)</li><li>Decision Point 3: 출선 성공</li><ul><li>If No (Not successful): Loop back to O₂ Lancing 실시.</li><li>If Yes (Successful): End.</li></ul></ol>",
+      "context_html": "",
+      "full_html": "<p>Flowchart illustrating the drilling and oxygen lance process:</p><ol><li>Start: Core Drill Bit 이용 (GL 7300→7900)</li><li>Condition: Carbon Drilling 깊이: 1300~2000mm</li><li>Decision Point 1: 완료기준: 400 ~ 500°C (Core Drill 불가)</li><ul><li>If No (Not met): Loop back to Core Drill Bit 이용.</li><li>If Yes (Met): Proceed to next step.</li></ul><li>Proceed to: 일발 Drill Bit 이용 (GL 7300→7900)</li><li>Condition: 부착총 Drilling 깊이: 500 ~ 1000mm</li><li>Decision Point 2: 완료기준: 800°C</li><ul><li>If Yes (Met): Proceed to next step.</li><li>If No (Not met): Loop back to 일발 Drill Bit 이용.</li></ul><li>Proceed to: O₂ Lancing 실시 (GL 7300→7900)</li><li>Decision Point 3: 출선 성공</li><ul><li>If No (Not successful): Loop back to O₂ Lancing 실시.</li><li>If Yes (Successful): End.</li></ul></ol><img alt=\"Figure snippet\" src=\"components/92c1fcb4082d86ff748014200e35a57a_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/92c1fcb4082d86ff748014200e35a57a_3_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.5 노저출선 개공 기술",
+      "filename": "노저 출선작업 기술기준",
+      "page": 7
+    }
+  ],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "Diagram illustrating the calculation method for the expected amount of low-temperature slag discharge (노저출선 예상량 계산). The diagram shows a cross-section of a submerged arc furnace (SAF) ladle with a submerged nozzle. Key dimensions are indicated: Diameter D = 13320 mm (top diameter), Diameter D = 13320 mm (bottom diameter). The depth H is shown. Segments A, B, and C are defined vertically, corresponding to the lengths of the submerged nozzle (HW6 to HW1). The submerged angle is indicated as 10 degrees. The submerged nozzle sections are labeled HW6, HW5, HW4, HW3, HW2, and HW1. Dimensions 458, 458, and 600 are shown on the right side, likely representing the height of the submerged nozzle sections.",
+      "context_html": "",
+      "full_html": "<img alt=\"Diagram illustrating the calculation method for the expected amount of low-temperature slag discharge (노저출선 예상량 계산). The diagram shows a cross-section of a submerged arc furnace (SAF) ladle with a submerged nozzle. Key dimensions are indicated: Diameter D = 13320 mm (top diameter), Diameter D = 13320 mm (bottom diameter). The depth H is shown. Segments A, B, and C are defined vertically, corresponding to the lengths of the submerged nozzle (HW6 to HW1). The submerged angle is indicated as 10 degrees. The submerged nozzle sections are labeled HW6, HW5, HW4, HW3, HW2, and HW1. Dimensions 458, 458, and 600 are shown on the right side, likely representing the height of the submerged nozzle sections.\" src=\"components/ff18c84105c57ff0572ea12ab843dbfb_17_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_17_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Diagram showing the layout of the drilling site, indicating the locations of Dry Pits (No. 1, No. 2, No. 3, No. 4) and associated structures. Key angles 105°, 270°, and 250° are marked, along with dimensions (34500, 47500). The diagram illustrates the arrangement of control rooms, pump rooms, and the drilling area.",
+      "context_html": "",
+      "full_html": "<img alt=\"Diagram showing the layout of the drilling site, indicating the locations of Dry Pits (No. 1, No. 2, No. 3, No. 4) and associated structures. Key angles 105°, 270°, and 250° are marked, along with dimensions (34500, 47500). The diagram illustrates the arrangement of control rooms, pump rooms, and the drilling area.\" src=\"components/0f69d2f1a06e20efb4bcacce247494b2_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/0f69d2f1a06e20efb4bcacce247494b2_7_img.webp",
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법",
+      "filename": "노저 출선작업 기술기준",
+      "page": 5
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n감척조업이 완료되어 종풍후 통상의 출선구로 배출될수 없는 노저부의 용용물을 노외로 배출시키는 작업으로써 종풍직전에 행해지는 최종출선과 구별되며, 종풍조업종 철폐개구를 완료하여 종풍직전에 노저연와의 침식 하한선을 추정하여, 노저연와를 Boring 개공하는 임시출선 및 그에 관련된 일련의 작업에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n● 주수냉각시 수성 Gas 발생에 의한 폭발방지\n● 노저발파 작업물량 최소화",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점 관리항목 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "3. 중점 관리항목 : 해당사항 없음",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업기준",
+      "placeholders": {},
+      "section_path": "4. 조업기준",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 노저 출선계획",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "### 4.1.1 노저출선구 Level 결정\n노저출선구 Level 의 결정은 노저 T/C 온도에 의한 계산으로 노저연와 침식 하한선을 추정한 것이다. ( 노저연화 잔존 중 가장 얕은 곳을 개공한다. ) 통상 노저 침식선의 추정은 RI의 희석분석법과 노저 T/C 온도에 의한 계산외에 해체또는 타고로 실적 예를 참고로 하여 복합적으로 추정 판단하는 것이 일반적이다.",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.1 노저출선구 Level 결정",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "### 4.1.2 노저부 잔존연와 및 응고층 추정\n\n#### 가. 노저 Wall 부 잔존연와 및 응고층 두께 계산식\n(1) Wall 부 잔존연와 계산\n\n(가) Mullite 연와 없는 경우\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/6193c54b6a4ffc64a76a75a39491306d_15_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정 / 가. 노저 Wall 부 잔존연와 및 응고층 두께 계산식",
+      "filename": "노저 출선작업 기술기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "(나) Mullite 연와 있는 경우\n\n{{IMG_SUM_002}}\n\n(2) Wall 부 응고층 계산\n\n(가) Mullite 연와 없는 경우\n\n{{IMG_SUM_003}}\n\n(나) Mullite 연와 있는 경우\n\n{{IMG_SUM_004}}\n\n#### 나. 노저 Bottom 부 잔존연와 및 응고층 두께 계산식\n\n(1) Bottom 부 잔존연와 계산\n\n(가) Mullite 연와 없는 경우\n\n{{IMG_SUM_005}}\n\n(나) Mullite 연와 있는 경우\n\n{{IMG_SUM_006}}",
+      "placeholders": {
+        "IMG_SUM_002": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_2_img.webp",
+        "IMG_SUM_003": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_5_img.webp",
+        "IMG_SUM_004": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_7_img.webp",
+        "IMG_SUM_005": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_11_img.webp",
+        "IMG_SUM_006": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/7210d3430fb00ba181f828171a9cd371_13_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정 / 나. 노저 Bottom 부 잔존연와 및 응고층 두께 계산식",
+      "filename": "노저 출선작업 기술기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "(2) Bottom 부 응고층 계산\n(가) Mullite 연와 없는 경우\n\n{{IMG_SUM_007}}\n(나) Mullite 연와 있는 경우\n\n{{IMG_SUM_008}}\n※적용 Data\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "IMG_SUM_007": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/b328a4ab638aaa27e435a1b20206bb3e_3_img.webp",
+        "IMG_SUM_008": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/b328a4ab638aaa27e435a1b20206bb3e_5_img.webp",
+        "TB_STR_001": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.2 노저부 잔존연와 및 응고층 추정 / 나. 노저 Bottom 부 잔존연와 및 응고층 두께 계산식",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "### 4.1.3 노저 저선량 계산 (예: 포항 3 고로)\n노저연와 침식선을 기준으로 노저개공 위치를 설정하여, 노저부 용적을 계산하여 저선량을 추정하며, 노저 출선량은 출선구 심도에 따라 다소의 차가 있으므로 임시 출선구 별로 노저 출선량을 추산한다\n\n○ 포항 3 고로 노저개공 실적\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_02.png"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "#### 가. 노저 저선량 계산\no A = 출선구 Center ~ 심도 끝부분\n\n- 심도 3000mm 경우 = 520.9 mm (심도 2800mm 경우 = 486.2 mm)\n\no B = 심도 끝부분~ HW2 최초연와\n\n{{IMG_SUM_009}}\n\n{{IMG_SUM_010}}\n\n{{IMG_SUM_011}}\no C = (HW2 최초연와 ~ 노저침식선:252°방향 계산값 적용)\n\no H = B + C\n\n{{IMG_SUM_012}}\no D = 노저벽부 Mullite 연와 마모 가정한 노저부 직경 = 13320 mm\n\n{{IMG_SUM_013}}\n\n{{IMG_SUM_014}}\n[표. 타고로 공극률 적용 비교]\n\n{{TB_STR_003}}\n[그림. 노저출선 예상량 계산을 위한 모식도]\n\n{{IMG_TR_001}}",
+      "placeholders": {
+        "IMG_SUM_009": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_5_img.webp",
+        "IMG_SUM_010": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_6_img.webp",
+        "IMG_SUM_011": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_7_img.webp",
+        "IMG_SUM_012": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_10_img.webp",
+        "IMG_SUM_013": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_12_img.webp",
+        "IMG_SUM_014": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_13_img.webp",
+        "TB_STR_003": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p004_table_01.png",
+        "IMG_TR_001": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_17_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로) / 가. 노저 저선량 계산",
+      "filename": "노저 출선작업 기술기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "### 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법\n최초 노저출선 개공위치는 노중심에서의 응고층 두께를 감안하여 개공을 실시하고 용선이 나오지 않을 시는 최초 노저 개공위치보다 상부에 개공을 실시한다.\n\n#### 가. 개공위치 선정시 고려사항\n1. 통상의 길이가 짧고 설치가 용이한 곳\n2. 통 설치에 따른 장애물이 적은 곳\n3. 작업조건을 고려하여 위치를 선정.\n4. Dry-Pit에 의한 잔선처리의 경우, 4 본주와 간섭이 안되도록 피하고, 노저하부 장애물이 적은 방향으로 하여 임시 출선구에서 Dry-Pit까지 잔선통 길이가 짧은 쪽을 선택하는 것이 바람직하다.\n\n#### 나. 잔선 수선방법 (예:포항 3고로)\n● 105°(열풍로광장), 240°, 270°(Dry Pit) 세 방향을 기본으로 사처리하여 노저출선한다.\n● 3번 Dry Pit를 사처리 공간으로 사용하되 대 Block 공법을 위한 공간에 간섭이 충분히 되지 않게 벽을 설치한다.\n● Dry Pit에 모래사장을 달걀판 모양으로 제작하여 용선의 흐름을 조절한다.\n● 각 지통부에는 산을 만들고 1번 Stopper를 해체하면 다음 2번 Stopper 부에 용선이 고인후 지통으로 흐르는 방법으로 실시한다\n\n{{IMG_TR_002}}\n[그림.임시탕도 Layout]",
+      "placeholders": {
+        "IMG_TR_002": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/0f69d2f1a06e20efb4bcacce247494b2_7_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법 / 나. 잔선 수선방법 (예:포항 3고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "※ 노저 잔선 수선방법\n\n{{TB_STR_004}}",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p006_table_01.png"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법 / 나. 잔선 수선방법 (예:포항 3고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "### 4.1.5 노저출선 개공 기술\n일발개공기를 이용하여 노내에 잔존하는 연와 및 부착층을 개공할 수 있는 Bit 를 각각 사용하여 아래 개공 순서에 맞게 개공을 실시한다.\n\n#### 가. 개공 순서 (예 포함 4 고로)\n(1) Core Drill Bit 를 이용하여 연와를 단계적으로 개공한다. 개공후 측온을 하여 400~500℃가 되면 연와 개공 완료로 판단한다. (연와 개공 깊이 1300 ~ 2000mm) 만약 개공이 불가능할 경우 개공 위치를 한단계 올려서 동일한 방법으로 개공한다.",
+      "placeholders": {},
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.5 노저출선 개공 기술 / 가. 개공 순서 (예 포함 4 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "(2) 부착총 개공용 일발 Drill Bit 로 교체하여 부착총을 단계적으로 개공한다. 개공후 측온을 하여 800°C가 되면 부착총 개공 완료로 판단한다. (부착총 개공 깊이 500 ~ 1000mm) 만약, 일발 개공이 불가능할 경우 바로 산소 개공을 실시한다.\n\n(3) 일발개공한 부위의 온도가 800°C가 되면 일발개공기를 취외하고, 제강용 산소 Pipe 를 이용하여 산소 개공하여 노저출선 개공을 완료한다. (산소 Pipe 3~5ea 사용)\n\n※ 노저출선 개공 Flow\n\n{{IMG_SUM_015}}",
+      "placeholders": {
+        "IMG_SUM_015": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/92c1fcb4082d86ff748014200e35a57a_3_img.webp"
+      },
+      "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.5 노저출선 개공 기술 / 가. 개공 순서 (예 포함 4 고로)",
+      "filename": "노저 출선작업 기술기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "# 5 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "노저 출선작업 기술기준",
+      "page": 7
+    }
+  ]
+}

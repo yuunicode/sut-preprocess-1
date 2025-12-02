@@ -1,0 +1,166 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질영향 인자: [Si], [S] | 공정영향 인자: 품압, 노열"
+      ],
+      "table_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>[Si], [S]</td><td>품압, 노열</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>[Si], [S]</td><td>품압, 노열</td></tr></tbody></table><p><a href=\"components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점관리 항목",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: C/S 중심 평균Skin flow | A type: ↓↑ | B type: ↑↓",
+        "구분: Cross Sonde | A type: 노벽 노중심 (이미지: Line graph showing temperature (온도) decreasing linearly from the edge (노벽) towards the center (노중심).) | B type: 노벽 노중심 (이미지: Line graph showing temperature (온도) increasing parabolically from the edge (노벽) towards the center (노중심).)",
+        "구분: K풍압 표준편차노정온도 변화노체 방산열 | A type: ↓↓↓↓ | B type: ↑↑↑↑"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>A type</th><th>B type</th></tr></thead><tbody><tr><td>C/S 중심 평균<br/>Skin flow</td><td>↓<br/>↑</td><td>↑<br/>↓</td></tr><tr><td>Cross Sonde</td><td><img alt=\"Line graph showing temperature (온도) decreasing linearly from the edge (노벽) towards the center (노중심).\"/><br/>노벽 노중심</td><td><img alt=\"Line graph showing temperature (온도) increasing parabolically from the edge (노벽) towards the center (노중심).\"/><br/>노벽 노중심</td></tr><tr><td>K<br/>풍압 표준편차<br/>노정온도 변화<br/>노체 방산열</td><td>↓<br/>↓<br/>↓<br/>↓</td><td>↑<br/>↑<br/>↑<br/>↑</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>A type</th><th>B type</th></tr></thead><tbody><tr><td>C/S 중심 평균<br/>Skin flow</td><td>↓<br/>↑</td><td>↑<br/>↓</td></tr><tr><td>Cross Sonde</td><td><img alt=\"Line graph showing temperature (온도) decreasing linearly from the edge (노벽) towards the center (노중심).\"/><br/>노벽 노중심</td><td><img alt=\"Line graph showing temperature (온도) increasing parabolically from the edge (노벽) towards the center (노중심).\"/><br/>노벽 노중심</td></tr><tr><td>K<br/>풍압 표준편차<br/>노정온도 변화<br/>노체 방산열</td><td>↓<br/>↓<br/>↓<br/>↓</td><td>↑<br/>↑<br/>↑<br/>↑</td></tr></tbody></table><p><a href=\"components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.3 연화용착대 형상 변화에 따른 조입지수 변화 추정",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 3
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "그림 1. 용착대 형상 변화에 따른 Gas류 통과 형상. 좌측은 초기 형상 (A, B)을 보여주며, 오른쪽은 A형과 B형의 단면적 비교를 통해 Gas류 통과 경로를 시각화한 그림이다. A형은 역 V형으로 정상형태를 유지하고 있으며, B형은 근부가 비대하여 아래방향으로 처지며, Gas 통과 단면적은 A형에 비하여 작다.",
+      "context_html": "",
+      "full_html": "<img alt=\"그림 1. 용착대 형상 변화에 따른 Gas류 통과 형상. 좌측은 초기 형상 (A, B)을 보여주며, 오른쪽은 A형과 B형의 단면적 비교를 통해 Gas류 통과 경로를 시각화한 그림이다. A형은 역 V형으로 정상형태를 유지하고 있으며, B형은 근부가 비대하여 아래방향으로 처지며, Gas 통과 단면적은 A형에 비하여 작다.\" src=\"components/371e8964fede903a3c8ef918bc3ef887_15_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/371e8964fede903a3c8ef918bc3ef887_15_img.webp",
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.1 연화용착대 형상변화에 따른 Gas류 판단",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Diagram illustrating the cross-section of a furnace wall showing the 'Cross Sondes' (S1, S2, S3, S8, S9) and 'Skin flow' (Skin flow 온도). The diagram shows two scenarios, A and B, related to the shape of the molten zone (L and L') and the distance between the nose (노심) and the molten zone (ΔL and ΔL').",
+      "context_html": "",
+      "full_html": "<img alt=\"Diagram illustrating the cross-section of a furnace wall showing the 'Cross Sondes' (S1, S2, S3, S8, S9) and 'Skin flow' (Skin flow 온도). The diagram shows two scenarios, A and B, related to the shape of the molten zone (L and L') and the distance between the nose (노심) and the molten zone (ΔL and ΔL').\" src=\"components/9dffcd6c7a0dcd4858db1b2894bf123c_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/9dffcd6c7a0dcd4858db1b2894bf123c_6_img.webp",
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.2 연화융착대 형상에 따른 노황 변화",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 2
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로에서의 장입물 분포제어가 연화용착대 형상에 미치는 영향에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n● 안정된 연화용착대 형상도출로 노황안정 및 고로 생산성 향상\n● 각고로별 현재 연화용착대 형상 파악 및 향후 개선방안 제시",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리 항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점관리 항목",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 연화용착대 형성 및 노황에 미치는 영향",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "### 4.1.1 연화용착대 형상변화에 따른 Gas류 판단\n\n#### 가. Gas 분배기로서의 역할 중대 : Slit 층 면적 최대 확대 (Slit 개수 및 크기)\n아래 그림 1에서 A형은 용착대가 역 V형으로서 용착대 근부가 처지지 않고 정상형태를 유지하고 있으며 Gas를 통과 시킬 수 있는 반경방향의 단면적이 B형보다 크고 상부에서 하부까지 Coke Slit가 건전한 형태를 유지하고 있다\n\n반면에 B형태는 용착대 근부가 비대하여 아래방향으로 처지는 형으로 Gas 통과 단면적이 A형에 비하여 작고 Coke Slit 유지형태도 불안정하여 통기저항을 유발하게 된다\n\n{{IMG_TR_001}}\n그림 1. 용착대 형상 변화에 따른 Gas류 통과 형상",
+      "placeholders": {
+        "IMG_TR_001": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/371e8964fede903a3c8ef918bc3ef887_15_img.webp"
+      },
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.1 연화용착대 형상변화에 따른 Gas류 판단 / 가. Gas 분배기로서의 역할 중대 : Slit 층 면적 최대 확대 (Slit 개수 및 크기)",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "#### 나. 연화 융착대 벽부 근부두께 축소 (그림 1. A 형)\n● 연화 용력 온도 차이 축소\n● 노벽부 O/C의 과다한 증대 지양\n\n#### 다. 역 V 형 유지로 근부 처짐 방지 (그림 1. A 형)\n● 적하대 Coke 이동 및 Gas 흐름 원활 도모",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.1 연화용착대 형상변화에 따른 Gas류 판단 / 다. 역 V 형 유지로 근부 처짐 방지 (그림 1. A 형)",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "### 4.1.2 연화융착대 형상에 따른 노황 변화\n\n{{IMG_TR_002}}\nA 형: Δ L 길이가 길고, L' 길이는 짧음\n\n● 노심과 융착대 사이의 공극 확보가능(통기성 개선)\n● 융착대 ~ Skin Flow 간 Gas 흐름 용이\n\nB 형: Δ L' 길이가 짧고, L' 길이는 길\n\n● 노심과 융착대 사이의 공극 협소(통기성 악화)\n● 융착대 ~ Skin Flow 간 Gas 흐름 불리",
+      "placeholders": {
+        "IMG_TR_002": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/9dffcd6c7a0dcd4858db1b2894bf123c_6_img.webp"
+      },
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.2 연화융착대 형상에 따른 노황 변화",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "### 4.1.3 연화용착대 형상 변화에 따른 조입지수 변화 추정\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.3 연화용착대 형상 변화에 따른 조입지수 변화 추정",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "# 5 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "장입물 분포제어와 연화융착대 형상기준",
+      "page": 3
+    }
+  ]
+}

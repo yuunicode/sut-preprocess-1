@@ -1,0 +1,1290 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질영향 인자: [Si] [S] | 공정영향 인자: 풍압,노열"
+      ],
+      "table_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>[Si] [S]</td><td>풍압,노열</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질영향 인자</th><th>공정영향 인자</th></tr></thead><tbody><tr><td>[Si] [S]</td><td>풍압,노열</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점 관리항목",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "항 목: 고로 SLAG 염기도(CaO/SiO2) | 관리범위: 1.10 ~ 1.30 | 최적 조업범위: 1.25 ± 0.03 | 노황 조건: ○용선온도 1,500 °C○SLAG 중 Al2O3 14~16 %"
+      ],
+      "table_html": "<table><thead><tr><th>항 목</th><th>관리범위</th><th>최적 조업범위</th><th>노황 조건</th></tr></thead><tbody><tr><td>고로 SLAG 염기도<br/>(CaO/SiO2)</td><td>1.10 ~ 1.30</td><td>1.25 ± 0.03</td><td>○용선온도 1,500 °C<br/>○SLAG 중 Al2O3 14~16 %</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>항 목</th><th>관리범위</th><th>최적 조업범위</th><th>노황 조건</th></tr></thead><tbody><tr><td>고로 SLAG 염기도<br/>(CaO/SiO2)</td><td>1.10 ~ 1.30</td><td>1.25 ± 0.03</td><td>○용선온도 1,500 °C<br/>○SLAG 중 Al2O3 14~16 %</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "4. 조업기준 / 4.1 SLAG 염기도 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "염기성: FeO | 산성: SiO2 | 양(兩)성: Al₂O₃",
+        "염기성: MnO | 산성: P2O5 | 양(兩)성: Fe2O3",
+        "염기성: CaO | 산성: Cr2O3 | 양(兩)성: TiO2",
+        "염기성: MgO | 산성: WO3 | 양(兩)성: ",
+        "염기성: Na2O | 산성: V2O5 | 양(兩)성: ",
+        "염기성: K2O | 산성: Mo3 | 양(兩)성: "
+      ],
+      "table_html": "<table><thead><tr><th>염기성</th><th>산성</th><th>양(兩)성</th></tr></thead><tbody><tr><td>FeO</td><td>SiO2</td><td>Al₂O₃</td></tr><tr><td>MnO</td><td>P2O5</td><td>Fe2O3</td></tr><tr><td>CaO</td><td>Cr2O3</td><td>TiO2</td></tr><tr><td>MgO</td><td>WO3</td><td></td></tr><tr><td>Na2O</td><td>V2O5</td><td></td></tr><tr><td>K2O</td><td>Mo3</td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>염기성</th><th>산성</th><th>양(兩)성</th></tr></thead><tbody><tr><td>FeO</td><td>SiO2</td><td>Al₂O₃</td></tr><tr><td>MnO</td><td>P2O5</td><td>Fe2O3</td></tr><tr><td>CaO</td><td>Cr2O3</td><td>TiO2</td></tr><tr><td>MgO</td><td>WO3</td><td></td></tr><tr><td>Na2O</td><td>V2O5</td><td></td></tr><tr><td>K2O</td><td>Mo3</td><td></td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "6. 기술이론 / 6.2 SLAG 의 성분",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "물질명: 물(water) | 점도 (poise): 0.01",
+        "물질명: 흐름이 양호한 Slag | 점도 (poise): 3~6",
+        "물질명: 용선 | 점도 (poise): 0.04~0.08"
+      ],
+      "table_html": "<table><thead><tr><th>물질명</th><th>점도 (poise)</th></tr></thead><tbody><tr><td>물(water)</td><td>0.01</td></tr><tr><td>흐름이 양호한 Slag</td><td>3~6</td></tr><tr><td>용선</td><td>0.04~0.08</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>물질명</th><th>점도 (poise)</th></tr></thead><tbody><tr><td>물(water)</td><td>0.01</td></tr><tr><td>흐름이 양호한 Slag</td><td>3~6</td></tr><tr><td>용선</td><td>0.04~0.08</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p004_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 4
+    },
+    {
+      "id": "TB_STR_005",
+      "placeholder": "{{TB_STR_005}}",
+      "component_type": "table_structured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th></th><th colspan=\"7\">온도</th></tr><tr><th></th><th>1300</th><th>1350</th><th>1400</th><th>1450</th><th>1500</th><th>1550</th><th>1600</th></tr></thead><tbody><tr><th>A</th><td>&lt; 7.4</td><td>&lt; 5.1</td><td>&lt; 3.5</td><td>&lt; 2.6</td><td>&lt; 1.9</td><td>&lt; 1.5</td><td>&lt; 1.2</td></tr><tr><th>B</th><td>7.4 ~ 18.5</td><td>5.1 ~ 11.9</td><td>3.5 ~ 7.4</td><td>2.6 ~ 5.1</td><td>1.9 ~ 3.6</td><td>1.5 ~ 2.7</td><td>1.2 ~ 2.2</td></tr><tr><th>C</th><td>18.5 ~ 38.0</td><td>11.9 ~ 22.0</td><td>7.4 ~ 13.0</td><td>5.1 ~ 18.2</td><td>3.6 ~ 5.8</td><td>2.7 ~ 4.3</td><td>2.2 ~ 3.4</td></tr><tr><th>D</th><td>38.0 ~ 81.0</td><td>22.0 ~ 45.0</td><td>13.0 ~ 27.0</td><td>8.7 ~ 17.0</td><td>5.8 ~ 11.4</td><td>4.3 ~ 8.0</td><td>3.4 ~ 6.2</td></tr><tr><th>E</th><td>81.0 ~ 210.0</td><td>45.0 ~ 115.0</td><td>27.0 ~ 64.0</td><td>17.0 ~ 39.0</td><td>11.4 ~ 26.0</td><td>8.0 ~ 18.0</td><td>6.2 ~ 14.0</td></tr><tr><th>F</th><td>210.0 ~ 720.0</td><td>115.0 ~ 340.0</td><td>64.0 ~ 180.0</td><td>39.0 ~ 108.0</td><td>26.0 ~ 66.0</td><td>18.0 ~ 48.0</td><td>14.0 ~ 36.0</td></tr><tr><th>G</th><td>&gt; 720</td><td>&gt; 340</td><td>&gt; 180</td><td>&gt; 108</td><td>&gt; 66</td><td>&gt; 48</td><td>&gt; 36</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p013_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th colspan=\"7\">온도</th></tr><tr><th></th><th>1300</th><th>1350</th><th>1400</th><th>1450</th><th>1500</th><th>1550</th><th>1600</th></tr></thead><tbody><tr><th>A</th><td>&lt; 7.4</td><td>&lt; 5.1</td><td>&lt; 3.5</td><td>&lt; 2.6</td><td>&lt; 1.9</td><td>&lt; 1.5</td><td>&lt; 1.2</td></tr><tr><th>B</th><td>7.4 ~ 18.5</td><td>5.1 ~ 11.9</td><td>3.5 ~ 7.4</td><td>2.6 ~ 5.1</td><td>1.9 ~ 3.6</td><td>1.5 ~ 2.7</td><td>1.2 ~ 2.2</td></tr><tr><th>C</th><td>18.5 ~ 38.0</td><td>11.9 ~ 22.0</td><td>7.4 ~ 13.0</td><td>5.1 ~ 18.2</td><td>3.6 ~ 5.8</td><td>2.7 ~ 4.3</td><td>2.2 ~ 3.4</td></tr><tr><th>D</th><td>38.0 ~ 81.0</td><td>22.0 ~ 45.0</td><td>13.0 ~ 27.0</td><td>8.7 ~ 17.0</td><td>5.8 ~ 11.4</td><td>4.3 ~ 8.0</td><td>3.4 ~ 6.2</td></tr><tr><th>E</th><td>81.0 ~ 210.0</td><td>45.0 ~ 115.0</td><td>27.0 ~ 64.0</td><td>17.0 ~ 39.0</td><td>11.4 ~ 26.0</td><td>8.0 ~ 18.0</td><td>6.2 ~ 14.0</td></tr><tr><th>F</th><td>210.0 ~ 720.0</td><td>115.0 ~ 340.0</td><td>64.0 ~ 180.0</td><td>39.0 ~ 108.0</td><td>26.0 ~ 66.0</td><td>18.0 ~ 48.0</td><td>14.0 ~ 36.0</td></tr><tr><th>G</th><td>&gt; 720</td><td>&gt; 340</td><td>&gt; 180</td><td>&gt; 108</td><td>&gt; 66</td><td>&gt; 48</td><td>&gt; 36</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p013_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p013_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 13
+    },
+    {
+      "id": "TB_STR_006",
+      "placeholder": "{{TB_STR_006}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1295D | 10%: 1309D | 12%: 1319C | 14%: 1328C | 16%: 1344B | 18%: 1363B",
+        "MgO(%): 30% | 0%: - | 2%: - | 4%: 1311E | 6%: 1296D | 8%: 1293D | 10%: 1313D | 12%: 1326C | 14%: 1337C | 16%: 1348B | 18%: 1368B",
+        "MgO(%): 32% | 0%: 1373F | 2%: 1357E | 4%: 1332E | 6%: 1315D | 8%: 1296D | 10%: 1315C | 12%: 1334C | 14%: 1356B | 16%: 1369B | 18%: 1388B",
+        "MgO(%): 34% | 0%: 1393E | 2%: 1373E | 4%: 1356D | 6%: 1323D | 8%: 1304C | 10%: 1334C | 12%: 1358B | 14%: 1379B | 16%: 1390B | 18%: 1421B",
+        "MgO(%): 36% | 0%: 1413E | 2%: 1391D | 4%: 1369D | 6%: 1337C | 8%: 1320C | 10%: 1355B | 12%: 1382B | 14%: 1402B | 16%: 1416B | 18%: 1476B",
+        "MgO(%): 38% | 0%: 1434E | 2%: 1398D | 4%: 1370D | 6%: 1348C | 8%: 1334C | 10%: 1377B | 12%: 1405B | 14%: 1432B | 16%: 1468B | 18%: -",
+        "MgO(%): 40% | 0%: 1430D | 2%: 1400D | 4%: 1363C | 6%: 1346C | 8%: 1350B | 10%: 1402B | 12%: 1437B | 14%: 1458B | 16%: - | 18%: -",
+        "MgO(%): 42% | 0%: 1429D | 2%: 1392C | 4%: 1352C | 6%: 1357B | 8%: 1369B | 10%: 1441B | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 44% | 0%: 1415D | 2%: 1369C | 4%: 1348C | 6%: 1389B | 8%: 1396B | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 46% | 0%: 1382C | 2%: 1348C | 4%: 1397B | 6%: 1474B | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 48% | 0%: 1360C | 2%: 1413B | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -"
+      ],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1295D</td><td>1309D</td><td>1319C</td><td>1328C</td><td>1344B</td><td>1363B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>1311E</td><td>1296D</td><td>1293D</td><td>1313D</td><td>1326C</td><td>1337C</td><td>1348B</td><td>1368B</td></tr><tr><td>32%</td><td>1373F</td><td>1357E</td><td>1332E</td><td>1315D</td><td>1296D</td><td>1315C</td><td>1334C</td><td>1356B</td><td>1369B</td><td>1388B</td></tr><tr><td>34%</td><td>1393E</td><td>1373E</td><td>1356D</td><td>1323D</td><td>1304C</td><td>1334C</td><td>1358B</td><td>1379B</td><td>1390B</td><td>1421B</td></tr><tr><td>36%</td><td>1413E</td><td>1391D</td><td>1369D</td><td>1337C</td><td>1320C</td><td>1355B</td><td>1382B</td><td>1402B</td><td>1416B</td><td>1476B</td></tr><tr><td>38%</td><td>1434E</td><td>1398D</td><td>1370D</td><td>1348C</td><td>1334C</td><td>1377B</td><td>1405B</td><td>1432B</td><td>1468B</td><td>-</td></tr><tr><td>40%</td><td>1430D</td><td>1400D</td><td>1363C</td><td>1346C</td><td>1350B</td><td>1402B</td><td>1437B</td><td>1458B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1429D</td><td>1392C</td><td>1352C</td><td>1357B</td><td>1369B</td><td>1441B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1415D</td><td>1369C</td><td>1348C</td><td>1389B</td><td>1396B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1382C</td><td>1348C</td><td>1397B</td><td>1474B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1360C</td><td>1413B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1295D</td><td>1309D</td><td>1319C</td><td>1328C</td><td>1344B</td><td>1363B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>1311E</td><td>1296D</td><td>1293D</td><td>1313D</td><td>1326C</td><td>1337C</td><td>1348B</td><td>1368B</td></tr><tr><td>32%</td><td>1373F</td><td>1357E</td><td>1332E</td><td>1315D</td><td>1296D</td><td>1315C</td><td>1334C</td><td>1356B</td><td>1369B</td><td>1388B</td></tr><tr><td>34%</td><td>1393E</td><td>1373E</td><td>1356D</td><td>1323D</td><td>1304C</td><td>1334C</td><td>1358B</td><td>1379B</td><td>1390B</td><td>1421B</td></tr><tr><td>36%</td><td>1413E</td><td>1391D</td><td>1369D</td><td>1337C</td><td>1320C</td><td>1355B</td><td>1382B</td><td>1402B</td><td>1416B</td><td>1476B</td></tr><tr><td>38%</td><td>1434E</td><td>1398D</td><td>1370D</td><td>1348C</td><td>1334C</td><td>1377B</td><td>1405B</td><td>1432B</td><td>1468B</td><td>-</td></tr><tr><td>40%</td><td>1430D</td><td>1400D</td><td>1363C</td><td>1346C</td><td>1350B</td><td>1402B</td><td>1437B</td><td>1458B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1429D</td><td>1392C</td><td>1352C</td><td>1357B</td><td>1369B</td><td>1441B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1415D</td><td>1369C</td><td>1348C</td><td>1389B</td><td>1396B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1382C</td><td>1348C</td><td>1397B</td><td>1474B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1360C</td><td>1413B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 14
+    },
+    {
+      "id": "TB_STR_007",
+      "placeholder": "{{TB_STR_007}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1291D | 10%: 1306D | 12%: 1317C | 14%: 1328C | 16%: 1344B | 18%: 1363B",
+        "MgO(%): 30% | 0%: - | 2%: - | 4%: 1305E | 6%: 1291D | 8%: 1290D | 10%: 1308C | 12%: 1324C | 14%: 1337B | 16%: 1348B | 18%: 1365B",
+        "MgO(%): 32% | 0%: 1368F | 2%: 1349E | 4%: 1325E | 6%: 1304D | 8%: 1293D | 10%: 1314C | 12%: 1338C | 14%: 1356B | 16%: 1364B | 18%: 1386B",
+        "MgO(%): 34% | 0%: 1390E | 2%: 1367E | 4%: 1347D | 6%: 1313D | 8%: 1307C | 10%: 1335C | 12%: 1360B | 14%: 1376B | 16%: 1388B | 18%: 1423B",
+        "MgO(%): 36% | 0%: 1408E | 2%: 1385D | 4%: 1356D | 6%: 1329C | 8%: 1326C | 10%: 1355B | 12%: 1382B | 14%: 1397B | 16%: 1417B | 18%: 1490B",
+        "MgO(%): 38% | 0%: 1418E | 2%: 1386D | 4%: 1354C | 6%: 1337C | 8%: 1344C | 10%: 1375B | 12%: 1400B | 14%: 1435B | 16%: 1473B | 18%: -",
+        "MgO(%): 40% | 0%: 1421D | 2%: 1383D | 4%: 1345C | 6%: 1340C | 8%: 1366B | 10%: 1399B | 12%: 1442B | 14%: 1489B | 16%: - | 18%: -",
+        "MgO(%): 42% | 0%: 1414D | 2%: 1372C | 4%: 1337C | 6%: 1358B | 8%: 1390B | 10%: 1446B | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 44% | 0%: 1392C | 2%: 1347C | 4%: 1342B | 6%: 1394B | 8%: 1434B | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 46% | 0%: 1357C | 2%: 1342B | 4%: 1409B | 6%: 1495B | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 48% | 0%: 1358C | 2%: 1434B | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -"
+      ],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1291D</td><td>1306D</td><td>1317C</td><td>1328C</td><td>1344B</td><td>1363B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>1305E</td><td>1291D</td><td>1290D</td><td>1308C</td><td>1324C</td><td>1337B</td><td>1348B</td><td>1365B</td></tr><tr><td>32%</td><td>1368F</td><td>1349E</td><td>1325E</td><td>1304D</td><td>1293D</td><td>1314C</td><td>1338C</td><td>1356B</td><td>1364B</td><td>1386B</td></tr><tr><td>34%</td><td>1390E</td><td>1367E</td><td>1347D</td><td>1313D</td><td>1307C</td><td>1335C</td><td>1360B</td><td>1376B</td><td>1388B</td><td>1423B</td></tr><tr><td>36%</td><td>1408E</td><td>1385D</td><td>1356D</td><td>1329C</td><td>1326C</td><td>1355B</td><td>1382B</td><td>1397B</td><td>1417B</td><td>1490B</td></tr><tr><td>38%</td><td>1418E</td><td>1386D</td><td>1354C</td><td>1337C</td><td>1344C</td><td>1375B</td><td>1400B</td><td>1435B</td><td>1473B</td><td>-</td></tr><tr><td>40%</td><td>1421D</td><td>1383D</td><td>1345C</td><td>1340C</td><td>1366B</td><td>1399B</td><td>1442B</td><td>1489B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1414D</td><td>1372C</td><td>1337C</td><td>1358B</td><td>1390B</td><td>1446B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1392C</td><td>1347C</td><td>1342B</td><td>1394B</td><td>1434B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1357C</td><td>1342B</td><td>1409B</td><td>1495B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1358C</td><td>1434B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1291D</td><td>1306D</td><td>1317C</td><td>1328C</td><td>1344B</td><td>1363B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>1305E</td><td>1291D</td><td>1290D</td><td>1308C</td><td>1324C</td><td>1337B</td><td>1348B</td><td>1365B</td></tr><tr><td>32%</td><td>1368F</td><td>1349E</td><td>1325E</td><td>1304D</td><td>1293D</td><td>1314C</td><td>1338C</td><td>1356B</td><td>1364B</td><td>1386B</td></tr><tr><td>34%</td><td>1390E</td><td>1367E</td><td>1347D</td><td>1313D</td><td>1307C</td><td>1335C</td><td>1360B</td><td>1376B</td><td>1388B</td><td>1423B</td></tr><tr><td>36%</td><td>1408E</td><td>1385D</td><td>1356D</td><td>1329C</td><td>1326C</td><td>1355B</td><td>1382B</td><td>1397B</td><td>1417B</td><td>1490B</td></tr><tr><td>38%</td><td>1418E</td><td>1386D</td><td>1354C</td><td>1337C</td><td>1344C</td><td>1375B</td><td>1400B</td><td>1435B</td><td>1473B</td><td>-</td></tr><tr><td>40%</td><td>1421D</td><td>1383D</td><td>1345C</td><td>1340C</td><td>1366B</td><td>1399B</td><td>1442B</td><td>1489B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1414D</td><td>1372C</td><td>1337C</td><td>1358B</td><td>1390B</td><td>1446B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1392C</td><td>1347C</td><td>1342B</td><td>1394B</td><td>1434B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1357C</td><td>1342B</td><td>1409B</td><td>1495B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1358C</td><td>1434B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_02.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 14
+    },
+    {
+      "id": "TB_STR_008",
+      "placeholder": "{{TB_STR_008}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: - | 12%: 1314C | 14%: 1327C | 16%: 1343B | 18%: 1366B",
+        "MgO(%): 30% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: 1301C | 12%: 1321C | 14%: 1336B | 16%: 1351B | 18%: 1367B",
+        "MgO(%): 32% | 0%: - | 2%: - | 4%: - | 6%: 1293D | 8%: 1290D | 10%: 1314C | 12%: 1339C | 14%: 1355B | 16%: 1366B | 18%: 1395B",
+        "MgO(%): 34% | 0%: 1384E | 2%: 1361E | 4%: 1334D | 6%: 1305D | 8%: 1310C | 10%: 1336C | 12%: 1360B | 14%: 1374B | 16%: 1391B | 18%: 1433B",
+        "MgO(%): 36% | 0%: 1399E | 2%: 1373D | 4%: 1342D | 6%: 1323C | 8%: 1333C | 10%: 1354B | 12%: 1380B | 14%: 1398B | 16%: 1426B | 18%: 1395B",
+        "MgO(%): 38% | 0%: 1410E | 2%: 1372D | 4%: 1339C | 6%: 1330C | 8%: 1355C | 10%: 1374B | 12%: 1399B | 14%: 1440B | 16%: 1480B | 18%: -",
+        "MgO(%): 40% | 0%: 1407D | 2%: 1367D | 4%: 1331C | 6%: 1340C | 8%: 1383B | 10%: 1402B | 12%: 1452B | 14%: 1496B | 16%: - | 18%: -",
+        "MgO(%): 42% | 0%: 1397D | 2%: 1354C | 4%: 1332C | 6%: 1358B | 8%: 1410B | 10%: 1452B | 12%: 1497B | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 44% | 0%: 1369C | 2%: 1332C | 4%: 1345B | 6%: 1394B | 8%: 1466B | 10%: 1528B | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 46% | 0%: 1338C | 2%: 1347C | 4%: 1428B | 6%: 1495B | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -",
+        "MgO(%): 48% | 0%: 1371C | 2%: 1451B | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: - | 18%: -"
+      ],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1314C</td><td>1327C</td><td>1343B</td><td>1366B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1301C</td><td>1321C</td><td>1336B</td><td>1351B</td><td>1367B</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>-</td><td>1293D</td><td>1290D</td><td>1314C</td><td>1339C</td><td>1355B</td><td>1366B</td><td>1395B</td></tr><tr><td>34%</td><td>1384E</td><td>1361E</td><td>1334D</td><td>1305D</td><td>1310C</td><td>1336C</td><td>1360B</td><td>1374B</td><td>1391B</td><td>1433B</td></tr><tr><td>36%</td><td>1399E</td><td>1373D</td><td>1342D</td><td>1323C</td><td>1333C</td><td>1354B</td><td>1380B</td><td>1398B</td><td>1426B</td><td>1395B</td></tr><tr><td>38%</td><td>1410E</td><td>1372D</td><td>1339C</td><td>1330C</td><td>1355C</td><td>1374B</td><td>1399B</td><td>1440B</td><td>1480B</td><td>-</td></tr><tr><td>40%</td><td>1407D</td><td>1367D</td><td>1331C</td><td>1340C</td><td>1383B</td><td>1402B</td><td>1452B</td><td>1496B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1397D</td><td>1354C</td><td>1332C</td><td>1358B</td><td>1410B</td><td>1452B</td><td>1497B</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1369C</td><td>1332C</td><td>1345B</td><td>1394B</td><td>1466B</td><td>1528B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1338C</td><td>1347C</td><td>1428B</td><td>1495B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1371C</td><td>1451B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><td>CaO(%)-- 28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1314C</td><td>1327C</td><td>1343B</td><td>1366B</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1301C</td><td>1321C</td><td>1336B</td><td>1351B</td><td>1367B</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>-</td><td>1293D</td><td>1290D</td><td>1314C</td><td>1339C</td><td>1355B</td><td>1366B</td><td>1395B</td></tr><tr><td>34%</td><td>1384E</td><td>1361E</td><td>1334D</td><td>1305D</td><td>1310C</td><td>1336C</td><td>1360B</td><td>1374B</td><td>1391B</td><td>1433B</td></tr><tr><td>36%</td><td>1399E</td><td>1373D</td><td>1342D</td><td>1323C</td><td>1333C</td><td>1354B</td><td>1380B</td><td>1398B</td><td>1426B</td><td>1395B</td></tr><tr><td>38%</td><td>1410E</td><td>1372D</td><td>1339C</td><td>1330C</td><td>1355C</td><td>1374B</td><td>1399B</td><td>1440B</td><td>1480B</td><td>-</td></tr><tr><td>40%</td><td>1407D</td><td>1367D</td><td>1331C</td><td>1340C</td><td>1383B</td><td>1402B</td><td>1452B</td><td>1496B</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1397D</td><td>1354C</td><td>1332C</td><td>1358B</td><td>1410B</td><td>1452B</td><td>1497B</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1369C</td><td>1332C</td><td>1345B</td><td>1394B</td><td>1466B</td><td>1528B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1338C</td><td>1347C</td><td>1428B</td><td>1495B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>1371C</td><td>1451B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_03.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 14
+    },
+    {
+      "id": "TB_STR_009",
+      "placeholder": "{{TB_STR_009}}",
+      "component_type": "table_structured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1304C</td><td>1324C</td><td>1344B</td><td>1375B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1293C</td><td>1316C</td><td>1334B</td><td>1362B</td><td>1384B</td></tr><tr><th></th><td>32%</td><td>-</td><td>1305D</td><td>1281D</td><td>1285C</td><td>1313C</td><td>1337C</td><td>1358B</td><td>1381B</td><td>1418B</td></tr><tr><th></th><td>34%</td><td>1371E</td><td>1348E</td><td>1319D</td><td>1297D</td><td>1309C</td><td>1337C</td><td>1362B</td><td>1380B</td><td>1403B</td></tr><tr><th></th><td>36%</td><td>1382E</td><td>1357D</td><td>1328D</td><td>1318C</td><td>1336C</td><td>1358B</td><td>1386B</td><td>1404B</td><td>1440B</td></tr><tr><th></th><td>38%</td><td>1392D</td><td>1356D</td><td>1328C</td><td>1330C</td><td>1364B</td><td>1382B</td><td>1406B</td><td>1448B</td><td>1491B</td></tr><tr><th></th><td>40%</td><td>1388D</td><td>1354D</td><td>1329C</td><td>1350C</td><td>1395B</td><td>1414B</td><td>1458B</td><td>1501B</td><td>-</td></tr><tr><th></th><td>42%</td><td>1383D</td><td>1345C</td><td>1344C</td><td>1380B</td><td>1423B</td><td>1463B</td><td>1498B</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1357C</td><td>1338C</td><td>1366B</td><td>1425B</td><td>1481B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1341C</td><td>1370C</td><td>1457B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1401C</td><td>1478B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1304C</td><td>1324C</td><td>1344B</td><td>1375B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1293C</td><td>1316C</td><td>1334B</td><td>1362B</td><td>1384B</td></tr><tr><th></th><td>32%</td><td>-</td><td>1305D</td><td>1281D</td><td>1285C</td><td>1313C</td><td>1337C</td><td>1358B</td><td>1381B</td><td>1418B</td></tr><tr><th></th><td>34%</td><td>1371E</td><td>1348E</td><td>1319D</td><td>1297D</td><td>1309C</td><td>1337C</td><td>1362B</td><td>1380B</td><td>1403B</td></tr><tr><th></th><td>36%</td><td>1382E</td><td>1357D</td><td>1328D</td><td>1318C</td><td>1336C</td><td>1358B</td><td>1386B</td><td>1404B</td><td>1440B</td></tr><tr><th></th><td>38%</td><td>1392D</td><td>1356D</td><td>1328C</td><td>1330C</td><td>1364B</td><td>1382B</td><td>1406B</td><td>1448B</td><td>1491B</td></tr><tr><th></th><td>40%</td><td>1388D</td><td>1354D</td><td>1329C</td><td>1350C</td><td>1395B</td><td>1414B</td><td>1458B</td><td>1501B</td><td>-</td></tr><tr><th></th><td>42%</td><td>1383D</td><td>1345C</td><td>1344C</td><td>1380B</td><td>1423B</td><td>1463B</td><td>1498B</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1357C</td><td>1338C</td><td>1366B</td><td>1425B</td><td>1481B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1341C</td><td>1370C</td><td>1457B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1401C</td><td>1478B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 15
+    },
+    {
+      "id": "TB_STR_010",
+      "placeholder": "{{TB_STR_010}}",
+      "component_type": "table_structured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1295C</td><td>1320C</td><td>1346B</td><td>1387B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>1265D</td><td>1289C</td><td>1313C</td><td>1331B</td><td>1376B</td><td>1407B</td></tr><tr><th></th><td>32%</td><td>-</td><td>-</td><td>1290D</td><td>1268D</td><td>1281C</td><td>1314C</td><td>1333B</td><td>1364B</td><td>1397B</td></tr><tr><th></th><td>34%</td><td>1356E</td><td>1334E</td><td>1303D</td><td>1287D</td><td>1308C</td><td>1339C</td><td>1366B</td><td>1388B</td><td>1417B</td></tr><tr><th></th><td>36%</td><td>1366E</td><td>1341D</td><td>1317D</td><td>1317D</td><td>1342C</td><td>1365B</td><td>1390B</td><td>1414B</td><td>1453B</td></tr><tr><th></th><td>38%</td><td>1374D</td><td>1341D</td><td>1322C</td><td>1335C</td><td>1377B</td><td>1392B</td><td>1419B</td><td>1454B</td><td>1503B</td></tr><tr><th></th><td>40%</td><td>1372D</td><td>1341D</td><td>1332C</td><td>1367C</td><td>1409B</td><td>1428B</td><td>1457B</td><td>1503B</td><td>-</td></tr><tr><th></th><td>42%</td><td>1367D</td><td>1341C</td><td>1363C</td><td>1399B</td><td>1437B</td><td>1469B</td><td>1499B</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1349C</td><td>1359C</td><td>1398B</td><td>1446B</td><td>1493B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1361C</td><td>1403C</td><td>1477B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1437C</td><td>1496B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1295C</td><td>1320C</td><td>1346B</td><td>1387B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>1265D</td><td>1289C</td><td>1313C</td><td>1331B</td><td>1376B</td><td>1407B</td></tr><tr><th></th><td>32%</td><td>-</td><td>-</td><td>1290D</td><td>1268D</td><td>1281C</td><td>1314C</td><td>1333B</td><td>1364B</td><td>1397B</td></tr><tr><th></th><td>34%</td><td>1356E</td><td>1334E</td><td>1303D</td><td>1287D</td><td>1308C</td><td>1339C</td><td>1366B</td><td>1388B</td><td>1417B</td></tr><tr><th></th><td>36%</td><td>1366E</td><td>1341D</td><td>1317D</td><td>1317D</td><td>1342C</td><td>1365B</td><td>1390B</td><td>1414B</td><td>1453B</td></tr><tr><th></th><td>38%</td><td>1374D</td><td>1341D</td><td>1322C</td><td>1335C</td><td>1377B</td><td>1392B</td><td>1419B</td><td>1454B</td><td>1503B</td></tr><tr><th></th><td>40%</td><td>1372D</td><td>1341D</td><td>1332C</td><td>1367C</td><td>1409B</td><td>1428B</td><td>1457B</td><td>1503B</td><td>-</td></tr><tr><th></th><td>42%</td><td>1367D</td><td>1341C</td><td>1363C</td><td>1399B</td><td>1437B</td><td>1469B</td><td>1499B</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1349C</td><td>1359C</td><td>1398B</td><td>1446B</td><td>1493B</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1361C</td><td>1403C</td><td>1477B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1437C</td><td>1496B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_02.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 15
+    },
+    {
+      "id": "TB_STR_011",
+      "placeholder": "{{TB_STR_011}}",
+      "component_type": "table_structured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1289C</td><td>1316C</td><td>1353B</td><td>1402B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>1258D</td><td>1287C</td><td>1310C</td><td>1334B</td><td>1390B</td><td>1430B</td></tr><tr><th></th><td>32%</td><td>-</td><td>1298E</td><td>1276D</td><td>1258D</td><td>1280C</td><td>1314C</td><td>1335B</td><td>1371B</td><td>1410B</td></tr><tr><th></th><td>34%</td><td>1341E</td><td>1318D</td><td>1289D</td><td>1282C</td><td>1311C</td><td>1344B</td><td>1371B</td><td>1396B</td><td>1429B</td></tr><tr><th></th><td>36%</td><td>1349E</td><td>1326D</td><td>1308D</td><td>1317C</td><td>1350C</td><td>1373B</td><td>1396B</td><td>1425B</td><td>1462B</td></tr><tr><th></th><td>38%</td><td>1355D</td><td>1327D</td><td>1318C</td><td>1344C</td><td>1388B</td><td>1402B</td><td>1425B</td><td>1456B</td><td>-</td></tr><tr><th></th><td>40%</td><td>1356D</td><td>1333C</td><td>1342C</td><td>1384B</td><td>1420B</td><td>1436B</td><td>1456B</td><td>-</td><td>-</td></tr><tr><th></th><td>42%</td><td>1354D</td><td>1347C</td><td>1383C</td><td>1414B</td><td>144B</td><td>1470B</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1351C</td><td>1378C</td><td>1421B</td><td>1451B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1381C</td><td>1425B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1465C</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>MgO(%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th>18%</th></tr></thead><tbody><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1289C</td><td>1316C</td><td>1353B</td><td>1402B</td></tr><tr><th></th><td>30%</td><td>-</td><td>-</td><td>-</td><td>1258D</td><td>1287C</td><td>1310C</td><td>1334B</td><td>1390B</td><td>1430B</td></tr><tr><th></th><td>32%</td><td>-</td><td>1298E</td><td>1276D</td><td>1258D</td><td>1280C</td><td>1314C</td><td>1335B</td><td>1371B</td><td>1410B</td></tr><tr><th></th><td>34%</td><td>1341E</td><td>1318D</td><td>1289D</td><td>1282C</td><td>1311C</td><td>1344B</td><td>1371B</td><td>1396B</td><td>1429B</td></tr><tr><th></th><td>36%</td><td>1349E</td><td>1326D</td><td>1308D</td><td>1317C</td><td>1350C</td><td>1373B</td><td>1396B</td><td>1425B</td><td>1462B</td></tr><tr><th></th><td>38%</td><td>1355D</td><td>1327D</td><td>1318C</td><td>1344C</td><td>1388B</td><td>1402B</td><td>1425B</td><td>1456B</td><td>-</td></tr><tr><th></th><td>40%</td><td>1356D</td><td>1333C</td><td>1342C</td><td>1384B</td><td>1420B</td><td>1436B</td><td>1456B</td><td>-</td><td>-</td></tr><tr><th></th><td>42%</td><td>1354D</td><td>1347C</td><td>1383C</td><td>1414B</td><td>144B</td><td>1470B</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>44%</td><td>1351C</td><td>1378C</td><td>1421B</td><td>1451B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>46%</td><td>1381C</td><td>1425B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><th></th><td>48%</td><td>1465C</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_03.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 15
+    },
+    {
+      "id": "TB_STR_012",
+      "placeholder": "{{TB_STR_012}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%) > CaO(%):  | 0% > 28%: 30% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1296D: 1304C | 10% > 1319C: 1347C | 12% > 1414C: 1437B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 32% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1296D: 1313C | 10% > 1319C: 1343C | 12% > 1414C: 1398B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 34% | 2% > -: - | 4% > -: 1298D | 6% > -: 1322D | 8% > 1296D: 1362C | 10% > 1319C: 1394C | 12% > 1414C: 1436B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 36% | 2% > -: 1306D | 4% > -: 1340D | 6% > -: 1385C | 8% > 1296D: 1412C | 10% > 1319C: 1429B | 12% > 1414C: 1450B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 38% | 2% > -: 1342D | 4% > -: 1404D | 6% > -: 1434C | 8% > 1296D: 1451C | 10% > 1319C: 1452B | 12% > 1414C: 1454B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 40% | 2% > -: 1411D | 4% > -: 1453C | 6% > -: 1468C | 8% > 1296D: 1472B | 10% > 1319C: 1460B | 12% > 1414C: 1452B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 42% | 2% > -: 1468C | 4% > -: 1492C | 6% > -: 1496B | 8% > 1296D: 1482B | 10% > 1319C: 1468B | 12% > 1414C: 1471B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 44% | 2% > -: 1506C | 4% > -: 1517C | 6% > -: 1508B | 8% > 1296D: 1495B | 10% > 1319C: 1511B | 12% > 1414C: 1523B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 46% | 2% > -: 1528C | 4% > -: 1538B | 6% > -: 1535B | 8% > 1296D: 1572B | 10% > 1319C: 1580B | 12% > 1414C: -",
+        "MgO(%) > CaO(%):  | 0% > 28%: 48% | 2% > -: 1546B | 4% > -: - | 6% > -: - | 8% > 1296D: - | 10% > 1319C: - | 12% > 1414C: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1296D</td><td>1319C</td><td>1414C</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1304C</td><td>1347C</td><td>1437B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>-</td><td>1313C</td><td>1343C</td><td>1398B</td></tr><tr><td></td><td>34%</td><td>-</td><td>1298D</td><td>1322D</td><td>1362C</td><td>1394C</td><td>1436B</td></tr><tr><td></td><td>36%</td><td>1306D</td><td>1340D</td><td>1385C</td><td>1412C</td><td>1429B</td><td>1450B</td></tr><tr><td></td><td>38%</td><td>1342D</td><td>1404D</td><td>1434C</td><td>1451C</td><td>1452B</td><td>1454B</td></tr><tr><td></td><td>40%</td><td>1411D</td><td>1453C</td><td>1468C</td><td>1472B</td><td>1460B</td><td>1452B</td></tr><tr><td></td><td>42%</td><td>1468C</td><td>1492C</td><td>1496B</td><td>1482B</td><td>1468B</td><td>1471B</td></tr><tr><td></td><td>44%</td><td>1506C</td><td>1517C</td><td>1508B</td><td>1495B</td><td>1511B</td><td>1523B</td></tr><tr><td></td><td>46%</td><td>1528C</td><td>1538B</td><td>1535B</td><td>1572B</td><td>1580B</td><td>-</td></tr><tr><td></td><td>48%</td><td>1546B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1296D</td><td>1319C</td><td>1414C</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1304C</td><td>1347C</td><td>1437B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>-</td><td>1313C</td><td>1343C</td><td>1398B</td></tr><tr><td></td><td>34%</td><td>-</td><td>1298D</td><td>1322D</td><td>1362C</td><td>1394C</td><td>1436B</td></tr><tr><td></td><td>36%</td><td>1306D</td><td>1340D</td><td>1385C</td><td>1412C</td><td>1429B</td><td>1450B</td></tr><tr><td></td><td>38%</td><td>1342D</td><td>1404D</td><td>1434C</td><td>1451C</td><td>1452B</td><td>1454B</td></tr><tr><td></td><td>40%</td><td>1411D</td><td>1453C</td><td>1468C</td><td>1472B</td><td>1460B</td><td>1452B</td></tr><tr><td></td><td>42%</td><td>1468C</td><td>1492C</td><td>1496B</td><td>1482B</td><td>1468B</td><td>1471B</td></tr><tr><td></td><td>44%</td><td>1506C</td><td>1517C</td><td>1508B</td><td>1495B</td><td>1511B</td><td>1523B</td></tr><tr><td></td><td>46%</td><td>1528C</td><td>1538B</td><td>1535B</td><td>1572B</td><td>1580B</td><td>-</td></tr><tr><td></td><td>48%</td><td>1546B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 17
+    },
+    {
+      "id": "TB_STR_013",
+      "placeholder": "{{TB_STR_013}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%) > CaO(%):  | 0% > 28%: 30% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1316C: 1330C | 10% > 1357C: 1386C | 12% > 1442B: 1462B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 32% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1316C: 1331C | 10% > 1357C: 1375C | 12% > 1442B: 1433B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 34% | 2% > -: - | 4% > -: 1305D | 6% > -: 1346D | 8% > 1316C: 1380C | 10% > 1357C: 1413C | 12% > 1442B: 1456B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 36% | 2% > -: 1319D | 4% > -: 1367D | 6% > -: 1403C | 8% > 1316C: 1428C | 10% > 1357C: 1441B | 12% > 1442B: 1465B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 38% | 2% > -: 1366D | 4% > -: 1422D | 6% > -: 1450C | 8% > 1316C: 1459B | 10% > 1357C: 1461B | 12% > 1442B: 1463B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 40% | 2% > -: 1438D | 4% > -: 1467C | 6% > -: 1481C | 8% > 1316C: 1478B | 10% > 1357C: 1464B | 12% > 1442B: 1459B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 42% | 2% > -: 1487D | 4% > -: 1505C | 6% > -: 1503B | 8% > 1316C: 1486B | 10% > 1357C: 1473B | 12% > 1442B: 1478B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 44% | 2% > -: 1521C | 4% > -: 1530C | 6% > -: 1515B | 8% > 1316C: 1508B | 10% > 1357C: 1511B | 12% > 1442B: 1516B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 46% | 2% > -: 1541C | 4% > -: 1552B | 6% > -: 1549B | 8% > 1316C: 1568B | 10% > 1357C: 1566B | 12% > 1442B: -",
+        "MgO(%) > CaO(%):  | 0% > 28%: 48% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1316C: - | 10% > 1357C: - | 12% > 1442B: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1316C</td><td>1357C</td><td>1442B</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1330C</td><td>1386C</td><td>1462B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>-</td><td>1331C</td><td>1375C</td><td>1433B</td></tr><tr><td></td><td>34%</td><td>-</td><td>1305D</td><td>1346D</td><td>1380C</td><td>1413C</td><td>1456B</td></tr><tr><td></td><td>36%</td><td>1319D</td><td>1367D</td><td>1403C</td><td>1428C</td><td>1441B</td><td>1465B</td></tr><tr><td></td><td>38%</td><td>1366D</td><td>1422D</td><td>1450C</td><td>1459B</td><td>1461B</td><td>1463B</td></tr><tr><td></td><td>40%</td><td>1438D</td><td>1467C</td><td>1481C</td><td>1478B</td><td>1464B</td><td>1459B</td></tr><tr><td></td><td>42%</td><td>1487D</td><td>1505C</td><td>1503B</td><td>1486B</td><td>1473B</td><td>1478B</td></tr><tr><td></td><td>44%</td><td>1521C</td><td>1530C</td><td>1515B</td><td>1508B</td><td>1511B</td><td>1516B</td></tr><tr><td></td><td>46%</td><td>1541C</td><td>1552B</td><td>1549B</td><td>1568B</td><td>1566B</td><td>-</td></tr><tr><td></td><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1316C</td><td>1357C</td><td>1442B</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1330C</td><td>1386C</td><td>1462B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>-</td><td>1331C</td><td>1375C</td><td>1433B</td></tr><tr><td></td><td>34%</td><td>-</td><td>1305D</td><td>1346D</td><td>1380C</td><td>1413C</td><td>1456B</td></tr><tr><td></td><td>36%</td><td>1319D</td><td>1367D</td><td>1403C</td><td>1428C</td><td>1441B</td><td>1465B</td></tr><tr><td></td><td>38%</td><td>1366D</td><td>1422D</td><td>1450C</td><td>1459B</td><td>1461B</td><td>1463B</td></tr><tr><td></td><td>40%</td><td>1438D</td><td>1467C</td><td>1481C</td><td>1478B</td><td>1464B</td><td>1459B</td></tr><tr><td></td><td>42%</td><td>1487D</td><td>1505C</td><td>1503B</td><td>1486B</td><td>1473B</td><td>1478B</td></tr><tr><td></td><td>44%</td><td>1521C</td><td>1530C</td><td>1515B</td><td>1508B</td><td>1511B</td><td>1516B</td></tr><tr><td></td><td>46%</td><td>1541C</td><td>1552B</td><td>1549B</td><td>1568B</td><td>1566B</td><td>-</td></tr><tr><td></td><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_02.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 17
+    },
+    {
+      "id": "TB_STR_014",
+      "placeholder": "{{TB_STR_014}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "MgO(%) > CaO(%):  | 0% > 28%: 30% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1338C: 1359C | 10% > 1397C: 1423C | 12% > 1471B: 1485B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 32% | 2% > -: - | 4% > -: - | 6% > -: 1309D | 8% > 1338C: 1347C | 10% > 1397C: 1403C | 12% > 1471B: 1461B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 34% | 2% > -: 1327E | 4% > -: 1322D | 6% > -: 1366D | 8% > 1338C: 1399C | 10% > 1397C: 1426C | 12% > 1471B: 1471B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 36% | 2% > -: 1336D | 4% > -: 1390D | 6% > -: 1423C | 8% > 1338C: 1443C | 10% > 1397C: 1449B | 12% > 1471B: 1479B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 38% | 2% > -: 1398D | 4% > -: 1440D | 6% > -: 1466C | 8% > 1338C: 1463B | 10% > 1397C: 1468B | 12% > 1471B: 1470B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 40% | 2% > -: 1459D | 4% > -: 1484C | 6% > -: 1494C | 8% > 1338C: 1483B | 10% > 1397C: 1465B | 12% > 1471B: 1461B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 42% | 2% > -: 1506C | 4% > -: 1517C | 6% > -: 1506B | 8% > 1338C: 1491B | 10% > 1397C: 1476B | 12% > 1471B: 1479B",
+        "MgO(%) > CaO(%):  | 0% > 28%: 44% | 2% > -: 1535C | 4% > -: 1544C | 6% > -: 1521B | 8% > 1338C: 1510B | 10% > 1397C: 1504B | 12% > 1471B: -",
+        "MgO(%) > CaO(%):  | 0% > 28%: 46% | 2% > -: 1553C | 4% > -: - | 6% > -: - | 8% > 1338C: 1551B | 10% > 1397C: - | 12% > 1471B: -",
+        "MgO(%) > CaO(%):  | 0% > 28%: 48% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1338C: - | 10% > 1397C: - | 12% > 1471B: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1338C</td><td>1397C</td><td>1471B</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1359C</td><td>1423C</td><td>1485B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>1309D</td><td>1347C</td><td>1403C</td><td>1461B</td></tr><tr><td></td><td>34%</td><td>1327E</td><td>1322D</td><td>1366D</td><td>1399C</td><td>1426C</td><td>1471B</td></tr><tr><td></td><td>36%</td><td>1336D</td><td>1390D</td><td>1423C</td><td>1443C</td><td>1449B</td><td>1479B</td></tr><tr><td></td><td>38%</td><td>1398D</td><td>1440D</td><td>1466C</td><td>1463B</td><td>1468B</td><td>1470B</td></tr><tr><td></td><td>40%</td><td>1459D</td><td>1484C</td><td>1494C</td><td>1483B</td><td>1465B</td><td>1461B</td></tr><tr><td></td><td>42%</td><td>1506C</td><td>1517C</td><td>1506B</td><td>1491B</td><td>1476B</td><td>1479B</td></tr><tr><td></td><td>44%</td><td>1535C</td><td>1544C</td><td>1521B</td><td>1510B</td><td>1504B</td><td>-</td></tr><tr><td></td><td>46%</td><td>1553C</td><td>-</td><td>-</td><td>1551B</td><td>-</td><td>-</td></tr><tr><td></td><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th>MgO(%)</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>CaO(%)</th><td>28%</td><td>-</td><td>-</td><td>-</td><td>1338C</td><td>1397C</td><td>1471B</td></tr><tr><td></td><td>30%</td><td>-</td><td>-</td><td>-</td><td>1359C</td><td>1423C</td><td>1485B</td></tr><tr><td></td><td>32%</td><td>-</td><td>-</td><td>1309D</td><td>1347C</td><td>1403C</td><td>1461B</td></tr><tr><td></td><td>34%</td><td>1327E</td><td>1322D</td><td>1366D</td><td>1399C</td><td>1426C</td><td>1471B</td></tr><tr><td></td><td>36%</td><td>1336D</td><td>1390D</td><td>1423C</td><td>1443C</td><td>1449B</td><td>1479B</td></tr><tr><td></td><td>38%</td><td>1398D</td><td>1440D</td><td>1466C</td><td>1463B</td><td>1468B</td><td>1470B</td></tr><tr><td></td><td>40%</td><td>1459D</td><td>1484C</td><td>1494C</td><td>1483B</td><td>1465B</td><td>1461B</td></tr><tr><td></td><td>42%</td><td>1506C</td><td>1517C</td><td>1506B</td><td>1491B</td><td>1476B</td><td>1479B</td></tr><tr><td></td><td>44%</td><td>1535C</td><td>1544C</td><td>1521B</td><td>1510B</td><td>1504B</td><td>-</td></tr><tr><td></td><td>46%</td><td>1553C</td><td>-</td><td>-</td><td>1551B</td><td>-</td><td>-</td></tr><tr><td></td><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_03.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 17
+    },
+    {
+      "id": "TB_STR_015",
+      "placeholder": "{{TB_STR_015}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "Al₂O₃ (%): 28% | Al₂O₃ (%) > MgO (%): - | 8% > 0%: - | 8% > 2%: - | 8% > 4%: - | 8% > 6%: - | 8% > 8%: 1253 | 8% > 10%: 1251 | 8% > 12%: 1306 | 8% > 14%: 1335 | 8% > 16%: 1371 | 8%: ",
+        "Al₂O₃ (%): 30% | Al₂O₃ (%) > MgO (%): - | 8% > 0%: - | 8% > 2%: - | 8% > 4%: - | 8% > 6%: - | 8% > 8%: 1255 | 8% > 10%: 1280 | 8% > 12%: 1327 | 8% > 14%: 1354 | 8% > 16%: 1404 | 8%: ",
+        "Al₂O₃ (%): 32% | Al₂O₃ (%) > MgO (%): - | 8% > 0%: - | 8% > 2%: - | 8% > 4%: 1258 | 8% > 6%: 1262 | 8% > 8%: 1277 | 8% > 10%: 1313 | 8% > 12%: 1357 | 8% > 14%: 1385 | 8% > 16%: 1422 | 8%: ",
+        "Al₂O₃ (%): 34% | Al₂O₃ (%) > MgO (%): 1319 | 8% > 0%: 1316 | 8% > 2%: 1295 | 8% > 4%: 1292 | 8% > 6%: 1321 | 8% > 8%: 1355 | 8% > 10%: 1387 | 8% > 12%: 1399 | 8% > 14%: 1440 | 8% > 16%: 1440 | 8%: ",
+        "Al₂O₃ (%): 36% | Al₂O₃ (%) > MgO (%): 1336 | 8% > 0%: 1309 | 8% > 2%: 1316 | 8% > 4%: 1331 | 8% > 6%: 1364 | 8% > 8%: 1384 | 8% > 10%: 1408 | 8% > 12%: 1430 | 8% > 14%: 1478 | 8% > 16%: - | 8%: ",
+        "Al₂O₃ (%): 38% | Al₂O₃ (%) > MgO (%): 1336 | 8% > 0%: 1332 | 8% > 2%: 1339 | 8% > 4%: 1364 | 8% > 6%: 1399 | 8% > 8%: 1408 | 8% > 10%: 1429 | 8% > 12%: 1466 | 8% > 14%: - | 8% > 16%: - | 8%: "
+      ],
+      "table_html": "<table><thead><tr><th colspan=\"2\">Al₂O₃ (%)</th><th colspan=\"10\">8%</th></tr><tr><th></th><th>MgO (%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th></th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1253</td><td>1251</td><td>1306</td><td>1335</td><td>1371</td><td></td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1280</td><td>1327</td><td>1354</td><td>1404</td><td></td></tr><tr><td>32%</td><td>-</td><td>-</td><td>-</td><td>1258</td><td>1262</td><td>1277</td><td>1313</td><td>1357</td><td>1385</td><td>1422</td><td></td></tr><tr><td>34%</td><td>1319</td><td>1316</td><td>1295</td><td>1292</td><td>1321</td><td>1355</td><td>1387</td><td>1399</td><td>1440</td><td>1440</td><td></td></tr><tr><td>36%</td><td>1336</td><td>1309</td><td>1316</td><td>1331</td><td>1364</td><td>1384</td><td>1408</td><td>1430</td><td>1478</td><td>-</td><td></td></tr><tr><td>38%</td><td>1336</td><td>1332</td><td>1339</td><td>1364</td><td>1399</td><td>1408</td><td>1429</td><td>1466</td><td>-</td><td>-</td><td></td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Al₂O₃ (%)</th><th colspan=\"10\">9%</th></tr><tr><th></th><th>MgO (%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th></th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1253</td><td>1314</td><td>1349</td><td>1390</td><td></td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1257</td><td>1285</td><td>1337</td><td>1370</td><td>1423</td><td></td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1239</td><td>1263</td><td>1282</td><td>1321</td><td>1368</td><td>1400</td><td>1440</td><td>1440</td><td></td></tr><tr><td>34%</td><td>1295</td><td>1311</td><td>1283</td><td>1296</td><td>1321</td><td>1364</td><td>1398</td><td>1408</td><td>1465</td><td>-</td><td></td></tr><tr><td>36%</td><td>1328</td><td>1305</td><td>1318</td><td>1337</td><td>1373</td><td>1393</td><td>1416</td><td>1441</td><td>1494</td><td>-</td><td></td></tr><tr><td>38%</td><td>1329</td><td>1333</td><td>1346</td><td>1374</td><td>1408</td><td>1416</td><td>1435</td><td>1474</td><td>-</td><td>-</td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th colspan=\"2\">Al₂O₃ (%)</th><th colspan=\"10\">8%</th></tr><tr><th></th><th>MgO (%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th></th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1253</td><td>1251</td><td>1306</td><td>1335</td><td>1371</td><td></td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1280</td><td>1327</td><td>1354</td><td>1404</td><td></td></tr><tr><td>32%</td><td>-</td><td>-</td><td>-</td><td>1258</td><td>1262</td><td>1277</td><td>1313</td><td>1357</td><td>1385</td><td>1422</td><td></td></tr><tr><td>34%</td><td>1319</td><td>1316</td><td>1295</td><td>1292</td><td>1321</td><td>1355</td><td>1387</td><td>1399</td><td>1440</td><td>1440</td><td></td></tr><tr><td>36%</td><td>1336</td><td>1309</td><td>1316</td><td>1331</td><td>1364</td><td>1384</td><td>1408</td><td>1430</td><td>1478</td><td>-</td><td></td></tr><tr><td>38%</td><td>1336</td><td>1332</td><td>1339</td><td>1364</td><td>1399</td><td>1408</td><td>1429</td><td>1466</td><td>-</td><td>-</td><td></td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Al₂O₃ (%)</th><th colspan=\"10\">9%</th></tr><tr><th></th><th>MgO (%)</th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th><th></th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1253</td><td>1314</td><td>1349</td><td>1390</td><td></td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1257</td><td>1285</td><td>1337</td><td>1370</td><td>1423</td><td></td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1239</td><td>1263</td><td>1282</td><td>1321</td><td>1368</td><td>1400</td><td>1440</td><td>1440</td><td></td></tr><tr><td>34%</td><td>1295</td><td>1311</td><td>1283</td><td>1296</td><td>1321</td><td>1364</td><td>1398</td><td>1408</td><td>1465</td><td>-</td><td></td></tr><tr><td>36%</td><td>1328</td><td>1305</td><td>1318</td><td>1337</td><td>1373</td><td>1393</td><td>1416</td><td>1441</td><td>1494</td><td>-</td><td></td></tr><tr><td>38%</td><td>1329</td><td>1333</td><td>1346</td><td>1374</td><td>1408</td><td>1416</td><td>1435</td><td>1474</td><td>-</td><td>-</td><td></td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_STR_016",
+      "placeholder": "{{TB_STR_016}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1253 | 10%: 1251 | 12%: 1306 | 14%: 1335 | 16%: 1371",
+        "col1: 30% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1255 | 10%: 1280 | 12%: 1327 | 14%: 1354 | 16%: 1404",
+        "col1: 32% | 0%: - | 2%: - | 4%: 1258 | 6%: 1262 | 8%: 1277 | 10%: 1313 | 12%: 1357 | 14%: 1385 | 16%: 1422",
+        "col1: 34% | 0%: 1319 | 2%: 1316 | 4%: 1285 | 6%: 1292 | 8%: 1321 | 10%: 1355 | 12%: 1387 | 14%: 1399 | 16%: 1440",
+        "col1: 36% | 0%: 1336 | 2%: 1309 | 4%: 1316 | 6%: 1331 | 8%: 1364 | 10%: 1384 | 12%: 1408 | 14%: 1430 | 16%: 1478",
+        "col1: 38% | 0%: 1336 | 2%: 1332 | 4%: 1339 | 6%: 1364 | 8%: 1399 | 10%: 1408 | 12%: 1429 | 14%: 1466 | 16%: -",
+        "col1: 40% | 0%: 1350 | 2%: 1353 | 4%: 1365 | 6%: 1397 | 8%: 1427 | 10%: 1435 | 12%: 1460 | 14%: - | 16%: -",
+        "col1: 42% | 0%: 1369 | 2%: 1373 | 4%: 1398 | 6%: 1426 | 8%: 1445 | 10%: 1473 | 12%: - | 14%: - | 16%: -",
+        "col1: 44% | 0%: 1380 | 2%: 1397 | 4%: 1437 | 6%: 1458 | 8%: 1521 | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 46% | 0%: 1408 | 2%: 1440 | 4%: 1500 | 6%: 1538 | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 48% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1253</td><td>1251</td><td>1306</td><td>1335</td><td>1371</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1280</td><td>1327</td><td>1354</td><td>1404</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1258</td><td>1262</td><td>1277</td><td>1313</td><td>1357</td><td>1385</td><td>1422</td></tr><tr><td>34%</td><td>1319</td><td>1316</td><td>1285</td><td>1292</td><td>1321</td><td>1355</td><td>1387</td><td>1399</td><td>1440</td></tr><tr><td>36%</td><td>1336</td><td>1309</td><td>1316</td><td>1331</td><td>1364</td><td>1384</td><td>1408</td><td>1430</td><td>1478</td></tr><tr><td>38%</td><td>1336</td><td>1332</td><td>1339</td><td>1364</td><td>1399</td><td>1408</td><td>1429</td><td>1466</td><td>-</td></tr><tr><td>40%</td><td>1350</td><td>1353</td><td>1365</td><td>1397</td><td>1427</td><td>1435</td><td>1460</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1369</td><td>1373</td><td>1398</td><td>1426</td><td>1445</td><td>1473</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1380</td><td>1397</td><td>1437</td><td>1458</td><td>1521</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1408</td><td>1440</td><td>1500</td><td>1538</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1253</td><td>1251</td><td>1306</td><td>1335</td><td>1371</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1280</td><td>1327</td><td>1354</td><td>1404</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1258</td><td>1262</td><td>1277</td><td>1313</td><td>1357</td><td>1385</td><td>1422</td></tr><tr><td>34%</td><td>1319</td><td>1316</td><td>1285</td><td>1292</td><td>1321</td><td>1355</td><td>1387</td><td>1399</td><td>1440</td></tr><tr><td>36%</td><td>1336</td><td>1309</td><td>1316</td><td>1331</td><td>1364</td><td>1384</td><td>1408</td><td>1430</td><td>1478</td></tr><tr><td>38%</td><td>1336</td><td>1332</td><td>1339</td><td>1364</td><td>1399</td><td>1408</td><td>1429</td><td>1466</td><td>-</td></tr><tr><td>40%</td><td>1350</td><td>1353</td><td>1365</td><td>1397</td><td>1427</td><td>1435</td><td>1460</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1369</td><td>1373</td><td>1398</td><td>1426</td><td>1445</td><td>1473</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1380</td><td>1397</td><td>1437</td><td>1458</td><td>1521</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1408</td><td>1440</td><td>1500</td><td>1538</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_02.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_STR_017",
+      "placeholder": "{{TB_STR_017}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 28% | 2%: 1376 | 4%: 1351 | 6%: 1331 | 8%: 1314 | 10%: 1302 | 11.5%: 1296 | C/S: 0.81",
+        "col1: 30% | 2%: 1377 | 4%: 1356 | 6%: 1338 | 8%: 1325 | 10%: 1316 | 11.5%: 1312 | C/S: 0.87",
+        "col1: 32% | 2%: 1379 | 4%: 1360 | 6%: 1346 | 8%: 1336 | 10%: 1330 | 11.5%: 1328 | C/S: 0.93",
+        "col1: 34% | 2%: 1381 | 4%: 1365 | 6%: 1354 | 8%: 1347 | 10%: 1344 | 11.5%: 1345 | C/S: 0.99",
+        "col1: 36% | 2%: 1382 | 4%: 1370 | 6%: 1362 | 8%: 1358 | 10%: 1358 | 11.5%: 1361 | C/S: 1.04",
+        "col1: 38% | 2%: 1384 | 4%: 1374 | 6%: 1369 | 8%: 1368 | 10%: 1372 | 11.5%: 1377 | C/S: 1.10",
+        "col1: 40% | 2%: 1385 | 4%: 1379 | 6%: 1377 | 8%: 1379 | 10%: 1386 | 11.5%: 1393 | C/S: 1.16",
+        "col1: 42% | 2%: 1387 | 4%: 1384 | 6%: 1385 | 8%: 1390 | 10%: 1400 | 11.5%: 1410 | C/S: 1.22",
+        "col1: 44% | 2%: 1388 | 4%: 1388 | 6%: 1393 | 8%: 1401 | 10%: 1414 | 11.5%: 1426 | C/S: 1.28",
+        "col1: 46% | 2%: 1390 | 4%: 1393 | 6%: 1400 | 8%: 1412 | 10%: 1428 | 11.5%: 1442 | C/S: 1.33",
+        "col1: 48% | 2%: 1392 | 4%: 1398 | 6%: 1408 | 8%: 1423 | 10%: 1442 | 11.5%: 1458 | C/S: 1.39"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1376</td><td>1351</td><td>1331</td><td>1314</td><td>1302</td><td>1296</td><td>0.81</td></tr><tr><td>30%</td><td>1377</td><td>1356</td><td>1338</td><td>1325</td><td>1316</td><td>1312</td><td>0.87</td></tr><tr><td>32%</td><td>1379</td><td>1360</td><td>1346</td><td>1336</td><td>1330</td><td>1328</td><td>0.93</td></tr><tr><td>34%</td><td>1381</td><td>1365</td><td>1354</td><td>1347</td><td>1344</td><td>1345</td><td>0.99</td></tr><tr><td>36%</td><td>1382</td><td>1370</td><td>1362</td><td>1358</td><td>1358</td><td>1361</td><td>1.04</td></tr><tr><td>38%</td><td>1384</td><td>1374</td><td>1369</td><td>1368</td><td>1372</td><td>1377</td><td>1.10</td></tr><tr><td>40%</td><td>1385</td><td>1379</td><td>1377</td><td>1379</td><td>1386</td><td>1393</td><td>1.16</td></tr><tr><td>42%</td><td>1387</td><td>1384</td><td>1385</td><td>1390</td><td>1400</td><td>1410</td><td>1.22</td></tr><tr><td>44%</td><td>1388</td><td>1388</td><td>1393</td><td>1401</td><td>1414</td><td>1426</td><td>1.28</td></tr><tr><td>46%</td><td>1390</td><td>1393</td><td>1400</td><td>1412</td><td>1428</td><td>1442</td><td>1.33</td></tr><tr><td>48%</td><td>1392</td><td>1398</td><td>1408</td><td>1423</td><td>1442</td><td>1458</td><td>1.39</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1376</td><td>1351</td><td>1331</td><td>1314</td><td>1302</td><td>1296</td><td>0.81</td></tr><tr><td>30%</td><td>1377</td><td>1356</td><td>1338</td><td>1325</td><td>1316</td><td>1312</td><td>0.87</td></tr><tr><td>32%</td><td>1379</td><td>1360</td><td>1346</td><td>1336</td><td>1330</td><td>1328</td><td>0.93</td></tr><tr><td>34%</td><td>1381</td><td>1365</td><td>1354</td><td>1347</td><td>1344</td><td>1345</td><td>0.99</td></tr><tr><td>36%</td><td>1382</td><td>1370</td><td>1362</td><td>1358</td><td>1358</td><td>1361</td><td>1.04</td></tr><tr><td>38%</td><td>1384</td><td>1374</td><td>1369</td><td>1368</td><td>1372</td><td>1377</td><td>1.10</td></tr><tr><td>40%</td><td>1385</td><td>1379</td><td>1377</td><td>1379</td><td>1386</td><td>1393</td><td>1.16</td></tr><tr><td>42%</td><td>1387</td><td>1384</td><td>1385</td><td>1390</td><td>1400</td><td>1410</td><td>1.22</td></tr><tr><td>44%</td><td>1388</td><td>1388</td><td>1393</td><td>1401</td><td>1414</td><td>1426</td><td>1.28</td></tr><tr><td>46%</td><td>1390</td><td>1393</td><td>1400</td><td>1412</td><td>1428</td><td>1442</td><td>1.33</td></tr><tr><td>48%</td><td>1392</td><td>1398</td><td>1408</td><td>1423</td><td>1442</td><td>1458</td><td>1.39</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_03.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_STR_018",
+      "placeholder": "{{TB_STR_018}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1255 | 10%: 1253 | 12%: 1314 | 14%: 1349 | 16%: 1390",
+        "col1: 30% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1257 | 10%: 1284 | 12%: 1337 | 14%: 1370 | 16%: 1423",
+        "col1: 32% | 0%: - | 2%: - | 4%: 1239 | 6%: 1263 | 8%: 1282 | 10%: 1321 | 12%: 1368 | 14%: 1400 | 16%: 1440",
+        "col1: 34% | 0%: 1295 | 2%: 1311 | 4%: 1283 | 6%: 1296 | 8%: 1329 | 10%: 1364 | 12%: 1398 | 14%: 1408 | 16%: 1455",
+        "col1: 36% | 0%: 1328 | 2%: 1305 | 4%: 1318 | 6%: 1337 | 8%: 1373 | 10%: 1393 | 12%: 1416 | 14%: 1441 | 16%: 1494",
+        "col1: 38% | 0%: 1329 | 2%: 1333 | 4%: 1348 | 6%: 1374 | 8%: 1408 | 10%: 1416 | 12%: 1435 | 14%: 1474 | 16%: -",
+        "col1: 40% | 0%: 1349 | 2%: 1358 | 4%: 1376 | 6%: 1409 | 8%: 1436 | 10%: 1440 | 12%: 1463 | 14%: - | 16%: -",
+        "col1: 42% | 0%: 1373 | 2%: 1384 | 4%: 1412 | 6%: 1437 | 8%: 1463 | 10%: 1476 | 12%: - | 14%: - | 16%: -",
+        "col1: 44% | 0%: 1390 | 2%: 1412 | 4%: 1452 | 6%: 1468 | 8%: 1530 | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 46% | 0%: 1423 | 2%: 1458 | 4%: 1511 | 6%: 1546 | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 48% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1253</td><td>1314</td><td>1349</td><td>1390</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1257</td><td>1284</td><td>1337</td><td>1370</td><td>1423</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1239</td><td>1263</td><td>1282</td><td>1321</td><td>1368</td><td>1400</td><td>1440</td></tr><tr><td>34%</td><td>1295</td><td>1311</td><td>1283</td><td>1296</td><td>1329</td><td>1364</td><td>1398</td><td>1408</td><td>1455</td></tr><tr><td>36%</td><td>1328</td><td>1305</td><td>1318</td><td>1337</td><td>1373</td><td>1393</td><td>1416</td><td>1441</td><td>1494</td></tr><tr><td>38%</td><td>1329</td><td>1333</td><td>1348</td><td>1374</td><td>1408</td><td>1416</td><td>1435</td><td>1474</td><td>-</td></tr><tr><td>40%</td><td>1349</td><td>1358</td><td>1376</td><td>1409</td><td>1436</td><td>1440</td><td>1463</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1373</td><td>1384</td><td>1412</td><td>1437</td><td>1463</td><td>1476</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1390</td><td>1412</td><td>1452</td><td>1468</td><td>1530</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1423</td><td>1458</td><td>1511</td><td>1546</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_04.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1255</td><td>1253</td><td>1314</td><td>1349</td><td>1390</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1257</td><td>1284</td><td>1337</td><td>1370</td><td>1423</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1239</td><td>1263</td><td>1282</td><td>1321</td><td>1368</td><td>1400</td><td>1440</td></tr><tr><td>34%</td><td>1295</td><td>1311</td><td>1283</td><td>1296</td><td>1329</td><td>1364</td><td>1398</td><td>1408</td><td>1455</td></tr><tr><td>36%</td><td>1328</td><td>1305</td><td>1318</td><td>1337</td><td>1373</td><td>1393</td><td>1416</td><td>1441</td><td>1494</td></tr><tr><td>38%</td><td>1329</td><td>1333</td><td>1348</td><td>1374</td><td>1408</td><td>1416</td><td>1435</td><td>1474</td><td>-</td></tr><tr><td>40%</td><td>1349</td><td>1358</td><td>1376</td><td>1409</td><td>1436</td><td>1440</td><td>1463</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1373</td><td>1384</td><td>1412</td><td>1437</td><td>1463</td><td>1476</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1390</td><td>1412</td><td>1452</td><td>1468</td><td>1530</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1423</td><td>1458</td><td>1511</td><td>1546</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_04.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_04.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_STR_019",
+      "placeholder": "{{TB_STR_019}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 28% | 2%: 1336 | 4%: 1293 | 6%: 1285 | 8%: 1281 | 10%: 1281 | 11.5%: 1283 | C/S: 0.81",
+        "col1: 30% | 2%: 1315 | 4%: 1307 | 6%: 1301 | 8%: 1300 | 10%: 1303 | 11.5%: 1308 | C/S: 0.87",
+        "col1: 32% | 2%: 1326 | 4%: 1320 | 6%: 1318 | 8%: 1319 | 10%: 1326 | 11.5%: 1333 | C/S: 0.93",
+        "col1: 34% | 2%: 1336 | 4%: 1333 | 6%: 1334 | 8%: 1339 | 10%: 1348 | 11.5%: 1358 | C/S: 0.99",
+        "col1: 36% | 2%: 1346 | 4%: 1346 | 6%: 1350 | 8%: 1358 | 10%: 1370 | 11.5%: 1382 | C/S: 1.04",
+        "col1: 38% | 2%: 1357 | 4%: 1359 | 6%: 1366 | 8%: 1377 | 10%: 1393 | 11.5%: 1407 | C/S: 1.10",
+        "col1: 40% | 2%: 1367 | 4%: 1373 | 6%: 1383 | 8%: 1397 | 10%: 1415 | 11.5%: 1432 | C/S: 1.16",
+        "col1: 42% | 2%: 1377 | 4%: 1386 | 6%: 1399 | 8%: 1416 | 10%: 1438 | 11.5%: 1457 | C/S: 1.22",
+        "col1: 44% | 2%: 1387 | 4%: 1399 | 6%: 1415 | 8%: 1436 | 10%: 1460 | 11.5%: 1481 | C/S: 1.28",
+        "col1: 46% | 2%: 1397 | 4%: 1412 | 6%: 1432 | 8%: 1455 | 10%: 1483 | 11.5%: 1506 | C/S: 1.33",
+        "col1: 48% | 2%: 1407 | 4%: 1426 | 6%: 1448 | 8%: 1474 | 10%: 1505 | 11.5%: 1531 | C/S: 1.39"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1336</td><td>1293</td><td>1285</td><td>1281</td><td>1281</td><td>1283</td><td>0.81</td></tr><tr><td>30%</td><td>1315</td><td>1307</td><td>1301</td><td>1300</td><td>1303</td><td>1308</td><td>0.87</td></tr><tr><td>32%</td><td>1326</td><td>1320</td><td>1318</td><td>1319</td><td>1326</td><td>1333</td><td>0.93</td></tr><tr><td>34%</td><td>1336</td><td>1333</td><td>1334</td><td>1339</td><td>1348</td><td>1358</td><td>0.99</td></tr><tr><td>36%</td><td>1346</td><td>1346</td><td>1350</td><td>1358</td><td>1370</td><td>1382</td><td>1.04</td></tr><tr><td>38%</td><td>1357</td><td>1359</td><td>1366</td><td>1377</td><td>1393</td><td>1407</td><td>1.10</td></tr><tr><td>40%</td><td>1367</td><td>1373</td><td>1383</td><td>1397</td><td>1415</td><td>1432</td><td>1.16</td></tr><tr><td>42%</td><td>1377</td><td>1386</td><td>1399</td><td>1416</td><td>1438</td><td>1457</td><td>1.22</td></tr><tr><td>44%</td><td>1387</td><td>1399</td><td>1415</td><td>1436</td><td>1460</td><td>1481</td><td>1.28</td></tr><tr><td>46%</td><td>1397</td><td>1412</td><td>1432</td><td>1455</td><td>1483</td><td>1506</td><td>1.33</td></tr><tr><td>48%</td><td>1407</td><td>1426</td><td>1448</td><td>1474</td><td>1505</td><td>1531</td><td>1.39</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_05.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1336</td><td>1293</td><td>1285</td><td>1281</td><td>1281</td><td>1283</td><td>0.81</td></tr><tr><td>30%</td><td>1315</td><td>1307</td><td>1301</td><td>1300</td><td>1303</td><td>1308</td><td>0.87</td></tr><tr><td>32%</td><td>1326</td><td>1320</td><td>1318</td><td>1319</td><td>1326</td><td>1333</td><td>0.93</td></tr><tr><td>34%</td><td>1336</td><td>1333</td><td>1334</td><td>1339</td><td>1348</td><td>1358</td><td>0.99</td></tr><tr><td>36%</td><td>1346</td><td>1346</td><td>1350</td><td>1358</td><td>1370</td><td>1382</td><td>1.04</td></tr><tr><td>38%</td><td>1357</td><td>1359</td><td>1366</td><td>1377</td><td>1393</td><td>1407</td><td>1.10</td></tr><tr><td>40%</td><td>1367</td><td>1373</td><td>1383</td><td>1397</td><td>1415</td><td>1432</td><td>1.16</td></tr><tr><td>42%</td><td>1377</td><td>1386</td><td>1399</td><td>1416</td><td>1438</td><td>1457</td><td>1.22</td></tr><tr><td>44%</td><td>1387</td><td>1399</td><td>1415</td><td>1436</td><td>1460</td><td>1481</td><td>1.28</td></tr><tr><td>46%</td><td>1397</td><td>1412</td><td>1432</td><td>1455</td><td>1483</td><td>1506</td><td>1.33</td></tr><tr><td>48%</td><td>1407</td><td>1426</td><td>1448</td><td>1474</td><td>1505</td><td>1531</td><td>1.39</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_05.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_05.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_STR_020",
+      "placeholder": "{{TB_STR_020}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1259 | 10%: 1261 | 12%: 1327 | 14%: 1366 | 16%: 1413",
+        "col1: 30% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1262 | 10%: 1292 | 12%: 1350 | 14%: 1391 | 16%: 1444",
+        "col1: 32% | 0%: - | 2%: - | 4%: 1217 | 6%: 1267 | 8%: 1290 | 10%: 1331 | 12%: 1381 | 14%: 1417 | 16%: 1459",
+        "col1: 34% | 0%: 1267 | 2%: 1307 | 4%: 1284 | 6%: 1303 | 8%: 1338 | 10%: 1375 | 12%: 1409 | 14%: 1418 | 16%: 1472",
+        "col1: 36% | 0%: 1321 | 2%: 1304 | 4%: 1323 | 6%: 1345 | 8%: 1382 | 10%: 1403 | 12%: 1426 | 14%: 1452 | 16%: 1512",
+        "col1: 38% | 0%: 1326 | 2%: 1338 | 4%: 1360 | 6%: 1385 | 8%: 1418 | 10%: 1423 | 12%: 1442 | 14%: 1483 | 16%: -",
+        "col1: 40% | 0%: 1352 | 2%: 1368 | 4%: 1389 | 6%: 1421 | 8%: 1443 | 10%: 1444 | 12%: 1466 | 14%: - | 16%: -",
+        "col1: 42% | 0%: 1381 | 2%: 1397 | 4%: 1426 | 6%: 1447 | 8%: 1469 | 10%: 1478 | 12%: - | 14%: - | 16%: -",
+        "col1: 44% | 0%: 1403 | 2%: 1429 | 4%: 1466 | 6%: 1477 | 8%: 1535 | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 46% | 0%: 1441 | 2%: 1476 | 4%: 1521 | 6%: 1552 | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -",
+        "col1: 48% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: - | 12%: - | 14%: - | 16%: -"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1259</td><td>1261</td><td>1327</td><td>1366</td><td>1413</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1262</td><td>1292</td><td>1350</td><td>1391</td><td>1444</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1217</td><td>1267</td><td>1290</td><td>1331</td><td>1381</td><td>1417</td><td>1459</td></tr><tr><td>34%</td><td>1267</td><td>1307</td><td>1284</td><td>1303</td><td>1338</td><td>1375</td><td>1409</td><td>1418</td><td>1472</td></tr><tr><td>36%</td><td>1321</td><td>1304</td><td>1323</td><td>1345</td><td>1382</td><td>1403</td><td>1426</td><td>1452</td><td>1512</td></tr><tr><td>38%</td><td>1326</td><td>1338</td><td>1360</td><td>1385</td><td>1418</td><td>1423</td><td>1442</td><td>1483</td><td>-</td></tr><tr><td>40%</td><td>1352</td><td>1368</td><td>1389</td><td>1421</td><td>1443</td><td>1444</td><td>1466</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1381</td><td>1397</td><td>1426</td><td>1447</td><td>1469</td><td>1478</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1403</td><td>1429</td><td>1466</td><td>1477</td><td>1535</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1441</td><td>1476</td><td>1521</td><td>1552</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_06.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><td>28%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1259</td><td>1261</td><td>1327</td><td>1366</td><td>1413</td></tr><tr><td>30%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1262</td><td>1292</td><td>1350</td><td>1391</td><td>1444</td></tr><tr><td>32%</td><td>-</td><td>-</td><td>1217</td><td>1267</td><td>1290</td><td>1331</td><td>1381</td><td>1417</td><td>1459</td></tr><tr><td>34%</td><td>1267</td><td>1307</td><td>1284</td><td>1303</td><td>1338</td><td>1375</td><td>1409</td><td>1418</td><td>1472</td></tr><tr><td>36%</td><td>1321</td><td>1304</td><td>1323</td><td>1345</td><td>1382</td><td>1403</td><td>1426</td><td>1452</td><td>1512</td></tr><tr><td>38%</td><td>1326</td><td>1338</td><td>1360</td><td>1385</td><td>1418</td><td>1423</td><td>1442</td><td>1483</td><td>-</td></tr><tr><td>40%</td><td>1352</td><td>1368</td><td>1389</td><td>1421</td><td>1443</td><td>1444</td><td>1466</td><td>-</td><td>-</td></tr><tr><td>42%</td><td>1381</td><td>1397</td><td>1426</td><td>1447</td><td>1469</td><td>1478</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44%</td><td>1403</td><td>1429</td><td>1466</td><td>1477</td><td>1535</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>46%</td><td>1441</td><td>1476</td><td>1521</td><td>1552</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>48%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_06.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_06.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"9\">17%</th></tr><tr><th>MgO(%)</th><th colspan=\"9\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>1281C</td><td>1342C</td><td>1384B</td><td>1434B</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1272C</td><td>1302C</td><td>1364B</td><td>1419B</td><td>1470B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1297C</td><td>1340C</td><td>1401B</td><td>1440B</td><td>1483B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>---</td><td>1315C</td><td>1350C</td><td>1390B</td><td>1427B</td><td>1457B</td><td>1492B</td></tr><tr><th>36%</th><td>1313E</td><td>1292D</td><td>1324C</td><td>1359C</td><td>1398B</td><td>1420B</td><td>1441B</td><td>1472B</td><td>1531B</td></tr><tr><th>38%</th><td>1316D</td><td>1339D</td><td>1372C</td><td>1410C</td><td>1431B</td><td>1439B</td><td>1453B</td><td>1492B</td><td>---</td></tr><tr><th>40%</th><td>1344D</td><td>1382D</td><td>1423C</td><td>1442B</td><td>1447B</td><td>1449B</td><td>1472B</td><td>---</td><td>---</td></tr><tr><th>42%</th><td>1389C</td><td>1429C</td><td>1451B</td><td>1464B</td><td>1472B</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1435C</td><td>1463C</td><td>1490B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1486C</td><td>1516B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"9\">17%</th></tr><tr><th>MgO(%)</th><th colspan=\"9\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>1281C</td><td>1342C</td><td>1384B</td><td>1434B</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1272C</td><td>1302C</td><td>1364B</td><td>1419B</td><td>1470B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1297C</td><td>1340C</td><td>1401B</td><td>1440B</td><td>1483B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>---</td><td>1315C</td><td>1350C</td><td>1390B</td><td>1427B</td><td>1457B</td><td>1492B</td></tr><tr><th>36%</th><td>1313E</td><td>1292D</td><td>1324C</td><td>1359C</td><td>1398B</td><td>1420B</td><td>1441B</td><td>1472B</td><td>1531B</td></tr><tr><th>38%</th><td>1316D</td><td>1339D</td><td>1372C</td><td>1410C</td><td>1431B</td><td>1439B</td><td>1453B</td><td>1492B</td><td>---</td></tr><tr><th>40%</th><td>1344D</td><td>1382D</td><td>1423C</td><td>1442B</td><td>1447B</td><td>1449B</td><td>1472B</td><td>---</td><td>---</td></tr><tr><th>42%</th><td>1389C</td><td>1429C</td><td>1451B</td><td>1464B</td><td>1472B</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1435C</td><td>1463C</td><td>1490B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1486C</td><td>1516B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 16
+    },
+    {
+      "id": "TB_UNSTR_002",
+      "placeholder": "{{TB_UNSTR_002}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"9\">18%</th></tr><tr><th>MgO(%)</th><th colspan=\"9\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1276D</td><td>1288C</td><td>1365C</td><td>1417B</td><td>1478B</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1279C</td><td>1311C</td><td>1389B</td><td>1443B</td><td>1492B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1308C</td><td>1352C</td><td>1420B</td><td>1461B</td><td>1503B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>1287D</td><td>1329C</td><td>1362C</td><td>1402B</td><td>1443B</td><td>1474B</td><td>1510B</td></tr><tr><th>36%</th><td>1308E</td><td>1298D</td><td>1343C</td><td>1376C</td><td>1409B</td><td>1431B</td><td>1452B</td><td>1484B</td><td>---</td></tr><tr><th>38%</th><td>1317D</td><td>1357D</td><td>1397C</td><td>1423C</td><td>1437B</td><td>1442B</td><td>1460B</td><td>---</td><td>---</td></tr><tr><th>40%</th><td>1361D</td><td>1409C</td><td>1438C</td><td>1453B</td><td>1452B</td><td>1452B</td><td>1473B</td><td>---</td><td>---</td></tr><tr><th>42%</th><td>1416C</td><td>1450C</td><td>1467B</td><td>1473B</td><td>1476B</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1462C</td><td>1484C</td><td>1515B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1506C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th><th>14%</th><th>16%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"9\">18%</th></tr><tr><th>MgO(%)</th><th colspan=\"9\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1276D</td><td>1288C</td><td>1365C</td><td>1417B</td><td>1478B</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1279C</td><td>1311C</td><td>1389B</td><td>1443B</td><td>1492B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1308C</td><td>1352C</td><td>1420B</td><td>1461B</td><td>1503B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>1287D</td><td>1329C</td><td>1362C</td><td>1402B</td><td>1443B</td><td>1474B</td><td>1510B</td></tr><tr><th>36%</th><td>1308E</td><td>1298D</td><td>1343C</td><td>1376C</td><td>1409B</td><td>1431B</td><td>1452B</td><td>1484B</td><td>---</td></tr><tr><th>38%</th><td>1317D</td><td>1357D</td><td>1397C</td><td>1423C</td><td>1437B</td><td>1442B</td><td>1460B</td><td>---</td><td>---</td></tr><tr><th>40%</th><td>1361D</td><td>1409C</td><td>1438C</td><td>1453B</td><td>1452B</td><td>1452B</td><td>1473B</td><td>---</td><td>---</td></tr><tr><th>42%</th><td>1416C</td><td>1450C</td><td>1467B</td><td>1473B</td><td>1476B</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1462C</td><td>1484C</td><td>1515B</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1506C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 16
+    },
+    {
+      "id": "TB_UNSTR_003",
+      "placeholder": "{{TB_UNSTR_003}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"7\">19%</th></tr><tr><th>MgO(%)</th><th colspan=\"7\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1283D</td><td>1295C</td><td>1387C</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1285C</td><td>1319C</td><td>1413B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1321C</td><td>1369C</td><td>1439B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>1302D</td><td>1345C</td><td>1375C</td><td>1416B</td><td>1457B</td></tr><tr><th>36%</th><td>1302E</td><td>1314D</td><td>1364C</td><td>1393C</td><td>1418B</td><td>1439B</td><td>1462B</td></tr><tr><th>38%</th><td>1323D</td><td>1379D</td><td>1417C</td><td>1437C</td><td>1444B</td><td>1446B</td><td>1463B</td></tr><tr><th>40%</th><td>1384D</td><td>1433C</td><td>1454C</td><td>1465B</td><td>1457B</td><td>1452B</td><td>1469B</td></tr><tr><th>42%</th><td>1443C</td><td>1475C</td><td>1484B</td><td>1479B</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1487C</td><td>1503C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1518C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th colspan=\"2\"></th><th>0%</th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>12%</th></tr></thead><tbody><tr><th rowspan=\"2\">Al2O3(%)</th><th>---</th><th colspan=\"7\">19%</th></tr><tr><th>MgO(%)</th><th colspan=\"7\"></th></tr><tr><th rowspan=\"10\">CaO(%)</th><th>28%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1283D</td><td>1295C</td><td>1387C</td></tr><tr><th>30%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1285C</td><td>1319C</td><td>1413B</td></tr><tr><th>32%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>1321C</td><td>1369C</td><td>1439B</td></tr><tr><th>34%</th><td>---</td><td>---</td><td>1302D</td><td>1345C</td><td>1375C</td><td>1416B</td><td>1457B</td></tr><tr><th>36%</th><td>1302E</td><td>1314D</td><td>1364C</td><td>1393C</td><td>1418B</td><td>1439B</td><td>1462B</td></tr><tr><th>38%</th><td>1323D</td><td>1379D</td><td>1417C</td><td>1437C</td><td>1444B</td><td>1446B</td><td>1463B</td></tr><tr><th>40%</th><td>1384D</td><td>1433C</td><td>1454C</td><td>1465B</td><td>1457B</td><td>1452B</td><td>1469B</td></tr><tr><th>42%</th><td>1443C</td><td>1475C</td><td>1484B</td><td>1479B</td><td>---</td><td>---</td><td>---</td></tr><tr><th>44%</th><td>1487C</td><td>1503C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>46%</th><td>1518C</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><th>48%</th><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 16
+    },
+    {
+      "id": "TB_UNSTR_004",
+      "placeholder": "{{TB_UNSTR_004}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1306</td><td>1293</td><td>1285</td><td>1281</td><td>1281</td><td>1283</td><td>0.81</td></tr><tr><td>30%</td><td>1315</td><td>1307</td><td>1301</td><td>1300</td><td>1303</td><td>1308</td><td>0.87</td></tr><tr><td>32%</td><td>1326</td><td>1320</td><td>1318</td><td>1319</td><td>1326</td><td>1333</td><td>0.93</td></tr><tr><td>34%</td><td>1336</td><td>1333</td><td>1334</td><td>1339</td><td>1348</td><td>1358</td><td>0.99</td></tr><tr><td>36%</td><td>1346</td><td>1346</td><td>1350</td><td>1358</td><td>1370</td><td>1382</td><td>1.04</td></tr><tr><td>38%</td><td>1357</td><td>1359</td><td>1366</td><td>1377</td><td>1393</td><td>1407</td><td>1.10</td></tr><tr><td>40%</td><td>1367</td><td>1373</td><td>1383</td><td>1397</td><td>1415</td><td>14</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>2%</th><th>4%</th><th>6%</th><th>8%</th><th>10%</th><th>11.5%</th><th>C/S</th></tr></thead><tbody><tr><td>28%</td><td>1306</td><td>1293</td><td>1285</td><td>1281</td><td>1281</td><td>1283</td><td>0.81</td></tr><tr><td>30%</td><td>1315</td><td>1307</td><td>1301</td><td>1300</td><td>1303</td><td>1308</td><td>0.87</td></tr><tr><td>32%</td><td>1326</td><td>1320</td><td>1318</td><td>1319</td><td>1326</td><td>1333</td><td>0.93</td></tr><tr><td>34%</td><td>1336</td><td>1333</td><td>1334</td><td>1339</td><td>1348</td><td>1358</td><td>0.99</td></tr><tr><td>36%</td><td>1346</td><td>1346</td><td>1350</td><td>1358</td><td>1370</td><td>1382</td><td>1.04</td></tr><tr><td>38%</td><td>1357</td><td>1359</td><td>1366</td><td>1377</td><td>1393</td><td>1407</td><td>1.10</td></tr><tr><td>40%</td><td>1367</td><td>1373</td><td>1383</td><td>1397</td><td>1415</td><td>14</td></tr></tbody></table><p><a href=\"components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "[(P)/(S)] = η [(d u)/(d x)]S→ P점성액체d xu + d uv",
+      "context_html": "",
+      "full_html": "<p>[(P)/(S)] = η [(d u)/(d x)]</p><p style=\"text-align: center;\">S</p><p style=\"text-align: center;\">→ P</p><p style=\"text-align: center;\">점성액체</p><p style=\"text-align: center;\">d x</p><p style=\"text-align: right;\">u + d u</p><p style=\"text-align: right;\">v</p><img alt=\"Figure snippet\" src=\"components/f17ba585d9f878163a2c9c6d4bf521b2_1_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/f17ba585d9f878163a2c9c6d4bf521b2_1_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_002",
+      "placeholder": "{{IMG_SUM_002}}",
+      "component_type": "image_summary",
+      "description": "MgO 4.2% 염기도 vs 점도, C.TY-axis: 점도 (Poise), X-axis: 염기도 (-), Secondary Y-axis: C.T (°C)Legend: A203 15.0%, A203 15.1%, A203 15.2%, A203 15.3%, A203 15.4%, A203 15.5%, A203 15.6%",
+      "context_html": "",
+      "full_html": "<p>MgO 4.2% 염기도 vs 점도, C.T</p><p>Y-axis: 점도 (Poise), X-axis: 염기도 (-), Secondary Y-axis: C.T (°C)</p><p>Legend: A203 15.0%, A203 15.1%, A203 15.2%, A203 15.3%, A203 15.4%, A203 15.5%, A203 15.6%</p><img alt=\"Figure snippet\" src=\"components/8391168bb2f3860958ca474447faf6ca_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_SUM_003",
+      "placeholder": "{{IMG_SUM_003}}",
+      "component_type": "image_summary",
+      "description": "MgO 4.4% 염기도 vs 점도, C.TY-axis: 점도 (Poise), X-axis: 염기도 (-), Secondary Y-axis: C.T (°C)Legend: A203 15.0%, A203 15.1%, A203 15.2%, A203 15.3%, A203 15.4%, A203 15.5%, A203 15.6%",
+      "context_html": "",
+      "full_html": "<p>MgO 4.4% 염기도 vs 점도, C.T</p><p>Y-axis: 점도 (Poise), X-axis: 염기도 (-), Secondary Y-axis: C.T (°C)</p><p>Legend: A203 15.0%, A203 15.1%, A203 15.2%, A203 15.3%, A203 15.4%, A203 15.5%, A203 15.6%</p><img alt=\"Figure snippet\" src=\"components/8391168bb2f3860958ca474447faf6ca_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_SUM_004",
+      "placeholder": "{{IMG_SUM_004}}",
+      "component_type": "image_summary",
+      "description": "Figure 1: MgO 4.6% Viscosity vs Temperature, C.T.The graph plots Viscosity (Poise) on the left axis (4 to 14) and Temperature (C.T. in °C) on the right axis (1370 to 1450) against Viscosity Ratio (염기도 (-)) on the x-axis (1.18 to 1.32).Legend:<ul><li>A2O3 15.0%</li><li>A2O3 15.1%</li><li>A2O3 15.2%</li><li>A2O3 15.3%</li><li>A2O3 15.4%</li><li>A2O3 15.5%</li><li>A2O3 15.6%</li><li>A2O3 15.0% (dashed line)</li><li>A2O3 15.1% (dashed line)</li><li>A2O3 15.2% (dashed line)</li><li>A2O3 15.3% (dashed line)</li><li>A2O3 15.4% (dashed line)</li><li>A2O3 15.5% (dashed line)</li><li>A2O3 15.6% (dashed line)</li></ul>",
+      "context_html": "",
+      "full_html": "<p>Figure 1: MgO 4.6% Viscosity vs Temperature, C.T.</p><p>The graph plots Viscosity (Poise) on the left axis (4 to 14) and Temperature (C.T. in °C) on the right axis (1370 to 1450) against Viscosity Ratio (염기도 (-)) on the x-axis (1.18 to 1.32).</p><p>Legend:</p><ul><li>A2O3 15.0%</li><li>A2O3 15.1%</li><li>A2O3 15.2%</li><li>A2O3 15.3%</li><li>A2O3 15.4%</li><li>A2O3 15.5%</li><li>A2O3 15.6%</li><li>A2O3 15.0% (dashed line)</li><li>A2O3 15.1% (dashed line)</li><li>A2O3 15.2% (dashed line)</li><li>A2O3 15.3% (dashed line)</li><li>A2O3 15.4% (dashed line)</li><li>A2O3 15.5% (dashed line)</li><li>A2O3 15.6% (dashed line)</li></ul><img alt=\"Figure snippet\" src=\"components/19122b33e809c05fad62a8d006904c36_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_005",
+      "placeholder": "{{IMG_SUM_005}}",
+      "component_type": "image_summary",
+      "description": "Figure 2: MgO 4.8% Viscosity vs Temperature, C.T.The graph plots Viscosity (Poise) on the left axis (4 to 14) and Temperature (C.T. in °C) on the right axis (1370 to 1450) against Viscosity Ratio (염기도 (-)) on the x-axis (1.18 to 1.32).Legend:<ul><li>A2O3 15.0%</li><li>A2O3 15.1%</li><li>A2O3 15.2%</li><li>A2O3 15.3%</li><li>A2O3 15.4%</li><li>A2O3 15.5%</li><li>A2O3 15.6%</li><li>A2O3 15.0% (dashed line)</li><li>A2O3 15.1% (dashed line)</li><li>A2O3 15.2% (dashed line)</li><li>A2O3 15.3% (dashed line)</li><li>A2O3 15.4% (dashed line)</li><li>A2O3 15.5% (dashed line)</li><li>A2O3 15.6% (dashed line)</li></ul>",
+      "context_html": "",
+      "full_html": "<p>Figure 2: MgO 4.8% Viscosity vs Temperature, C.T.</p><p>The graph plots Viscosity (Poise) on the left axis (4 to 14) and Temperature (C.T. in °C) on the right axis (1370 to 1450) against Viscosity Ratio (염기도 (-)) on the x-axis (1.18 to 1.32).</p><p>Legend:</p><ul><li>A2O3 15.0%</li><li>A2O3 15.1%</li><li>A2O3 15.2%</li><li>A2O3 15.3%</li><li>A2O3 15.4%</li><li>A2O3 15.5%</li><li>A2O3 15.6%</li><li>A2O3 15.0% (dashed line)</li><li>A2O3 15.1% (dashed line)</li><li>A2O3 15.2% (dashed line)</li><li>A2O3 15.3% (dashed line)</li><li>A2O3 15.4% (dashed line)</li><li>A2O3 15.5% (dashed line)</li><li>A2O3 15.6% (dashed line)</li></ul><img alt=\"Figure snippet\" src=\"components/19122b33e809c05fad62a8d006904c36_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_006",
+      "placeholder": "{{IMG_SUM_006}}",
+      "component_type": "image_summary",
+      "description": "MgO 4.4% 염기도 vs 점도, C.TLeft Y-axis: 점도 (Poise)Right Y-axis: C.T (°C)X-axis: 염기도 (-)Legend (Al2O3 percentages): 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%, 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%",
+      "context_html": "",
+      "full_html": "<p>MgO 4.4% 염기도 vs 점도, C.T</p><p>Left Y-axis: 점도 (Poise)</p><p>Right Y-axis: C.T (°C)</p><p>X-axis: 염기도 (-)</p><p>Legend (Al2O3 percentages): 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%, 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%</p><img alt=\"Figure snippet\" src=\"components/3a52582a1085c6cee506554703118bf3_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 11
+    },
+    {
+      "id": "IMG_SUM_007",
+      "placeholder": "{{IMG_SUM_007}}",
+      "component_type": "image_summary",
+      "description": "MgO 4.6% 염기도 vs 점도, C.TLeft Y-axis: 점도 (Poise)Right Y-axis: C.T (°C)X-axis: 염기도 (-)Legend (Al2O3 percentages): 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%, 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%",
+      "context_html": "",
+      "full_html": "<p>MgO 4.6% 염기도 vs 점도, C.T</p><p>Left Y-axis: 점도 (Poise)</p><p>Right Y-axis: C.T (°C)</p><p>X-axis: 염기도 (-)</p><p>Legend (Al2O3 percentages): 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%, 15.7%, 15.8%, 15.9%, 16.0%, 16.1%, 16.2%, 16.3%</p><img alt=\"Figure snippet\" src=\"components/3a52582a1085c6cee506554703118bf3_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 11
+    },
+    {
+      "id": "IMG_SUM_008",
+      "placeholder": "{{IMG_SUM_008}}",
+      "component_type": "image_summary",
+      "description": "A graph illustrating the relationship between Viscosity (Poise) on the Y-axis and Temperature (°C) on the X-axis. The Y-axis ranges from 2 to 6 Poise, and the X-axis ranges from 1300 to 1600 °C. The graph displays seven straight lines labeled A through G, showing that viscosity decreases as temperature increases.",
+      "context_html": "",
+      "full_html": "<p>A graph illustrating the relationship between Viscosity (Poise) on the Y-axis and Temperature (°C) on the X-axis. The Y-axis ranges from 2 to 6 Poise, and the X-axis ranges from 1300 to 1600 °C. The graph displays seven straight lines labeled A through G, showing that viscosity decreases as temperature increases.</p><img alt=\"Figure snippet\" src=\"components/7cdaebc1c886902713eaeac6f23227ce_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/7cdaebc1c886902713eaeac6f23227ce_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 13
+    },
+    {
+      "id": "IMG_SUM_009",
+      "placeholder": "{{IMG_SUM_009}}",
+      "component_type": "image_summary",
+      "description": "출선 Data<table><thead><tr><th colspan=\"3\">Tap 선택</th></tr><tr><th>이전 Tap</th><th>다음 Tap</th><th>최근 Tap</th></tr></thead><tbody><tr><td>Tap No</td><td>7526</td><td></td></tr><tr><td>출선구 번호</td><td>3</td><td></td></tr><tr><td>출선게시시각</td><td>2008-06-14 0537</td><td></td></tr><tr><td>출선완료시각</td><td>2008-06-14 0821</td><td></td></tr><tr><td>출선소요시간 [Min]</td><td>164</td><td></td></tr><tr><td>이론 Pig량 [Ton]</td><td>1356</td><td></td></tr><tr><td>이론 Slag량 [Ton]</td><td>367</td><td></td></tr><tr><td>출선속도 [Ton/min]</td><td>8.3</td><td></td></tr><tr><td>장입속도 [min/ch]</td><td>10.0</td><td></td></tr><tr><td>잔선량 [Ton]</td><td>160</td><td></td></tr><tr><td>출선량(선선 포함)[Ton]</td><td>1366</td><td></td></tr><tr><td>Tap Hole 상태</td><td>A</td><td></td></tr><tr><td>출선구 심도 [mm]</td><td>3900</td><td></td></tr><tr><td>Mud 충전량 [kg]</td><td>408</td><td></td></tr><tr><td>Mud 충전압</td><td>0</td><td></td></tr><tr><td>Slag 종류</td><td>수재</td><td></td></tr><tr><td>Slag 분리시각</td><td>2008-06-14 0547</td><td></td></tr><tr><td>Slag 분리시간 [Min]</td><td>10</td><td></td></tr><tr><td>이재율 [%]</td><td>93.90</td><td></td></tr><tr><td>용선온도 [°C]</td><td>1535</td><td></td></tr><tr><td>No Hammer</td><td>0</td><td></td></tr><tr><td>열절지점</td><td>0</td><td></td></tr><tr><td>Bit 외경</td><td>0</td><td></td></tr><tr><td>O2 Pipe</td><td>0</td><td></td></tr><tr><td>개공시간</td><td>0</td><td></td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Slag 성분(현재)</th><th colspan=\"2\">Slag 성분(Test)</th><th>자료수정</th></tr><tr><th>Sample</th><th>1</th><th>Sample</th><th>1</th><th>저장</th><th>취소</th></tr></thead><tbody><tr><td>SiO2 [%]</td><td>33.47</td><td>CM/SA</td><td>0.92</td><td>MgO [%]</td><td>0.00</td></tr><tr><td>CaO [%]</td><td>41.73</td><td>TiO2 [%]</td><td>0.62</td><td>ZnO [%]</td><td>0.00</td></tr><tr><td>Al2O3 [%]</td><td>16.37</td><td>FeO [%]</td><td>0.30</td><td>Al2O3 [%]</td><td>0.00</td></tr><tr><td>MgO [%]</td><td>4.25</td><td>MnO [%]</td><td>0.36</td><td>C/S [-]</td><td>0.00</td></tr><tr><td>C/S</td><td>1.25</td><td>S [%]</td><td>0.65</td><td>입게온도</td><td>0</td></tr><tr><td></td><td></td><td>입게온도</td><td>1401</td><td></td><td></td></tr></tbody></table><table><thead><tr><th>용선온도 [°C]</th><th>1370</th><th>1380</th><th>1390</th><th>1400</th><th>1410</th><th>1430</th><th>1450</th><th>1470</th><th>1490</th><th>1500</th><th>1510</th><th>1520</th></tr></thead><tbody><tr><td>정도 [Pulse]</td><td>현재 31.4</td><td>26.3</td><td>17.3</td><td>11.4</td><td>11.3</td><td>10.0</td><td>3.2</td><td>3.1</td><td>2.6</td><td>2.5</td><td>2.0</td><td>1.8</td></tr><tr><td>Test</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Ladle 정보/용선성분</th><th colspan=\"2\">Sample 수</th></tr><tr><th>Sample</th><th>1</th><th>Sample</th><th>1</th></tr></thead><tbody><tr><td>I/D No</td><td colspan=\"2\"></td><td>T37</td><td>T03</td><td>T07</td><td>T13</td><td>T42</td><td>T61</td><td colspan=\"2\"></td><td>Average</td></tr><tr><td>Rail No</td><td colspan=\"2\"></td><td>38</td><td>37</td><td>38</td><td>37</td><td>37</td><td>38</td><td colspan=\"2\"></td><td></td></tr><tr><td>수선 시간</td><td>0</td><td>분 이하</td><td>57</td><td>34</td><td>54</td><td>21</td><td>0</td><td>11</td><td colspan=\"2\"></td><td>35</td></tr><tr><td>수선량</td><td>0</td><td>Ton 이상</td><td>304</td><td>293</td><td>317</td><td>292</td><td>0</td><td>0</td><td colspan=\"2\"></td><td>301</td></tr><tr><td>실적량</td><td colspan=\"2\"></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td colspan=\"2\"></td><td>0</td></tr><tr><td>용선온도</td><td>0</td><td>-</td><td>1525</td><td>1535</td><td>1520</td><td>1535</td><td>1520</td><td>1520</td><td colspan=\"2\"></td><td>1526</td></tr><tr><td>[C]</td><td>0.00</td><td>-</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.00</td></tr><tr><td>[Si]</td><td>0.00</td><td>-</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.47</td></tr><tr><td>[Mn]</td><td>0.00</td><td>% 이상</td><td>0.33</td><td>0.34</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.34</td></tr><tr><td>용선 물 [Si]</td><td>0.00</td><td>% 이하</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.00</td></tr><tr><td>성분 [S]</td><td>0.00</td><td>% 이하</td><td>0.017</td><td>0.017</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.017</td></tr><tr><td>[P]</td><td>0.00</td><td>% 이하</td><td>0.107</td><td>0.108</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.108</td></tr><tr><td>[Ti]</td><td>0.00</td><td>% 이하</td><td>0.067</td><td>0.064</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.066</td></tr><tr><td>[V]</td><td>0.00</td><td>% 이하</td><td>0.038</td><td>0.038</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.038</td></tr><tr><td>[Cr]</td><td colspan=\"2\"></td><td>0.010</td><td>0.010</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.010</td></tr></tbody></table>",
+      "context_html": "",
+      "full_html": "<p>출선 Data</p><table><thead><tr><th colspan=\"3\">Tap 선택</th></tr><tr><th>이전 Tap</th><th>다음 Tap</th><th>최근 Tap</th></tr></thead><tbody><tr><td>Tap No</td><td>7526</td><td></td></tr><tr><td>출선구 번호</td><td>3</td><td></td></tr><tr><td>출선게시시각</td><td>2008-06-14 0537</td><td></td></tr><tr><td>출선완료시각</td><td>2008-06-14 0821</td><td></td></tr><tr><td>출선소요시간 [Min]</td><td>164</td><td></td></tr><tr><td>이론 Pig량 [Ton]</td><td>1356</td><td></td></tr><tr><td>이론 Slag량 [Ton]</td><td>367</td><td></td></tr><tr><td>출선속도 [Ton/min]</td><td>8.3</td><td></td></tr><tr><td>장입속도 [min/ch]</td><td>10.0</td><td></td></tr><tr><td>잔선량 [Ton]</td><td>160</td><td></td></tr><tr><td>출선량(선선 포함)[Ton]</td><td>1366</td><td></td></tr><tr><td>Tap Hole 상태</td><td>A</td><td></td></tr><tr><td>출선구 심도 [mm]</td><td>3900</td><td></td></tr><tr><td>Mud 충전량 [kg]</td><td>408</td><td></td></tr><tr><td>Mud 충전압</td><td>0</td><td></td></tr><tr><td>Slag 종류</td><td>수재</td><td></td></tr><tr><td>Slag 분리시각</td><td>2008-06-14 0547</td><td></td></tr><tr><td>Slag 분리시간 [Min]</td><td>10</td><td></td></tr><tr><td>이재율 [%]</td><td>93.90</td><td></td></tr><tr><td>용선온도 [°C]</td><td>1535</td><td></td></tr><tr><td>No Hammer</td><td>0</td><td></td></tr><tr><td>열절지점</td><td>0</td><td></td></tr><tr><td>Bit 외경</td><td>0</td><td></td></tr><tr><td>O2 Pipe</td><td>0</td><td></td></tr><tr><td>개공시간</td><td>0</td><td></td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Slag 성분(현재)</th><th colspan=\"2\">Slag 성분(Test)</th><th>자료수정</th></tr><tr><th>Sample</th><th>1</th><th>Sample</th><th>1</th><th>저장</th><th>취소</th></tr></thead><tbody><tr><td>SiO2 [%]</td><td>33.47</td><td>CM/SA</td><td>0.92</td><td>MgO [%]</td><td>0.00</td></tr><tr><td>CaO [%]</td><td>41.73</td><td>TiO2 [%]</td><td>0.62</td><td>ZnO [%]</td><td>0.00</td></tr><tr><td>Al2O3 [%]</td><td>16.37</td><td>FeO [%]</td><td>0.30</td><td>Al2O3 [%]</td><td>0.00</td></tr><tr><td>MgO [%]</td><td>4.25</td><td>MnO [%]</td><td>0.36</td><td>C/S [-]</td><td>0.00</td></tr><tr><td>C/S</td><td>1.25</td><td>S [%]</td><td>0.65</td><td>입게온도</td><td>0</td></tr><tr><td></td><td></td><td>입게온도</td><td>1401</td><td></td><td></td></tr></tbody></table><table><thead><tr><th>용선온도 [°C]</th><th>1370</th><th>1380</th><th>1390</th><th>1400</th><th>1410</th><th>1430</th><th>1450</th><th>1470</th><th>1490</th><th>1500</th><th>1510</th><th>1520</th></tr></thead><tbody><tr><td>정도 [Pulse]</td><td>현재 31.4</td><td>26.3</td><td>17.3</td><td>11.4</td><td>11.3</td><td>10.0</td><td>3.2</td><td>3.1</td><td>2.6</td><td>2.5</td><td>2.0</td><td>1.8</td></tr><tr><td>Test</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Ladle 정보/용선성분</th><th colspan=\"2\">Sample 수</th></tr><tr><th>Sample</th><th>1</th><th>Sample</th><th>1</th></tr></thead><tbody><tr><td>I/D No</td><td colspan=\"2\"></td><td>T37</td><td>T03</td><td>T07</td><td>T13</td><td>T42</td><td>T61</td><td colspan=\"2\"></td><td>Average</td></tr><tr><td>Rail No</td><td colspan=\"2\"></td><td>38</td><td>37</td><td>38</td><td>37</td><td>37</td><td>38</td><td colspan=\"2\"></td><td></td></tr><tr><td>수선 시간</td><td>0</td><td>분 이하</td><td>57</td><td>34</td><td>54</td><td>21</td><td>0</td><td>11</td><td colspan=\"2\"></td><td>35</td></tr><tr><td>수선량</td><td>0</td><td>Ton 이상</td><td>304</td><td>293</td><td>317</td><td>292</td><td>0</td><td>0</td><td colspan=\"2\"></td><td>301</td></tr><tr><td>실적량</td><td colspan=\"2\"></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td colspan=\"2\"></td><td>0</td></tr><tr><td>용선온도</td><td>0</td><td>-</td><td>1525</td><td>1535</td><td>1520</td><td>1535</td><td>1520</td><td>1520</td><td colspan=\"2\"></td><td>1526</td></tr><tr><td>[C]</td><td>0.00</td><td>-</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.00</td></tr><tr><td>[Si]</td><td>0.00</td><td>-</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.47</td></tr><tr><td>[Mn]</td><td>0.00</td><td>% 이상</td><td>0.33</td><td>0.34</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.34</td></tr><tr><td>용선 물 [Si]</td><td>0.00</td><td>% 이하</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td colspan=\"2\"></td><td>0.00</td></tr><tr><td>성분 [S]</td><td>0.00</td><td>% 이하</td><td>0.017</td><td>0.017</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.017</td></tr><tr><td>[P]</td><td>0.00</td><td>% 이하</td><td>0.107</td><td>0.108</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.108</td></tr><tr><td>[Ti]</td><td>0.00</td><td>% 이하</td><td>0.067</td><td>0.064</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.066</td></tr><tr><td>[V]</td><td>0.00</td><td>% 이하</td><td>0.038</td><td>0.038</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.038</td></tr><tr><td>[Cr]</td><td colspan=\"2\"></td><td>0.010</td><td>0.010</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td colspan=\"2\"></td><td>0.010</td></tr></tbody></table><img alt=\"Complex-Block snippet\" src=\"components/1b75e7b1fc885f9b4c6ee2c3dd57a20b_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/1b75e7b1fc885f9b4c6ee2c3dd57a20b_2_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 19
+    },
+    {
+      "id": "IMG_SUM_010",
+      "placeholder": "{{IMG_SUM_010}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.22, Al₂O₃ 16%BF slag system<br/>CaO/SiO₂=1.22, 16% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.22, Al₂O₃ 16%</p><p>BF slag system<br/>CaO/SiO₂=1.22, 16% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_2_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    },
+    {
+      "id": "IMG_SUM_011",
+      "placeholder": "{{IMG_SUM_011}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.22, Al₂O₃ 18%BF slag system<br/>CaO/SiO₂=1.22, 18% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.22, Al₂O₃ 18%</p><p>BF slag system<br/>CaO/SiO₂=1.22, 18% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    },
+    {
+      "id": "IMG_SUM_012",
+      "placeholder": "{{IMG_SUM_012}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.22, Al₂O₃ 20%BF slag system<br/>CaO/SiO₂=1.22, 20% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.22, Al₂O₃ 20%</p><p>BF slag system<br/>CaO/SiO₂=1.22, 20% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    },
+    {
+      "id": "IMG_SUM_013",
+      "placeholder": "{{IMG_SUM_013}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.18, Al₂O₃ 16%BF slag system<br/>CaO/SiO₂=1.18, 16% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.18, Al₂O₃ 16%</p><p>BF slag system<br/>CaO/SiO₂=1.18, 16% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_5_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    },
+    {
+      "id": "IMG_SUM_014",
+      "placeholder": "{{IMG_SUM_014}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.18, Al₂O₃ 18%BF slag system<br/>CaO/SiO₂=1.18, 18% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.18, Al₂O₃ 18%</p><p>BF slag system<br/>CaO/SiO₂=1.18, 18% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    },
+    {
+      "id": "IMG_SUM_015",
+      "placeholder": "{{IMG_SUM_015}}",
+      "component_type": "image_summary",
+      "description": "C/S 1.18, Al₂O₃ 20%BF slag system<br/>CaO/SiO₂=1.18, 20% Al₂O₃Viscosity (poise)4% MgO<br/>7% MgO<br/>10% MgOTemperature (°C)",
+      "context_html": "",
+      "full_html": "<p>C/S 1.18, Al₂O₃ 20%</p><p>BF slag system<br/>CaO/SiO₂=1.18, 20% Al₂O₃</p><p>Viscosity (poise)</p><p>4% MgO<br/>7% MgO<br/>10% MgO</p><p>Temperature (°C)</p><img alt=\"Figure snippet\" src=\"components/0c402970ebf957d781549da28ac9824e_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_7_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    }
+  ],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "Graph showing Slag flow rate (S/S) versus C/S ratio. Three curves are shown for temperatures 1400°C, 1450°C, and 1500°C. The flow rate peaks around C/S = 1.2 to 1.3, with higher temperatures resulting in higher flow rates.",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph showing Slag flow rate (S/S) versus C/S ratio. Three curves are shown for temperatures 1400°C, 1450°C, and 1500°C. The flow rate peaks around C/S = 1.2 to 1.3, with higher temperatures resulting in higher flow rates.\" src=\"components/6494b004cd571181c95ca73016c91f4e_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_7_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 가. 노내 탈류와 Slag C/S",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Graph (a) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 10%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph (a) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 10%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.\" src=\"components/6494b004cd571181c95ca73016c91f4e_11_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_11_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_TR_003",
+      "placeholder": "{{IMG_TR_003}}",
+      "component_type": "image_trans",
+      "description": "Graph (b) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 15%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph (b) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 15%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.\" src=\"components/6494b004cd571181c95ca73016c91f4e_13_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_13_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_TR_004",
+      "placeholder": "{{IMG_TR_004}}",
+      "component_type": "image_trans",
+      "description": "Graph (c) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 20%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph (c) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 20%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.\" src=\"components/6494b004cd571181c95ca73016c91f4e_15_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_15_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_TR_005",
+      "placeholder": "{{IMG_TR_005}}",
+      "component_type": "image_trans",
+      "description": "CaO-SiO2-Al2O3 ternary phase diagram showing liquidus lines and various crystalline phases like 3CaO·2SiO2, 2CaO·SiO2, CaO·SiO2, 3CaO·Al2O3·2SiO2, 2CaO·Al2O3·SiO2, and 12CaO·7Al2O3, along with temperature contours (e.g., 1500°C, 1400°C, 1300°C).",
+      "context_html": "",
+      "full_html": "<img alt=\"CaO-SiO2-Al2O3 ternary phase diagram showing liquidus lines and various crystalline phases like 3CaO·2SiO2, 2CaO·SiO2, CaO·SiO2, 3CaO·Al2O3·2SiO2, 2CaO·Al2O3·SiO2, and 12CaO·7Al2O3, along with temperature contours (e.g., 1500°C, 1400°C, 1300°C).\" src=\"components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG 의 주요 조성",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_TR_006",
+      "placeholder": "{{IMG_TR_006}}",
+      "component_type": "image_trans",
+      "description": "Figure (a): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.1. The plot illustrates the effect of MgO addition on viscosity under low C/S conditions.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure (a): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.1. The plot illustrates the effect of MgO addition on viscosity under low C/S conditions.\" src=\"components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_TR_007",
+      "placeholder": "{{IMG_TR_007}}",
+      "component_type": "image_trans",
+      "description": "Figure (b): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.3. The plot illustrates the effect of MgO addition on viscosity under high C/S conditions.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure (b): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.3. The plot illustrates the effect of MgO addition on viscosity under high C/S conditions.\" src=\"components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_TR_008",
+      "placeholder": "{{IMG_TR_008}}",
+      "component_type": "image_trans",
+      "description": "Figure showing the relationship between Slag viscosity (poise) and the ratio (CaO+MgO)/(SiO2+Al2O3). The graph plots viscosity (Y-axis, 0 to 12) against the ratio (X-axis, 0.7 to 1.1). Two data sets are shown: 환원성분위기 (Reduction component range, solid circles) and 산화성분위기 (Oxidation component range, open circles). Viscosity generally decreases as the ratio increases, with the Reduction component range showing lower viscosity values, especially around the ratio of 1.0.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure showing the relationship between Slag viscosity (poise) and the ratio (CaO+MgO)/(SiO2+Al2O3). The graph plots viscosity (Y-axis, 0 to 12) against the ratio (X-axis, 0.7 to 1.1). Two data sets are shown: 환원성분위기 (Reduction component range, solid circles) and 산화성분위기 (Oxidation component range, open circles). Viscosity generally decreases as the ratio increases, with the Reduction component range showing lower viscosity values, especially around the ratio of 1.0.\" src=\"components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.4 복합염기도가 SLAG 점성에 미치는 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_TR_009",
+      "placeholder": "{{IMG_TR_009}}",
+      "component_type": "image_trans",
+      "description": "Screenshot of Response Optimization software showing optimization results for MgO, Al2O3, and C/S ratios. The results include New D, Hi Cur Lo, and CT (Targ: 1400.0, y = 1387.4989, d = 0.74994) and 1400°C V (Targ: 10.0, y = 10.8983, d = 0.97006) values, along with corresponding graphs.",
+      "context_html": "",
+      "full_html": "<p><img alt=\"Screenshot of Response Optimization software showing optimization results for MgO, Al2O3, and C/S ratios. The results include New D, Hi Cur Lo, and CT (Targ: 1400.0, y = 1387.4989, d = 0.74994) and 1400°C V (Targ: 10.0, y = 10.8983, d = 0.97006) values, along with corresponding graphs.\" src=\"components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp\"/></p>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 7
+    },
+    {
+      "id": "IMG_TR_010",
+      "placeholder": "{{IMG_TR_010}}",
+      "component_type": "image_trans",
+      "description": "Graph titled 'MgO 4.0% 염기도 vs 점도, C.T'. The graph plots Viscosity (Poise) and C.T (°C) against Alkali Degree (-). Multiple lines represent different Al2O3 concentrations (15.0% to 15.6%).",
+      "context_html": "",
+      "full_html": "<p><img alt=\"Graph titled 'MgO 4.0% 염기도 vs 점도, C.T'. The graph plots Viscosity (Poise) and C.T (°C) against Alkali Degree (-). Multiple lines represent different Al2O3 concentrations (15.0% to 15.6%).\" src=\"components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp\"/></p>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 7
+    },
+    {
+      "id": "IMG_TR_011",
+      "placeholder": "{{IMG_TR_011}}",
+      "component_type": "image_trans",
+      "description": "Figure 1: MgO 4.0% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure 1: MgO 4.0% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.\" src=\"components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 10
+    },
+    {
+      "id": "IMG_TR_012",
+      "placeholder": "{{IMG_TR_012}}",
+      "component_type": "image_trans",
+      "description": "Figure 2: MgO 4.2% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure 2: MgO 4.2% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.\" src=\"components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 10
+    },
+    {
+      "id": "IMG_TR_013",
+      "placeholder": "{{IMG_TR_013}}",
+      "component_type": "image_trans",
+      "description": "Figure showing Viscosity (Poise) and Critical Temperature (C.T.) versus Viscosity (Poise) for various A2O3 compositions (15.7% to 16.3%) at MgO 4.8%. The viscosity curves are generally decreasing with increasing viscosity, and the C.T. curves are generally increasing with increasing viscosity. Several curves show a minimum viscosity point.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure showing Viscosity (Poise) and Critical Temperature (C.T.) versus Viscosity (Poise) for various A2O3 compositions (15.7% to 16.3%) at MgO 4.8%. The viscosity curves are generally decreasing with increasing viscosity, and the C.T. curves are generally increasing with increasing viscosity. Several curves show a minimum viscosity point.\" src=\"components/20352667832cb5134416abb5fc91df96_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/20352667832cb5134416abb5fc91df96_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 12
+    },
+    {
+      "id": "IMG_TR_014",
+      "placeholder": "{{IMG_TR_014}}",
+      "component_type": "image_trans",
+      "description": "Graph showing the relationship between Al2O3 (%) (x-axis, 0 to 25) and C.T. (°C) (y-axis, 1250 to 1450). A downward-opening parabola is plotted, labeled y = 1,9741x^2 - 61,294x + 1775.3, with R^2 = 0.9295. The minimum point of the curve is highlighted, corresponding to Al2O3 around 14-16% and C.T. around 1350°C.",
+      "context_html": "",
+      "full_html": "<p>CaO 36%, MgO 2%</p><p>y = 1,9741x² - 61,294x + 1775.3<br/>R² = 0.9295</p><p>화귀식으로부터 Al₂O₃ 14~16%에서의 MgO%에 따른 용해온도 산출</p><img alt=\"Graph showing the relationship between Al2O3 (%) (x-axis, 0 to 25) and C.T. (°C) (y-axis, 1250 to 1450). A downward-opening parabola is plotted, labeled y = 1,9741x^2 - 61,294x + 1775.3, with R^2 = 0.9295. The minimum point of the curve is highlighted, corresponding to Al2O3 around 14-16% and C.T. around 1350°C.\" src=\"components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "IMG_TR_015",
+      "placeholder": "{{IMG_TR_015}}",
+      "component_type": "image_trans",
+      "description": "Screenshot of a CT (Casting Temperature) input interface. The target is 1400.0°C, and the calculated value is 1405.3835°C with a deviation of 0.96411. The input field is labeled 'Input New Level Value'.",
+      "context_html": "",
+      "full_html": "<p>CT</p><p>Targ: 1400.0<br/>y = 1405.3835<br/>d = 0.96411</p><p>1400°C V<br/>Targ: 10.0<br/>y = 10.9651<br/>d = 0.96783</p><img alt=\"Screenshot of a CT (Casting Temperature) input interface. The target is 1400.0°C, and the calculated value is 1405.3835°C with a deviation of 0.96411. The input field is labeled 'Input New Level Value'.\" src=\"components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "IMG_TR_016",
+      "placeholder": "{{IMG_TR_016}}",
+      "component_type": "image_trans",
+      "description": "Graph comparing C.T. (°C) (y-axis, 1300 to 1500) versus MgO (%) (x-axis, 0 to 12) for Redcar (blue circles) and POSCO (green squares). The curves show a significant difference in calculated melting temperatures, especially around 10% MgO.",
+      "context_html": "",
+      "full_html": "<p>Al₂O₃ 14%, CaO 44%</p><p>Redcar 화귀식과 Optimizer로 부터 계산한 용해온도 큰 차이 발생</p><img alt=\"Graph comparing C.T. (°C) (y-axis, 1300 to 1500) versus MgO (%) (x-axis, 0 to 12) for Redcar (blue circles) and POSCO (green squares). The curves show a significant difference in calculated melting temperatures, especially around 10% MgO.\" src=\"components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로공정에서 용선과 함께 생산되는 SLAG의 염기도 및 유동성 관리기술에 대해 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\nSLAG는 철광석이 융융되거나 COKE의 연소후 생성되는 맥석들의 용용물로서 용선과 거의 동일한 시점에 융융되고 배출되기 때문에 용선성분 및 고로 노황에 SLAG성상이 미치는 영향은 대단히 크다. 따라서 SLAG 성상중 가장 중요한 염기도 및 유동성의 제어기술에 대한 이해가 필요하다.",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점 관리항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점 관리항목",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업기준",
+      "placeholders": {},
+      "section_path": "4. 조업기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 SLAG 염기도 관리기준\n\n{{TB_STR_002}}\n○고로 조업조건인 용선온도 1,500 °C, SLAG 중 Al2O3 10~16 % 조건에서\n\n○유동성 측면에서는 SLAG 염기도 1.10 ~ 1.30 으로 관리필요\n\n○노내 탈류능을 고려하면 SLAG 염기도 1.20 ~ 1.35 까지 관리필요\n\n○따라서 고로 SLAG 염기도 관리범위는 노내 탈류능과 SLAG 유동성을 고려하여 1.10 ~ 1.30 이다.\n\n- 필요시(통기성 불량, 정기수리, 노벽수리등)시는 上記 범위를 벗어나 일시적으로 조업할 수 있다.\n\n- SLAG 염기도 관리범위기준은 각 고로특성에 따라 변경관리할수 있다",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "4. 조업기준 / 4.1 SLAG 염기도 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준\n\n## 가. 노내 용용물(용선+SLAG)의 유동성 불량시는 SLAG 염기도, Al2O3 함량을 확인하고, C/S ≥ 1.31 이면 장입계산으로 염기도를 낮추고, Al₂O₃ ≥ 16.1 %인 경우는 소결공장에 Al₂O₃ 량을 낮추어 줄 것을 요청한다.\n\n## 나. 용선중 [S]가 평상치(0.015~0.020 %)보다 상승시는 염기도를 1.20 이상으로 상향 조정한다.",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 / 나. 용선중 [S]가 평상치(0.015~0.020 %)보다 상승시는 염기도를 1.20 이상으로 상향 조정한다.",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 다. SLAG 영기ido가 1.31 이상이고 노내 통기성이 악화될 때는 감광 및 계산영기ido를 낮춘다.\n-감광 및 영기ido 조정폭은 당시 고로상황에 따라 판단, 결정한다.",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 / 다. SLAG 영기ido가 1.31 이상이고 노내 통기성이 악화될 때는 감광 및 계산영기ido를 낮춘다.",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "# 6. 기술이론",
+      "placeholders": {},
+      "section_path": "6. 기술이론",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토\n\n### 가. 노내 탈류와 Slag C/S\n● 용선중의 [S]는 Slag-Metal 계면반응에 의해 Slag 중으로 이행 [FeS] + (CaO, MgO) → (FeO) + (CaS, MgS)\n● 따라서 탈류반응은 C/S 가 높거나, 고열일때 활발.\n● 용선온도 1,500 °C 상태에서는 C/S 1.40 까지 탈류능 향상됨.\n\n{{IMG_TR_001}}\n(그림)Slag 영기ido와 탈류능\n\n### 나. SLAG 유동성과 Slag C/S\n● 용선온도 1,500 °C, Al₂O₃ 10~16% 수준에서 Slag C/S 1.20 수준이 유동성면에서 가장 유리\n\n{{IMG_TR_002}}\n(a) Al₂O₃ 10%, Mgo 5%\n\n{{IMG_TR_003}}\n(b) Al₂O₃ 15%, Mgo 5%\n\n{{IMG_TR_004}}\n(c) Al₂O₃ 20%, Mgo 5%",
+      "placeholders": {
+        "IMG_TR_001": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_7_img.webp",
+        "IMG_TR_002": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_11_img.webp",
+        "IMG_TR_003": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_13_img.webp",
+        "IMG_TR_004": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_15_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "#### 다. SLAG 성분관리\n● 포항고로 조업조건인 용선온도 1,500 °C, Slag 중 Al₂O₃ 10.0~16.0% 에서\n● 노내 탈류능력을 확보하기 위해서는 Slag C/S 1.20~1.35 까지 관리필요\n● 반면에 Slag 유동성을 확보하기 위해서는 Slag C/S 1.10~1.30 까지 관리필요\n● 따라서 포항 고로는 탈류능력과 Slag 유동성을 확보하기 위해서는 영기도를 1.20 ~ 1.30 범위로 관리하면 됨.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S / 다. SLAG 성분관리",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "## 6.2 SLAG 의 성분\n\n{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.2 SLAG 의 성분",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "## 6.3 SLAG 의 주요 조성\nSlag 의 주요 조성은 SiO₂, Al₂O₃, CaO, MgO 이며 기타 성분으로서 MnO 2% 이하, TiO₂ 2% 이하, S 약 1%, FeO 약 1% 이하를 품고 있다.\n\nCaO-SiO₂-Al₂O₃ 3 원계의 용점을 그림에 나타낸다.\n\n{{IMG_TR_005}}\n그림. CaO-SiO₂-Al₂O₃ 계의 용점",
+      "placeholders": {
+        "IMG_TR_005": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.3 SLAG 의 주요 조성",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "## 6.4 SLAG 의 유동성\nSlag 의 유동성은 고로 조업 및 출선재 작업에 중요한 영향을 미치며 점성, 표면장력, 밀도 및 유체의 온도와 밀접한 관계가 있다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "### 6.4.1 점성(점도, VISCOSITY)\n점성이란 다른 속도로 이동하는 액체층의 사이에서 발생하는 내부 마찰력이라고 생각한다.\n\n그림 1. 처럼 접촉면적(S)의 점성액체를 깔 2개의 층이 dx 거리만큼 떨어져 있는 경우\n\n이 2개를 운동 속도차 du로 움직이기 위해 필요한 힘(P)는 다음과 같은 식으로 나타낸다",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "{{IMG_SUM_001}}\n그림 1. 점성의 정의\n\n여기서 η는 내부마찰계수로서 점성을, 점성계수 또는 절대점도라 한다.\n\n점성계수 η의 단위는 c.g.s. 단위계(dyn.sec/cm²)로 나타낼때는 그 단위를 poise로 부른다.\n\n또 η(poise)를 밀도ρ(g/cm³)로 나눌때 값 η/ρ를 동점성계수 또는 동점도라 하고 그 단위는 stokes라 한다.\n\n표 1. 에 점성계수 값의 개념을 알기 쉽게 대표적인 물질의 점도를 나타냈다.\n\n[표 1. 대표적인 물질의 점도]\n\n{{TB_STR_004}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/f17ba585d9f878163a2c9c6d4bf521b2_1_img.webp",
+        "TB_STR_004": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p004_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "### 6.4.2 화학성분과 SLAG 유동성과의 관계\n\n### 가. SiO₂의 영향\nSiO₂는 산성 산화물이고 점도가 높은 glass를 만드는 주성분이므로 점성을 저하시키기 위해 일반적으로 염기성 성분을 첨가해 유동성을 좋게할 필요가 있다. 또한, SiO₂는 산소를 4개 배위한 사면체가 3차원적으로 결합해서 Network를 구성한 산화물이다.\n\n고로 Slag의 점성은 주로 이 Network에 의해 크게 지배되고 이 Network가 작은 만큼 점성은 낮다. SiO₂는 일반적으로 안정한 Slag를 형성한다.\n\n### 나. CaO의 영향\nCaO는 Slag 구조상 Network 파괴자로 되어 SiO₂와 공존하며, SiO₂와 공존시 점성을 저하시키지만 규산 Slag와 관계하는 이상으로 첨가하면 Slag 용점이 높아져 CaO 증가에 따라 점성이 증가한다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 나. CaO의 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_017",
+      "component_type": "text",
+      "text": "#### 다. FeO, MnO의 영향\nFeO와 MnO는 Slag의 점성을 저하시켜 점출 온도를 낮춘다. FeO의 융점은 1380°C로 낮기 때문에 CaO, SiO₂에 더하면 융용점이 저하한다.\n\nSlag 중에 FeO를 더하면 전체적으로 점성은 저하하지만, 염기성 Slag보다는 산성 Slag에 더하는 편이 Network 파괴자로써 효과가 크다.\n\nMnO는 Slag 점출 온도와 점성에 관해서 FeO와 거의 유사한 영향을 미친다.\n\n또 MnO 첨가는 FeO처럼 SiO₂의 용용점을 저하시킨다.\n\n#### 라. TiO₂의 영향\nTiO₂는 FeO처럼 초기 Slag의 유동성을 저하시키며, 1400°C 부근에서 Al₂O₃와 SiO₂는 점성을 상승시키지만 TiO₂는 점성을 저하시킨다.\n\nTiO₂의 점도를 저하시키는 효과는 1400°C 부근의 낮은 온도에서 현저하다.\n\n#### 마. S의 영향\n고로 Slag는 S를 여러가지 화합물로 함유하고 있다. S의 화합물로서는 주로 CaS이고 그 밖에 FeS, MnS, MgS로 존재한다. 유화물 Slag의 점성에 대해서는 일반적으로 유화물의 증가에 따라 어느 한계까지는 점도를 저하시키고, 그 유화물의 석출로 인해 점도가 상승한다고 알려져 있다. MgS는 Slag 중에 용해하지 않기 때문에 미세 분산된 현탁물로써 Slag 중에 더물러 점성을 증대시킨다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 나. CaO의 영향 / 마. S의 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_018",
+      "component_type": "text",
+      "text": "### 6.4.3 C/S에 따른 점도의 영향\n\n#### 가. 저 C/S의 경우(C/S=1.1) Al₂O₃가 높아지는 경우 MgO량을 첨가하면 점도의 상승을 방지.\n\n#### 나. 고 C/S의 경우(C/S=1.3) 염기성 성분이 많이 존재하기 위해 MgO를 첨가하면 점성 저하의 효과가 있지만 Al₂O₃가 10% 이상 존재하는 때에는 점성을 저하시키고, Al₂O₃ 10% 이하에 대해서는 MgO의 첨가는 점성을 상승시킨다.\n\n{{IMG_TR_006}}\nAl₂O₃(%) (a) 1450°C C/S=1.1\n\n{{IMG_TR_007}}\nAl₂O₃(%) (b) 1450°C C/S=1.3",
+      "placeholders": {
+        "IMG_TR_006": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp",
+        "IMG_TR_007": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향 / 나. 고 C/S의 경우(C/S=1.3) 염기성 성분이 많이 존재하기 위해 MgO를 첨가하면 점성 저하의 효과가 있지만 Al₂O₃가 10% 이상 존재하는 때에는 점성을 저하시키고, Al₂O₃ 10% 이하에 대해서는 MgO의 첨가는 점성을 상승시킨다.",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_019",
+      "component_type": "text",
+      "text": "#### 다. Al₂O₃, MgO 성분 변화에 대한 안정성은 전반적으로 염기도가 높은 slag가 등정성 곡선의 간격이 좁고 불안정하다. 통상 고로 slag 성분에는 거의 문제가되지 않는다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향 / 다. Al₂O₃, MgO 성분 변화에 대한 안정성은 전반적으로 염기도가 높은 slag가 등정성 곡선의 간격이 좁고 불안정하다. 통상 고로 slag 성분에는 거의 문제가되지 않는다.",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_020",
+      "component_type": "text",
+      "text": "### 6.4.4 복합염기도가 SLAG 점성에 미치는 영향\n● MgO는 산성 Slag(C/S 0.8)에서는 첨가시 점성을 저하시켜 주고 염기성 Slag(C/S 1.2) 분위기에서는 CaO에 비해 약 염기성이며 CaO가 과잉으로 존재하므로 유동성 개선 효과가 적음. 따라서 C/S 1.2인 고로 조업범위 내에서 Al₂O₃ 0%인 경우 : 염기가 과잉으로 존재하여 MgO(0~5%)첨가해도 점성저하 효과는 적음. Al₂O₃ 6~16%인 경우 : Al₂O₃는 산성 성분이므로 증가시에 점성저하 효과가 큼.\n  ● Al₂O₃ 0%인 경우 : 염기가 과잉으로 존재하여 MgO(0~5%)첨가해도 점성저하 효과는 적음.\n  ● Al₂O₃ 6~16%인 경우 : Al₂O₃는 산성 성분이므로 증가시에 점성저하 효과가 큼.\n\n● MgO가 점성저하 효과를 발휘할 수 있는 범위는 산성성분의 과잉상태인 (Al₂O₃ 9~13%) 범위이며 Slag 염기도 1.2, 복합 C/S 0.98~1.00 범위에서 Slag 점성이 최저수준이 유지되어 유동성 개선효과가 큼.\n\n{{IMG_TR_008}}\n그림. 고로 Slag의 점도에 미치는 C/S의 영향 (1450°C)",
+      "placeholders": {
+        "IMG_TR_008": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.4 복합염기도가 SLAG 점성에 미치는 영향",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_021",
+      "component_type": "text",
+      "text": "### 6.4.5 SLAG 성분과 점도의 관계\n안정된 노황을 유지하기 위해 고로 Slag는 물리성상과 화학성분에서 고려되어야 하며, Slag 특성, 고탈류 능력, 낮은 용해온도와 낮은 점도 등에 심각한 영향을 미치지 않는 범위내에서의 Slag 성분 조정이 필요하고, 이것은 전체 Slag 성분의 95%를 차지하는 CaO, MgO, SiO₂와 Al₂O₃의 주요성분의 Balance에 의해 결정된다.\n\nSlag 성분에 의해 결정되는 Slag 구조는 점도에 커다란 영향을 미치며, Alumino-Silicates를 포함하는 Slag는 Al-O와 Si-O를 구성한 3차원 Net-Work가 용액 상태에서도 견디기 때문에 점도가 높다. 염기성 산화물(CaO, MgO)의 첨가는 이러한 3차원 Net-Work를 유동성이 좋은 Silica 4단체로 분리함으로써 점성을 개선한다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.5 SLAG 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_022",
+      "component_type": "text",
+      "text": "### 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측\n정상 및 비정상조업 (정기수리, 노벽보수, 냉입 등)시 채취한 실제 고로 Slag 43EA에 대한 점도실험",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_023",
+      "component_type": "text",
+      "text": "결과를 바탕으로 다음과 같이 각 조성에서의 임계온도 및 1,400°C에서의 점도를 예측하여 최적 Slag 조성을 설계할 수 있는 Guidance Model을 제시하였다.\n\n이에 따라, 정상조업시 염기도 등 Slag 성상 조성을 위한 부원료 사용시 이 Model을 참고로 하여 부원료 사용량 결정 및 비정상 조업시 Slag 유동성 확보를 위한 참고자료로 활용할 수 있다.\n\n{{IMG_TR_009}}",
+      "placeholders": {
+        "IMG_TR_009": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_024",
+      "component_type": "text",
+      "text": "### 6.4.7 Slag 성분에 따른 염기도 상한 관리기준\n- 정상 Al₂O₃ 범위에서의 염기도 상한기준\n\n(1) MgO 4.0%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_TR_010}}",
+      "placeholders": {
+        "IMG_TR_010": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_025",
+      "component_type": "text",
+      "text": "(2) MgO 4.2%\n\n관리기준 : 점도 12Poise 이하 (1,400℃), C.T(임계온도) 1,400℃ 이하\n\n{{IMG_SUM_002}}\n(3) MgO 4.4%\n\n관리기준 : 점도 12Poise 이하 (1,400℃), C.T(임계온도) 1,400℃ 이하\n\n{{IMG_SUM_003}}",
+      "placeholders": {
+        "IMG_SUM_002": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_3_img.webp",
+        "IMG_SUM_003": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_6_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_026",
+      "component_type": "text",
+      "text": "(4) MgO 4.6%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_SUM_004}}\n(4) MgO 4.8%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_SUM_005}}",
+      "placeholders": {
+        "IMG_SUM_004": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_3_img.webp",
+        "IMG_SUM_005": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_6_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 9
+    },
+    {
+      "id": "TEXT_027",
+      "component_type": "text",
+      "text": "- 고 Al2O3 범위에서의 염기도 상한 기준\n\n(1) MgO 4.0%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_TR_011}}\n(2) MgO 4.2%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_TR_012}}",
+      "placeholders": {
+        "IMG_TR_011": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp",
+        "IMG_TR_012": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 10
+    },
+    {
+      "id": "TEXT_028",
+      "component_type": "text",
+      "text": "(3) MgO 4.4%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_SUM_006}}\n(4) MgO 4.6%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_SUM_007}}",
+      "placeholders": {
+        "IMG_SUM_006": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_3_img.webp",
+        "IMG_SUM_007": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_6_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 11
+    },
+    {
+      "id": "TEXT_029",
+      "component_type": "text",
+      "text": "(5) MgO 4.8%\n\n관리기준 : 점도 12Poise 이하 (1,400°C), C.T(임계온도) 1,400°C 이하\n\n{{IMG_TR_013}}",
+      "placeholders": {
+        "IMG_TR_013": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/20352667832cb5134416abb5fc91df96_3_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 12
+    },
+    {
+      "id": "TEXT_030",
+      "component_type": "text",
+      "text": "### 6.4.8 Slag 성분과 점도의 관계\n안정된 노화를 유지하기 위해 고로 Slag는 조성과 물리적인 면에서 공히 동질성을 나타내야 하며, Slag 특성, 고탈류 능력, 낮은 용해온도와 낮은 점도등에 심각한 영향을 미치지 않는 범위내에서의 Slag 성분变动이 요구되어지고, 이것은 전체 Slag 성분의 95%를 차지하는 CaO, MgO, SiO2와 Al2O3의 주요성분의 Balance에 의해 결정된다.\n\nSlag 성분에 의해 결정되는 Slag 구조는 점도에 커다란 영향을 미치며, Alumino-Silicates를 포함하는 Slag 는 Al-O 와 Si-O를 구성한 커다란 3차원 그물이 심지어는 용액 상태에서도 견디기 때문에 점도가 높다. 영기성 산화물(CaO, MgO)의 첨가는 이러한 3차원 그물을 유동성이 좋은 Silica 4단체로 분리함으로써 점도를 줄일 수 있다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 12
+    },
+    {
+      "id": "TEXT_031",
+      "component_type": "text",
+      "text": "[온도와 점도의 관계]\n\n{{TB_STR_005}}\n\n{{IMG_SUM_008}}",
+      "placeholders": {
+        "TB_STR_005": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p013_table_01.png",
+        "IMG_SUM_008": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/7cdaebc1c886902713eaeac6f23227ce_4_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 13
+    },
+    {
+      "id": "TEXT_032",
+      "component_type": "text",
+      "text": "[Slag 용해온도와 점도범위]\nAl2O3(%)---- 8%\n\n{{TB_STR_006}}\nAl2O3(%)---- 9%\n\n{{TB_STR_007}}\nAl2O3(%)---- 10%\n\n{{TB_STR_008}}",
+      "placeholders": {
+        "TB_STR_006": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_01.png",
+        "TB_STR_007": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_02.png",
+        "TB_STR_008": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_03.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 14
+    },
+    {
+      "id": "TEXT_033",
+      "component_type": "text",
+      "text": "Al2O3(%)---- 11%\n\n{{TB_STR_009}}\nAl2O3(%)---- 12%\n\n{{TB_STR_010}}\nAl2O3(%)---- 13%\n\n{{TB_STR_011}}",
+      "placeholders": {
+        "TB_STR_009": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_01.png",
+        "TB_STR_010": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_02.png",
+        "TB_STR_011": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_03.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 15
+    },
+    {
+      "id": "TEXT_034",
+      "component_type": "text",
+      "text": "{{TB_UNSTR_001}}\n\n{{TB_UNSTR_002}}\n\n{{TB_UNSTR_003}}",
+      "placeholders": {
+        "TB_UNSTR_001": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png",
+        "TB_UNSTR_002": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png",
+        "TB_UNSTR_003": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 16
+    },
+    {
+      "id": "TEXT_035",
+      "component_type": "text",
+      "text": "Al2O3(%)---- 20%\n\n{{TB_STR_012}}\nAl2O3(%)---- 21%\n\n{{TB_STR_013}}\nAl2O3(%)---- 22%\n\n{{TB_STR_014}}",
+      "placeholders": {
+        "TB_STR_012": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_01.png",
+        "TB_STR_013": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_02.png",
+        "TB_STR_014": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_03.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 17
+    },
+    {
+      "id": "TEXT_036",
+      "component_type": "text",
+      "text": "※ POSCO 실제 고로 Slag 점도실험에 의한 Optimizer 대비 Redcar 정상 Slag 조성에서의 점도 비교\n\n기술표준서상 비정상 Slag 성상별 용해온도\n\n{{TB_STR_015}}\n\nAl₂O₃에 따른 용해온도 화귀식 도출\n\n{{IMG_TR_014}}\nPOSCO 실제 고로 Slag Data → Optimizer\n\n{{IMG_TR_015}}\nRedcar 화귀식 vs Optimizer 용해온도 비교\n\n{{IMG_TR_016}}\nRedcar 화귀식\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_STR_016}}\n\nPOSCO Optimizer\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_STR_017}}\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_STR_018}}\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_STR_019}}\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_STR_020}}\nAl₂O₃ (%)\n\nMgO (%)\n\nCaO (%)\n\n{{TB_UNSTR_004}}",
+      "placeholders": {
+        "TB_STR_015": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_01.png",
+        "IMG_TR_014": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp",
+        "IMG_TR_015": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp",
+        "IMG_TR_016": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp",
+        "TB_STR_016": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_02.png",
+        "TB_STR_017": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_03.png",
+        "TB_STR_018": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_04.png",
+        "TB_STR_019": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_05.png",
+        "TB_STR_020": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_06.png",
+        "TB_UNSTR_004": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 18
+    },
+    {
+      "id": "TEXT_037",
+      "component_type": "text",
+      "text": "※ 포항 3 고로 Tap 별 Slag 분석시 용해온도 및 용선온도별 정도 Guidance HMI 화면\n\n{{IMG_SUM_009}}",
+      "placeholders": {
+        "IMG_SUM_009": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/1b75e7b1fc885f9b4c6ee2c3dd57a20b_2_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 19
+    },
+    {
+      "id": "TEXT_038",
+      "component_type": "text",
+      "text": "* 참고 : Slag의 조성별 정도의 온도 의존성 (포스코 기술연구원 분석자료)\n\n{{IMG_SUM_010}}\n\n{{IMG_SUM_011}}\n\n{{IMG_SUM_012}}\n\n{{IMG_SUM_013}}\n\n{{IMG_SUM_014}}\n\n{{IMG_SUM_015}}\n— 22 —",
+      "placeholders": {
+        "IMG_SUM_010": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_2_img.webp",
+        "IMG_SUM_011": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_3_img.webp",
+        "IMG_SUM_012": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_4_img.webp",
+        "IMG_SUM_013": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_5_img.webp",
+        "IMG_SUM_014": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_6_img.webp",
+        "IMG_SUM_015": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_7_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "page": 20
+    }
+  ]
+}

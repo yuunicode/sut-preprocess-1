@@ -1,0 +1,341 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 품질영향인자 | col2: 공정영향인자",
+        "col1: Si, S | col2: 풍압, 노열"
+      ],
+      "table_html": "<table><tr><td>품질영향인자</td><td>공정영향인자</td></tr><tr><td>Si, S</td><td>풍압, 노열</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td>품질영향인자</td><td>공정영향인자</td></tr><tr><td>Si, S</td><td>풍압, 노열</td></tr></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점관리항목",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "용손 부위가 작을경우: 연와간 줄눈사이 용선 소량유출경이 30mm 이하 Hole 로 용용물이 흘러 철피가 세로로 용손철피절개 Size: 0.3 m X 0.5m 이하 | 용손 부위가 클경우: 연와 침식에 의한 용용물 대량 유출철피 용손 및 변형이 가로, 세로 1m 이상 손상철피 절개 Size: 가로 X 세로 1m 이상절개 후 보수필요"
+      ],
+      "table_html": "<table><thead><tr><th>용손 부위가 작을경우</th><th>용손 부위가 클경우</th></tr></thead><tbody><tr><td><ul><li>연와간 줄눈사이 용선 소량유출</li><li>경이 30mm 이하 Hole 로 용용물이 흘러 철피가 세로로 용손</li><li>철피절개 Size: 0.3 m X 0.5m 이하</li></ul></td><td><ul><li>연와 침식에 의한 용용물 대량 유출</li><li>철피 용손 및 변형이 가로, 세로 1m 이상 손상</li><li>철피 절개 Size: 가로 X 세로 1m 이상절개 후 보수필요</li></ul></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>용손 부위가 작을경우</th><th>용손 부위가 클경우</th></tr></thead><tbody><tr><td><ul><li>연와간 줄눈사이 용선 소량유출</li><li>경이 30mm 이하 Hole 로 용용물이 흘러 철피가 세로로 용손</li><li>철피절개 Size: 0.3 m X 0.5m 이하</li></ul></td><td><ul><li>연와 침식에 의한 용용물 대량 유출</li><li>철피 용손 및 변형이 가로, 세로 1m 이상 손상</li><li>철피 절개 Size: 가로 X 세로 1m 이상절개 후 보수필요</li></ul></td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "6. 기술이론 / 6.1 노저 파손시 긴급 복구 방안 / 6.1.1 사고의 유형 설정",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "보수부위 작을경우: 철피 절개후 상부에 연와 처짐 방지용 “L”형 철판을 삽입한다▷연와 재축조 부위 상부 연와 줄눈 사이 삽입 후 철피에 용접▷두께 1.5mm 철판으로 잔존 연와의 1/2 만 삽입 한다 | 보수부위 클경우: 철피 절개전 연와 지지용 Pin 을 삽입한다▷Pin 규격: 경 28mm 봉▷Pin 삽입위치: 철피 boring 부▷보수부위 연와규격을 고려하여 삽입간격 및 깊이조정"
+      ],
+      "table_html": "<table><thead><tr><th>보수부위 작을경우</th><th>보수부위 클경우</th></tr></thead><tbody><tr><td>철피 절개후 상부에 연와 처짐 방지용 “L”형 철판을 삽입한다<br/>▷연와 재축조 부위 상부 연와 줄눈 사이 삽입 후 철피에 용접<br/>▷두께 1.5mm 철판으로 잔존 연와의 1/2 만 삽입 한다</td><td>철피 절개전 연와 지지용 Pin 을 삽입한다<br/>▷Pin 규격: 경 28mm 봉<br/>▷Pin 삽입위치: 철피 boring 부<br/>▷보수부위 연와규격을 고려하여 삽입간격 및 깊이조정</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>보수부위 작을경우</th><th>보수부위 클경우</th></tr></thead><tbody><tr><td>철피 절개후 상부에 연와 처짐 방지용 “L”형 철판을 삽입한다<br/>▷연와 재축조 부위 상부 연와 줄눈 사이 삽입 후 철피에 용접<br/>▷두께 1.5mm 철판으로 잔존 연와의 1/2 만 삽입 한다</td><td>철피 절개전 연와 지지용 Pin 을 삽입한다<br/>▷Pin 규격: 경 28mm 봉<br/>▷Pin 삽입위치: 철피 boring 부<br/>▷보수부위 연와규격을 고려하여 삽입간격 및 깊이조정</td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "6. 기술이론 / 6.3 작업 공정별 보수방법 / 다. 노내 지지물 설치(연와 재축조시 주위연와 처짐 및 붕괴 방지)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 재LISt | col2: 2. 일반 Spray 재(1600 °C) | col3: Ton | col4: 3 | col5: 국산으로 즉시 공급가능",
+        "col1:  | col2: 3. 급결성 Spray 재(Binder) | col3: \" | col4: 2 | col5: \"",
+        "col1:  | col2: 4. Stamp 재 | col3: \" | col4: 1 | col5: \"",
+        "col1:  | col2: 5. 알입재(IMB-80,SK -38A) | col3: \" | col4: 1 | col5: 향후 Resin 계 준비 필요",
+        "col1:  | col2: 6. 알입 Nipple 및 Cap | col3: EA | col4: 20 | col5: 현재 정수시 사용품",
+        "col1:  | col2: 7. Ball Valve | col3: \" | col4: 20 | col5: \"",
+        "col1:  | col2: 8. Blanket Wool | col3: Roll | col4: 10 | col5: \""
+      ],
+      "table_html": "<table><tr><td>재<br/>L<br/>I<br/>S<br/>t</td><td>2. 일반 Spray 재(1600 °C)</td><td>Ton</td><td>3</td><td>국산으로 즉시 공급가능</td></tr><tr><td></td><td>3. 급결성 Spray 재(Binder)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td></td><td>4. Stamp 재</td><td>\"</td><td>1</td><td>\"</td></tr><tr><td></td><td>5. 알입재(IMB-80,SK -38A)</td><td>\"</td><td>1</td><td>향후 Resin 계 준비 필요</td></tr><tr><td></td><td>6. 알입 Nipple 및 Cap</td><td>EA</td><td>20</td><td>현재 정수시 사용품</td></tr><tr><td></td><td>7. Ball Valve</td><td>\"</td><td>20</td><td>\"</td></tr><tr><td></td><td>8. Blanket Wool</td><td>Roll</td><td>10</td><td>\"</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td>재<br/>L<br/>I<br/>S<br/>t</td><td>2. 일반 Spray 재(1600 °C)</td><td>Ton</td><td>3</td><td>국산으로 즉시 공급가능</td></tr><tr><td></td><td>3. 급결성 Spray 재(Binder)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td></td><td>4. Stamp 재</td><td>\"</td><td>1</td><td>\"</td></tr><tr><td></td><td>5. 알입재(IMB-80,SK -38A)</td><td>\"</td><td>1</td><td>향후 Resin 계 준비 필요</td></tr><tr><td></td><td>6. 알입 Nipple 및 Cap</td><td>EA</td><td>20</td><td>현재 정수시 사용품</td></tr><tr><td></td><td>7. Ball Valve</td><td>\"</td><td>20</td><td>\"</td></tr><tr><td></td><td>8. Blanket Wool</td><td>Roll</td><td>10</td><td>\"</td></tr></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p005_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 5
+    },
+    {
+      "id": "TB_STR_005",
+      "placeholder": "{{TB_STR_005}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: ScunthorpeQ.Victoria(IV:1789 m³) | 사고내용: ○일자: '84.6.19○6주간휴지후재송풍 12일만에 Hearth wall용손되면서 용선 50t 유출○연와: NMA Carbon(600 × 600 × 720mm) | 사고원인: ●재송풍 후 열충격에 의한Hearth Jacket 파손●노저부에 Strain Gauge를 설치했으나, 재송풍직후에도 Jacket부의 항복강도를 초과하는경우 반반함. | 조치내용: ▶사고부위 Core Boring 후가공된 연와설치(250ϕ)▶Jacket 교체(복구공사 7.5일)▶보수후 개수시까지 4.5년가동(개수화입: '89.12)",
+        "구분: Q.Bess(IV:1451 m³) | 사고내용: ○일자: '87.6○개수직전에 Hearth Wall 용손○전원주방향의 Pad Top Level의 잔존연와는 매우 얇았음.(누계생산:280만톤)○연와: NMA Carbon | 사고원인: ●미상 | 조치내용: ▶미상▶개수화입: '88.1.27",
+        "구분: KloecknerBremen 2(IV:3110 m³)(화입: '86.8) | 사고내용: ○일자: '87.11○개수화입후 1년후 | 사고원인: ●노저연와적 평창대 계산 Miss→철피평창●불량 Coke로 통액성 불량●풍구, Stave 파손으로 노내침수 | 조치내용: ▶소손설비교체▶노저파손부위 연와교체",
+        "구분: TKSDortmund 7(IV:2152 m³)(화입: '85.7) | 사고내용: ○일자: '88.12.18 | 사고원인: ●#1 출선구 하부 파손(원인불명) | 조치내용: ▶복구공사: 14일▶용선폭발시 화재발생-Cable 교체-공장정전 및 ComputerDown",
+        "구분: Schwelgern1BF(IV:4118 m³)(화입: '85.4) | 사고내용: ○일자: '89.1.6 22:00○#2 출선구 좌측 1.5m 상부에침식으로 100Ton의 용선이용선되면서 정전, 출선구주위배관 및 구조설비의 용손,변형 발생. | 사고원인: ●공사시 시공불량에의한 용선침투가 발생되었으나, 사고개소는 노저 T/C 감지가불가능한 부위임. | 조치내용: ▶노저철피를 1.5×3m를절개하여 연와를 제거한후 New Block 설치(350 × 350mm)-소요일: 9일-노저평균잔존: 300mm▶중간보수실시-기간: 1개월('90.5)-교체: Hearth, Bottom",
+        "구분: ISCORNew Castle5BF(IV:2500 m³)(화입: '93.7) | 사고내용: ○일자: '94.1.21○#1 출선구 좌하부 1.5m 지점이 용선되면서 100톤용선 유출○화입초기부터 노저부 고열발생 | 사고원인: ●중전의 Carbon 에서 Graphite연와 재용으로 인한 노내의열팽형이 노외부측으로 이동됨으로써(냉각는 부족) 노저온도 상승, 침식 가속화●TiO₂ 미장입에 의한 노저부점조층 미형성 | 조치내용: ▶사고부위 연와교체후1개월간 70% 수준조업-측벽잔존: 300mm▶'94.9.1 부터 50일간 개수-측벽연와만 교체(S.Graphite→M.PCarbon)-EVC Stave →CoolingWater 강제순환 Stave",
+        "구분: DofascoHamilton 4(IV:1700 m³)(화입: '86.11) | 사고내용: ○일자: '94.5○출선구 하부 Hearth WallAl₂O₃ 연와부위 용손○연와: Graphite | 사고원인: ●냉각구조 부적절●Al₂O₃ 연와가 Insulator 기능을함으로써 냉각능 저하 | 조치내용: ▶중간보수실시(1개월)-Al₂O₃ 연와 제거-T/H 주위 냉각는 Up(Shower→ChannelCooling)▶'97.11월 개수 예정"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>Scunthorpe<br/>Q.Victoria<br/>(IV:1789 m³)</td><td>○일자: '84.6.19<br/>○6주간휴지후<br/>재송풍 12일만에 Hearth wall<br/>용손되면서 용선 50t 유출<br/>○연와: NMA Carbon<br/>(600 × 600 × 720mm)</td><td>●재송풍 후 열충격에 의한<br/>Hearth Jacket 파손<br/>●노저부에 Strain Gauge를 설치<br/>했으나, 재송풍직후에도 Jacket<br/>부의 항복강도를 초과하는<br/>경우 반반함.</td><td>▶사고부위 Core Boring 후<br/>가공된 연와설치(250ϕ)<br/>▶Jacket 교체<br/>(복구공사 7.5일)<br/>▶보수후 개수시까지 4.5년<br/>가동(개수화입: '89.12)</td></tr><tr><td>Q.Bess<br/>(IV:1451 m³)</td><td>○일자: '87.6<br/>○개수직전에 Hearth Wall 용손<br/>○전원주방향의 Pad Top Level<br/>의 잔존연와는 매우 얇았음.<br/>(누계생산:280만톤)<br/>○연와: NMA Carbon</td><td>●미상</td><td>▶미상<br/>▶개수화입: '88.1.27</td></tr><tr><td>Kloeckner<br/>Bremen 2<br/>(IV:3110 m³)<br/>(화입: '86.8)</td><td>○일자: '87.11<br/>○개수화입후 1년후</td><td>●노저연와적 평창대 계산 Miss<br/>→철피평창<br/>●불량 Coke로 통액성 불량<br/>●풍구, Stave 파손으로 노내침수</td><td>▶소손설비교체<br/>▶노저파손부위 연와교체</td></tr><tr><td>TKS<br/>Dortmund 7<br/>(IV:2152 m³)<br/>(화입: '85.7)</td><td>○일자: '88.12.18</td><td>●#1 출선구 하부 파손<br/>(원인불명)</td><td>▶복구공사: 14일<br/>▶용선폭발시 화재발생<br/>-Cable 교체<br/>-공장정전 및 Computer<br/>Down</td></tr><tr><td>Schwelgern<br/>1BF<br/>(IV:4118 m³)<br/>(화입: '85.4)</td><td>○일자: '89.1.6 22:00<br/>○#2 출선구 좌측 1.5m 상부에<br/>침식으로 100Ton의 용선이<br/>용선되면서 정전, 출선구주위<br/>배관 및 구조설비의 용손,<br/>변형 발생.</td><td>●공사시 시공불량에의한 용선<br/>침투가 발생되었으나, 사고<br/>개소는 노저 T/C 감지가<br/>불가능한 부위임.</td><td>▶노저철피를 1.5×3m를<br/>절개하여 연와를 제거한<br/>후 New Block 설치<br/>(350 × 350mm)<br/>-소요일: 9일<br/>-노저평균잔존: 300mm<br/>▶중간보수실시<br/>-기간: 1개월('90.5)<br/>-교체: Hearth, Bottom</td></tr><tr><td>ISCOR<br/>New Castle<br/>5BF<br/>(IV:2500 m³)<br/>(화입: '93.7)</td><td>○일자: '94.1.21<br/>○#1 출선구 좌하부 1.5m 지점<br/>이 용선되면서 100톤용선 유출<br/>○화입초기부터 노저부 고열<br/>발생</td><td>●중전의 Carbon 에서 Graphite<br/>연와 재용으로 인한 노내의<br/>열팽형이 노외부측으로 이동<br/>됨으로써(냉각는 부족) 노저<br/>온도 상승, 침식 가속화<br/>●TiO₂ 미장입에 의한 노저부<br/>점조층 미형성</td><td>▶사고부위 연와교체후<br/>1개월간 70% 수준조업<br/>-측벽잔존: 300mm<br/>▶'94.9.1 부터 50일간 개수<br/>-측벽연와만 교체<br/>(S.Graphite→M.PCarbon)<br/>-EVC Stave →Cooling<br/>Water 강제순환 Stave</td></tr><tr><td>Dofasco<br/>Hamilton 4<br/>(IV:1700 m³)<br/>(화입: '86.11)</td><td>○일자: '94.5<br/>○출선구 하부 Hearth Wall<br/>Al₂O₃ 연와부위 용손<br/>○연와: Graphite</td><td>●냉각구조 부적절<br/>●Al₂O₃ 연와가 Insulator 기능을<br/>함으로써 냉각능 저하</td><td>▶중간보수실시(1개월)<br/>-Al₂O₃ 연와 제거<br/>-T/H 주위 냉각는 Up<br/>(Shower→Channel<br/>Cooling)<br/>▶'97.11월 개수 예정</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>Scunthorpe<br/>Q.Victoria<br/>(IV:1789 m³)</td><td>○일자: '84.6.19<br/>○6주간휴지후<br/>재송풍 12일만에 Hearth wall<br/>용손되면서 용선 50t 유출<br/>○연와: NMA Carbon<br/>(600 × 600 × 720mm)</td><td>●재송풍 후 열충격에 의한<br/>Hearth Jacket 파손<br/>●노저부에 Strain Gauge를 설치<br/>했으나, 재송풍직후에도 Jacket<br/>부의 항복강도를 초과하는<br/>경우 반반함.</td><td>▶사고부위 Core Boring 후<br/>가공된 연와설치(250ϕ)<br/>▶Jacket 교체<br/>(복구공사 7.5일)<br/>▶보수후 개수시까지 4.5년<br/>가동(개수화입: '89.12)</td></tr><tr><td>Q.Bess<br/>(IV:1451 m³)</td><td>○일자: '87.6<br/>○개수직전에 Hearth Wall 용손<br/>○전원주방향의 Pad Top Level<br/>의 잔존연와는 매우 얇았음.<br/>(누계생산:280만톤)<br/>○연와: NMA Carbon</td><td>●미상</td><td>▶미상<br/>▶개수화입: '88.1.27</td></tr><tr><td>Kloeckner<br/>Bremen 2<br/>(IV:3110 m³)<br/>(화입: '86.8)</td><td>○일자: '87.11<br/>○개수화입후 1년후</td><td>●노저연와적 평창대 계산 Miss<br/>→철피평창<br/>●불량 Coke로 통액성 불량<br/>●풍구, Stave 파손으로 노내침수</td><td>▶소손설비교체<br/>▶노저파손부위 연와교체</td></tr><tr><td>TKS<br/>Dortmund 7<br/>(IV:2152 m³)<br/>(화입: '85.7)</td><td>○일자: '88.12.18</td><td>●#1 출선구 하부 파손<br/>(원인불명)</td><td>▶복구공사: 14일<br/>▶용선폭발시 화재발생<br/>-Cable 교체<br/>-공장정전 및 Computer<br/>Down</td></tr><tr><td>Schwelgern<br/>1BF<br/>(IV:4118 m³)<br/>(화입: '85.4)</td><td>○일자: '89.1.6 22:00<br/>○#2 출선구 좌측 1.5m 상부에<br/>침식으로 100Ton의 용선이<br/>용선되면서 정전, 출선구주위<br/>배관 및 구조설비의 용손,<br/>변형 발생.</td><td>●공사시 시공불량에의한 용선<br/>침투가 발생되었으나, 사고<br/>개소는 노저 T/C 감지가<br/>불가능한 부위임.</td><td>▶노저철피를 1.5×3m를<br/>절개하여 연와를 제거한<br/>후 New Block 설치<br/>(350 × 350mm)<br/>-소요일: 9일<br/>-노저평균잔존: 300mm<br/>▶중간보수실시<br/>-기간: 1개월('90.5)<br/>-교체: Hearth, Bottom</td></tr><tr><td>ISCOR<br/>New Castle<br/>5BF<br/>(IV:2500 m³)<br/>(화입: '93.7)</td><td>○일자: '94.1.21<br/>○#1 출선구 좌하부 1.5m 지점<br/>이 용선되면서 100톤용선 유출<br/>○화입초기부터 노저부 고열<br/>발생</td><td>●중전의 Carbon 에서 Graphite<br/>연와 재용으로 인한 노내의<br/>열팽형이 노외부측으로 이동<br/>됨으로써(냉각는 부족) 노저<br/>온도 상승, 침식 가속화<br/>●TiO₂ 미장입에 의한 노저부<br/>점조층 미형성</td><td>▶사고부위 연와교체후<br/>1개월간 70% 수준조업<br/>-측벽잔존: 300mm<br/>▶'94.9.1 부터 50일간 개수<br/>-측벽연와만 교체<br/>(S.Graphite→M.PCarbon)<br/>-EVC Stave →Cooling<br/>Water 강제순환 Stave</td></tr><tr><td>Dofasco<br/>Hamilton 4<br/>(IV:1700 m³)<br/>(화입: '86.11)</td><td>○일자: '94.5<br/>○출선구 하부 Hearth Wall<br/>Al₂O₃ 연와부위 용손<br/>○연와: Graphite</td><td>●냉각구조 부적절<br/>●Al₂O₃ 연와가 Insulator 기능을<br/>함으로써 냉각능 저하</td><td>▶중간보수실시(1개월)<br/>-Al₂O₃ 연와 제거<br/>-T/H 주위 냉각는 Up<br/>(Shower→Channel<br/>Cooling)<br/>▶'97.11월 개수 예정</td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p006_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p006_table_01.png",
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 6
+    },
+    {
+      "id": "TB_STR_006",
+      "placeholder": "{{TB_STR_006}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: ISCORCOREX(화입:92.2) | 사고내용: ○일자:95.1.19○출선구 하부에서 용선 Leak(15Ton), 파순된 부위로부터Char 분출되어 풍구부위까지쌓어 긴급휴동함.○연와:Carbon | 사고원인: ●Hearth Wall 연와적 이 내부돌출형으로 용융물의 유동에의해 초기조업부터 출선구마모가 심하였음.(1개 출선구)●출선구 하부온도-400~500℃ 유지 | 조치내용: ▶연와 재축조:1/19~2/7건조승온준비:2/8건조용 Burner 설치:2/9건조&승온:2/10~2/16재화입:2/17▶Hearth 냉각-Wall :Spray-Bottom:공냉",
+        "구분: USSGary 13BF(WV:2953 m³)(화입:91.6) | 사고내용: ○일자:96.4○#3 출선구 하부 1.8m 지점 용손○연와:Carbon | 사고원인: ●고출선비, 고 PCR, COKE 품질저하, 노내침수 및 갖은 휴동등으로 노저 용융물 환상류 조장●출선구심도 미확보(1500mm)●T/C 설치수 적음(연와침식상태 감지 不)●호수물(36~38℃) 냉각 및Scale 미제거●노저연와의 구조적 불안정(철피와 연와사이 Ramming미실시로 열전달 미비) | 조치내용: ▶사고와 동시 개수에들어감. (101일 소요)",
+        "구분: NationalsteelGranite B(IV:1438 m³)(화입:87) | 사고내용: ○일자:96.8.3○Break-in 발생 | 사고원인: ●출선구 폐쇄불량-Mud 재질 불량-산소개공 과다 | 조치내용: ▶노저 Stave 교체(3매)▶노저철피 및 Carbon 연와교체▶복구공사 15일",
+        "구분: BHPPort Kembla5BF | 사고내용: ○일자:97.1.17○#3 출선구 하부 노저 Stave2단과 3단 접촉면 모서리로용선유출○연와:Micro Pore Carbon(BC7SR) | 사고원인: ●노저 Stave(2세대)의 모서리부에서 냉각능력 저하에 따른노저연와 Coner 부에서 Spool형의 국부적 Micro PoreCarbon 연와 침식 발생 | 조치내용: ▶Stave 및 연와 굴착제거후노저연와 부분보수 실시▶14일간 휴지후 조업복귀시풍구파손 및 냉입으로조업도 복귀 7주 소요▶사고후 10개월차 현재노후 불안정으로 설비능력대비 생산량 70~80%수준",
+        "구분: SSABLulea 2BF(IV:1590 m³) | 사고내용: ○일자:97.2.17○노내 폭발로 노저연와적붕괴 | 사고원인: ●노열저하로 용융물 배출불량→Slip 발생으로 용선 Attack 에의한 풍구파손 | 조치내용: ▶노저 철피제거(3m x 3m)용융물 철거 및 내부 풍구연와적 보수 (28일)",
+        "구분: CORUSRedcar1BF(IV:4305 m³) | 사고내용: ○일자:2000.3.15○#4 출선구 직하부(3X4m)○화재 및 안전사고 무○'86.10 화입, '00.4~7월중간보수'03년 개수계획 | 사고원인: ●출선구 하부 국부 연와침식●노경년 증가에 따라 Stave 파손극심으로 2차례 교착작업 및노저온도 상승으로 감산조업중사고발생 | 조치내용: ▶돌발사고와 관련 중간보수를 앞당긴 것으로 추정됨.-종풍조업 : '00.3.28 ~ 4.1-건식냉각 18 Hr-재송공일 : '00. 7월",
+        "구분: CORUSHoogovens6BF(IV:2678 m³) | 사고내용: ○일자:2000.12.29○#1 출선구 직하부○화재발생, 안전사고는 없음○'86.4 화입, '02년 개수계획 | 사고원인: ●#1 출선구 주위 노저온도가상승(350℃)●년말 안정조업 유지될 위해풍구폐쇄(2분) 및 노저 압입을위해 강풍을 실시하고, 노저부점검중 노저철피 Crack 및 Gas풍구 발견으로 긴급휴동 실시●휴동후 보수작업을 위해 노저압입용 Nipple 준비작업중 노저파손으로 용융물을 유출(25톤) | 조치내용: ▶복구공사기간:9일간▶노저 철피철개 :1m x 1m▶노저연와 삽입:10매-재질 Graphite-크기 250*300*150mm▶철피 재용접 및 압입작업▶노저 T/C 복구 및 신설▶2002년 개수시까지 현복구상태로 감산조업예정"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>ISCOR<br/>COREX<br/>(화입:92.2)</td><td>○일자:95.1.19<br/>○출선구 하부에서 용선 Leak<br/>(15Ton), 파순된 부위로부터<br/>Char 분출되어 풍구부위까지<br/>쌓어 긴급휴동함.<br/>○연와:Carbon</td><td>●Hearth Wall 연와적 이 내부<br/>돌출형으로 용융물의 유동에<br/>의해 초기조업부터 출선구<br/>마모가 심하였음.(1개 출선구)<br/>●출선구 하부온도<br/>-400~500℃ 유지</td><td>▶연와 재축조:1/19~2/7<br/>건조승온준비:2/8<br/>건조용 Burner 설치:2/9<br/>건조&amp;승온:2/10~2/16<br/>재화입:2/17<br/>▶Hearth 냉각<br/>-Wall :Spray<br/>-Bottom:공냉</td></tr><tr><td>USS<br/>Gary 13BF<br/>(WV:2953 m³)<br/>(화입:91.6)</td><td>○일자:96.4<br/>○#3 출선구 하부 1.8m 지점 용손<br/>○연와:Carbon</td><td>●고출선비, 고 PCR, COKE 품질<br/>저하, 노내침수 및 갖은 휴동등<br/>으로 노저 용융물 환상류 조장<br/>●출선구심도 미확보(1500mm)<br/>●T/C 설치수 적음<br/>(연와침식상태 감지 不)<br/>●호수물(36~38℃) 냉각 및<br/>Scale 미제거<br/>●노저연와의 구조적 불안정<br/>(철피와 연와사이 Ramming<br/>미실시로 열전달 미비)</td><td>▶사고와 동시 개수에<br/>들어감. (101일 소요)</td></tr><tr><td>National<br/>steel<br/>Granite B<br/>(IV:1438 m³)<br/>(화입:87)</td><td>○일자:96.8.3<br/>○Break-in 발생</td><td>●출선구 폐쇄불량<br/>-Mud 재질 불량<br/>-산소개공 과다</td><td>▶노저 Stave 교체(3매)<br/>▶노저철피 및 Carbon 연와<br/>교체<br/>▶복구공사 15일</td></tr><tr><td>BHP<br/>Port Kembla<br/>5BF</td><td>○일자:97.1.17<br/>○#3 출선구 하부 노저 Stave<br/>2단과 3단 접촉면 모서리로<br/>용선유출<br/>○연와:Micro Pore Carbon<br/>(BC7SR)</td><td>●노저 Stave(2세대)의 모서리부<br/>에서 냉각능력 저하에 따른<br/>노저연와 Coner 부에서 Spool<br/>형의 국부적 Micro Pore<br/>Carbon 연와 침식 발생</td><td>▶Stave 및 연와 굴착제거후<br/>노저연와 부분보수 실시<br/>▶14일간 휴지후 조업복귀시<br/>풍구파손 및 냉입으로<br/>조업도 복귀 7주 소요<br/>▶사고후 10개월차 현재<br/>노후 불안정으로 설비능력<br/>대비 생산량 70~80%수준</td></tr><tr><td>SSAB<br/>Lulea 2BF<br/>(IV:1590 m³)</td><td>○일자:97.2.17<br/>○노내 폭발로 노저연와적<br/>붕괴</td><td>●노열저하로 용융물 배출불량<br/>→Slip 발생으로 용선 Attack 에<br/>의한 풍구파손</td><td>▶노저 철피제거(3m x 3m)<br/>용융물 철거 및 내부 풍구<br/>연와적 보수 (28일)</td></tr><tr><td>CORUS<br/>Redcar<br/>1BF<br/>(IV:4305 m³)</td><td>○일자:2000.3.15<br/>○#4 출선구 직하부(3X4m)<br/>○화재 및 안전사고 무<br/>○'86.10 화입, '00.4~7월중간보수<br/>'03년 개수계획</td><td>●출선구 하부 국부 연와침식<br/>●노경년 증가에 따라 Stave 파손<br/>극심으로 2차례 교착작업 및<br/>노저온도 상승으로 감산조업중<br/>사고발생</td><td>▶돌발사고와 관련 중간보수<br/>를 앞당긴 것으로 추정됨.<br/>-종풍조업 : '00.3.28 ~ 4.1<br/>-건식냉각 18 Hr<br/>-재송공일 : '00. 7월</td></tr><tr><td>CORUS<br/>Hoogovens<br/>6BF<br/>(IV:2678 m³)</td><td>○일자:2000.12.29<br/>○#1 출선구 직하부<br/>○화재발생, 안전사고는 없음<br/>○'86.4 화입, '02년 개수계획</td><td>●#1 출선구 주위 노저온도가<br/>상승(350℃)<br/>●년말 안정조업 유지될 위해<br/>풍구폐쇄(2분) 및 노저 압입을<br/>위해 강풍을 실시하고, 노저부<br/>점검중 노저철피 Crack 및 Gas<br/>풍구 발견으로 긴급휴동 실시<br/>●휴동후 보수작업을 위해 노저<br/>압입용 Nipple 준비작업중 노저<br/>파손으로 용융물을 유출(25톤)</td><td>▶복구공사기간:9일간<br/>▶노저 철피철개 :1m x 1m<br/>▶노저연와 삽입:10매<br/>-재질 Graphite<br/>-크기 250*300*150mm<br/>▶철피 재용접 및 압입작업<br/>▶노저 T/C 복구 및 신설<br/>▶2002년 개수시까지 현복구<br/>상태로 감산조업예정</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p007_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>ISCOR<br/>COREX<br/>(화입:92.2)</td><td>○일자:95.1.19<br/>○출선구 하부에서 용선 Leak<br/>(15Ton), 파순된 부위로부터<br/>Char 분출되어 풍구부위까지<br/>쌓어 긴급휴동함.<br/>○연와:Carbon</td><td>●Hearth Wall 연와적 이 내부<br/>돌출형으로 용융물의 유동에<br/>의해 초기조업부터 출선구<br/>마모가 심하였음.(1개 출선구)<br/>●출선구 하부온도<br/>-400~500℃ 유지</td><td>▶연와 재축조:1/19~2/7<br/>건조승온준비:2/8<br/>건조용 Burner 설치:2/9<br/>건조&amp;승온:2/10~2/16<br/>재화입:2/17<br/>▶Hearth 냉각<br/>-Wall :Spray<br/>-Bottom:공냉</td></tr><tr><td>USS<br/>Gary 13BF<br/>(WV:2953 m³)<br/>(화입:91.6)</td><td>○일자:96.4<br/>○#3 출선구 하부 1.8m 지점 용손<br/>○연와:Carbon</td><td>●고출선비, 고 PCR, COKE 품질<br/>저하, 노내침수 및 갖은 휴동등<br/>으로 노저 용융물 환상류 조장<br/>●출선구심도 미확보(1500mm)<br/>●T/C 설치수 적음<br/>(연와침식상태 감지 不)<br/>●호수물(36~38℃) 냉각 및<br/>Scale 미제거<br/>●노저연와의 구조적 불안정<br/>(철피와 연와사이 Ramming<br/>미실시로 열전달 미비)</td><td>▶사고와 동시 개수에<br/>들어감. (101일 소요)</td></tr><tr><td>National<br/>steel<br/>Granite B<br/>(IV:1438 m³)<br/>(화입:87)</td><td>○일자:96.8.3<br/>○Break-in 발생</td><td>●출선구 폐쇄불량<br/>-Mud 재질 불량<br/>-산소개공 과다</td><td>▶노저 Stave 교체(3매)<br/>▶노저철피 및 Carbon 연와<br/>교체<br/>▶복구공사 15일</td></tr><tr><td>BHP<br/>Port Kembla<br/>5BF</td><td>○일자:97.1.17<br/>○#3 출선구 하부 노저 Stave<br/>2단과 3단 접촉면 모서리로<br/>용선유출<br/>○연와:Micro Pore Carbon<br/>(BC7SR)</td><td>●노저 Stave(2세대)의 모서리부<br/>에서 냉각능력 저하에 따른<br/>노저연와 Coner 부에서 Spool<br/>형의 국부적 Micro Pore<br/>Carbon 연와 침식 발생</td><td>▶Stave 및 연와 굴착제거후<br/>노저연와 부분보수 실시<br/>▶14일간 휴지후 조업복귀시<br/>풍구파손 및 냉입으로<br/>조업도 복귀 7주 소요<br/>▶사고후 10개월차 현재<br/>노후 불안정으로 설비능력<br/>대비 생산량 70~80%수준</td></tr><tr><td>SSAB<br/>Lulea 2BF<br/>(IV:1590 m³)</td><td>○일자:97.2.17<br/>○노내 폭발로 노저연와적<br/>붕괴</td><td>●노열저하로 용융물 배출불량<br/>→Slip 발생으로 용선 Attack 에<br/>의한 풍구파손</td><td>▶노저 철피제거(3m x 3m)<br/>용융물 철거 및 내부 풍구<br/>연와적 보수 (28일)</td></tr><tr><td>CORUS<br/>Redcar<br/>1BF<br/>(IV:4305 m³)</td><td>○일자:2000.3.15<br/>○#4 출선구 직하부(3X4m)<br/>○화재 및 안전사고 무<br/>○'86.10 화입, '00.4~7월중간보수<br/>'03년 개수계획</td><td>●출선구 하부 국부 연와침식<br/>●노경년 증가에 따라 Stave 파손<br/>극심으로 2차례 교착작업 및<br/>노저온도 상승으로 감산조업중<br/>사고발생</td><td>▶돌발사고와 관련 중간보수<br/>를 앞당긴 것으로 추정됨.<br/>-종풍조업 : '00.3.28 ~ 4.1<br/>-건식냉각 18 Hr<br/>-재송공일 : '00. 7월</td></tr><tr><td>CORUS<br/>Hoogovens<br/>6BF<br/>(IV:2678 m³)</td><td>○일자:2000.12.29<br/>○#1 출선구 직하부<br/>○화재발생, 안전사고는 없음<br/>○'86.4 화입, '02년 개수계획</td><td>●#1 출선구 주위 노저온도가<br/>상승(350℃)<br/>●년말 안정조업 유지될 위해<br/>풍구폐쇄(2분) 및 노저 압입을<br/>위해 강풍을 실시하고, 노저부<br/>점검중 노저철피 Crack 및 Gas<br/>풍구 발견으로 긴급휴동 실시<br/>●휴동후 보수작업을 위해 노저<br/>압입용 Nipple 준비작업중 노저<br/>파손으로 용융물을 유출(25톤)</td><td>▶복구공사기간:9일간<br/>▶노저 철피철개 :1m x 1m<br/>▶노저연와 삽입:10매<br/>-재질 Graphite<br/>-크기 250*300*150mm<br/>▶철피 재용접 및 압입작업<br/>▶노저 T/C 복구 및 신설<br/>▶2002년 개수시까지 현복구<br/>상태로 감산조업예정</td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p007_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p007_table_01.png",
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 7
+    },
+    {
+      "id": "TB_STR_007",
+      "placeholder": "{{TB_STR_007}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: Ijmuiden 6BF(IV 2678 m') | 사고내용: ○일자: 2000.3.15○# 출선구 하부 1.5m 지점○강풍 중 용선 유출 150 톤○'86.4 화입, '0년 9월개수실시 | 사고원인: ●노저온도 상승으로 냉각수 Cut 후노저철피 점검 중 철피 Crack 발생●철피 내부 Ramming 층 압입상태불량 | 조치내용: ▶9일간 연와 보수작업 실시▶철피 교체 (1.0 X 1.0m)",
+        "구분: Sidmar B BF(IV 2250 m') | 사고내용: ○일자: 2000.4월○#2 출선구 하부 1.0m 지점○휴풍 시 용선 유출 100 톤○'89.6 화입, '0년 9월개수실시 | 사고원인: ●노저온도 급상승 부위 연와잔존량Check 시 Crack 발생(Drilling 실시)●노저온도 상승시 고출선비 고 PCI조업 | 조치내용: ▶54 시간 보수작업 실시▶2001. 9월 개수 실시",
+        "구분: Dunkerque 2BF(IV 1827 m')(화입 1992) | 사고내용: ○일자: 2002. 11○#1 출선구 하부 1.7m 지점○조업 중 용선 유출 150 톤○'92. 화입 | 사고원인: ●장기간 노환 불량으로 노심 불활성화 및 상류 발달●노저 침식량 계산 오류 | 조치내용: ▶46 시간 임시보수 실시▶2004. 10월 2차 보수실시",
+        "구분: Salzgitter ABF(IV 1336 m')(화입 1988) | 사고내용: ○일자: 2005. 4. 21 14:00 경○#1 출선구 하부 1.5m 지점○휴풍 시 용선 유출 100 톤○'98 화입 | 사고원인: ●T/C 단선으로 교체작업 위해Boring●작업 중 노저연와 Crack 발생●노저 침식량 계산 오류: 잔존200mm | 조치내용: ▶20 시간 보수작업 실시; 철피 교체(1.5 X 1.5m),; 파손 부위 소형 Carbon 연와설치"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>Ijmuiden 6<br/>BF<br/>(IV 2678 m')</td><td>○일자: 2000.3.15<br/>○# 출선구 하부 1.5m 지점<br/>○강풍 중 용선 유출 150 톤<br/>○'86.4 화입, '0년 9월개수실시</td><td>●노저온도 상승으로 냉각수 Cut 후<br/>노저철피 점검 중 철피 Crack 발생<br/>●철피 내부 Ramming 층 압입상태<br/>불량</td><td>▶9일간 연와 보수작업 실시<br/>▶철피 교체 (1.0 X 1.0m)</td></tr><tr><td>Sidmar B BF<br/>(IV 2250 m')</td><td>○일자: 2000.4월<br/>○#2 출선구 하부 1.0m 지점<br/>○휴풍 시 용선 유출 100 톤<br/>○'89.6 화입, '0년 9월개수실시</td><td>●노저온도 급상승 부위 연와잔존량<br/>Check 시 Crack 발생(Drilling 실시)<br/>●노저온도 상승시 고출선비 고 PCI<br/>조업</td><td>▶54 시간 보수작업 실시<br/>▶2001. 9월 개수 실시</td></tr><tr><td>Dunkerque 2<br/>BF<br/>(IV 1827 m')<br/>(화입 1992)</td><td>○일자: 2002. 11<br/>○#1 출선구 하부 1.7m 지점<br/>○조업 중 용선 유출 150 톤<br/>○'92. 화입</td><td>●장기간 노환 불량으로 노심 불활성<br/>화 및 상류 발달<br/>●노저 침식량 계산 오류</td><td>▶46 시간 임시보수 실시<br/>▶2004. 10월 2차 보수실시</td></tr><tr><td>Salzgitter A<br/>BF<br/>(IV 1336 m')<br/>(화입 1988)</td><td>○일자: 2005. 4. 21 14:00 경<br/>○#1 출선구 하부 1.5m 지점<br/>○휴풍 시 용선 유출 100 톤<br/>○'98 화입</td><td>●T/C 단선으로 교체작업 위해<br/>Boring<br/>●작업 중 노저연와 Crack 발생<br/>●노저 침식량 계산 오류: 잔존<br/>200mm</td><td>▶20 시간 보수작업 실시<br/>; 철피 교체(1.5 X 1.5m),<br/>; 파손 부위 소형 Carbon 연와<br/>설치</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p008_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>사고내용</th><th>사고원인</th><th>조치내용</th></tr></thead><tbody><tr><td>Ijmuiden 6<br/>BF<br/>(IV 2678 m')</td><td>○일자: 2000.3.15<br/>○# 출선구 하부 1.5m 지점<br/>○강풍 중 용선 유출 150 톤<br/>○'86.4 화입, '0년 9월개수실시</td><td>●노저온도 상승으로 냉각수 Cut 후<br/>노저철피 점검 중 철피 Crack 발생<br/>●철피 내부 Ramming 층 압입상태<br/>불량</td><td>▶9일간 연와 보수작업 실시<br/>▶철피 교체 (1.0 X 1.0m)</td></tr><tr><td>Sidmar B BF<br/>(IV 2250 m')</td><td>○일자: 2000.4월<br/>○#2 출선구 하부 1.0m 지점<br/>○휴풍 시 용선 유출 100 톤<br/>○'89.6 화입, '0년 9월개수실시</td><td>●노저온도 급상승 부위 연와잔존량<br/>Check 시 Crack 발생(Drilling 실시)<br/>●노저온도 상승시 고출선비 고 PCI<br/>조업</td><td>▶54 시간 보수작업 실시<br/>▶2001. 9월 개수 실시</td></tr><tr><td>Dunkerque 2<br/>BF<br/>(IV 1827 m')<br/>(화입 1992)</td><td>○일자: 2002. 11<br/>○#1 출선구 하부 1.7m 지점<br/>○조업 중 용선 유출 150 톤<br/>○'92. 화입</td><td>●장기간 노환 불량으로 노심 불활성<br/>화 및 상류 발달<br/>●노저 침식량 계산 오류</td><td>▶46 시간 임시보수 실시<br/>▶2004. 10월 2차 보수실시</td></tr><tr><td>Salzgitter A<br/>BF<br/>(IV 1336 m')<br/>(화입 1988)</td><td>○일자: 2005. 4. 21 14:00 경<br/>○#1 출선구 하부 1.5m 지점<br/>○휴풍 시 용선 유출 100 톤<br/>○'98 화입</td><td>●T/C 단선으로 교체작업 위해<br/>Boring<br/>●작업 중 노저연와 Crack 발생<br/>●노저 침식량 계산 오류: 잔존<br/>200mm</td><td>▶20 시간 보수작업 실시<br/>; 철피 교체(1.5 X 1.5m),<br/>; 파손 부위 소형 Carbon 연와<br/>설치</td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p008_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p008_table_01.png",
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 8
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th></th><th>구분</th><th>단위</th><th>수량</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"9\">장비 및 공구</td><td>1. Core Boring 기 및 Bit</td><td>대</td><td>2</td><td>현 정수시 사용 장비임</td></tr><tr><td>2. Air Breaker(CB-20,30)</td><td>\"</td><td>5</td><td>\"</td></tr><tr><td>3. Spray 기(Reed Gun)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>4. 노체 Castable 압입기(PA-30C)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>5. 습식 압입기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>6. 연와 가공기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>7. Mixer 기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>8. Mammer Drill</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>9. 착암기</td><td>\"</td><td>3</td><td>\"</td></tr><tr><td>자</td><td>1. Carbon Block</td><td>매</td><td>20</td><td>별도 확보, 보관</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>구분</th><th>단위</th><th>수량</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"9\">장비 및 공구</td><td>1. Core Boring 기 및 Bit</td><td>대</td><td>2</td><td>현 정수시 사용 장비임</td></tr><tr><td>2. Air Breaker(CB-20,30)</td><td>\"</td><td>5</td><td>\"</td></tr><tr><td>3. Spray 기(Reed Gun)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>4. 노체 Castable 압입기(PA-30C)</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>5. 습식 압입기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>6. 연와 가공기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>7. Mixer 기</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>8. Mammer Drill</td><td>\"</td><td>2</td><td>\"</td></tr><tr><td>9. 착암기</td><td>\"</td><td>3</td><td>\"</td></tr><tr><td>자</td><td>1. Carbon Block</td><td>매</td><td>20</td><td>별도 확보, 보관</td></tr></tbody></table><p><a href=\"components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png",
+      "section_path": "6. 기술이론 / 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 4
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "<div>비상 냉각 (48 Hr) → 노내 상태 점검 (8 HR) → 노내 지지물 설치 (12 Hr) → 철회 절개 (8 Hr)↓보수부 Cleaning (8 Hr)보수부 Cleaning (8 Hr) → 연와 제거 (16 Hr) → 노내 열기 차단 (6 Hr) → 연와 촉조 (48 Hr)↓정상조업부정형 내화물 시공 (6 Hr) → 철회 용접 및 압입 (48 Hr) → 2 차 보강 압입 (정수시)</div>",
+      "context_html": "",
+      "full_html": "<div><p>비상 냉각 (48 Hr) → 노내 상태 점검 (8 HR) → 노내 지지물 설치 (12 Hr) → 철회 절개 (8 Hr)</p><p>↓</p><p>보수부 Cleaning (8 Hr)</p><p>보수부 Cleaning (8 Hr) → 연와 제거 (16 Hr) → 노내 열기 차단 (6 Hr) → 연와 촉조 (48 Hr)</p><p>↓</p><p>정상조업</p><p>부정형 내화물 시공 (6 Hr) → 철회 용접 및 압입 (48 Hr) → 2 차 보강 압입 (정수시)</p></div><img alt=\"Figure snippet\" src=\"components/908273cbc0d61536e171d0be7e9d495a_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/908273cbc0d61536e171d0be7e9d495a_4_img.webp",
+      "section_path": "6. 기술이론 / 6.2 긴급보수 공정 / 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 2
+    }
+  ],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로 본체의 노저부가 내부 용용물에 의한 급격한 이상 침식으로 노저 내화물 및 철피가 용손되어 용용물 유출 사고시 복구기술에 적용한다",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목 적\n조업중 노저 파손시 파손의 부위, 파손의 정도, 보수방법 등을 신속히 파악 결정하여 최대한 빠른 시간내에 보수를 실시, 조업의 정상화를 위함",
+      "placeholders": {},
+      "section_path": "2. 목 적",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점관리항목",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "4. 조업기준 : 해당사항 없음",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "# 6. 기술이론",
+      "placeholders": {},
+      "section_path": "6. 기술이론",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 6.1 노저 파손시 긴급 복구 방안",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.1 노저 파손시 긴급 복구 방안",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "### 6.1.1 사고의 유형 설정\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "6. 기술이론 / 6.1 노저 파손시 긴급 복구 방안 / 6.1.1 사고의 유형 설정",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 6.2 긴급보수 공정\n\n### 가. 보수전제: 개수시까지 영구성이 아닌 짧은 기간내(1년 이하) 부분 계획보수 필요함\n\n### 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/908273cbc0d61536e171d0be7e9d495a_4_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.2 긴급보수 공정 / 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "## 6.3 작업 공정별 보수방법\n\n### 가. 비상냉각(용용물 유출부위 및 주변 긴급 냉각 실시: 2차 피해방지)\n● 보수부위 작을경우: 살수 냉각 및 옥토 투척: 철회 평크부위 옥토로 폐쇄후 주위 살수 냉각\n● 보수부위 클 경우: 유출 용용물 차단용 내화물 시공(급결제 내화물로 용용물 차단) 후 철회 주위 살수 냉각\n\n### 나. 노내 상태점검(연와 잔존 및 노내 용용 부착물 상태 파악)\n용손 주위에 Core Boring을 실시하여 연와의 잔존을 확인하고 보수 연와의 가공 규격 결정\n\n● 철회 Drilling 후 연와 Boring(Bitt 경: 32 mm 기준 좌, 우 150 mm 간격 유지)\n\n● 용손 부위가 작을 경우는 상부측 1 ~ 2 개소만 Boring(잔존연와 보호)\n\n● 잔존 연와의 안정성을 고려하여 내부온도 700°C 까지만 Boring 한다(연와관통 방지)",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.3 작업 공정별 보수방법 / 나. 노내 상태점검(연와 잔존 및 노내 용용 부착물 상태 파악)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "### 다. 노내 지지물 설치(연와 재축조시 주위연와 처짐 및 붕괴 방지)\n\n{{TB_STR_003}}\n\n### 라. 철피절개: 철피 용손 및 변형부위 점검(UT 측정) 후 절단 규격을 현장결정 한다",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.3 작업 공정별 보수방법 / 라. 철피절개: 철피 용손 및 변형부위 점검(UT 측정) 후 절단 규격을 현장결정 한다",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "▷ 손상연와 해체 부위가 아주 적을 경우 연와 재축조 매수를 최대한 줄이고 부정형 내화물을 Casting 시공한다\n\n### 자. 부정형 내화물 시공(재축조 연와와 철피 사이 충진용 내화물 시공)\n철피와 재축조 연와사이 공간은 열 전도성이 좋은 Resin 게 Carbon 부정형 내화물로 Stamping 하여 치밀 충진시킨다(하부에서 상부로 Stamping)\n\n### 차. 철피 용접 및 압입(노내 보수 완료후 철피 용접 및 내화물 압입 보수: Resin 게)\n▷ 재축조 연와 사이 미세 Gap 충진으로 노내 조벽 형성 및 Gas 유로를 차단한다 ▷ 신 철피 용접전 사전에 압입용 Nipple 을 설치한다(상하 방향) ▷ 하부측 Nipple 부터 압입 개시후 상부측 압입 Nipple 에서 압입재 나오는 것을 확인한다 ▷ 압입 Nipple 의 압입계를 통해 기준 압력(3 ~ 5kg/cm²)까지 초기 상승 시킨후 Holding 한 다음 압력이 떨어지면 기준 압력 까지 재 상승 작업을 반복한다\n\n### 타. 2차 보강 압입(고로 정상으로 재가동 후 사고부위 주변 2차 압입 보강)\n▷ 재축조 연와 사이 미세 Gap 충진으로 노내 조벽형성 및 Gas 유로 차단 ▷ 설비 가동후 노내 온도 상승시 철피 및 연와 팽창에 의한 추가 미세 Gap 발생 부위에 대한 2차 충진 작업임 ▷ 사고발생 부위와 주변 연와 사이 구속력 강화 ▷ 압입 방법은 1차 시공과 동일하게 작업함",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.3 작업 공정별 보수방법 / 타. 2차 보강 압입(고로 정상으로 재가동 후 사고부위 주변 2차 압입 보강)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "## 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)\n\n{{TB_UNSTR_001}}",
+      "placeholders": {
+        "TB_UNSTR_001": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "{{TB_STR_004}}",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p005_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "## 6.5 외국제철소 노저 파손사례\n\n{{TB_STR_005}}",
+      "placeholders": {
+        "TB_STR_005": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p006_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "{{TB_STR_006}}",
+      "placeholders": {
+        "TB_STR_006": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p007_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_017",
+      "component_type": "text",
+      "text": "{{TB_STR_007}}\n- 꼬. -",
+      "placeholders": {
+        "TB_STR_007": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p008_table_01.png"
+      },
+      "section_path": "6. 기술이론 / 6.5 외국제철소 노저 파손사례",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "page": 8
+    }
+  ]
+}

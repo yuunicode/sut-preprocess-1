@@ -1,0 +1,591 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 노내[Si] 제어시 | 제선공정: ㅇ 고로내 통기성 개선, 연료비 절감 등용선제조원가 절감 가능ㅇ Slag Foaming 등 환경사고 예방,작업환경 개선 가능ㅇ 후공정(제강)요구 용선을 안정적으로공급 가능 | 제강공정: ㅇ 전로 HMR 상승가능으로 자원가조업실시(용선한제원가 < Scrap 구입가격)ㅇ 전로 정련 최적화- 성분제어능 극대화, 정련기능 단순화ㅇ 환경친화적 조업가능- Slopping 및 폐기물 발생 억제"
+      ],
+      "table_html": "<table><thead><tr><th></th><th>제선공정</th><th>제강공정</th></tr></thead><tbody><tr><td>노내[Si] 제어시</td><td>ㅇ 고로내 통기성 개선, 연료비 절감 등<br/>용선제조원가 절감 가능<br/>ㅇ Slag Foaming 등 환경사고 예방,<br/>작업환경 개선 가능<br/>ㅇ 후공정(제강)요구 용선을 안정적으로<br/>공급 가능</td><td>ㅇ 전로 HMR 상승가능으로 자원가조업<br/>실시(용선한제원가 &lt; Scrap 구입가격)<br/>ㅇ 전로 정련 최적화<br/>- 성분제어능 극대화, 정련기능 단순화<br/>ㅇ 환경친화적 조업가능<br/>- Slopping 및 폐기물 발생 억제</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>제선공정</th><th>제강공정</th></tr></thead><tbody><tr><td>노내[Si] 제어시</td><td>ㅇ 고로내 통기성 개선, 연료비 절감 등<br/>용선제조원가 절감 가능<br/>ㅇ Slag Foaming 등 환경사고 예방,<br/>작업환경 개선 가능<br/>ㅇ 후공정(제강)요구 용선을 안정적으로<br/>공급 가능</td><td>ㅇ 전로 HMR 상승가능으로 자원가조업<br/>실시(용선한제원가 &lt; Scrap 구입가격)<br/>ㅇ 전로 정련 최적화<br/>- 성분제어능 극대화, 정련기능 단순화<br/>ㅇ 환경친화적 조업가능<br/>- Slopping 및 폐기물 발생 억제</td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "2 목적",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질 영향인자: [Si] | 공정 영향인자: 풍압, 노열,"
+      ],
+      "table_html": "<table><thead><tr><th>품질 영향인자</th><th>공정 영향인자</th></tr></thead><tbody><tr><td>[Si]</td><td>풍압, 노열,</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질 영향인자</th><th>공정 영향인자</th></tr></thead><tbody><tr><td>[Si]</td><td>풍압, 노열,</td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_02.png",
+      "section_path": "3 중점관리 항목",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "조업방법: ● SiO 발생억제-P SiO 저하 | 제어수단: o Tf 저하-조습량 증대o 노정압 상승o SiO₂ 일량제어-Coke, Coal 의 Ash, 광석의 Ash 제어o Slag 염기도 상승o Slag MgO 상승o P CO 상승-산소부화 증가-풍압 상승 | 제약조건: -풍온 한계-설비 한계-원료조건제약-설비 한계 | 문제점: -연료비상승-slag 점성증가-원료 Balance-통기성문제",
+        "조업방법: ● SiO Gas 의 용선으로의 흡수억제 | 제어수단: o 용선온도 저하-Tap 별 온도편차 감소o 용착대 근부저하-η CO 상승-열류비 상승-Ore/Coke 상승-연료비 저하-SOR 상승-노체 방산열 감소o 장입물 분포제어 | 제약조건:  | 문제점: -노하부불활성-풍압변동",
+        "조업방법: ● 반응시간 단축 | 제어수단: o 잔류 Slag 층후저하o Slag 적하시간 단축o 출선비 증대o 출선간격 단축o 용착대 저하o 방산열 감소o 소결광 FeO 상승 (복규반응 억제) | 제약조건: -감산체제 | 문제점: -출선부하-연료비상승",
+        "조업방법: ● 기타 | 제어수단: o 원주 Balance 제어-풍구선 조건 균일-중심류 증대 및 노심 활성화 | 제약조건:  | 문제점: "
+      ],
+      "table_html": "<table><thead><tr><th>조업방법</th><th>제어수단</th><th>제약조건</th><th>문제점</th></tr></thead><tbody><tr><td>● SiO 발생억제<br/>-P SiO 저하</td><td>o Tf 저하<br/>-조습량 증대<br/>o 노정압 상승<br/>o SiO₂ 일량제어<br/>-Coke, Coal 의 Ash, 광석의 Ash 제어<br/>o Slag 염기도 상승<br/>o Slag MgO 상승<br/>o P CO 상승<br/>-산소부화 증가<br/>-풍압 상승</td><td>-풍온 한계<br/>-설비 한계<br/>-원료조건제약<br/>-설비 한계</td><td>-연료비상승<br/>-slag 점성증가<br/>-원료 Balance<br/>-통기성문제</td></tr><tr><td>● SiO Gas 의 용선<br/>으로의 흡수억제</td><td>o 용선온도 저하<br/>-Tap 별 온도편차 감소<br/>o 용착대 근부저하<br/>-η CO 상승<br/>-열류비 상승<br/>-Ore/Coke 상승<br/>-연료비 저하<br/>-SOR 상승<br/>-노체 방산열 감소<br/>o 장입물 분포제어</td><td></td><td>-노하부불활성<br/>-풍압변동</td></tr><tr><td>● 반응시간 단축</td><td>o 잔류 Slag 층후저하<br/>o Slag 적하시간 단축<br/>o 출선비 증대<br/>o 출선간격 단축<br/>o 용착대 저하<br/>o 방산열 감소<br/>o 소결광 FeO 상승 (복규반응 억제)</td><td>-감산체제</td><td>-출선부하<br/>-연료비상승</td></tr><tr><td>● 기타</td><td>o 원주 Balance 제어<br/>-풍구선 조건 균일<br/>-중심류 증대 및 노심 활성화</td><td></td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>조업방법</th><th>제어수단</th><th>제약조건</th><th>문제점</th></tr></thead><tbody><tr><td>● SiO 발생억제<br/>-P SiO 저하</td><td>o Tf 저하<br/>-조습량 증대<br/>o 노정압 상승<br/>o SiO₂ 일량제어<br/>-Coke, Coal 의 Ash, 광석의 Ash 제어<br/>o Slag 염기도 상승<br/>o Slag MgO 상승<br/>o P CO 상승<br/>-산소부화 증가<br/>-풍압 상승</td><td>-풍온 한계<br/>-설비 한계<br/>-원료조건제약<br/>-설비 한계</td><td>-연료비상승<br/>-slag 점성증가<br/>-원료 Balance<br/>-통기성문제</td></tr><tr><td>● SiO Gas 의 용선<br/>으로의 흡수억제</td><td>o 용선온도 저하<br/>-Tap 별 온도편차 감소<br/>o 용착대 근부저하<br/>-η CO 상승<br/>-열류비 상승<br/>-Ore/Coke 상승<br/>-연료비 저하<br/>-SOR 상승<br/>-노체 방산열 감소<br/>o 장입물 분포제어</td><td></td><td>-노하부불활성<br/>-풍압변동</td></tr><tr><td>● 반응시간 단축</td><td>o 잔류 Slag 층후저하<br/>o Slag 적하시간 단축<br/>o 출선비 증대<br/>o 출선간격 단축<br/>o 용착대 저하<br/>o 방산열 감소<br/>o 소결광 FeO 상승 (복규반응 억제)</td><td>-감산체제</td><td>-출선부하<br/>-연료비상승</td></tr><tr><td>● 기타</td><td>o 원주 Balance 제어<br/>-풍구선 조건 균일<br/>-중심류 증대 및 노심 활성화</td><td></td><td></td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p002_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p002_table_01.png",
+      "section_path": "4 조업기준 / 4.2 저[Si] 용선제조 조업기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 2
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: 장입 SiO2(kg/TP) | 소결광: 68.3 | 코크스: 21.0 | 정립광: 8.9 | 미분탄: 7.4 | 부원료: 5.2 | 펠렛: 0.7 | 계: 111.6",
+        "구분: % | 소결광: 61.2 | 코크스: 18.8 | 정립광: 8.0 | 미분탄: 6.6 | 부원료: 4.7 | 펠렛: 0.6 | 계: 100"
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>소결광</th><th>코크스</th><th>정립광</th><th>미분탄</th><th>부원료</th><th>펠렛</th><th>계</th></tr></thead><tbody><tr><td>장입 SiO2(kg/TP)</td><td>68.3</td><td>21.0</td><td>8.9</td><td>7.4</td><td>5.2</td><td>0.7</td><td>111.6</td></tr><tr><td>%</td><td>61.2</td><td>18.8</td><td>8.0</td><td>6.6</td><td>4.7</td><td>0.6</td><td>100</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>소결광</th><th>코크스</th><th>정립광</th><th>미분탄</th><th>부원료</th><th>펠렛</th><th>계</th></tr></thead><tbody><tr><td>장입 SiO2(kg/TP)</td><td>68.3</td><td>21.0</td><td>8.9</td><td>7.4</td><td>5.2</td><td>0.7</td><td>111.6</td></tr><tr><td>%</td><td>61.2</td><td>18.8</td><td>8.0</td><td>6.6</td><td>4.7</td><td>0.6</td><td>100</td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_01.png",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 다. SiO2 일량 제어",
+      "filename": "[Si] 제어기술 기준",
+      "page": 10
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th></th><th>내부관리 기준</th><th>부적합품 기준</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"2\">용선 [Si]</td><td>4,2 고로</td><td>0.15 ≤ [Si] ≤ 0.75</td><td rowspan=\"2\">&gt; 2.00</td><td rowspan=\"2\">TP-030-050-020 참조</td></tr><tr><td>3,4 고로</td><td>0.10 ≤ [Si] ≤ 0.60</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th></th><th>내부관리 기준</th><th>부적합품 기준</th><th>비고</th></tr></thead><tbody><tr><td rowspan=\"2\">용선 [Si]</td><td>4,2 고로</td><td>0.15 ≤ [Si] ≤ 0.75</td><td rowspan=\"2\">&gt; 2.00</td><td rowspan=\"2\">TP-030-050-020 참조</td></tr><tr><td>3,4 고로</td><td>0.10 ≤ [Si] ≤ 0.60</td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png",
+      "section_path": "4 조업기준 / 4.1 [Si] 관리기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TB_UNSTR_002",
+      "placeholder": "{{TB_UNSTR_002}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th rowspan=\"2\">미분탄종</th><th colspan=\"6\">반무연탄</th><th colspan=\"3\">미점탄</th></tr><tr><th>F.X</th><th>Y.Q</th><th>M.Z</th><th>S.C</th><th>C.B</th><th>C.U</th><th>C.P</th><th>B.I</th><th>B.P</th><th>A.P</th></tr></thead><tbody><tr><td>SiO2 함량 (%)</td><td>3.8</td><td>5.2</td><td>4.4</td><td>3.1</td><td>3.7</td><td>4.5</td><td>4.0</td><td>5.9</td><td>4.4</td><td>4.7</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th rowspan=\"2\">미분탄종</th><th colspan=\"6\">반무연탄</th><th colspan=\"3\">미점탄</th></tr><tr><th>F.X</th><th>Y.Q</th><th>M.Z</th><th>S.C</th><th>C.B</th><th>C.U</th><th>C.P</th><th>B.I</th><th>B.P</th><th>A.P</th></tr></thead><tbody><tr><td>SiO2 함량 (%)</td><td>3.8</td><td>5.2</td><td>4.4</td><td>3.1</td><td>3.7</td><td>4.5</td><td>4.0</td><td>5.9</td><td>4.4</td><td>4.7</td></tr></tbody></table><p><a href=\"components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 다. SiO2 일량 제어",
+      "filename": "[Si] 제어기술 기준",
+      "page": 10
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "Flowchart illustrating the control logic for low [Si] input:Inputs (Top Row): 생산 Speed Up, 연료비 저하, 소결광 C/S 상승, 소결 MgO 상승, Tf 저하, Input SiO₂ 저하, 노정압 상승.Intermediate Calculations/States (Top Row): 열류비 상승, 용융점 상승, SiO Gas 발생량 감소.Control Actions (Middle Row): O₂ 부화 Up, 노열변동폭 감소, 용선온도 저하, 분포조정, 용착대 근부 저하.Core Process: 연화용착대 레벨저하.Intermediate State: SiO → Si 환원영역 축소.Control Actions (Bottom Row): 출선.재 강화, 저선 Level 저하, 복[Si]반응시간 감소, * 주상 탈규 강화.Final Output: 용선[Si] 저하.Final State: 뒷 장 계 속.",
+      "context_html": "",
+      "full_html": "<p>Flowchart illustrating the control logic for low [Si] input:</p><p>Inputs (Top Row): 생산 Speed Up, 연료비 저하, 소결광 C/S 상승, 소결 MgO 상승, Tf 저하, Input SiO₂ 저하, 노정압 상승.</p><p>Intermediate Calculations/States (Top Row): 열류비 상승, 용융점 상승, SiO Gas 발생량 감소.</p><p>Control Actions (Middle Row): O₂ 부화 Up, 노열변동폭 감소, 용선온도 저하, 분포조정, 용착대 근부 저하.</p><p>Core Process: 연화용착대 레벨저하.</p><p>Intermediate State: SiO → Si 환원영역 축소.</p><p>Control Actions (Bottom Row): 출선.재 강화, 저선 Level 저하, 복[Si]반응시간 감소, * 주상 탈규 강화.</p><p>Final Output: 용선[Si] 저하.</p><p>Final State: 뒷 장 계 속.</p><img alt=\"Figure snippet\" src=\"components/c05d6608c24da0c7253fe2e9bb2d8222_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/c05d6608c24da0c7253fe2e9bb2d8222_3_img.webp",
+      "section_path": "4 조업기준 / 4.3 저[Si]조입 Diagram",
+      "filename": "[Si] 제어기술 기준",
+      "page": 3
+    },
+    {
+      "id": "IMG_SUM_002",
+      "placeholder": "{{IMG_SUM_002}}",
+      "component_type": "image_summary",
+      "description": "Flowchart illustrating the factors influencing [Si] concentration:<ul><li>Inputs affecting Tf: 촬광석, Coke, Coal 중 맥석량, 맥석성분의 염기성, 송풍온도, 송풍습분, 산소부화, 보조연료 취입.</li><li>Inputs affecting Bosh Gas 중 H₂ 농도.</li><li>Inputs affecting O/C.</li><li>Inputs affecting 용융적하비: Tf, Bosh Gas 중 H₂ 농도, O/C, 송풍비, 광석용점 저하, 촬광석 환원도, 노체 방산열.</li><li>Inputs affecting 적하대 높이: 용융적하비, Tf, Bosh Gas 중 H₂ 농도, O/C, 송풍비, 광석용점 저하, 촬광석 환원도, 노체 방산열.</li><li>Inputs affecting 적하대의 Coke 온도: 용융적하비, 적하대 높이, 적하대의 용융물 보존온도, 반응의 특별 영역.</li><li>Inputs affecting 적하대의 용융물 보존온도: 적하대 높이, 적하대의 Coke 입자경, 용융물의 점성, 반응의 특별 영역.</li><li>Inputs affecting 반응의 특별 영역: 적하대의 Coke 입자경, 용융물의 점성.</li></ul>All these factors ultimately influence [Si] 농도 (highlighted box).",
+      "context_html": "",
+      "full_html": "<p>Flowchart illustrating the factors influencing [Si] concentration:</p><ul><li>Inputs affecting Tf: 촬광석, Coke, Coal 중 맥석량, 맥석성분의 염기성, 송풍온도, 송풍습분, 산소부화, 보조연료 취입.</li><li>Inputs affecting Bosh Gas 중 H₂ 농도.</li><li>Inputs affecting O/C.</li><li>Inputs affecting 용융적하비: Tf, Bosh Gas 중 H₂ 농도, O/C, 송풍비, 광석용점 저하, 촬광석 환원도, 노체 방산열.</li><li>Inputs affecting 적하대 높이: 용융적하비, Tf, Bosh Gas 중 H₂ 농도, O/C, 송풍비, 광석용점 저하, 촬광석 환원도, 노체 방산열.</li><li>Inputs affecting 적하대의 Coke 온도: 용융적하비, 적하대 높이, 적하대의 용융물 보존온도, 반응의 특별 영역.</li><li>Inputs affecting 적하대의 용융물 보존온도: 적하대 높이, 적하대의 Coke 입자경, 용융물의 점성, 반응의 특별 영역.</li><li>Inputs affecting 반응의 특별 영역: 적하대의 Coke 입자경, 용융물의 점성.</li></ul><p>All these factors ultimately influence [Si] 농도 (highlighted box).</p><img alt=\"Figure snippet\" src=\"components/df490be95396e659ad058da1357d1511_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/df490be95396e659ad058da1357d1511_2_img.webp",
+      "section_path": "4 조업기준 / 4.4 용선[Si] 이행촉진 주요 영향인자",
+      "filename": "[Si] 제어기술 기준",
+      "page": 4
+    },
+    {
+      "id": "IMG_SUM_003",
+      "placeholder": "{{IMG_SUM_003}}",
+      "component_type": "image_summary",
+      "description": "<div><b>Lumpy Zone</b><b>Gas Flow</b><b>Dropping</b><b>Dead Man</b><b>Slag Flow (SiO₂)</b><b>Gas Flow (SiO₂)</b><b>Slag Bulk</b><b>Hot Metal Bulk</b><b>Gas Flow</b><b>Cohesive</b><b>Race</b><b>Blast</b></div><div><b>Si 의 노내거동</b><ol><li>SiO₂(ℓ) + C = SiO(g) + CO(g)</li><li>SiO(g) → Si : SiO(g) + C = Si + CO(g)</li><li>Slag-Metal Reaction SiO₂(ℓ) + 2[C] = [Si] + 2CO</li><li>Reoxidation of [Si] [Si] + 2(FeO) = (SiO₂) + 2Fe</li></ol></div><div><b>(노 내부 상황)</b></div><div><b>Slag-Metal 반응</b><b>-C 와의 반응</b><br/>(SiO₂) + 2C → [Si] + 2CO<b>-Metal 과 반응</b><br/>(SiO₂) + 2[C] → [Si] + 2CO</div><div><b>([Si]의 변화)</b></div><div><b>Gas-Metal 반응</b><b>-중간 생성물 SiO 발생</b><br/>SiO₂(ℓ) + C → SiO(g) + CO<b>-Gas-Metal 간 직접 환원</b><br/>SiO(g) + C, [C] → [Si] + CO</div>",
+      "context_html": "",
+      "full_html": "<div><p><b>Lumpy Zone</b></p><p><b>Gas Flow</b></p><p><b>Dropping</b></p><p><b>Dead Man</b></p><p><b>Slag Flow (SiO₂)</b></p><p><b>Gas Flow (SiO₂)</b></p><p><b>Slag Bulk</b></p><p><b>Hot Metal Bulk</b></p><p><b>Gas Flow</b></p><p><b>Cohesive</b></p><p><b>Race</b></p><p><b>Blast</b></p></div><div><p><b>Si 의 노내거동</b></p><ol><li>SiO₂(ℓ) + C = SiO(g) + CO(g)</li><li>SiO(g) → Si : SiO(g) + C = Si + CO(g)</li><li>Slag-Metal Reaction<br/>SiO₂(ℓ) + 2[C] = [Si] + 2CO</li><li>Reoxidation of [Si]<br/>[Si] + 2(FeO) = (SiO₂) + 2Fe</li></ol></div><div><p><b>(노 내부 상황)</b></p></div><div><p><b>Slag-Metal 반응</b></p><p><b>-C 와의 반응</b><br/>(SiO₂) + 2C → [Si] + 2CO</p><p><b>-Metal 과 반응</b><br/>(SiO₂) + 2[C] → [Si] + 2CO</p></div><div><p><b>([Si]의 변화)</b></p></div><div><p><b>Gas-Metal 반응</b></p><p><b>-중간 생성물 SiO 발생</b><br/>SiO₂(ℓ) + C → SiO(g) + CO</p><p><b>-Gas-Metal 간 직접 환원</b><br/>SiO(g) + C, [C] → [Si] + CO</p></div><img alt=\"Figure snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_3_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_004",
+      "placeholder": "{{IMG_SUM_004}}",
+      "component_type": "image_formula",
+      "description": "[  철광석중 SiO₂  Coke Ash 중 SiO₂",
+      "context_html": "",
+      "full_html": "<math display=\"block\">[  철광석중 SiO₂  Coke Ash 중 SiO₂ </math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_5_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_005",
+      "placeholder": "{{IMG_SUM_005}}",
+      "component_type": "image_formula",
+      "description": "(SiO₂) + 2C → [Si] + 2CO",
+      "context_html": "",
+      "full_html": "<math display=\"block\">(SiO₂) + 2C → [Si] + 2CO</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_9_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_9_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_006",
+      "placeholder": "{{IMG_SUM_006}}",
+      "component_type": "image_formula",
+      "description": "(SiO₂) + 2[C] → [Si] + 2CO",
+      "context_html": "",
+      "full_html": "<math display=\"block\">(SiO₂) + 2[C] → [Si] + 2CO</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_11_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_11_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_007",
+      "placeholder": "{{IMG_SUM_007}}",
+      "component_type": "image_formula",
+      "description": "SiO₂(ℓ) + C → SiO(g) + CO",
+      "context_html": "",
+      "full_html": "<math display=\"block\">SiO₂(ℓ) + C → SiO(g) + CO</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_14_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_14_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_008",
+      "placeholder": "{{IMG_SUM_008}}",
+      "component_type": "image_formula",
+      "description": "SiO(g) + C, [C] → [Si] + CO",
+      "context_html": "",
+      "full_html": "<math display=\"block\">SiO(g) + C, [C] → [Si] + CO</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_16_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_16_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_009",
+      "placeholder": "{{IMG_SUM_009}}",
+      "component_type": "image_formula",
+      "description": "-SiO₂(ℓ) + 2[C] → [Si] + 2CO",
+      "context_html": "",
+      "full_html": "<math display=\"block\">-SiO₂(ℓ) + 2[C] → [Si] + 2CO</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_18_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_18_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_010",
+      "placeholder": "{{IMG_SUM_010}}",
+      "component_type": "image_formula",
+      "description": "[Si] + 2(FeO, MnO) → SiO₂ + 2[Fe, Mn]",
+      "context_html": "",
+      "full_html": "<math display=\"block\">[Si] + 2(FeO, MnO) → SiO₂ + 2[Fe, Mn]</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_20_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_20_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_011",
+      "placeholder": "{{IMG_SUM_011}}",
+      "component_type": "image_formula",
+      "description": "SiO + (FeO) → SiO₂ + Fe",
+      "context_html": "",
+      "full_html": "<math display=\"block\">SiO + (FeO) → SiO₂ + Fe</math><img alt=\"Equation-Block snippet\" src=\"components/47a0bdbfde1c3e638d96877f1c48a8c8_21_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_21_img.webp",
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "IMG_SUM_012",
+      "placeholder": "{{IMG_SUM_012}}",
+      "component_type": "image_formula",
+      "description": "해체조사에서 밝혀진 [Si]의 거동은 풍구 ~ Bosh 하부에서는 3% 전후, 노저에서는 1% 전후로 떨어졌다. 이는 [Si]의 재 산화반응으로 탈[Si]이 일어남을 의미한다. [Si] + 2(MO) \n→ SiO₂ + 2[M]  *M = Fe, Mn 등",
+      "context_html": "",
+      "full_html": "\n\n<p>해체조사에서 밝혀진 [Si]의 거동은 풍구 ~ Bosh 하부에서는 3% 전후, 노저에서는 1% 전후로 떨어졌다. 이는 [Si]의 재 산화반응으로 탈[Si]이 일어남을 의미한다.</p>\n\n<math display=\"block\">[Si] + 2(MO) \n→ SiO₂ + 2[M]  *M = Fe, Mn 등</math><img alt=\"Equation-Block snippet\" src=\"components/0f14c57f655dbb64ec9a967129b0665f_10_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_10_img.webp",
+      "section_path": "6. 기술이론 / 6.5 [Si]의 재 산화 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_SUM_013",
+      "placeholder": "{{IMG_SUM_013}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] vs THM (°C). The regression equation is y = 4.29 × 10⁻³ X - 6.11.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] vs THM (°C). The regression equation is y = 4.29 × 10⁻³ X - 6.11.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_1_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_1_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_014",
+      "placeholder": "{{IMG_SUM_014}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] vs Po (ton/d). The regression equation is y = 1.15 × 10⁻⁴ X + 1.36.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] vs Po (ton/d). The regression equation is y = 1.15 × 10⁻⁴ X + 1.36.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_2_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_015",
+      "placeholder": "{{IMG_SUM_015}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] vs CaO/SiO₂. The legend indicates MgO content ranges: 5.8 ~ 7.1% and 7.2 ~ 8.5%.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] vs CaO/SiO₂. The legend indicates MgO content ranges: 5.8 ~ 7.1% and 7.2 ~ 8.5%.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_3_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_3_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_016",
+      "placeholder": "{{IMG_SUM_016}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] × 10⁻²% vs SOR (%). The legend indicates 3BF (red triangles) and 4BF (white squares). The 3BF data points are associated with the transformation 3BF: 77.9 → 81.2%.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] × 10⁻²% vs SOR (%). The legend indicates 3BF (red triangles) and 4BF (white squares). The 3BF data points are associated with the transformation 3BF: 77.9 → 81.2%.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_4_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_017",
+      "placeholder": "{{IMG_SUM_017}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] × 10⁻²% vs Input SiO₂ (Kg/T-P). The legend indicates 1BF (black circles) and 4BF (white squares). The 1BF data points are associated with the transformation 1BF: 123.8 → 120.6kg/t-p.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] × 10⁻²% vs Input SiO₂ (Kg/T-P). The legend indicates 1BF (black circles) and 4BF (white squares). The 1BF data points are associated with the transformation 1BF: 123.8 → 120.6kg/t-p.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_5_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_SUM_018",
+      "placeholder": "{{IMG_SUM_018}}",
+      "component_type": "image_summary",
+      "description": "Graph showing [Si] vs pSiO, atm. The regression equation is Y = 91.62X + 0.11; R = 0.76.",
+      "context_html": "",
+      "full_html": "<p>Graph showing [Si] vs pSiO, atm. The regression equation is Y = 91.62X + 0.11; R = 0.76.</p><img alt=\"Figure snippet\" src=\"components/562d9402b303a7c4b91ce0c34e4ce426_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_6_img.webp",
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    }
+  ],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "Figure showing three diagrams (a), (b), and (c) illustrating the distribution of temperature, SiO concentration, and SiO generation rate in a raceway model. (a) shows temperature distribution (1600, 1700, 1800 °C). (b) shows SiO concentration (mol.SiO/m^3bed.s) in the bed. (c) shows SiO generation rate (mol.SiO/m^3bed.s) in the bed.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure showing three diagrams (a), (b), and (c) illustrating the distribution of temperature, SiO concentration, and SiO generation rate in a raceway model. (a) shows temperature distribution (1600, 1700, 1800 °C). (b) shows SiO concentration (mol.SiO/m^3bed.s) in the bed. (c) shows SiO generation rate (mol.SiO/m^3bed.s) in the bed.\" src=\"components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp",
+      "section_path": "6. 기술이론 / 6.3 연소대 에서의 Si 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 7
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Figure (a): Contour map showing the distribution of SiO concentration (PSiO in 1000 units) in the furnace cross-section.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure (a): Contour map showing the distribution of SiO concentration (PSiO in 1000 units) in the furnace cross-section.\" src=\"components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_TR_003",
+      "placeholder": "{{IMG_TR_003}}",
+      "component_type": "image_trans",
+      "description": "Figure (b): Contour map showing the distribution of Si concentration (% 용선중 [Si]) in the furnace cross-section.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure (b): Contour map showing the distribution of Si concentration (% 용선중 [Si]) in the furnace cross-section.\" src=\"components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_TR_004",
+      "placeholder": "{{IMG_TR_004}}",
+      "component_type": "image_trans",
+      "description": "Figure (c): Contour map showing the distribution of Si flow rate (kg/m^2.s) in the furnace cross-section.",
+      "context_html": "",
+      "full_html": "<img alt=\"Figure (c): Contour map showing the distribution of Si flow rate (kg/m^2.s) in the furnace cross-section.\" src=\"components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 1 적용범위\n[Si]의 노내거동 및 고로내에서 저[Si]용선을 제조하기 위한 조업기술에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1 적용범위",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 2 목적\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "2 목적",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 3 중점관리 항목\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_02.png"
+      },
+      "section_path": "3 중점관리 항목",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "# 4 조업기준",
+      "placeholders": {},
+      "section_path": "4 조업기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "## 4.1 [Si] 관리기준\n\n- 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향\n\n{{TB_UNSTR_001}}",
+      "placeholders": {
+        "TB_UNSTR_001": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png"
+      },
+      "section_path": "4 조업기준 / 4.1 [Si] 관리기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.2 저[Si] 용선제조 조업기준\n\n{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p002_table_01.png"
+      },
+      "section_path": "4 조업기준 / 4.2 저[Si] 용선제조 조업기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "## 4.3 저[Si]조입 Diagram\n조로 Action\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/c05d6608c24da0c7253fe2e9bb2d8222_3_img.webp"
+      },
+      "section_path": "4 조업기준 / 4.3 저[Si]조입 Diagram",
+      "filename": "[Si] 제어기술 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 4.4 용선[Si] 이행촉진 주요 영향인자\n\n{{IMG_SUM_002}}",
+      "placeholders": {
+        "IMG_SUM_002": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/df490be95396e659ad058da1357d1511_2_img.webp"
+      },
+      "section_path": "4 조업기준 / 4.4 용선[Si] 이행촉진 주요 영향인자",
+      "filename": "[Si] 제어기술 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준\n노내[Si]이 이상판단기준을 벗어났을시는 « 기술기준(고로공정) - 용선 및 외판주물선 요구품질 기준 (TP-030-050-020) »의 용선품질 이상시 조치기준에 따른다.",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준",
+      "filename": "[Si] 제어기술 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "# 6. 기술이론",
+      "placeholders": {},
+      "section_path": "6. 기술이론",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "## 6.1 용선 [Si]생성 Mechanism\n\n{{IMG_SUM_003}}\n용선중 Si (이하 [Si])는 철광석이나 Coke Ash 중의 SiO₂ 성분이 노내에서 환원되어 용선중에 함유된 것으로 노내에서는 Slag-Metal 간 반응이나, Gas-Metal 간 반응으로 환원된다.\n\n{{IMG_SUM_004}}\n\n### 적하대 Slag-Metal 반응\n-C 와의 반응\n\n{{IMG_SUM_005}}\n-Metal 과 반응\n\n{{IMG_SUM_006}}\n\n#### 연소대 Gas-Metal 반응\n-중간 생성물 SiO 발생\n\n{{IMG_SUM_007}}\n-Gas-Metal 간 직접 환원\n\n{{IMG_SUM_008}}\n\n#### 爐床部 Slag-Metal 반응\n\n{{IMG_SUM_009}}\n※ [Si]의 재산화 반응\n\n{{IMG_SUM_010}}\n\n{{IMG_SUM_011}}",
+      "placeholders": {
+        "IMG_SUM_003": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_3_img.webp",
+        "IMG_SUM_004": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_5_img.webp",
+        "IMG_SUM_005": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_9_img.webp",
+        "IMG_SUM_006": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_11_img.webp",
+        "IMG_SUM_007": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_14_img.webp",
+        "IMG_SUM_008": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_16_img.webp",
+        "IMG_SUM_009": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_18_img.webp",
+        "IMG_SUM_010": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_20_img.webp",
+        "IMG_SUM_011": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_21_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism / 적하대 Slag-Metal 반응 / 爐床部 Slag-Metal 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "## 6.2 적하대에서의 Si 거동\nCoke 및 Coal 중의 SiO₂와 광석에서 유래된 용융 SiO₂가 강하하면서 Coke 중 C나 Metal 중의 [C]와 접촉 반응하여 선종[Si]로 이행한다. 이 영역에서는 Slag-Metal의 반응온도, 반응시간, 반응 비표면적, Slag 조성 등에 의해 [Si]의 크기가 변화한다.\n\n● 반응온도 : 적하대 온도는 주로 연소된 Gas 온도, 적하대 높이, 용선 및 Slag의 유량에 의해 결정되며 이중 풍구 선단에서의 연소 Gas 온도(Raceway 연소온도)는 Raceway로 강화하는 Coke 입자온도, 풍운, 조습량, 산소부화량, 보조연료 취입량 등에 의해 결정된다. 따라서 Race-way 연소온도(Tf)와 Coke 충진층 강하 온도가 [Si]을 결정하는 주요 인자이다.\n● 반응시간 : 반응시간은 적하대 쪽 Coke 충진층에서의 용선과 Slag의 체류시간을 의미하며, 적하대 거리, 액체의 물리적 성질(점도,밀도), 적하속도, 적하대 에서의 Coke 입도 분포 등에 의존한다. 이중 적하대 거리가 반응시간에 미치는 영향이 가장 크며 다음과 같은 인자들이 적하대 거리와 밀접한 관계가 있다. 연소 Gas의 온도 Ore/Coke 광석의 용융 적하 온도 광석의 간접환원율(간접환원율이 크면 고상대역 확대, 적하대역 축소) 미분탄 취입량 조습량-Bosh Gas 중 수소량 노벽 방산열 액적의 체적속도- 생산 Speed, 출선비\n  1. 연소 Gas의 온도\n  2. Ore/Coke\n  3. 광석의 용융 적하 온도\n  4. 광석의 간접환원율(간접환원율이 크면 고상대역 확대, 적하대역 축소)\n  5. 미분탄 취입량\n  6. 조습량-Bosh Gas 중 수소량\n  7. 노벽 방산열\n  8. 액적의 체적속도- 생산 Speed, 출선비\n● 반응 비표면적 : SiO₂(g)발생은 적하대 높이, Bosh Gas 체적이 일정하면 Slag 유입량, Slag-Coke 간 반응 비표면적 및 반응시간에 의존하며, 적하대에서 SiO₂와 Metal과의 반응은 Coke 중 높이와 SiO₂ 분압이 일정하면 [Si]는 반응시간과 반응 비표면적에 비례한다.\n\n● Slag 조성 : Coke와 광석 중 액체에서 유래된 SiO₂는 영기조성에 의해 환량(a SiO₂)이 제어된다. 액체 성분의 영기조성에 따라 SiO₂ Gas의 흡수속도가 영향을 받아 SiO₂의 분압(P SiO₂)이 변화 한다. 또 MgO 증가는 연화 용착 온도를 상승시켜 연화용착대 위치저하, 적하대 높이 감소로 용선과 SiO₂의 접촉반응시간이 단축되어 [Si]이 저하한다.",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.2 적하대에서의 Si 거동",
+      "filename": "[Si] 제어기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "## 6.3 연소대 에서의 Si 반응\nRaceway 는 고온 환원분위기로 적하대를 통과하면서 Slag 화 하는 Coke 및 Coal Ash 중의 SiO₂ 와 광석에서 유래한 Slag 내의 SiO₂ 성분의 환원에 의해 SiO Gas 가 발생한다.\n\nCoke 또는 Coal Ash 중 SiO₂ 로 부터 SiO Gas 발생속도(그림 b)는 온도분포와 밀접한 관계가 있으며, 특히 고 SiO Gas 발생속도는 Raceway 내부와 노심 Coke 가 유입되는 Raceway 상부측에 위치하는데, 이는 Coke 충진층 밀도가 높고 온도가 높기 때문이다.\n\n맥석 Slag 중 SiO₂ 로 부터의 SiO Gas 발생속도는 Coke 의 그것보다 발생속도에서 1/40 수준이며, 따라서 노내 SiO Gas 발생의 Source 는 Coke 또는 Coal 중의 Ash 임을 알 수 있다.\n\n{{IMG_TR_001}}\n(a) 고로 모델에 의한 고상(Solid)온도 분포 (b) 코크스 중 SiO₂ 로 부터의 SiO Gas 생성속도 (c) Slag 중 SiO₂ 로 부터의 SiO Gas 생성속도",
+      "placeholders": {
+        "IMG_TR_001": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.3 연소대 에서의 Si 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "## 6.4 용선으로의 가규 반응\n가규 반응은 SiO Gas 를 Si 원으로 하는 Gas-Metal 반응과 Slag 중 SiO₂ 를 Si 원으로 하는 Slag-Metal 반응이 주 반응이나 후자의 반응은 매우 미약하다. 용선중 가규 반응속도는 SiO Gas 발생속도에 비해서 훨씬 빠르기 때문에 Raceway 주변에서 발생된 SiO Gas 를 쉽게 흡수할 수 있게 된다. 따라서 저 [Si] 조업을 위해서는 SiO Gas 발생 반응, 즉 Coke Ash 로 부터의 SiO Gas 발생을 억제하는 것이 가장 중요하다.\n\nModel 에 의해 계산된 고로내 용선중의 [Si]분포는 0.1~0.2 % 정도이나 출선치는 0.5% 정도 나타난다. Raceway 선단부에서는 1.0 % 정도이며 Raceway 상부 노심 Coke 유입부에서는 약간",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "감소된 주체를 보여주고 있는데, 이것은 후꾸야마 5고로에서의 실고로 측정치와 거의 일치한다. [Si]의 고농도 지역이 풍구 Level 상의 노심부에 존재하는 이유는 이 부분에서 용선적하가 적고 SiO Gas 발생량이 많아 가규반응이 활발하게 진행되기 때문이며, 이 구역의 용선중 [Si]농도는 출선치에 큰 영향을 미친다.\n\n{{IMG_TR_002}}\nSiO 분압의 분포\n\n{{IMG_TR_003}}\n%용선중 [Si]\n\n{{IMG_TR_004}}\n용선의 질량 유속",
+      "placeholders": {
+        "IMG_TR_002": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp",
+        "IMG_TR_003": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp",
+        "IMG_TR_004": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_017",
+      "component_type": "text",
+      "text": "## 6.5 [Si]의 재 산화 반응\n{{IMG_SUM_012}}\n즉 FeO 의 상승은 탈[Si]의 원인이 된다. 저 환원율의 광석이 강하하는 영역에서는 FeO 를 많이 함유한 Slag 도 동시에 강하하기 때문에 직접환원이 일어나 온도저하를 초래하고, SiO 발생 또는 SiO 와 선중 [C]와의 반응을 억제하며, FeO 함유 Slag 강하에 의해 산소분압이 상승하기 때문에 SiO 가 SiO2 로 재 산화되어 SiO 분압이 저하한다.\n\n또, 직접환원 FeO 는 [Si] + 2(FeO) → SiO₂ + 2Fe 로 [Si]을 SiO2 로 재 산화하므로 선중[Si]는 저하한다.",
+      "placeholders": {
+        "IMG_SUM_012": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_10_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.5 [Si]의 재 산화 반응",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_018",
+      "component_type": "text",
+      "text": "## 6.6 노내[Si] 제어기술\n\n### 가. Slag-Metal 간 반응 억제\n● 노내 열 Level Down → SiO2 분해 반응 억제\n● 조업 Speed 증가 → 용융물의 노내 체류시간 단축 → 반응 억제\n● Slag 염기도 및 MgO 증가 → SiO2 활량저하 → 반응 억제\n● Coke 강도확보 → 노심 공극율 향상 → 출선, 재 개선 → 반응시간단축\n● 소결광 사용비 상승 → 적하대 구간 축소 → 반응거리, 시간단축",
+      "placeholders": {},
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_019",
+      "component_type": "text",
+      "text": "{{IMG_SUM_013}}\n\n{{IMG_SUM_014}}\n\n{{IMG_SUM_015}}\n\n{{IMG_SUM_016}}\n\n{{IMG_SUM_017}}\n\n{{IMG_SUM_018}}\n※ P SiO (SiO Gas 분압)는 Slag 조성에서 생각할 수 있으며, SiO Gas 발생원으로써 Coke, Coal 중 Ash 와 광석중 맥석이 고려되며 Slag 의 영기도 조정에 의해 SiO₂ 활량(αSiO₂)이 제어된다.\n\n또 Slag 영기도에 따라 SiO Gas 의 흡수속도가 영향을 받아 SiO의 분압(P SiO)이 변화한다. 한편 MgO 의 증가는 연화 용착 온도를 상승시키며 용착대 위치저하, 적하구간 감소로 인해 용선과 SiO의 접촉 시간이 단축 되어 [Si]이 저하한다.",
+      "placeholders": {
+        "IMG_SUM_013": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_1_img.webp",
+        "IMG_SUM_014": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_2_img.webp",
+        "IMG_SUM_015": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_3_img.webp",
+        "IMG_SUM_016": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_4_img.webp",
+        "IMG_SUM_017": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_5_img.webp",
+        "IMG_SUM_018": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_6_img.webp"
+      },
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+      "filename": "[Si] 제어기술 기준",
+      "page": 9
+    },
+    {
+      "id": "TEXT_020",
+      "component_type": "text",
+      "text": "### 나. SiO2 → SiO Gas 반응화 억제\n● Tf 저하 → P SiO 저하 → Gas 화 반응 억제\n● Coke, Coal 중 Ash 저하 → 풍구앞 SiO2 인입 억제\n● 노정압 상승에 의한 송풍압 증가 → CO 분압 증가 → P SiO 저하\n\n### 다. SiO2 일량 제어\n·고로 장입 SiO2\n\n{{TB_STR_004}}\n소결광에 비해 정립광이나 펠렛의 SiO2 함량이 적으나 원가측면에서 불리하기 때문에 제강 [Si]\n\n요구수준을 감안하여 소결광 사용량을 조절한다.\n\n·PCI coal brand 에 따른 영향\n\n{{TB_UNSTR_002}}\n코크스에 비해 상대적으로 SiO2 함량이 적은 미분탄 사용량을 늘리는 것이 용선 중 저[Si] 조업에 유리하고, 미분탄 사용량이 증가할수록 탄 중 Ash 에 포함된 SiO2 가 낮은 미분탄을 사용하는 것이 저[Si] 조업에 유리하다.",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_01.png",
+        "TB_UNSTR_002": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png"
+      },
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 다. SiO2 일량 제어",
+      "filename": "[Si] 제어기술 기준",
+      "page": 10
+    }
+  ]
+}

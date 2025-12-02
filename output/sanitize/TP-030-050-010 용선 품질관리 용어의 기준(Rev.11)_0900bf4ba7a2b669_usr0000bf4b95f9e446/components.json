@@ -1,0 +1,117 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "품질영향인자: 해당없음 | 공정영향인자: 해당없음"
+      ],
+      "table_html": "<table><thead><tr><th>품질영향인자</th><th>공정영향인자</th></tr></thead><tbody><tr><td>해당없음</td><td>해당없음</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>품질영향인자</th><th>공정영향인자</th></tr></thead><tbody><tr><td>해당없음</td><td>해당없음</td></tr></tbody></table><p><a href=\"components/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446/components/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점관리 항목",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n용선 품질과 관련된 기술용어에 대해 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n용선 품질 관리와 관련된 용어를 정확하게 인식하여 조업자 상호간의 의사소통과 정보 교환을 원활히 함으로써 후공정 요구품질을 안정되게 공급하기 위함이다.",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리 항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446/components/TP-030-050-010 용선 품질관리 용어의 기준(Rev.11)_0900bf4ba7a2b669_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점관리 항목",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 용선품질의 규격 용어\n\n### 가. F1A: POSCO 에서 정한 일반 회주철품용 용선으로 [Si] 중간정도 함량나. F2A: POSCO 에서 정한 일반 회주철품용 용선으로 [Si] 높은정도 함량다. F3A: POSCO 에서 정한 일반 회주철품용 용선으로 [Si] 낮은정도 함량라. F1B: F1A 대비 [Mn] 성분 함유량이 낮은 제품임.\n\n### 마. F2B: F2A 대비 [Si], [Mn] 성분 함유량이 낮은 제품임.\n\n### 바. F3B: F2A 대비 [Si], [Mn] 성분 함유량이 낮은 제품임\n\n### 사. DCC: 고순도 주물용 선철 제품으로 기존에 사용중인 DC 품질기준에서 [Si]과 [Cr] 성분을 조정함.\n\n### 아. DCH: 신규로 도입한 고순도 주물용 선철 제품으로 [P] 성분이 엄격히 규제되는 제품임.\n(기술기준(고로공정) - TP-030-050-020 용선 및 외판주물선 요구품질 기준을 참조한다.)",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 용선품질의 규격 용어 / 아. DCH: 신규로 도입한 고순도 주물용 선철 제품으로 [P] 성분이 엄격히 규제되는 제품임.",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "## 4.2 [Si] 제어기술 용어\n\n### 가. HMR: 제강의 전로에 장입되는 용선, 고철, Scrap, 냉선 등의 전체 장입물에서 용선량이 차지하는 비율 (Hot Metal Ratio)\n\n### 나. 복규반응: 노내 탈류부의 Slag SiO₂가 노저부에서 다시 환원되어 용선 중의 [Si] 함량을 높이는 반응\n\n### 다. 가규반응: Slag SiO₂가 노내에서 C와 반응하여 Si로 환원된 후 용선중으로 함유되는 반응. 또는 주물선고로 용선을 외판용 주물선으로 제조시 Fe-Si을 탕도상에 투입하여 용선중의 [Si] 성분을 인위적으로 상승시키는 반응이다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.2 [Si] 제어기술 용어 / 다. 가규반응: Slag SiO₂가 노내에서 C와 반응하여 Si로 환원된 후 용선중으로 함유되는 반응. 또는 주물선고로 용선을 외판용 주물선으로 제조시 Fe-Si을 탕도상에 투입하여 용선중의 [Si] 성분을 인위적으로 상승시키는 반응이다.",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.3 [S], [Mn], [P] 제어기술\n\n### 가. 탈황반응: 고로내에서 용선중의 [S]가 CaO, MgO 등과 반응하여 CaS, MgS로 변환하면서 용선 [S]를 저하시키는 반응이다. 탈류반응이라고도 한다.나. 탈린반응: 재강 예비처리 공정 또는 전로 반응에서 정련 반응의 일종으로 용선중의 [P]를 낮추는 반응이다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.3 [S], [Mn], [P] 제어기술 / 가. 탈황반응: 고로내에서 용선중의 [S]가 CaO, MgO 등과 반응하여 CaS, MgS로 변환하면서 용선 [S]를 저하시키는 반응이다. 탈류반응이라고도 한다.나. 탈린반응: 재강 예비처리 공정 또는 전로 반응에서 정련 반응의 일종으로 용선중의 [P]를 낮추는 반응이다.",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "## 4.4 주상 탈규 작업 용어\n\n### 가. 탈규작업: 고로 용선을 재강으로 이동하기 전에 용선중의 [Si] 함량 저하를 위해 주상 탕도에서 탈규용 고체산소원 (분소결광, Mill-Scale 등)을 투입하여 [Si]을 저하시키는 작업이다.나. TIM (상부 압사식 탈규방법: Top Injection Method): Mill Scale 등의 미립 탈규제를 용선중에 압사하여 탈규하는 방법다. SFM (자연낙하식 탈규방법: Soft Feeding Method): 분소결광 등 입자가 굵은 탈규제를 B/C 등을 이용하여 용선 중에 자연낙하시켜 탈규하는 방법라. 가규제: 외판 주물선 제조시 용선중의 [Si] 성분을 규격 범위내로 상승시키기 위해 투입하는 Fe-Si 등의 합금철을 말한다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.4 주상 탈규 작업 용어 / 가. 탈규작업: 고로 용선을 재강으로 이동하기 전에 용선중의 [Si] 함량 저하를 위해 주상 탕도에서 탈규용 고체산소원 (분소결광, Mill-Scale 등)을 투입하여 [Si]을 저하시키는 작업이다.나. TIM (상부 압사식 탈규방법: Top Injection Method): Mill Scale 등의 미립 탈규제를 용선중에 압사하여 탈규하는 방법다. SFM (자연낙하식 탈규방법: Soft Feeding Method): 분소결광 등 입자가 굵은 탈규제를 B/C 등을 이용하여 용선 중에 자연낙하시켜 탈규하는 방법라. 가규제: 외판 주물선 제조시 용선중의 [Si] 성분을 규격 범위내로 상승시키기 위해 투입하는 Fe-Si 등의 합금철을 말한다.",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 4.5 Slag Foaming 제어기술 용어\n\n### 가. Slag Foaming: 탈규작업시 용선과 탈규제의 반응으로 생긴 Slag 가 끓어 오르는 현상나. 탕면 Level: 고로 경주통 하부에 Ladle 이 차입된 상태에서 Rail 상단을 영점으로 하여 수선 탕면까지의 높이를 말하며 용선 수선량의 척도가 된다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.5 Slag Foaming 제어기술 용어 / 가. Slag Foaming: 탈규작업시 용선과 탈규제의 반응으로 생긴 Slag 가 끓어 오르는 현상나. 탕면 Level: 고로 경주통 하부에 Ladle 이 차입된 상태에서 Rail 상단을 영점으로 하여 수선 탕면까지의 높이를 말하며 용선 수선량의 척도가 된다.",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준\n해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준",
+      "filename": "용선 품질관리 용어의 기준",
+      "page": 2
+    }
+  ]
+}

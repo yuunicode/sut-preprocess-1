@@ -1,0 +1,127 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "col1: 품질영향 인자 | col2: 공정영향 인자",
+        "col1: 해당없음 | col2: 해당없음"
+      ],
+      "table_html": "<table><tr><td>품질영향 인자</td><td>공정영향 인자</td></tr><tr><td>해당없음</td><td>해당없음</td></tr></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><tr><td>품질영향 인자</td><td>공정영향 인자</td></tr><tr><td>해당없음</td><td>해당없음</td></tr></table><p><a href=\"components/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446_p001_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446/components/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446_p001_table_01.png",
+      "section_path": "3. 중점 관리 항목",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    }
+  ],
+  "images_summary": [],
+  "images_translation": [],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로 조업의 노황관리를 위한 각종 기술의 용어에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목 적\n고로 노황과 관련된 기술용어는 각 제철소 별로 다를 수가 있으나 공통적으로 사용하고 있는 용어에 대해 올바르게 인식하므로써 정보교류 및 의사소통의 원활화로 안정 조업 유지에 도움이 되도록 한다.",
+      "placeholders": {},
+      "section_path": "2. 목 적",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점 관리 항목\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446/components/TP-030-030-010 노황관리 용어의기준(Rev.11)_0900bf4ba7a451c8_usr0000bf4b95f9e446_p001_table_01.png"
+      },
+      "section_path": "3. 중점 관리 항목",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 고로 조업지수 관련 용어\n\n### 가. 한계풍압 : 고로내에서 장입물이 원활하게 강하하거나 생바람(취발)이 일어나지 않는 최고의 풍압을 말하며 통상적으로 풍압-노정압의 한계 압손으로 관리 한다.\n\n### 나. 송풍기 Surging : 송풍기 토출압력보다 고로측 풍압이 더 높을 때 발생하는 송풍기 Trouble 이다.\n\n### 다. Coke 유동화 : 노내 Gas 유속이 너무 빠르거나 상승 Gas 의 압력이 높아 충진층 내에서 COKE 가 불려 올라가거나 층이 무너지는 현상이다.\n\n### 라. 날바람(channeling, 취발) : 가스 유속이 급상승한 곳에 장입물의 유동화가 시작되면, 작은 입자들이 가스류에 의해 상부로 올라가고 이들 입자들의 대부분이 정지하는 상태까지 된 후 가스의 상승력에 의해 분원료층이 파괴되어 가스가 급상승하는 현상\n\n### 마. 걸림(Hanging, 행잉) : 고로내 통기성이 나쁜 곳에 노내 가스의 압력이 상승되어, 그 압력이 강화하는 장입물의 중량보다 클 경우, 장입물의 강화가 정체되면서 강화가 중지되는 현상이다.\n\n### 바. 풍구 대파 : 용융물에 의해 풍구가 손상되고, 손상된 부위로 용융물이나 코크스가 침투되어 냉각이 안되면서 풍구가 크게 파괴되어 노내 코크스가 풍구를 통해서 노외로 분출되는 현상이다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 고로 조업지수 관련 용어 / 바. 풍구 대파 : 용융물에 의해 풍구가 손상되고, 손상된 부위로 용융물이나 코크스가 침투되어 냉각이 안되면서 풍구가 크게 파괴되어 노내 코크스가 풍구를 통해서 노외로 분출되는 현상이다.",
+      "filename": "노황관리 용어의기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "### 사. 풍구 곡손 : 노벽부에 벽력, Slip 등의 현상으로 상당한 무게를 가진 낙하물이 풍구 선단부를 가격하여 풍구가 변형되고 하부로 쳐지는 현상\n\n### 아. 드롭(Drop) : 0.5m ~ 1.0m 미만 급저하.\n\n### 자. 슬립(Slip) : 1.0m 이상 급저하.\n\n### 차. 내림(붕락) : 30 분 정도 걸림(Hangin) 후 장입물이 급저하, 노정온도 상승, 노정 가스압 +0.1kg/cm² 정도 상승.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 고로 조업지수 관련 용어 / 차. 내림(붕락) : 30 분 정도 걸림(Hangin) 후 장입물이 급저하, 노정온도 상승, 노정 가스압 +0.1kg/cm² 정도 상승.",
+      "filename": "노황관리 용어의기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "## 4.2 저선 Level 제어 관련\n\n### 가. 냉입(Chilled Hearth) : 노내침수, 노활불량 등의 원인으로 노저부에 저장된 용용물 (용선, Slag)의 유동성이 극히 나빠지거나 굴어지는 사고이다.\n\n### 나. 저선량 : 노저에 저장된 용선의량",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.2 저선 Level 제어 관련 / 나. 저선량 : 노저에 저장된 용선의량",
+      "filename": "노황관리 용어의기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "## 4.3 PCI 취입 기술 관련\n\n### 가. All Coke 도입 : 노내에 장입되는 연료중에 풍구부로 취입되는 PCI, 중유 등의 보조연료를 사용하지 않고 순수하게 Coke 만 장입하여 열 Balance 를 유지하는 조업.\n\n### 나. 통기성, 풍액성 : 고로내 물질의 유동화 정도로써 통기성은 노하부에서 발생한 Gas 가 장입물의 충진층 사이를 빠져 나가는 정도이며 풍액성은 적하대 하부의 용용물(용선, Slag)이 노내 코크스를 빠져 나가는 정도를 말한다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.3 PCI 취입 기술 관련 / 나. 통기성, 풍액성 : 고로내 물질의 유동화 정도로써 통기성은 노하부에서 발생한 Gas 가 장입물의 충진층 사이를 빠져 나가는 정도이며 풍액성은 적하대 하부의 용용물(용선, Slag)이 노내 코크스를 빠져 나가는 정도를 말한다.",
+      "filename": "노황관리 용어의기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "## 4.4 노심활성화 관련\n\n### 가. 노심(Deadman)의 정의 : 노심(Deadman)이란 대부분 Coke 가 쌓여있는 고로 하부의 중심부를 의미한다.\n\n### 나. 노심의 기능\n1. 고로 노열의 버퍼 기능\n2. 중심부 용착대 강하시 박쳐주는 그릇 역할\n3. 미분탄에서 발생되는 미연소 Char 를 연소시키는 기능",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.4 노심활성화 관련 / 나. 노심의 기능",
+      "filename": "노황관리 용어의기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "### 다. 노심불활성 : Coke 입경이 작거나 PC 의 연소성 불량으로 Coke 나 Coal 이 노심에 과다 축적되어 노심이 비대해 지거나 용용물의 유동성 불량, 노심온도 저하 등으로 노심부의 Gas 분배기능, 탈류 및 출선태 기능이 저하되는 경우를 말한다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.4 노심활성화 관련 / 다. 노심불활성 : Coke 입경이 작거나 PC 의 연소성 불량으로 Coke 나 Coal 이 노심에 과다 축적되어 노심이 비대해 지거나 용용물의 유동성 불량, 노심온도 저하 등으로 노심부의 Gas 분배기능, 탈류 및 출선태 기능이 저하되는 경우를 말한다.",
+      "filename": "노황관리 용어의기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준\n해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준",
+      "filename": "노황관리 용어의기준",
+      "page": 3
+    }
+  ]
+}

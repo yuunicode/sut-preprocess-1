@@ -1,0 +1,499 @@
+{
+  "source": "/home/angrykuku/vscodeProject/sut-preprocess-1/output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_rule_sanitized.md",
+  "tables": [
+    {
+      "id": "TB_STR_001",
+      "placeholder": "{{TB_STR_001}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "방법: Sounding | 내용: - Sounding 에의한 직접 검지로써 정확한 Level 측정- 감척 13~15 시간 시점- S.L 10m 이하에서는 노내온도가 1,000℃ 이상으로 Sounding 은 Level 측정후 즉시 대기위치로 복귀 (이미지: Diagram showing the internal structure of a shaft furnace during Sounding operation, with various levels indicated.) | 비고: *강철용 Sounding - 20~30m",
+        "방법: 풍구 관찰 | 내용: 풍구 선단부에서 Coke 선회변화 및 풍구 1EA 만 노출이 확인되어도 종풍 판단 | 비고: ",
+        "방법: 노체압력계 | 내용: - 노내 장입물 유,무를 Shaft 압력계로 측정P2>P1, P3=P2 (이미지: Diagram showing the internal structure of a shaft furnace with pressure points P1, P2, P3, and P4 marked.) | 비고: ",
+        "방법: BFG 조성 변화 | 내용: - 노내 광석 존재할 경우와 Coke 공연소시의 노내 Gas 조성변화로 검지 (Coke 공연소 시점부터 노내 Gas CO↑, CO₂↓) (이미지: Graph showing the change in BFG composition (CO and CO2 levels) over time (시간) relative to the S.L (Surface Level) and O.T (Operation Temperature) Level. The graph also indicates the Level of the charged material (장입물 Level).) | 비고: "
+      ],
+      "table_html": "<table><thead><tr><th>방법</th><th>내용</th><th>비고</th></tr></thead><tbody><tr><td>Sounding</td><td><p>- Sounding 에의한 직접 검지로써 정확한 Level 측정</p><p>- 감척 13~15 시간 시점</p><p>- S.L 10m 이하에서는 노내온도가 1,000℃ 이상으로 Sounding 은 Level 측정후 즉시 대기위치로 복귀</p><img alt=\"Diagram showing the internal structure of a shaft furnace during Sounding operation, with various levels indicated.\"/></td><td>*강철용 Sounding - 20~30m</td></tr><tr><td>풍구 관찰</td><td>풍구 선단부에서 Coke 선회변화 및 풍구 1EA 만 노출이 확인되어도 종풍 판단</td><td></td></tr><tr><td>노체압력계</td><td><p>- 노내 장입물 유,무를 Shaft 압력계로 측정</p><p>P2&gt;P1, P3=P2</p><img alt=\"Diagram showing the internal structure of a shaft furnace with pressure points P1, P2, P3, and P4 marked.\"/></td><td></td></tr><tr><td>BFG 조성 변화</td><td><p>- 노내 광석 존재할 경우와 Coke 공연소시의 노내 Gas 조성변화로 검지 (Coke 공연소 시점부터 노내 Gas CO↑, CO₂↓)</p><img alt=\"Graph showing the change in BFG composition (CO and CO2 levels) over time (시간) relative to the S.L (Surface Level) and O.T (Operation Temperature) Level. The graph also indicates the Level of the charged material (장입물 Level).\"/></td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>방법</th><th>내용</th><th>비고</th></tr></thead><tbody><tr><td>Sounding</td><td><p>- Sounding 에의한 직접 검지로써 정확한 Level 측정</p><p>- 감척 13~15 시간 시점</p><p>- S.L 10m 이하에서는 노내온도가 1,000℃ 이상으로 Sounding 은 Level 측정후 즉시 대기위치로 복귀</p><img alt=\"Diagram showing the internal structure of a shaft furnace during Sounding operation, with various levels indicated.\"/></td><td>*강철용 Sounding - 20~30m</td></tr><tr><td>풍구 관찰</td><td>풍구 선단부에서 Coke 선회변화 및 풍구 1EA 만 노출이 확인되어도 종풍 판단</td><td></td></tr><tr><td>노체압력계</td><td><p>- 노내 장입물 유,무를 Shaft 압력계로 측정</p><p>P2&gt;P1, P3=P2</p><img alt=\"Diagram showing the internal structure of a shaft furnace with pressure points P1, P2, P3, and P4 marked.\"/></td><td></td></tr><tr><td>BFG 조성 변화</td><td><p>- 노내 광석 존재할 경우와 Coke 공연소시의 노내 Gas 조성변화로 검지 (Coke 공연소 시점부터 노내 Gas CO↑, CO₂↓)</p><img alt=\"Graph showing the change in BFG composition (CO and CO2 levels) over time (시간) relative to the S.L (Surface Level) and O.T (Operation Temperature) Level. The graph also indicates the Level of the charged material (장입물 Level).\"/></td><td></td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p003_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p003_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 나. 강철조업중 장입물 Level 판단 방법",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 3
+    },
+    {
+      "id": "TB_STR_002",
+      "placeholder": "{{TB_STR_002}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "항목: 중풍 완료 | 조업방침: ○ S.L : 풍구+2m(통상) | 실시사항: ○ Sounding 이 목표 Level도달시 중풍 | 비고: ○(포)4 고로:3.9~24.2m○(포)1 고로:4.0~23.8m○(포)3 고로:4.2~23.1m",
+        "항목: 감척 조업개시 | 조업방침: ○ Mn 광 장입○ COKE 장입○ Start:기준 S.L +1~2m | 실시사항: ○감척중 미장입 | 비고: ○(포)4 고로 Mn 광:20 TonCoke:150 Ton○(포)1 고로 Mn 광: 8 TonCoke:100 Ton○(포)3 고로 Mn 광:20 TonCoke:180 Ton",
+        "항목: 용용 완료시점 확인 | 조업방침: ○용선종 [Mn]상승으로 확인 | 실시사항: ○용선 Sample 간격:5 분 | 비고: ",
+        "항목: 감척 중풍소요 시간 | 조업방침: ○약 15 시간 | 실시사항:  | 비고: ○(포)4 고로:14 시간 20 분○(포)1 고로:13 시간 40 분○(포)1 고로:14 시간 30 분",
+        "항목: 노정온도상승시 조치 | 조업방침: ○ Max: 350°C(노정살수장치 유용) | 실시사항: ○ N2 취입○노정살수○감풍○Steam 취입 | 비고: * 장입 B/C 에서 Coke 에 살수*V.S 분사수신설(주수냉각용)",
+        "항목: 조습 Cut | 조업방침: ○ H2% 상승억제 | 실시사항: ○본감척 개시시점부터대기습분 조업 | 비고: ",
+        "항목: 풍량 및노정압 조정 | 조업방침: ○노정압은 취발방지 및노내용용물의 최대배출을위해 가능한 높게 유지○풍량은 안전계수 2.5 이상S.F 곡선 적용 | 실시사항: ○휴풍 1 시간전까지노정압 일정수준이상유지 | 비고: ○(포)4 고로:2.10 kg/cm² 유지○(포)2 고로:1.30 kg/cm² 유지○(포)3 고로: 1.50 kg/cm² 유지",
+        "항목: BFG Calorie제어 | 조업방침: ○ Gas CalorieMax 1,250 kcal/N m³ | 실시사항: ○ N2 취입○ steam 취입○감풍 | 비고: ",
+        "항목: BFG 성분분석 | 조업방침: ○ CO : 0~ 40%H2 : 0~ 15%N2 : 0~100%CO2: 0~ 30% | 실시사항: ○ Gas Chro 연속분석○수동 분석 (O2 포함)(1회/30분~1시간) | 비고: ○ CO, CO2, H2, O2분석(Gas Chro Range 변경)",
+        "항목: 휴풍후 조치 | 조업방침: ○노정 점화시까지 N2 취입하여 노내 점압(+) 유지 | 실시사항:  | 비고: "
+      ],
+      "table_html": "<table><thead><tr><th>항목</th><th>조업방침</th><th>실시사항</th><th>비고</th></tr></thead><tbody><tr><td>중풍 완료</td><td>○ S.L : 풍구+2m(통상)</td><td>○ Sounding 이 목표 Level<br/>도달시 중풍</td><td>○(포)4 고로:3.9~24.2m<br/>○(포)1 고로:4.0~23.8m<br/>○(포)3 고로:4.2~23.1m</td></tr><tr><td>감척 조업<br/>개시</td><td>○ Mn 광 장입<br/>○ COKE 장입<br/>○ Start:기준 S.L +1~2m</td><td>○감척중 미장입</td><td>○(포)4 고로 Mn 광:20 Ton<br/>Coke:150 Ton<br/>○(포)1 고로 Mn 광: 8 Ton<br/>Coke:100 Ton<br/>○(포)3 고로 Mn 광:20 Ton<br/>Coke:180 Ton</td></tr><tr><td>용용 완료<br/>시점 확인</td><td>○용선종 [Mn]<br/>상승으로 확인</td><td>○용선 Sample 간격:5 분</td><td></td></tr><tr><td>감척 중풍<br/>소요 시간</td><td>○약 15 시간</td><td></td><td>○(포)4 고로:14 시간 20 분<br/>○(포)1 고로:13 시간 40 분<br/>○(포)1 고로:14 시간 30 분</td></tr><tr><td>노정온도<br/>상승시 조치</td><td>○ Max: 350°C<br/>(노정살수장치 유용)</td><td>○ N2 취입<br/>○노정살수<br/>○감풍<br/>○Steam 취입</td><td>* 장입 B/C 에서 Coke 에 살수<br/>*V.S 분사수신설(주수냉각용)</td></tr><tr><td>조습 Cut</td><td>○ H2% 상승억제</td><td>○본감척 개시시점부터<br/>대기습분 조업</td><td></td></tr><tr><td>풍량 및<br/>노정압 조정</td><td>○노정압은 취발방지 및<br/>노내용용물의 최대배출을<br/>위해 가능한 높게 유지<br/>○풍량은 안전계수 2.5 이상<br/>S.F 곡선 적용</td><td>○휴풍 1 시간전까지<br/>노정압 일정수준이상<br/>유지</td><td>○(포)4 고로:2.10 kg/cm² 유지<br/>○(포)2 고로:1.30 kg/cm² 유지<br/>○(포)3 고로: 1.50 kg/cm² 유지</td></tr><tr><td>BFG Calorie<br/>제어</td><td>○ Gas Calorie<br/>Max 1,250 kcal/N m³</td><td>○ N2 취입<br/>○ steam 취입<br/>○감풍</td><td></td></tr><tr><td>BFG 성분<br/>분석</td><td>○ CO : 0~ 40%<br/>H2 : 0~ 15%<br/>N2 : 0~100%<br/>CO2: 0~ 30%</td><td>○ Gas Chro 연속분석<br/>○수동 분석 (O2 포함)<br/>(1회/30분~1시간)</td><td>○ CO, CO2, H2, O2<br/>분석(Gas Chro Range 변경)</td></tr><tr><td>휴풍후 조치</td><td>○노정 점화시까지 N2 취입<br/>하여 노내 점압(+) 유지</td><td></td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>항목</th><th>조업방침</th><th>실시사항</th><th>비고</th></tr></thead><tbody><tr><td>중풍 완료</td><td>○ S.L : 풍구+2m(통상)</td><td>○ Sounding 이 목표 Level<br/>도달시 중풍</td><td>○(포)4 고로:3.9~24.2m<br/>○(포)1 고로:4.0~23.8m<br/>○(포)3 고로:4.2~23.1m</td></tr><tr><td>감척 조업<br/>개시</td><td>○ Mn 광 장입<br/>○ COKE 장입<br/>○ Start:기준 S.L +1~2m</td><td>○감척중 미장입</td><td>○(포)4 고로 Mn 광:20 Ton<br/>Coke:150 Ton<br/>○(포)1 고로 Mn 광: 8 Ton<br/>Coke:100 Ton<br/>○(포)3 고로 Mn 광:20 Ton<br/>Coke:180 Ton</td></tr><tr><td>용용 완료<br/>시점 확인</td><td>○용선종 [Mn]<br/>상승으로 확인</td><td>○용선 Sample 간격:5 분</td><td></td></tr><tr><td>감척 중풍<br/>소요 시간</td><td>○약 15 시간</td><td></td><td>○(포)4 고로:14 시간 20 분<br/>○(포)1 고로:13 시간 40 분<br/>○(포)1 고로:14 시간 30 분</td></tr><tr><td>노정온도<br/>상승시 조치</td><td>○ Max: 350°C<br/>(노정살수장치 유용)</td><td>○ N2 취입<br/>○노정살수<br/>○감풍<br/>○Steam 취입</td><td>* 장입 B/C 에서 Coke 에 살수<br/>*V.S 분사수신설(주수냉각용)</td></tr><tr><td>조습 Cut</td><td>○ H2% 상승억제</td><td>○본감척 개시시점부터<br/>대기습분 조업</td><td></td></tr><tr><td>풍량 및<br/>노정압 조정</td><td>○노정압은 취발방지 및<br/>노내용용물의 최대배출을<br/>위해 가능한 높게 유지<br/>○풍량은 안전계수 2.5 이상<br/>S.F 곡선 적용</td><td>○휴풍 1 시간전까지<br/>노정압 일정수준이상<br/>유지</td><td>○(포)4 고로:2.10 kg/cm² 유지<br/>○(포)2 고로:1.30 kg/cm² 유지<br/>○(포)3 고로: 1.50 kg/cm² 유지</td></tr><tr><td>BFG Calorie<br/>제어</td><td>○ Gas Calorie<br/>Max 1,250 kcal/N m³</td><td>○ N2 취입<br/>○ steam 취입<br/>○감풍</td><td></td></tr><tr><td>BFG 성분<br/>분석</td><td>○ CO : 0~ 40%<br/>H2 : 0~ 15%<br/>N2 : 0~100%<br/>CO2: 0~ 30%</td><td>○ Gas Chro 연속분석<br/>○수동 분석 (O2 포함)<br/>(1회/30분~1시간)</td><td>○ CO, CO2, H2, O2<br/>분석(Gas Chro Range 변경)</td></tr><tr><td>휴풍후 조치</td><td>○노정 점화시까지 N2 취입<br/>하여 노내 점압(+) 유지</td><td></td><td></td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p005_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p005_table_01.png",
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 마. 감척, 중풍 조업 방침",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 5
+    },
+    {
+      "id": "TB_STR_003",
+      "placeholder": "{{TB_STR_003}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "구분: P3R1 | Coke 장입량 (Ton): 150 | 감척 Level: S.L 25.8m(풍구상 +0.4m) | 비고: ",
+        "구분: P1 R2 | Coke 장입량 (Ton): 100 | 감척 Level: S.L 23.8m(풍구상 +1.4m) | 비고: ",
+        "구분: P4 R1 | Coke 장입량 (Ton): 150 | 감척 Level: S.L 24.2m(풍구상 +2.0m) | 비고: ",
+        "구분: P2 R2 | Coke 장입량 (Ton): 130 | 감척 Level: S.L 23.8m(풍구상 +2.0m) | 비고: ",
+        "구분: P3 R2 | Coke 장입량 (Ton): 180 | 감척 Level: S.L 23.1m(풍구상 +3.1m) | 비고: "
+      ],
+      "table_html": "<table><thead><tr><th>구분</th><th>Coke 장입량 (Ton)</th><th>감척 Level</th><th>비고</th></tr></thead><tbody><tr><td>P3R1</td><td>150</td><td>S.L 25.8m<br/>(풍구상 +0.4m)</td><td></td></tr><tr><td>P1 R2</td><td>100</td><td>S.L 23.8m<br/>(풍구상 +1.4m)</td><td></td></tr><tr><td>P4 R1</td><td>150</td><td>S.L 24.2m<br/>(풍구상 +2.0m)</td><td></td></tr><tr><td>P2 R2</td><td>130</td><td>S.L 23.8m<br/>(풍구상 +2.0m)</td><td></td></tr><tr><td>P3 R2</td><td>180</td><td>S.L 23.1m<br/>(풍구상 +3.1m)</td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p007_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>Coke 장입량 (Ton)</th><th>감척 Level</th><th>비고</th></tr></thead><tbody><tr><td>P3R1</td><td>150</td><td>S.L 25.8m<br/>(풍구상 +0.4m)</td><td></td></tr><tr><td>P1 R2</td><td>100</td><td>S.L 23.8m<br/>(풍구상 +1.4m)</td><td></td></tr><tr><td>P4 R1</td><td>150</td><td>S.L 24.2m<br/>(풍구상 +2.0m)</td><td></td></tr><tr><td>P2 R2</td><td>130</td><td>S.L 23.8m<br/>(풍구상 +2.0m)</td><td></td></tr><tr><td>P3 R2</td><td>180</td><td>S.L 23.1m<br/>(풍구상 +3.1m)</td><td></td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p007_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p007_table_01.png",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.3 종풍용 Coke 량의 결정 / ▷ 타고로 종풍용 Coke 장입실적",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 7
+    },
+    {
+      "id": "TB_STR_004",
+      "placeholder": "{{TB_STR_004}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "Gas: H₂ | 하한CO₂ + O₂(%): 60 + 8 | 상한N₂ + O₂(%): 75 + 4.9 | 불활성 Gas 취입에 의한폭발방지 안전영역: N₂≥75% + O₂≤4.9%, CO₂≥60% + O₂≤8%",
+        "Gas: CO | 하한CO₂ + O₂(%): 52 + 10 | 상한N₂ + O₂(%): 70 + 5.6 | 불활성 Gas 취입에 의한폭발방지 안전영역: N₂≥70% + O₂≤5.6%, CO₂≥52% + O₂≤10%"
+      ],
+      "table_html": "<table><thead><tr><th>Gas</th><th>하한<br/>CO₂ + O₂(%)</th><th>상한<br/>N₂ + O₂(%)</th><th>불활성 Gas 취입에 의한<br/>폭발방지 안전영역</th></tr></thead><tbody><tr><td>H₂</td><td>60 + 8</td><td>75 + 4.9</td><td>N₂≥75% + O₂≤4.9%, CO₂≥60% + O₂≤8%</td></tr><tr><td>CO</td><td>52 + 10</td><td>70 + 5.6</td><td>N₂≥70% + O₂≤5.6%, CO₂≥52% + O₂≤10%</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>Gas</th><th>하한<br/>CO₂ + O₂(%)</th><th>상한<br/>N₂ + O₂(%)</th><th>불활성 Gas 취입에 의한<br/>폭발방지 안전영역</th></tr></thead><tbody><tr><td>H₂</td><td>60 + 8</td><td>75 + 4.9</td><td>N₂≥75% + O₂≤4.9%, CO₂≥60% + O₂≤8%</td></tr><tr><td>CO</td><td>52 + 10</td><td>70 + 5.6</td><td>N₂≥70% + O₂≤5.6%, CO₂≥52% + O₂≤10%</td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_01.png",
+      "section_path": "2 불활성 Gas 취입시 폭발한계",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 9
+    },
+    {
+      "id": "TB_STR_005",
+      "placeholder": "{{TB_STR_005}}",
+      "component_type": "table_structured",
+      "row_flatten": [
+        "시기: 감척조업 | 폭발범위: O₂ ≥ 5.6% | 관리기준: O₂ ≤ 2.0%노정온도 ≤ 350°C | 관리기준 초과시 조치: ① N2 취입② Steam 취입③ 감풍④ 살수 | 비고: • Gas 발화점- H₂ ≥ 500°C, CO ≥ 609°C• 감척개시 시점에서노정에 Steam, N₂Purge 실시• DC Steam, N₂ Purge 실시",
+        "시기: 종풍후Gas 치환 | 폭발범위: H₂ ≥ 4.0%CO ≥ 12.5% | 관리기준: H₂ ≤ 2.0%CO ≤ 4.0% | 관리기준 초과시 조치: - 자연정화 불가시 관리기준내에서Air Purge (착화 Burner 삽입) | 비고: "
+      ],
+      "table_html": "<table><thead><tr><th>시기</th><th>폭발범위</th><th>관리기준</th><th>관리기준 초과시 조치</th><th>비고</th></tr></thead><tbody><tr><td>감척조업</td><td>O₂ ≥ 5.6%</td><td>O₂ ≤ 2.0%<br/>노정온도 ≤ 350°C</td><td>① N2 취입<br/>② Steam 취입<br/>③ 감풍<br/>④ 살수</td><td>• Gas 발화점<br/>- H₂ ≥ 500°C, CO ≥ 609°C<br/>• 감척개시 시점에서<br/>노정에 Steam, N₂<br/>Purge 실시<br/>• DC Steam, N₂ Purge 실시</td></tr><tr><td>종풍후<br/>Gas 치환</td><td>H₂ ≥ 4.0%<br/>CO ≥ 12.5%</td><td>H₂ ≤ 2.0%<br/>CO ≤ 4.0%</td><td>- 자연정화 불가시 관리기준내에서<br/>Air Purge (착화 Burner 삽입)</td><td></td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p011_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>시기</th><th>폭발범위</th><th>관리기준</th><th>관리기준 초과시 조치</th><th>비고</th></tr></thead><tbody><tr><td>감척조업</td><td>O₂ ≥ 5.6%</td><td>O₂ ≤ 2.0%<br/>노정온도 ≤ 350°C</td><td>① N2 취입<br/>② Steam 취입<br/>③ 감풍<br/>④ 살수</td><td>• Gas 발화점<br/>- H₂ ≥ 500°C, CO ≥ 609°C<br/>• 감척개시 시점에서<br/>노정에 Steam, N₂<br/>Purge 실시<br/>• DC Steam, N₂ Purge 실시</td></tr><tr><td>종풍후<br/>Gas 치환</td><td>H₂ ≥ 4.0%<br/>CO ≥ 12.5%</td><td>H₂ ≤ 2.0%<br/>CO ≤ 4.0%</td><td>- 자연정화 불가시 관리기준내에서<br/>Air Purge (착화 Burner 삽입)</td><td></td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p011_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p011_table_01.png",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 라. 노내 Gas 폭발방지 관리기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 11
+    },
+    {
+      "id": "TB_UNSTR_001",
+      "placeholder": "{{TB_UNSTR_001}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th rowspan=\"2\">Gas</th><th colspan=\"2\">폭발한계</th><th rowspan=\"2\">범위(%)</th><th rowspan=\"2\">착화온도</th><th rowspan=\"2\">비고</th></tr><tr><th>하한(vol%)</th><th>상한(vol%)</th></tr></thead><tbody><tr><td>CO</td><td>12.5</td><td>75.4</td><td>62.9</td><td>647~658°C</td><td>상온,상압</td></tr><tr><td>H₂</td><td>4.15</td><td>75.0</td><td>70.85</td><td>580~590°C</td><td>대기중</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th rowspan=\"2\">Gas</th><th colspan=\"2\">폭발한계</th><th rowspan=\"2\">범위(%)</th><th rowspan=\"2\">착화온도</th><th rowspan=\"2\">비고</th></tr><tr><th>하한(vol%)</th><th>상한(vol%)</th></tr></thead><tbody><tr><td>CO</td><td>12.5</td><td>75.4</td><td>62.9</td><td>647~658°C</td><td>상온,상압</td></tr><tr><td>H₂</td><td>4.15</td><td>75.0</td><td>70.85</td><td>580~590°C</td><td>대기중</td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위 / 다. 대기(Air)중 폭발한계",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TB_UNSTR_002",
+      "placeholder": "{{TB_UNSTR_002}}",
+      "component_type": "table_unstructured",
+      "row_flatten": [],
+      "table_html": "<table><thead><tr><th>구분</th><th>설정치</th><th>P2R2</th><th>P4R1</th><th>P4 2 차 Spray</th><th>P4 3 차 Spray</th><th>P3R2</th></tr></thead><tbody><tr><td rowspan=\"2\">가연성</td><td>CO%</td><td>35</td><td>34.7</td><td>34.6</td><td>33.4</td><td>31.7</td><td>22.8 &lt; X &lt; 32.0</td></tr><tr><td>H₂%</td><td>12</td><td>11.2</td><td>11.8</td><td>10.9</td><td>11.6</td><td>&lt; 10%</td></tr><tr><td rowspan=\"2\">불활성</td><td>CO₂%</td><td>3</td><td>2.6</td><td>3.5</td><td>8.9</td><td>3.0</td><td>3</td></tr><tr><td>N₂%</td><td>51</td><td>55.5</td><td>54.4</td><td>56.1</td><td>55.0</td><td>51</td></tr><tr><td>지연성</td><td>O₂%</td><td>4.9</td><td>0.4</td><td>0.2</td><td>-</td><td>-</td><td>&lt; 0.5</td></tr></tbody></table>",
+      "snapshot_html": "<p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png\">Table snapshot</a></p>",
+      "context_html": "",
+      "full_html": "<table><thead><tr><th>구분</th><th>설정치</th><th>P2R2</th><th>P4R1</th><th>P4 2 차 Spray</th><th>P4 3 차 Spray</th><th>P3R2</th></tr></thead><tbody><tr><td rowspan=\"2\">가연성</td><td>CO%</td><td>35</td><td>34.7</td><td>34.6</td><td>33.4</td><td>31.7</td><td>22.8 &lt; X &lt; 32.0</td></tr><tr><td>H₂%</td><td>12</td><td>11.2</td><td>11.8</td><td>10.9</td><td>11.6</td><td>&lt; 10%</td></tr><tr><td rowspan=\"2\">불활성</td><td>CO₂%</td><td>3</td><td>2.6</td><td>3.5</td><td>8.9</td><td>3.0</td><td>3</td></tr><tr><td>N₂%</td><td>51</td><td>55.5</td><td>54.4</td><td>56.1</td><td>55.0</td><td>51</td></tr><tr><td>지연성</td><td>O₂%</td><td>4.9</td><td>0.4</td><td>0.2</td><td>-</td><td>-</td><td>&lt; 0.5</td></tr></tbody></table><p><a href=\"components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png\">Table snapshot</a></p>",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 가. 노정 Gas 성분설정: 감척중 가연성 Gas 량 최대, 불활성 Gas 량 최소전제",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 9
+    }
+  ],
+  "images_summary": [
+    {
+      "id": "IMG_SUM_001",
+      "placeholder": "{{IMG_SUM_001}}",
+      "component_type": "image_summary",
+      "description": "Graphs illustrating wind distribution and operational data (P3R3 actual results) over time (H+0 to H+18).The graphs are categorized by BV (Nm³/min), Master Micro (m), and CO/CO2 (Cross over).The legend indicates data series for BV: 포3 3차분리, 공기(16.12강척), 계척, 실척.The legend indicates data series for Master Micro: 포3 헬리고제, 공기(16.12강척), 계척, 실척.The legend indicates data series for CO/CO2: 실척(CO), 수동(CO), 실척(CO₂), 수동(CO₂).Annotations on the Master Micro graph include: 4-&gt;2번, Mater #2 수치, #4 정상화, 7번 미리작업-&gt;3번, 7번 3번, 4번 닫음, and 교정작업.Legend for CO/CO2 graph: 실척(CO), 수동(CO), 실척(CO₂), 수동(CO₂).Text below the graphs: 뒷 장 계속.",
+      "context_html": "",
+      "full_html": "<p>Graphs illustrating wind distribution and operational data (P3R3 actual results) over time (H+0 to H+18).</p><p>The graphs are categorized by BV (Nm³/min), Master Micro (m), and CO/CO2 (Cross over).</p><p>The legend indicates data series for BV: 포3 3차분리, 공기(16.12강척), 계척, 실척.</p><p>The legend indicates data series for Master Micro: 포3 헬리고제, 공기(16.12강척), 계척, 실척.</p><p>The legend indicates data series for CO/CO2: 실척(CO), 수동(CO), 실척(CO₂), 수동(CO₂).</p><p>Annotations on the Master Micro graph include: 4->2번, Mater #2 수치, #4 정상화, 7번 미리작업->3번, 7번 3번, 4번 닫음, and 교정작업.</p><p>Legend for CO/CO2 graph: 실척(CO), 수동(CO), 실척(CO₂), 수동(CO₂).</p><p>Text below the graphs: 뒷 장 계속.</p><img alt=\"Figure snippet\" src=\"components/d1cc4d2b316fdc1323b58142053b8107_8_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/d1cc4d2b316fdc1323b58142053b8107_8_img.webp",
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 2
+    },
+    {
+      "id": "IMG_SUM_002",
+      "placeholder": "{{IMG_SUM_002}}",
+      "component_type": "image_formula",
+      "description": "Mn 광중 Mn(%) × Mn 회수율",
+      "context_html": "",
+      "full_html": "<math display=\"block\">Mn 광중 Mn(%) × Mn 회수율</math><img alt=\"Equation-Block snippet\" src=\"components/507498540c4924447f2da22f1ae1416f_14_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_14_img.webp",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_SUM_003",
+      "placeholder": "{{IMG_SUM_003}}",
+      "component_type": "image_formula",
+      "description": "o 희석 용선량 &= (π · D²)/4 × H × P × 1/4 & D: 노상경 (13.2m)  &= (π · 13.2²)/4 × 3.5 × 6.8 × 1/4 & H: 출선구 Level-노저침식 Line  &= 814Ton & P: 용선 비중 (6.8)",
+      "context_html": "",
+      "full_html": "<math display=\"block\"> o 희석 용선량 &= (π · D²)/4 × H × P × 1/4 & D: 노상경 (13.2m)  &= (π · 13.2²)/4 × 3.5 × 6.8 × 1/4 & H: 출선구 Level-노저침식 Line  &= 814Ton & P: 용선 비중 (6.8) </math><img alt=\"Equation-Block snippet\" src=\"components/507498540c4924447f2da22f1ae1416f_15_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_15_img.webp",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_SUM_004",
+      "placeholder": "{{IMG_SUM_004}}",
+      "component_type": "image_formula",
+      "description": "◯ L = [(100)/(n1/N1 + n2/N2)] L:혼합 Gas 폭발 상(하)한 (%) N:성분 Gas 폭발 상(하)한 (%) n:혼합 Gas 용적비 (%)",
+      "context_html": "",
+      "full_html": "<math display=\"block\">◯ L = [(100)/(n1/N1 + n2/N2)]</math><p style=\"text-align: center;\">L:혼합 Gas 폭발 상(하)한 (%)<br/>N:성분 Gas 폭발 상(하)한 (%)<br/>n:혼합 Gas 용적비 (%)</p><img alt=\"Equation-Block snippet\" src=\"components/ee1680d16c1afa6abfb5516c6522bbe7_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_4_img.webp",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 나. 폭발범위 산정",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 10
+    },
+    {
+      "id": "IMG_SUM_005",
+      "placeholder": "{{IMG_SUM_005}}",
+      "component_type": "image_formula",
+      "description": "◯ 폭발 하한계 = 100/(86/32 + 15/20) = 29.1%",
+      "context_html": "",
+      "full_html": "<math display=\"block\">◯ 폭발 하한계 = 100/(86/32 + 15/20) = 29.1%</math><img alt=\"Equation-Block snippet\" src=\"components/ee1680d16c1afa6abfb5516c6522bbe7_5_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_5_img.webp",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 나. 폭발범위 산정",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 10
+    },
+    {
+      "id": "IMG_SUM_006",
+      "placeholder": "{{IMG_SUM_006}}",
+      "component_type": "image_formula",
+      "description": "◯ 폭발 상한계 = 100/(86/76 + 15/66) = 73.5%",
+      "context_html": "",
+      "full_html": "<math display=\"block\">◯ 폭발 상한계 = 100/(86/76 + 15/66) = 73.5%</math><img alt=\"Equation-Block snippet\" src=\"components/ee1680d16c1afa6abfb5516c6522bbe7_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_6_img.webp",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 나. 폭발범위 산정",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 10
+    }
+  ],
+  "images_translation": [
+    {
+      "id": "IMG_TR_001",
+      "placeholder": "{{IMG_TR_001}}",
+      "component_type": "image_trans",
+      "description": "Diagram showing the geometry of the furnace cross-section. Key dimensions include 6.15m (horizontal distance), 10 degrees (angle), and H 3.5 (vertical height). The diagram also indicates the location of the 노저 침식 Line (Lower Erosion Line).",
+      "context_html": "",
+      "full_html": "<img alt=\"Diagram showing the geometry of the furnace cross-section. Key dimensions include 6.15m (horizontal distance), 10 degrees (angle), and H 3.5 (vertical height). The diagram also indicates the location of the 노저 침식 Line (Lower Erosion Line).\" src=\"components/507498540c4924447f2da22f1ae1416f_16_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_16_img.webp",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "IMG_TR_002",
+      "placeholder": "{{IMG_TR_002}}",
+      "component_type": "image_trans",
+      "description": "Two graphs showing the explosive limits (lower and upper flammability limits) for H2 Gas (Left) and CO Gas (Right). The X-axis represents N2, CO2 (%). The Left graph shows H2 (%) vs O2 (%), with the flammable zone bounded by 4.0% (Lower Limit) and 75.5% (Upper Limit). The Right graph shows CO (%) vs O2 (%), with the flammable zone bounded by 12.5% (Lower Limit) and 75.4% (Upper Limit).",
+      "context_html": "",
+      "full_html": "<img alt=\"Two graphs showing the explosive limits (lower and upper flammability limits) for H2 Gas (Left) and CO Gas (Right). The X-axis represents N2, CO2 (%). The Left graph shows H2 (%) vs O2 (%), with the flammable zone bounded by 4.0% (Lower Limit) and 75.5% (Upper Limit). The Right graph shows CO (%) vs O2 (%), with the flammable zone bounded by 12.5% (Lower Limit) and 75.4% (Upper Limit).\" src=\"components/3fb68fb49b7e89503671951a1c0e1484_6_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/3fb68fb49b7e89503671951a1c0e1484_6_img.webp",
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 8
+    },
+    {
+      "id": "IMG_TR_003",
+      "placeholder": "{{IMG_TR_003}}",
+      "component_type": "image_trans",
+      "description": "Graph showing the explosive limits of H2 and CO mixtures with varying ratios of Inert Gas (불활성 Gas) to Combustible Gas (가연성 Gas). The Y-axis is the percentage of Inert Gas (%), and the X-axis is the percentage of Combustible Gas (%). The graph displays three curves: H2 + CO2, CO + N2, and H2 + N2, indicating the lower and upper flammability limits.",
+      "context_html": "",
+      "full_html": "<img alt=\"Graph showing the explosive limits of H2 and CO mixtures with varying ratios of Inert Gas (불활성 Gas) to Combustible Gas (가연성 Gas). The Y-axis is the percentage of Inert Gas (%), and the X-axis is the percentage of Combustible Gas (%). The graph displays three curves: H2 + CO2, CO + N2, and H2 + N2, indicating the lower and upper flammability limits.\" src=\"components/79be2c02e14e236ca6dfb04b2152842f_4_img.webp\"/>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/79be2c02e14e236ca6dfb04b2152842f_4_img.webp",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 마. 불활성/가연성 비에 따른 혼합 Gas 폭발(상,하한 용적율)범위(혼합 Gas=불활성 Gas+가연성 Gas, 나머지 용적은 O₂)",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 9
+    },
+    {
+      "id": "IMG_TR_004",
+      "placeholder": "{{IMG_TR_004}}",
+      "component_type": "image_trans",
+      "description": "A triangular diagram showing the composition of BFG (Blow Furnace Gas) relative to Air, CO, and H2. The vertices are labeled Air, CO (%), and H2 (%). The sides are labeled O2 (%). The triangle is divided into regions: BFG (top), 폭발범위 (red middle), and 감척조기 (bottom). Lines indicate the limits for 감척말기 (9.0% O2, 25.57% CO, 7.85% H2), 감척중기 (4.0% O2, 11.0% CO, 2.0% H2), and 감척초기 (5.6% O2, 3.0% CO, 2.0% H2). A note indicates the operating limit: 감척 조업중 관리범위 → O2 ≤ 2.0%.",
+      "context_html": "",
+      "full_html": "<table border=\"1\" style=\"width: 100%; border-collapse: collapse;\"><thead><tr><th rowspan=\"2\">구분</th><th colspan=\"3\">Gas 조성 (%)</th><th rowspan=\"2\">비고</th></tr><tr><th>H2</th><th>O2</th><th>CO</th></tr></thead><tbody><tr><td>초기</td><td>3.0~<br/>4.0</td><td>0.2</td><td>23~<br/>35</td><td>S.L 4~20m<br/>괴상대소멸</td></tr><tr><td>중기</td><td>4.0~<br/>9.0</td><td>0.4</td><td>35~<br/>30</td><td>S.L<br/>20~22m<br/>용착대소멸</td></tr><tr><td>말기</td><td>9.0~<br/>11.2</td><td>0.1</td><td>30~<br/>28</td><td>S.L<br/>22~24.5m<br/>Coke 공연소</td></tr></tbody></table><p><img alt=\"A triangular diagram showing the composition of BFG (Blow Furnace Gas) relative to Air, CO, and H2. The vertices are labeled Air, CO (%), and H2 (%). The sides are labeled O2 (%). The triangle is divided into regions: BFG (top), 폭발범위 (red middle), and 감척조기 (bottom). Lines indicate the limits for 감척말기 (9.0% O2, 25.57% CO, 7.85% H2), 감척중기 (4.0% O2, 11.0% CO, 2.0% H2), and 감척초기 (5.6% O2, 3.0% CO, 2.0% H2). A note indicates the operating limit: 감척 조업중 관리범위 → O2 ≤ 2.0%.\" src=\"components/ee1680d16c1afa6abfb5516c6522bbe7_9_img.webp\"/></p>\n",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_9_img.webp",
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 다. 감척조업시 조업범위",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 10
+    }
+  ],
+  "texts": [
+    {
+      "id": "TEXT_001",
+      "component_type": "text",
+      "text": "# 1. 적용범위\n고로의 개수 및 보수에 앞서서 고로조업을 종료시키는 최종 휴풍조업 과정인 감척, 중풍조업에 대하여 적용한다.",
+      "placeholders": {},
+      "section_path": "1. 적용범위",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_002",
+      "component_type": "text",
+      "text": "# 2. 목적\n● 냉각물량의 감소 및 냉각 소요시간의 단축\n● 제거물량의 감소로 해체, 운반비용 및 소요시간의 단축\n● 중풍조업용 COKE 사용량의 감소.",
+      "placeholders": {},
+      "section_path": "2. 목적",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_003",
+      "component_type": "text",
+      "text": "# 3. 중점관리 항목 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "3. 중점관리 항목 : 해당사항 없음",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_004",
+      "component_type": "text",
+      "text": "# 4. 조업 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_005",
+      "component_type": "text",
+      "text": "## 4.1 조업관리 기준",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_006",
+      "component_type": "text",
+      "text": "### 4.1.1 사전 감척조업\n\n#### 가. 사전 감척조업 목적\n감척조업 개시전 사전에 Stock Level 저하를 통한 감척시간을 단축하고, 감척조업 기간중에 노정온도의 상승을 최대한 방지하여 살수최소화를 목적으로 한다\n\n##### 나. 사전감척 기준\n사전감척은 본감척 개시전 2~3 시간전에 실시하며, 사전에 장입시간의 조정을 통해 Stock Level을 관리하고 사전감척 범위는 S.L 3.0~7.0 m 이내에서 실시한다.\n\n사전감척시의 송풍조건은 정상조업시와 동일하게 설정하고, 감척조업시 노내에서 일어날 수 있는 폭발사고를 방지하기 위하여 노내 Purge를 병행하여 실시하고, 노정온도 상승을 방지하기 위하여 간헐적으로 장입을 실시하며 노정살수를 최대한 지양한다",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.1 사전 감척조업 / 가. 사전 감척조업 목적 / 나. 사전감척 기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_007",
+      "component_type": "text",
+      "text": "### 4.1.2 사전휴풍 작업\n\n#### 가. 사전휴풍작업의 목적\n사전휴풍은 본감척조업중에 발생할 수 있는 노내침수에 대한 가능성을 사전에 방지하기 위하여 냉각반, 풍구 등 침수관련 설비의 안전성 확인을 위하여 실시한다. 감척조업시 감척조업을 대비하기 위한 별도의 휴풍이며, 사전에 모든 작업이 완료시는 생략할 수 있다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.2 사전휴풍 작업 / 가. 사전휴풍작업의 목적",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 1
+    },
+    {
+      "id": "TEXT_008",
+      "component_type": "text",
+      "text": "#### 나. 사전휴풍 기준\n사전휴풍 시간은 작업량에 따라서 결정 되어지며 휴풍기준에 의거하여 열보상을 실시한다.\n\n또한, 강척조업을 대비한 노체점검을 위하여 Stock Level 을 5~10m 저하시킨다.",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.2 사전휴풍 작업 / 나. 사전휴풍 기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_009",
+      "component_type": "text",
+      "text": "### 4.1.3 분감척 조업\n\n#### 가. 강척조업중 한계압순 관리\n강척조업중 노내 장입물 Level 저하에 따른 생바람 발생을 적극적으로 억제하기 위하여 노정압은 가능한한 강척말기까지 최대한 유지하며, 풍량분배도 S.L 저하에 따라 노내장입물 유동화 방지를 위한 최소유동화 풍량이하에서 관리를 기본으로 한다. 포항고로의 생바람방지를 위한 한계압순 관리는 생바람안전계수(K=장입물 중량/노내압순×평균단면적)의 2~3 배를 만족하는 범위에서 결정된다. 특히, S.L 18.0m 이상 강척시에는 강척말기 주요 조업관리 지표로서 한계압순관리에 유의해야 한다.\n\n○ 풍량 분배 Graph (P3R3 실적)\n\n{{IMG_SUM_001}}",
+      "placeholders": {
+        "IMG_SUM_001": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/d1cc4d2b316fdc1323b58142053b8107_8_img.webp"
+      },
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 가. 강척조업중 한계압순 관리",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 2
+    },
+    {
+      "id": "TEXT_010",
+      "component_type": "text",
+      "text": "#### 나. 강철조업중 장입물 Level 판단 방법\n\n{{TB_STR_001}}",
+      "placeholders": {
+        "TB_STR_001": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p003_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 나. 강철조업중 장입물 Level 판단 방법",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 3
+    },
+    {
+      "id": "TEXT_011",
+      "component_type": "text",
+      "text": "● 심차 Sounding 강하에 의한 목표 Level 도달상태 측정\n● 최종 감광분의 마지막 Charge 에 TiO2 광이나 Mn 광을 장입하여 감척말기 용선 및 Slag 성분 변화 조사.\n\n#### 라. 본감척조업시 주요 고려사항\n1. 본감척은 감척 Level 에 따라 작업시간이 다르며 통상 휴풍전 3~15 시간전에 실시한다\n2. 감척조업 기간중 노정온도 상승방지를 위하여 살수를 실시하면서 본감광 장입물량을 적정하게 배분하여 장입을 병행하면서 감척조업을 수행한다\n3. 감척조업시의 풍량배분은 Coke 연소속도를 사전에 계산하여 적용시키고 장입물 중량과 송풍량을 고려한 최소 유동화곡선 범위 내에서 실시한다\n4. Coke 연소속도 향상을 위하여 미분탄은 감척조업 시작과 동시에 Cut 하고 산소는 풍량의 80%전후 혹은 휴풍 1 시간 30 분전까지 취입한다\n5. 감척조업시 감척 Level 측정을 위하여 심차 Sounding 을 최소 30 분 주기로 측정한다\n6. 감척조업시 노정 Gas 분석을 위하여 Up Take 상에 Gas 채취용 Nipple 을 만들어서 30 분~1 시간 주기로 Sample 을 채취하여 수동분석하고 Gas Chro 를 통한 자동분석도 병행실시한다\n7. 감척기간중 폭발방지를 위하여 노정 Steam Purge Line 을 이용하여 Steam Purge 작업을 실시하고 노체의 N2 Purge Line 을 이용하여 N2 Purge 를 지속적으로 실시한다. -산소는 2.0%이하, 노정온도는 H2,CO Gas 의 발화점 이하인 400℃ 이하로 관리한다",
+      "placeholders": {},
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 라. 본감척조업시 주요 고려사항",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 4
+    },
+    {
+      "id": "TEXT_012",
+      "component_type": "text",
+      "text": "#### 마. 감척, 중풍 조업 방침\n\n{{TB_STR_002}}",
+      "placeholders": {
+        "TB_STR_002": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p005_table_01.png"
+      },
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 마. 감척, 중풍 조업 방침",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 5
+    },
+    {
+      "id": "TEXT_013",
+      "component_type": "text",
+      "text": "# 5. 이상판단 및 조치기준 : 해당사항 없음",
+      "placeholders": {},
+      "section_path": "5. 이상판단 및 조치기준 : 해당사항 없음",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_014",
+      "component_type": "text",
+      "text": "# 6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산)",
+      "placeholders": {},
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산)",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_015",
+      "component_type": "text",
+      "text": "## 6.1 감척시 장입물량의 결정 (예:P3R2)",
+      "placeholders": {},
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2)",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_016",
+      "component_type": "text",
+      "text": "### 6.1.1 고로 내용적 추정 (예:P3R2)\n\n#### 가. 측정기준: 가장 최근 S.D 시 노체 Boring 에 의한 내용적 측정실적 적용\n\n#### 나. 연와 침식으로 형성된 예상직경: 각 부위에서의 직경 + (연와 침식 깊이×2)\n○ 포항 2 고로 내용적 확대 실적 (내용적 확대율: 9.7%)\n\n·S.L 0 ~ 26.2m (풍구 중심선)까지의 내용적(침식 미고려): 3,220 m³\n\n·S.L 0 ~ 26.2m (풍구 중심선)까지의 내용적(침식 고려): 3,533 m³",
+      "placeholders": {},
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.1 고로 내용적 추정 (예:P3R2) / 나. 연와 침식으로 형성된 예상직경: 각 부위에서의 직경 + (연와 침식 깊이×2)",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_017",
+      "component_type": "text",
+      "text": "### 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.\n\n#### 가. 전제 조건: 선종 [Mn]% 목표: 1.0% (정상 조업의 4배, '04년 실적 기준)\n: Mn 회수율 : 0.8\n\n#### 나. Mn 소요량: (목표 [Mn]% - 평상 조업시 [Mn]% ) × 희석 용선량\n\n{{IMG_SUM_002}}\n\n{{IMG_SUM_003}}\n\n{{IMG_TR_001}}",
+      "placeholders": {
+        "IMG_SUM_002": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_14_img.webp",
+        "IMG_SUM_003": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_15_img.webp",
+        "IMG_TR_001": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_16_img.webp"
+      },
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인. / 나. Mn 소요량: (목표 [Mn]% - 평상 조업시 [Mn]% ) × 희석 용선량",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 6
+    },
+    {
+      "id": "TEXT_018",
+      "component_type": "text",
+      "text": "### 6.1.3 종풍용 Coke 량의 결정\n\n#### 가. 종풍용 Coke 장입목적\n종풍 완료시점에서 노내의 모든 철광석은 물론 탈락된 노벽 부착물 등을 완전 배출시킬 목적으로 최종 장입분을 COKE로 하여 노내에 Coke 만 남게 할 목적으로 장입한다. 공연소 시키는 Coke(30 Ton)와 연소 후에도 풍구상부 +2.0m 지점까지 남아있는 감척용 Coke를 장입한다\n\n#### ▷ 타고로 종풍용 Coke 장입실적\n\n{{TB_STR_003}}",
+      "placeholders": {
+        "TB_STR_003": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p007_table_01.png"
+      },
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.3 종풍용 Coke 량의 결정 / ▷ 타고로 종풍용 Coke 장입실적",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_019",
+      "component_type": "text",
+      "text": "### 6.1.4 소요풍량 검토 (예:P3R2)\n● Coke 연소속도 : 2,390Nm³ (O/C 3.0 에서의 조업실적 : P4R1 실적) 4,743Nm³ (이론식: 공연소 Coke 연소속도, 포항 3고로 Gas 조성)\n● 노내 Coke 량 (O/C 3.0: S.L 4 ~ 21.2m [Coke 안식각 30°적용]) 3,126m³ ÷ 96.9m³/Ch(1Charge 당 노내 장입물 부피) × 30Ton/Ch(Coke base) = 971 Ton\n● 공연소 Coke 량: 100 Ton 종풍용 Coke 장입량중 감척용 Coke 100Ton(S.L 21.2~26.2m)을 제외한 잔량\n  ● 종풍용 Coke 장입량중 감척용 Coke 100Ton(S.L 21.2~26.2m)을 제외한 잔량\n● 총 소요풍량: (971 × 2,390) + (100 × 4,734) = 2,794,990Nm³",
+      "placeholders": {},
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.4 소요풍량 검토 (예:P3R2)",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 7
+    },
+    {
+      "id": "TEXT_020",
+      "component_type": "text",
+      "text": "## 6.2 Gas 폭발 방지",
+      "placeholders": {},
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_021",
+      "component_type": "text",
+      "text": "### 6.2.1 Gas 폭발 범위\n\n#### 가. 전제조건\n● 공기중 상온,상압하에서 폭발범위 추정\n● 용기내 Air 분위기속에서 가연성 및 불활성 Gas 단계적 취입\n● 가연성+불활성 Gas 체적을 제외한 나머지는 Air 용적임\n\n#### 나. Gas 폭발범위\n\n{{IMG_TR_002}}\n● 온도가 상승하면 폭발범위는 대폭 넓어짐.\n● 압력이 상승하면 폭발범위는 전반적으로 소폭 넓어지나, 대기압~ 5atm 까지는 다소 좁아짐.\n\n#### 다. 대기(Air)중 폭발한계\n\n{{TB_UNSTR_001}}",
+      "placeholders": {
+        "IMG_TR_002": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/3fb68fb49b7e89503671951a1c0e1484_6_img.webp",
+        "TB_UNSTR_001": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png"
+      },
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위 / 다. 대기(Air)중 폭발한계",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 8
+    },
+    {
+      "id": "TEXT_022",
+      "component_type": "text",
+      "text": "# 2 불활성 Gas 취입시 폭발한계\n\n{{TB_STR_004}}\n\n## 마. 불활성/가연성 비에 따른 혼합 Gas 폭발(상,하한 용적율)범위(혼합 Gas=불활성 Gas+가연성 Gas, 나머지 용적은 O₂)\n\n{{IMG_TR_003}}\n6.2.2 감척중 노정 Gas 폭발범위\n\n## 가. 노정 Gas 성분설정: 감척중 가연성 Gas 량 최대, 불활성 Gas 량 최소전제\n\n{{TB_UNSTR_002}}",
+      "placeholders": {
+        "TB_STR_004": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_01.png",
+        "IMG_TR_003": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/79be2c02e14e236ca6dfb04b2152842f_4_img.webp",
+        "TB_UNSTR_002": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png"
+      },
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 가. 노정 Gas 성분설정: 감척중 가연성 Gas 량 최대, 불활성 Gas 량 최소전제",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 9
+    },
+    {
+      "id": "TEXT_023",
+      "component_type": "text",
+      "text": "## 나. 폭발범위 산정\n(1) 노정 Gas 성분중 불활성/가연성의 비에 따른 폭발 상,하한계 용적비 도출 ◯ N₂/CO = 51%/35% = 1.5 → (N₂+CO) Gas 용적비 = 하한 32% ~ 상한 76% ◯ CO₂/H₂ = 12%/3% = 4 → (CO₂+H₂) Gas 용적비 = 하한 20% ~ 상한 66%\n\n(2) 루샤테리어(Le' Chaterier)식에 의한 혼합 Gas 의 폭발 상,하한계 도출\n\n{{IMG_SUM_004}}\n\n{{IMG_SUM_005}}\n\n{{IMG_SUM_006}}\n(3) H₂의 하한 = 29.1% × 12%/100 = 3.53%, 상한 = 71.8% × 12%/100 = 8.62% CO의 하한 = 29.1% × 35%/100\n\n## 다. 감척조업시 조업범위\n\n{{IMG_TR_004}}",
+      "placeholders": {
+        "IMG_SUM_004": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_4_img.webp",
+        "IMG_SUM_005": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_5_img.webp",
+        "IMG_SUM_006": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_6_img.webp",
+        "IMG_TR_004": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_9_img.webp"
+      },
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 다. 감척조업시 조업범위",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 10
+    },
+    {
+      "id": "TEXT_024",
+      "component_type": "text",
+      "text": "## 라. 노내 Gas 폭발방지 관리기준\n\n{{TB_STR_005}}",
+      "placeholders": {
+        "TB_STR_005": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p011_table_01.png"
+      },
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 라. 노내 Gas 폭발방지 관리기준",
+      "filename": "감척,종풍 조업기술 기준",
+      "page": 11
+    }
+  ]
+}
