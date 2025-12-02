@@ -60,6 +60,35 @@ def convert_fracs(text: str) -> tuple[str, int]:
             idx += 1
     return "".join(out), replaced
 
+
+def convert_sqrt(text: str) -> tuple[str, int]:
+    """중첩된 \\sqrt{...}을 √(...) 형태로 변환한다."""
+    out: list[str] = []
+    idx = 0
+    replaced = 0
+    while idx < len(text):
+        if text.startswith(r"\sqrt", idx):
+            inner, next_idx = _extract_braced(text, idx + 5)
+            if inner is None:
+                out.append(text[idx])
+                idx += 1
+                continue
+            inner_conv, inner_repl = convert_sqrt(inner)
+            out.append(f"√({inner_conv})")
+            replaced += 1 + inner_repl
+            idx = next_idx
+        else:
+            out.append(text[idx])
+            idx += 1
+    return "".join(out), replaced
+
+
+def apply_minor_fixes(text: str) -> str:
+    """자잘한 문자열 보정 전용 함수."""
+    # \gammaCO 오탈자 → ηCO
+    text = text.replace(r"\gammaCO", "ηCO")
+    return text
+
 # 키-값 매핑(LaTeX 표현 -> 유니코드/플레인텍스트)
 # 1차: 섭씨/그리스/수학 기호
 PRIMARY_MAP = [
@@ -97,6 +126,8 @@ PRIMARY_MAP = [
     (r"\\%", "%"),
     (r"\\times", "×"),
     (r"times", "×"),
+    (r"\\text\\{\\textbraceleft\\}", "{"),
+    (r"\\text\\{\\textbraceright\\}", "}"),
     (r"\\cdot", "·"),
     (r"\\dots", "…"),
     (r"\\le(?!ft)", "≤"),  # \left 보호
@@ -181,7 +212,10 @@ SECONDARY_MAP = [
 
 INLINE_MATH_RE = re.compile(r"(<math(?![^>]*display=\"block\")[^>]*>)(.*?)(</math>)", re.IGNORECASE | re.DOTALL)
 BLOCK_MATH_RE = re.compile(r"(<math[^>]*display=\"block\"[^>]*>)(.*?)(</math>)", re.IGNORECASE | re.DOTALL)
+INLINE_OR_BLOCK_RE = re.compile(r"(<math[^>]*>)(.*?)(</math>)", re.IGNORECASE | re.DOTALL)
 
+DEFAULT_TARGET = Path("output/chandra")
+DEFAULT_OUTPUT = Path("output/sanitize")
 
 def normalize_math_text(text: str) -> Tuple[str, int]:
     """1차(섭씨/그리스/수학) 후 2차(화학식/단위) 순서로 변환한다."""
@@ -259,14 +293,9 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
         )
         total += n
         
-    # \sqrt{...} → √(...)
-    def sqrt_repl(match: re.Match[str]) -> str:
-        nonlocal total
-        inner = match.group(1).strip()
-        total += 1
-        return f"√({inner})"
-
-    text = SQRT_RE.sub(sqrt_repl, text)
+    # \sqrt 처리 (중첩 포함)
+    text, sqrt_repl_count = convert_sqrt(text)
+    total += sqrt_repl_count
 
     # \left / \right 제거 (구분자는 그대로 둠)
     text = re.sub(r"\\left\s*", "", text)
@@ -286,10 +315,42 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
 
     text = re.sub(r"\\?text\s*\{\s*(.*?)\s*\}", strip_text, text)
     text = re.sub(r"\bext\s*\{\s*(.*?)\s*\}", strip_text, text)
-
     # \boxed{...}, \underlined{...} 제거 (내용만 남기고 양쪽 공백 제거)
     text = re.sub(r"\\boxed\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
     text = re.sub(r"\\underlined\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+
+    # final mandatory cleanups (order-sensitive)
+    # 1) residual \frac -> [()/()] (catch any new ones)
+    text, frac_repl_tail = convert_fracs(text)
+    total += frac_repl_tail
+    # 2) tabs 제거
+    text = text.replace("\t", "")
+    # 3) \begin{aligned} 제거/ \end{aligned}, \begin{array}{l} 제거/ \end{array} 제거
+    text = text.replace(r"\begin{aligned}", "")
+    text = text.replace(r"\begin{array}{l}", "")
+    text = re.sub(r"\\end.*", "", text)
+    # 4) 남은 \\ 제거 (붙어있는 경우 포함) + \\bulet 등 제거
+    text = re.sub(r"\\\\bulet", "", text)
+    text = re.sub(r"\\\\", "", text)
+    # 5) &amp; 제거
+    text = text.replace("&amp;", "")
+    # 6) h₂ -> H₂
+    text = text.replace("h₂", "H₂")
+    # 7) ^\to C 변형 -> ℃ (섭씨 기호) (whitespace 허용)
+    text = re.sub(r"\s*\^\s*\\?to\s*C", "℃", text, flags=re.IGNORECASE)
+    # 8) stray times/imes -> × (tab/escape 제거 후 깨진 경우 보정)
+    text = re.sub(r"(?<![A-Za-z])times(?![A-Za-z])", "×", text)
+    text = re.sub(r"(?<![A-Za-z])imes(?![A-Za-z])", "×", text)
+    # 9) 기타 소규모 오탈자 보정
+    text = apply_minor_fixes(text)
+    # 10) '\\ <<' 같은 패턴 제거 및 리터럴 '\n' 제거
+    text = re.sub(r"\\\s*<<", "", text)
+    text = text.replace(r"\n", "")
+    # 11) <begin{aligned}foo></begin{aligned}foo> → foo (태그 래핑 제거)
+    text = re.sub(r"<begin\{aligned\}([^<>]+)></begin\{aligned\}\1>", r"\1", text, flags=re.IGNORECASE)
+    # 12) 남은 역슬래시 전부 제거 (단독/붙어있는 경우 포함)
+    text = text.replace("\\bullet", "")
+    text = text.replace("\\", "")
     
     return text, total
 
@@ -334,19 +395,31 @@ def process_headings(content: str) -> Tuple[str, dict]:
     """
     return content, {"headings": []}
 
+def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
+    """단일 파일을 정규화하고 _rule_sanitized.md로 저장한다."""
+    text = path.read_text(encoding="utf-8")
+    text, _ = process_inline_math(text)
+    text, _ = process_block_math(text)
+    text, _ = process_headings(text)
+
+    rel = path.relative_to(target_dir)
+    dest = out_dir / rel.parent / f"{rel.stem}_rule_sanitized{rel.suffix}"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(text, encoding="utf-8")
+    return dest
+
+
+def sanitize_directory(target_dir: Path = DEFAULT_TARGET, out_dir: Path = DEFAULT_OUTPUT) -> None:
+    """target_dir의 모든 md를 정규화하여 out_dir에 저장한다."""
+    if not target_dir.exists():
+        return
+    for md_path in sorted(target_dir.rglob("*.md")):
+        sanitize_file(md_path, target_dir, out_dir)
 
 def main() -> None:
-    """예시 실행 흐름."""
-    sample_path = Path("output/chandra/example.md")
-    if not sample_path.exists():
-        return
-    text = sample_path.read_text(encoding="utf-8")
-    text, meta_inline = process_inline_math(text)
-    text, meta_block = process_block_math(text)
-    text, meta_headings = process_headings(text)
-    sample_path.write_text(text, encoding="utf-8")
-    print("done", meta_inline, meta_block, meta_headings)
-
+    """기본 target 디렉터리를 정규화하여 sanitize 폴더에 저장."""
+    sanitize_directory()
+    print(f"sanitized markdown written under {DEFAULT_OUTPUT}")
 
 if __name__ == "__main__":
     main()
