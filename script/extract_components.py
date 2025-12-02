@@ -753,6 +753,7 @@ def main() -> None:
         print("[WARN] No Markdown files found.")
         return
     for md_path in targets:
+        md_path = md_path.resolve()
         if md_path.is_dir():
             continue
         process_file(md_path)

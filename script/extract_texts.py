@@ -138,9 +138,9 @@ def build_component_map(comp_data: dict) -> dict:
     return mapping
 
 
-def chunk_by_heading(text: str, max_level: int) -> list[dict]:
-    """헤딩 레벨을 기준으로 텍스트 청크를 나눈다."""
-    chunks = []
+def chunk_by_numeric_heading(text: str) -> list[dict]:
+    """숫자 헤딩(예: 4., 4.5, 6.7.2) 등장 시점을 경계로 청크를 나눈다."""
+    chunks: list[dict] = []
     current: list[str] = []
     section_stack: list[str] = []
     current_page = None
@@ -176,12 +176,12 @@ def chunk_by_heading(text: str, max_level: int) -> list[dict]:
         if hmatch:
             level = len(hmatch.group(1))
             title = hmatch.group(2).strip()
-            if level <= max_level:
+            # 숫자 헤딩(예: 1., 4.5, 6.7.2)일 때만 새 청크 시작
+            if re.match(r"^\d+(?:\.\d+)*", title):
                 push_chunk()
-                # update stack
-                while len(section_stack) >= level:
-                    section_stack.pop()
-                section_stack.append(title)
+            while len(section_stack) >= level:
+                section_stack.pop()
+            section_stack.append(title)
             current.append(line)
             continue
         current.append(line)
@@ -189,14 +189,14 @@ def chunk_by_heading(text: str, max_level: int) -> list[dict]:
     return chunks
 
 
-def build_text_component(chunk: dict, idx: int, component_type: str, component_map: dict) -> dict:
+def build_text_component(chunk: dict, idx: int, component_map: dict) -> dict:
     placeholders = {}
     for m in PLACEHOLDER_RE.finditer(chunk.get("text", "")):
         pid = m.group(1)
         placeholders[pid] = component_map.get(pid, "")
     return {
         "id": f"TEXT_{idx:03d}",
-        "component_type": component_type,
+        "component_type": "text",
         "text": chunk.get("text", ""),
         "placeholders": placeholders,
         "section_path": chunk.get("section_path") or "",
@@ -205,7 +205,7 @@ def build_text_component(chunk: dict, idx: int, component_type: str, component_m
     }
 
 
-def append_text_components(clean_path: Path, chunk_level: int, chunk_method: str) -> None:
+def append_text_components(clean_path: Path) -> None:
     comp_path = clean_path.parent / "components.json"
     if not comp_path.exists():
         comp_data = {}
@@ -214,23 +214,23 @@ def append_text_components(clean_path: Path, chunk_level: int, chunk_method: str
 
     component_map = build_component_map(comp_data)
     text = clean_path.read_text(encoding="utf-8")
-    chunks = chunk_by_heading(text, max_level=chunk_level)
+    chunks = chunk_by_numeric_heading(text)
     texts: list[dict] = []
     for idx, chunk in enumerate(chunks, 1):
-        texts.append(build_text_component(chunk, idx, component_type=chunk_method, component_map=component_map))
+        texts.append(build_text_component(chunk, idx, component_map=component_map))
 
     comp_data["texts"] = texts
     comp_path.write_text(json.dumps(comp_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def process_file(path: Path, chunk_level: int, chunk_method: str) -> None:
+def process_file(path: Path) -> None:
     content = path.read_text(encoding="utf-8")
     cleaned = clean_html_to_text(content)
     cleaned = remove_skip_markers(cleaned)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
     out_path = path.with_name(path.name.replace(TARGET_SUFFIX, OUTPUT_SUFFIX))
     out_path.write_text(cleaned + ("\n" if cleaned else ""), encoding="utf-8")
-    append_text_components(out_path, chunk_level=chunk_level, chunk_method=chunk_method)
+    append_text_components(out_path)
     print(f"[INFO] Wrote {out_path} and updated components.json")
 
 
@@ -238,8 +238,6 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Extract plain text from *_placeholders.md.")
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="sanitize 루트 (기본: output/sanitize)")
     parser.add_argument("--files", nargs="*", type=Path, help="특정 *_placeholders.md만 처리")
-    parser.add_argument("--chunk-level", type=int, default=5, help="헤딩 기반 청크 최대 레벨 (기본 5)")
-    parser.add_argument("--chunk-method", default="chunk_level5", help="텍스트 component_type 라벨 (기본: chunk_level5)")
     args = parser.parse_args()
 
     targets = args.files if args.files else list(iter_target_files(args.root))
@@ -249,7 +247,7 @@ def main() -> None:
     for path in targets:
         if path.is_dir():
             continue
-        process_file(path, chunk_level=args.chunk_level, chunk_method=args.chunk_method)
+        process_file(path)
 
 
 if __name__ == "__main__":
