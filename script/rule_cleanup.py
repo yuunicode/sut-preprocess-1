@@ -21,6 +21,16 @@ TOP_LEVEL_TITLES = [
     "6. 기술이론",
 ]
 TOP_LEVEL_TITLES_NORM = [re.sub(r"\s+", "", t) for t in TOP_LEVEL_TITLES]
+# 점(.)/공백이 빠진 변형도 허용
+TOP_LEVEL_TITLES_DOTLESS = [re.sub(r"[.\s]+", "", t) for t in TOP_LEVEL_TITLES]
+# 특수 오타/변형 허용:
+# - "3.증정 관리항목" (030-070-010 장입물 분포제어 오타)
+# - "4.조업관리 기준" (030-090-080 추가)
+# - "3. 종점관리 항목" (030-100-010 문제)
+# - "5이상판단및조치기준" (점/공백 누락)
+TOP_LEVEL_TITLES_ALIASES = ["3증정관리항목", "4조업관리기준", "3종점관리항목", "5이상판단및조치기준"]
+# 비교용: 점/공백 제거한 모든 후보 집합
+TOP_LEVEL_COMPACT = set(TOP_LEVEL_TITLES_DOTLESS + TOP_LEVEL_TITLES_ALIASES)
 HANGUL_SUBSECTION_RE = re.compile(r"^[가-힣]\.")
 MAX_MAJOR_LEVEL = 6
 MAX_SUB_LEVEL = 30
@@ -372,25 +382,6 @@ def preprocess_special_math(text: str) -> str:
     text = BLOCK_MATH_RE.sub(block_repl, text)
     # 2) block math 외부 인라인 제거
     text = remove_inline_math(text)
-    # 3) 숫자형 <p>...</p> 또는 라인 앞 숫자형에 대해 헤딩 삽입 (원문 유지)
-    new_lines: list[str] = []
-    for line in text.splitlines():
-        p_match = re.match(r"\s*<p>\s*(\d+(?:\.\d+){0,2})\s*([^<]*)</p>\s*$", line, flags=re.IGNORECASE)
-        plain_match = re.match(r"\s*(\d+(?:\.\d+){0,2})\s+(.+)$", line) if not p_match else None
-        label = ""
-        title = ""
-        if p_match:
-            label = p_match.group(1)
-            title = p_match.group(2).strip()
-        elif plain_match:
-            label = plain_match.group(1)
-            title = plain_match.group(2).strip()
-        if label:
-            heading_line = make_heading(label, title)
-            if heading_line:
-                new_lines.append(heading_line)
-        new_lines.append(line)
-    text = "\n".join(new_lines)
     # src="..." 내부는 보존하기 위해 마스킹 (아래첨자 변환 영향 제거)
     src_placeholders: list[str] = []
     def mask_src(match: re.Match[str]) -> str:
@@ -577,6 +568,8 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"(?<![A-Za-z])imes(?![A-Za-z])", "×", text)
     # 9) 기타 소규모 오탈자 보정
     text = apply_minor_fixes(text)
+    # 9-1) η_{CO} -> ηCO
+    text = re.sub(r"η\s*_\s*\{\s*CO\s*\}", "ηCO", text)
     # 10) '\\ <<' 같은 패턴 제거 및 리터럴 '\n' 제거
     text = re.sub(r"\\\s*<<", "", text)
     text = text.replace(r"\n", "")
@@ -634,8 +627,8 @@ def process_headings(content: str) -> Tuple[str, dict]:
       - 한글 소제목은 직전 헤딩이 있을 때 level+1 (최대 3)
     """
     def is_top_level(title: str) -> bool:
-        norm = re.sub(r"\s+", "", title)
-        return any(t in norm for t in TOP_LEVEL_TITLES_NORM)
+        norm_compact = re.sub(r"[.\s]+", "", title)
+        return any(candidate in norm_compact for candidate in TOP_LEVEL_COMPACT)
 
     def html_to_md(match: re.Match[str]) -> str:
         level = int(match.group(1))
@@ -646,18 +639,18 @@ def process_headings(content: str) -> Tuple[str, dict]:
     def label_to_level(parts: list[int], title: str) -> int:
         if is_top_level(title):
             return 1
-        if len(parts) == 1:
-            return 1
-        if len(parts) == 2:
-            return 2
-        return 3
+        # 번호 깊이에 맞춰 레벨 증가 (최대 5)
+        return min(len(parts), 5)
 
     def ok_prefix(parts: list[int], prev_parts: list[int]) -> bool:
         """하위 번호가 상위 번호 prefix를 따르는지 확인한다."""
         if len(parts) == 1:
             return True
         if not prev_parts:
-            return False
+            return True
+        if len(parts) == 2:
+            # 대제목 번호만 바뀌는 경우 허용
+            return True
         need = len(parts) - 1
         return prev_parts[:need] == parts[:need]
 
@@ -667,21 +660,21 @@ def process_headings(content: str) -> Tuple[str, dict]:
     headings: list[dict] = []
     last_level = 0
     last_parts: list[int] = []
+    last_numeric_level = 0
 
     def apply_heading(idx: int, level: int, title: str, label_parts: list[int] | None = None, original_line: str | None = None):
-        nonlocal last_level, last_parts, lines
+        nonlocal last_level, last_parts, last_numeric_level, lines
         if level > last_level + 1:
             level = last_level + 1 if last_level else level
         heading_line = f"{'#' * level} {title}"
-        if original_line is not None:
-            lines[idx] = f"{heading_line}\n{original_line}"
-        else:
-            lines[idx] = heading_line
+        # 헤딩이 확정되면 본문 라인은 제거하고 헤딩만 남긴다.
+        lines[idx] = heading_line
         headings.append({"level": level, "title": title})
         last_level = level
         if label_parts is not None:
             # 숫자형 헤딩일 때만 계층 prefix 추적
             last_parts = label_parts
+            last_numeric_level = level
 
     lines = content.splitlines()
 
@@ -691,13 +684,21 @@ def process_headings(content: str) -> Tuple[str, dict]:
         is_p_heading = bool(p_match)
         if p_match:
             inner = re.sub(r"<[^>]+>", "", p_match.group(1)).strip()
-            # <p> 내부 헤딩 후보는 ':' 앞까지만 검사
-            stripped = inner.split(":", 1)[0].strip() if ":" in inner else inner
+            stripped = inner
         md = re.match(r"^(#{1,6})\s+(.*)$", stripped)
         numbered = NUMBERED_HEADING_RE.match(stripped)
+        enum_match = re.match(r"^\d+\)\s+(.+)$", stripped)
 
         if md:
             hashes, title = md.groups()
+            num_in_title = NUMBERED_HEADING_RE.match(title)
+            if num_in_title:
+                label = num_in_title.group("label")
+                parts = parse_numeric_label(label)
+                if parts and ok_prefix(parts, last_parts):
+                    level = label_to_level(parts, title)
+                    apply_heading(idx, level, title, parts)
+                    continue
             level = 1 if is_top_level(title) else len(hashes)
             apply_heading(idx, level, title)
             continue
@@ -708,10 +709,12 @@ def process_headings(content: str) -> Tuple[str, dict]:
             parts = parse_numeric_label(label)
             if not parts:
                 continue
+            if parts == last_parts:
+                continue
             level = label_to_level(parts, title)
             if not ok_prefix(parts, last_parts):
                 continue
-            apply_heading(idx, level, f"{label} {title}", parts, original_line=line if is_p_heading else None)
+            apply_heading(idx, level, f"{label} {title}", parts)
             continue
 
         loose = re.match(r"^(\d+(?:\.\d+){0,2})\s+(.+)$", stripped)
@@ -722,15 +725,21 @@ def process_headings(content: str) -> Tuple[str, dict]:
             if not parts:
                 continue
             level = label_to_level(parts, title)
+            # top-level 하위 번호만 허용: prefix가 있어야 승격
             if not ok_prefix(parts, last_parts):
                 continue
-            apply_heading(idx, level, f"{label} {title}", parts, original_line=line if is_p_heading else None)
+            if parts == last_parts:
+                continue
+            apply_heading(idx, level, f"{label} {title}", parts)
             continue
 
-        if HANGUL_SUBSECTION_RE.match(stripped):
-            # 한글 소제목 표기는 마크다운/HTML 헤딩 태그가 있을 때만 승격한다.
-            # 태그 없이 단독으로 등장하면 본문 문단으로 처리한다.
-            lines[idx] = f"<p>{stripped}</p>"
+        # 한글 소제목/열거형: 직전 숫자 헤딩보다 한 단계 낮게 승격 (자기들끼리는 레벨 증가 없음)
+        if HANGUL_SUBSECTION_RE.match(stripped) or enum_match:
+            if last_numeric_level == 0:
+                lines[idx] = f"<p>{line.strip()}</p>"
+            else:
+                level = min(last_numeric_level + 1, 6)
+                apply_heading(idx, level, stripped)
 
     return "\n".join(lines), {"headings": headings}
 
@@ -748,6 +757,14 @@ def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
     text, _ = process_inline_math(text)
     text, _ = process_block_math(text)
     text, heading_meta = process_headings(text)
+    # 상위 헤딩 1. 적용범위 누락 시 페이지 주석 바로 아래에 추가
+    if not any(re.sub(r"\s+", "", "1. 적용범위") in re.sub(r"\s+", "", h["title"]) for h in heading_meta.get("headings", [])):
+        text = re.sub(
+            r"(<!-- 페이지번호: [^>]+ -->)",
+            r"\1\n# 1. 적용범위",
+            text,
+            count=1,
+        )
 
     rel = path.relative_to(target_dir)
     dest = out_dir / rel.parent / f"{rel.stem}_rule_sanitized{rel.suffix}"
