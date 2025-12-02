@@ -335,6 +335,14 @@ def insert_page_breaks(content: str, filename: str) -> str:
             fragments.append(comment)
     return "\n\n".join(fragments)
 
+def decode_basic_entities(text: str) -> str:
+    """단순 HTML 엔티티(&lt;, &gt;, &amp;)를 실제 기호로 변환한다."""
+    return (
+        text.replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("&amp;", "&")
+    )
+
 
 def preprocess_special_math(text: str) -> str:
     """
@@ -754,6 +762,8 @@ def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
     stem_no_space = re.sub(r"\s+", "", path.stem)
     if "조업공정식해설" in stem_no_space:
         text = preprocess_special_math(text)
+    # 단순 HTML 엔티티 디코딩
+    text = decode_basic_entities(text)
     # math 태그 외부에 있는 HTML sub/sup까지 포함해 숫자 아래/윗첨자로 변환
     text = normalize_html_subsup(text)
     text, _ = process_inline_math(text)
