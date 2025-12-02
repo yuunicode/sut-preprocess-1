@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Run local Qwen model on LLM payloads, validate outputs, and log errors."""
+"""Run local Qwen2.5-VL model on LLM payloads, validate outputs, and log errors."""
 from __future__ import annotations
 
 import argparse
 import datetime
 import json
 import re
+import torch
 from pathlib import Path
 from typing import Any, Dict, Tuple
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForVision2Seq, AutoTokenizer
 from huggingface_hub.errors import HFValidationError
 
 LLM_DIR = Path(__file__).resolve().parents[1] / "output" / "llm"
@@ -86,8 +87,22 @@ def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
 출력은 위 출력 형식에 맞는 JSON만 반환하라."""
 
 
-# --------------------- LLM 호출 ---------------------
-def load_qwen_pipeline(model_path: Path, device: str = DEFAULT_DEVICE):
+# --------------------- LLM 호출 (Vision-Language) ---------------------
+def build_vl_messages(prompt: str, image_path: Path | None) -> list[dict]:
+    if image_path and image_path.exists():
+        return [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image", "image": str(image_path)},
+                    {"type": "text", "text": prompt},
+                ],
+            }
+        ]
+    return [{"role": "user", "content": prompt}]
+
+
+def load_qwen(model_path: Path, device: str = DEFAULT_DEVICE):
     model_path = model_path.resolve()
     if not model_path.exists():
         raise FileNotFoundError(f"model path not found: {model_path}")
@@ -95,31 +110,39 @@ def load_qwen_pipeline(model_path: Path, device: str = DEFAULT_DEVICE):
         tokenizer = AutoTokenizer.from_pretrained(
             str(model_path), trust_remote_code=True, local_files_only=True, cache_dir=str(model_path)
         )
-        model = AutoModelForCausalLM.from_pretrained(
-            str(model_path), trust_remote_code=True, device_map=device, local_files_only=True, cache_dir=str(model_path)
+        model = AutoModelForVision2Seq.from_pretrained(
+            str(model_path),
+            trust_remote_code=True,
+            device_map=device,
+            local_files_only=True,
+            cache_dir=str(model_path),
         )
     except HFValidationError as exc:  # pragma: no cover
         raise FileNotFoundError(
             f"local model files not found under {model_path}. "
             "config.json/model.safetensors 등이 포함된 모델 루트 폴더를 --model-path로 지정해야 합니다."
         ) from exc
-    return pipeline(
-        "text-generation",
-        model=model,
-        tokenizer=tokenizer,
-        device_map=device,
-    )
+    return tokenizer, model
 
 
-def call_llm(generator, prompt: str, max_new_tokens: int) -> str:
-    outputs = generator(prompt, max_new_tokens=max_new_tokens, do_sample=False, return_full_text=False)
-    if not outputs:
-        return ""
-    return outputs[0].get("generated_text", "")
+def run_chat(model, tokenizer, prompt: str, image: Path | None = None, max_new_tokens: int = 512) -> str:
+    messages = build_vl_messages(prompt, image)
+    text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = tokenizer(text, return_tensors="pt").to(model.device)
+    gen_kwargs = {
+        "max_new_tokens": max_new_tokens,
+        "repetition_penalty": 1.3,
+        "no_repeat_ngram_size": 4,
+        "pad_token_id": tokenizer.eos_token_id,
+    }
+    with torch.no_grad():
+        outputs = model.generate(**inputs, **gen_kwargs)
+    generated = outputs[0][inputs["input_ids"].shape[-1] :]
+    return tokenizer.decode(generated, skip_special_tokens=True).strip()
 
 
 # --------------------- 메인 처리 ---------------------
-def process_file(path: Path, generator, max_new_tokens: int) -> None:
+def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
     payloads = load_payload(path)
     updated_payloads = []
 
@@ -128,11 +151,20 @@ def process_file(path: Path, generator, max_new_tokens: int) -> None:
         instruction = entry.get("instruction", "")
         input_payload = entry.get("input", {}) or {}
         template_output = entry.get("output", {}) or {}
+        image_path = None
+        if isinstance(input_payload, dict):
+            img_link = input_payload.get("image_link")
+            if img_link:
+                img_candidate = Path(img_link)
+                if not img_candidate.is_absolute():
+                    img_candidate = Path(__file__).resolve().parents[1] / img_link
+                if img_candidate.exists():
+                    image_path = img_candidate
 
         resp_text = ""
         try:
             prompt = build_prompt(instruction, input_payload)
-            resp_text = call_llm(generator, prompt, max_new_tokens=max_new_tokens)
+            resp_text = run_chat(model, tokenizer, prompt, image=image_path, max_new_tokens=max_new_tokens)
         except Exception as exc:  # pragma: no cover
             log_error(f"file={path.name} id={entry_id} error=LLM call failed: {exc}")
             resp_text = ""
@@ -168,12 +200,12 @@ def main() -> None:
         return
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
-    generator = load_qwen_pipeline(DEFAULT_MODEL_PATH, device=DEFAULT_DEVICE)
+    tokenizer, model = load_qwen(DEFAULT_MODEL_PATH, device=DEFAULT_DEVICE)
 
     for path in targets:
         if path.is_dir():
             continue
-        process_file(path.resolve(), generator=generator, max_new_tokens=512)
+        process_file(path.resolve(), tokenizer=tokenizer, model=model, max_new_tokens=512)
 
 
 if __name__ == "__main__":
