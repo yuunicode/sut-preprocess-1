@@ -73,10 +73,11 @@ IMAGE_SUM_INSTRUCTIONS = """
 너는 제선·제철 공정의 시각 자료를 직접 분석하여 의미를 추론하는 이미지 분석 담당자이다.
 description이 없으므로 이미지 자체의 구조와 주변 context를 기반으로 요약하라.
 
-- 참고: image_link={image_link}, section_path={section_path}, context_before={context_before}, context_after={context_after}
+- 참고: image_link={image_link}, context_before={context_before}, context_after={context_after}
 - context_before/after에 '<그림 ...>'처럼 이미지를 설명하는 문장이 있으면 필요한 범위에서 참고해 의미를 보완한다.
 - 첫 문장은 반드시 '이 도표는', '이 그림은', 또는 '이 그래프는'으로 시작한다.
-- 그래프/차트는 추세·비교·상관관계를, 다이어그램은 공정 흐름·구조·장치 간 연결을 중심으로 설명한다.
+- 그래프/차트는 x축·y축 이름/눈금·단위, 비교 그룹, 추세(증감/극값/비교)를 구체적으로 설명한다.
+- 다이어그램/공정도/플로우는 단계별 흐름과 전환 조건을 빠짐없이 기술한다.
 - 기본 서술은 한국어를 사용하되, 공정 전문 용어는 영어/한국어 병기 가능하다.
 - 단위(Unit)는 반드시 정확하게 유지한다.
 - 1~5문장 요약과 함께 핵심 개념·변수·전문 용어·단위를 한국어/영어 키워드 5~15개로 제시한다.
@@ -196,7 +197,6 @@ def build_image_summary_payloads(items: list[dict]) -> list[dict]:
                 "instruction": IMAGE_SUM_INSTRUCTIONS,
                 "input": {
                     "image_link": image_link,
-                    "section_path": item.get("section_path") or "",
                     "context_before": context_before,
                     "context_after": context_after,
                 },
