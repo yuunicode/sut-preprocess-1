@@ -86,8 +86,11 @@ def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
 
 # --------------------- LLM 호출 ---------------------
 def load_qwen_pipeline(model_path: Path, device: str = "auto"):
-    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True, device_map=device)
+    model_path = model_path.resolve()
+    tokenizer = AutoTokenizer.from_pretrained(str(model_path), trust_remote_code=True, local_files_only=True)
+    model = AutoModelForCausalLM.from_pretrained(
+        str(model_path), trust_remote_code=True, device_map=device, local_files_only=True
+    )
     return pipeline(
         "text-generation",
         model=model,
