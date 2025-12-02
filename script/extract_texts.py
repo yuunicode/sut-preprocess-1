@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import json
 from pathlib import Path
 
 from bs4 import BeautifulSoup, NavigableString, Tag, Comment
@@ -17,6 +18,7 @@ SKIP_PATTERNS = [
     # 가-힇/영문/숫자에 붙은 '끝'은 살리고, 기호/공백으로만 둘러싸인 경우만 제거
     r"(?<![0-9A-Za-z가-힣])[`\-~*\s]*끝[`\-~*\s]*(?![0-9A-Za-z가-힣])",
 ]
+PLACEHOLDER_RE = re.compile(r"\{\{([^{}]+)\}\}")
 
 
 def iter_target_files(root: Path):
@@ -59,8 +61,11 @@ def clean_html_to_text(html: str) -> str:
 
     def traverse(node) -> None:
         if isinstance(node, Comment):
-            # 페이지 주석 등은 그대로 보존
-            output.append(str(node))
+            # 페이지 주석 등은 그대로 보존 (구분을 위해 공백 줄 추가)
+            comment_text = str(node).strip()
+            if comment_text:
+                output.append(f"<!-- {comment_text} -->")
+                output.append("")
             return
         if isinstance(node, NavigableString):
             text = str(node)
@@ -103,36 +108,138 @@ def clean_html_to_text(html: str) -> str:
 def remove_skip_markers(text: str) -> str:
     """Remove '뒷장계속', '이하여백', '끝'(앞뒤에 문자(가-힣/영문/숫자)가 없을 때만 삭제)."""
     lines = []
-    pattern = re.compile("|".join(SKIP_PATTERNS), re.IGNORECASE)
     for line in text.splitlines():
-        stripped = line.strip()
-        if not stripped:
-            lines.append(line)
+        normalized = re.sub(r"[^0-9A-Za-z가-힣]", "", line)
+        if normalized in {"뒷장계속", "이하여백", "끝"}:
             continue
-        # 줄 전체가 제거 패턴만 포함하면 스킵
-        if pattern.fullmatch(stripped):
-            continue
-        # 부분만 있을 때는 패턴만 삭제
-        cleaned = pattern.sub("", line)
-        if cleaned.strip():
-            lines.append(cleaned)
+        lines.append(line)
     return "\n".join(lines)
 
 
-def process_file(path: Path) -> None:
+# ---------- 텍스트 컴포넌트 생성 ----------
+def build_component_map(comp_data: dict) -> dict:
+    """placeholder id -> image/table url 매핑 생성."""
+    mapping = {}
+    for table in comp_data.get("tables", []):
+        tid = table.get("id")
+        url = table.get("image_link") or table.get("table_image_path") or ""
+        if tid:
+            mapping[tid] = url
+    for img in comp_data.get("images_summary", []):
+        iid = img.get("id")
+        url = img.get("image_link") or img.get("image") or ""
+        if iid:
+            mapping[iid] = url
+    for img in comp_data.get("images_translation", []):
+        iid = img.get("id")
+        url = img.get("image_link") or img.get("image") or ""
+        if iid and iid not in mapping:
+            mapping[iid] = url
+    return mapping
+
+
+def chunk_by_heading(text: str, max_level: int) -> list[dict]:
+    """헤딩 레벨을 기준으로 텍스트 청크를 나눈다."""
+    chunks = []
+    current: list[str] = []
+    section_stack: list[str] = []
+    current_page = None
+    current_filename = None
+
+    def push_chunk():
+        if not current:
+            return
+        body = "\n".join(current).strip()
+        if not body:
+            current.clear()
+            return
+        chunks.append(
+            {
+                "section_path": " / ".join(section_stack) if section_stack else "",
+                "page": current_page,
+                "filename": current_filename,
+                "text": body,
+            }
+        )
+        current.clear()
+
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("<!-- 페이지번호:"):
+            push_chunk()
+            m = re.search(r"페이지번호:\s*(\d+),\s*파일명:\s*(.*?)\s*-->", stripped)
+            if m:
+                current_page = int(m.group(1))
+                current_filename = m.group(2)
+            continue
+        hmatch = re.match(r"^(#{1,6})\s+(.*)", stripped)
+        if hmatch:
+            level = len(hmatch.group(1))
+            title = hmatch.group(2).strip()
+            if level <= max_level:
+                push_chunk()
+                # update stack
+                while len(section_stack) >= level:
+                    section_stack.pop()
+                section_stack.append(title)
+            current.append(line)
+            continue
+        current.append(line)
+    push_chunk()
+    return chunks
+
+
+def build_text_component(chunk: dict, idx: int, component_type: str, component_map: dict) -> dict:
+    placeholders = {}
+    for m in PLACEHOLDER_RE.finditer(chunk.get("text", "")):
+        pid = m.group(1)
+        placeholders[pid] = component_map.get(pid, "")
+    return {
+        "id": f"TEXT_{idx:03d}",
+        "component_type": component_type,
+        "text": chunk.get("text", ""),
+        "placeholders": placeholders,
+        "section_path": chunk.get("section_path") or "",
+        "filename": chunk.get("filename"),
+        "page": chunk.get("page"),
+    }
+
+
+def append_text_components(clean_path: Path, chunk_level: int, chunk_method: str) -> None:
+    comp_path = clean_path.parent / "components.json"
+    if not comp_path.exists():
+        comp_data = {}
+    else:
+        comp_data = json.loads(comp_path.read_text(encoding="utf-8"))
+
+    component_map = build_component_map(comp_data)
+    text = clean_path.read_text(encoding="utf-8")
+    chunks = chunk_by_heading(text, max_level=chunk_level)
+    texts: list[dict] = []
+    for idx, chunk in enumerate(chunks, 1):
+        texts.append(build_text_component(chunk, idx, component_type=chunk_method, component_map=component_map))
+
+    comp_data["texts"] = texts
+    comp_path.write_text(json.dumps(comp_data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def process_file(path: Path, chunk_level: int, chunk_method: str) -> None:
     content = path.read_text(encoding="utf-8")
     cleaned = clean_html_to_text(content)
     cleaned = remove_skip_markers(cleaned)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
     out_path = path.with_name(path.name.replace(TARGET_SUFFIX, OUTPUT_SUFFIX))
     out_path.write_text(cleaned + ("\n" if cleaned else ""), encoding="utf-8")
-    print(f"[INFO] Wrote {out_path}")
+    append_text_components(out_path, chunk_level=chunk_level, chunk_method=chunk_method)
+    print(f"[INFO] Wrote {out_path} and updated components.json")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Extract plain text from *_placeholders.md.")
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="sanitize 루트 (기본: output/sanitize)")
     parser.add_argument("--files", nargs="*", type=Path, help="특정 *_placeholders.md만 처리")
+    parser.add_argument("--chunk-level", type=int, default=5, help="헤딩 기반 청크 최대 레벨 (기본 5)")
+    parser.add_argument("--chunk-method", default="chunk_level5", help="텍스트 component_type 라벨 (기본: chunk_level5)")
     args = parser.parse_args()
 
     targets = args.files if args.files else list(iter_target_files(args.root))
@@ -142,7 +249,7 @@ def main() -> None:
     for path in targets:
         if path.is_dir():
             continue
-        process_file(path)
+        process_file(path, chunk_level=args.chunk_level, chunk_method=args.chunk_method)
 
 
 if __name__ == "__main__":

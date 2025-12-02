@@ -18,6 +18,7 @@ MD_HEADING_RE = re.compile(r"^\s*(#{1,6})\s+(.*)")
 PAGE_INFO_RE = re.compile(r"<!--\s*페이지번호:\s*(\d+),\s*파일명:\s*(.*?)\s*-->")
 PAGE_TEXT_RE = re.compile(r"페이지번호:\s*(\d+),\s*파일명:\s*(.+)")
 COMPLEX_TABLE_LOG = Path(__file__).resolve().parents[1] / "logs" / "complex_tables.log"
+PATH_ERROR_LOG = Path(__file__).resolve().parents[1] / "logs" / "path_error.log"
 
 
 # ---------- 기본 유틸 ----------
@@ -284,6 +285,7 @@ def build_tb_str_unstr_component(
     filename: str,
     page: int,
     counters: dict[str, int],
+    doc_folder: str,
 ) -> tuple[dict, bool]:
     """TB_STR/TB_UNSTR 분류와 row_flatten까지 채워 components.json에 넣을 dict를 만든다."""
     structured = is_structured_table_html(table_html, filename=filename)
@@ -307,7 +309,7 @@ def build_tb_str_unstr_component(
         "snapshot_html": snapshot_html,
         "context_html": context_html,
         "full_html": table_html + snapshot_html,
-        "image_link": image_href,
+        "image_link": str(Path("output") / "sanitize" / doc_folder / (image_href or "")) if image_href else "",
         "section_path": section_path,
         "filename": filename,
         "page": page,
@@ -346,6 +348,7 @@ def build_image_formula_component(
     section_path: str,
     filename: str,
     page: int,
+    doc_folder: str,
 ) -> dict:
     return {
         "id": strip_placeholder_braces(placeholder),
@@ -354,7 +357,7 @@ def build_image_formula_component(
         "description": extract_math_description(description_html),
         "context_html": "",
         "full_html": full_html,
-        "image_link": image_link,
+        "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
         "filename": filename,
         "page": page,
@@ -369,6 +372,7 @@ def build_image_summary_component(
     section_path: str,
     filename: str,
     page: int,
+    doc_folder: str,
 ) -> dict:
     return {
         "id": strip_placeholder_braces(placeholder),
@@ -377,7 +381,7 @@ def build_image_summary_component(
         "description": normalize_description_html(description_html),
         "context_html": "",
         "full_html": full_html,
-        "image_link": image_link,
+        "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
         "filename": filename,
         "page": page,
@@ -392,6 +396,7 @@ def build_image_trans_component(
     section_path: str,
     filename: str,
     page: int,
+    doc_folder: str,
 ) -> dict:
     return {
         "id": strip_placeholder_braces(placeholder),
@@ -400,14 +405,14 @@ def build_image_trans_component(
         "description": alt_text,
         "context_html": "",
         "full_html": full_html,
-        "image_link": image_link,
+        "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
         "filename": filename,
         "page": page,
     }
 
 
-def extract_image_blocks(text: str) -> tuple[list[dict], list[dict]]:
+def extract_image_blocks(text: str, doc_folder: str) -> tuple[list[dict], list[dict]]:
     """IMG_SUM/IMG_TR 컴포넌트를 추출하고 placeholder 치환 정보를 만든다."""
     parts = text.splitlines(keepends=True)
     summary_components: list[dict] = []
@@ -511,6 +516,7 @@ def extract_image_blocks(text: str) -> tuple[list[dict], list[dict]]:
                     section_path=format_section_path(section_stack),
                     filename=current_filename,
                     page=current_page,
+                    doc_folder=doc_folder,
                 )
             )
         elif alt_lower in {"figure snippet", "image snippet", "complex-block snippet"}:
@@ -525,6 +531,7 @@ def extract_image_blocks(text: str) -> tuple[list[dict], list[dict]]:
                     section_path=format_section_path(section_stack),
                     filename=current_filename,
                     page=current_page,
+                    doc_folder=doc_folder,
                 )
             )
             snippet_context_entries.append(
@@ -547,6 +554,7 @@ def extract_image_blocks(text: str) -> tuple[list[dict], list[dict]]:
                     section_path=format_section_path(section_stack),
                     filename=current_filename,
                     page=current_page,
+                    doc_folder=doc_folder,
                 )
             )
 
@@ -575,6 +583,13 @@ def process_file(md_path: Path, dest_dir: Path | None = None) -> None:
     current_page = 1
     current_filename = ""
     doc_code = md_path.stem.replace(" ", "")
+    try:
+        doc_folder = str(md_path.parent.relative_to(DEFAULT_SOURCE))
+    except ValueError as exc:  # DEFAULT_SOURCE 밖에서 실행된 경우는 오류 로그만 남기고 중단
+        PATH_ERROR_LOG.parent.mkdir(parents=True, exist_ok=True)
+        with PATH_ERROR_LOG.open("a", encoding="utf-8") as f:
+            f.write(f"{md_path}: DEFAULT_SOURCE={DEFAULT_SOURCE} - relative_to failed: {exc}\n")
+        raise
     tables: list[dict] = []
     special_tables: list[dict] = []
     section_stack: list[str] = []
@@ -681,6 +696,7 @@ def process_file(md_path: Path, dest_dir: Path | None = None) -> None:
                 filename=current_filename,
                 page=current_page,
                 counters=table_counters,
+                doc_folder=doc_folder,
             )
             tables.append(component)
             idx = j + 1
@@ -688,7 +704,7 @@ def process_file(md_path: Path, dest_dir: Path | None = None) -> None:
 
         idx += 1
 
-    images_summary, images_translation = extract_image_blocks(text)
+    images_summary, images_translation = extract_image_blocks(text, doc_folder=doc_folder)
     text_with_special, special_logs = replace_special_tables(text, special_tables)
     tables = sorted(tables, key=lambda t: 0 if str(t.get("id", "")).startswith("TB_STR") else 1)
     cleaned_text = apply_component_placeholders(text_with_special, tables, images_summary, images_translation)
