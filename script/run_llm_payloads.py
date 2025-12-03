@@ -53,6 +53,17 @@ def extract_json(text: str) -> Dict[str, Any]:
     return {}
 
 
+def clean_response_text(text: str) -> str:
+    """LLM 응답에서 ```json ``` 코드펜스, 탭 등을 제거해 파싱을 돕는다."""
+    cleaned = text.strip()
+    # 코드펜스 제거
+    cleaned = re.sub(r"^```(?:json)?", "", cleaned, flags=re.I | re.M)
+    cleaned = re.sub(r"```$", "", cleaned, flags=re.M)
+    # 탭 제거
+    cleaned = cleaned.replace("\t", "")
+    return cleaned.strip()
+
+
 def validate_output(template: Dict[str, Any], candidate: Dict[str, Any]) -> Tuple[Dict[str, Any], bool]:
     """template 구조에 맞게 candidate를 병합. 형식 불일치 시 template 유지."""
     merged: Dict[str, Any] = {}
@@ -193,7 +204,8 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
 
         merged = template_output
         if resp_text:
-            candidate = extract_json(resp_text)
+            cleaned = clean_response_text(resp_text)
+            candidate = extract_json(cleaned)
             merged, ok = validate_output(template_output, candidate)
             if not ok:
                 log_error(f"file={path.name} id={entry_id} error=invalid_output resp='{resp_text[:200]}'")
