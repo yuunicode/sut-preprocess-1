@@ -1,4 +1,5 @@
 .venv
 _dataset
-output
 *.pyc
+.models
+output/chandra
