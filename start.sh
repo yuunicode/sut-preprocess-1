@@ -8,8 +8,6 @@ MODEL_ID="${MODEL_ID:-datalab-to/chandra}"
 MODEL_DIR="${PROJECT_ROOT}/.models/datalab-to/chandra"
 QWEN_MODEL_ID="${QWEN_MODEL_ID:-Qwen/Qwen2.5-VL-7B-Instruct}"
 QWEN_MODEL_DIR="${PROJECT_ROOT}/.models/qwen/Qwen2.5-VL-7B-Instruct"
-QWEN14_MODEL_ID="${QWEN14_MODEL_ID:-Qwen/Qwen2.5-VL-14B-Instruct}"
-QWEN14_MODEL_DIR="${PROJECT_ROOT}/.models/qwen/Qwen2.5-VL-14B-Instruct"
 PYTORCH_INDEX_URL="${PYTORCH_INDEX_URL:-https://download.pytorch.org/whl/cu128}"
 
 log() {
@@ -108,14 +106,13 @@ pip install bitsandbytes==0.48.2
 # qdrant-client (dense search용). fastembed는 사용하지 않습니다.
 pip install qdrant-client==1.16.0 requests==2.32.5
 pip install docx2pdf==0.1.8
-log "LibreOffice 설치 (docx/pdf 변환용)"
 if command -v sudo >/dev/null 2>&1; then
-  sudo apt-get update && sudo apt-get install -y libreoffice
+  sudo apt-get update 
 else
-  apt-get update && apt-get install -y libreoffice
+  apt-get update 
 fi
 
 # download_hf_model "Chandra 모델" "${MODEL_DIR}" "${MODEL_ID}"
 download_hf_model "Qwen2.5-VL-7B-Instruct 모델" "${QWEN_MODEL_DIR}" "${QWEN_MODEL_ID}"
 
-log "환경 구성이 완료되었습니다. 이후 실행은 'source ${VENV_DIR}/bin/activate' 후 script/chandra_pdf_parser.py 를 실행하세요."
+log "환경 구성이 완료되었습니다. 이후 실행은 'source ${VENV_DIR}/bin/activate' 후 하세요."

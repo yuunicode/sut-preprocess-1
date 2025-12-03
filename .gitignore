@@ -1,5 +1,11 @@
+# 내부 디렉토리
 .venv
-_dataset
-*.pyc
+.check
 .models
+
+# 캐시
+*.pyc
+
+# 기본 데이터셋
+_dataset
 output/chandra
