@@ -19,6 +19,10 @@ LOG_DIR = Path(__file__).resolve().parents[1] / "logs"
 DEFAULT_MODEL_PATH = Path(__file__).resolve().parents[1] / ".models" / "qwen" / "Qwen2.5-VL-7B-Instruct"
 ERROR_LOG = LOG_DIR / "llm_errors.log"
 DEFAULT_DEVICE = "cuda"
+# LLM 세부 파라미터 (필요시 상단에서만 수정)
+MAX_NEW_TOKENS = 512  # 생성 토큰 수
+REPETITION_PENALTY = 1.3  # 이미 생성된 토큰 반복을 억제 (값이 클수록 반복 감소)
+NO_REPEAT_NGRAM_SIZE = 4  # 지정된 ngram 크기 반복 금지 (4-gram 반복 방지)
 
 
 # --------------------- 공통 유틸 ---------------------
@@ -135,14 +139,14 @@ def load_qwen(model_path: Path, device: str = DEFAULT_DEVICE):
     return tokenizer, model
 
 
-def run_chat(model, tokenizer, prompt: str, image: Image.Image | None = None, max_new_tokens: int = 512) -> str:
+def run_chat(model, tokenizer, prompt: str, image: Image.Image | None = None) -> str:
     messages = build_vl_messages(prompt, image)
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer(text, return_tensors="pt").to(model.device)
     gen_kwargs = {
-        "max_new_tokens": max_new_tokens,
-        "repetition_penalty": 1.3,
-        "no_repeat_ngram_size": 4,
+        "max_new_tokens": MAX_NEW_TOKENS,
+        "repetition_penalty": REPETITION_PENALTY,
+        "no_repeat_ngram_size": NO_REPEAT_NGRAM_SIZE,
         "pad_token_id": tokenizer.eos_token_id,
     }
     with torch.no_grad():
@@ -182,7 +186,7 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
         resp_text = ""
         try:
             prompt = build_prompt(instruction, input_payload)
-            resp_text = run_chat(model, tokenizer, prompt, image=image_obj, max_new_tokens=max_new_tokens)
+            resp_text = run_chat(model, tokenizer, prompt, image=image_obj)
         except Exception as exc:  # pragma: no cover
             log_error(f"file={path.name} id={entry_id} error=LLM call failed: {exc}")
             resp_text = ""
