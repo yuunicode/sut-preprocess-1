@@ -42,6 +42,7 @@ def iter_records(base_dir: Path) -> Iterable[Dict[str, object]]:
             continue
         for item in load_json(fpath):
             raw_text = item.get("text", "")
+            
             if isinstance(raw_text, list):
                 text = "\n".join(str(x) for x in raw_text if x is not None)
             else:
