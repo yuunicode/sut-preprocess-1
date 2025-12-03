@@ -254,7 +254,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "BACK DRAUGHT고로 본체D.CSNORT VALVEBLOWER송풍변前爐혼합냉풍조절변혼합냉풍변축연혼냉실소열풍변열풍변방풍구 1 개설치→건조전설치필요<br/>(직경 2000mm)S.B.VM.B.VTRTContHOLDER 행盲板 (기설치:15T 셀)blind meter설치위치",
-      "context_html": "",
       "full_html": "<p>BACK DRAUGHT</p><p>고로 본체</p><p>D.C</p><p>SNORT VALVE</p><p>BLOWER</p><p>송풍변</p><p>前爐</p><p>혼합냉풍조절변</p><p>혼합냉풍변</p><p>축</p><p>연</p><p>혼냉실</p><p>소</p><p>열풍변</p><p>열풍변</p><p>방풍구 1 개설치→건조전설치필요<br/>(직경 2000mm)</p><p>S.B.V</p><p>M.B.V</p><p>TRT</p><p>Cont</p><p>HOLDER 행</p><p>盲板 (기설치:15T 셀)</p><p>blind meter</p><p>설치위치</p><img alt=\"Image snippet\" src=\"components/1980e6bc91fd84428be07c21ce9d17d2_18_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/1980e6bc91fd84428be07c21ce9d17d2_18_img.webp",
       "section_path": "4. 조업기준 / 4.3 Test 실시방법 (대형고로 기준) / 4.3.1 고로 Leak Test 시 송풍 Flow",

@@ -73,7 +73,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "감풍직전 PCI Cut정상풍량 → (↓) → 정상풍량↓미분탄 취입개시 (정상풍량 70%이상 복귀시점)↓휴풍",
-      "context_html": "",
       "full_html": "<p style=\"text-align: center;\">감풍직전 PCI Cut</p><p>정상풍량 → (↓) → 정상풍량</p><p style=\"text-align: center;\">↓</p><p style=\"text-align: center;\">미분탄 취입개시 (정상풍량 70%이상 복귀시점)</p><p style=\"text-align: center;\">↓</p><p style=\"text-align: center;\">휴풍</p><img alt=\"Figure snippet\" src=\"components/b1be10e92f80b5b65b781845e8b1d58a_10_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446/components/b1be10e92f80b5b65b781845e8b1d58a_10_img.webp",
       "section_path": "4. 조업기준 / 4.1 송, 휴풍시 미분탄 취입기준 / (1) 정상조업시",

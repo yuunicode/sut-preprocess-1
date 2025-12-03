@@ -71,7 +71,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "Flowchart illustrating the steps for slag recovery:<ol><li>① 노열확보</li><li>② 통기성 확보</li><li>③ 풍량확보 및 연화용착대형성</li><li>④ 조업도 상승 (중광→중산)</li></ol>",
-      "context_html": "",
       "full_html": "<p>Flowchart illustrating the steps for slag recovery:</p><ol><li>① 노열확보</li><li>② 통기성 확보</li><li>③ 풍량확보 및 연화용착대형성</li><li>④ 조업도 상승 (중광→중산)</li></ol><img alt=\"Figure snippet\" src=\"components/1a6170c021b3bdf1007028cc273fe272_13_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446/components/1a6170c021b3bdf1007028cc273fe272_13_img.webp",
       "section_path": "4. 조업기준 / 4.2 노황복구 수순",

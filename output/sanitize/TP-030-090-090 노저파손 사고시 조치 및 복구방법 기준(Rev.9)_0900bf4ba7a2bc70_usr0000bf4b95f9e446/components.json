@@ -148,7 +148,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "<div>비상 냉각 (48 Hr) → 노내 상태 점검 (8 HR) → 노내 지지물 설치 (12 Hr) → 철회 절개 (8 Hr)↓보수부 Cleaning (8 Hr)보수부 Cleaning (8 Hr) → 연와 제거 (16 Hr) → 노내 열기 차단 (6 Hr) → 연와 촉조 (48 Hr)↓정상조업부정형 내화물 시공 (6 Hr) → 철회 용접 및 압입 (48 Hr) → 2 차 보강 압입 (정수시)</div>",
-      "context_html": "",
       "full_html": "<div><p>비상 냉각 (48 Hr) → 노내 상태 점검 (8 HR) → 노내 지지물 설치 (12 Hr) → 철회 절개 (8 Hr)</p><p>↓</p><p>보수부 Cleaning (8 Hr)</p><p>보수부 Cleaning (8 Hr) → 연와 제거 (16 Hr) → 노내 열기 차단 (6 Hr) → 연와 촉조 (48 Hr)</p><p>↓</p><p>정상조업</p><p>부정형 내화물 시공 (6 Hr) → 철회 용접 및 압입 (48 Hr) → 2 차 보강 압입 (정수시)</p></div><img alt=\"Figure snippet\" src=\"components/908273cbc0d61536e171d0be7e9d495a_4_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/908273cbc0d61536e171d0be7e9d495a_4_img.webp",
       "section_path": "6. 기술이론 / 6.2 긴급보수 공정 / 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)",

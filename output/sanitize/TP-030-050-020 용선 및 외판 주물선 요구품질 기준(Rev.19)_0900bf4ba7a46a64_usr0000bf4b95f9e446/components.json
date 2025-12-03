@@ -114,7 +114,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_formula",
       "description": "*철광석중의 SiO₂ Coke Ash 중 SiO₂ } + 2C → [Si] + 2CO ↑ - Qkcal",
-      "context_html": "",
       "full_html": "<math display=\"block\">*철광석중의 SiO₂ Coke Ash 중 SiO₂ } + 2C → [Si] + 2CO ↑ - Qkcal</math><img alt=\"Equation-Block snippet\" src=\"components/5123206fef8ea6987c25be5556120888_12_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446/components/5123206fef8ea6987c25be5556120888_12_img.webp",
       "section_path": "6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]",

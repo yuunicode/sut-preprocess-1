@@ -94,7 +94,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "<div>가. Ore/coke 비 증대→ Ore 량 증대 → 노심부 하중증가 → 노심 Coke 밀도증가, Coke free space 영역 감소 → 노저부 통기· 품액성불량→ Coke 량 감소 → Slit 두께 감소 → 광석 환원성 저하에 따른 연화용착대 두께 증가 → 연화용착대 및 Shaft 부 통기불량, 압손증대, 중심약화, 주변발달 중간부 통기장애→ 중심부 노정 Gas 흐름 불안정 → 반경방향 Coke layer 두께편차증대 → Gas류 분포 불안정 (국부적 편류 발생) → 장입물 강하속도 편차발생→ Gas 흐름 불균일 주변류 증가 → 노체 열부하 증가, 노벽손상, 냉각판 파손, 장입물 강하 불안정 → 대책대책<ul><li>분포조정 적정화 벽부 O/C 증가 Coke 중심장입 중고 Coke 장입 C.B 저하조업</li><li>연원료 성상개선 분율, 강도</li></ul>뒷장 계속</div>",
-      "context_html": "",
       "full_html": "<div><p>가. Ore/coke 비 증대</p><p>→ Ore 량 증대 → 노심부 하중증가 → 노심 Coke 밀도증가, Coke free space 영역 감소 → 노저부 통기· 품액성불량</p><p>→ Coke 량 감소 → Slit 두께 감소 → 광석 환원성 저하에 따른 연화용착대 두께 증가 → 연화용착대 및 Shaft 부 통기불량, 압손증대, 중심약화, 주변발달 중간부 통기장애</p><p>→ 중심부 노정 Gas 흐름 불안정 → 반경방향 Coke layer 두께편차증대 → Gas류 분포 불안정 (국부적 편류 발생) → 장입물 강하속도 편차발생</p><p>→ Gas 흐름 불균일 주변류 증가 → 노체 열부하 증가, 노벽손상, 냉각판 파손, 장입물 강하 불안정 → 대책</p><p>대책</p><ul><li>분포조정 적정화<ul><li>벽부 O/C 증가</li><li>Coke 중심장입</li><li>중고 Coke 장입</li><li>C.B 저하조업</li></ul></li><li>연원료 성상개선<ul><li>분율, 강도</li></ul></li></ul><p>뒷장 계속</p></div><img alt=\"Figure snippet\" src=\"components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp",
       "section_path": "6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점",

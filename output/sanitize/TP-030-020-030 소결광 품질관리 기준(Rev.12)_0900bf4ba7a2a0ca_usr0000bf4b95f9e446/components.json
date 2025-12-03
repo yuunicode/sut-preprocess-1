@@ -37,7 +37,6 @@
       "placeholder": "{{IMG_TR_001}}",
       "component_type": "image_trans",
       "description": "A graph illustrating the relationship between K value (Y-axis) and 분율 (X-axis). Two lines intersect near the origin. The upper line is labeled 소결광 (Sintered Ore), and the lower line is labeled COKE. Both lines show an increasing trend as 분율 increases.",
-      "context_html": "",
       "full_html": "<img alt=\"A graph illustrating the relationship between K value (Y-axis) and 분율 (X-axis). Two lines intersect near the origin. The upper line is labeled 소결광 (Sintered Ore), and the lower line is labeled COKE. Both lines show an increasing trend as 분율 increases.\" src=\"components/1b8fb97f6b1fe9661bfd8f306722d018_10_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-020-030 소결광 품질관리 기준(Rev.12)_0900bf4ba7a2a0ca_usr0000bf4b95f9e446/components/1b8fb97f6b1fe9661bfd8f306722d018_10_img.webp",
       "section_path": "6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.3 분율의 영향",

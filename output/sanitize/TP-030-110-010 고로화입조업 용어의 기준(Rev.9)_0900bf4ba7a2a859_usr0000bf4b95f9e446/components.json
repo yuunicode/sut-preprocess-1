@@ -194,7 +194,6 @@
       "placeholder": "{{IMG_SUM_001}}",
       "component_type": "image_summary",
       "description": "<hr/>",
-      "context_html": "",
       "full_html": "<hr/><img alt=\"Image snippet\" src=\"components/a8806fa9dc2e700e3df20b931913b88f_1_img.webp\"/>\n",
       "image_link": "output/sanitize/TP-030-110-010 고로화입조업 용어의 기준(Rev.9)_0900bf4ba7a2a859_usr0000bf4b95f9e446/components/a8806fa9dc2e700e3df20b931913b88f_1_img.webp",
       "section_path": "4. 조업기준 / 4.1 화입조업 공통",
