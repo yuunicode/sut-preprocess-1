@@ -353,7 +353,6 @@ def build_image_formula_component(
         "placeholder": placeholder,
         "component_type": "image_formula",
         "description": extract_math_description(description_html),
-        "context_html": "",
         "full_html": full_html,
         "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
@@ -377,7 +376,6 @@ def build_image_summary_component(
         "placeholder": placeholder,
         "component_type": "image_summary",
         "description": normalize_description_html(description_html),
-        "context_html": "",
         "full_html": full_html,
         "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
@@ -401,7 +399,6 @@ def build_image_trans_component(
         "placeholder": placeholder,
         "component_type": "image_trans",
         "description": alt_text,
-        "context_html": "",
         "full_html": full_html,
         "image_link": str(Path("output") / "sanitize" / doc_folder / (image_link or "")) if image_link else "",
         "section_path": section_path,
@@ -557,14 +554,6 @@ def extract_image_blocks(text: str, doc_folder: str) -> tuple[list[dict], list[d
             )
 
         context_buffer.clear()
-
-    # context_html는 후처리 단계에서 채우도록 기본은 빈 문자열 유지
-    for entry in snippet_context_entries:
-        if entry["target"] == "summary":
-            component = summary_components[entry["index"]]
-        else:
-            component = translation_components[entry["index"]]
-        component["context_html"] = ""
 
     return summary_components, translation_components
 
