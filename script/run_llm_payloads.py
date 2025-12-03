@@ -169,14 +169,28 @@ def run_chat(model, tokenizer, prompt: str, image: Image.Image | None = None) ->
 # --------------------- 메인 처리 ---------------------
 def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
     payloads = load_payload(path)
-    results = []
     out_path = path.with_name(path.name.replace("_payload", "_result"))
+    results = []
+    existing_keys = set()
+    if out_path.exists():
+        try:
+            existing = load_payload(out_path)
+            results.extend(existing)
+            for item in existing:
+                key = (item.get("id"), (item.get("input") or {}).get("filename"))
+                existing_keys.add(key)
+        except Exception:
+            pass
 
     for entry in payloads:
         entry_status = "성공"
         entry_id = entry.get("id", "")
         instruction = entry.get("instruction", "")
         input_payload = entry.get("input", {}) or {}
+        key = (entry_id, input_payload.get("filename"))
+        if key in existing_keys:
+            print(f"[SKIP] {path.name} id={entry_id} (already in result)")
+            continue
         template_output = entry.get("output", {}) or {}
         image_obj = None
         if isinstance(input_payload, dict):
