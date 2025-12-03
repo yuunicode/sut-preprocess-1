@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.6 고로장입 원, 연료 성상 용어 / ※ RDI 시험 공정도] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446/components/f681c01271918619f4eef76fc25eb97d_18_img.webp",
+    "section_path": "4. 조업 기준 / 4.6 고로장입 원, 연료 성상 용어 / ※ RDI 시험 공정도",
+    "filename": "고로일반 용어의 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.4 고가동을 조업시 영향] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446/components/d1b2c4e456fe10016c6ae75552c5f133_4_img.webp",
+    "section_path": "4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.4 고가동을 조업시 영향",
+    "filename": "고로사용 연료(Coke,Coal)의 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: COKE 및 COAL 품질관리 기준] [경로: 6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.3 Coke 품질에 따른 상관성 비교] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446/components/aeef8d755a6d61432ec14ddc12233a14_2_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.3 Coke 품질에 따른 상관성 비교",
+    "filename": "COKE 및 COAL 품질관리 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노열관리 및 보상기준] [경로: 4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446/components/c8d998c547cb288d9de05a74f5b89356_8_img.webp",
+    "section_path": "4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념",
+    "filename": "노열관리 및 보상기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노열관리 및 보상기준] [경로: 4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446/components/94400c1577a2b3abce10d288b7f145f0_2_img.webp",
+    "section_path": "4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념",
+    "filename": "노열관리 및 보상기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노황변동시 조치기준] [경로: 4. 조업기준 / 4.2 노황복구 수순] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446/components/1a6170c021b3bdf1007028cc273fe272_13_img.webp",
+    "section_path": "4. 조업기준 / 4.2 노황복구 수순",
+    "filename": "노황변동시 조치기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: PCI Cut시 조치기준] [경로: 4. 조업기준 / 4.2 PCI Cut 시 노내상황 변화예측] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-030-090 PCI Cut시 조치기준(Rev.9)_0900bf4ba7a451d0_usr0000bf4b95f9e446/components/4a38b53685409d1d889cb8cacd7d1a02_2_img.webp",
+    "section_path": "4. 조업기준 / 4.2 PCI Cut 시 노내상황 변화예측",
+    "filename": "PCI Cut시 조치기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 4. 조업기준 / 4.1 노하부 불활성화에 의한 노황변동 Mechanism] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/8c83d9af357c415946443878aa1c9c06_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 노하부 불활성화에 의한 노황변동 Mechanism",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 4. 조업기준 / 4.5 Cleaning 조업(감광/고열)으로 부착물 미 해소시 조치기준] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/d0ae9ab3b1645e45a6abb0c4285bd143_2_img.webp",
+    "section_path": "4. 조업기준 / 4.5 Cleaning 조업(감광/고열)으로 부착물 미 해소시 조치기준",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 가. Case 1 (기간: '99.7/1-8/31)] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/1a82df8aecd1a935338e5a9b8b52a16c_3_img.webp",
+    "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 가. Case 1 (기간: '99.7/1-8/31)",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 12
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 나. Case 2 (기간: '00.4/10-5/31)] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/6510ad83ca3eed10391a74089af1f183_1_img.webp",
+    "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 나. Case 2 (기간: '00.4/10-5/31)",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 13
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 다. Case 3 (기간: '00.11/10-12/26)] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/12ccd25235ac9db752ec283442217cdf_1_img.webp",
+    "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 다. Case 3 (기간: '00.11/10-12/26)",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 14
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 4. 조업기준 / 4.1 노심 불활성화에 의한 조업영향 Mechanism] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/fcdabc1f556e43f52c516a4b6976f2a5_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 노심 불활성화에 의한 조업영향 Mechanism",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_2_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/bb50efe0543da74fd41fbb68324f7a83_3_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / ○ Coke 입도 증대효과",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/604d498500544ae41589379fe2b316cd_7_img.webp",
+    "section_path": "6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 10
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.1 고출선비 조업 방법] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-040-020 고출선비 조업시 기본사상 기준(Rev.10)_0900bf4ba7a2b08c_usr0000bf4b95f9e446/components/3246c46309581c9b140511a14c563d0b_12_img.webp",
+    "section_path": "4. 조업기준 / 4.1 고출선비 조업 방법",
+    "filename": "고출선비 조업시 기본사상 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.2 고출선비 조업시 노내현상 변화] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-040-020 고출선비 조업시 기본사상 기준(Rev.10)_0900bf4ba7a2b08c_usr0000bf4b95f9e446/components/1436b47814c8d5bed4a941c151f940b2_2_img.webp",
+    "section_path": "4. 조업기준 / 4.2 고출선비 조업시 노내현상 변화",
+    "filename": "고출선비 조업시 기본사상 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 장입물 분포제어 기준] [경로: 4. 조업기준 / 4.1 Gas류 분포제어 관리기준] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-040-040 고출선비 조업시 장입물 분포제어 기준(Rev.9)_0900bf4ba7a2b090_usr0000bf4b95f9e446/components/8511b5c68109d25c24911f9047b1d92f_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 Gas류 분포제어 관리기준",
+    "filename": "고출선비 조업시 장입물 분포제어 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 장입물 분포제어 기준] [경로: 4. 조업기준 / 4.1 Gas류 분포제어 관리기준] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-040-040 고출선비 조업시 장입물 분포제어 기준(Rev.9)_0900bf4ba7a2b090_usr0000bf4b95f9e446/components/37e49a6e134be65abfd325ccd266778e_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 Gas류 분포제어 관리기준",
+    "filename": "고출선비 조업시 장입물 분포제어 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 장입물 분포제어 기준] [경로: 4. 조업기준 / 4.2 최적 Gas류 제어 Pattern] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-040-040 고출선비 조업시 장입물 분포제어 기준(Rev.9)_0900bf4ba7a2b090_usr0000bf4b95f9e446/components/be22138f7fa2fc143de0d9ae94dcda68_1_img.webp",
+    "section_path": "4. 조업기준 / 4.2 최적 Gas류 제어 Pattern",
+    "filename": "고출선비 조업시 장입물 분포제어 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.1 고출선비 조업시 출선 상황 변화] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/85aa1324f12c6bc68d330e82465aa418_13_img.webp",
+    "section_path": "4. 조업기준 / 4.1 고출선비 조업시 출선 상황 변화",
+    "filename": "고출선비 조업시 출선,재 관리 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 가. 풍구유속 저하] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/e0c4d446c4e13a7059bea03a5858cd8e_5_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 가. 풍구유속 저하",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 나. 노저온도 저하] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/2f438affee5c860bbb8d03fd91be6526_2_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 나. 노저온도 저하",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 다. 노벽온도의 상승] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/2f438affee5c860bbb8d03fd91be6526_6_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 다. 노벽온도의 상승",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 라. 용선중 [Si] 변동] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/2f04e82e4f3653523392b09347fef50b_2_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 라. 용선중 [Si] 변동",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 라. 용선중 [Si] 변동] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/2f04e82e4f3653523392b09347fef50b_3_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 라. 용선중 [Si] 변동",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 마. 통기성 악화] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/2f04e82e4f3653523392b09347fef50b_7_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 마. 통기성 악화",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 4 조업기준 / 4.1 평균 감광율의 결정] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/231e67dff5d0611aea30b4d9f19922fb_11_img.webp",
+    "section_path": "4 조업기준 / 4.1 평균 감광율의 결정",
+    "filename": "뱅킹(Banking) 조업시 감광 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 4 조업기준 / 4.3 저[Si]조입 Diagram] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/c05d6608c24da0c7253fe2e9bb2d8222_3_img.webp",
+    "section_path": "4 조업기준 / 4.3 저[Si]조입 Diagram",
+    "filename": "[Si] 제어기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 4 조업기준 / 4.4 용선[Si] 이행촉진 주요 영향인자] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/df490be95396e659ad058da1357d1511_2_img.webp",
+    "section_path": "4 조업기준 / 4.4 용선[Si] 이행촉진 주요 영향인자",
+    "filename": "[Si] 제어기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.1 용선 [Si]생성 Mechanism] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/47a0bdbfde1c3e638d96877f1c48a8c8_3_img.webp",
+    "section_path": "6. 기술이론 / 6.1 용선 [Si]생성 Mechanism",
+    "filename": "[Si] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_013",
+    "placeholder": "{{IMG_SUM_013}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에는 슬래그(Slag)의 연소율(lbs/hr)과 관련된 데이터가 포함되어 있습니다. X 축은 시간(hour), Y 축은 연소량(lbs/hr). 각 커브는 다른 종류의 스테인리스 스틸(Stainless Steel)의 연속적인 생산 과정에서 발생되는 슬래거의 양을 나타냅니다.",
+    "keyword": [
+      "슬래그",
+      "연소율",
+      "시간(hr)",
+      "연소량(lb/hour)",
+      "스테인리스 스틸"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_1_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_014",
+    "placeholder": "{{IMG_SUM_014}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에는 TP-03의 090번 노체 프로필 기본 사상을 나타내고 있습니다 (Rev.1). 이 도표에서는 X 축이 시간(years), Y 축이 스테이브 두께(mm)입니다. 각 색깔의 선들은 다른 조업 상태를 나타냅니다 - 초록색은 초기 조업 상태이고, 파란색은 이후 조업 상태이며, 검은색은 최종 조업 상태입니다.",
+    "keyword": [
+      "TP-09",
+      "노체 프로파일",
+      "초기 조업",
+      "후기 조업"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_2_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_015",
+    "placeholder": "{{IMG_SUM_015}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에는 노저 축출 작업 과정의 각 단계가 명시되어 있으며, 이는 산소 파이프를 통해 노저 춥출 작성을 수행하고 있습니다.",
+    "keyword": [
+      "노저 춏출",
+      "산소 파이브",
+      "작성",
+      "단계"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_3_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_016",
+    "placeholder": "{{IMG_SUM_016}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에는 부위에 설치된 8개의 T/C(Temperature and Current Sensor)가 포함되어 있으며, 이들은 Bosh Profile의 설계 시 우선순위인 Bosh 각고(Bush Angle)-Bosh 놓이(Bush Height) 순으로 배치되었습니다. 또한, Bosh에서 발생하는 온도 변화에 따른 효과를 평가하기 위해 진행되었던 실험결과에서는 가스(Gas)가 17백도(170°C)를 통과할 때 스테이브(Stave)의 온 độ는 최대 17 백도(1 seventy degree Celsius)까지 상승한다는 것을 확인하였습니다.",
+    "keyword": [
+      "T/C",
+      "Temperature & Current Sensors",
+      "Bosh Profile Design Priority",
+      "Bush Angle - Bush Height Order",
+      "Gas Flow Experiment Results"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_4_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_017",
+    "placeholder": "{{IMG_SUM_017}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에서는 MnO 화학물질의 온도 변화가 MnO의 환원 과정에 미치는 영향을 나타내고 있습니다. X 축에는 시간 (분), Y 축에는 MnO의 온화된 비율 (% MnO)이라는 변수가 표시되어 있으며, 두 가지 다른 컬러로 각각의 실험 데이터가 차례대로 표현됩니다.",
+    "keyword": [
+      "MnO",
+      "온도",
+      "시간",
+      "% MnO",
+      "화학물질"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_5_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_018",
+    "placeholder": "{{IMG_SUM_018}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제] 이 도표에서는 MnO 화학물질의 온도 변화가 MnO의 환원 과정에 미치는 영향을 나타내고 있습니다. X 축에는 시간 (분), Y 축에는 온도 (°C)입니다. 두 가지 다른 컬러로 표시된 선들이 각각 특정 조건 하에서 MnO의 온화 및 강화 반응을 나타냅니다. 또한, 이 도표는 MnO의 다양한 처리 방법 중 하나인 MnO의 가스 상태 변환에 초점을 맞추고 있으며, 이를 통해 MnO의 효율적인 관리와 최적화를 위한 지침을 제공합니다.",
+    "keyword": [
+      "MnO",
+      "온도",
+      "시간",
+      "화학 물질",
+      "환원"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/562d9402b303a7c4b91ce0c34e4ce426_6_img.webp",
+    "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 가. Slag-Metal 간 반응 억제",
+    "filename": "[Si] 제어기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/bb91a1a53ab6424570bb20c4b4012fe6_13_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_017",
+    "placeholder": "{{IMG_SUM_017}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.2 Mn 광 사용 FLOW] 이 도표에서는 MnO 화학물질의 온도 변화가 MnO의 환원 과정에 미치는 영향을 나타내고 있습니다. X 축에는 시간 (분), Y 축에는 MnO의 온화된 비율 (% MnO)이라는 변수가 표시되어 있으며, 두 가지 다른 컬러로 각각의 실험 데이터가 차례대로 표현됩니다.",
+    "keyword": [
+      "MnO",
+      "온도",
+      "시간",
+      "% MnO",
+      "화학물질"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/5b859fb4c87f25d94d723317b33d0f55_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.2 Mn 광 사용 FLOW",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_018",
+    "placeholder": "{{IMG_SUM_018}}",
+    "component_type": "image_summary",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.2 Mn 광 사용 FLOW] 이 도표에서는 MnO 화학물질의 온도 변화가 MnO의 환원 과정에 미치는 영향을 나타내고 있습니다. X 축에는 시간 (분), Y 축에는 온도 (°C)입니다. 두 가지 다른 컬러로 표시된 선들이 각각 특정 조건 하에서 MnO의 온화 및 강화 반응을 나타냅니다. 또한, 이 도표는 MnO의 다양한 처리 방법 중 하나인 MnO의 가스 상태 변환에 초점을 맞추고 있으며, 이를 통해 MnO의 효율적인 관리와 최적화를 위한 지침을 제공합니다.",
+    "keyword": [
+      "MnO",
+      "온도",
+      "시간",
+      "화학 물질",
+      "환원"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/5b859fb4c87f25d94d723317b33d0f55_3_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.2 Mn 광 사용 FLOW",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/f17ba585d9f878163a2c9c6d4bf521b2_1_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/8391168bb2f3860958ca474447faf6ca_6_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/19122b33e809c05fad62a8d006904c36_6_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 11
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/3a52582a1085c6cee506554703118bf3_6_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 11
+  },
+  {
+    "id": "IMG_SUM_008",
+    "placeholder": "{{IMG_SUM_008}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 장입물의 분포 조사를 위한 기준이 나타나 있습니다. X 축은 샘플 번호이며 Y 축은 각 샘플의 장입률입니다. 이 도표에서는 1개부터 20까지의 샘플들이 포함되어 있으며, 각 샘들의 장입율이 차례대로 증가하고 있는 경향을 보여줍니다.",
+    "keyword": [
+      "장입물",
+      "분포조사",
+      "샘플번호",
+      "장입률",
+      "경향"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/7cdaebc1c886902713eaeac6f23227ce_4_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 13
+  },
+  {
+    "id": "IMG_SUM_009",
+    "placeholder": "{{IMG_SUM_009}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에서는 포항 ③고로 탭별 슬래그 분석 시 용해 온도 및 욉선 온도별 정도 지침(HMI 화상)을 나타내며, 각 탭별 용해 및 욉션 온도가 변함에 따라 스템의 상태 변화를 파악할 수 있습니다.",
+    "keyword": [
+      "슬래그",
+      "용해온도",
+      "욕선온도",
+      "#HMI",
+      "포항"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/1b75e7b1fc885f9b4c6ee2c3dd57a20b_2_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 19
+  },
+  {
+    "id": "IMG_SUM_010",
+    "placeholder": "{{IMG_SUM_010}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 슬래그의 구성별 온도에 따른 강도 변화가 나타나며, 포스코 기업 연구원의 분석 결과를 바탕으로 합니다.",
+    "keyword": [
+      "슬래그",
+      "온도",
+      "강도",
+      "구성",
+      "포스코"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_2_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_011",
+    "placeholder": "{{IMG_SUM_011}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 슬래그의 종류별 온도가 표시되어 있으며, 각 슬래깅의 온화하고 강한 성질에 따라 온도 변화가 다르게 나타나고 있습니다.",
+    "keyword": [
+      "슬래그",
+      "온도",
+      "종류",
+      "온화",
+      "강한"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_012",
+    "placeholder": "{{IMG_SUM_012}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 슬래그(Slag)의 연소율(lbs/hr)과 관련된 데이터가 포함되어 있습니다. X 축은 시간(hour), Y 축은 연소량(lbs/hr). 각 커브는 다른 종류의 스테인리스 스틸(Stainless Steel)의 연속적인 생산 과정에서 발생되는 슬래거의 양을 나타냅니다.",
+    "keyword": [
+      "슬래그",
+      "연소율",
+      "시간(hr)",
+      "생산",
+      "연속적"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_4_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_013",
+    "placeholder": "{{IMG_SUM_013}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 슬래그(Slag)의 연소율(lbs/hr)과 관련된 데이터가 포함되어 있습니다. X 축은 시간(hour), Y 축은 연소량(lbs/hr). 각 커브는 다른 종류의 스테인리스 스틸(Stainless Steel)의 연속적인 생산 과정에서 발생되는 슬래거의 양을 나타냅니다.",
+    "keyword": [
+      "슬래그",
+      "연소율",
+      "시간(hr)",
+      "연소량(lb/hour)",
+      "스테인리스 스틸"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_5_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_014",
+    "placeholder": "{{IMG_SUM_014}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 TP-03의 090번 노체 프로필 기본 사상을 나타내고 있습니다 (Rev.1). 이 도표에서는 X 축이 시간(years), Y 축이 스테이브 두께(mm)입니다. 각 색깔의 선들은 다른 조업 상태를 나타냅니다 - 초록색은 초기 조업 상태이고, 파란색은 이후 조업 상태이며, 검은색은 최종 조업 상태입니다.",
+    "keyword": [
+      "TP-09",
+      "노체 프로파일",
+      "초기 조업",
+      "후기 조업"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_6_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_015",
+    "placeholder": "{{IMG_SUM_015}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 노저 축출 작업 과정의 각 단계가 명시되어 있으며, 이는 산소 파이프를 통해 노저 춥출 작성을 수행하고 있습니다.",
+    "keyword": [
+      "노저 춏출",
+      "산소 파이브",
+      "작성",
+      "단계"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/0c402970ebf957d781549da28ac9824e_7_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 20
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3265eb0970a73108268dd223668012b8_6_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3265eb0970a73108268dd223668012b8_7_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3265eb0970a73108268dd223668012b8_8_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3265eb0970a73108268dd223668012b8_9_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 나. MgO 증가시 소결 조업 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.3 소결광 MgO 저하에 의한 Slag MgO 저하 및 유동성 악화 실조업 사례] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3951a0058b464dc1d951a88e12ff3bad_15_img.webp",
+    "section_path": "6. 기술이론 / 6.3 소결광 MgO 저하에 의한 Slag MgO 저하 및 유동성 악화 실조업 사례",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.4 저 Slag Volume 조업시 소결광 품질] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/0aaf37f01ae95c63e8944e16a9624798_6_img.webp",
+    "section_path": "6 기술이론 / 6.4 저 Slag Volume 조업시 소결광 품질",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.1 장입물 분포제어 / 4.1.1 장입물 분포제어 기본사상] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446/components/91082d415d0f676999389df4ee11f809_1_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 장입물 분포제어 / 4.1.1 장입물 분포제어 기본사상",
+    "filename": "장입물 분포제어와 장입모드의 기본사상 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.1 장입물 분포제어 / 4.1.2 장입 Notch 설정근거] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446/components/a6aedb43f8249cf6190a2cd1c99be4d2_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 장입물 분포제어 / 4.1.2 장입 Notch 설정근거",
+    "filename": "장입물 분포제어와 장입모드의 기본사상 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Ore 입도별 장입기술 기준] [경로: 4. 조업 기준 / 4.3 소결광 입도별 장입사상] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446/components/f535d6a98ad2c8a2d2135db0be0d6abe_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.3 소결광 입도별 장입사상",
+    "filename": "Ore 입도별 장입기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coke 중심장입 및 Nut Coke 장입기준] [경로: 4. 조업 기준 / 4.1 Coke 중심장입 기준 / 나. Coke 중심장입 효과] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446/components/4bea0b6934424a065b92c96ae2494da9_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 Coke 중심장입 기준 / 나. Coke 중심장입 효과",
+    "filename": "Coke 중심장입 및 Nut Coke 장입기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coke 중심장입 및 Nut Coke 장입기준] [경로: 4 2 Nut Coke 장입 기준 / 나. Nut Coke 장입효과] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446/components/bba1bf4f64281875cc08d959628c31a9_3_img.webp",
+    "section_path": "4 2 Nut Coke 장입 기준 / 나. Nut Coke 장입효과",
+    "filename": "Coke 중심장입 및 Nut Coke 장입기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coke 중심장입 및 Nut Coke 장입기준] [경로: 4 2 Nut Coke 장입 기준 / 나. Nut Coke 장입효과] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446/components/bba1bf4f64281875cc08d959628c31a9_5_img.webp",
+    "section_path": "4 2 Nut Coke 장입 기준 / 나. Nut Coke 장입효과",
+    "filename": "Coke 중심장입 및 Nut Coke 장입기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노내Gas류 제어기술 기준] [경로: 6 기술 이론 / 6.1 노내 Gas류 제어기술 / 6.1.1 Gas류 분포제어 관리기준] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-070-060 노내Gas류 제어기술 기준(Rev.10)_0900bf4ba7a2bc78_usr0000bf4b95f9e446/components/f7349b073e97ce3f426b58fcef3f19b5_1_img.webp",
+    "section_path": "6 기술 이론 / 6.1 노내 Gas류 제어기술 / 6.1.1 Gas류 분포제어 관리기준",
+    "filename": "노내Gas류 제어기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노내 열 Balance 변화] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/10384a08011d7a6abcae246077b1f24d_11_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노내 열 Balance 변화",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/971c5cb7780d51745b8a98595dc7755b_12_img.webp",
+    "section_path": "6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업 대책 기준] [경로: 6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp",
+    "section_path": "6. 기술이론 / 6.1 미분탄 취입비 증대시 문제점",
+    "filename": "미분탄 취입시 조업 대책 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업기준] [경로: 4. 조업 기준 / 4.1 조업관리기준 / 가. 과상대의 통기영향 및 관리기준] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/cbe650e5c9c9b304eeb2175fa42fe393_11_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리기준 / 가. 과상대의 통기영향 및 관리기준",
+    "filename": "미분탄 취입시 조업기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업기준] [경로: 4. 조업 기준 / 4.1 조업관리기준 / 다. 융착대에서의 통기저항 및 관리기준] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/4868b151972e9725d547e9131cf777cf_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리기준 / 다. 융착대에서의 통기저항 및 관리기준",
+    "filename": "미분탄 취입시 조업기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업기준] [경로: 4. 조업 기준 / 4.1 조업관리기준 / 라. 노심 Coke 에서의 통기저항 및 조업기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/4868b151972e9725d547e9131cf777cf_5_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리기준 / 라. 노심 Coke 에서의 통기저항 및 조업기준",
+    "filename": "미분탄 취입시 조업기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업기준] [경로: 4. 조업 기준 / 4.1 조업관리기준 / 마. Raceway 에서의 통기영향 및 조업기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/4868b151972e9725d547e9131cf777cf_8_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리기준 / 마. Raceway 에서의 통기영향 및 조업기준",
+    "filename": "미분탄 취입시 조업기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입시 조업기준] [경로: 6. 기술이론 / 6.1 미분탄 취입시 노하부 통기영향 Mechanism] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/854d83e678acca1a3b063c5332d3bb50_10_img.webp",
+    "section_path": "6. 기술이론 / 6.1 미분탄 취입시 노하부 통기영향 Mechanism",
+    "filename": "미분탄 취입시 조업기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 미분탄 취입 및 Cut 기준] [경로: 4. 조업기준 / 4.1 송, 휴풍시 미분탄 취입기준 / (1) 정상조업시] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446/components/b1be10e92f80b5b65b781845e8b1d58a_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 송, 휴풍시 미분탄 취입기준 / (1) 정상조업시",
+    "filename": "미분탄 취입 및 Cut 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 가. Coal 의 취발분 (Volatile Matter)] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/a3fb5234dfc2ae45a20ccaf734dda483_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 가. Coal 의 취발분 (Volatile Matter)",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 가. Coal 의 취발분 (Volatile Matter)] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/a3fb5234dfc2ae45a20ccaf734dda483_11_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 가. Coal 의 취발분 (Volatile Matter)",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 5. 이상판단 및 조치기준 / 5.1 예방판단 및 조치기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/b55056659e1b54b27265457f9a1aad9d_3_img.webp",
+    "section_path": "5. 이상판단 및 조치기준 / 5.1 예방판단 및 조치기준",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 6. 기술이론 / 6.1 Coal의 연소 Mechanism] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/f715303e3cdca88432d4bdb2ed602ced_1_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Coal의 연소 Mechanism",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 6. 기술이론 / 6.2 미연소 Coal의 소비] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/f715303e3cdca88432d4bdb2ed602ced_4_img.webp",
+    "section_path": "6. 기술이론 / 6.2 미연소 Coal의 소비",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.2 Birdnest (노심 표층부) 체류] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/92bd1edd99fa3b7c3764c19c1b20cf40_19_img.webp",
+    "section_path": "6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.2 Birdnest (노심 표층부) 체류",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_014",
+    "placeholder": "{{IMG_SUM_014}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 1 대기 조업결과] 이 도표에는 TP-03의 090번 노체 프로필 기본 사상을 나타내고 있습니다 (Rev.1). 이 도표에서는 X 축이 시간(years), Y 축이 스테이브 두께(mm)입니다. 각 색깔의 선들은 다른 조업 상태를 나타냅니다 - 초록색은 초기 조업 상태이고, 파란색은 이후 조업 상태이며, 검은색은 최종 조업 상태입니다.",
+    "keyword": [
+      "TP-09",
+      "노체 프로파일",
+      "초기 조업",
+      "후기 조업"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/b346bd69688d3b38e1ad38694ed3fe6d_3_img.webp",
+    "section_path": "1 대기 조업결과",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_015",
+    "placeholder": "{{IMG_SUM_015}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 2 대기 조업결과] 이 도표에는 노저 축출 작업 과정의 각 단계가 명시되어 있으며, 이는 산소 파이프를 통해 노저 춥출 작성을 수행하고 있습니다.",
+    "keyword": [
+      "노저 춏출",
+      "산소 파이브",
+      "작성",
+      "단계"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/b346bd69688d3b38e1ad38694ed3fe6d_6_img.webp",
+    "section_path": "2 대기 조업결과",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_016",
+    "placeholder": "{{IMG_SUM_016}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 2 대기 조업결과] 이 도표에는 부위에 설치된 8개의 T/C(Temperature and Current Sensor)가 포함되어 있으며, 이들은 Bosh Profile의 설계 시 우선순위인 Bosh 각고(Bush Angle)-Bosh 놓이(Bush Height) 순으로 배치되었습니다. 또한, Bosh에서 발생하는 온도 변화에 따른 효과를 평가하기 위해 진행되었던 실험결과에서는 가스(Gas)가 17백도(170°C)를 통과할 때 스테이브(Stave)의 온 độ는 최대 17 백도(1 seventy degree Celsius)까지 상승한다는 것을 확인하였습니다.",
+    "keyword": [
+      "T/C",
+      "Temperature & Current Sensors",
+      "Bosh Profile Design Priority",
+      "Bush Angle - Bush Height Order",
+      "Gas Flow Experiment Results"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/b346bd69688d3b38e1ad38694ed3fe6d_10_img.webp",
+    "section_path": "2 대기 조업결과",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/29949d8b2081e5a4db3a51bbe50be28b_6_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/29949d8b2081e5a4db3a51bbe50be28b_15_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/7d01bd26a86536a239a313cfce92fbe6_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/7d01bd26a86536a239a313cfce92fbe6_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 냉각반 손상 메커니즘] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/a95b5e007d7b8f73a9daf24e7fb4d44c_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 냉각반 손상 메커니즘",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체 냉각반 관리기술 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 냉각반 손상 메커니즘] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/6f99e62e88894456e7ce98ae4371d090_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 냉각반 손상 메커니즘",
+    "filename": "노체 냉각반 관리기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.2 Stave 열부하 분포의 기본개념] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/631dbb570424e5583599edf183130c98_2_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.2 Stave 열부하 분포의 기본개념",
+    "filename": "노체Stave 관리기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.3 Stave 모재의 재질 변화] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/d68883773e33d37348ebb2fab271b83a_3_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.3 Stave 모재의 재질 변화",
+    "filename": "노체Stave 관리기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.3 Stave 모재의 재질 변화] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/d68883773e33d37348ebb2fab271b83a_5_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.3 Stave 모재의 재질 변화",
+    "filename": "노체Stave 관리기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/c933cd8919ed44d2479b88ee5d841947_7_img.webp",
+    "section_path": "6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/c933cd8919ed44d2479b88ee5d841947_9_img.webp",
+    "section_path": "6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 3.2 노지연와 잔존 계산법 / 3.2.1 Hearth Wall 잔존 계산법] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/b8ed913b94ec26b243383484b94fcfe3_3_img.webp",
+    "section_path": "6 기술이론 / 3.2 노지연와 잔존 계산법 / 3.2.1 Hearth Wall 잔존 계산법",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 3.2 노지연와 잔존 계산법 / 3.2.2 Hearth Bottom 잔존 계산법] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/28651e26d052132869fc17e7a8d15ab8_2_img.webp",
+    "section_path": "6 기술이론 / 3.2 노지연와 잔존 계산법 / 3.2.2 Hearth Bottom 잔존 계산법",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.1 풍구경 감소와 풍구 직하부 노저온도 관계] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446/components/35448a5472c9c4dde15a059122c75326_6_img.webp",
+    "section_path": "6. 기술이론 / 6.1 풍구경 감소와 풍구 직하부 노저온도 관계",
+    "filename": "노저온도 상승, 저하시 조치 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.2 TiO2 장입과 노저관리] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446/components/42c8c276c2f04f00f711df47dfb6dcda_1_img.webp",
+    "section_path": "6. 기술이론 / 6.2 TiO2 장입과 노저관리",
+    "filename": "노저온도 상승, 저하시 조치 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.3 열풍제어변(HBFCV)에 의한 노저온도 제어 / 6.3.3 열풍제어변에 의한 노저 측벽보호 및 출선시간 연장 메커니즘] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446/components/965285667fc0c625363822bd91dcdb65_9_img.webp",
+    "section_path": "6. 기술이론 / 6.3 열풍제어변(HBFCV)에 의한 노저온도 제어 / 6.3.3 열풍제어변에 의한 노저 측벽보호 및 출선시간 연장 메커니즘",
+    "filename": "노저온도 상승, 저하시 조치 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.5 노저 Bottom 부 온도저하시 현상 / 6.5.2 노저온도 저하 Mechanism] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446/components/3c88c61be22f1adfb8cc2c44e4e0e0d5_2_img.webp",
+    "section_path": "6. 기술이론 / 6.5 노저 Bottom 부 온도저하시 현상 / 6.5.2 노저온도 저하 Mechanism",
+    "filename": "노저온도 상승, 저하시 조치 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저파손 사고시 조치 및 복구방법 기준] [경로: 6. 기술이론 / 6.2 긴급보수 공정 / 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/908273cbc0d61536e171d0be7e9d495a_4_img.webp",
+    "section_path": "6. 기술이론 / 6.2 긴급보수 공정 / 나. 긴급 보수작업 Flow(노저 Carbon 연와 비상재고 학보 전제)",
+    "filename": "노저파손 사고시 조치 및 복구방법 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.3 냉입 복구 기본공정] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/0eb030a0a5b12a6bcbdbc4ccb17f5c04_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.3 냉입 복구 기본공정",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.8 풍구 개공 Schedule] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/ad61264bdc5709aaa008bdc89ffdc41b_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.8 풍구 개공 Schedule",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.2 냉입전 조업상황 (2004년 3월 6일 ~ 15일)] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/5e310f3ac5a12f9c9b90cf0fa6ea7249_3_img.webp",
+    "section_path": "4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.2 냉입전 조업상황 (2004년 3월 6일 ~ 15일)",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 13
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.3 냉입복구 실적 (2004년 3월 16일 ~ 4월 1일 : 17일 소요)] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/7818d5cd66c3dba25f3d8ec5cb5f5ee1_3_img.webp",
+    "section_path": "4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.3 냉입복구 실적 (2004년 3월 16일 ~ 4월 1일 : 17일 소요)",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 14
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.4 주요조업지수] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/612931779807621169677a6e618944f1_2_img.webp",
+    "section_path": "4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.4 주요조업지수",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 15
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.6 일자별 풍구 개공 실적] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/16e8996c84ae21be4228816fc0d6e291_2_img.webp",
+    "section_path": "4. 조업기준 / 4.3 광양 2 고로 냉입 복구사례 / 4.3.6 일자별 풍구 개공 실적",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 16
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/16e8996c84ae21be4228816fc0d6e291_5_img.webp",
+    "section_path": "1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 16
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: Zn Alkali 입량 관리기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.2 Zn에 의한 고로의 부착물 생성 Mechanism] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446/components/cc7f0da86610a7999d513a0060049ec5_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.2 Zn에 의한 고로의 부착물 생성 Mechanism",
+    "filename": "Zn Alkali 입량 관리기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: Zn Alkali 입량 관리기준] [경로: 6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446/components/a4fc51b11fdcd25b3a79cac1cc2f9d08_5_img.webp",
+    "section_path": "6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구",
+    "filename": "Zn Alkali 입량 관리기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: Zn Alkali 입량 관리기준] [경로: 6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446/components/75e083b86d30aadf0656277244b5f067_6_img.webp",
+    "section_path": "6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구",
+    "filename": "Zn Alkali 입량 관리기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: Zn Alkali 입량 관리기준] [경로: 6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446/components/81d921510a4e63683b791bb1568a3d30_4_img.webp",
+    "section_path": "6 기술이론 / 6.4 고로하부 Scab 생성기구 및 대책 / 6.4.1 Scab 생성기구",
+    "filename": "Zn Alkali 입량 관리기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 감척,종풍 조업기술 기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/d1cc4d2b316fdc1323b58142053b8107_8_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업",
+    "filename": "감척,종풍 조업기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_015",
+    "placeholder": "{{IMG_SUM_015}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노저 출선작업 기술기준] [경로: 4. 조업기준 / 4.1 노저 출선계획 / 4.1.5 노저출선 개공 기술] 이 도표에는 노저 축출 작업 과정의 각 단계가 명시되어 있으며, 이는 산소 파이프를 통해 노저 춥출 작성을 수행하고 있습니다.",
+    "keyword": [
+      "노저 춏출",
+      "산소 파이브",
+      "작성",
+      "단계"
+    ],
+    "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/92c1fcb4082d86ff748014200e35a57a_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.5 노저출선 개공 기술",
+    "filename": "노저 출선작업 기술기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 주수 냉각작업 기술기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 주수량 검토] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446/components/4a1c49606597466e2a93942d941d4812_8_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 주수량 검토",
+    "filename": "주수 냉각작업 기술기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_023",
+    "placeholder": "{{IMG_SUM_023}}",
+    "component_type": "image_summary",
+    "text": "[문서: 주수 냉각작업 기술기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.5 주수냉각 계획] 이 도표에서는 적정 주수량 내에서부터 점진적으로 주수速度를 증강시키며 최고 주수speed까지 이르도록 계획된 과정을 나타낸다.",
+    "keyword": [
+      "주수",
+      "colding",
+      "speed",
+      "increase"
+    ],
+    "image_link": "output/sanitize/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446/components/3b1a55eacb4704c3485799213c5de000_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.5 주수냉각 계획",
+    "filename": "주수 냉각작업 기술기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-010 고로화입조업 용어의 기준(Rev.9)_0900bf4ba7a2a859_usr0000bf4b95f9e446/components/a8806fa9dc2e700e3df20b931913b88f_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 화입조업 공통",
+    "filename": "고로화입조업 용어의 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.1 고로건조 관리항목] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/0e36704c6a6641ca359041f7137e9fcb_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.1 고로건조 관리항목",
+    "filename": "고로 건조계획 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.8 건조중 노정압] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/c32777df49db05a142dce51152fb2748_8_img.webp",
+    "section_path": "4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.8 건조중 노정압",
+    "filename": "고로 건조계획 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 고압 Leak Test 기준] [경로: 4. 조업기준 / 4.3 Test 실시방법 (대형고로 기준) / 4.3.1 고로 Leak Test 시 송풍 Flow] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/1980e6bc91fd84428be07c21ce9d17d2_18_img.webp",
+    "section_path": "4. 조업기준 / 4.3 Test 실시방법 (대형고로 기준) / 4.3.1 고로 Leak Test 시 송풍 Flow",
+    "filename": "고압 Leak Test 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/b3961afe1e57469fc4262879b64f1795_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 3
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/a0c30095dc5b0c886d01c45afb38c23b_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/a0c30095dc5b0c886d01c45afb38c23b_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.2 충진평균 O/C] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/84bf9bc9c66926e6f4f67020cafabd07_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.2 충진평균 O/C",
+    "filename": "장입물 충진작업 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.6 Coke Base 결정] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/c07f6789e0c76a9e36337d0a3e3e3454_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.6 Coke Base 결정",
+    "filename": "장입물 충진작업 기준",
+    "page": 11
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 충진작업 기준] [경로: 6 기술이론 (장입물 총진계획시 이론적계산) / 6.1 화입용 Coke 계산 / 6.1.2 화입용 COKE 량] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/6d819976e3ccc671e4fb0c6e8a96698a_10_img.webp",
+    "section_path": "6 기술이론 (장입물 총진계획시 이론적계산) / 6.1 화입용 Coke 계산 / 6.1.2 화입용 COKE 량",
+    "filename": "장입물 충진작업 기준",
+    "page": 18
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.1 장입물 분포조사 항목 및 계략도] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/7748c83d633de6ca7617228492e97fe3_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.1 장입물 분포조사 항목 및 계략도",
+    "filename": "장입물 분포조사 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 가. 조직] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/642eb76ce26347fa4d10409f18a1dbb4_5_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 가. 조직",
+    "filename": "장입물 분포조사 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/1d9dba7060e5a91e54274f943b81281a_6_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow",
+    "filename": "장입물 분포조사 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_004",
+    "placeholder": "{{IMG_SUM_004}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/d8ee47e6773d72505ef8d8643ca0fe03_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow",
+    "filename": "장입물 분포조사 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_005",
+    "placeholder": "{{IMG_SUM_005}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow] 이 도표에는 노정 Hopper 안에서 장입물을 관찰하고 있는 장면이 나타나 있습니다.",
+    "keyword": [
+      "Hopper",
+      "장입물",
+      "관측",
+      "노정",
+      "장입"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/d8ee47e6773d72505ef8d8643ca0fe03_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 조사항목별 개요 및 Flow",
+    "filename": "장입물 분포조사 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (2) 조사 Flow] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/8599fd5dceb1e9bdb700ab490ecf5bfe_2_img.webp",
+    "section_path": "4. 조업기준 / (2) 조사 Flow",
+    "filename": "장입물 분포조사 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (3) 조사방법 / (2) 조사 Flow] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/8599fd5dceb1e9bdb700ab490ecf5bfe_10_img.webp",
+    "section_path": "4. 조업기준 / (3) 조사방법 / (2) 조사 Flow",
+    "filename": "장입물 분포조사 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_008",
+    "placeholder": "{{IMG_SUM_008}}",
+    "component_type": "image_summary",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (3) 조사방법 / (3) 조사방법] 이 도표에는 장입물의 분포 조사를 위한 기준이 나타나 있습니다. X 축은 샘플 번호이며 Y 축은 각 샘플의 장입률입니다. 이 도표에서는 1개부터 20까지의 샘플들이 포함되어 있으며, 각 샘들의 장입율이 차례대로 증가하고 있는 경향을 보여줍니다.",
+    "keyword": [
+      "장입물",
+      "분포조사",
+      "샘플번호",
+      "장입률",
+      "경향"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/916f767dbb15bdde64b868da566bb094_7_img.webp",
+    "section_path": "4. 조업기준 / (3) 조사방법 / (3) 조사방법",
+    "filename": "장입물 분포조사 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/443ef136ea8d6bbb5379db9963efb395_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획",
+    "filename": "조업도 상승 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/fd59fd29f19622186d7caac437970a2a_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획",
+    "filename": "조업도 상승 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.3 화입조업 실적 / 4.3.1 조업도 상승기준 및 실적] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/2bb40af77e0b31914cb04d926a64f12f_6_img.webp",
+    "section_path": "4. 조업기준 / 4.3 화입조업 실적 / 4.3.1 조업도 상승기준 및 실적",
+    "filename": "조업도 상승 기준",
+    "page": 10
+  },
+  {
+    "id": "IMG_SUM_006",
+    "placeholder": "{{IMG_SUM_006}}",
+    "component_type": "image_summary",
+    "text": "[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.2 열풍로 철피 SCC(Stress Corrosion Crack)발생 Mechanism / 6.2.1 SCC Mechanism] 이 도표에서는 열풍로 내부의 특정 위치에서 발생하는 스트레스 인장 균열(SCC) 메커니즘을 나타내고 있습니다.\n\nX 축에는 시간(t), Y 축에는 열풍로의 온도(T)가 표시되어 있으며,\nSCC 발병률 및 노화 정도를 반영하고 있는 변수들이 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "SCC",
+      "응력 인장 귤열",
+      "온도",
+      "시간"
+    ],
+    "image_link": "output/sanitize/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446/components/b79b07c12f6f6c53e6de04e8287208b6_3_img.webp",
+    "section_path": "6. 기술이론 / 6.2 열풍로 철피 SCC(Stress Corrosion Crack)발생 Mechanism / 6.2.1 SCC Mechanism",
+    "filename": "열풍로 조업관리 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_007",
+    "placeholder": "{{IMG_SUM_007}}",
+    "component_type": "image_summary",
+    "text": "[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.2 열풍로 철피 SCC(Stress Corrosion Crack)발생 Mechanism / 6.2.2 NOx에 의한 응력 부식 Crack] 이 도표에는 열풍로 내부의 온도 변화와 NOx 생성량 사이의 관계를 나타내고 있다. X 축은 시간(hour), Y 축은 NOx 놓도(ppm)이며, 두 가지 색깔의 선들이 각각 다른 조작 상태를 나타낸다. 초기에는 NOx 끄집이는 경향이 있지만, 특정 온도 지점을 넘어서면 급격히 상승하며, 이후에도 계속해서 증가추세를 보인다.",
+    "keyword": [
+      "열풍로",
+      "NOx",
+      "온도",
+      "시간",
+      "ppm"
+    ],
+    "image_link": "output/sanitize/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446/components/b79b07c12f6f6c53e6de04e8287208b6_6_img.webp",
+    "section_path": "6. 기술이론 / 6.2 열풍로 철피 SCC(Stress Corrosion Crack)발생 Mechanism / 6.2.2 NOx에 의한 응력 부식 Crack",
+    "filename": "열풍로 조업관리 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_SUM_001",
+    "placeholder": "{{IMG_SUM_001}}",
+    "component_type": "image_summary",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온] 이 도표에는 열풍로의 승온 과정 및 관련 변수가 포함되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "승온",
+      "노내알",
+      "Leak"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/daf5a5bc893ce52fadb0260603a0ae26_9_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_SUM_002",
+    "placeholder": "{{IMG_SUM_002}}",
+    "component_type": "image_summary",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.1 보열의 필요성] 이 도표에는 열풍로의 보열 관리를 위한 기준들이 나열되어 있습니다.",
+    "keyword": [
+      "열풍로",
+      "보열",
+      "관리",
+      "기준"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/b9c6656c05f38de47f7629220494c57a_3_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.1 보열의 필요성",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 12
+  },
+  {
+    "id": "IMG_SUM_003",
+    "placeholder": "{{IMG_SUM_003}}",
+    "component_type": "image_summary",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.3 역송풍 Flow] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/bc9556ab7a841bca73a1faac9ee1d8ec_3_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.3 역송풍 Flow",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 13
+  }
+]

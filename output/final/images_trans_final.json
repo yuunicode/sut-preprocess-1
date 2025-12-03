@@ -1,0 +1,2846 @@
+[
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.12 풍구선 이론연소 온도 (°C) : Tf = 1,559 + 0.839TB - 6.033 WH₂O - 3.0PCB + 4973VO₂] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-010-030 조업공정식 해설(Rev.9)_0900bf4ba7a2c11a_usr0000bf4b95f9e446/components/e9cc22fb9f74766238b20a851dd9cb26_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.12 풍구선 이론연소 온도 (°C) : Tf = 1,559 + 0.839TB - 6.033 WH₂O - 3.0PCB + 4973VO₂",
+    "filename": "조업공정식 해설",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 소결광 품질관리 기준] [경로: 6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.3 분율의 영향] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-020-030 소결광 품질관리 기준(Rev.12)_0900bf4ba7a2a0ca_usr0000bf4b95f9e446/components/1b8fb97f6b1fe9661bfd8f306722d018_10_img.webp",
+    "section_path": "6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.3 분율의 영향",
+    "filename": "소결광 품질관리 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 저선Level 제어 및 출선작업 기준] [경로: 5. 이상판단 및 조치기준 : / 5.1.3 노황변동시 출선작업 기준] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446/components/cc77d1a59998f3e0305be2910f69318c_9_img.webp",
+    "section_path": "5. 이상판단 및 조치기준 : / 5.1.3 노황변동시 출선작업 기준",
+    "filename": "저선Level 제어 및 출선작업 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_6_img.webp",
+    "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지",
+    "filename": "장입물 강하 이상시 조치 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_8_img.webp",
+    "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지",
+    "filename": "장입물 강하 이상시 조치 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_12_img.webp",
+    "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지",
+    "filename": "장입물 강하 이상시 조치 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 나. 관리방법] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_14_img.webp",
+    "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 나. 관리방법",
+    "filename": "장입물 강하 이상시 조치 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노벽탈락 발생시 조치 기준] [경로: 4. 조업 기준 / 4.7 노벽 부착물 탈락시 조업 기준 / 4.7.2 노벽부착물 탈락시 조치 기준] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-030-080 노벽탈락 발생시 조치 기준(Rev.9)_0900bf4ba7a451ca_usr0000bf4b95f9e446/components/3f9f5000cfc56c7a5779663d6bde7961_4_img.webp",
+    "section_path": "4. 조업 기준 / 4.7 노벽 부착물 탈락시 조업 기준 / 4.7.2 노벽부착물 탈락시 조치 기준",
+    "filename": "노벽탈락 발생시 조치 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/7f247c13be3727a7ca24df213f718ae9_8_img.webp",
+    "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 11
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/7f247c13be3727a7ca24df213f718ae9_9_img.webp",
+    "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO",
+    "filename": "노체하부 불활성화시 조치기준",
+    "page": 11
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/15a3b1e729cb0909873593f3331993df_2_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_3_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노심 불활성화시 조치기준] [경로: 6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_5_img.webp",
+    "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용",
+    "filename": "노심 불활성화시 조치기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 고출선비 조업시 연,원료 품질관리 기준] [경로: 4. 조업기준 / 4.1 연, 원료 품질강화 조건] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-040-030 고출선비 조업시 연,원료 품질관리 기준(Rev.13)_0900bf4ba7a37e2d_usr0000bf4b95f9e446/components/d2197e0ebb330adf14f0d653e7e592b7_12_img.webp",
+    "section_path": "4. 조업기준 / 4.1 연, 원료 품질강화 조건",
+    "filename": "고출선비 조업시 연,원료 품질관리 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 고출선비 조업시 연,원료 품질관리 기준] [경로: 4. 조업기준 / 4.1 연, 원료 품질강화 조건] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-040-030 고출선비 조업시 연,원료 품질관리 기준(Rev.13)_0900bf4ba7a37e2d_usr0000bf4b95f9e446/components/d2197e0ebb330adf14f0d653e7e592b7_18_img.webp",
+    "section_path": "4. 조업기준 / 4.1 연, 원료 품질강화 조건",
+    "filename": "고출선비 조업시 연,원료 품질관리 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.2 출선재 배출 강화 대책 / 가. 출선 초기 배출 속도 증대] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/0a87c58c46a8f2a61b2712556dbb435f_4_img.webp",
+    "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 가. 출선 초기 배출 속도 증대",
+    "filename": "고출선비 조업시 출선,재 관리 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.2 출선재 배출 강화 대책 / 나. Lap 출선 기준] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/0a87c58c46a8f2a61b2712556dbb435f_8_img.webp",
+    "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 나. Lap 출선 기준",
+    "filename": "고출선비 조업시 출선,재 관리 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.2 출선재 배출 강화 대책 / 마. 용용물 유동성 향상 대책] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/511ec8172a863f7c37b840a7d7fce7ca_11_img.webp",
+    "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 마. 용용물 유동성 향상 대책",
+    "filename": "고출선비 조업시 출선,재 관리 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.1 감산조업 수준 결정 / 가. 내용적이 3500 m³ 이하인 고로의 감산조업 Level 은 일반적으로 출선비 1.55 T/D/m³ 수준 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.70 T/D/m³ 이상으로 실시(대폭적인 감산조업시 노심 Coke 불활성화,노벽 부착물 형성등에 의한 장기노화 불안정 초래)나. 내용적이 3500 m³ 이상인 고로는 송풍 에너지 저하에 의한 노심부 불활성화 영향이 소형고로에 비해 크므로 출선비 1.70 T/D/m³ 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.80 T/D/m³ 이상으로 실시다. 고로 내용적 크기에 따른 고로 가동율 관리의 한계치는 일반적으로 3500 m³ 이하 고로의 경우 94% 수준을 유지하고, 3500 m³ 이상의 대형고로는 95% 이상으로 유지라. 대폭적인 감산여건 발생시에는 고로별로 번갈아 휴풍을 실시하고 나머지 고로는 최저 출선비 유지마. 휴풍에 의한 감산의 한계] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/13f39f03414988be3b97c41070bd4382_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 감산조업 수준 결정 / 가. 내용적이 3500 m³ 이하인 고로의 감산조업 Level 은 일반적으로 출선비 1.55 T/D/m³ 수준 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.70 T/D/m³ 이상으로 실시(대폭적인 감산조업시 노심 Coke 불활성화,노벽 부착물 형성등에 의한 장기노화 불안정 초래)나. 내용적이 3500 m³ 이상인 고로는 송풍 에너지 저하에 의한 노심부 불활성화 영향이 소형고로에 비해 크므로 출선비 1.70 T/D/m³ 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.80 T/D/m³ 이상으로 실시다. 고로 내용적 크기에 따른 고로 가동율 관리의 한계치는 일반적으로 3500 m³ 이하 고로의 경우 94% 수준을 유지하고, 3500 m³ 이상의 대형고로는 95% 이상으로 유지라. 대폭적인 감산여건 발생시에는 고로별로 번갈아 휴풍을 실시하고 나머지 고로는 최저 출선비 유지마. 휴풍에 의한 감산의 한계",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/931fba7a6fdfc24a0abc2f2b5c017b9e_8_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감산조업 사상과 감산 기준] [경로: 4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/931fba7a6fdfc24a0abc2f2b5c017b9e_9_img.webp",
+    "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향",
+    "filename": "감산조업 사상과 감산 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 6. 기술이론 / 6.3 Banking 기간별 감광기준 / 가. 5 일 Banking 시 감광기준] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/9b66af80bf345a99407d9dfe13f83f5f_3_img.webp",
+    "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 가. 5 일 Banking 시 감광기준",
+    "filename": "뱅킹(Banking) 조업시 감광 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 6. 기술이론 / 6.3 Banking 기간별 감광기준 / 나. 10 일 Banking 시 감광기준] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/007f64810fec99f18493a8e1b6896bd2_2_img.webp",
+    "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 나. 10 일 Banking 시 감광기준",
+    "filename": "뱅킹(Banking) 조업시 감광 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 6. 기술이론 / 6.3 Banking 기간별 감광기준 / 다. 1 개월(30 일) 이상 Banking 시 감광기준] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/4f10452b4ffa97f74e56b8bd5ad540b6_2_img.webp",
+    "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 다. 1 개월(30 일) 이상 Banking 시 감광기준",
+    "filename": "뱅킹(Banking) 조업시 감광 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.3 연소대 에서의 Si 반응] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp",
+    "section_path": "6. 기술이론 / 6.3 연소대 에서의 Si 반응",
+    "filename": "[Si] 제어기술 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.4 용선으로의 가규 반응] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp",
+    "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+    "filename": "[Si] 제어기술 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.4 용선으로의 가규 반응] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp",
+    "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+    "filename": "[Si] 제어기술 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.4 용선으로의 가규 반응] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp",
+    "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응",
+    "filename": "[Si] 제어기술 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/21c55a0bb1f698b647d09570a203ec3f_9_img.webp",
+    "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)",
+    "filename": "[S] 제어기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f8c83668757d47dc8822e758f05bc0a5_2_img.webp",
+    "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)",
+    "filename": "[S] 제어기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.3 GAS 화 하는 S 화합물의 형태] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f8c83668757d47dc8822e758f05bc0a5_14_img.webp",
+    "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.3 GAS 화 하는 S 화합물의 형태",
+    "filename": "[S] 제어기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.2 GAS 에 의한 탈류반응 MECHANISM / 알칼리에의한 탈류반응] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/4223f5d6d568fa15a0f90c5cbecaa97a_16_img.webp",
+    "section_path": "6. 기술이론 / 6.2 GAS 에 의한 탈류반응 MECHANISM / 알칼리에의한 탈류반응",
+    "filename": "[S] 제어기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_7_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM",
+    "filename": "[S] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_12_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM",
+    "filename": "[S] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_16_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM",
+    "filename": "[S] 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_2_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향",
+    "filename": "[S] 제어기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_009",
+    "placeholder": "{{IMG_TR_009}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] 이 그래프에서는 세 가지 유형의 규석연과 재질의 온도별 부피 비율 변화를 나타내고 있습니다. Y축은 0.0에서 1.0까지의 범위이며, X축은 20°C부터 1450°C까지입니다. 각 선들은 다음과 같이 변동합니다.: 규석연화재(linear expansion coefficient)가 절대적으로 높으며, 약간의 급격한 부피 증가를 보여줍니다. 이는 대략 40°C에서 발생하며, 약 1.2% 정도로 측정됩니다.H-AL 연화재(dashed line)는 더 느린 부피 즟가를 보이고 있으며, 약해 0.7% 정도로 증가합니다.ZrO2 연화재(dot-dash line)는 가장 낮은 부피 변화를 보이며, 약게 0.5% 정도로 성장합니다.",
+    "keyword": [
+      "규석연화제",
+      "부피비율",
+      "%",
+      "온도",
+      "열팽창"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_5_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향",
+    "filename": "[S] 제어기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_010",
+    "placeholder": "{{IMG_TR_010}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] 이 다이어글램은 연료 저장고 입구와 작업진행 직원 출퇴근 절차를 위한 보호 장비를 나타낸다. 왼쪽 원형 개방부분에는 '연료 저장고 진입구'라고 표시되어 있으며, 롤러 설치가 강조된다. 오른쪽 원형 부분에는 '직원 출발구, 모니터링 및 신호 구역'이라고 적혀 있다. 중앙 사각 부분에는 '막대거나 포장 박스'라는 라벨이 붙어있다.",
+    "keyword": [
+      "연료 저장소",
+      "보호 장비",
+      "롤러 설치",
+      "직원 충출구",
+      "모니터링"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_7_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향",
+    "filename": "[S] 제어기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_011",
+    "placeholder": "{{IMG_TR_011}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] 이 그림에서는 침목이 경사로부터 노내에 안전하게 반입되는 과정을 나타낸다. 이 과정에서 침목은 ROPE나 보호판 등의 보호장비를 통해 안전하게 운송되고 있으며, 이를 위해 특별한 설계된 노내가 사용된다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "노내",
+      "보호장치(ROPE)",
+      "안전"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/9804aada864ef5bf30bb7fb6b2b57c6a_2_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향",
+    "filename": "[S] 제어기술 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_012",
+    "placeholder": "{{IMG_TR_012}}",
+    "component_type": "image_trans",
+    "text": "[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] 이 도표에는 침목이 경사로에서 어떻게 설치되는지를 나타낸 단면도가 포함되어 있습니다. 이 도표에서는 침목을 구성하는 세 가지 주요 파라미터인 네비(W), 높이(H), 그리고 길이(L)가 명시적으로 표현됩니다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "단면도",
+      "네비 (W)",
+      "높이 (H)",
+      "길이 (L)"
+    ],
+    "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/9804aada864ef5bf30bb7fb6b2b57c6a_5_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향",
+    "filename": "[S] 제어기술 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_9_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_11_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_13_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.3 [Mn] 함량 저하 이론적 배경] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/7bb197f6490ccf7f40432011a5ff6d69_2_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.3 [Mn] 함량 저하 이론적 배경",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.3 노내에서의 P 반응] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/7bb197f6490ccf7f40432011a5ff6d69_15_img.webp",
+    "section_path": "4. 조업 기준 / 4.3 노내에서의 P 반응",
+    "filename": "[Mn] [P] 제어기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 가. 노내 탈류와 Slag C/S] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_7_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 가. 노내 탈류와 Slag C/S",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_11_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_13_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_15_img.webp",
+    "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.3 SLAG 의 주요 조성] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG 의 주요 조성",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.4 복합염기도가 SLAG 점성에 미치는 영향] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.4 복합염기도가 SLAG 점성에 미치는 영향",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_009",
+    "placeholder": "{{IMG_TR_009}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측] 이 그래프에서는 세 가지 유형의 규석연과 재질의 온도별 부피 비율 변화를 나타내고 있습니다. Y축은 0.0에서 1.0까지의 범위이며, X축은 20°C부터 1450°C까지입니다. 각 선들은 다음과 같이 변동합니다.: 규석연화재(linear expansion coefficient)가 절대적으로 높으며, 약간의 급격한 부피 증가를 보여줍니다. 이는 대략 40°C에서 발생하며, 약 1.2% 정도로 측정됩니다.H-AL 연화재(dashed line)는 더 느린 부피 즟가를 보이고 있으며, 약해 0.7% 정도로 증가합니다.ZrO2 연화재(dot-dash line)는 가장 낮은 부피 변화를 보이며, 약게 0.5% 정도로 성장합니다.",
+    "keyword": [
+      "규석연화제",
+      "부피비율",
+      "%",
+      "온도",
+      "열팽창"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_010",
+    "placeholder": "{{IMG_TR_010}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 다이어글램은 연료 저장고 입구와 작업진행 직원 출퇴근 절차를 위한 보호 장비를 나타낸다. 왼쪽 원형 개방부분에는 '연료 저장고 진입구'라고 표시되어 있으며, 롤러 설치가 강조된다. 오른쪽 원형 부분에는 '직원 출발구, 모니터링 및 신호 구역'이라고 적혀 있다. 중앙 사각 부분에는 '막대거나 포장 박스'라는 라벨이 붙어있다.",
+    "keyword": [
+      "연료 저장소",
+      "보호 장비",
+      "롤러 설치",
+      "직원 충출구",
+      "모니터링"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_011",
+    "placeholder": "{{IMG_TR_011}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 그림에서는 침목이 경사로부터 노내에 안전하게 반입되는 과정을 나타낸다. 이 과정에서 침목은 ROPE나 보호판 등의 보호장비를 통해 안전하게 운송되고 있으며, 이를 위해 특별한 설계된 노내가 사용된다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "노내",
+      "보호장치(ROPE)",
+      "안전"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_012",
+    "placeholder": "{{IMG_TR_012}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에는 침목이 경사로에서 어떻게 설치되는지를 나타낸 단면도가 포함되어 있습니다. 이 도표에서는 침목을 구성하는 세 가지 주요 파라미터인 네비(W), 높이(H), 그리고 길이(L)가 명시적으로 표현됩니다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "단면도",
+      "네비 (W)",
+      "높이 (H)",
+      "길이 (L)"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_013",
+    "placeholder": "{{IMG_TR_013}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] 이 도표에는 깎쇠의 단편적인 모습이 나타나 있으며, 이는 U형 구조를 가진 것으로 표시되어 있습니다.",
+    "keyword": [
+      "깎쇠",
+      "U형",
+      "구조",
+      "단면도"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/20352667832cb5134416abb5fc91df96_3_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 12
+  },
+  {
+    "id": "IMG_TR_014",
+    "placeholder": "{{IMG_TR_014}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 그래프에서는 알루미나 산화물 함량(Al₂O₃ %)(x축, 0에서 25%)와 C.T.(℃)(y축, 1,250에서 1,450 ℃) 사이의 관계가 나타납니다. 이 그래프에는 하향 개방 파보라가 표시되어 있으며, 방정식 y=1,947 x²−61, 294 x+177, 53 은 적합성을 나타내며 R² 값은 0. 929입니다. 곡선의 최소점은 약 14%-16%의Al₂Oₓ 함량과 대략적으로 1,350 °C의CT 값을 가집니다.",
+    "keyword": [
+      "알루미나산화물함량",
+      "C.T.",
+      "파바라",
+      "적합성",
+      "R²"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 18
+  },
+  {
+    "id": "IMG_TR_015",
+    "placeholder": "{{IMG_TR_015}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 도표에는 캔스팅 온도(CT)가 표시되어 있으며 목표 값인 14.00 °C와 계산된 값인 0.140 .383 .5 °C 사이에 약간의 차이가 있습니다.",
+    "keyword": [
+      "CT",
+      "캐스트온도",
+      "목표값",
+      "측정값",
+      "%"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 18
+  },
+  {
+    "id": "IMG_TR_016",
+    "placeholder": "{{IMG_TR_016}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] 이 그래프에서는 Redcar와 POSCO 두 가지 슬레이크의 측정 온도(C.T., °C)가 MgO 함량(%), 즉 0에서 12까지의 범위 내에서 변화되는 것을 나타낸다. 특히 MgO 함유율 약 10 % 지점에서 두 곳 사이의 녹화온도 계산 결과에는 큰 차이가 있다.",
+    "keyword": [
+      "Redcar",
+      "POSCO",
+      "MgO",
+      "측정 온 도",
+      "녹화온도"
+    ],
+    "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp",
+    "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+    "filename": "Slag 염기도 및 유동성 관리기준",
+    "page": 18
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.1 SLAG 중 Al₂O₃ 함량에 따른 점도변화] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/39c6cee2adb835a2b4734be4fef07aaa_21_img.webp",
+    "section_path": "6. 기술이론 / 6.1 SLAG 중 Al₂O₃ 함량에 따른 점도변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/41d7edad45ca9765e8c3142e2838aeda_3_img.webp",
+    "section_path": "6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/41d7edad45ca9765e8c3142e2838aeda_5_img.webp",
+    "section_path": "6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/41d7edad45ca9765e8c3142e2838aeda_7_img.webp",
+    "section_path": "6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/73e6d88c90986e79953fdbfbbb6d4039_3_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/73e6d88c90986e79953fdbfbbb6d4039_5_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 Al2O3 성분관리 기술기준] [경로: 6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/95f291c30e142ab9861801042ee83426_4_img.webp",
+    "section_path": "6. 기술이론 / 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화",
+    "filename": "Slag 중 Al2O3 성분관리 기술기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.1 SLAG 정도에 대한 MgO 의 영향] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/5fd9c690c894e46749844f2fa1b692e4_5_img.webp",
+    "section_path": "6. 기술이론 / 6.1 SLAG 정도에 대한 MgO 의 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 다. MgO 가 고로조업에 미치는 영향] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3951a0058b464dc1d951a88e12ff3bad_6_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 다. MgO 가 고로조업에 미치는 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 다. MgO 가 고로조업에 미치는 영향] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3951a0058b464dc1d951a88e12ff3bad_7_img.webp",
+    "section_path": "6. 기술이론 / 6.2 MgO 가 조업에 미치는 영향 / 다. MgO 가 고로조업에 미치는 영향",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag 중 MgO 성분관리 기술기준] [경로: 6. 기술이론 / 6.3 소결광 MgO 저하에 의한 Slag MgO 저하 및 유동성 악화 실조업 사례] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446/components/3951a0058b464dc1d951a88e12ff3bad_14_img.webp",
+    "section_path": "6. 기술이론 / 6.3 소결광 MgO 저하에 의한 Slag MgO 저하 및 유동성 악화 실조업 사례",
+    "filename": "Slag 중 MgO 성분관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/80aebda26d77be1cac9bc66e78e8d2b1_1_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/80aebda26d77be1cac9bc66e78e8d2b1_6_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/9b8648027eae20e38593529ba9e16c02_3_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/9b8648027eae20e38593529ba9e16c02_5_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/7095e242966303a7837c5228bfe1af52_1_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 가. 고로 노저에서 용용물(용선,Slag)의 배출이 불충분해서 노저에 용용물이 충만한 경우, 승풍압력이 상승하여 장입물 강하 속도가 저하하고, Slip 이 발생한다.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 나. PCR 증대시 Slag 점도가 증가하기 때문에 Slag Ratio 를 감소시키고, 유동성 개선을 위해서 Al2O3의 하향 조정이 필요함.] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446/components/7095e242966303a7837c5228bfe1af52_4_img.webp",
+    "section_path": "6 기술이론 / 6.1 SLAG VOLUME 의 영향 / 나. PCR 증대시 Slag 점도가 증가하기 때문에 Slag Ratio 를 감소시키고, 유동성 개선을 위해서 Al2O3의 하향 조정이 필요함.",
+    "filename": "Slag Volume 관리 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446/components/e1120367d8619a89288a040650810a7d_8_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상",
+    "filename": "장입물 분포제어와 장입모드의 기본사상 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446/components/f308caaba16091cc4fb0e7074abb8069_3_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상",
+    "filename": "장입물 분포제어와 장입모드의 기본사상 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포제어와 연화융착대 형상기준] [경로: 4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.1 연화용착대 형상변화에 따른 Gas류 판단] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/371e8964fede903a3c8ef918bc3ef887_15_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.1 연화용착대 형상변화에 따른 Gas류 판단",
+    "filename": "장입물 분포제어와 연화융착대 형상기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포제어와 연화융착대 형상기준] [경로: 4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.2 연화융착대 형상에 따른 노황 변화] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446/components/9dffcd6c7a0dcd4858db1b2894bf123c_6_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.2 연화융착대 형상에 따른 노황 변화",
+    "filename": "장입물 분포제어와 연화융착대 형상기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Ore 입도별 장입기술 기준] [경로: 4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 가. 혼합층 형성 (Ore Large 첫 Notch 시작 Point 선정)] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446/components/f4c835287ada07dbe3f34f9b5a031ad7_13_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 가. 혼합층 형성 (Ore Large 첫 Notch 시작 Point 선정)",
+    "filename": "Ore 입도별 장입기술 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Ore 입도별 장입기술 기준] [경로: 4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 가. 혼합층 형성 (Ore Large 첫 Notch 시작 Point 선정)] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446/components/f4c835287ada07dbe3f34f9b5a031ad7_15_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 가. 혼합층 형성 (Ore Large 첫 Notch 시작 Point 선정)",
+    "filename": "Ore 입도별 장입기술 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Ore 입도별 장입기술 기준] [경로: 4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 다. 분포 일반사항] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446/components/44ef6aee612a5b24bd54f1ce07e71426_6_img.webp",
+    "section_path": "4. 조업 기준 / 4.1 Ore Large 장입 Mode 적용사상 / 다. 분포 일반사항",
+    "filename": "Ore 입도별 장입기술 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Ore 입도별 장입기술 기준] [경로: 4. 조업 기준 / 4.2 노정 Hopper 배출특성] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446/components/696f431c6734f514201936814d595a75_4_img.webp",
+    "section_path": "4. 조업 기준 / 4.2 노정 Hopper 배출특성",
+    "filename": "Ore 입도별 장입기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내Gas류 제어기술 기준] [경로: 6 기술 이론 / 6.1 노내 Gas류 제어기술 / 6.1.2 최적 Gas류 제어 Pattern] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-070-060 노내Gas류 제어기술 기준(Rev.10)_0900bf4ba7a2bc78_usr0000bf4b95f9e446/components/1e625e56f4d5f550fb067d108cf51b57_1_img.webp",
+    "section_path": "6 기술 이론 / 6.1 노내 Gas류 제어기술 / 6.1.2 최적 Gas류 제어 Pattern",
+    "filename": "노내Gas류 제어기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내Gas류 제어기술 기준] [경로: 6 기술 이론 / 6.2 노내 Gas 류 제어 조업사상 / 6.2.2 중간류 확보 조업사상] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-070-060 노내Gas류 제어기술 기준(Rev.10)_0900bf4ba7a2bc78_usr0000bf4b95f9e446/components/881499182ff8d4fbdee1462840b68fc5_1_img.webp",
+    "section_path": "6 기술 이론 / 6.2 노내 Gas 류 제어 조업사상 / 6.2.2 중간류 확보 조업사상",
+    "filename": "노내Gas류 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내Gas류 제어기술 기준] [경로: 6 기술 이론 / 6.2 노내 Gas 류 제어 조업사상 / 6.2.2 중간류 확보 조업사상] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-070-060 노내Gas류 제어기술 기준(Rev.10)_0900bf4ba7a2bc78_usr0000bf4b95f9e446/components/881499182ff8d4fbdee1462840b68fc5_3_img.webp",
+    "section_path": "6 기술 이론 / 6.2 노내 Gas 류 제어 조업사상 / 6.2.2 중간류 확보 조업사상",
+    "filename": "노내Gas류 제어기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 조업지수와의 상관성] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/458315459c5d8cc3161208fe50cb7bc4_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 조업지수와의 상관성",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 조업지수와의 상관성] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/458315459c5d8cc3161208fe50cb7bc4_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.2 조업지수와의 상관성",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/971c5cb7780d51745b8a98595dc7755b_4_img.webp",
+    "section_path": "6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/971c5cb7780d51745b8a98595dc7755b_6_img.webp",
+    "section_path": "6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446/components/971c5cb7780d51745b8a98595dc7755b_8_img.webp",
+    "section_path": "6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화",
+    "filename": "미분탄 취입시 노내변화 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 다. 송풍온도 및 습분] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/1c2c06a595a6bb9a7a5dce9ca4a9c682_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 다. 송풍온도 및 습분",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 다. 송풍온도 및 습분] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/1c2c06a595a6bb9a7a5dce9ca4a9c682_5_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 다. 송풍온도 및 습분",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/b6ec9b53ac42343d5f374db563221591_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/b6ec9b53ac42343d5f374db563221591_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/b6ec9b53ac42343d5f374db563221591_13_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 라. 산소부화율",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 5. 이상판단 및 조치기준 / 5.2 이상판단 및 조치기준] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/b55056659e1b54b27265457f9a1aad9d_7_img.webp",
+    "section_path": "5. 이상판단 및 조치기준 / 5.2 이상판단 및 조치기준",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.1 용착대 근방에 체류] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/92bd1edd99fa3b7c3764c19c1b20cf40_8_img.webp",
+    "section_path": "6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.1 용착대 근방에 체류",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: Coal 연소성 향상방안 기준] [경로: 6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.2 Birdnest (노심 표층부) 체류] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/92bd1edd99fa3b7c3764c19c1b20cf40_20_img.webp",
+    "section_path": "6. 기술이론 / 6.3 미연 Char 의 체류 / 6.3.2 Birdnest (노심 표층부) 체류",
+    "filename": "Coal 연소성 향상방안 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.1 내용적] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/475544c61626440f40b1bb36b3b3ed17_9_img.webp",
+    "section_path": "6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.1 내용적",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.2 노고] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/475544c61626440f40b1bb36b3b3ed17_13_img.webp",
+    "section_path": "6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.2 노고",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 2
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.4 Bosh] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/b214220714a29b8097e8635a8706fff6_6_img.webp",
+    "section_path": "6 기술이론 / 6.3 노체 각 부위의 Profile 사상과 변화 / 6.3.4 Bosh",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 2 대기 조업결과] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/41f0b82cb32536e81b70eee3cb15aa7d_3_img.webp",
+    "section_path": "2 대기 조업결과",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노체 Profile 기본사상 기준] [경로: 2 대기 조업결과 / 라. 각도] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446/components/d50f8b02a769500c61070b66b494f92e_5_img.webp",
+    "section_path": "2 대기 조업결과 / 라. 각도",
+    "filename": "노체 Profile 기본사상 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/5c0b6d3277e06bb570cc54648c698468_24_img.webp",
+    "section_path": "6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446/components/c174bb4e63fa5bdab3934b080021298b_6_img.webp",
+    "section_path": "6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석",
+    "filename": "노저연와 침식기구 및 잔존 계산법 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노저 냉입사고 복구사례 기준] [경로: 4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.6 BHP Durfee Pipe 사용 복구실적] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/9376c826dbd62274ab15dd65a8c8a7a6_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.6 BHP Durfee Pipe 사용 복구실적",
+    "filename": "노저 냉입사고 복구사례 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감척,종풍 조업기술 기준] [경로: 6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/507498540c4924447f2da22f1ae1416f_16_img.webp",
+    "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.1 감척시 장입물량의 결정 (예:P3R2) / 6.1.2 Mn 광 투입량 결정 : 최종 출선시 용선중 [Mn]% 급상승에 의해 노내 절광석 용량 확인.",
+    "filename": "감척,종풍 조업기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감척,종풍 조업기술 기준] [경로: 6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/3fb68fb49b7e89503671951a1c0e1484_6_img.webp",
+    "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위",
+    "filename": "감척,종풍 조업기술 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감척,종풍 조업기술 기준] [경로: 2 불활성 Gas 취입시 폭발한계 / 마. 불활성/가연성 비에 따른 혼합 Gas 폭발(상,하한 용적율)범위(혼합 Gas=불활성 Gas+가연성 Gas, 나머지 용적은 O₂)] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/79be2c02e14e236ca6dfb04b2152842f_4_img.webp",
+    "section_path": "2 불활성 Gas 취입시 폭발한계 / 마. 불활성/가연성 비에 따른 혼합 Gas 폭발(상,하한 용적율)범위(혼합 Gas=불활성 Gas+가연성 Gas, 나머지 용적은 O₂)",
+    "filename": "감척,종풍 조업기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 감척,종풍 조업기술 기준] [경로: 2 불활성 Gas 취입시 폭발한계 / 다. 감척조업시 조업범위] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/ee1680d16c1afa6abfb5516c6522bbe7_9_img.webp",
+    "section_path": "2 불활성 Gas 취입시 폭발한계 / 다. 감척조업시 조업범위",
+    "filename": "감척,종풍 조업기술 기준",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노저 출선작업 기술기준] [경로: 4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/ff18c84105c57ff0572ea12ab843dbfb_17_img.webp",
+    "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.3 노저 저선량 계산 (예: 포항 3 고로)",
+    "filename": "노저 출선작업 기술기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노저 출선작업 기술기준] [경로: 4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446/components/0f69d2f1a06e20efb4bcacce247494b2_7_img.webp",
+    "section_path": "4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법",
+    "filename": "노저 출선작업 기술기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.1 침목공사 계획시 전제사항] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/871debdfee8415206a219e0215b16d4d_15_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.1 침목공사 계획시 전제사항",
+    "filename": "노내 침목적 작업 기술",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.1 침목공사 계획시 전제사항] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/871debdfee8415206a219e0215b16d4d_16_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.1 침목공사 계획시 전제사항",
+    "filename": "노내 침목적 작업 기술",
+    "page": 1
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/4317bb58b34e3594ccc33c10a74f4902_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/4317bb58b34e3594ccc33c10a74f4902_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/721e7624eaa928c88a23950b9c75d460_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/721e7624eaa928c88a23950b9c75d460_3_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/180d0b58995d263de5470ff0034d535e_10_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/e6b1a82c653f12bb2d83f7e694047604_1_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_009",
+    "placeholder": "{{IMG_TR_009}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준] 이 그래프에서는 세 가지 유형의 규석연과 재질의 온도별 부피 비율 변화를 나타내고 있습니다. Y축은 0.0에서 1.0까지의 범위이며, X축은 20°C부터 1450°C까지입니다. 각 선들은 다음과 같이 변동합니다.: 규석연화재(linear expansion coefficient)가 절대적으로 높으며, 약간의 급격한 부피 증가를 보여줍니다. 이는 대략 40°C에서 발생하며, 약 1.2% 정도로 측정됩니다.H-AL 연화재(dashed line)는 더 느린 부피 즟가를 보이고 있으며, 약해 0.7% 정도로 증가합니다.ZrO2 연화재(dot-dash line)는 가장 낮은 부피 변화를 보이며, 약게 0.5% 정도로 성장합니다.",
+    "keyword": [
+      "규석연화제",
+      "부피비율",
+      "%",
+      "온도",
+      "열팽창"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/e6b1a82c653f12bb2d83f7e694047604_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.3 침목적 작업방법 및 기준",
+    "filename": "노내 침목적 작업 기술",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_010",
+    "placeholder": "{{IMG_TR_010}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.4 침목 반입계획] 이 다이어글램은 연료 저장고 입구와 작업진행 직원 출퇴근 절차를 위한 보호 장비를 나타낸다. 왼쪽 원형 개방부분에는 '연료 저장고 진입구'라고 표시되어 있으며, 롤러 설치가 강조된다. 오른쪽 원형 부분에는 '직원 출발구, 모니터링 및 신호 구역'이라고 적혀 있다. 중앙 사각 부분에는 '막대거나 포장 박스'라는 라벨이 붙어있다.",
+    "keyword": [
+      "연료 저장소",
+      "보호 장비",
+      "롤러 설치",
+      "직원 충출구",
+      "모니터링"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/21b08d1fddc3f1729f99c1954b4b1504_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.4 침목 반입계획",
+    "filename": "노내 침목적 작업 기술",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_011",
+    "placeholder": "{{IMG_TR_011}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.4 침목 반입계획] 이 그림에서는 침목이 경사로부터 노내에 안전하게 반입되는 과정을 나타낸다. 이 과정에서 침목은 ROPE나 보호판 등의 보호장비를 통해 안전하게 운송되고 있으며, 이를 위해 특별한 설계된 노내가 사용된다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "노내",
+      "보호장치(ROPE)",
+      "안전"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/f61f3d664bbaab0552b00fd23b289b4d_2_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.4 침목 반입계획",
+    "filename": "노내 침목적 작업 기술",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_012",
+    "placeholder": "{{IMG_TR_012}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.5 침목 소요자재 내역] 이 도표에는 침목이 경사로에서 어떻게 설치되는지를 나타낸 단면도가 포함되어 있습니다. 이 도표에서는 침목을 구성하는 세 가지 주요 파라미터인 네비(W), 높이(H), 그리고 길이(L)가 명시적으로 표현됩니다.",
+    "keyword": [
+      "침목",
+      "경사로",
+      "단면도",
+      "네비 (W)",
+      "높이 (H)",
+      "길이 (L)"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/f61f3d664bbaab0552b00fd23b289b4d_7_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 침목 소요자재 내역",
+    "filename": "노내 침목적 작업 기술",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_013",
+    "placeholder": "{{IMG_TR_013}}",
+    "component_type": "image_trans",
+    "text": "[문서: 노내 침목적 작업 기술] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.5 침목 소요자재 내역] 이 도표에는 깎쇠의 단편적인 모습이 나타나 있으며, 이는 U형 구조를 가진 것으로 표시되어 있습니다.",
+    "keyword": [
+      "깎쇠",
+      "U형",
+      "구조",
+      "단면도"
+    ],
+    "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/f61f3d664bbaab0552b00fd23b289b4d_9_img.webp",
+    "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 침목 소요자재 내역",
+    "filename": "노내 침목적 작업 기술",
+    "page": 10
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.5 압축율] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/832f9ac49afb0445d8983d96acce1869_4_img.webp",
+    "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.5 압축율",
+    "filename": "장입물 충진작업 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (3) 조사방법] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/8599fd5dceb1e9bdb700ab490ecf5bfe_5_img.webp",
+    "section_path": "4. 조업기준 / (3) 조사방법",
+    "filename": "장입물 분포조사 기준",
+    "page": 7
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (3) 조사방법 / (3) 조사방법] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/916f767dbb15bdde64b868da566bb094_2_img.webp",
+    "section_path": "4. 조업기준 / (3) 조사방법 / (3) 조사방법",
+    "filename": "장입물 분포조사 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 장입물 분포조사 기준] [경로: 4. 조업기준 / (3) 조사방법 / (3) 조사방법] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/725c9d62fe831eed3577dd06bd7cd38c_2_img.webp",
+    "section_path": "4. 조업기준 / (3) 조사방법 / (3) 조사방법",
+    "filename": "장입물 분포조사 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.3 화입조업 실적 / 4.3.3 정상적 환원진행 판단 (노정가스안정)] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/3a7507b3cc66bff24d3cd097c113b50b_2_img.webp",
+    "section_path": "4. 조업기준 / 4.3 화입조업 실적 / 4.3.3 정상적 환원진행 판단 (노정가스안정)",
+    "filename": "조업도 상승 기준",
+    "page": 13
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 연소기술 기준] [경로: 4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.4 이론 연소공기량 계산] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446/components/ea29a94e04522f1d8d14d77a45d75a57_2_img.webp",
+    "section_path": "4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.4 이론 연소공기량 계산",
+    "filename": "열풍로 연소기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 연소기술 기준] [경로: 4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.5 이론 연소배기 Gas량 계산] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446/components/ea29a94e04522f1d8d14d77a45d75a57_4_img.webp",
+    "section_path": "4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.5 이론 연소배기 Gas량 계산",
+    "filename": "열풍로 연소기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_001",
+    "placeholder": "{{IMG_TR_001}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리] 이 도표에는 열풍로에서 발생하는 냉却 과정과 관리를 나타내고 있습니다. 초기 단계에서는 연소용 에어 팬(Air Fan), 다음으로 측렬실(Cooling Chamber)의 청결 물체(Suction Material)가 처리됩니다. 이어서 측설실(Cooler Room)으로 진행되고, 여기서 두 가지 경로로 나뉩니다 - 하나는 연결관(Link Pipe)으로 가며 다른 하나는 연소실(Furnace Room)으로 이동합니다. 연소실폰은 흡열실(Ventilation Room)으로 보내져 다시 방산변(Baffle Plate)으로 들어갑니다. 또한 연결관에서 나온 두 번째 경로 역시 연소실로 이동하며, 마지막으로 연소실에서 방산변으로 유입되는 경로가 있습니다.",
+    "keyword": [
+      "열풍로",
+      "냉卻",
+      "측열실",
+      "흡열실",
+      "(Cooling)",
+      "(Ventilation)",
+      "방산변",
+      "연소실"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/91d3b585b34befb8bae7ecd26f5f9f58_19_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 3
+  },
+  {
+    "id": "IMG_TR_002",
+    "placeholder": "{{IMG_TR_002}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리] 이 다이어글램은 HE 2에서的大气冷却空气流动的流程图。从Dome温度传感器开始，经过包含大气排气和风道温度计（Silica）在内的大室后通过各种阀门、调节阀以及压力表等设备进行控制，并最终由冷却风扇(Cooling Air Fan)(CAF)排出。",
+    "keyword": [
+      "Heat Exchanger",
+      "HE ",
+      "대기방산",
+      "Air Exhaust",
+      "방풍관 T/C",
+      "Silica T/C",
+      "Valves",
+      "Regulating Valves",
+      "Pressure Gauges"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/b9bbdbf4a2d1b6d900e6e4df601683f3_2_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 4
+  },
+  {
+    "id": "IMG_TR_003",
+    "placeholder": "{{IMG_TR_003}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리] 이 그래프에는 DOME 온 độ가 시간에 따른 변화를 나타내고 있습니다. 초기 온도는 10°C이며, 25일 후에는 약 0°C까지 감소합니다. 각 단계별 쿨링 속도 변동이 표시되어 있으며, 목표온도 선이 포함되어 있어 이를 참조할 수 있습니다。",
+    "keyword": [
+      "DOME 올도",
+      "시간",
+      "쿨링",
+      "속도",
+      "변화"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/a7cc9fec684c9f3c085f6caf98bdcc66_7_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 5
+  },
+  {
+    "id": "IMG_TR_004",
+    "placeholder": "{{IMG_TR_004}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.2 열풍로 냉각 및 승온 작업용 가설물 설치] 이 도표에는 쿨 블라스트와 홋 블러스트 시스템의 흐르기를 나타내고 있습니다. 쿨空气가 맥락에서 입구로 들어오며, 이를 통해 밀폐된 공간인 쿨 챙머(触熱室)로 이동합니다. 폐기가스는 베일 5를 통과하며, 쿨 chambre는 호热室과 연결됩니다. 호热室은 베일7을 통해 호 블레스트 시스테姆으로 연결되고, 호 브라스트 시스_tem에는 호热室, 베일8, 그리고 베일9이 포함되어 있습니다.",
+    "keyword": [
+      "쿨 블랙스트",
+      "핫 블레이스트",
+      "베일",
+      "感触室",
+      "호热室"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/e7c4ae790fae57be3b87739791ae4061_16_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.2 열풍로 냉각 및 승온 작업용 가설물 설치",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 6
+  },
+  {
+    "id": "IMG_TR_005",
+    "placeholder": "{{IMG_TR_005}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온] 이 그래프에서는 시간(hour)과 온도(Dome) 사이의 관계를 나타내고 있습니다. x축에는 시간(hour)이 표시되어 있으며 y축에는 Dome 값이 0에서 1, 200까지 변동합니다. 곡선은 느린 가열 프로세스를 나타냅니다. 주요 온도 지점들은 다음과 같습니다 : 초기에 약간 높은 온도인 25℃와 55℃가 표시되고 있음(대략적으로 4시간 후), 대략 12시간 후에는 270℃, 22시간 후에 700℃, 그리고 마지막으로 26시간 후에는 압박된 형태로 1,100℃입니다.",
+    "keyword": [
+      "온도",
+      "시간",
+      "곡선",
+      "가열",
+      "초기"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/fd2508aa3224ec5bb9390d772c658b67_7_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 8
+  },
+  {
+    "id": "IMG_TR_006",
+    "placeholder": "{{IMG_TR_006}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온] 이 도표에는 가스(COG), 공기(Air - 1차Air 35A와 2차Air 65A), 연소기(burner), 돔(Dome T/C), 실카(Silica T/C), 챌쳐(checker), 측열실(furnace), 연결관(dome connection pipe), 연돌(chimney), 여러 밸브(valves - CBMV, HBВ, BAВ, EV, ЧHV1, RV), 그리고 온도 및 유량 컨트롤(T/C, 180A과 25A) 등이 포함되어 있습니다.",
+    "keyword": [
+      "가스",
+      "COG",
+      "공기",
+      "연소기",
+      "독먼",
+      "실카",
+      "챌쳐",
+      "측열실",
+      "연결관",
+      "연돌",
+      "밸브",
+      "CBMV",
+      "HBВ",
+      "BAВ",
+      "EV",
+      "ЧHV1",
+      "RV",
+      "온도",
+      "유량"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/89d74763df65aa6158f1ba8202ef3be5_3_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 9
+  },
+  {
+    "id": "IMG_TR_007",
+    "placeholder": "{{IMG_TR_007}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.3 역송풍 Flow] 이 다이어글램은 역송풍 과정을 나타내며 주요 구성 요소에는 M/H 가스 오븐과 이 하부에 위치한 척커(Checker), 연소실, 축열실 및 흡热度 실 등이 포함되어 있습니다. BAV, ACV와 HBV 등의 밸브가 송풍을 통제하며, 배출 khí류는 치타일러티 에터버너/오븐(CAF)을 통해 팬(Fan)을 거쳐 나갑니다.",
+    "keyword": [
+      "역송풍",
+      "M/H 가스오븐",
+      "척커(Checkers)",
+      "배출기류",
+      "CAF"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/bc9556ab7a841bca73a1faac9ee1d8ec_2_img.webp",
+    "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.3 열풍로 보열 / 4.3.3 역송풍 Flow",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 13
+  },
+  {
+    "id": "IMG_TR_008",
+    "placeholder": "{{IMG_TR_008}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 6. 기술이론 / 6.1 Koppers 규석연와 열풍로의 특성 / 6.1.3 규석의 변태 팽창 곡선] No Description",
+    "keyword": [],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/a06d009e6590161f2300c9509355144e_2_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Koppers 규석연와 열풍로의 특성 / 6.1.3 규석의 변태 팽창 곡선",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 16
+  },
+  {
+    "id": "IMG_TR_009",
+    "placeholder": "{{IMG_TR_009}}",
+    "component_type": "image_trans",
+    "text": "[문서: 열풍로 개,보수기술 기준] [경로: 6. 기술이론 / 6.1 Koppers 규석연와 열풍로의 특성 / 6.1.4 열풍로용 규석연와의 열팽창] 이 그래프에서는 세 가지 유형의 규석연과 재질의 온도별 부피 비율 변화를 나타내고 있습니다. Y축은 0.0에서 1.0까지의 범위이며, X축은 20°C부터 1450°C까지입니다. 각 선들은 다음과 같이 변동합니다.: 규석연화재(linear expansion coefficient)가 절대적으로 높으며, 약간의 급격한 부피 증가를 보여줍니다. 이는 대략 40°C에서 발생하며, 약 1.2% 정도로 측정됩니다.H-AL 연화재(dashed line)는 더 느린 부피 즟가를 보이고 있으며, 약해 0.7% 정도로 증가합니다.ZrO2 연화재(dot-dash line)는 가장 낮은 부피 변화를 보이며, 약게 0.5% 정도로 성장합니다.",
+    "keyword": [
+      "규석연화제",
+      "부피비율",
+      "%",
+      "온도",
+      "열팽창"
+    ],
+    "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/a06d009e6590161f2300c9509355144e_4_img.webp",
+    "section_path": "6. 기술이론 / 6.1 Koppers 규석연와 열풍로의 특성 / 6.1.4 열풍로용 규석연와의 열팽창",
+    "filename": "열풍로 개,보수기술 기준",
+    "page": 16
+  }
+]
