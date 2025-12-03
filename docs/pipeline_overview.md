@@ -47,3 +47,13 @@
 - 이미지 TR: `description`, `image_link` (출력: image_summary, image_keyword)
 - 이미지 SUM: `image_link`, `context_before/after` (description 없음) (출력: image_summary, image_keyword)
 - 이미지 FORMULA: LLM 미사용, `description`을 text로 사용
+
+## LLM 프롬프트/튜닝 포인트
+| 파일 | 대상 | 입력 필드 | 출력 | 프롬프트 특징 | 조정 가능한 상수 |
+| --- | --- | --- | --- | --- | --- |
+| `core/llm/llm_payloads.py` (`TABLE_STR_INSTRUCTIONS`) | 테이블 정형 | row_flatten, filename, image_link | table_summary | 4~8문장, 단위·조건 보존, 조업 기준/임계값 강조 | 없음(프롬프트 직접 수정) |
+| `core/llm/llm_payloads.py` (`TABLE_UNSTR_INSTRUCTIONS`) | 테이블 비정형 | section_path, filename, image_link | table_summary | 이미지 기반 재구성, 4~8문장, 단위·조건 유지 | 없음(프롬프트 직접 수정) |
+| `core/llm/llm_payloads.py` (`IMAGE_TRANS_INSTRUCTIONS`) | 이미지 번역(IMG_TR) | description, image_link, section_path | image_summary, image_keyword | ‘이 도표/그림/그래프는’ 시작, 4~5문장, 단위·수치 보존, 키워드 5~15개 | 없음(프롬프트 직접 수정) |
+| `core/llm/llm_payloads.py` (`IMAGE_SUM_INSTRUCTIONS`) | 이미지 요약(IMG_SUM) | image_link, context_before, context_after | image_summary, image_keyword | 컨텍스트 15토큰, 축/단위/추세/흐름 4~5문장, 키워드 5~15개 | 없음(프롬프트 직접 수정) |
+| `core/llm/run_llm_payloads.py` | LLM 생성 파라미터 | payload JSON | result JSON | Qwen2.5-VL 실행, 이미지 로드 | `MAX_NEW_TOKENS`, `REPETITION_PENALTY`, `NO_REPEAT_NGRAM_SIZE` 상단 상수 |
+| `core/qdrant/qdrant_qa.py` | QA 생성 | 검색 컨텍스트 + placeholder 해석 | CSV(answer/evidence) | 시스템 프롬프트 기반 QA | 상단 상수: `SYSTEM_PROMPT`, `LLM_TEMPERATURE`, `LLM_TOP_P`, `LLM_MAX_TOKENS` (top_p는 sampling 시 의미) |
