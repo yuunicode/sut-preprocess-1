@@ -7,9 +7,8 @@ import json
 from pathlib import Path
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[1] / "output" / "sanitize"
-LOG_DIR = Path(__file__).resolve().parents[1] / "logs"
 EXTRACT_DIR = Path(__file__).resolve().parents[1] / "output" / "extract"
-DEFAULT_OUT = LOG_DIR / "components_total.json"
+DEFAULT_OUT = Path(__file__).resolve().parents[1] / "logs" / "components_total.json"
 
 
 def load_components(path: Path) -> dict:
@@ -46,7 +45,6 @@ def main() -> None:
         append_with_source(images_translation, data.get("images_translation", []))
         append_with_source(texts, data.get("texts", []))
 
-    LOG_DIR.mkdir(parents=True, exist_ok=True)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     merged = {
         "tables": tables,
@@ -87,17 +85,14 @@ def main() -> None:
         "components_images_formula.json": acc["images_formula"],
         "components_texts.json": acc["texts"],
     }
-    for name, data in split_files.items():
-        (LOG_DIR / name).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    # output/extract에도 total을 제외한 분리본을 저장
+    # output/extract에 total을 제외한 분리본을 저장
     EXTRACT_DIR.mkdir(parents=True, exist_ok=True)
     for name, data in split_files.items():
         (EXTRACT_DIR / name).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(
         f"[INFO] merged {len(tables)} tables, {len(images_summary)} image_summary, {len(images_translation)} image_translation, {len(texts)} texts "
-        f"into {args.out} and split JSONs under {LOG_DIR} (mirrored to {EXTRACT_DIR} without total)"
+        f"into {args.out} and split JSONs under {EXTRACT_DIR}"
     )
 
 
