@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Finalize tables/texts with LLM outputs into output/final."""
+"""Finalize tables/texts/images with LLM outputs into output/final."""
 from __future__ import annotations
 
 import json
@@ -21,7 +21,6 @@ def save_json(path: Path, data: Any) -> None:
 
 
 def load_table_summaries() -> Dict[str, List[str]]:
-    """Load completed table summaries from llm result (filled outputs만 사용)."""
     result_path = LLM_DIR / "llm_tables_str_result.json"
     if not result_path.exists():
         return {}
@@ -51,11 +50,12 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
+        base_text = (f"{prefix} {tbl.get('row_flatten')}".strip() if prefix else tbl.get("row_flatten"))
         base = {
             "id": tbl.get("id"),
             "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
-            "text": (f"{prefix} {tbl.get('row_flatten')}".strip() if prefix else tbl.get("row_flatten")),
+            "text": base_text,
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
             "filename": tbl.get("filename"),
@@ -277,9 +277,8 @@ def main() -> None:
     save_json(FINAL_DIR / "images_trans_final.json", images_trans)
 
     print(
-        f"[INFO] final outputs written: texts={len(texts)}, tables_str={len(tables_str)}, "
-        f"tables_unstr={len(tables_unstr)}, images_formula={len(images_formula)}, "
-        f"images_sum={len(images_sum)}, images_trans={len(images_trans)}"
+        f"[INFO] final outputs written: texts={len(texts)}, tables_str={len(tables_str)}, tables_unstr={len(tables_unstr)}, "
+        f"images_formula={len(images_formula)}, images_sum={len(images_sum)}, images_trans={len(images_trans)}"
     )
 
 
