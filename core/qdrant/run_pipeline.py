@@ -34,7 +34,7 @@ def main() -> None:
 
     ingest_cmd = [
         sys.executable,
-        "core/qdrant/qdrant_hybrid_ingest.py",
+        "core/qdrant/qdrant_ingest.py",
         "--base-dir",
         args.base_dir,
         "--qdrant-url",
@@ -53,7 +53,7 @@ def main() -> None:
     if args.qa_csv:
         qa_cmd = [
             sys.executable,
-            "core/qdrant/qdrant_hybrid_qa.py",
+            "core/qdrant/qdrant_qa.py",
             "--csv",
             args.qa_csv,
             "--collection",
