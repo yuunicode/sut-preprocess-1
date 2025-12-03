@@ -11,10 +11,13 @@
 - 산출물: `output/sanitize/**/_rule_sanitized.md`, `_placeholders.md`, `_cleaned.md`, `components.json`, 그리고 `output/extract/*.json`
 
 ## 2) LLM 단계 (GPU 권장)
-- 한 번에 실행: `python3 core/llm/run_pipeline.py` (특정 payload만 돌리려면 `--payload output/llm/tables_str_payload.json` 식으로 반복 지정)
-- 필요 파일만 GPU 서버로 옮기려면 `output/extract`와 `.models/qwen/Qwen2.5-VL-7B-Instruct`만 있으면 됨.
-- 내부 순서: llm_payloads → run_llm_payloads
-- 동일 `id+filename`의 `_result.json`이 있으면 스킵, 이미지 로드 상태 로그 출력
+- 페이로드만 생성하려면: `python3 core/llm/llm_payloads.py` (→ `output/llm/*_payload.json`)
+- GPU에서만 LLM 실행하려면: payload 파일과 모델 디렉터리(`.models/qwen/Qwen2.5-VL-7B-Instruct`)만 GPU 서버로 옮긴 뒤 `python3 core/llm/run_llm_payloads.py [payload들...]`
+- 한 번에 실행하려면: `python3 core/llm/run_pipeline.py` (특정 payload만 돌리려면 `--payload output/llm/tables_str_payload.json` 식으로 반복 지정)
+- 내부 순서
+  1) 페이로드 생성: 테이블/이미지별 입력 필드 포함
+  2) LLM 실행: `_result.json` 생성, 동일 `id+filename`이 이미 result에 있으면 스킵
+     - 이미지 파일 경로 로드 여부를 상태 로그로 출력, raw_response 포함
 
 ## 3) Final JSON 생성 (CPU)
 - 한 번에 실행: `python3 core/finalize/run_pipeline.py`

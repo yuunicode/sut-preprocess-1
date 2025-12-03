@@ -27,7 +27,7 @@ def main() -> None:
     root_arg = ["--root", args.root]
 
     run_step([sys.executable, "core/sanitize/rule_cleanup.py"])
-    run_step([sys.executable, "script/copy_components.py"])
+    run_step([sys.executable, "core/sanitize/copy_components.py"])
     run_step([sys.executable, "core/sanitize/extract_components.py", *root_arg])
     run_step([sys.executable, "core/sanitize/extract_texts.py", *root_arg])
     run_step([sys.executable, "core/sanitize/aggregate_components.py"])

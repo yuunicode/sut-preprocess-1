@@ -4,7 +4,7 @@
 - **입력**: `output/chandra/**.md` (원본 변환물)
 - **모듈/명령** (모두 `core/sanitize/`):
   1. `python3 core/sanitize/rule_cleanup.py` → `_rule_sanitized.md` (math/heading 정규화)
-  2. `python3 script/copy_components.py` → `output/sanitize/**/components/` 동기화
+  2. `python3 core/sanitize/copy_components.py` → `output/sanitize/**/components/` 동기화
   3. `python3 core/sanitize/extract_components.py --root output/sanitize` → `_placeholders.md` + `components.json` (table/image placeholder, `context_html` 없음)
   4. `python3 core/sanitize/extract_texts.py --root output/sanitize` → `_cleaned.md` 덮어쓰기 + `components.json`에 `texts` 추가
   5. `python3 core/sanitize/aggregate_components.py` → split JSON을 `output/extract/`에 생성 (`components_tables_str/unstr/images_sum/trans/formula/texts.json`, `logs/components_total.json`)
