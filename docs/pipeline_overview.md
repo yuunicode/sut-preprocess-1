@@ -33,10 +33,10 @@
 ## D. Qdrant 적재 & QA
 - **전제**: `output/final/*.json`
 - **임베딩 적재 (dense-only)**:  
-  `python3 core/qdrant/qdrant_hybrid_ingest.py --base-dir output/final --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --batch-size 32`  
+  `python3 core/qdrant/qdrant_ingest.py --base-dir output/final --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --batch-size 32`  
   - 컬렉션: `final_embeddings` 고정, `text` 필드 임베딩(+메타로 보존)
 - **QA**:  
-  `python3 core/qdrant/qdrant_hybrid_qa.py --csv input.csv --collection final_embeddings --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --llm-model qwen2.5:14b-instruct --top-k 5`  
+  `python3 core/qdrant/qdrant_qa.py --csv input.csv --collection final_embeddings --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --llm-model qwen2.5:14b-instruct --top-k 5`  
   - 상단 상수로 LLM 파라미터 조정: `SYSTEM_PROMPT`, `LLM_TEMPERATURE`, `LLM_TOP_P`, `LLM_MAX_TOKENS` (top_p는 샘플링 시만 의미)  
   - 컨텍스트에 `{{ID}}`가 있으면 동일 컬렉션에서 해당 ID 텍스트를 조회해 추가 컨텍스트로 사용  
   - 결과 CSV: `answer`, `evidence` 컬럼 추가 저장
