@@ -172,17 +172,20 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
     return finals
 
 
-def _load_image_results(filename: str) -> Dict[str, Dict[str, Any]]:
+def _load_image_results(filename: str) -> Dict[tuple[str, str | None], Dict[str, Any]]:
     path = LLM_DIR / filename
     if not path.exists():
         return {}
     data = load_json(path)
-    result_map: Dict[str, Dict[str, Any]] = {}
+    result_map: Dict[tuple[str, str | None], Dict[str, Any]] = {}
     for item in data:
         iid = item.get("id")
+        input_payload = item.get("input") or {}
+        image_link = input_payload.get("image_link")
         out = item.get("output") or {}
         if iid:
-            result_map[iid] = {
+            key = (iid, image_link or None)
+            result_map[key] = {
                 "summary": out.get("image_summary"),
                 "keyword": out.get("image_keyword") if isinstance(out.get("image_keyword"), list) else [],
             }
@@ -197,7 +200,8 @@ def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str,
     finals: List[Dict[str, Any]] = []
     for comp in comps:
         iid = comp.get("id")
-        res = result_map.get(iid, {})
+        image_link = comp.get("image_link")
+        res = result_map.get((iid, image_link)) or result_map.get((iid, None), {})
         summary = res.get("summary")
         keywords = res.get("keyword") or []
         text_val = summary if isinstance(summary, str) and summary.strip() else "No Description"
