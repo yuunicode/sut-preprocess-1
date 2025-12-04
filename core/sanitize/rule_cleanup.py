@@ -769,6 +769,8 @@ def sanitize_file(path: Path, target_dir: Path, out_dir: Path) -> Path:
     text, _ = process_inline_math(text)
     text, _ = process_block_math(text)
     text, heading_meta = process_headings(text)
+    # η_{CO} 형태를 평문으로 정규화
+    text = re.sub(r"η\s*_\s*\{?\s*CO\s*\}?", "ηCO", text)
     # 상위 헤딩 1. 적용범위 누락 시 페이지 주석 바로 아래에 추가
     if not any(re.sub(r"\s+", "", "1. 적용범위") in re.sub(r"\s+", "", h["title"]) for h in heading_meta.get("headings", [])):
         text = re.sub(
