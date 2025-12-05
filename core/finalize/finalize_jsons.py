@@ -51,11 +51,13 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        base_text = (f"{prefix} {tbl.get('row_flatten')}".strip() if prefix else tbl.get("row_flatten"))
+        original = tbl.get("row_flatten")
+        base_text = (f"{prefix} {original}".strip() if prefix else original)
         base = {
             "id": tbl.get("id"),
             "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
+            "original": original,
             "text": base_text,
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
@@ -72,6 +74,7 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
                     {
                         "id": f"{tbl.get('id')}#{idx}",
                         "component_type": "table_row",
+                        "original": row,
                         "text": row_text,
                         "image_link": tbl.get("image_link"),
                         "section_path": tbl.get("section_path"),
@@ -87,6 +90,7 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
                 {
                     "id": f"{tbl.get('id')}#summary",
                     "component_type": "table_summary",
+                    "original": summaries[tbl.get("id")],
                     "text": sum_text,
                     "image_link": tbl.get("image_link"),
                     "section_path": tbl.get("section_path"),
@@ -120,17 +124,17 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        base_text = (
+        original = (
             summary
             if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary))
             else (tbl.get("full_html") or fallback_text)
         )
-        if prefix:
-            base_text = f"{prefix} {base_text}".strip()
+        base_text = f"{prefix} {original}".strip() if prefix else original
         entry = {
             "id": tbl.get("id"),
             "placeholder": tbl.get("placeholder"),
             "component_type": tbl.get("component_type"),
+            "original": original,
             "text": base_text,
             "image_link": tbl.get("image_link"),
             "section_path": tbl.get("section_path"),
@@ -154,14 +158,14 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        text_val = comp.get("description") or "No Description"
-        if prefix:
-            text_val = f"{prefix} {text_val}".strip()
+        original = comp.get("description") or "No Description"
+        text_val = f"{prefix} {original}".strip() if prefix else original
         finals.append(
             {
                 "id": comp.get("id"),
                 "placeholder": comp.get("placeholder"),
                 "component_type": comp.get("component_type"),
+                "original": original,
                 "text": text_val,
                 "image_link": comp.get("image_link"),
                 "section_path": comp.get("section_path"),
@@ -204,20 +208,20 @@ def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str,
         res = result_map.get((iid, image_link)) or result_map.get((iid, None), {})
         summary = res.get("summary")
         keywords = res.get("keyword") or []
-        text_val = summary if isinstance(summary, str) and summary.strip() else "No Description"
+        original = summary if isinstance(summary, str) and summary.strip() else "No Description"
         prefix_parts = []
         if comp.get("filename"):
             prefix_parts.append(f"[문서: {comp.get('filename')}]")
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        if prefix:
-            text_val = f"{prefix} {text_val}".strip()
+        text_val = f"{prefix} {original}".strip() if prefix else original
         finals.append(
             {
                 "id": iid,
                 "placeholder": comp.get("placeholder"),
                 "component_type": comp.get("component_type"),
+                "original": original,
                 "text": text_val,
                 "keyword": keywords,
                 "image_link": comp.get("image_link"),
