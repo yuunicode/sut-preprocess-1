@@ -117,6 +117,38 @@ def remove_skip_markers(text: str) -> str:
     return "\n".join(lines)
 
 
+def remove_sections_with_phrase(text: str, phrase: str = "해당사항 없음") -> str:
+    """
+    헤딩(line starts with #) 내용에 phrase(공백 무시)가 포함되면
+    해당 헤딩과 다음 헤딩 전까지의 본문을 제거한다.
+    페이지 주석은 스킵 구간에서도 보존한다.
+    """
+    target = re.sub(r"\s+", "", phrase)
+    heading_re = re.compile(r"^(#{1,6})\s+(.*)")
+    page_comment_re = re.compile(r"<!--\s*페이지번호:.*-->")
+
+    lines = text.splitlines()
+    out: list[str] = []
+    skip = False
+    for line in lines:
+        stripped = line.strip()
+        hmatch = heading_re.match(stripped)
+        if hmatch:
+            title = re.sub(r"\s+", "", hmatch.group(2))
+            if target and target in title:
+                skip = True
+                continue
+            skip = False
+            out.append(line)
+            continue
+        if skip:
+            if page_comment_re.match(stripped):
+                out.append(line)
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 # ---------- 텍스트 컴포넌트 생성 ----------
 def build_component_map(comp_data: dict) -> dict:
     """placeholder id -> image/table url 매핑 생성."""
@@ -228,6 +260,7 @@ def process_file(path: Path) -> None:
     content = path.read_text(encoding="utf-8")
     cleaned = clean_html_to_text(content)
     cleaned = remove_skip_markers(cleaned)
+    cleaned = remove_sections_with_phrase(cleaned)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
     out_path = path.with_name(path.name.replace(TARGET_SUFFIX, OUTPUT_SUFFIX))
     out_path.write_text(cleaned + ("\n" if cleaned else ""), encoding="utf-8")
