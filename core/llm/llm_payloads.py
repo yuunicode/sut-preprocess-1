@@ -7,11 +7,14 @@ import json
 import re
 from pathlib import Path
 from typing import Dict, List, Optional
+from bs4 import BeautifulSoup
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 EXTRACT_DIR = REPO_ROOT / "output" / "extract"
 LLM_DIR = REPO_ROOT / "output" / "llm"
 DEFAULT_WINDOW = 15
+DEFAULT_DIGIT_ONLY_RATIO_THRESHOLD = 0.3
+DIGIT_HEAVY_LOG = REPO_ROOT / "logs" / "digit_heavy_tables.log"
 
 TABLE_STR_INSTRUCTIONS = """
 너는 제선·제철 공정 문서에서 제공되는 테이블 데이터를 해석해 핵심 의미를 압축해 전달하는 기술 요약 담당자이다. 
@@ -132,9 +135,85 @@ def get_context_windows(cleaned_path: Path, placeholder_id: str, window: int = D
     return before, after
 
 
-def build_table_payloads(str_items: list[dict], unstr_items: list[dict]) -> tuple[list[dict], list[dict]]:
+def normalize_ratio_threshold(value: float) -> float:
+    """Allow percent(0~100) or ratio(0~1) inputs, clamped to 0~1."""
+    if value > 1:
+        value = value / 100.0
+    return max(0.0, min(1.0, value))
+
+
+def cell_is_numeric_only(text: str) -> bool:
+    """Return True if the cell contains only numeric tokens (허용: 숫자, ., ,, +, -, /, %)."""
+    if not text:
+        return False
+    normalized = re.sub(r"[\s,]", "", text)
+    if not normalized:
+        return False
+    return bool(re.fullmatch(r"[0-9.+/%-]+", normalized))
+
+
+def iter_table_cell_texts(table_html: str) -> list[str]:
+    if not table_html:
+        return []
+    soup = BeautifulSoup(table_html, "html.parser")
+    table = soup.find("table")
+    if not table:
+        return []
+    texts: list[str] = []
+    for cell in table.find_all(["th", "td"]):
+        img_alts = []
+        for img in cell.find_all("img"):
+            alt = img.get("alt", "").strip()
+            if alt:
+                img_alts.append(alt)
+            img.decompose()
+        text = cell.get_text(" ", strip=True)
+        if img_alts:
+            alt_text = " / ".join(img_alts)
+            text = f"{text} (이미지: {alt_text})" if text else f"(이미지: {alt_text})"
+        if text:
+            texts.append(text)
+    return texts
+
+
+def should_skip_table_for_digits(
+    table_item: dict, digit_only_ratio_threshold: float
+) -> tuple[bool, float, int, int]:
+    table_html = table_item.get("table_html") or ""
+    cells = iter_table_cell_texts(table_html)
+    total_cells = len(cells)
+    digit_only_count = sum(1 for c in cells if cell_is_numeric_only(c))
+    digit_only_ratio_val = (digit_only_count / total_cells) if total_cells else 0.0
+    if total_cells and digit_only_ratio_val >= digit_only_ratio_threshold:
+        return True, digit_only_ratio_val, digit_only_count, total_cells
+    return False, digit_only_ratio_val, digit_only_count, total_cells
+
+
+def build_table_payloads(
+    str_items: list[dict],
+    unstr_items: list[dict],
+    digit_only_ratio_threshold: float,
+) -> tuple[list[dict], list[dict], list[dict]]:
     str_payloads: list[dict] = []
+    skipped_str: list[dict] = []
     for item in str_items:
+        skip, digit_only_ratio_val, digit_only_count, total_cells = should_skip_table_for_digits(
+            item, digit_only_ratio_threshold
+        )
+        if skip:
+            skipped_str.append(
+                {
+                    "id": item.get("id"),
+                    "filename": item.get("filename"),
+                    "section_path": item.get("section_path"),
+                    "page": item.get("page"),
+                    "image_link": item.get("image_link"),
+                    "digit_only_ratio": round(digit_only_ratio_val, 4),
+                    "digit_only_cells": digit_only_count,
+                    "total_cells": total_cells,
+                }
+            )
+            continue
         str_payloads.append(
             {
                 "id": item.get("id"),
@@ -162,7 +241,7 @@ def build_table_payloads(str_items: list[dict], unstr_items: list[dict]) -> tupl
                 "output": {"table_summary": []},
             }
         )
-    return str_payloads, unstr_payloads
+    return str_payloads, unstr_payloads, skipped_str
 
 
 def build_image_translation_payloads(items: list[dict]) -> list[dict]:
@@ -208,18 +287,47 @@ def build_image_summary_payloads(items: list[dict]) -> list[dict]:
     return payloads
 
 
+def write_digit_heavy_log(
+    log_path: Path, skipped: list[dict], digit_only_ratio_threshold: float
+) -> None:
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("w", encoding="utf-8") as f:
+        f.write(
+            "# digit-heavy table_str skipped "
+            f"(digit_only_ratio>={digit_only_ratio_threshold:.2f})\n"
+        )
+        for item in skipped:
+            f.write(
+                f"id={item.get('id')} filename={item.get('filename')} "
+                f"section_path={item.get('section_path')} page={item.get('page')} "
+                f"image_link={item.get('image_link')} "
+                f"digit_only_ratio={item.get('digit_only_ratio')} "
+                f"digit_only_cells={item.get('digit_only_cells')} total_cells={item.get('total_cells')}\n"
+            )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Create LLM payloads from split components JSONs.")
     parser.add_argument("--extract-dir", type=Path, default=EXTRACT_DIR, help="split components JSON 위치 (기본: output/extract)")
     parser.add_argument("--out-dir", type=Path, default=LLM_DIR, help="LLM payload 출력 위치 (기본: output/llm)")
+    parser.add_argument(
+        "--cell-digit-only-ratio",
+        type=float,
+        default=DEFAULT_DIGIT_ONLY_RATIO_THRESHOLD,
+        help="테이블 셀 중 숫자만 있는 셀이 임계치 이상이면 table_str payload를 제외 (0~1 비율 또는 0~100 백분율)",
+    )
     args = parser.parse_args()
+
+    digit_only_ratio_threshold = normalize_ratio_threshold(args.cell_digit_only_ratio)
 
     tables_str = load_json(args.extract_dir / "components_tables_str.json")
     tables_unstr = load_json(args.extract_dir / "components_tables_unstr.json")
     images_sum = load_json(args.extract_dir / "components_images_sum.json")
     images_trans = load_json(args.extract_dir / "components_images_trans.json")
 
-    str_payloads, unstr_payloads = build_table_payloads(tables_str, tables_unstr)
+    str_payloads, unstr_payloads, skipped_str = build_table_payloads(
+        tables_str, tables_unstr, digit_only_ratio_threshold
+    )
     trans_payloads = build_image_translation_payloads(images_trans)
     sum_payloads = build_image_summary_payloads(images_sum)
 
@@ -229,10 +337,18 @@ def main() -> None:
     save_json(args.out_dir / "llm_images_trans_payload.json", trans_payloads)
     save_json(args.out_dir / "llm_images_sum_payload.json", sum_payloads)
 
+    write_digit_heavy_log(DIGIT_HEAVY_LOG, skipped_str, digit_only_ratio_threshold)
+
     print(
-        f"[INFO] LLM payloads generated: tables_str={len(str_payloads)}, tables_unstr={len(unstr_payloads)}, "
-        f"images_trans={len(trans_payloads)}, images_sum={len(sum_payloads)} into {args.out_dir}"
+        f"[INFO] LLM payloads generated: tables_str={len(str_payloads)} "
+        f"(skipped={len(skipped_str)} @ digit_only_ratio>={digit_only_ratio_threshold:.2f}), "
+        f"tables_unstr={len(unstr_payloads)}, images_trans={len(trans_payloads)}, "
+        f"images_sum={len(sum_payloads)} into {args.out_dir}"
     )
+    if skipped_str:
+        preview = ", ".join(filter(None, [item.get("id") for item in skipped_str[:10]]))
+        suffix = "..." if len(skipped_str) > 10 else ""
+        print(f"[INFO] skipped table_str ids (digit-heavy cells): {preview}{suffix}")
 
 
 if __name__ == "__main__":
