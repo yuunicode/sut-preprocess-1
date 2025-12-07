@@ -19,6 +19,9 @@ class Collection(Enum):
     FINAL = "final_embeddings"
 
 
+DEFAULT_COLLECTION = Collection.FINAL.value
+
+
 def load_json(path: Path):
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -54,9 +57,19 @@ def iter_records(base_dir: Path) -> Iterable[Dict[str, object]]:
                 "record_type": rtype,
                 "source_file": str(fpath),
                 "text": text,
+                "original": item.get("original"),
             }
             # 메타데이터 보존
-            for key in ["placeholder", "component_type", "image_link", "section_path", "filename", "page"]:
+            for key in [
+                "placeholder",
+                "component_type",
+                "image_link",
+                "section_path",
+                "filename",
+                "page",
+                "placeholders",
+                "original",
+            ]:
                 if key in item:
                     rec[key] = item.get(key)
             yield rec
@@ -89,6 +102,7 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     parser.add_argument("--qdrant-url", default=os.environ.get("QDRANT_URL", "http://localhost:6333"))
     parser.add_argument("--ollama-url", default=os.environ.get("OLLAMA_URL", "http://localhost:11434"))
     parser.add_argument("--embed-model", default="snowflake-arctic-embed2", help="Ollama 임베딩 모델명")
+    parser.add_argument("--collection", default=DEFAULT_COLLECTION, help="Qdrant 컬렉션명 (기본: final_embeddings)")
     parser.add_argument("--batch-size", type=int, default=32)
     return parser.parse_args(argv)
 
@@ -105,13 +119,33 @@ def main(argv: Optional[List[str]] = None) -> int:
     sparse_vectors: List[Dict[str, List[float]]] = []
     dense_size: Optional[int] = None
 
+    def make_point_id(rec: Dict[str, object]) -> str | int:
+        """
+        Qdrant point id 생성: 동일 id를 여러 문서에서 재사용해도 충돌하지 않도록
+        record_type/id/placeholder/filename/image_link/section_path/page를 모두 포함해 UUID5를 만든다.
+        """
+        parts = [
+            rec.get("record_type") or "",
+            rec.get("id") or rec.get("placeholder") or "",
+            rec.get("filename") or "",
+            rec.get("image_link") or "",
+            rec.get("section_path") or "",
+            rec.get("page") or "",
+        ]
+        key = "||".join(str(p) for p in parts)
+        # UUID string을 입력해도 동일 결과가 나오도록 한번 더 UUID5로 감싼다.
+        return str(uuid.uuid5(uuid.NAMESPACE_URL, key))
+
     def flush_batch():
         nonlocal buffer, dense_vectors
         if not buffer:
             return
-        ids = [str(uuid.uuid4()) for _ in buffer]
+        # point ID는 payload 기반으로 생성한 UUID/int 사용
+        ids: List[str | int] = []
+        for rec in buffer:
+            ids.append(make_point_id(rec))
         client.upsert(
-            collection_name=Collection.FINAL.value,
+            collection_name=args.collection,
             points=qmodels.Batch(ids=ids, vectors={"dense": dense_vectors}, payloads=buffer),
         )
         buffer.clear()
@@ -124,7 +158,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         dense = embed_dense(content, model=args.embed_model, url=args.ollama_url)
         if dense_size is None:
             dense_size = len(dense)
-            ensure_collection(client, Collection.FINAL.value, dense_size)
+            ensure_collection(client, args.collection, dense_size)
         buffer.append(record)
         dense_vectors.append(dense)
 
@@ -134,10 +168,10 @@ def main(argv: Optional[List[str]] = None) -> int:
     if buffer:
         if dense_size is None:
             raise RuntimeError("No embeddings generated.")
-        ensure_collection(client, Collection.FINAL.value, dense_size)
+        ensure_collection(client, args.collection, dense_size)
         flush_batch()
 
-    print(f"[DONE] Ingested into collection '{Collection.FINAL.value}'")
+    print(f"[DONE] Ingested into collection '{args.collection}'")
     return 0
 
 

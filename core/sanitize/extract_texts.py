@@ -176,10 +176,11 @@ def chunk_by_numeric_heading(text: str) -> list[dict]:
     chunks: list[dict] = []
     current: list[str] = []
     section_stack: list[str] = []
-    current_page = None
+    current_pages: list[int] = []
     current_filename = None
 
     def push_chunk():
+        nonlocal current_pages
         if not current:
             return
         body = "\n".join(current).strip()
@@ -189,21 +190,29 @@ def chunk_by_numeric_heading(text: str) -> list[dict]:
         chunks.append(
             {
                 "section_path": " / ".join(section_stack) if section_stack else "",
-                "page": current_page,
+                "page": list(current_pages),
                 "filename": current_filename,
                 "text": body,
             }
         )
         current.clear()
+        if current_pages:
+            current_pages = [current_pages[-1]]
 
     for line in text.splitlines():
         stripped = line.strip()
         if stripped.startswith("<!-- 페이지번호:"):
-            push_chunk()
             m = re.search(r"페이지번호:\s*(\d+),\s*파일명:\s*(.*?)\s*-->", stripped)
             if m:
-                current_page = int(m.group(1))
-                current_filename = m.group(2)
+                new_page = int(m.group(1))
+                new_filename = m.group(2)
+                if current_filename and new_filename != current_filename:
+                    push_chunk()
+                    section_stack.clear()
+                    current_pages = []
+                current_filename = new_filename
+                if new_page not in current_pages:
+                    current_pages.append(new_page)
             continue
         hmatch = re.match(r"^(#{1,6})\s+(.*)", stripped)
         if hmatch:
