@@ -1,0 +1,101 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      45,
+      332,
+      1197,
+      504
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      86,
+      855,
+      1197,
+      1326
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      112,
+      167,
+      1172,
+      819
+    ],
+    "image": "components/908273cbc0d61536e171d0be7e9d495a_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      125,
+      0,
+      1200,
+      383
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85,
+      781,
+      1199,
+      1394
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      87,
+      0,
+      1199,
+      374
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      44,
+      48,
+      1182,
+      1327
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      44,
+      0,
+      1181,
+      1348
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      44,
+      0,
+      1181,
+      718
+    ],
+    "image": "components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  }
+]

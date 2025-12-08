@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      73,
+      330,
+      1174,
+      444
+    ],
+    "image": "components/TP-030-040-080 뱅킹(Banking) 조업 기준(Rev.10)_0900bf4ba7a2b08a_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      45,
+      556,
+      1187,
+      1256
+    ],
+    "image": "components/TP-030-040-080 뱅킹(Banking) 조업 기준(Rev.10)_0900bf4ba7a2b08a_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      45,
+      28,
+      1186,
+      968
+    ],
+    "image": "components/TP-030-040-080 뱅킹(Banking) 조업 기준(Rev.10)_0900bf4ba7a2b08a_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      28,
+      1186,
+      1057
+    ],
+    "image": "components/TP-030-040-080 뱅킹(Banking) 조업 기준(Rev.10)_0900bf4ba7a2b08a_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      43,
+      27,
+      1187,
+      1012
+    ],
+    "image": "components/TP-030-040-080 뱅킹(Banking) 조업 기준(Rev.10)_0900bf4ba7a2b08a_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  }
+]

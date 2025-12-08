@@ -1,0 +1,310 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      180,
+      1189,
+      457
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      571,
+      1189,
+      670
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      858,
+      1189,
+      1021
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      84,
+      112,
+      1178,
+      1329
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      79,
+      178,
+      1167,
+      1159
+    ],
+    "image": "components/c05d6608c24da0c7253fe2e9bb2d8222_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      96,
+      55,
+      1218,
+      971
+    ],
+    "image": "components/df490be95396e659ad058da1357d1511_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      63,
+      127,
+      821,
+      946
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      100,
+      1088,
+      727,
+      1185
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      888,
+      240,
+      1161,
+      302
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      888,
+      315,
+      1173,
+      375
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      869,
+      491,
+      1143,
+      553
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      869,
+      568,
+      1154,
+      628
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      850,
+      697,
+      1161,
+      757
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      863,
+      768,
+      1175,
+      866
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      861,
+      842,
+      1110,
+      904
+    ],
+    "image": "components/47a0bdbfde1c3e638d96877f1c48a8c8_21_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      214,
+      377,
+      1092,
+      815
+    ],
+    "image": "components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      168,
+      166,
+      374,
+      505
+    ],
+    "image": "components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      518,
+      166,
+      721,
+      505
+    ],
+    "image": "components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      869,
+      166,
+      1071,
+      505
+    ],
+    "image": "components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      102,
+      750,
+      654,
+      812
+    ],
+    "image": "components/0f14c57f655dbb64ec9a967129b0665f_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      72,
+      7,
+      632,
+      375
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      639,
+      7,
+      1195,
+      375
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      69,
+      351,
+      626,
+      696
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      642,
+      357,
+      1185,
+      700
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      69,
+      694,
+      649,
+      1024
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      631,
+      694,
+      1195,
+      1024
+    ],
+    "image": "components/562d9402b303a7c4b91ce0c34e4ce426_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      86,
+      256,
+      1186,
+      448
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      96,
+      563,
+      1186,
+      751
+    ],
+    "image": "components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png",
+    "label": "Table"
+  }
+]

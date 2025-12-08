@@ -1,0 +1,189 @@
+[
+  {
+    "page": 2,
+    "bbox": [
+      158,
+      486,
+      1206,
+      1150
+    ],
+    "image": "components/d1cc4d2b316fdc1323b58142053b8107_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      126,
+      0,
+      1172,
+      1206
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67,
+      49,
+      1199,
+      1373
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      335,
+      752,
+      695,
+      848
+    ],
+    "image": "components/507498540c4924447f2da22f1ae1416f_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      149,
+      789,
+      1056,
+      961
+    ],
+    "image": "components/507498540c4924447f2da22f1ae1416f_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      358,
+      932,
+      909,
+      1378
+    ],
+    "image": "components/507498540c4924447f2da22f1ae1416f_16_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      155,
+      296,
+      1161,
+      815
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      98,
+      343,
+      1136,
+      980
+    ],
+    "image": "components/3fb68fb49b7e89503671951a1c0e1484_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      75,
+      1083,
+      1200,
+      1272
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      76,
+      0,
+      1199,
+      265
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      127,
+      326,
+      1105,
+      925
+    ],
+    "image": "components/79be2c02e14e236ca6dfb04b2152842f_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      59,
+      1019,
+      1174,
+      1332
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      164,
+      227,
+      891,
+      401
+    ],
+    "image": "components/ee1680d16c1afa6abfb5516c6522bbe7_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      164,
+      377,
+      702,
+      472
+    ],
+    "image": "components/ee1680d16c1afa6abfb5516c6522bbe7_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      164,
+      416,
+      715,
+      509
+    ],
+    "image": "components/ee1680d16c1afa6abfb5516c6522bbe7_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      52,
+      645,
+      1187,
+      1184
+    ],
+    "image": "components/ee1680d16c1afa6abfb5516c6522bbe7_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      49,
+      0,
+      1197,
+      346
+    ],
+    "image": "components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  }
+]

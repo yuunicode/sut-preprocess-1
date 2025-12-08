@@ -1,0 +1,79 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      331,
+      1189,
+      453
+    ],
+    "image": "components/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      196,
+      969,
+      495,
+      1266
+    ],
+    "image": "components/f4c835287ada07dbe3f34f9b5a031ad7_13_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      686,
+      969,
+      1076,
+      1254
+    ],
+    "image": "components/f4c835287ada07dbe3f34f9b5a031ad7_15_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      192,
+      193,
+      1140,
+      414
+    ],
+    "image": "components/TP-030-070-040 Ore 입도별 장입기술 기준(Rev.8)_0900bf4ba7a2bc76_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      404,
+      698,
+      835,
+      914
+    ],
+    "image": "components/44ef6aee612a5b24bd54f1ce07e71426_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      169,
+      220,
+      1109,
+      947
+    ],
+    "image": "components/696f431c6734f514201936814d595a75_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      187,
+      58,
+      1126,
+      763
+    ],
+    "image": "components/f535d6a98ad2c8a2d2135db0be0d6abe_2_img.webp",
+    "label": "Figure"
+  }
+]

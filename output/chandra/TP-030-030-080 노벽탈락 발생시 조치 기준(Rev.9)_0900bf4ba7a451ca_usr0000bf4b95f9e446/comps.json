@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      443,
+      1187,
+      570
+    ],
+    "image": "components/TP-030-030-080 노벽탈락 발생시 조치 기준(Rev.9)_0900bf4ba7a451ca_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      206,
+      377,
+      681,
+      435
+    ],
+    "image": "components/5e14f9341939c73e6be217e9eb69c8e7_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      111,
+      903,
+      1137,
+      1370
+    ],
+    "image": "components/TP-030-030-080 노벽탈락 발생시 조치 기준(Rev.9)_0900bf4ba7a451ca_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      51,
+      85,
+      1186,
+      612
+    ],
+    "image": "components/TP-030-030-080 노벽탈락 발생시 조치 기준(Rev.9)_0900bf4ba7a451ca_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      947,
+      138,
+      1160,
+      553
+    ],
+    "image": "components/3f9f5000cfc56c7a5779663d6bde7961_4_img.webp",
+    "label": "Image"
+  }
+]

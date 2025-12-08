@@ -1,0 +1,46 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      294,
+      1189,
+      417
+    ],
+    "image": "components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      215,
+      909,
+      951,
+      1343
+    ],
+    "image": "components/371e8964fede903a3c8ef918bc3ef887_15_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      88,
+      359,
+      542,
+      976
+    ],
+    "image": "components/9dffcd6c7a0dcd4858db1b2894bf123c_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      106,
+      34,
+      1163,
+      600
+    ],
+    "image": "components/TP-030-070-030 장입물 분포제어와 연화융착대 형상기준(Rev.8)_0900bf4ba7a466b7_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  }
+]

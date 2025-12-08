@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      295,
+      1184,
+      409
+    ],
+    "image": "components/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      225,
+      607,
+      1059,
+      929
+    ],
+    "image": "components/b1be10e92f80b5b65b781845e8b1d58a_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      103,
+      1173,
+      354
+    ],
+    "image": "components/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      430,
+      1173,
+      684
+    ],
+    "image": "components/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      78,
+      1032,
+      1154,
+      1314
+    ],
+    "image": "components/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446_p002_table_03.png",
+    "label": "Table"
+  }
+]

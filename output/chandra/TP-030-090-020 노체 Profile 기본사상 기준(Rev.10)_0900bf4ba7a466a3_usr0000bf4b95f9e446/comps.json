@@ -1,0 +1,266 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      134,
+      816,
+      1192,
+      1344
+    ],
+    "image": "components/97e3edcc26360057d84778a5ae0f3b49_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      708,
+      228,
+      1164,
+      628
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      724,
+      719,
+      1164,
+      1115
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      456,
+      1161,
+      625,
+      1221
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      255,
+      1198,
+      407,
+      1259
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      456,
+      1198,
+      743,
+      1259
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_17_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      456,
+      1236,
+      1038,
+      1296
+    ],
+    "image": "components/475544c61626440f40b1bb36b3b3ed17_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      154,
+      226,
+      737,
+      285
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      525,
+      264,
+      904,
+      323
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      505,
+      301,
+      1139,
+      360
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      530,
+      340,
+      877,
+      397
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      532,
+      376,
+      820,
+      435
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      182,
+      637,
+      748,
+      696
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      182,
+      673,
+      705,
+      732
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      182,
+      710,
+      680,
+      769
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      182,
+      747,
+      694,
+      806
+    ],
+    "image": "components/6b5bb03ee9fb725303fe54c31bb7467f_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      46,
+      328,
+      685,
+      793
+    ],
+    "image": "components/TP-030-090-020 노체 Profile 기본사상 기준(Rev.10)_0900bf4ba7a466a3_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      805,
+      315,
+      1151,
+      848
+    ],
+    "image": "components/b214220714a29b8097e8635a8706fff6_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      123,
+      105,
+      459,
+      622
+    ],
+    "image": "components/b346bd69688d3b38e1ad38694ed3fe6d_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      645,
+      135,
+      986,
+      598
+    ],
+    "image": "components/b346bd69688d3b38e1ad38694ed3fe6d_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      805,
+      691,
+      1174,
+      1154
+    ],
+    "image": "components/b346bd69688d3b38e1ad38694ed3fe6d_10_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      365,
+      276,
+      755,
+      654
+    ],
+    "image": "components/41f0b82cb32536e81b70eee3cb15aa7d_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      211,
+      1086,
+      430,
+      1147
+    ],
+    "image": "components/41f0b82cb32536e81b70eee3cb15aa7d_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      124,
+      316,
+      1115,
+      745
+    ],
+    "image": "components/d50f8b02a769500c61070b66b494f92e_5_img.webp",
+    "label": "Figure"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      44,
+      530,
+      1184,
+      1352
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      95,
+      868,
+      1137,
+      1196
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      109,
+      3,
+      1125,
+      815
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      74,
+      21,
+      1156,
+      1279
+    ],
+    "image": "components/443ef136ea8d6bbb5379db9963efb395_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      76,
+      9,
+      1177,
+      1273
+    ],
+    "image": "components/fd59fd29f19622186d7caac437970a2a_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      95,
+      442,
+      1136,
+      1282
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      118,
+      189,
+      1199,
+      1063
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      78,
+      0,
+      1171,
+      880
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      64,
+      270,
+      1108,
+      1321
+    ],
+    "image": "components/2bb40af77e0b31914cb04d926a64f12f_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      124,
+      182,
+      1111,
+      682
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      57,
+      0,
+      1181,
+      556
+    ],
+    "image": "components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p012_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      178,
+      34,
+      1027,
+      623
+    ],
+    "image": "components/3a7507b3cc66bff24d3cd097c113b50b_2_img.webp",
+    "label": "Figure"
+  }
+]

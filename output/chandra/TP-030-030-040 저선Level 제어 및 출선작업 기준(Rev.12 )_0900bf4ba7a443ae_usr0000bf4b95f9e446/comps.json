@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      55,
+      370,
+      1187,
+      489
+    ],
+    "image": "components/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      160,
+      374,
+      1030,
+      435
+    ],
+    "image": "components/edb78daa125145cf475c92d520e6cf30_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      203,
+      601,
+      1081,
+      697
+    ],
+    "image": "components/edb78daa125145cf475c92d520e6cf30_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      136,
+      499,
+      1141,
+      757
+    ],
+    "image": "components/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      141,
+      791,
+      1120,
+      950
+    ],
+    "image": "components/cc77d1a59998f3e0305be2910f69318c_9_img.webp",
+    "label": "Figure"
+  }
+]

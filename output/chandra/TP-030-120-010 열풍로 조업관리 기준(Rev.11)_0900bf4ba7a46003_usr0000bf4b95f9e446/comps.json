@@ -1,0 +1,178 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      50,
+      371,
+      1184,
+      505
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      50,
+      621,
+      1184,
+      856
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      47,
+      934,
+      1187,
+      1125
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      161,
+      414,
+      1193,
+      548
+    ],
+    "image": "components/55594d5ee05d4cb7432ba265972549d4_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      137,
+      1016,
+      1097,
+      1150
+    ],
+    "image": "components/55594d5ee05d4cb7432ba265972549d4_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      137,
+      1128,
+      1107,
+      1262
+    ],
+    "image": "components/55594d5ee05d4cb7432ba265972549d4_22_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      159,
+      408,
+      1071,
+      766
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      106,
+      813,
+      593,
+      910
+    ],
+    "image": "components/995d0950588ee75e3090b06bc88487a9_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      59,
+      0,
+      1173,
+      590
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      150,
+      673,
+      812,
+      770
+    ],
+    "image": "components/6df912a528537deac1fe36810f637c9d_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      91,
+      705,
+      1144,
+      842
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p005_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      73,
+      82,
+      1091,
+      377
+    ],
+    "image": "components/b79b07c12f6f6c53e6de04e8287208b6_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      182,
+      480,
+      919,
+      953
+    ],
+    "image": "components/b79b07c12f6f6c53e6de04e8287208b6_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      79,
+      259,
+      1185,
+      439
+    ],
+    "image": "components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      160,
+      451,
+      1193,
+      657
+    ],
+    "image": "components/8972846d342ddba9bc8688a11657b4d0_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      308,
+      638,
+      559,
+      733
+    ],
+    "image": "components/8972846d342ddba9bc8688a11657b4d0_9_img.webp",
+    "label": "Math-Block"
+  }
+]

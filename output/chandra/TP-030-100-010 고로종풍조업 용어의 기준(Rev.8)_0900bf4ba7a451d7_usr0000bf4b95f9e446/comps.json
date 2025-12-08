@@ -1,0 +1,68 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      85,
+      408,
+      1197,
+      541
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      99,
+      620,
+      1214,
+      1303
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      101,
+      0,
+      1213,
+      499
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      101,
+      501,
+      1213,
+      1245
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      101,
+      31,
+      1216,
+      687
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      101,
+      725,
+      1216,
+      1190
+    ],
+    "image": "components/TP-030-100-010 고로종풍조업 용어의 기준(Rev.8)_0900bf4ba7a451d7_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  }
+]

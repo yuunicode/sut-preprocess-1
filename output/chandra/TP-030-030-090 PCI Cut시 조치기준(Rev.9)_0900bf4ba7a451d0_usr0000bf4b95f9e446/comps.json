@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      521,
+      1160,
+      640
+    ],
+    "image": "components/TP-030-030-090 PCI Cut시 조치기준(Rev.9)_0900bf4ba7a451d0_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      163,
+      93,
+      1118,
+      983
+    ],
+    "image": "components/4a38b53685409d1d889cb8cacd7d1a02_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      172,
+      902,
+      662,
+      1037
+    ],
+    "image": "components/6364b54dc9ee19ec81a80fab5e0caa13_10_img.webp",
+    "label": "Math-Block"
+  }
+]

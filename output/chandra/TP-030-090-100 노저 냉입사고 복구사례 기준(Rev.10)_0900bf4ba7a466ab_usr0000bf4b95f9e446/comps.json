@@ -1,0 +1,189 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      75,
+      365,
+      1197,
+      512
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      32,
+      8,
+      1187,
+      1333
+    ],
+    "image": "components/0eb030a0a5b12a6bcbdbc4ccb17f5c04_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      142,
+      143,
+      1156,
+      1403
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      106,
+      112,
+      1166,
+      620
+    ],
+    "image": "components/9376c826dbd62274ab15dd65a8c8a7a6_3_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      125,
+      1102,
+      1200,
+      1342
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      75,
+      12,
+      1160,
+      643
+    ],
+    "image": "components/ad61264bdc5709aaa008bdc89ffdc41b_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      165,
+      782,
+      1170,
+      1147
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      85,
+      943,
+      1196,
+      1336
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p009_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      112,
+      722,
+      1107,
+      1363
+    ],
+    "image": "components/5e310f3ac5a12f9c9b90cf0fa6ea7249_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      97,
+      643,
+      1136,
+      1290
+    ],
+    "image": "components/7818d5cd66c3dba25f3d8ec5cb5f5ee1_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      92,
+      9,
+      1136,
+      687
+    ],
+    "image": "components/612931779807621169677a6e618944f1_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      115,
+      724,
+      1137,
+      1397
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p015_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      96,
+      8,
+      1159,
+      688
+    ],
+    "image": "components/16e8996c84ae21be4228816fc0d6e291_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      685,
+      663,
+      1116,
+      1092
+    ],
+    "image": "components/16e8996c84ae21be4228816fc0d6e291_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      96,
+      12,
+      1154,
+      349
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p017_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      85,
+      340,
+      1145,
+      993
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p017_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      96,
+      2,
+      1133,
+      843
+    ],
+    "image": "components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p018_table_01.png",
+    "label": "Table"
+  }
+]

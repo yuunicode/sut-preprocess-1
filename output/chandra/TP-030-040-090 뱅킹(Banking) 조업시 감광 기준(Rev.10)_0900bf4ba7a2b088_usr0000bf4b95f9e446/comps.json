@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      80,
+      330,
+      1161,
+      454
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      89,
+      569,
+      1197,
+      1203
+    ],
+    "image": "components/231e67dff5d0611aea30b4d9f19922fb_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      103,
+      1187,
+      922
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      959,
+      1187,
+      1209
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      107,
+      190,
+      454,
+      1337
+    ],
+    "image": "components/9b66af80bf345a99407d9dfe13f83f5f_3_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      460,
+      404,
+      1089,
+      1335
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      109,
+      114,
+      455,
+      1260
+    ],
+    "image": "components/007f64810fec99f18493a8e1b6896bd2_2_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      482,
+      328,
+      1115,
+      1254
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      108,
+      123,
+      455,
+      1272
+    ],
+    "image": "components/4f10452b4ffa97f74e56b8bd5ad540b6_2_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      492,
+      340,
+      1114,
+      1262
+    ],
+    "image": "components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  }
+]

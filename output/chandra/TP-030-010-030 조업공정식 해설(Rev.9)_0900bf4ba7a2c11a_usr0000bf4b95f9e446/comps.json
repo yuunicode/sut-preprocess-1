@@ -1,0 +1,629 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      295,
+      1241,
+      415
+    ],
+    "image": "components/TP-030-010-030 조업공정식 해설(Rev.9)_0900bf4ba7a2c11a_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      548,
+      1241,
+      663
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      665,
+      1241,
+      771
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      773,
+      1241,
+      886
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      947,
+      1241,
+      1009
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      1010,
+      1241,
+      1124
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_21_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      1112,
+      1241,
+      1220
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_22_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0,
+      1237,
+      1241,
+      1346
+    ],
+    "image": "components/3d418eba161b9c21242b81e88d4a845e_23_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      52,
+      1241,
+      162
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      159,
+      1241,
+      273
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      276,
+      1241,
+      396
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      391,
+      1241,
+      502
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      499,
+      1241,
+      616
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      695,
+      1241,
+      802
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      806,
+      1241,
+      914
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      914,
+      1241,
+      1027
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      1025,
+      1241,
+      1148
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0,
+      1159,
+      1241,
+      1299
+    ],
+    "image": "components/952215a8f9eddf9d2b9b486ee1582ccc_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      84,
+      1241,
+      263
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      267,
+      1241,
+      387
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      404,
+      1241,
+      628
+    ],
+    "image": "components/TP-030-010-030 조업공정식 해설(Rev.9)_0900bf4ba7a2c11a_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      619,
+      1241,
+      718
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      768,
+      1241,
+      869
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      870,
+      1241,
+      989
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      992,
+      1241,
+      1100
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0,
+      1104,
+      1241,
+      1349
+    ],
+    "image": "components/aed80a16ab9e53b962dd6ba6055cd279_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      0,
+      54,
+      1241,
+      206
+    ],
+    "image": "components/774d7e4be442d0f33d64d578d02b85b7_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      0,
+      446,
+      1241,
+      645
+    ],
+    "image": "components/774d7e4be442d0f33d64d578d02b85b7_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      0,
+      837,
+      1241,
+      959
+    ],
+    "image": "components/774d7e4be442d0f33d64d578d02b85b7_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      0,
+      1132,
+      1241,
+      1281
+    ],
+    "image": "components/774d7e4be442d0f33d64d578d02b85b7_17_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      18,
+      1241,
+      126
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_1_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      298,
+      1241,
+      363
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      575,
+      1241,
+      688
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      792,
+      1241,
+      914
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      983,
+      1241,
+      1105
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0,
+      1100,
+      1241,
+      1215
+    ],
+    "image": "components/1b233a045af2299a2258caf5214ca662_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      97,
+      1241,
+      336
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_2_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      413,
+      1241,
+      475
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      451,
+      1241,
+      513
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      721,
+      1241,
+      839
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      836,
+      1241,
+      1003
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      1085,
+      1241,
+      1188
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      1195,
+      1241,
+      1301
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0,
+      1309,
+      1241,
+      1412
+    ],
+    "image": "components/e9cc22fb9f74766238b20a851dd9cb26_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      0,
+      34,
+      1241,
+      138
+    ],
+    "image": "components/90db25793fd74ba2e4f375693c768143_1_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      0,
+      490,
+      1241,
+      841
+    ],
+    "image": "components/90db25793fd74ba2e4f375693c768143_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      0,
+      1101,
+      1241,
+      1214
+    ],
+    "image": "components/90db25793fd74ba2e4f375693c768143_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      16,
+      1241,
+      128
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_1_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      145,
+      1241,
+      317
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      355,
+      1241,
+      469
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      788,
+      1241,
+      886
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      902,
+      1241,
+      961
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      938,
+      1241,
+      1036
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      1011,
+      1241,
+      1112
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      1086,
+      1241,
+      1151
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      1161,
+      1241,
+      1262
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0,
+      1275,
+      1241,
+      1373
+    ],
+    "image": "components/c171f65e1a9f9d1f37c498029ac53c62_13_img.webp",
+    "label": "Math-Block"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      294,
+      1186,
+      400
+    ],
+    "image": "components/TP-030-070-060 노내Gas류 제어기술 기준(Rev.10)_0900bf4ba7a2bc78_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      143,
+      18,
+      1211,
+      493
+    ],
+    "image": "components/f7349b073e97ce3f426b58fcef3f19b5_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      285,
+      24,
+      1106,
+      673
+    ],
+    "image": "components/1e625e56f4d5f550fb067d108cf51b57_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      129,
+      0,
+      597,
+      320
+    ],
+    "image": "components/881499182ff8d4fbdee1462840b68fc5_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      667,
+      0,
+      1131,
+      317
+    ],
+    "image": "components/881499182ff8d4fbdee1462840b68fc5_3_img.webp",
+    "label": "Figure"
+  }
+]

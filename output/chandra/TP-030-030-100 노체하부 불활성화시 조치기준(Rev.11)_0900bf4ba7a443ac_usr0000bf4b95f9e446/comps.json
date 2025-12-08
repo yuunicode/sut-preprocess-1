@@ -1,0 +1,222 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      377,
+      1156,
+      493
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      120,
+      616,
+      1156,
+      934
+    ],
+    "image": "components/8c83d9af357c415946443878aa1c9c06_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      109,
+      1005,
+      1123,
+      1151
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      96,
+      57,
+      1134,
+      312
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      101,
+      342,
+      1149,
+      562
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      101,
+      725,
+      1149,
+      1374
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      44,
+      40,
+      1214,
+      585
+    ],
+    "image": "components/d0ae9ab3b1645e45a6abb0c4285bd143_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      94,
+      34,
+      1174,
+      1120
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      111,
+      153,
+      1132,
+      1409
+    ],
+    "image": "components/b1b8eb4f3696752f58fa2046c62ce76c_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      137,
+      33,
+      1137,
+      1401
+    ],
+    "image": "components/179bc029ab08ca1daf85e9307a42a26c_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      125,
+      34,
+      1112,
+      1394
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p009_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      111,
+      383,
+      1133,
+      706
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      119,
+      794,
+      622,
+      1299
+    ],
+    "image": "components/7f247c13be3727a7ca24df213f718ae9_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      625,
+      794,
+      1121,
+      1299
+    ],
+    "image": "components/7f247c13be3727a7ca24df213f718ae9_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      123,
+      66,
+      1150,
+      1385
+    ],
+    "image": "components/1a82df8aecd1a935338e5a9b8b52a16c_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      101,
+      1,
+      1140,
+      1362
+    ],
+    "image": "components/6510ad83ca3eed10391a74089af1f183_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      99,
+      0,
+      1146,
+      908
+    ],
+    "image": "components/12ccd25235ac9db752ec283442217cdf_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      100,
+      875,
+      1146,
+      1039
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p014_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      125,
+      0,
+      1149,
+      1350
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p015_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      147,
+      647,
+      1087,
+      856
+    ],
+    "image": "components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p016_table_01.png",
+    "label": "Table"
+  }
+]

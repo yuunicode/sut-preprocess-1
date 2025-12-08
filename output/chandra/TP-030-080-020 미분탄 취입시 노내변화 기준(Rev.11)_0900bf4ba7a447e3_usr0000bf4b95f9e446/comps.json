@@ -1,0 +1,101 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      90,
+      337,
+      1189,
+      453
+    ],
+    "image": "components/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      111,
+      682,
+      1091,
+      1093
+    ],
+    "image": "components/10384a08011d7a6abcae246077b1f24d_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106,
+      0,
+      499,
+      426
+    ],
+    "image": "components/458315459c5d8cc3161208fe50cb7bc4_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      592,
+      0,
+      1157,
+      432
+    ],
+    "image": "components/458315459c5d8cc3161208fe50cb7bc4_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      151,
+      192,
+      365,
+      583
+    ],
+    "image": "components/971c5cb7780d51745b8a98595dc7755b_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      503,
+      192,
+      715,
+      583
+    ],
+    "image": "components/971c5cb7780d51745b8a98595dc7755b_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      871,
+      192,
+      1061,
+      583
+    ],
+    "image": "components/971c5cb7780d51745b8a98595dc7755b_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      84,
+      813,
+      1146,
+      1311
+    ],
+    "image": "components/971c5cb7780d51745b8a98595dc7755b_12_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      137,
+      147,
+      1134,
+      631
+    ],
+    "image": "components/TP-030-080-020 미분탄 취입시 노내변화 기준(Rev.11)_0900bf4ba7a447e3_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  }
+]

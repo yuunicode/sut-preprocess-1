@@ -1,0 +1,35 @@
+[
+  {
+    "page": 3,
+    "bbox": [
+      137,
+      30,
+      1202,
+      669
+    ],
+    "image": "components/TP-030-090-050 노체 압입작업 기술 기준(Rev.8)_0900bf4ba7a466a1_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      348,
+      1013,
+      718,
+      1150
+    ],
+    "image": "components/dd87c47b24b04752f9413b993b09ed92_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      236,
+      600,
+      1104,
+      809
+    ],
+    "image": "components/9187a40497326c9f9aebec8f07cf0d8b_11_img.webp",
+    "label": "Math-Block"
+  }
+]

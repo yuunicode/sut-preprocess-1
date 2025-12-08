@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      79,
+      368,
+      1156,
+      475
+    ],
+    "image": "components/TP-030-040-010 생산관리 용어의 기준(Rev.11)_0900bf4ba7a2b092_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      45,
+      623,
+      1161,
+      1082
+    ],
+    "image": "components/TP-030-040-010 생산관리 용어의 기준(Rev.11)_0900bf4ba7a2b092_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      109,
+      67,
+      1204,
+      765
+    ],
+    "image": "components/TP-030-040-010 생산관리 용어의 기준(Rev.11)_0900bf4ba7a2b092_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  }
+]

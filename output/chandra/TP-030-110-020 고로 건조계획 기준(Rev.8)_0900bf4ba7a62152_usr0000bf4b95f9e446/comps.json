@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      155,
+      541,
+      1082,
+      1178
+    ],
+    "image": "components/0e36704c6a6641ca359041f7137e9fcb_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      90,
+      932,
+      1145,
+      1206
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      182,
+      1081,
+      1053,
+      1247
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      108,
+      483,
+      1160,
+      672
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      138,
+      463,
+      676,
+      690
+    ],
+    "image": "components/dd35e14d40c89b8bbcee6b2cdd637b40_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      92,
+      740,
+      1141,
+      1360
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      103,
+      182,
+      1131,
+      347
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      200,
+      460,
+      1172,
+      700
+    ],
+    "image": "components/c32777df49db05a142dce51152fb2748_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      152,
+      815,
+      1120,
+      1239
+    ],
+    "image": "components/c32777df49db05a142dce51152fb2748_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      55,
+      142,
+      1138,
+      337
+    ],
+    "image": "components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  }
+]

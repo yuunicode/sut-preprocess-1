@@ -1,0 +1,200 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      114,
+      903,
+      640,
+      1336
+    ],
+    "image": "components/871debdfee8415206a219e0215b16d4d_15_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      618,
+      903,
+      1143,
+      1336
+    ],
+    "image": "components/871debdfee8415206a219e0215b16d4d_16_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      96,
+      0,
+      1148,
+      949
+    ],
+    "image": "components/b3961afe1e57469fc4262879b64f1795_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      131,
+      25,
+      1130,
+      578
+    ],
+    "image": "components/4317bb58b34e3594ccc33c10a74f4902_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      642,
+      1124,
+      1198
+    ],
+    "image": "components/4317bb58b34e3594ccc33c10a74f4902_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      142,
+      28,
+      1114,
+      553
+    ],
+    "image": "components/a0c30095dc5b0c886d01c45afb38c23b_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      153,
+      675,
+      1122,
+      1223
+    ],
+    "image": "components/a0c30095dc5b0c886d01c45afb38c23b_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      224,
+      0,
+      1041,
+      456
+    ],
+    "image": "components/721e7624eaa928c88a23950b9c75d460_1_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      86,
+      575,
+      1143,
+      1181
+    ],
+    "image": "components/721e7624eaa928c88a23950b9c75d460_3_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      235,
+      614,
+      1079,
+      1031
+    ],
+    "image": "components/180d0b58995d263de5470ff0034d535e_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      190,
+      0,
+      1081,
+      457
+    ],
+    "image": "components/e6b1a82c653f12bb2d83f7e694047604_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      422,
+      742,
+      802,
+      1148
+    ],
+    "image": "components/e6b1a82c653f12bb2d83f7e694047604_4_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      108,
+      517,
+      1160,
+      950
+    ],
+    "image": "components/21b08d1fddc3f1729f99c1954b4b1504_4_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      183,
+      64,
+      1022,
+      374
+    ],
+    "image": "components/f61f3d664bbaab0552b00fd23b289b4d_2_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      218,
+      612,
+      537,
+      836
+    ],
+    "image": "components/f61f3d664bbaab0552b00fd23b289b4d_7_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      751,
+      632,
+      888,
+      745
+    ],
+    "image": "components/f61f3d664bbaab0552b00fd23b289b4d_9_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      307,
+      803,
+      998,
+      1141
+    ],
+    "image": "components/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446_p010_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      56,
+      84,
+      1206,
+      868
+    ],
+    "image": "components/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  }
+]

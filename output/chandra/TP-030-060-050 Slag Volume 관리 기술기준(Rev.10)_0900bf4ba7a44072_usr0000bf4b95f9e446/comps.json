@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      90,
+      295,
+      1143,
+      417
+    ],
+    "image": "components/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      99,
+      571,
+      1134,
+      718
+    ],
+    "image": "components/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106,
+      30,
+      1129,
+      378
+    ],
+    "image": "components/80aebda26d77be1cac9bc66e78e8d2b1_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      404,
+      992,
+      837,
+      1337
+    ],
+    "image": "components/80aebda26d77be1cac9bc66e78e8d2b1_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      120,
+      307,
+      574,
+      745
+    ],
+    "image": "components/9b8648027eae20e38593529ba9e16c02_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      650,
+      310,
+      1107,
+      747
+    ],
+    "image": "components/9b8648027eae20e38593529ba9e16c02_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      343,
+      10,
+      894,
+      438
+    ],
+    "image": "components/7095e242966303a7837c5228bfe1af52_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      245,
+      596,
+      989,
+      1082
+    ],
+    "image": "components/7095e242966303a7837c5228bfe1af52_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      68,
+      66,
+      1164,
+      345
+    ],
+    "image": "components/TP-030-060-050 Slag Volume 관리 기술기준(Rev.10)_0900bf4ba7a44072_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      133,
+      596,
+      1115,
+      880
+    ],
+    "image": "components/0aaf37f01ae95c63e8944e16a9624798_6_img.webp",
+    "label": "Figure"
+  }
+]

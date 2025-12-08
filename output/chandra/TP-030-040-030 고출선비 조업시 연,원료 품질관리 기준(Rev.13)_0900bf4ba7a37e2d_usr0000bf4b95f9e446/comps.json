@@ -1,0 +1,35 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      80,
+      294,
+      1144,
+      415
+    ],
+    "image": "components/TP-030-040-030 고출선비 조업시 연,원료 품질관리 기준(Rev.13)_0900bf4ba7a37e2d_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      67,
+      701,
+      1118,
+      1148
+    ],
+    "image": "components/d2197e0ebb330adf14f0d653e7e592b7_12_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      600,
+      701,
+      1118,
+      1148
+    ],
+    "image": "components/d2197e0ebb330adf14f0d653e7e592b7_18_img.webp",
+    "label": "Figure"
+  }
+]

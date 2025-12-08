@@ -1,0 +1,145 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      370,
+      1189,
+      492
+    ],
+    "image": "components/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      604,
+      1189,
+      777
+    ],
+    "image": "components/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      134,
+      677,
+      1015,
+      1084
+    ],
+    "image": "components/5fd9c690c894e46749844f2fa1b692e4_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      94,
+      103,
+      1157,
+      342
+    ],
+    "image": "components/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      101,
+      437,
+      1061,
+      777
+    ],
+    "image": "components/3265eb0970a73108268dd223668012b8_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      102,
+      810,
+      426,
+      1112
+    ],
+    "image": "components/3265eb0970a73108268dd223668012b8_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      443,
+      810,
+      761,
+      1112
+    ],
+    "image": "components/3265eb0970a73108268dd223668012b8_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      778,
+      810,
+      1099,
+      1112
+    ],
+    "image": "components/3265eb0970a73108268dd223668012b8_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      73,
+      67,
+      1171,
+      243
+    ],
+    "image": "components/TP-030-060-040 Slag 중 MgO 성분관리 기술기준(Rev.9)_0900bf4ba7a44074_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      111,
+      374,
+      546,
+      646
+    ],
+    "image": "components/3951a0058b464dc1d951a88e12ff3bad_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      608,
+      370,
+      1036,
+      643
+    ],
+    "image": "components/3951a0058b464dc1d951a88e12ff3bad_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      46,
+      938,
+      550,
+      1238
+    ],
+    "image": "components/3951a0058b464dc1d951a88e12ff3bad_14_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      557,
+      938,
+      1046,
+      1238
+    ],
+    "image": "components/3951a0058b464dc1d951a88e12ff3bad_15_img.webp",
+    "label": "Figure"
+  }
+]

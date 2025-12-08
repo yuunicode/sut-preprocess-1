@@ -1,0 +1,46 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      331,
+      1160,
+      445
+    ],
+    "image": "components/TP-030-040-040 고출선비 조업시 장입물 분포제어 기준(Rev.9)_0900bf4ba7a2b090_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      45,
+      1372,
+      1194,
+      1419
+    ],
+    "image": "components/8511b5c68109d25c24911f9047b1d92f_1_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      93,
+      28,
+      1172,
+      469
+    ],
+    "image": "components/37e49a6e134be65abfd325ccd266778e_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      219,
+      4,
+      1083,
+      592
+    ],
+    "image": "components/be22138f7fa2fc143de0d9ae94dcda68_1_img.webp",
+    "label": "Figure"
+  }
+]

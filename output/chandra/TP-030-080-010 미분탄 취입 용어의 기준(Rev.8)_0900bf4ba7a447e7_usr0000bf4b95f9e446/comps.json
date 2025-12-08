@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      73,
+      376,
+      1160,
+      478
+    ],
+    "image": "components/TP-030-080-010 미분탄 취입 용어의 기준(Rev.8)_0900bf4ba7a447e7_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      71,
+      596,
+      1162,
+      845
+    ],
+    "image": "components/TP-030-080-010 미분탄 취입 용어의 기준(Rev.8)_0900bf4ba7a447e7_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      71,
+      888,
+      1162,
+      1172
+    ],
+    "image": "components/TP-030-080-010 미분탄 취입 용어의 기준(Rev.8)_0900bf4ba7a447e7_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      71,
+      51,
+      1163,
+      335
+    ],
+    "image": "components/TP-030-080-010 미분탄 취입 용어의 기준(Rev.8)_0900bf4ba7a447e7_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      71,
+      395,
+      1163,
+      826
+    ],
+    "image": "components/TP-030-080-010 미분탄 취입 용어의 기준(Rev.8)_0900bf4ba7a447e7_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  }
+]

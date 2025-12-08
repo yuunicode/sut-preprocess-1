@@ -1,0 +1,420 @@
+[
+  {
+    "page": 2,
+    "bbox": [
+      242,
+      11,
+      955,
+      408
+    ],
+    "image": "components/84bf9bc9c66926e6f4f67020cafabd07_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      123,
+      408,
+      1139,
+      1139
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      139,
+      182,
+      1092,
+      1072
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      139,
+      369,
+      1160,
+      1257
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      139,
+      0,
+      1160,
+      261
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      266,
+      511,
+      804,
+      608
+    ],
+    "image": "components/a9b229cb3cbe2a03a3d46ba4e0f88df7_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      49,
+      0,
+      1168,
+      1043
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      47,
+      0,
+      1185,
+      996
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      101,
+      0,
+      1179,
+      1156
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      95,
+      113,
+      1200,
+      904
+    ],
+    "image": "components/832f9ac49afb0445d8983d96acce1869_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      108,
+      0,
+      1172,
+      448
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p010_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      196,
+      831,
+      844,
+      929
+    ],
+    "image": "components/fb51e0cd8a59670221ff4a8f62513d52_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      196,
+      944,
+      1046,
+      1117
+    ],
+    "image": "components/fb51e0cd8a59670221ff4a8f62513d52_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      196,
+      1130,
+      1046,
+      1305
+    ],
+    "image": "components/fb51e0cd8a59670221ff4a8f62513d52_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      239,
+      82,
+      945,
+      523
+    ],
+    "image": "components/c07f6789e0c76a9e36337d0a3e3e3454_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      113,
+      523,
+      1172,
+      1169
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      102,
+      182,
+      1200,
+      679
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p012_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      104,
+      679,
+      1200,
+      1151
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p012_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      80,
+      143,
+      1154,
+      362
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p013_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      132,
+      666,
+      1217,
+      889
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p013_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      113,
+      0,
+      1205,
+      968
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p014_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      138,
+      0,
+      1179,
+      457
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p015_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      183,
+      873,
+      1160,
+      1348
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p015_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      108,
+      258,
+      1197,
+      734
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p017_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      108,
+      745,
+      1197,
+      1355
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p017_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      291,
+      855,
+      999,
+      1339
+    ],
+    "image": "components/6d819976e3ccc671e4fb0c6e8a96698a_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      148,
+      267,
+      584,
+      362
+    ],
+    "image": "components/121d4d643d2b86e4b7002be34c20dc14_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      173,
+      527,
+      672,
+      624
+    ],
+    "image": "components/121d4d643d2b86e4b7002be34c20dc14_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      184,
+      642,
+      530,
+      737
+    ],
+    "image": "components/121d4d643d2b86e4b7002be34c20dc14_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      150,
+      40,
+      1024,
+      174
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      150,
+      304,
+      907,
+      401
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      165,
+      754,
+      640,
+      849
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      165,
+      941,
+      651,
+      1037
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_19_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      165,
+      1090,
+      582,
+      1186
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_22_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      176,
+      1276,
+      945,
+      1409
+    ],
+    "image": "components/cf94cecfea9ffe9924bf7a4e07e9e29c_26_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      161,
+      78,
+      672,
+      174
+    ],
+    "image": "components/b69433ab04735200c1aae34c12ea9ffd_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      161,
+      228,
+      928,
+      326
+    ],
+    "image": "components/b69433ab04735200c1aae34c12ea9ffd_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      46,
+      0,
+      1196,
+      1199
+    ],
+    "image": "components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p022_table_01.png",
+    "label": "Table"
+  }
+]

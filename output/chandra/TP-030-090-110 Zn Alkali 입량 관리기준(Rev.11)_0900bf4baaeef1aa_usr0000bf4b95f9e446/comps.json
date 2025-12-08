@@ -1,0 +1,123 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      45,
+      401,
+      1199,
+      582
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      178,
+      956,
+      1199,
+      1147
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      74,
+      52,
+      1080,
+      746
+    ],
+    "image": "components/cc7f0da86610a7999d513a0060049ec5_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      205,
+      529,
+      1212,
+      1089
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      84,
+      31,
+      1199,
+      468
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85,
+      660,
+      1199,
+      1072
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p004_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85,
+      1037,
+      1199,
+      1337
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p004_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      44,
+      107,
+      1199,
+      819
+    ],
+    "image": "components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      110,
+      362,
+      1161,
+      1172
+    ],
+    "image": "components/a4fc51b11fdcd25b3a79cac1cc2f9d08_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      87,
+      200,
+      1148,
+      1369
+    ],
+    "image": "components/75e083b86d30aadf0656277244b5f067_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      96,
+      112,
+      1067,
+      1305
+    ],
+    "image": "components/81d921510a4e63683b791bb1568a3d30_4_img.webp",
+    "label": "Figure"
+  }
+]

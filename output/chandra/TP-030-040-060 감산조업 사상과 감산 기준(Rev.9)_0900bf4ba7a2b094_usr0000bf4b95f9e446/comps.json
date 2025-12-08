@@ -1,0 +1,145 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      45,
+      416,
+      1196,
+      537
+    ],
+    "image": "components/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      96,
+      15,
+      1173,
+      794
+    ],
+    "image": "components/13f39f03414988be3b97c41070bd4382_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      39,
+      1187,
+      1009
+    ],
+    "image": "components/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      84,
+      1098,
+      1138,
+      1356
+    ],
+    "image": "components/e0c4d446c4e13a7059bea03a5858cd8e_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      72,
+      61,
+      1183,
+      221
+    ],
+    "image": "components/2f438affee5c860bbb8d03fd91be6526_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85,
+      671,
+      1183,
+      893
+    ],
+    "image": "components/2f438affee5c860bbb8d03fd91be6526_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      84,
+      70,
+      924,
+      239
+    ],
+    "image": "components/2f04e82e4f3653523392b09347fef50b_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      285,
+      238,
+      766,
+      655
+    ],
+    "image": "components/2f04e82e4f3653523392b09347fef50b_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      84,
+      962,
+      1065,
+      1087
+    ],
+    "image": "components/2f04e82e4f3653523392b09347fef50b_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      93,
+      616,
+      649,
+      1049
+    ],
+    "image": "components/931fba7a6fdfc24a0abc2f2b5c017b9e_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      678,
+      622,
+      1138,
+      953
+    ],
+    "image": "components/931fba7a6fdfc24a0abc2f2b5c017b9e_9_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      45,
+      226,
+      1189,
+      902
+    ],
+    "image": "components/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      86,
+      84,
+      1146,
+      1271
+    ],
+    "image": "components/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  }
+]

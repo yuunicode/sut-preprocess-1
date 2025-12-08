@@ -1,0 +1,167 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      85,
+      296,
+      1200,
+      468
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      41,
+      0,
+      1189,
+      1385
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      31,
+      1197,
+      769
+    ],
+    "image": "components/631dbb570424e5583599edf183130c98_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      416,
+      42,
+      821,
+      353
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      593,
+      286,
+      655,
+      432
+    ],
+    "image": "components/d68883773e33d37348ebb2fab271b83a_3_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      86,
+      366,
+      1197,
+      649
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p004_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      593,
+      581,
+      655,
+      782
+    ],
+    "image": "components/d68883773e33d37348ebb2fab271b83a_5_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      86,
+      716,
+      1197,
+      1104
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p004_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      86,
+      0,
+      1200,
+      331
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      86,
+      305,
+      1200,
+      746
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p005_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      101,
+      31,
+      1194,
+      696
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      115,
+      1023,
+      1116,
+      1211
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p006_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      154,
+      670,
+      1078,
+      1005
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      154,
+      1083,
+      1093,
+      1270
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p007_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      45,
+      334,
+      1197,
+      1232
+    ],
+    "image": "components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  }
+]

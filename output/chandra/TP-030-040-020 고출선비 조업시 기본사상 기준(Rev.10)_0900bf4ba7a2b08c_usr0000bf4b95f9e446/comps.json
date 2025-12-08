@@ -1,0 +1,46 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      331,
+      1162,
+      450
+    ],
+    "image": "components/TP-030-040-020 고출선비 조업시 기본사상 기준(Rev.10)_0900bf4ba7a2b08c_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      124,
+      758,
+      1110,
+      1328
+    ],
+    "image": "components/3246c46309581c9b140511a14c563d0b_12_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      85,
+      73,
+      1179,
+      932
+    ],
+    "image": "components/1436b47814c8d5bed4a941c151f940b2_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      45,
+      28,
+      1187,
+      651
+    ],
+    "image": "components/TP-030-040-020 고출선비 조업시 기본사상 기준(Rev.10)_0900bf4ba7a2b08c_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  }
+]

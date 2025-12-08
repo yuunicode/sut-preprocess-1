@@ -1,0 +1,79 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      78,
+      406,
+      1155,
+      513
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      111,
+      625,
+      1204,
+      1214
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      111,
+      28,
+      1203,
+      1367
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      111,
+      28,
+      1206,
+      263
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      111,
+      300,
+      1206,
+      589
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      111,
+      626,
+      1206,
+      844
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p003_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      111,
+      884,
+      1206,
+      1161
+    ],
+    "image": "components/TP-030-070-010 장입물 분포제어 용어의 기준(Rev.10)_0900bf4ba7a2bc74_usr0000bf4b95f9e446_p003_table_04.png",
+    "label": "Table"
+  }
+]

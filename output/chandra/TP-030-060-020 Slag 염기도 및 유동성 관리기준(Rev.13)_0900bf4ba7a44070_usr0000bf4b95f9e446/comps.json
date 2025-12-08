@@ -1,0 +1,607 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      367,
+      1187,
+      489
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      602,
+      1187,
+      769
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      822,
+      109,
+      1221,
+      493
+    ],
+    "image": "components/6494b004cd571181c95ca73016c91f4e_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      114,
+      656,
+      506,
+      1093
+    ],
+    "image": "components/6494b004cd571181c95ca73016c91f4e_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      489,
+      656,
+      837,
+      1120
+    ],
+    "image": "components/6494b004cd571181c95ca73016c91f4e_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      820,
+      656,
+      1164,
+      1093
+    ],
+    "image": "components/6494b004cd571181c95ca73016c91f4e_15_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      119,
+      294,
+      1115,
+      598
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      772,
+      656,
+      1190,
+      976
+    ],
+    "image": "components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      204,
+      43,
+      1145,
+      219
+    ],
+    "image": "components/f17ba585d9f878163a2c9c6d4bf521b2_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      288,
+      518,
+      944,
+      742
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      130,
+      990,
+      615,
+      1289
+    ],
+    "image": "components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      656,
+      990,
+      1081,
+      1296
+    ],
+    "image": "components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      642,
+      379,
+      1186,
+      794
+    ],
+    "image": "components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      162,
+      190,
+      872,
+      619
+    ],
+    "image": "components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      133,
+      845,
+      980,
+      1389
+    ],
+    "image": "components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      131,
+      78,
+      984,
+      622
+    ],
+    "image": "components/8391168bb2f3860958ca474447faf6ca_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      125,
+      707,
+      984,
+      1254
+    ],
+    "image": "components/8391168bb2f3860958ca474447faf6ca_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      135,
+      102,
+      983,
+      645
+    ],
+    "image": "components/19122b33e809c05fad62a8d006904c36_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      145,
+      753,
+      983,
+      1286
+    ],
+    "image": "components/19122b33e809c05fad62a8d006904c36_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      116,
+      162,
+      940,
+      687
+    ],
+    "image": "components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      131,
+      795,
+      933,
+      1308
+    ],
+    "image": "components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      152,
+      84,
+      935,
+      585
+    ],
+    "image": "components/3a52582a1085c6cee506554703118bf3_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      137,
+      698,
+      940,
+      1209
+    ],
+    "image": "components/3a52582a1085c6cee506554703118bf3_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      134,
+      130,
+      938,
+      643
+    ],
+    "image": "components/20352667832cb5134416abb5fc91df96_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      62,
+      85,
+      1183,
+      389
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p013_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      125,
+      415,
+      948,
+      1379
+    ],
+    "image": "components/7cdaebc1c886902713eaeac6f23227ce_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      130,
+      138,
+      1046,
+      523
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      130,
+      547,
+      1046,
+      934
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      130,
+      956,
+      1046,
+      1341
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p014_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      153,
+      123,
+      1074,
+      510
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      153,
+      529,
+      1074,
+      916
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      153,
+      933,
+      1074,
+      1322
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p015_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      191,
+      84,
+      1038,
+      502
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      191,
+      491,
+      1038,
+      908
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      191,
+      897,
+      888,
+      1313
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      273,
+      43,
+      967,
+      429
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      273,
+      449,
+      967,
+      833
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      273,
+      854,
+      967,
+      1241
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p017_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      124,
+      126,
+      558,
+      441
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      678,
+      127,
+      1139,
+      466
+    ],
+    "image": "components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      105,
+      502,
+      548,
+      785
+    ],
+    "image": "components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      683,
+      475,
+      1134,
+      806
+    ],
+    "image": "components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95,
+      825,
+      711,
+      1054
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      713,
+      842,
+      1156,
+      1052
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95,
+      1022,
+      711,
+      1248
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_04.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      713,
+      1035,
+      1156,
+      1248
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_05.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95,
+      1215,
+      711,
+      1440
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_06.png",
+    "label": "Table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      713,
+      1225,
+      1156,
+      1440
+    ],
+    "image": "components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png",
+    "label": "Table"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      44,
+      88,
+      1150,
+      884
+    ],
+    "image": "components/1b75e7b1fc885f9b4c6ee2c3dd57a20b_2_img.webp",
+    "label": "Complex-Block"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      79,
+      73,
+      431,
+      459
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      460,
+      73,
+      818,
+      456
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      820,
+      73,
+      1181,
+      456
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      67,
+      437,
+      431,
+      818
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      456,
+      437,
+      818,
+      818
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      823,
+      437,
+      1187,
+      818
+    ],
+    "image": "components/0c402970ebf957d781549da28ac9824e_7_img.webp",
+    "label": "Figure"
+  }
+]

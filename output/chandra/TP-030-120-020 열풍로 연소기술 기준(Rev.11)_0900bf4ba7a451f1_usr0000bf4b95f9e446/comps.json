@@ -1,0 +1,640 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72,
+      294,
+      1197,
+      451
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      116,
+      611,
+      811,
+      706
+    ],
+    "image": "components/10c887622f756335686b0a24a936b340_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      59,
+      792,
+      1173,
+      1382
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      116,
+      0,
+      1116,
+      355
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      588,
+      748,
+      684
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      626,
+      646,
+      722
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      664,
+      648,
+      761
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      702,
+      743,
+      797
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      812,
+      1082,
+      946
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      961,
+      1091,
+      1096
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      1111,
+      995,
+      1245
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      137,
+      1262,
+      646,
+      1396
+    ],
+    "image": "components/64ed6754054a632ab3786377716dd4af_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67,
+      0,
+      1164,
+      320
+    ],
+    "image": "components/ea29a94e04522f1d8d14d77a45d75a57_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67,
+      0,
+      1164,
+      320
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      70,
+      322,
+      1161,
+      696
+    ],
+    "image": "components/ea29a94e04522f1d8d14d77a45d75a57_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      70,
+      322,
+      1161,
+      696
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      126,
+      705,
+      1160,
+      876
+    ],
+    "image": "components/ea29a94e04522f1d8d14d77a45d75a57_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      76,
+      442,
+      1156,
+      971
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      78,
+      973,
+      1156,
+      1159
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p004_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      80,
+      1276,
+      1079,
+      1381
+    ],
+    "image": "components/1d11f30fa1287082e010f8a23ef1f872_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      3,
+      1045,
+      247
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      265,
+      1014,
+      472
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      490,
+      977,
+      734
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      752,
+      1000,
+      922
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      1013,
+      1011,
+      1221
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      83,
+      1241,
+      1021,
+      1409
+    ],
+    "image": "components/aadf4b654d2e24d7cbcceab82f73e8aa_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      70,
+      2,
+      1143,
+      176
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      176,
+      115,
+      1059,
+      210
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      302,
+      1062,
+      438
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      451,
+      1087,
+      627
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      638,
+      1143,
+      739
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      754,
+      1079,
+      883
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      903,
+      1172,
+      1037
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      1050,
+      1062,
+      1187
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      137,
+      1199,
+      927,
+      1300
+    ],
+    "image": "components/42a7127074c799d09d3f5ec6115fe0f9_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      150,
+      2,
+      1036,
+      173
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      188,
+      852,
+      286
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      298,
+      1062,
+      398
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      414,
+      1174,
+      548
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      563,
+      1039,
+      661
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      673,
+      1127,
+      773
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      786,
+      718,
+      883
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      900,
+      1011,
+      998
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      1013,
+      941,
+      1147
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_18_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      139,
+      1163,
+      1150,
+      1260
+    ],
+    "image": "components/89716c826de32e2177a76e756fd323fa_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      81,
+      0,
+      938,
+      98
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      59,
+      76,
+      1075,
+      176
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      127,
+      110,
+      758,
+      212
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      59,
+      189,
+      1110,
+      288
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      127,
+      222,
+      758,
+      323
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      81,
+      338,
+      652,
+      435
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      115,
+      377,
+      1034,
+      475
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      152,
+      414,
+      486,
+      512
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      107,
+      527,
+      1187,
+      630
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      207,
+      566,
+      794,
+      661
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      184,
+      600,
+      1108,
+      700
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      207,
+      636,
+      544,
+      736
+    ],
+    "image": "components/7daaa6d44daf89b5244a6d98c7ed8084_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      35,
+      745,
+      1131,
+      1239
+    ],
+    "image": "components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  }
+]

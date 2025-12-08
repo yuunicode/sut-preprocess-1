@@ -1,0 +1,79 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      368,
+      1191,
+      493
+    ],
+    "image": "components/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      262,
+      13,
+      967,
+      571
+    ],
+    "image": "components/91082d415d0f676999389df4ee11f809_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      200,
+      126,
+      1198,
+      1233
+    ],
+    "image": "components/a6aedb43f8249cf6190a2cd1c99be4d2_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      129,
+      902,
+      550,
+      1359
+    ],
+    "image": "components/e1120367d8619a89288a040650810a7d_8_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      564,
+      930,
+      1171,
+      1344
+    ],
+    "image": "components/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      162,
+      135,
+      645,
+      574
+    ],
+    "image": "components/f308caaba16091cc4fb0e7074abb8069_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      637,
+      273,
+      1187,
+      546
+    ],
+    "image": "components/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  }
+]

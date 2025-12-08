@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      84,
+      368,
+      1192,
+      469
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      101,
+      581,
+      1206,
+      1164
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      100,
+      27,
+      1197,
+      1190
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      100,
+      28,
+      1195,
+      782
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      100,
+      819,
+      1195,
+      1376
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      101,
+      28,
+      1192,
+      498
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      101,
+      574,
+      1192,
+      1373
+    ],
+    "image": "components/TP-030-010-020 고로일반 용어의 기준(Rev.10)_0900bf4ba7a2be02_usr0000bf4b95f9e446_p004_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      444,
+      425,
+      887,
+      535
+    ],
+    "image": "components/f681c01271918619f4eef76fc25eb97d_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      449,
+      875,
+      887,
+      985
+    ],
+    "image": "components/f681c01271918619f4eef76fc25eb97d_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      199,
+      1073,
+      989,
+      1316
+    ],
+    "image": "components/f681c01271918619f4eef76fc25eb97d_18_img.webp",
+    "label": "Figure"
+  }
+]

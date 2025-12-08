@@ -1,0 +1,167 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      78,
+      331,
+      1190,
+      478
+    ],
+    "image": "components/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      78,
+      590,
+      1190,
+      799
+    ],
+    "image": "components/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      80,
+      37,
+      612,
+      98
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      80,
+      189,
+      601,
+      249
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      114,
+      228,
+      725,
+      288
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      116,
+      301,
+      1181,
+      363
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      116,
+      337,
+      1141,
+      399
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      760,
+      724,
+      1145,
+      1215
+    ],
+    "image": "components/39c6cee2adb835a2b4734be4fef07aaa_21_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68,
+      127,
+      483,
+      670
+    ],
+    "image": "components/41d7edad45ca9765e8c3142e2838aeda_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      466,
+      127,
+      836,
+      670
+    ],
+    "image": "components/41d7edad45ca9765e8c3142e2838aeda_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      816,
+      127,
+      1185,
+      670
+    ],
+    "image": "components/41d7edad45ca9765e8c3142e2838aeda_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      154,
+      813,
+      1076,
+      1096
+    ],
+    "image": "components/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      529,
+      51,
+      1204,
+      552
+    ],
+    "image": "components/73e6d88c90986e79953fdbfbbb6d4039_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      529,
+      544,
+      1204,
+      1045
+    ],
+    "image": "components/73e6d88c90986e79953fdbfbbb6d4039_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      529,
+      0,
+      1203,
+      496
+    ],
+    "image": "components/95f291c30e142ab9861801042ee83426_4_img.webp",
+    "label": "Figure"
+  }
+]

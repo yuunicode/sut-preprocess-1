@@ -1,0 +1,354 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      78,
+      368,
+      1201,
+      520
+    ],
+    "image": "components/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      78,
+      634,
+      1204,
+      796
+    ],
+    "image": "components/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      720,
+      852,
+      1214,
+      1373
+    ],
+    "image": "components/bb91a1a53ab6424570bb20c4b4012fe6_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      243,
+      264,
+      871,
+      323
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      242,
+      301,
+      851,
+      362
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      268,
+      451,
+      975,
+      511
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      268,
+      488,
+      568,
+      547
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      268,
+      527,
+      728,
+      585
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      336,
+      864,
+      775,
+      922
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      440,
+      1089,
+      857,
+      1148
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      439,
+      1126,
+      744,
+      1185
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      440,
+      1164,
+      840,
+      1223
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_17_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      312,
+      1314,
+      931,
+      1373
+    ],
+    "image": "components/a881479912d2818d41a9a26cf2085542_19_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      337,
+      150,
+      851,
+      213
+    ],
+    "image": "components/e1e11047bddc49483924e2b6758cef89_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      340,
+      187,
+      830,
+      249
+    ],
+    "image": "components/e1e11047bddc49483924e2b6758cef89_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      301,
+      563,
+      941,
+      624
+    ],
+    "image": "components/e1e11047bddc49483924e2b6758cef89_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      450,
+      801,
+      725,
+      925
+    ],
+    "image": "components/e1e11047bddc49483924e2b6758cef89_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      442,
+      1194,
+      703,
+      1296
+    ],
+    "image": "components/e1e11047bddc49483924e2b6758cef89_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      776,
+      87,
+      1183,
+      492
+    ],
+    "image": "components/92daabf32880573c7612ebf58fa43e03_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      96,
+      572,
+      555,
+      968
+    ],
+    "image": "components/92daabf32880573c7612ebf58fa43e03_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      747,
+      580,
+      1202,
+      974
+    ],
+    "image": "components/92daabf32880573c7612ebf58fa43e03_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      117,
+      82,
+      1003,
+      1067
+    ],
+    "image": "components/5b859fb4c87f25d94d723317b33d0f55_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      445,
+      1104,
+      708,
+      1200
+    ],
+    "image": "components/5b859fb4c87f25d94d723317b33d0f55_3_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      71,
+      55,
+      558,
+      622
+    ],
+    "image": "components/7bb197f6490ccf7f40432011a5ff6d69_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      606,
+      240,
+      1092,
+      302
+    ],
+    "image": "components/7bb197f6490ccf7f40432011a5ff6d69_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      606,
+      276,
+      996,
+      338
+    ],
+    "image": "components/7bb197f6490ccf7f40432011a5ff6d69_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      606,
+      313,
+      1064,
+      377
+    ],
+    "image": "components/7bb197f6490ccf7f40432011a5ff6d69_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      612,
+      881,
+      1162,
+      1280
+    ],
+    "image": "components/7bb197f6490ccf7f40432011a5ff6d69_15_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      111,
+      0,
+      654,
+      60
+    ],
+    "image": "components/687815a68c7e78c5ac15cc8e99a76527_1_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      135,
+      150,
+      1053,
+      212
+    ],
+    "image": "components/687815a68c7e78c5ac15cc8e99a76527_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      83,
+      593,
+      1150,
+      862
+    ],
+    "image": "components/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      83,
+      899,
+      1150,
+      1049
+    ],
+    "image": "components/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446_p007_table_02.png",
+    "label": "Table"
+  }
+]

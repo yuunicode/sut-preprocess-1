@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      80,
+      370,
+      1190,
+      493
+    ],
+    "image": "components/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106,
+      819,
+      1181,
+      964
+    ],
+    "image": "components/1a6170c021b3bdf1007028cc273fe272_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      45,
+      1005,
+      1218,
+      1374
+    ],
+    "image": "components/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      44,
+      0,
+      1224,
+      314
+    ],
+    "image": "components/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      94,
+      987,
+      1187,
+      1236
+    ],
+    "image": "components/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446_p005_table_02.png",
+    "label": "Table"
+  }
+]

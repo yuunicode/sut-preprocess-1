@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      331,
+      1161,
+      453
+    ],
+    "image": "components/TP-030-030-060 노내침수 판단기준 및 열보상 기준(Rev.8)_0900bf4ba7a443b0_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      136,
+      822,
+      789,
+      883
+    ],
+    "image": "components/f7e9140ad295d447a39efa80b079e2ef_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106,
+      900,
+      1179,
+      1202
+    ],
+    "image": "components/TP-030-030-060 노내침수 판단기준 및 열보상 기준(Rev.8)_0900bf4ba7a443b0_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      114,
+      487,
+      1019,
+      553
+    ],
+    "image": "components/fa0b881e06a8afa08551b06f072083af_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      114,
+      1124,
+      1061,
+      1188
+    ],
+    "image": "components/fa0b881e06a8afa08551b06f072083af_17_img.webp",
+    "label": "Math-Block"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      85,
+      331,
+      1199,
+      486
+    ],
+    "image": "components/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      35,
+      206,
+      790,
+      694
+    ],
+    "image": "components/29949d8b2081e5a4db3a51bbe50be28b_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      143,
+      870,
+      727,
+      1340
+    ],
+    "image": "components/29949d8b2081e5a4db3a51bbe50be28b_15_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      155,
+      36,
+      920,
+      471
+    ],
+    "image": "components/7d01bd26a86536a239a313cfce92fbe6_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      206,
+      529,
+      951,
+      988
+    ],
+    "image": "components/7d01bd26a86536a239a313cfce92fbe6_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      86,
+      1007,
+      1183,
+      1294
+    ],
+    "image": "components/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      74,
+      130,
+      1079,
+      1387
+    ],
+    "image": "components/a95b5e007d7b8f73a9daf24e7fb4d44c_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      133,
+      15,
+      1079,
+      597
+    ],
+    "image": "components/6f99e62e88894456e7ce98ae4371d090_2_img.webp",
+    "label": "Figure"
+  }
+]

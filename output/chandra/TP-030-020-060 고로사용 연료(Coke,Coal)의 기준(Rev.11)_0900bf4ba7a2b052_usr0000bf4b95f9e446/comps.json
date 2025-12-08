@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      331,
+      1189,
+      430
+    ],
+    "image": "components/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      171,
+      777,
+      732,
+      839
+    ],
+    "image": "components/b503f0715615542a87db47a19016f094_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      171,
+      816,
+      723,
+      877
+    ],
+    "image": "components/b503f0715615542a87db47a19016f094_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      171,
+      855,
+      721,
+      917
+    ],
+    "image": "components/b503f0715615542a87db47a19016f094_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      171,
+      896,
+      463,
+      956
+    ],
+    "image": "components/b503f0715615542a87db47a19016f094_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68,
+      28,
+      1213,
+      646
+    ],
+    "image": "components/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68,
+      747,
+      1154,
+      1057
+    ],
+    "image": "components/d1b2c4e456fe10016c6ae75552c5f133_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      56,
+      592,
+      1104,
+      1115
+    ],
+    "image": "components/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  }
+]

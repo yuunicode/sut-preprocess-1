@@ -1,0 +1,288 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      124,
+      560,
+      1197,
+      801
+    ],
+    "image": "components/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      148,
+      70,
+      1196,
+      365
+    ],
+    "image": "components/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      139,
+      335,
+      1114,
+      434
+    ],
+    "image": "components/4a1c49606597466e2a93942d941d4812_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      152,
+      487,
+      967,
+      584
+    ],
+    "image": "components/4a1c49606597466e2a93942d941d4812_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      143,
+      684,
+      652,
+      1266
+    ],
+    "image": "components/4a1c49606597466e2a93942d941d4812_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      652,
+      783,
+      1194,
+      1023
+    ],
+    "image": "components/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      139,
+      1235,
+      1154,
+      1332
+    ],
+    "image": "components/4a1c49606597466e2a93942d941d4812_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      164,
+      42,
+      936,
+      136
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      164,
+      191,
+      857,
+      286
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      164,
+      340,
+      932,
+      475
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      289,
+      451,
+      736,
+      548
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      127,
+      740,
+      1001,
+      851
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      130,
+      827,
+      1111,
+      923
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      130,
+      903,
+      640,
+      996
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      130,
+      976,
+      1044,
+      1071
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      130,
+      1052,
+      1177,
+      1186
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      130,
+      1166,
+      1173,
+      1337
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_16_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      142,
+      1314,
+      478,
+      1409
+    ],
+    "image": "components/23c4c36047cf0f5216035cbe6138e675_17_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      33,
+      1047,
+      143
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      116,
+      1034,
+      213
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      191,
+      640,
+      288
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      267,
+      1044,
+      362
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      341,
+      1176,
+      477
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      127,
+      454,
+      1172,
+      627
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      139,
+      603,
+      476,
+      699
+    ],
+    "image": "components/4147af6aa72133c72810b7ea300352b1_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      92,
+      2,
+      1148,
+      737
+    ],
+    "image": "components/3b1a55eacb4704c3485799213c5de000_2_img.webp",
+    "label": "Figure"
+  }
+]

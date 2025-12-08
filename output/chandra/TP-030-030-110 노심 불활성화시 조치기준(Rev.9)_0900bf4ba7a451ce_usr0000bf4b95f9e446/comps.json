@@ -1,0 +1,167 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      106,
+      416,
+      1162,
+      525
+    ],
+    "image": "components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      244,
+      646,
+      762,
+      1298
+    ],
+    "image": "components/fcdabc1f556e43f52c516a4b6976f2a5_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106,
+      64,
+      1129,
+      553
+    ],
+    "image": "components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      460,
+      15,
+      842,
+      447
+    ],
+    "image": "components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      294,
+      792,
+      904,
+      1319
+    ],
+    "image": "components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      351,
+      255,
+      912,
+      657
+    ],
+    "image": "components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      345,
+      22,
+      857,
+      366
+    ],
+    "image": "components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      387,
+      106,
+      885,
+      543
+    ],
+    "image": "components/bb50efe0543da74fd41fbb68324f7a83_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      212,
+      613,
+      980,
+      1193
+    ],
+    "image": "components/bb50efe0543da74fd41fbb68324f7a83_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      196,
+      584,
+      950,
+      1066
+    ],
+    "image": "components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      158,
+      36,
+      948,
+      474
+    ],
+    "image": "components/15a3b1e729cb0909873593f3331993df_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      148,
+      136,
+      1089,
+      543
+    ],
+    "image": "components/222906026cb13f6c609aff92e4ef0070_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      148,
+      601,
+      1089,
+      949
+    ],
+    "image": "components/222906026cb13f6c609aff92e4ef0070_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      526,
+      118,
+      1088,
+      642
+    ],
+    "image": "components/604d498500544ae41589379fe2b316cd_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      135,
+      749,
+      1160,
+      1212
+    ],
+    "image": "components/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446_p010_table_01.png",
+    "label": "Table"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      85,
+      296,
+      1197,
+      453
+    ],
+    "image": "components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      166,
+      794,
+      1179,
+      962
+    ],
+    "image": "components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      35,
+      5,
+      1221,
+      916
+    ],
+    "image": "components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      95,
+      0,
+      1196,
+      739
+    ],
+    "image": "components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      103,
+      760,
+      1196,
+      1282
+    ],
+    "image": "components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  }
+]

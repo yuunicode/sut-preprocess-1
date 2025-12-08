@@ -1,0 +1,189 @@
+[
+  {
+    "page": 3,
+    "bbox": [
+      36,
+      769,
+      1160,
+      1317
+    ],
+    "image": "components/1980e6bc91fd84428be07c21ce9d17d2_18_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      207,
+      24,
+      680,
+      231
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      79,
+      0,
+      1199,
+      1263
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      62,
+      0,
+      1187,
+      809
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      79,
+      143,
+      1170,
+      645
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      114,
+      973,
+      1117,
+      1168
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p007_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      106,
+      17,
+      1127,
+      568
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      165,
+      862,
+      1103,
+      1273
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p008_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      166,
+      0,
+      1108,
+      288
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      166,
+      289,
+      1113,
+      511
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      166,
+      520,
+      1119,
+      926
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      166,
+      934,
+      1116,
+      1227
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_04.png",
+    "label": "Table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      126,
+      0,
+      1130,
+      305
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p010_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      96,
+      45,
+      1195,
+      946
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p011_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      108,
+      0,
+      1124,
+      442
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p012_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      108,
+      445,
+      1124,
+      795
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p012_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      106,
+      797,
+      1127,
+      1020
+    ],
+    "image": "components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p012_table_03.png",
+    "label": "Table"
+  }
+]

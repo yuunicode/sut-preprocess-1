@@ -1,0 +1,420 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      404,
+      1187,
+      532
+    ],
+    "image": "components/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      95,
+      683,
+      1187,
+      886
+    ],
+    "image": "components/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      645,
+      222,
+      1177,
+      827
+    ],
+    "image": "components/21c55a0bb1f698b647d09570a203ec3f_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      598,
+      34,
+      1157,
+      255
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      640,
+      384,
+      700
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      679,
+      462,
+      738
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      715,
+      375,
+      777
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      752,
+      526,
+      812
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      788,
+      549,
+      848
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      118,
+      825,
+      475,
+      886
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      759,
+      650,
+      1164,
+      991
+    ],
+    "image": "components/f8c83668757d47dc8822e758f05bc0a5_14_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      374,
+      407,
+      438
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      412,
+      504,
+      475
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      449,
+      495,
+      513
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      485,
+      388,
+      549
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_8_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      601,
+      419,
+      664
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      638,
+      425,
+      702
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      676,
+      412,
+      738
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      712,
+      440,
+      775
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      749,
+      300,
+      812
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_14_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      113,
+      786,
+      413,
+      850
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      707,
+      407,
+      1151,
+      771
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_16_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      108,
+      1011,
+      316,
+      1073
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_20_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      108,
+      1049,
+      544,
+      1112
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_21_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      108,
+      1086,
+      560,
+      1150
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_22_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      118,
+      1162,
+      669,
+      1224
+    ],
+    "image": "components/4223f5d6d568fa15a0f90c5cbecaa97a_23_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      133,
+      226,
+      411,
+      287
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      130,
+      262,
+      402,
+      323
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      130,
+      300,
+      435,
+      362
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      130,
+      336,
+      418,
+      397
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      892,
+      15,
+      1160,
+      335
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_7_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      761,
+      440,
+      1195,
+      724
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_12_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      885,
+      758,
+      1112,
+      1072
+    ],
+    "image": "components/f2f6e002e925b6c4cca2d6505118c3b8_16_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      782,
+      51,
+      1180,
+      387
+    ],
+    "image": "components/1c68af2916311f9ce94ad1351e2babcc_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      125,
+      739,
+      575,
+      1094
+    ],
+    "image": "components/1c68af2916311f9ce94ad1351e2babcc_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      783,
+      530,
+      1161,
+      889
+    ],
+    "image": "components/1c68af2916311f9ce94ad1351e2babcc_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      746,
+      3,
+      1147,
+      356
+    ],
+    "image": "components/9804aada864ef5bf30bb7fb6b2b57c6a_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      763,
+      442,
+      1160,
+      803
+    ],
+    "image": "components/9804aada864ef5bf30bb7fb6b2b57c6a_5_img.webp",
+    "label": "Figure"
+  }
+]

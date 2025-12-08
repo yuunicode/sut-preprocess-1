@@ -1,0 +1,277 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      72,
+      444,
+      1197,
+      603
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      120,
+      953,
+      1120,
+      1324
+    ],
+    "image": "components/91d3b585b34befb8bae7ecd26f5f9f58_19_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      193,
+      33,
+      1059,
+      715
+    ],
+    "image": "components/b9bbdbf4a2d1b6d900e6e4df601683f3_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      110,
+      258,
+      1120,
+      685
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      74,
+      690,
+      1164,
+      1203
+    ],
+    "image": "components/a7cc9fec684c9f3c085f6caf98bdcc66_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      315,
+      638,
+      999,
+      1242
+    ],
+    "image": "components/e7c4ae790fae57be3b87739791ae4061_16_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      193,
+      742,
+      1000,
+      1379
+    ],
+    "image": "components/daf5a5bc893ce52fadb0260603a0ae26_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      69,
+      279,
+      1161,
+      734
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p008_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      159,
+      812,
+      996,
+      1337
+    ],
+    "image": "components/fd2508aa3224ec5bb9390d772c658b67_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      278,
+      134,
+      960,
+      760
+    ],
+    "image": "components/89d74763df65aa6158f1ba8202ef3be5_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      193,
+      107,
+      1120,
+      748
+    ],
+    "image": "components/b9c6656c05f38de47f7629220494c57a_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      36,
+      789,
+      1197,
+      1148
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p012_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      193,
+      11,
+      1064,
+      718
+    ],
+    "image": "components/bc9556ab7a841bca73a1faac9ee1d8ec_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      195,
+      669,
+      1051,
+      904
+    ],
+    "image": "components/bc9556ab7a841bca73a1faac9ee1d8ec_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67,
+      33,
+      1168,
+      294
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p015_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      59,
+      758,
+      1174,
+      1013
+    ],
+    "image": "components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p015_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      99,
+      28,
+      1162,
+      763
+    ],
+    "image": "components/a06d009e6590161f2300c9509355144e_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      160,
+      736,
+      1006,
+      1269
+    ],
+    "image": "components/a06d009e6590161f2300c9509355144e_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      137,
+      48,
+      911,
+      179
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      139,
+      195,
+      1011,
+      329
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      139,
+      346,
+      1006,
+      480
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      148,
+      496,
+      984,
+      742
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_9_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      137,
+      758,
+      1046,
+      967
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      137,
+      982,
+      1031,
+      1156
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      137,
+      1169,
+      1044,
+      1303
+    ],
+    "image": "components/75c9e505b0b914a8be9f2f7a9e83f39d_15_img.webp",
+    "label": "Math-Block"
+  }
+]

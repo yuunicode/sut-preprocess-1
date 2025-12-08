@@ -1,0 +1,101 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      295,
+      1187,
+      417
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      530,
+      1212,
+      703
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      758,
+      1212,
+      901
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      93,
+      939,
+      1212,
+      1290
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p001_table_04.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      96,
+      28,
+      1187,
+      415
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      96,
+      454,
+      1187,
+      1211
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      149,
+      716,
+      1088,
+      1209
+    ],
+    "image": "components/c8d998c547cb288d9de05a74f5b89356_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      183,
+      84,
+      1103,
+      744
+    ],
+    "image": "components/94400c1577a2b3abce10d288b7f145f0_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      45,
+      180,
+      1219,
+      890
+    ],
+    "image": "components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      165,
+      730,
+      1120,
+      1415
+    ],
+    "image": "components/7748c83d633de6ca7617228492e97fe3_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      68,
+      0,
+      1219,
+      885
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      141,
+      986,
+      1080,
+      1369
+    ],
+    "image": "components/642eb76ce26347fa4d10409f18a1dbb4_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      126,
+      9,
+      1130,
+      584
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      43,
+      30,
+      1187,
+      1342
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      166,
+      158,
+      1108,
+      536
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      139,
+      538,
+      1117,
+      679
+    ],
+    "image": "components/1d9dba7060e5a91e54274f943b81281a_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      166,
+      800,
+      1108,
+      1136
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p005_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      139,
+      21,
+      1120,
+      435
+    ],
+    "image": "components/d8ee47e6773d72505ef8d8643ca0fe03_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      196,
+      451,
+      1143,
+      935
+    ],
+    "image": "components/d8ee47e6773d72505ef8d8643ca0fe03_4_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      167,
+      1083,
+      1108,
+      1323
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      119,
+      21,
+      1160,
+      161
+    ],
+    "image": "components/8599fd5dceb1e9bdb700ab490ecf5bfe_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      713,
+      209,
+      1041,
+      693
+    ],
+    "image": "components/8599fd5dceb1e9bdb700ab490ecf5bfe_5_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      137,
+      715,
+      1181,
+      1013
+    ],
+    "image": "components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p007_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      130,
+      1038,
+      1119,
+      1314
+    ],
+    "image": "components/8599fd5dceb1e9bdb700ab490ecf5bfe_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      196,
+      17,
+      998,
+      581
+    ],
+    "image": "components/916f767dbb15bdde64b868da566bb094_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      222,
+      1025,
+      1011,
+      1293
+    ],
+    "image": "components/916f767dbb15bdde64b868da566bb094_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      175,
+      28,
+      1033,
+      419
+    ],
+    "image": "components/725c9d62fe831eed3577dd06bd7cd38c_2_img.webp",
+    "label": "Image"
+  }
+]

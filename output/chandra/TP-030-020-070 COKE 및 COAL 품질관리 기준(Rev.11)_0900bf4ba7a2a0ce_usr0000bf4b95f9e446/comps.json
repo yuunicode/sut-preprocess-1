@@ -1,0 +1,68 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      84,
+      404,
+      1131,
+      505
+    ],
+    "image": "components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      191,
+      617,
+      1043,
+      800
+    ],
+    "image": "components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      108,
+      840,
+      1131,
+      1001
+    ],
+    "image": "components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      108,
+      1115,
+      1128,
+      1263
+    ],
+    "image": "components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p001_table_04.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      125,
+      123,
+      1150,
+      655
+    ],
+    "image": "components/aeef8d755a6d61432ec14ddc12233a14_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      69,
+      852,
+      1179,
+      1229
+    ],
+    "image": "components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  }
+]

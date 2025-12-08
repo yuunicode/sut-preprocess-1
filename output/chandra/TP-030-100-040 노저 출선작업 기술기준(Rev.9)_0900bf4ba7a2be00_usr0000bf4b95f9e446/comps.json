@@ -1,0 +1,233 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      184,
+      1159,
+      922,
+      1302
+    ],
+    "image": "components/6193c54b6a4ffc64a76a75a39491306d_15_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      184,
+      33,
+      1133,
+      179
+    ],
+    "image": "components/7210d3430fb00ba181f828171a9cd371_2_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      184,
+      296,
+      1019,
+      442
+    ],
+    "image": "components/7210d3430fb00ba181f828171a9cd371_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      184,
+      484,
+      1156,
+      630
+    ],
+    "image": "components/7210d3430fb00ba181f828171a9cd371_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      184,
+      822,
+      653,
+      968
+    ],
+    "image": "components/7210d3430fb00ba181f828171a9cd371_11_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      184,
+      1008,
+      761,
+      1154
+    ],
+    "image": "components/7210d3430fb00ba181f828171a9cd371_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      184,
+      109,
+      802,
+      252
+    ],
+    "image": "components/b328a4ab638aaa27e435a1b20206bb3e_3_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      184,
+      296,
+      937,
+      439
+    ],
+    "image": "components/b328a4ab638aaa27e435a1b20206bb3e_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      166,
+      410,
+      1188,
+      938
+    ],
+    "image": "components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      166,
+      1129,
+      1165,
+      1372
+    ],
+    "image": "components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      196,
+      115,
+      595,
+      210
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_5_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      196,
+      154,
+      450,
+      247
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_6_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      196,
+      189,
+      545,
+      285
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      196,
+      302,
+      725,
+      398
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_10_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      148,
+      395,
+      817,
+      533
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_12_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      148,
+      490,
+      918,
+      585
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_13_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      135,
+      600,
+      1098,
+      843
+    ],
+    "image": "components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      241,
+      892,
+      1034,
+      1406
+    ],
+    "image": "components/ff18c84105c57ff0572ea12ab843dbfb_17_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      164,
+      718,
+      1074,
+      1260
+    ],
+    "image": "components/0f69d2f1a06e20efb4bcacce247494b2_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      143,
+      0,
+      1188,
+      955
+    ],
+    "image": "components/TP-030-100-040 노저 출선작업 기술기준(Rev.9)_0900bf4ba7a2be00_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      275,
+      301,
+      765,
+      1046
+    ],
+    "image": "components/92c1fcb4082d86ff748014200e35a57a_3_img.webp",
+    "label": "Figure"
+  }
+]

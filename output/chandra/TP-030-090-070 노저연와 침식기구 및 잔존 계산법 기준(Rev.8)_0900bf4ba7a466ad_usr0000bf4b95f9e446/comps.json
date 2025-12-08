@@ -1,0 +1,123 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      691,
+      1007,
+      1166,
+      1357
+    ],
+    "image": "components/5c0b6d3277e06bb570cc54648c698468_24_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      227,
+      316,
+      690,
+      725
+    ],
+    "image": "components/c933cd8919ed44d2479b88ee5d841947_7_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      709,
+      335,
+      1120,
+      709
+    ],
+    "image": "components/c933cd8919ed44d2479b88ee5d841947_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      206,
+      225,
+      647,
+      964
+    ],
+    "image": "components/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      675,
+      222,
+      1114,
+      962
+    ],
+    "image": "components/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      227,
+      743,
+      893,
+      967
+    ],
+    "image": "components/c174bb4e63fa5bdab3934b080021298b_6_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      61,
+      69,
+      1197,
+      807
+    ],
+    "image": "components/TP-030-090-070 노저연와 침식기구 및 잔존 계산법 기준(Rev.8)_0900bf4ba7a466ad_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      147,
+      58,
+      1157,
+      612
+    ],
+    "image": "components/b8ed913b94ec26b243383484b94fcfe3_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      183,
+      648,
+      1141,
+      840
+    ],
+    "image": "components/b8ed913b94ec26b243383484b94fcfe3_4_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      154,
+      34,
+      422,
+      465
+    ],
+    "image": "components/28651e26d052132869fc17e7a8d15ab8_2_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      501,
+      204,
+      1157,
+      346
+    ],
+    "image": "components/28651e26d052132869fc17e7a8d15ab8_4_img.webp",
+    "label": "Math-Block"
+  }
+]

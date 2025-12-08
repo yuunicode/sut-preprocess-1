@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      67,
+      295,
+      1200,
+      405
+    ],
+    "image": "components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      67,
+      557,
+      1200,
+      1003
+    ],
+    "image": "components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      84,
+      67,
+      1162,
+      559
+    ],
+    "image": "components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      84,
+      673,
+      1203,
+      1403
+    ],
+    "image": "components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      86,
+      0,
+      1089,
+      519
+    ],
+    "image": "components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85,
+      688,
+      1190,
+      1352
+    ],
+    "image": "components/9138e54a731bd68d79b9904d3d9a0ddf_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      95,
+      13,
+      1180,
+      574
+    ],
+    "image": "components/f049de9d050dfed3803c8c640317f432_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      95,
+      580,
+      1026,
+      940
+    ],
+    "image": "components/f049de9d050dfed3803c8c640317f432_2_img.webp",
+    "label": "Figure"
+  }
+]

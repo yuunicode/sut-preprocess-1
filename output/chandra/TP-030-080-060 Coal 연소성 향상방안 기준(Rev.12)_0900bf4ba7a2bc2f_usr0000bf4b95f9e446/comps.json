@@ -1,0 +1,211 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      295,
+      1187,
+      405
+    ],
+    "image": "components/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      43,
+      0,
+      720,
+      478
+    ],
+    "image": "components/a3fb5234dfc2ae45a20ccaf734dda483_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      792,
+      34,
+      1093,
+      312
+    ],
+    "image": "components/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      460,
+      750,
+      606,
+      809
+    ],
+    "image": "components/a3fb5234dfc2ae45a20ccaf734dda483_7_img.webp",
+    "label": "Math-Block"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      114,
+      854,
+      643,
+      1046
+    ],
+    "image": "components/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      674,
+      849,
+      1095,
+      1236
+    ],
+    "image": "components/a3fb5234dfc2ae45a20ccaf734dda483_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      123,
+      241,
+      577,
+      631
+    ],
+    "image": "components/1c2c06a595a6bb9a7a5dce9ca4a9c682_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      662,
+      241,
+      1106,
+      631
+    ],
+    "image": "components/1c2c06a595a6bb9a7a5dce9ca4a9c682_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      126,
+      18,
+      575,
+      424
+    ],
+    "image": "components/b6ec9b53ac42343d5f374db563221591_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      598,
+      13,
+      1118,
+      233
+    ],
+    "image": "components/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      157,
+      792,
+      546,
+      1097
+    ],
+    "image": "components/b6ec9b53ac42343d5f374db563221591_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      629,
+      800,
+      1087,
+      1277
+    ],
+    "image": "components/b6ec9b53ac42343d5f374db563221591_13_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      74,
+      127,
+      1195,
+      242
+    ],
+    "image": "components/b55056659e1b54b27265457f9a1aad9d_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      163,
+      559,
+      632,
+      919
+    ],
+    "image": "components/b55056659e1b54b27265457f9a1aad9d_7_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      193,
+      0,
+      1114,
+      595
+    ],
+    "image": "components/f715303e3cdca88432d4bdb2ed602ced_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      93,
+      685,
+      1133,
+      1343
+    ],
+    "image": "components/f715303e3cdca88432d4bdb2ed602ced_4_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      112,
+      333,
+      521,
+      696
+    ],
+    "image": "components/92bd1edd99fa3b7c3764c19c1b20cf40_8_img.webp",
+    "label": "Image"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      108,
+      764,
+      592,
+      878
+    ],
+    "image": "components/92bd1edd99fa3b7c3764c19c1b20cf40_19_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      116,
+      884,
+      468,
+      1271
+    ],
+    "image": "components/92bd1edd99fa3b7c3764c19c1b20cf40_20_img.webp",
+    "label": "Image"
+  }
+]

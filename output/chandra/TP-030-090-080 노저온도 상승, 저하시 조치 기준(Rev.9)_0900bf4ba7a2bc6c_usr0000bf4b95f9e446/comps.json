@@ -1,0 +1,90 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      57,
+      389,
+      1177,
+      538
+    ],
+    "image": "components/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      55,
+      600,
+      1181,
+      763
+    ],
+    "image": "components/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      85,
+      763,
+      1199,
+      1293
+    ],
+    "image": "components/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446_p001_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      70,
+      5,
+      1168,
+      323
+    ],
+    "image": "components/TP-030-090-080 노저온도 상승, 저하시 조치 기준(Rev.9)_0900bf4ba7a2bc6c_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      154,
+      588,
+      1200,
+      868
+    ],
+    "image": "components/35448a5472c9c4dde15a059122c75326_6_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49,
+      0,
+      1204,
+      1029
+    ],
+    "image": "components/42c8c276c2f04f00f711df47dfb6dcda_1_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      63,
+      448,
+      1091,
+      1342
+    ],
+    "image": "components/965285667fc0c625363822bd91dcdb65_9_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      112,
+      36,
+      1181,
+      731
+    ],
+    "image": "components/3c88c61be22f1adfb8cc2c44e4e0e0d5_2_img.webp",
+    "label": "Figure"
+  }
+]

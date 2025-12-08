@@ -1,0 +1,123 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      86,
+      370,
+      1171,
+      468
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      76,
+      581,
+      1158,
+      1410
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      74,
+      0,
+      1156,
+      812
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      68,
+      849,
+      1163,
+      1376
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p002_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68,
+      0,
+      1163,
+      633
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      68,
+      670,
+      1163,
+      887
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      68,
+      30,
+      1163,
+      484
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      63,
+      524,
+      1169,
+      1319
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p004_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      73,
+      28,
+      1160,
+      489
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      69,
+      526,
+      1163,
+      1042
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p005_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      45,
+      27,
+      1187,
+      369
+    ],
+    "image": "components/TP-030-020-010 장입 연,원료 용어의 기준(Rev.10)_0900bf4ba7a2b054_usr0000bf4b95f9e446_p006_table_01.png",
+    "label": "Table"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      96,
+      370,
+      1187,
+      481
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      123,
+      671,
+      909,
+      765
+    ],
+    "image": "components/cbe650e5c9c9b304eeb2175fa42fe393_11_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      34,
+      1194,
+      132
+    ],
+    "image": "components/4868b151972e9725d547e9131cf777cf_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      556,
+      1194,
+      720
+    ],
+    "image": "components/4868b151972e9725d547e9131cf777cf_5_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      149,
+      971,
+      1194,
+      1218
+    ],
+    "image": "components/4868b151972e9725d547e9131cf777cf_8_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      134,
+      28,
+      1185,
+      141
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p003_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      134,
+      178,
+      1185,
+      523
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p003_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      134,
+      518,
+      698,
+      862
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p003_table_03.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      137,
+      670,
+      1151,
+      782
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p004_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      82,
+      977,
+      1174,
+      1392
+    ],
+    "image": "components/854d83e678acca1a3b063c5332d3bb50_10_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      177,
+      404,
+      1186,
+      691
+    ],
+    "image": "components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p005_table_01.png",
+    "label": "Table"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      82,
+      520,
+      1189,
+      636
+    ],
+    "image": "components/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446_p001_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      134,
+      834,
+      1190,
+      1383
+    ],
+    "image": "components/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446_p001_table_02.png",
+    "label": "Table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      129,
+      52,
+      1140,
+      582
+    ],
+    "image": "components/4bea0b6934424a065b92c96ae2494da9_2_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      133,
+      718,
+      1190,
+      1347
+    ],
+    "image": "components/TP-030-070-050 Coke 중심장입 및 Nut Coke 장입기준(Rev.9)_0900bf4ba7a466b5_usr0000bf4b95f9e446_p002_table_01.png",
+    "label": "Table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      159,
+      138,
+      1134,
+      371
+    ],
+    "image": "components/bba1bf4f64281875cc08d959628c31a9_3_img.webp",
+    "label": "Figure"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      152,
+      475,
+      1109,
+      640
+    ],
+    "image": "components/bba1bf4f64281875cc08d959628c31a9_5_img.webp",
+    "label": "Figure"
+  }
+]
