@@ -19,11 +19,13 @@ LLM_DIR = REPO_ROOT / "output" / "llm"
 LOG_DIR = REPO_ROOT / "logs"
 DEFAULT_MODEL_PATH = REPO_ROOT / ".models" / "qwen" / "Qwen2.5-VL-7B-Instruct"
 ERROR_LOG = LOG_DIR / "llm_errors.log"
+FAILED_LOG = LOG_DIR / "failed_llm.log"
 DEFAULT_DEVICE = "cuda"
 # LLM 세부 파라미터 (필요시 상단에서만 수정)
 MAX_NEW_TOKENS = 512  # 생성 토큰 수
 REPETITION_PENALTY = 1.3  # 이미 생성된 토큰 반복을 억제 (값이 클수록 반복 감소)
 NO_REPEAT_NGRAM_SIZE = 4  # 지정된 ngram 크기 반복 금지 (4-gram 반복 방지)
+RETRY_MAX_ATTEMPTS = 3  # 이미지(SUM/TRANS) 파싱 실패 시 최대 재시도 횟수
 
 
 # --------------------- 공통 유틸 ---------------------
@@ -209,27 +211,52 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
                 else:
                     print(f"[이미지없음] {path.name} id={entry_id} image_link={img_link} (파일 없음)")
 
-        resp_text = ""
-        try:
-            prompt = build_prompt(instruction, input_payload)
-            resp_text = run_chat(model, tokenizer, prompt, image=image_obj)
-        except Exception as exc:  # pragma: no cover
-            log_error(f"file={path.name} id={entry_id} error=LLM call failed: {exc}")
-            resp_text = ""
+        # 이미지 SUM/TRANS, 테이블 STR/UNSTR는 파싱 실패 시 최대 RETRY_MAX_ATTEMPTS까지 재시도
+        retry_targets = ("llm_images_sum", "llm_images_trans", "llm_tables_str", "llm_tables_unstr")
+        is_retry_target = path.name.startswith(retry_targets)
+        attempts = RETRY_MAX_ATTEMPTS if is_retry_target else 1
 
+        resp_text = ""
         merged = template_output
-        if resp_text:
-            cleaned = clean_response_text(resp_text)
-            candidate = extract_json(cleaned)
-            merged, ok = validate_output(template_output, candidate)
-            if not ok:
-                log_error(f"file={path.name} id={entry_id} error=invalid_output resp='{resp_text[:200]}'")
-                entry_status = "실패"
+        success = False
+        last_reason = "empty_response"
+        for attempt in range(1, attempts + 1):
+            try:
+                prompt = build_prompt(instruction, input_payload)
+                resp_text = run_chat(model, tokenizer, prompt, image=image_obj)
+            except Exception as exc:  # pragma: no cover
+                log_error(f"file={path.name} id={entry_id} attempt={attempt} error=LLM call failed: {exc}")
+                resp_text = ""
+                last_reason = f"exception:{exc}"
+
+            if resp_text:
+                cleaned = clean_response_text(resp_text)
+                candidate = extract_json(cleaned)
+                merged, ok = validate_output(template_output, candidate)
+                if ok:
+                    print(f"[출력성공] {path.name} id={entry_id} attempt={attempt}")
+                    success = True
+                    break
+                last_reason = "invalid_output"
+                log_error(
+                    f"file={path.name} id={entry_id} attempt={attempt} error=invalid_output resp='{resp_text[:200]}'"
+                )
             else:
-                print(f"[출력성공] {path.name} id={entry_id}")
-        else:
-            log_error(f"file={path.name} id={entry_id} error=empty_response")
+                last_reason = "empty_response"
+                log_error(f"file={path.name} id={entry_id} attempt={attempt} error=empty_response")
+
+        if not success:
             entry_status = "실패"
+            ts = datetime.datetime.now().isoformat(timespec="seconds")
+            FAILED_LOG.parent.mkdir(parents=True, exist_ok=True)
+            with FAILED_LOG.open("a", encoding="utf-8") as f:
+                f.write(
+                    f"[{ts}] file={path.name} id={entry_id} attempts={attempts} reason={last_reason} "
+                    f"resp_snippet='{(resp_text or '')[:200]}'\n"
+                )
+            print(f"[실패] {path.name} id={entry_id} attempts={attempts}")
+        else:
+            entry_status = "성공"
 
         result_entry = dict(entry)
         result_entry["output"] = merged
