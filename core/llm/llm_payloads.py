@@ -13,14 +13,15 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 EXTRACT_DIR = REPO_ROOT / "output" / "extract"
 LLM_DIR = REPO_ROOT / "output" / "llm"
 DEFAULT_WINDOW = 15
+TABLE_CONTEXT_WINDOW = 20
 DEFAULT_DIGIT_ONLY_RATIO_THRESHOLD = 0.3
 DIGIT_HEAVY_LOG = REPO_ROOT / "logs" / "digit_heavy_tables.log"
 
 TABLE_STR_INSTRUCTIONS = """
 너는 제선·제철 공정 문서에서 제공되는 테이블 데이터를 해석해 핵심 의미를 압축해 전달하는 기술 요약 담당자이다. 
-아래 입력 변수(row_flatten, filename, image_link)를 참고해 테이블의 기술적 의미를 정확하게 정리하라.
+아래 입력 변수(row_flatten, filename, image_link, context_before, context_after)를 참고해 테이블의 기술적 의미를 정확하게 정리하라.
 
-- 참고: row_flatten={row_flatten}, filename={filename}, image_link={image_link}
+- 참고: row_flatten={row_flatten}, filename={filename},
 - 테이블은 각 행·셀에 담긴 수치, 조건, 정의, 조치(Action)를 함께 설명하라.
 - 표 구조나 헤더를 나열하지 말고, 조업 기준·조건·임계값·경향성을 4~8문장으로 요약한다.
 - 테이블에 포함된 수치·단위·조건을 가능한 한 그대로 유지한다.
@@ -37,11 +38,10 @@ TABLE_STR_INSTRUCTIONS = """
 
 TABLE_UNSTR_INSTRUCTIONS = """
 너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. 
-아래 입력 변수(section_path, filename, image_link)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라.
-
-- 참고: section_path={section_path}, filename={filename}, image_link={image_link}
-- 테이블의 각 행·셀에 담긴 수치, 조건, 정의, 조치(Action)를 함께 설명하라.
-- H스트·숫자·단위·이미지를 기반으로 4~8문장으로 의미를 재구성한다.
+아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라.
+- 파일명: {filename}
+- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after}
+- 위 맥락을 참고하여 image_link={image_link} 테이블의 각 행·셀에 담긴 수치, 조건, 정의, 조치(Action)를 함께 설명하며, 헤더에 유의하여 설명해라.
 - 테이블의 수치·단위·조건·기준은 가능한 한 원문 그대로 유지한다.
 
 출력 형식:
@@ -58,14 +58,10 @@ IMAGE_TRANS_INSTRUCTIONS = """
 너는 제선·제철 공정의 시각 자료(도표·그래프·다이어그램)를 해석하여 핵심 정보를 명확히 전달하는 이미지 분석 담당자이다.
 아래 입력 변수(description, image_link, section_path)를 참고하되, 최종 판단은 이미지 자체의 내용 기반으로 수행하라.
 
-- 참고: description={description}, image_link={image_link}, section_path={section_path}
-- 첫 문장은 반드시 '이 도표는', '이 그림은', 또는 '이 그래프는'으로 시작한다.
-- 그래프·차트는 추세, 비교, 증감, 변수 간 관계를 명확히 설명한다.
-- 다이어그램·공정도는 흐름, 구조, 장치 간 상호작용을 명확히 설명한다.
-- 기본 서술은 한국어로 작성하되, 공정 전문 용어는 영어/한국어 병기 가능하다.
-- 주어진 description을 한국어로 풀어 설명하고, 이미지에서 읽히는 추가 정보(축/눈금/흐름 등)가 있으면 보완해 적어라.
+- 참고: description={description}
+- 해당 description을 한국어로 번역하여라. dead man, cokes, hanging과 같은 전문 용어는 영어를 보존하며 동사나 한국어로 번역이 가능한 부분만 번역해라.
 - 단위(Unit)는 반드시 정확하게 보존한다.
-- 4~5문장으로 요약하고, 핵심 개념·변수·전문 용어·단위를 한국어/영어 키워드 5~15개로 정리한다.
+- 모든 정보를 보존하며 번역하고, 키워드는 한국어/영어 상관없이 5개 뽑아라.
 
 출력 형식:
 {
@@ -76,15 +72,15 @@ IMAGE_TRANS_INSTRUCTIONS = """
 
 IMAGE_SUM_INSTRUCTIONS = """
 너는 제선·제철 공정의 시각 자료를 직접 분석하여 의미를 추론하는 이미지 분석 담당자이다.
-description이 없으므로 이미지 자체의 구조와 주변 context를 기반으로 요약하라.
+description이 없으므로 이미지 자체의 구조와 주변 context를 기반으로 한국어로 이미지를 설명하라. 단, 영문으로 표기되어 있는건 영문 그대로 사용해라.
 
 - 참고: image_link={image_link}, context_before={context_before}, context_after={context_after}
 - context_before/after에 '<그림 ...>'처럼 이미지를 설명하는 문장이 있으면 필요한 범위에서 참고해 의미를 보완한다.
-- 첫 문장은 반드시 '이 도표는', '이 그림은', 또는 '이 그래프는'으로 시작한다.
 - 그래프/차트는 x축·y축 이름/눈금·단위, 비교 그룹, 추세(증감/극값/비교)를 구체적으로 설명한다.
 - 다이어그램/공정도/플로우는 단계별 흐름과 전환 조건을 빠짐없이 기술한다.
-- 기본 서술은 한국어를 사용하되, 공정 전문 용어는 영어/한국어 병기 가능하다.
+
 - 단위(Unit)는 반드시 정확하게 유지한다.
+- 첫 문장은 반드시 '이 도표는', '이 그림은', '이 다이어그램', 또는 '이 그래프는'으로 시작한다.
 - 4~5문장 요약과 함께 핵심 개념·변수·전문 용어·단위를 한국어/영어 키워드 5~15개로 제시한다.
 
 출력 형식:
@@ -197,6 +193,10 @@ def build_table_payloads(
     str_payloads: list[dict] = []
     skipped_str: list[dict] = []
     for item in str_items:
+        cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
+        context_before, context_after = get_context_windows(
+            cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
+        )
         skip, digit_only_ratio_val, digit_only_count, total_cells = should_skip_table_for_digits(
             item, digit_only_ratio_threshold
         )
@@ -222,6 +222,8 @@ def build_table_payloads(
                     "row_flatten": item.get("row_flatten") or [],
                     "filename": item.get("filename"),
                     "image_link": item.get("image_link"),
+                    "context_before": context_before,
+                    "context_after": context_after,
                 },
                 "output": {"table_summary": []},
             }
@@ -229,6 +231,10 @@ def build_table_payloads(
 
     unstr_payloads: list[dict] = []
     for item in unstr_items:
+        cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
+        context_before, context_after = get_context_windows(
+            cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
+        )
         unstr_payloads.append(
             {
                 "id": item.get("id"),
@@ -237,6 +243,8 @@ def build_table_payloads(
                     "section_path": item.get("section_path") or "",
                     "filename": item.get("filename"),
                     "image_link": item.get("image_link"),
+                    "context_before": context_before,
+                    "context_after": context_after,
                 },
                 "output": {"table_summary": []},
             }
