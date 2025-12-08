@@ -201,7 +201,7 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
             if img_link:
                 img_candidate = Path(img_link)
                 if not img_candidate.is_absolute():
-                    img_candidate = Path(__file__).resolve().parents[1] / img_link
+                    img_candidate = REPO_ROOT / img_link
                 if img_candidate.exists():
                     image_obj = load_image(img_candidate)
                     if image_obj:
