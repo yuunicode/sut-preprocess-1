@@ -38,11 +38,12 @@ TABLE_STR_INSTRUCTIONS = """
 
 TABLE_UNSTR_INSTRUCTIONS = """
 너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. 
-아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라.
+아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.
 - 파일명: {filename}
-- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after}
-- 위 맥락을 참고하여 image_link={image_link} 테이블의 각 행·셀에 담긴 수치, 조건, 정의, 조치(Action)를 함께 설명하며, 헤더에 유의하여 설명해라.
-- 테이블의 수치·단위·조건·기준은 가능한 한 원문 그대로 유지한다.
+- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)
+- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.
+- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.
+- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.
 
 출력 형식:
 {

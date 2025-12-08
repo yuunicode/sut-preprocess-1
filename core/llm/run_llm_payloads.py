@@ -104,6 +104,9 @@ def needs_image_detail_retry(file_name: str, output: Dict[str, Any]) -> bool:
     if not (is_sum or is_trans):
         return False
     summary = (output or {}).get("image_summary", "") or ""
+    if isinstance(summary, list):
+        summary = " ".join([s for s in summary if isinstance(s, str)])
+    summary = summary or ""
     stripped = summary.strip()
     if is_sum and len(stripped) < 60:
         return True
