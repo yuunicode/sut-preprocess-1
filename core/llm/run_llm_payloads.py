@@ -99,14 +99,20 @@ def validate_output(template: Dict[str, Any], candidate: Dict[str, Any]) -> Tupl
 
 def needs_image_detail_retry(file_name: str, output: Dict[str, Any]) -> bool:
     """이미지 SUM/TRANS에서 내용이 너무 빈약하면 재시도 요구."""
-    if not (file_name.startswith("llm_images_sum") or file_name.startswith("llm_images_trans")):
+    is_sum = file_name.startswith("llm_images_sum")
+    is_trans = file_name.startswith("llm_images_trans")
+    if not (is_sum or is_trans):
         return False
     summary = (output or {}).get("image_summary", "") or ""
     stripped = summary.strip()
-    if len(stripped) < 60:
+    if is_sum and len(stripped) < 60:
         return True
-    # 중국어/러시아어가 8자 이상 연속 등장하면 재시도
-    if re.search(r"[\u4e00-\u9fff]{8,}", stripped) or re.search(r"[А-Яа-яЁё]{8,}", stripped):
+    # 중국어/러시아어/아랍권 문자나 아랍-인도 숫자가 포함되면 재시도
+    if re.search(r"[\u4e00-\u9fff]", stripped) or re.search(r"[А-Яа-яЁё]", stripped):
+        return True
+    if re.search(r"[\u0600-\u06FF]", stripped):  # Arabic block
+        return True
+    if re.search(r"[\u0660-\u0669\u06F0-\u06F9]", stripped):  # Arabic-Indic, Eastern Arabic-Indic digits
         return True
     return False
 
