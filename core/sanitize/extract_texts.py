@@ -10,6 +10,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString, Tag, Comment
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+ARGS = argparse.Namespace(strict_headings=False)  # set in main
 DEFAULT_ROOT = REPO_ROOT / "output" / "sanitize"
 TARGET_SUFFIX = "_placeholders.md"
 OUTPUT_SUFFIX = "_cleaned.md"
@@ -20,6 +21,7 @@ SKIP_PATTERNS = [
     r"(?<![0-9A-Za-z가-힣])[`\-~*\s]*끝[`\-~*\s]*(?![0-9A-Za-z가-힣])",
 ]
 PLACEHOLDER_RE = re.compile(r"\{\{([^{}]+)\}\}")
+NUMERIC_HEADING_RE = re.compile(r"^\d+(?:\.\d+)*(?:\.)?(?=\s|$)")
 
 
 def iter_target_files(root: Path):
@@ -119,33 +121,55 @@ def remove_skip_markers(text: str) -> str:
 
 def remove_sections_with_phrase(text: str, phrase: str = "해당사항 없음") -> str:
     """
-    헤딩(line starts with #) 내용에 phrase(공백 무시)가 포함되면
-    해당 헤딩과 다음 헤딩 전까지의 본문을 제거한다.
+    헤딩(line starts with #) 내용에 phrase(공백 무시)가 포함되거나,
+    헤딩 이하 본문(줄바꿈 무시)에 phrase가 포함되면
+    해당 헤딩과 다음 헤딩 전까지를 제거한다.
     페이지 주석은 스킵 구간에서도 보존한다.
     """
-    target = re.sub(r"\s+", "", phrase)
+    target_norm = re.sub(r"\s+", "", phrase)
+    target_variants = {target_norm}
+    if "사항" in target_norm:
+        target_variants.add(target_norm.replace("사항", ""))
     heading_re = re.compile(r"^(#{1,6})\s+(.*)")
     page_comment_re = re.compile(r"<!--\s*페이지번호:.*-->")
 
     lines = text.splitlines()
     out: list[str] = []
-    skip = False
-    for line in lines:
+    idx = 0
+
+    while idx < len(lines):
+        line = lines[idx]
         stripped = line.strip()
         hmatch = heading_re.match(stripped)
-        if hmatch:
-            title = re.sub(r"\s+", "", hmatch.group(2))
-            if target and target in title:
-                skip = True
-                continue
-            skip = False
+        if not hmatch:
             out.append(line)
+            idx += 1
             continue
-        if skip:
-            if page_comment_re.match(stripped):
-                out.append(line)
-            continue
-        out.append(line)
+
+        # 수집: 현 헤딩부터 다음 헤딩 직전까지
+        section_lines: list[str] = []
+        idx += 1
+        while idx < len(lines):
+            next_line = lines[idx]
+            if heading_re.match(next_line.strip()):
+                break
+            section_lines.append(next_line)
+            idx += 1
+
+        title_norm = re.sub(r"\s+", "", hmatch.group(2))
+        body_norm = re.sub(r"\s+", "", "".join(section_lines))
+        skip = bool(target_variants) and any(
+            t in title_norm or t in body_norm for t in target_variants
+        )
+
+        if not skip:
+            out.append(line)
+            out.extend(section_lines)
+        else:
+            for sec_line in section_lines:
+                if page_comment_re.match(sec_line.strip()):
+                    out.append(sec_line)
+
     return "\n".join(out)
 
 
@@ -171,11 +195,15 @@ def build_component_map(comp_data: dict) -> dict:
     return mapping
 
 
-def chunk_by_numeric_heading(text: str) -> list[dict]:
-    """숫자 헤딩(예: 4., 4.5, 6.7.2) 등장 시점을 경계로 청크를 나눈다."""
+def chunk_by_numeric_heading(text: str, strict: bool = False) -> list[dict]:
+    """
+    숫자 헤딩(예: 4., 4.5, 6.7.2) 등장 시점을 경계로 청크를 나눈다.
+    strict=True이면 헤딩으로 인정하는 것도 숫자 헤딩뿐이며, 그 외 헤딩은 본문 텍스트로 취급한다.
+    """
     chunks: list[dict] = []
     current: list[str] = []
     section_stack: list[str] = []
+    numeric_stack: list[str] = []
     current_pages: list[int] = []
     current_filename = None
 
@@ -209,6 +237,7 @@ def chunk_by_numeric_heading(text: str) -> list[dict]:
                 if current_filename and new_filename != current_filename:
                     push_chunk()
                     section_stack.clear()
+                    numeric_stack.clear()
                     current_pages = []
                 current_filename = new_filename
                 if new_page not in current_pages:
@@ -219,7 +248,35 @@ def chunk_by_numeric_heading(text: str) -> list[dict]:
             level = len(hmatch.group(1))
             title = hmatch.group(2).strip()
             # 숫자 헤딩(예: 1., 4.5, 6.7.2)일 때만 새 청크 시작
-            if re.match(r"^\d+(?:\.\d+)*", title):
+            num_match = NUMERIC_HEADING_RE.match(title)
+            is_numeric_heading = bool(num_match)
+            if strict and not is_numeric_heading:
+                current.append(line)
+                continue
+            if is_numeric_heading and strict:
+                # strict 모드: 부모 숫자 접두와 일관할 때만 헤딩으로 인정
+                current_prefix = num_match.group().rstrip(".")
+                parent_prefix = numeric_stack[level - 2] if level > 1 and len(numeric_stack) >= level - 1 else None
+                # 먼저 이전 청크를 밀어낸다(현 스택을 보존)
+                push_chunk()
+                while len(section_stack) >= level:
+                    section_stack.pop()
+                    if numeric_stack:
+                        numeric_stack.pop()
+                if parent_prefix and not current_prefix.startswith(parent_prefix + "."):
+                    # 부모 접두가 다른 경우, 새로운 최상위 헤딩으로 취급
+                    section_stack.clear()
+                    numeric_stack.clear()
+                    section_stack.append(title)
+                    numeric_stack.append(current_prefix)
+                    current.append(line)
+                    continue
+                push_chunk()
+                section_stack.append(title)
+                numeric_stack.append(current_prefix)
+                current.append(line)
+                continue
+            if is_numeric_heading:
                 push_chunk()
             while len(section_stack) >= level:
                 section_stack.pop()
@@ -247,7 +304,7 @@ def build_text_component(chunk: dict, idx: int, component_map: dict) -> dict:
     }
 
 
-def append_text_components(clean_path: Path) -> None:
+def append_text_components(clean_path: Path, strict: bool = False) -> None:
     comp_path = clean_path.parent / "components.json"
     if not comp_path.exists():
         comp_data = {}
@@ -256,7 +313,7 @@ def append_text_components(clean_path: Path) -> None:
 
     component_map = build_component_map(comp_data)
     text = clean_path.read_text(encoding="utf-8")
-    chunks = chunk_by_numeric_heading(text)
+    chunks = chunk_by_numeric_heading(text, strict=strict)
     texts: list[dict] = []
     for idx, chunk in enumerate(chunks, 1):
         texts.append(build_text_component(chunk, idx, component_map=component_map))
@@ -273,7 +330,7 @@ def process_file(path: Path) -> None:
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
     out_path = path.with_name(path.name.replace(TARGET_SUFFIX, OUTPUT_SUFFIX))
     out_path.write_text(cleaned + ("\n" if cleaned else ""), encoding="utf-8")
-    append_text_components(out_path)
+    append_text_components(out_path, strict=ARGS.strict_headings)
     print(f"[INFO] Wrote {out_path} and updated components.json")
 
 
@@ -281,7 +338,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Extract plain text from *_placeholders.md.")
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="sanitize 루트 (기본: output/sanitize)")
     parser.add_argument("--files", nargs="*", type=Path, help="특정 *_placeholders.md만 처리")
+    parser.add_argument(
+        "--strict-headings",
+        action="store_true",
+        help="숫자 헤딩만 섹션으로 인정(가./나. 등은 본문으로 처리)",
+    )
     args = parser.parse_args()
+    global ARGS
+    ARGS = args
 
     targets = args.files if args.files else list(iter_target_files(args.root))
     if not targets:

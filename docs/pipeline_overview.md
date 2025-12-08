@@ -6,7 +6,8 @@
   1. `python3 core/sanitize/rule_cleanup.py` → `_rule_sanitized.md` (math/heading 정규화)
   2. `python3 core/sanitize/copy_components.py` → `output/sanitize/**/components/` 동기화
   3. `python3 core/sanitize/extract_components.py --root output/sanitize` → `_placeholders.md` + `components.json` (table/image placeholder, `context_html` 없음)
-  4. `python3 core/sanitize/extract_texts.py --root output/sanitize` → `_cleaned.md` 덮어쓰기 + `components.json`에 `texts` 추가
+  4. `python3 core/sanitize/extract_texts.py --root output/sanitize [--strict-headings]` → `_cleaned.md` 덮어쓰기 + `components.json`에 `texts` 추가  
+     - `--strict-headings`(2025-12-08 추가): 숫자 헤더(`1.`, `4.7`, `4.7.2`)만 섹션으로 인정하고 부모 접두어 일관성(`4.7` → `4.7.1/4.7.2`)을 체크. 비숫자 헤더(`가.`, `1)`)는 본문으로 내려감.
   5. `python3 core/sanitize/aggregate_components.py` → split JSON을 `output/extract/`에 생성 (`components_tables_str/unstr/images_sum/trans/formula/texts.json`, `logs/components_total.json`)
 - **출력**: `output/sanitize/**/{stem}_rule_sanitized.md`, `{stem}_placeholders.md`, `{stem}_cleaned.md`, `components.json`, `output/extract/*.json`
 
@@ -19,7 +20,8 @@
 ## C. Final 생성 (extract + llm result → output/final)
 - **전제**: `output/extract/*.json` + `output/llm/*_result.json`
 - **모듈/명령**: `python3 core/finalize/finalize_jsons.py`
-- **출력**: `output/final/` (요약 표)
+- **출력**: `output/final/` (요약 표)  
+  - 텍스트 청크 옵션(2025-12-08 추가): `--chunk-size N --chunk-overlap M`으로 `texts_final.json`을 추가 분할할 수 있음. `{{ID}}` placeholder는 청크 경계에서 끊지 않으며 `placeholders` 매핑은 서브 청크가 그대로 상속.
 
 | 파일 | id 구성 | text 내용 | 비고 |
 | --- | --- | --- | --- |

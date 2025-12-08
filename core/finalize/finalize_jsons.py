@@ -2,7 +2,9 @@
 """Finalize tables/texts/images with LLM outputs into output/final."""
 from __future__ import annotations
 
+import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -10,6 +12,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 EXTRACT_DIR = REPO_ROOT / "output" / "extract"
 LLM_DIR = REPO_ROOT / "output" / "llm"
 FINAL_DIR = REPO_ROOT / "output" / "final"
+PLACEHOLDER_SPAN_RE = re.compile(r"\{\{[^{}]+\}\}")
 
 
 def load_json(path: Path) -> Any:
@@ -241,7 +244,46 @@ def finalize_images_trans() -> List[Dict[str, Any]]:
     return _finalize_images_generic(EXTRACT_DIR / "components_images_trans.json", "llm_images_trans_result.json")
 
 
-def finalize_texts() -> List[Dict[str, Any]]:
+def _split_text_with_placeholders(text: str, chunk_size: int, chunk_overlap: int) -> List[str]:
+    """Split text into chunks of roughly chunk_size, ensuring placeholders are not split."""
+    if chunk_size <= 0:
+        return [text]
+    if chunk_overlap < 0:
+        chunk_overlap = 0
+
+    spans = [(m.start(), m.end()) for m in PLACEHOLDER_SPAN_RE.finditer(text)]
+    chunks: List[str] = []
+    n = len(text)
+    start = 0
+
+    def adjust_to_placeholder(pos: int) -> int:
+        for s, e in spans:
+            if s < pos < e:
+                return s
+        return pos
+
+    while start < n:
+        end = start + chunk_size
+        if end < n:
+            for s, e in spans:
+                if s < end < e:
+                    end = e
+        end = min(end, n)
+        if end <= start:
+            end = min(start + chunk_size, n)
+        chunk = text[start:end].strip()
+        if chunk:
+            chunks.append(chunk)
+        if end >= n:
+            break
+        next_start = end - chunk_overlap
+        if next_start <= start:
+            next_start = end
+        start = adjust_to_placeholder(next_start)
+    return chunks
+
+
+def finalize_texts(chunk_size: int = 0, chunk_overlap: int = 0) -> List[Dict[str, Any]]:
     src_path = EXTRACT_DIR / "components_texts.json"
     if not src_path.exists():
         return []
@@ -258,16 +300,36 @@ def finalize_texts() -> List[Dict[str, Any]]:
         prefix = " ".join(prefix_parts)
         text_body = item.get("text") or ""
         combined = f"{prefix} {text_body}".strip() if prefix else str(text_body)
-        new_item = dict(item)
-        new_item["text"] = combined
-        finals.append(new_item)
+        chunks = _split_text_with_placeholders(
+            combined,
+            chunk_size=chunk_size if chunk_size and chunk_size > 0 else 0,
+            chunk_overlap=chunk_overlap if chunk_overlap and chunk_overlap > 0 else 0,
+        )
+        if len(chunks) <= 1:
+            new_item = dict(item)
+            new_item["text"] = combined
+            finals.append(new_item)
+        else:
+            for cidx, chunk in enumerate(chunks, 1):
+                new_item = dict(item)
+                new_item["id"] = f"{item.get('id')}#c{cidx}"
+                new_item["text"] = chunk
+                finals.append(new_item)
     return finals
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Finalize JSON outputs into output/final.")
+    parser.add_argument("--chunk-size", type=int, default=0, help="텍스트 청크 크기 (0이면 청크 분할 없음)")
+    parser.add_argument("--chunk-overlap", type=int, default=0, help="청크 간 겹치는 문자 수")
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
 
-    texts = finalize_texts()
+    texts = finalize_texts(chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
     save_json(FINAL_DIR / "texts_final.json", texts)
 
     tables_str = finalize_tables_str()
