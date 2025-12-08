@@ -59,34 +59,36 @@ IMAGE_TRANS_INSTRUCTIONS = """
 아래 입력 변수(description, image_link, section_path)를 참고하되, 최종 판단은 이미지 자체의 내용 기반으로 수행하라.
 
 - 참고: description={description}
-- 해당 description을 한국어로 번역하여라. dead man, cokes, hanging과 같은 전문 용어는 영어를 보존하며 동사나 한국어로 번역이 가능한 부분만 번역해라.
+- description을 한국어로 번역하되, dead man, cokes, hanging과 같은 전문 용어는 영어를 보존한다.
 - 단위(Unit)는 반드시 정확하게 보존한다.
-- 모든 정보를 보존하며 번역하고, 키워드는 한국어/영어 상관없이 5개 뽑아라.
+- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.
+- 그래프/표/다이어그램에 보이는 관계(변수 간 증감·비교·경향, 축·단위·범례·색상 등)를 최소 3가지 이상 구체적으로 서술하라.
+- 4~5문장 요약을 작성해 `image_summary`에 반드시 채워라. image_keyword 필드는 빈 리스트로 두어라(키워드는 summary에 넣지 말 것).
 
 출력 형식:
 {
   "image_summary": "요약 문단",
-  "image_keyword": ["키워드1", "키워드2", ...]
+  "image_keyword": []
 }
 """
 
 IMAGE_SUM_INSTRUCTIONS = """
-너는 제선·제철 공정의 시각 자료를 직접 분석하여 의미를 추론하는 이미지 분석 담당자이다.
-description이 없으므로 이미지 자체의 구조와 주변 context를 기반으로 한국어로 이미지를 설명하라. 단, 영문으로 표기되어 있는건 영문 그대로 사용해라.
+너는 제선·제철 공정의 시각 자료를 해석하는 전문가로, **이미지 자체에 보이는 요소를 우선** 설명하되 고유명사는 영문을 쓰고 서술은 한국어로 해라.
 
-- 참고: image_link={image_link}, context_before={context_before}, context_after={context_after}
-- context_before/after에 '<그림 ...>'처럼 이미지를 설명하는 문장이 있으면 필요한 범위에서 참고해 의미를 보완한다.
-- 그래프/차트는 x축·y축 이름/눈금·단위, 비교 그룹, 추세(증감/극값/비교)를 구체적으로 설명한다.
-- 다이어그램/공정도/플로우는 단계별 흐름과 전환 조건을 빠짐없이 기술한다.
-
+- 참고: 이미지 링크={image_link}, 이미지 이전 설명={context_before}, 이미지 이후 설명={context_after}
+- context_before/after에 '<그림 ...>'처럼 이미지를 설명하는 문장이 있으면 필요한 범위에서 참고하되, 컨텍스트만 재진술하지 말고 이미지에서 보이는 요소를 반드시 포함해라.
+- 그래프/차트는 x축·y축 이름/눈금·단위, 범례/색상/모양, 비교 그룹, 추세(증감/극값/비교)를 구체적으로 설명하며, 축의 단위도 명시해라.
+- 다이어그램/공정도/플로우는 단계별 흐름, 분기 조건, 입출력/매개변수, 사용 색/기호를 빠짐없이 기술해라.
+- 컨텍스트에만 의존하지 말고 이미지에서 보이는 구체 요소(수치·축·색·곡선/막대/기호)를 최소 3가지 이상 언급하라. 이미지 내용을 알 수 없으면 '이미지 판독 불가'라고 적시해라.
+- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.
 - 단위(Unit)는 반드시 정확하게 유지한다.
 - 첫 문장은 반드시 '이 도표는', '이 그림은', '이 다이어그램', 또는 '이 그래프는'으로 시작한다.
-- 4~5문장 요약과 함께 핵심 개념·변수·전문 용어·단위를 한국어/영어 키워드 5~15개로 제시한다.
+- 4~5문장 요약을 작성해 `image_summary`에 반드시 채워라. `image_keyword`는 빈 리스트로 두고, 키워드는 summary에 넣지 말 것.
 
 출력 형식:
 {
   "image_summary": "요약 문단",
-  "image_keyword": ["키워드1", "키워드2", ...]
+  "image_keyword": []
 }
 """
 
@@ -192,7 +194,13 @@ def build_table_payloads(
 ) -> tuple[list[dict], list[dict], list[dict]]:
     str_payloads: list[dict] = []
     skipped_str: list[dict] = []
+    first_table_seen: set[str] = set()  # filename 기준 첫 테이블은 LLM payload에서 제외
     for item in str_items:
+        filename = item.get("filename") or ""
+        if filename and filename not in first_table_seen:
+            first_table_seen.add(filename)
+            print(f"[SKIP-FIRST-TABLE] table_str filename={filename} id={item.get('id')}")
+            continue
         cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
         context_before, context_after = get_context_windows(
             cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
@@ -231,6 +239,11 @@ def build_table_payloads(
 
     unstr_payloads: list[dict] = []
     for item in unstr_items:
+        filename = item.get("filename") or ""
+        if filename and filename not in first_table_seen:
+            first_table_seen.add(filename)
+            print(f"[SKIP-FIRST-TABLE] table_unstr filename={filename} id={item.get('id')}")
+            continue
         cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
         context_before, context_after = get_context_windows(
             cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
