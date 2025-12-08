@@ -13,6 +13,7 @@ EXTRACT_DIR = REPO_ROOT / "output" / "extract"
 LLM_DIR = REPO_ROOT / "output" / "llm"
 FINAL_DIR = REPO_ROOT / "output" / "final"
 PLACEHOLDER_SPAN_RE = re.compile(r"\{\{[^{}]+\}\}")
+INVALID_TRANS_RE = re.compile(r"[\u4e00-\u9fff\u0400-\u04FF\u0600-\u06FF\u0660-\u0669\u06F0-\u06F9]")
 
 
 def load_json(path: Path) -> Any:
@@ -199,7 +200,9 @@ def _load_image_results(filename: str) -> Dict[tuple[str, str | None], Dict[str,
     return result_map
 
 
-def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str, Any]]:
+def _finalize_images_generic(
+    src_path: Path, result_file: str, fallback_on_invalid: bool = False
+) -> List[Dict[str, Any]]:
     if not src_path.exists():
         return []
     comps = load_json(src_path)
@@ -211,7 +214,14 @@ def _finalize_images_generic(src_path: Path, result_file: str) -> List[Dict[str,
         res = result_map.get((iid, image_link)) or result_map.get((iid, None), {})
         summary = res.get("summary")
         keywords = res.get("keyword") or []
-        original = summary if isinstance(summary, str) and summary.strip() else "No Description"
+        if isinstance(summary, list):
+            original = "".join([s for s in summary if isinstance(s, str)]).strip()
+        else:
+            original = summary if isinstance(summary, str) and summary.strip() else ""
+        if fallback_on_invalid and INVALID_TRANS_RE.search(original or ""):
+            original = comp.get("description") or ""
+        if not original:
+            original = "No Description"
         prefix_parts = []
         if comp.get("filename"):
             prefix_parts.append(f"[문서: {comp.get('filename')}]")
@@ -241,7 +251,11 @@ def finalize_images_sum() -> List[Dict[str, Any]]:
 
 
 def finalize_images_trans() -> List[Dict[str, Any]]:
-    return _finalize_images_generic(EXTRACT_DIR / "components_images_trans.json", "llm_images_trans_result.json")
+    return _finalize_images_generic(
+        EXTRACT_DIR / "components_images_trans.json",
+        "llm_images_trans_result.json",
+        fallback_on_invalid=True,
+    )
 
 
 def _split_text_with_placeholders(text: str, chunk_size: int, chunk_overlap: int) -> List[str]:
