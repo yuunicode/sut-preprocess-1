@@ -97,6 +97,20 @@ def validate_output(template: Dict[str, Any], candidate: Dict[str, Any]) -> Tupl
     return merged, ok
 
 
+def needs_image_detail_retry(file_name: str, output: Dict[str, Any]) -> bool:
+    """이미지 SUM/TRANS에서 내용이 너무 빈약하면 재시도 요구."""
+    if not (file_name.startswith("llm_images_sum") or file_name.startswith("llm_images_trans")):
+        return False
+    summary = (output or {}).get("image_summary", "") or ""
+    stripped = summary.strip()
+    if len(stripped) < 60:
+        return True
+    # 중국어/러시아어가 8자 이상 연속 등장하면 재시도
+    if re.search(r"[\u4e00-\u9fff]{8,}", stripped) or re.search(r"[А-Яа-яЁё]{8,}", stripped):
+        return True
+    return False
+
+
 def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
     return f"""{instruction}
 
@@ -233,14 +247,21 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
                 cleaned = clean_response_text(resp_text)
                 candidate = extract_json(cleaned)
                 merged, ok = validate_output(template_output, candidate)
+                if ok and needs_image_detail_retry(path.name, merged):
+                    ok = False
+                    last_reason = "weak_image_summary"
+                    log_error(
+                        f"file={path.name} id={entry_id} attempt={attempt} error=weak_image_summary resp='{resp_text[:200]}'"
+                    )
                 if ok:
                     print(f"[출력성공] {path.name} id={entry_id} attempt={attempt}")
                     success = True
                     break
-                last_reason = "invalid_output"
-                log_error(
-                    f"file={path.name} id={entry_id} attempt={attempt} error=invalid_output resp='{resp_text[:200]}'"
-                )
+                last_reason = last_reason if last_reason else "invalid_output"
+                if last_reason == "invalid_output":
+                    log_error(
+                        f"file={path.name} id={entry_id} attempt={attempt} error=invalid_output resp='{resp_text[:200]}'"
+                    )
             else:
                 last_reason = "empty_response"
                 log_error(f"file={path.name} id={entry_id} attempt={attempt} error=empty_response")
