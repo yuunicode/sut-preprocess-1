@@ -1,0 +1,860 @@
+[
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating heat flow in a furnace (연소대). Input (Input 인자) includes fuel, moisture, O2, CO2, and coke, undergoing combustion, pyrolysis, and gasification. Output (Output 인자) includes high gas (CO, H2, N2), moisture, and ash (Coal, H2O decomposition). Tf is indicated as the temperature of the gas exiting the furnace.",
+      "image_link": "output/sanitize/TP-030-010-030 조업공정식 해설(Rev.9)_0900bf4ba7a2c11a_usr0000bf4b95f9e446/components/e9cc22fb9f74766238b20a851dd9cb26_2_img.webp",
+      "section_path": "4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.12 풍구선 이론연소 온도 (°C) : Tf = 1,559 + 0.839TB - 6.033 WH₂O - 3.0PCB + 4973VO₂"
+    },
+    "output": {
+      "image_summary": "그림은 연소대에서의 열전달을 나타냅니다.(연소대) 입력에는 연료, 습성분(OH2), 산소(O2), 탄산수증기(CO2), 그리고 코크스(cokes)가 포함되어 있으며, 화학적 반응이 진행됩니다. 출력에는 고온 가스(High Gas; CO, H2N2), 습성 분과 애쉬(Ash; Coal, H2О 분해물)가 포함됩니다.Tf는 연소대로부터 배출되는 가스의 온도입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림은 연소대에서의 열전달을 나타냅니다.(연소대) 입력에는 연료, 습성분(OH2), 산소(O2), 탄산수증기(CO2), 그리고 코크스(cokes)가 포함되어 있으며, 화학적 반응이 진행됩니다. 출력에는 고온 가스(High Gas; CO, H2N2), 습성 분과 애쉬(Ash; Coal, H2О 분해물)가 포함됩니다.Tf는 연소대로부터 배출되는 가스의 온도입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "A graph illustrating the relationship between K value (Y-axis) and 분율 (X-axis). Two lines intersect near the origin. The upper line is labeled 소결광 (Sintered Ore), and the lower line is labeled COKE. Both lines show an increasing trend as 분율 increases.",
+      "image_link": "output/sanitize/TP-030-020-030 소결광 품질관리 기준(Rev.12)_0900bf4ba7a2a0ca_usr0000bf4b95f9e446/components/1b8fb97f6b1fe9661bfd8f306722d018_10_img.webp",
+      "section_path": "6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.3 분율의 영향"
+    },
+    "output": {
+      "image_summary": "K 값(Y 축)과 분율(X 축) 간 관계를 나타내는 그래프입니다. 두 선이 원점 근처에서 교차합니다. 상위선에는 '소결광(Sintered Ore)'이라는 이름이 붙었으며 하위선에는 COKE라는 이름이 있습니다. 양쪽 모두 분율 증가와 함께 증가 추세를 보여줍니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"K 값(Y 축)과 분율(X 축) 간 관계를 나타내는 그래프입니다. 두 선이 원점 근처에서 교차합니다. 상위선에는 '소결광(Sintered Ore)'이라는 이름이 붙었으며 하위선에는 COKE라는 이름이 있습니다. 양쪽 모두 분율 증가와 함께 증가 추세를 보여줍니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing the Lap casting process (clockwise and counter-clockwise movement) for slag discharge, with points 1 and 2 indicated.",
+      "image_link": "output/sanitize/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446/components/cc77d1a59998f3e0305be2910f69318c_9_img.webp",
+      "section_path": "5. 이상판단 및 조치기준 : / 5.1.3 노황변동시 출선작업 기준"
+    },
+    "output": {
+      "image_summary": "슬래그 배출 점 1과 2를 표시한 시계방향과 반시계 방향 이동이 포함된 팝캐스트 공정의 도표."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그 배출 점 1과 2를 표시한 시계방향과 반시계 방향 이동이 포함된 팝캐스트 공정의 도표.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the nΔP (SP1 단압력 - 노정압) calculation concept. It shows the relationship between SP1 단압력 (S.L. 23.8m), 노정압, and 현재 S.L. (2.0m) within the wellbore, along with the suction force ( suction force) acting on the wellbore bottom. The nΔP is the difference between SP1 단압력 and 노정압.",
+      "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_6_img.webp",
+      "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지"
+    },
+    "output": {
+      "image_summary": "도표는 SP1 단 압력을 계산하기 위한 개념을 나타내며, 이 도표에는 웰보어 내의 SP1 단암력(S.L., 23 .8 m), 노 정압 및 현재 S.L.(2.m) 사이의 관계와 웰보 어 바닥에서 작용하는 흡착력(suction force)이 표시됩니다.nΔP 는 SP1 단액력과 노정압 간의 차입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"도표는 SP1 단 압력을 계산하기 위한 개념을 나타내며, 이 도표에는 웰보어 내의 SP1 단암력(S.L., 23 .8 m), 노 정압 및 현재 S.L.(2.m) 사이의 관계와 웰보 어 바닥에서 작용하는 흡착력(suction force)이 표시됩니다.nΔP 는 SP1 단액력과 노정압 간의 차입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing the relationship between nΔP (kg/cm2) and O/C (-). The data points follow a linear trend line defined by the equation y = 0.2205x + 0.0427 with R^2 = 0.9918.",
+      "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_8_img.webp",
+      "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"nΔP(kg/cm²)와 O/C(-) 간의 관계를 나타내는 그래프입니다. 데이터 포인트들은 선형 추세선이 정의되는 식 y=0.205 x + 0\\.042과 일관되며 결정 계수(R²)=0\\.\\[99]\\.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Flowchart illustrating the calculation of nΔP based on O/C. The process starts with 현재 S.L. and SP1단 S.L., leading to 공간부피 계산. This feeds into 공간부피 and 작업정보 (SO/R 등). 공간부피 leads to 1Ch 장입물 부피 계산, which leads to 1Ch 장입물 중량 and 필요 Ch수. 1Ch 장입물 중량 leads to 전체 장입물 중량 계산. 전체 장입물 중량 계산 leads to 장입물 중량 and 평균 단면적, which then leads to 장입물 압력 계산. Finally, 장입물 압력 계산 leads to O/C에 따른 nΔP 계산.",
+      "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_12_img.webp",
+      "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.3 nΔP 를 이용한 HANGING 방지"
+    },
+    "output": {
+      "image_summary": "フローチャートはO/Cに基づいてnΔPを計算하기 위한プロセスの説明を行います。この過程では、現在のS.LとSP1単位でのS.Lから空間部積算が開始され、その後作業情報(SO/Rなど)に連携します。次いで1ch長入物部積計測を行い、その結果として必要となる1ch長い入物重量および必要な個数が決定されます。さらに全体的な長入物重量も計算し、これにより平均断面積を求めます。最後には長入物圧力計算を通じて最終的にO/CによるnΔPの計算を行うことができます."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"フローチャートはO/Cに基づいてnΔPを計算하기 위한プロセスの説明を行います。この過程では、現在のS.LとSP1単位でのS.Lから空間部積算が開始され、その後作業情報(SO/Rなど)に連携します。次いで1ch長入物部積計測を行い、その結果として必要となる1ch長い入物重量および必要な個数が決定されます。さらに全体的な長入物重量も計算し、これにより平均断面積を求めます。最後には長入物圧力計算を通じて最終的にO/CによるnΔPの計算を行うことができます.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Pressure distribution graph (TP vs KG/OZ) showing pressure profiles (SP1 to SP6) and associated data tables (KG/OZ). The graph illustrates the pressure drop and associated data points (SP1 to SP6). The data table shows pressure values (KG/OZ) for SP1 through SP6, and calculated nΔP = 1.077 (0.962).",
+      "image_link": "output/sanitize/TP-030-030-070 장입물 강하 이상시 조치 기준(Rev.10)_0900bf4ba7a451c6_usr0000bf4b95f9e446/components/93b99ef6dca8fe769c988763be10c6d3_14_img.webp",
+      "section_path": "4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 나. 관리방법"
+    },
+    "output": {
+      "image_summary": "압력 분포 그래프(TP vs KG/Oz)에서 SP1부터 SP6까지의 압력 프로필과 관련 데이터 테이블을 나타냅니다. 그래프는 암전 약도와 함께 SP1부터 스펙트럼 6까지의 데이터 포인트를 표시합니다. 데이터 테이는 SP1부터 SPF까지의 액체 값(KG/Oz) 및 계산된 ΔnP=1.027(0.922)을 포함합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"압력 분포 그래프(TP vs KG/Oz)에서 SP1부터 SP6까지의 압력 프로필과 관련 데이터 테이블을 나타냅니다. 그래프는 암전 약도와 함께 SP1부터 스펙트럼 6까지의 데이터 포인트를 표시합니다. 데이터 테이는 SP1부터 SPF까지의 액체 값(KG/Oz) 및 계산된 ΔnP=1.027(0.922)을 포함합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the use of Blank Coke (B.C) in a furnace. A 15m height is marked, and a section containing 110t of B.C is shown.",
+      "image_link": "output/sanitize/TP-030-030-080 노벽탈락 발생시 조치 기준(Rev.9)_0900bf4ba7a451ca_usr0000bf4b95f9e446/components/3f9f5000cfc56c7a5779663d6bde7961_4_img.webp",
+      "section_path": "4. 조업 기준 / 4.7 노벽 부착물 탈락시 조업 기준 / 4.7.2 노벽부착물 탈락시 조치 기준"
+    },
+    "output": {
+      "image_summary": "Blank Coke(B.C.)의 사용이 있는 가열 장비도agram입니다. 15미터의 높이는 표시되어 있으며, B.C. 11톤이 포함된 부분이 나타납니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"Blank Coke(B.C.)의 사용이 있는 가열 장비도agram입니다. 15미터의 높이는 표시되어 있으며, B.C. 11톤이 포함된 부분이 나타납니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Line graph showing S/Sonde temperature (Y-axis, 400 to 700) versus sampling point (#1 to #8) for 1st furnace under Nut-COKE usage at different rates (0, 344, 760, 1442 kg/ch). The temperature generally peaks around #2 and then decreases sharply, with the highest rate (1442 kg/ch) showing the lowest final temperature.",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/7f247c13be3727a7ca24df213f718ae9_8_img.webp",
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO"
+    },
+    "output": {
+      "image_summary": "첫 번째 가로등에서 NUT-COKE 사용 시의 다양한 속도(0, 0.344kg/ch, 0 .760kg/ch, 그리고 최대 1.442kg/ch) 하에서 샘플링 포인트(#1부터 #8까지)와 S/Sonde온도(Y축, 4백도에서 7백도 사이) 간의 선 그래프입니다. 온도는 대개 #2 근처에서 가장 높게 나타나며 이후 급격히 감소합니다; 특히 최고속도(1.422kg/ch )에서는 최종 온도가 가장 낮습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"첫 번째 가로등에서 NUT-COKE 사용 시의 다양한 속도(0, 0.344kg/ch, 0 .760kg/ch, 그리고 최대 1.442kg/ch) 하에서 샘플링 포인트(#1부터 #8까지)와 S/Sonde온도(Y축, 4백도에서 7백도 사이) 간의 선 그래프입니다. 온도는 대개 #2 근처에서 가장 높게 나타나며 이후 급격히 감소합니다; 특히 최고속도(1.422kg/ch )에서는 최종 온도가 가장 낮습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Line graph showing ECO (Y-axis, 25 to 60) versus sampling point (#1 to #8) for 1st furnace under Nut-COKE usage at different rates (0, 344, 760, 1442 kg/ch). The ECO value generally increases from #1 to #7, with the highest rate (1442 kg/ch) showing the highest ECO value.",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/7f247c13be3727a7ca24df213f718ae9_9_img.webp",
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO"
+    },
+    "output": {
+      "image_summary": "첫 번째 가로등에서 NUT-COKE 사용률이 다른 수준인 경우(#1부터#8까지의 샘플링 포인트) 에서 ECO(Y축, 20~60)과 비교되는 선 그래프입니다. ECO 값은 대체적으로 #1에서 #7까지 증가하며, 가장 높은 사용율(144kg/ch)에서는 최대값을 나타냅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"첫 번째 가로등에서 NUT-COKE 사용률이 다른 수준인 경우(#1부터#8까지의 샘플링 포인트) 에서 ECO(Y축, 20~60)과 비교되는 선 그래프입니다. ECO 값은 대체적으로 #1에서 #7까지 증가하며, 가장 높은 사용율(144kg/ch)에서는 최대값을 나타냅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram of a coke oven (고로) showing the charging and coking process, labeled with '버드네스트' (Bird's Nest).",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_1_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.1 노심의 기능"
+    },
+    "output": {
+      "image_summary": "고로의 다이어그램은 버드네스트라는 이름으로 표지되어 있으며, 출재와 코킹 프로세스를 나타내고 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"고로의 다이어그램은 버드네스트라는 이름으로 표지되어 있으며, 출재와 코킹 프로세스를 나타내고 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Four cross-sectional diagrams showing the temperature distribution (contours) within a coke oven, illustrating the effect of coke particle size (Dp.c = 30mm) and porosity (ε) on temperature profiles. The diagrams are labeled with temperature values (e.g., 1073, 1473, 1873, 2273, 2673) and corresponding porosity values (ε = 0.45, ε = 0.30, ε = 0.20, ε = 0.15).",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/a63d4ebc666d734d4cc65b1de4006c81_7_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자"
+    },
+    "output": {
+      "image_summary": "사물관 내부에서 코크스 분포 온도 분배(상선)을 나타내는 네 개의 가로절개 도표를 표시하며, 코크즈 입자의 크기(Dp.c=30mm), 육밀도(ε)와 온도 프로필 객관성을 일러줍니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"사물관 내부에서 코크스 분포 온도 분배(상선)을 나타내는 네 개의 가로절개 도표를 표시하며, 코크즈 입자의 크기(Dp.c=30mm), 육밀도(ε)와 온도 프로필 객관성을 일러줍니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Four diagrams illustrating the change in coke distribution (Dp1) in a blast furnace. The diagrams show the location of coke particles (solid line) and potential coke movement paths (dashed line). The parameters Dp1 are 0.1mm, 0.5mm, 1.0mm, and 3.0mm, respectively.",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/4528c0e6df772c61cc4316e87d9a629b_5_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자"
+    },
+    "output": {
+      "image_summary": "포함된 네 개의 도표들은 분말탄소(Dp1) 분배 변화를 평판 가동기에 나타내고 있습니다. 이 도표들은 탄소 입자의 위치와 잠재적이고 가능한 탄소 이동 경로를 표시합니다.Dp1 파라미터 값은 각각 0.01 mm, 0 .5 mm, 1.mm 및 3.m m입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"포함된 네 개의 도표들은 분말탄소(Dp1) 분배 변화를 평판 가동기에 나타내고 있습니다. 이 도표들은 탄소 입자의 위치와 잠재적이고 가능한 탄소 이동 경로를 표시합니다.Dp1 파라미터 값은 각각 0.01 mm, 0 .5 mm, 1.mm 및 3.m m입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure showing the relationship between Melt temperature in the deadman (°C) and Fuel rate (kg/t-pig). The graph plots Melt temperature (Y-axis, 1460 to 1520 °C) against Fuel rate (X-axis, 500 to 530 kg/t-pig). A dashed line indicates the boundary for Central slag conditions. Key points are labeled: 1877, 1862, 1824, 1860, 1800, and 1800. The boundary is defined by two equations: Central Lo/(Lo+Lc) ≒ 0.53 (lower boundary) and Central Lo/(Lo+Lc) ≒ 0.25 (upper boundary). A note at the top reads: figure: gas temp. in the deadman (°C).",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/c6035dd83d6afbae4ae667fa50b71372_1_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노심의 기능과 역할, 조업영향 / 6.1.2 노심 영향인자"
+    },
+    "output": {
+      "image_summary": "노심에서의 녹음 온도(°C)와 연료 비율(kg/t-pig) 간의 관계를 나타내는 그래프입니다. Y축에는 녹음온도(146°C ~ 150°C), X축에는 연료비율(500~530kg/t-pиг)이 표시됩니다. 점선은 중앙 슬래그 상태의 경계를 나타냅니다. 중요한 지점들은 1887, 862 및 824로 명시되어 있습니다. 경계는 두 방정식으로 정의되며, 중앙 Lo/(Lo + Lc) = 약 0.33 ( 하위 경계 ) 와 중앙 Lo /(Lo + Lс)= 약 1.0 ( 상위 경계 ). 최상단에는 'figure : 노심 내 가스 온도 (°C)'라는 메모가 포함되어 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"노심에서의 녹음 온도(°C)와 연료 비율(kg/t-pig) 간의 관계를 나타내는 그래프입니다. Y축에는 녹음온도(146°C ~ 150°C), X축에는 연료비율(500~530kg/t-pиг)이 표시됩니다. 점선은 중앙 슬래그 상태의 경계를 나타냅니다. 중요한 지점들은 1887, 862 및 824로 명시되어 있습니다. 경계는 두 방정식으로 정의되며, 중앙 Lo/(Lo + Lc) = 약 0.33 ( 하위 경계 ) 와 중앙 Lo /(Lo + Lс)= 약 1.0 ( 상위 경계 ). 최상단에는 'figure : 노심 내 가스 온도 (°C)'라는 메모가 포함되어 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_005",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Line graph showing Coke size less than 6.3 mm in percent versus distance from tuyere tip in cm. The X-axis ranges from 0 to 500 cm. The Y-axis ranges from 0 to 50%. The graph illustrates three conditions: With coal (166 kg/t HM), With coal (120 kg/t HM), and Without coal. The 'Raceway' region (up to 125 cm) shows low coke size (< 15%). The 'Transition zone' (125 cm to 230 cm) shows increasing coke size, with the 'Without coal' condition having the highest increase (reaching around 30% at 200 cm). The 'Dead man' region (beyond 230 cm) shows stable coke size (around 30-35%).",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/2751e8af0ffb05d9870b607cfddf45ac_5_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용"
+    },
+    "output": {
+      "image_summary": "선 그래프는 툰베르 팁에서의 거리(cm)와 함께 코크 크기가 6. 3mm 미만인 비율(% )을 나타냅니다 . x 축 범위는 0부터 50cm입니다 , y축 범위도 0부터 % 50까지입니다 . 그래프에는 세 가지 상태가 있습니다 : 석탄과 함께 있음 (16 6kg/tHM ), 석탄 없음 (12 0kg/tHM ) 그리고 석탄이 없는 경우 . '레이스웨이' 지역 (12 ~ 5cm 이전 )에서는 낮은 코크 사이즈(< 15%)를 보여줍니다 . '过度转区'(12~5cm에서 23cm 까지 )에서는 증가하는 코크사이즈를 보이며 '석탄이 없는 것' 상황이 가장 큰 증가량을 보이고 있습니다 (200cm 에서 약 30%) . '데드맨' 지역 (23cm 이상 )에서는 안정적인 코크크기 (약 30 - 35%)를 표시합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"선 그래프는 툰베르 팁에서의 거리(cm)와 함께 코크 크기가 6. 3mm 미만인 비율(% )을 나타냅니다 . x 축 범위는 0부터 50cm입니다 , y축 범위도 0부터 % 50까지입니다 . 그래프에는 세 가지 상태가 있습니다 : 석탄과 함께 있음 (16 6kg/tHM ), 석탄 없음 (12 0kg/tHM ) 그리고 석탄이 없는 경우 . '레이스웨이' 지역 (12 ~ 5cm 이전 )에서는 낮은 코크 사이즈(< 15%)를 보여줍니다 . '过度转区'(12~5cm에서 23cm 까지 )에서는 증가하는 코크사이즈를 보이며 '석탄이 없는 것' 상황이 가장 큰 증가량을 보이고 있습니다 (200cm 에서 약 30%) . '데드맨' 지역 (23cm 이상 )에서는 안정적인 코크크기 (약 30 - 35%)를 표시합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_006",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing the relationship between CSR (Coke Reactivity Index) in % (X-axis, 50 to 70) and the Distance of the increase in coke fines < 6.3 mm from the tuyere tip in cm (Y-axis, 0 to 200). Two lines are plotted: a solid blue line and a dotted blue line. Both lines show an increasing trend with CSR, indicating that higher CSR leads to a greater distance of fine coke accumulation from the tuyere tip. The solid line generally follows the trend of the data points (red diamonds).",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/15a3b1e729cb0909873593f3331993df_2_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용"
+    },
+    "output": {
+      "image_summary": "CSR(Coke ReactivityIndex)%과 코크 파편의 툴리프 팁에서의 증가 거리는 X축(50~70%)과 Y축(0~20cm) 사이의 관계를 나타내는 그래프입니다. 두 개의 선이 표시됩니다 : 실선 파란색 선과 점선 파란 색상의 선. 양쪽 모두 CSR이 증가함에 따라 증가하는 추세를 보여주며, 더 큰 CSR 값은 툴리를 팽창시키는데 필요한 거리를 늘립니다. 실선은 데이터 포인트(빨간 다각형)와 함께 추세를 따릅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"CSR(Coke ReactivityIndex)%과 코크 파편의 툴리프 팁에서의 증가 거리는 X축(50~70%)과 Y축(0~20cm) 사이의 관계를 나타내는 그래프입니다. 두 개의 선이 표시됩니다 : 실선 파란색 선과 점선 파란 색상의 선. 양쪽 모두 CSR이 증가함에 따라 증가하는 추세를 보여주며, 더 큰 CSR 값은 툴리를 팽창시키는데 필요한 거리를 늘립니다. 실선은 데이터 포인트(빨간 다각형)와 함께 추세를 따릅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_007",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Two scatter plots showing the relationship between CSR in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 1 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher CSR leads to higher HM temperature and higher Carbon content in HM.",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_3_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용"
+    },
+    "output": {
+      "image_summary": "두 개의 산점도에서 X축인 CSR (%)와 Y축인 HM 온도 (°C)(좌측 그래프), 그리고 % C_HМ(우측 그래프) 사이의 관계를 나타냅니다.BF 1 SchweglernJan'95 ~Feb'01. 두 가지 모두 증가 추세를 보여주며, 더 큰 CSR이更高的HM 온도과 HigherCarbon含量in HM을 의미합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"두 개의 산점도에서 X축인 CSR (%)와 Y축인 HM 온도 (°C)(좌측 그래프), 그리고 % C_HМ(우측 그래프) 사이의 관계를 나타냅니다.BF 1 SchweglernJan'95 ~Feb'01. 두 가지 모두 증가 추세를 보여주며, 더 큰 CSR이更高的HM 온도과 HigherCarbon含量in HM을 의미합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_008",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Two scatter plots showing the relationship between I40 in % (X-axis) and HM temperature in °C (Left plot) and % C_HM (Right plot) for BF 2 Schwelgern Jan '95 - Feb '01. Both plots show increasing trends, indicating that higher I40 leads to higher HM temperature and higher Carbon content in HM.",
+      "image_link": "output/sanitize/TP-030-030-110 노심 불활성화시 조치기준(Rev.9)_0900bf4ba7a451ce_usr0000bf4b95f9e446/components/222906026cb13f6c609aff92e4ef0070_5_img.webp",
+      "section_path": "6. 기술이론 / 6.2 타사 노심불활성 판단 및 조치실적 / 6.2.2 독일 TKS(Thyssen Krupp Stahl) Shwelgern 고로 노심활성화 연구내용"
+    },
+    "output": {
+      "image_summary": "I40의 비율(%)(x축)과HM 온도(°C)(왼쪽 그래프) 그리고% C_HM(오른쪽 그래프 )와의 관계를 나타낸 두 개의 산점도를 표시합니다.BF 2 SchweglernJan'95 ~Feb'01. 양개의 그래프 모두 증가 추세를 보여주며,I40이 높음수록 HM온도와 C_HM 중탄소 함량도 높음을 의미합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"I40의 비율(%)(x축)과HM 온도(°C)(왼쪽 그래프) 그리고% C_HM(오른쪽 그래프 )와의 관계를 나타낸 두 개의 산점도를 표시합니다.BF 2 SchweglernJan'95 ~Feb'01. 양개의 그래프 모두 증가 추세를 보여주며,I40이 높음수록 HM온도와 C_HM 중탄소 함량도 높음을 의미합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 1: Graph showing the relationship between Shaft Level (S.L. in m) and Shaft Temperature (No internal heat generation temperature in °C). The graph shows two curves, A and B, representing different operational conditions. The x-axis ranges from 200 to 1400 °C, and the y-axis ranges from 15 to 5 m. The temperature profile is generally decreasing. Below the graph, the x-axis is labeled '노내 수직방향 온도 (°C)' (Shaft Vertical Direction Temperature (°C)).",
+      "image_link": "output/sanitize/TP-030-040-030 고출선비 조업시 연,원료 품질관리 기준(Rev.13)_0900bf4ba7a37e2d_usr0000bf4b95f9e446/components/d2197e0ebb330adf14f0d653e7e592b7_12_img.webp",
+      "section_path": "4. 조업기준 / 4.1 연, 원료 품질강화 조건"
+    },
+    "output": {
+      "image_summary": "그림 1 : 축 십수(SL(m))와 축온도(무 내부 열 발생 온도°C) 간의 관계를 나타낸 그래프입니다. 그래프에는 두 개의 곡선(A 및 B), 각각 다른 운영 상태를 대표합니다.x축 범위는 20에서 14°C까지이며,y축 범주는 15부터 5m까지입니다. 온도 프로필은 대부분 감소 추세입니다. 그래フ 하단에는 x축이 '노내 직립 방향 온 도(C)'라고 표시됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 1 : 축 십수(SL(m))와 축온도(무 내부 열 발생 온도°C) 간의 관계를 나타낸 그래프입니다. 그래프에는 두 개의 곡선(A 및 B), 각각 다른 운영 상태를 대표합니다.x축 범위는 20에서 14°C까지이며,y축 범주는 15부터 5m까지입니다. 온도 프로필은 대부분 감소 추세입니다. 그래フ 하단에는 x축이 '노내 직립 방향 온 도(C)'라고 표시됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 2: Scatter plot showing the relationship between RDI (%) on the x-axis (ranging from 34 to 40) and Shaft Gas Flow (통기성) on the y-axis (ranging from 0.25 to 0.40). The data points generally show a positive correlation with two linear regression lines.",
+      "image_link": "output/sanitize/TP-030-040-030 고출선비 조업시 연,원료 품질관리 기준(Rev.13)_0900bf4ba7a37e2d_usr0000bf4b95f9e446/components/d2197e0ebb330adf14f0d653e7e592b7_18_img.webp",
+      "section_path": "4. 조업기준 / 4.1 연, 원료 품질강화 조건"
+    },
+    "output": {
+      "image_summary": "그림 2 : X축(RDI (%))에서 34%부터 40%까지의 범위와 Y축(Shaft Gas Flow 통기성)에서 0.025부터 0.140까지의 벤치마킹을 나타내는 산점도입니다. 데이터 포인트들은 대부분 양적 상관성을 보이며 두 개의 선형 회귀 직선이 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 2 : X축(RDI (%))에서 34%부터 40%까지의 범위와 Y축(Shaft Gas Flow 통기성)에서 0.025부터 0.140까지의 벤치마킹을 나타내는 산점도입니다. 데이터 포인트들은 대부분 양적 상관성을 보이며 두 개의 선형 회귀 직선이 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "A graph showing the relationship between Bit Diameter (in mm) on the Y-axis (ranging from 48 to 63) and Discharge Amount (출선량) on the X-axis (ranging from 8000 to 10500). The graph illustrates that larger Bit Diameters are used for higher discharge amounts.",
+      "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/0a87c58c46a8f2a61b2712556dbb435f_4_img.webp",
+      "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 가. 출선 초기 배출 속도 증대"
+    },
+    "output": {
+      "image_summary": "Y축이 비트 지름(mm)과 X축이 풀림 양의 관계를 나타내는 그래프입니다(Y축 범위 : 48 ~ 63mm, X축 범주 : 80에서 10,500까지). 이 그래프는 더 큰 비트 지그지름이 더 많은 품질을 위해 사용되는 것을 보여줍니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"Y축이 비트 지름(mm)과 X축이 풀림 양의 관계를 나타내는 그래프입니다(Y축 범위 : 48 ~ 63mm, X축 범주 : 80에서 10,500까지). 이 그래프는 더 큰 비트 지그지름이 더 많은 품질을 위해 사용되는 것을 보여줍니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the Slag Discharging Ratio calculation. It shows two horizontal bars representing slag discharge periods. The top bar is divided into sections (a, b, c). The bottom bar is divided into sections (a', b', c'). The condition shown is a'/(b' - c') >= 1.0.",
+      "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/0a87c58c46a8f2a61b2712556dbb435f_8_img.webp",
+      "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 나. Lap 출선 기준"
+    },
+    "output": {
+      "image_summary": "슬래그 배출 비율 계산도agram을 나타내는 도표입니다. 두 개의 수평 바가 스텝 배출 기간을 표현합니다. 상위 바에는 섹션(a,b,c)이 분류되어 있습니다. 하위 바는 섹션(b',c')으로 구분됩니다. 표시되는 조건은 a'(b'-c')>=1.0 입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그 배출 비율 계산도agram을 나타내는 도표입니다. 두 개의 수평 바가 스텝 배출 기간을 표현합니다. 상위 바에는 섹션(a,b,c)이 분류되어 있습니다. 하위 바는 섹션(b',c')으로 구분됩니다. 표시되는 조건은 a'(b'-c')>=1.0 입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Line graph showing Slag 배출 (Slag discharge) and 용선 Si (Slag Si) concentration over time. The X-axis represents 출선 후 경과 시점 (분) (Elapsed time after casting, minutes), ranging from 30 to 150. The Y-axis represents Si (%), ranging from 0.2 to 0.5. Two lines are plotted: A (circles, open) and B (triangles, filled). Both lines show a decreasing trend in Si concentration over time, with B consistently having a lower Si concentration than A.",
+      "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/511ec8172a863f7c37b840a7d7fce7ca_11_img.webp",
+      "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 마. 용용물 유동성 향상 대책"
+    },
+    "output": {
+      "image_summary": "시간이 지남에 따라 스테인글 배출 및 용선Si의 변화 그래프입니다. x축에는 출선 이후 시간(분)이며 y축에는 Si(%))입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"시간이 지남에 따라 스테인글 배출 및 용선Si의 변화 그래프입니다. x축에는 출선 이후 시간(분)이며 y축에는 Si(%))입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "A scatter plot showing the relationship between Pmax (T/D, m^2) on the Y-axis (ranging from 1 to 2.8) and 내용적 (m^2) on the X-axis (ranging from 0 to 6000). The data points show a general decreasing trend. The plot is divided into two regions by a horizontal line at Pmax = 1.9. The region where Pmax is less than or equal to 1.9 is labeled '3500 m^2 이하고로' (3500 m^2 or less), and the region where Pmax is greater than 1.9 is labeled '3500 m^2 이상고로' (3500 m^2 or more).",
+      "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/13f39f03414988be3b97c41070bd4382_1_img.webp",
+      "section_path": "4. 조업기준 / 4.1 감산조업 수준 결정 / 가. 내용적이 3500 m³ 이하인 고로의 감산조업 Level 은 일반적으로 출선비 1.55 T/D/m³ 수준 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.70 T/D/m³ 이상으로 실시(대폭적인 감산조업시 노심 Coke 불활성화,노벽 부착물 형성등에 의한 장기노화 불안정 초래)나. 내용적이 3500 m³ 이상인 고로는 송풍 에너지 저하에 의한 노심부 불활성화 영향이 소형고로에 비해 크므로 출선비 1.70 T/D/m³ 이상을 유지해야 하나, 장기 노화 불안정을 예방하기 위하여 출선비 1.80 T/D/m³ 이상으로 실시다. 고로 내용적 크기에 따른 고로 가동율 관리의 한계치는 일반적으로 3500 m³ 이하 고로의 경우 94% 수준을 유지하고, 3500 m³ 이상의 대형고로는 95% 이상으로 유지라. 대폭적인 감산여건 발생시에는 고로별로 번갈아 휴풍을 실시하고 나머지 고로는 최저 출선비 유지마. 휴풍에 의한 감산의 한계"
+    },
+    "output": {
+      "image_summary": "Pmax(T/D,m²)와 내용적(m²) 간의 상관관계를 나타내는 산점도입니다(Y축에서 1부터 2. 8까지 범위 내, X축에서는 0부터 60 00까지). 데이터 포인트들은 전체적으로 하락 추세를 보입니다.Pmax=1 .9라는 수평 선으로 두 지역으로 분류됩니다.Pmax가 1. 9보다 작거나 같으면 '35 00㎡ 이하다고로'(350 0㎡ 또는 더 작은 것)'라고 표시되며,Pmax가 35 ㎏보다 큰 경우에는 '35 kg 이상고로'( 35kg 또는 더 많은 것)'라고 합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"Pmax(T/D,m²)와 내용적(m²) 간의 상관관계를 나타내는 산점도입니다(Y축에서 1부터 2. 8까지 범위 내, X축에서는 0부터 60 00까지). 데이터 포인트들은 전체적으로 하락 추세를 보입니다.Pmax=1 .9라는 수평 선으로 두 지역으로 분류됩니다.Pmax가 1. 9보다 작거나 같으면 '35 00㎡ 이하다고로'(350 0㎡ 또는 더 작은 것)'라고 표시되며,Pmax가 35 ㎏보다 큰 경우에는 '35 kg 이상고로'( 35kg 또는 더 많은 것)'라고 합니다.\"\n}\n```\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing the relationship between yield (Yield) and temperature (온도). The yield is highest at 573°C (marked as 석영변태점, Quartz phase transition point) and then decreases slightly, labeled 규석연화 (Quartz fusion). Two lower yield lines are shown: Hi-Al 연화 (Hi-Al fusion) and 점토연화 (Clay fusion).",
+      "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/931fba7a6fdfc24a0abc2f2b5c017b9e_8_img.webp",
+      "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"요약 그래프에서 수율(Yield)과 온도(온도) 간의 관계를 나타냅니다. 최대 수율은 57℃(석영 변태점, Quarz phase transition point), 그리고 약간 줄어드는데 이를 규석 연화(Quals fusion)라고 표시합니다. 두 개의 더 낮은 수율선이 있습니다 - High Al 연화(Hi-Al fusion)와 절토 연화(Clay fusion)\"}\n```\n}"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the temperature profile in a sintering furnace (열풍로). It shows two dome structures connected by a bridge. Arrows indicate the temperature zones: 규석연화 (Quartz fusion) at the top and Hi-Al 연화 (Hi-Al fusion) below it.",
+      "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/931fba7a6fdfc24a0abc2f2b5c017b9e_9_img.webp",
+      "section_path": "4. 조업기준 / 4.3 감산조업시 문제점 원인 및 대책 / 바. 설비에 미치는 영향"
+    },
+    "output": {
+      "image_summary": "그림은 열풍로에서의 온도 프로필을 나타내며 두 개의 돔 구조물이 다리로 연결되어 있습니다. 화살표들은 온도 지역들을 표시하며 상위에는 규석연합(Qualz fusion), 하위에는 High Al 연합(Hi-Al fusion)입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림은 열풍로에서의 온도 프로필을 나타내며 두 개의 돔 구조물이 다리로 연결되어 있습니다. 화살표들은 온도 지역들을 표시하며 상위에는 규석연합(Qualz fusion), 하위에는 High Al 연합(Hi-Al fusion)입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing a sloped structure (banking) with a vertical shaft and steps leading down, likely illustrating the banking process or structure.",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/9b66af80bf345a99407d9dfe13f83f5f_3_img.webp",
+      "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 가. 5 일 Banking 시 감광기준"
+    },
+    "output": {
+      "image_summary": "그림에서 경사진 구조물(뱅킹)과 수직 축 및 하강 계단이 나타나며, 이는 가능하면 뱅킹 프로세스 또는 구조물을 설명합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림에서 경사진 구조물(뱅킹)과 수직 축 및 하강 계단이 나타나며, 이는 가능하면 뱅킹 프로세스 또는 구조물을 설명합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the Banking process, showing a conveyor belt system and a hopper structure.",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/007f64810fec99f18493a8e1b6896bd2_2_img.webp",
+      "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 나. 10 일 Banking 시 감광기준"
+    },
+    "output": {
+      "image_summary": "도표는 은행 프로세스를 나타내며,veyor belt 시스템과 hopper 구조물을 표시합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"도표는 은행 프로세스를 나타내며,veyor belt 시스템과 hopper 구조물을 표시합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing the structure of a coke drum (Banking) with a long, inclined chimney extending upwards.",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/4f10452b4ffa97f74e56b8bd5ad540b6_2_img.webp",
+      "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 다. 1 개월(30 일) 이상 Banking 시 감광기준"
+    },
+    "output": {
+      "image_summary": "도표는 코크스 드럼의 구조와 긴 경사진 연통이 상승하는 것을 나타내며, 이는 '뱅킹'이라고 합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"도표는 코크스 드럼의 구조와 긴 경사진 연통이 상승하는 것을 나타내며, 이는 '뱅킹'이라고 합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure showing three diagrams (a), (b), and (c) illustrating the distribution of temperature, SiO concentration, and SiO generation rate in a raceway model. (a) shows temperature distribution (1600, 1700, 1800 °C). (b) shows SiO concentration (mol.SiO/m^3bed.s) in the bed. (c) shows SiO generation rate (mol.SiO/m^3bed.s) in the bed.",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/85c2a12e4dc18695e9c3442aaf45d52b_5_img.webp",
+      "section_path": "6. 기술이론 / 6.3 연소대 에서의 Si 반응"
+    },
+    "output": {
+      "image_summary": "그림에는 세 개의 다이어그램(a),(b),(c)가 포함되어 있으며 이들은 경류 모델에서 온도 분포,SiO농도 및 SiO 생성률의 배분을 나타냅니다.(a)에서는 온도분포(160°C , 17℃° C, 1900 ℃ )를 표시합니다 . (b)에서는 베드 내부의 SiO농도(mol/Sio/m³bed·s)를 나타내며,(c)에서는 벤드 내부에서의 SiO생성율(mol/SIO/m³bed · s)을 나타냅니."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림에는 세 개의 다이어그램(a),(b),(c)가 포함되어 있으며 이들은 경류 모델에서 온도 분포,SiO농도 및 SiO 생성률의 배분을 나타냅니다.(a)에서는 온도분포(160°C , 17℃° C, 1900 ℃ )를 표시합니다 . (b)에서는 베드 내부의 SiO농도(mol/Sio/m³bed·s)를 나타내며,(c)에서는 벤드 내부에서의 SiO생성율(mol/SIO/m³bed · s)을 나타냅니.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure (a): Contour map showing the distribution of SiO concentration (PSiO in 1000 units) in the furnace cross-section.",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_2_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응"
+    },
+    "output": {
+      "image_summary": "그림(a): 시료 내에서 SiO 분포 상황을 나타내는 컨투어도."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(a): 시료 내에서 SiO 분포 상황을 나타내는 컨투어도.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure (b): Contour map showing the distribution of Si concentration (% 용선중 [Si]) in the furnace cross-section.",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응"
+    },
+    "output": {
+      "image_summary": "그림(b) : 시판 분포(% 용선 중 [Si])의 윤곽도."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(b) : 시판 분포(% 용선 중 [Si])의 윤곽도.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure (c): Contour map showing the distribution of Si flow rate (kg/m^2.s) in the furnace cross-section.",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/0f14c57f655dbb64ec9a967129b0665f_6_img.webp",
+      "section_path": "6. 기술이론 / 6.4 용선으로의 가규 반응"
+    },
+    "output": {
+      "image_summary": "그림(c): 시료 분포도를 나타내는 실리콘 흐름률(kg/m²·s)의 구조."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(c): 시료 분포도를 나타내는 실리콘 흐름률(kg/m²·s)의 구조.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram illustrating the flow of coke and the distribution of S forms (Total S, Sulfate S, Sulfide S, Organic S) within the blast furnace shaft. The diagram shows the coke layer and the S distribution curve across the shaft height.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/21c55a0bb1f698b647d09570a203ec3f_9_img.webp",
+      "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"コークス의 流れと 분배（総合硫黄、硫酸塩硫黃、硫化物硫黃、有機硫黄）を示すブラストフーネルの断面図。コーカス層および断面上部での硫黄分布曲線が表示されています。\",\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 2: A scatter plot showing the relationship between the percentage of Sulfur removed (%S Removed) on the Y-axis (ranging from 0.2 to 0.6) and the furnace temperature (Internal Temperature, 노내 온도) in degrees Celsius on the X-axis (ranging from 0 to 1600). The data points generally show a decreasing trend as temperature increases.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f8c83668757d47dc8822e758f05bc0a5_2_img.webp",
+      "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.1 탈 GAS (COKE의 탈류현상)"
+    },
+    "output": {
+      "image_summary": "그림 2 : Y축에서 (%)와 X축에서 (0부터 16℃까지) 내부온도를 나타내는 산점도 그래프입니다. 데이터 포인트들은 온도 증가함에 따라 감소되는 추세를 보여줍니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 2 : Y축에서 (%)와 X축에서 (0부터 16℃까지) 내부온도를 나타내는 산점도 그래프입니다. 데이터 포인트들은 온도 증가함에 따라 감소되는 추세를 보여줍니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 3: A phase diagram showing the composition of gases (H₂S, CS₂, COS) in the gas phase at different temperatures (1200°C to 1800°C) and equilibrium ratios (P/ΣP from 0 to 1). The diagram illustrates the relative amounts of H₂S, CS₂, and COS.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f8c83668757d47dc8822e758f05bc0a5_14_img.webp",
+      "section_path": "6. 기술이론 / 6.1 COKE 중 S의 GAS 상으로의 이행 / 6.1.3 GAS 화 하는 S 화합물의 형태"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 3 : 다양한 온도(120~180℃)에서 가스상의 구성(H_{2}S,CS_{2},COS)과 균형 비율(P/{\\Sigma P})을 나타내는 상태도입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing the percentage of sulfur ([S]/%) versus time (min) for Mg Gas reaction. The x-axis is Time (min) from 0 to 50. The y-axis is [S]/% from 0 to 1. Four curves are shown corresponding to different temperatures and pressures: 1515°C, 1570°C, 1615°C, and 1670°C. The Mg partial pressure (P_Mg) is constant at 1.78 \\times 10^{-3} atm. The CO partial pressure (P_{CO}) is 1 atm. The curves show that [S]/% decreases over time, and higher temperatures lead to faster desulfurization.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/4223f5d6d568fa15a0f90c5cbecaa97a_16_img.webp",
+      "section_path": "6. 기술이론 / 6.2 GAS 에 의한 탈류반응 MECHANISM / 알칼리에의한 탈류반응"
+    },
+    "output": {
+      "image_summary": "그래프는 시간(min)과 소재([S]%)/소비량(%), 즉 Mg 가스 반응에서 산화물 비율을 나타내며, X 축에는 0부터 50분까지의 시간(min)이고 Y축에는 0에서 1까지의 [%]. 네 개의 곡선이 표시되어 있으며 각각 다른 온도와 압력을 대상으로 합니다 : 1500℃, 1700℃ , 1600℃ 및 1650℃입니다 . Mg 부분압(P_mg)은 상당히 일정하며 1.8 × 10^-3atm이며 CO 부분압(P_co)은 1atm입니다. 그래프는 시간이 지남에 따라 [%]가 감소함을 보여주며 더 높은 온도일수록 더욱 빠른 환원작용을 의미합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그래프는 시간(min)과 소재([S]%)/소비량(%), 즉 Mg 가스 반응에서 산화물 비율을 나타내며, X 축에는 0부터 50분까지의 시간(min)이고 Y축에는 0에서 1까지의 [%]. 네 개의 곡선이 표시되어 있으며 각각 다른 온도와 압력을 대상으로 합니다 : 1500℃, 1700℃ , 1600℃ 및 1650℃입니다 . Mg 부분압(P_mg)은 상당히 일정하며 1.8 × 10^-3atm이며 CO 부분압(P_co)은 1atm입니다. 그래프는 시간이 지남에 따라 [%]가 감소함을 보여주며 더 높은 온도일수록 더욱 빠른 환원작용을 의미합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_005",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing the initial stage of slag-metal reaction. The slag phase contains Fe^{2+} and S^{2-}. Arrows indicate the movement of O^{2-} and Fe^{2+} towards the metal phase, and S^{2-} moving towards the slag phase.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_7_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM"
+    },
+    "output": {
+      "image_summary": "슬래그-메탈 반응 초기 단계를 나타내는 도표입니다. 슬래그相에는Fe^{2+}, S^{2−}가 포함되어 있습니다.Arrow들은O^{2−}, Fe^{2 +}가 메탈相으로 이동하며,S^{2 −}가 슬래글相으로 이전되는 것을 표시합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그-메탈 반응 초기 단계를 나타내는 도표입니다. 슬래그相에는Fe^{2+}, S^{2−}가 포함되어 있습니다.Arrow들은O^{2−}, Fe^{2 +}가 메탈相으로 이동하며,S^{2 −}가 슬래글相으로 이전되는 것을 표시합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_006",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing the second stage of slag-metal reaction. Arrows indicate movement of O^{2-}, Fe^{2+}, and S^{2-} towards the metal phase, and movement of [O], [Fe], [S], and [O] + 1/2[Si] towards the slag phase. A reaction C + [O] \\rightarrow CO is shown on the right.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_12_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM"
+    },
+    "output": {
+      "image_summary": "슬래그-메탈 반응 두 번째 단계를 나타내는 도표입니다. 화살표들은 O^{{}}_{2^{-}}, Fe^{{{}}}^{2{+}}, 및 S^{{{}}}^{}^{2{-}} 가 금속相 향하게 되며, [O], [{]}_{Fe}{]}, [{}]_{S}], 그리고 [{]+ \frac{1}{2}[Si]{]} 슬래그相 햇게 됩니다. 오른쪽에는 C+[O]\toCO 반응이 표시됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그-메탈 반응 두 번째 단계를 나타내는 도표입니다. 화살표들은 O^{{}}_{2^{-}}, Fe^{{{}}}^{2{+}}, 및 S^{{{}}}^{}^{2{-}} 가 금속相 향하게 되며, [O], [{]}_{Fe}{]}, [{}]_{S}], 그리고 [{]+ \\frac{1}{2}[Si]{]} 슬래그相 햇게 됩니다. 오른쪽에는 C+[O]\\toCO 반응이 표시됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_007",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Diagram showing the third stage of slag-metal reaction. Arrows indicate movement of O^{2-} SiO_2 and S^{2-} towards the metal phase, and movement of [O] + 1/2[Si] and C + [O] towards the slag phase. A reaction C + [O] \\rightarrow CO is shown on the right.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/f2f6e002e925b6c4cca2d6505118c3b8_16_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM"
+    },
+    "output": {
+      "image_summary": "슬래그-메탈 반응 세 번째 단계를 나타내는 도표입니다. 화살표들은 O^{{}}_{2}-와 SiO_{2}, 그리고 S^{{{}}} 방향으로 급속히 움직이는 것을 표시하며, 스테인리스 스틸 페즈에서 [O]+{}/2[S], C+[O] 방향으로 움직임도 나타냅니다. 오른쪽에는 C+[O]->CO 반응이 표시되어 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그-메탈 반응 세 번째 단계를 나타내는 도표입니다. 화살표들은 O^{{}}_{2}-와 SiO_{2}, 그리고 S^{{{}}} 방향으로 급속히 움직이는 것을 표시하며, 스테인리스 스틸 페즈에서 [O]+{}/2[S], C+[O] 방향으로 움직임도 나타냅니다. 오른쪽에는 C+[O]->CO 반응이 표시되어 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_008",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 5: A graph showing the relationship between (S)/[S] (y-axis, 0 to 60) and C/S (x-axis, 0.6 to 1.8) for three temperatures: 1400℃, 1450℃, and 1500℃. As C/S increases, (S)/[S] increases, and the curve shifts higher with increasing temperature.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_2_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향"
+    },
+    "output": {
+      "image_summary": "그림 5 : 그래프에서 (S)/(S)와 C/S 사이의 관계를 나타내며 y축에는 0부터 60까지, x축에는 60%에서 180%까지 세 개의 온도인 각각 14백도, 1백50도, 그리고 1백백도를 표시합니다. C/S 값이 증가하면 (S)/(s) 값도 상승하며 온도가 증가함수록 곡선이 더 위쪽으로 움직입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 5 : 그래프에서 (S)/(S)와 C/S 사이의 관계를 나타내며 y축에는 0부터 60까지, x축에는 60%에서 180%까지 세 개의 온도인 각각 14백도, 1백50도, 그리고 1백백도를 표시합니다. C/S 값이 증가하면 (S)/(s) 값도 상승하며 온도가 증가함수록 곡선이 더 위쪽으로 움직입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_009",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 6: A scatter plot showing the relationship between (S)/[S] (y-axis, 22 to 32) and 노내온도 (°C) (x-axis, 1000 to 1600). Data points are scattered, but two linear regression lines are shown, indicating that (S)/[S] increases with increasing furnace temperature. Data points are categorized by slag basicity (S < 3kg/T-P and S > 3kg/T-P).",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_5_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향"
+    },
+    "output": {
+      "image_summary": "그림 6 : (S)/(S)(y축, 2.2에서 3.2까지), 노내 온도(℃)(x축, 1천에서 1천여까지) 사이의 관계를 나타낸 산점도입니다. 데이터 포인트들은 흔적을 남기는 대신 두 개의 선형 회귀선이 표시되어 있어, 가스실 온도 증가는 (S)/(T-P)와 함께 증가한다는 것을 시사합니다. 데이터 포인터는 스테인리스 성분(S<3kg/T-p 또는 S>3kg/T_p)에 따라 분류됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 6 : (S)/(S)(y축, 2.2에서 3.2까지), 노내 온도(℃)(x축, 1천에서 1천여까지) 사이의 관계를 나타낸 산점도입니다. 데이터 포인트들은 흔적을 남기는 대신 두 개의 선형 회귀선이 표시되어 있어, 가스실 온도 증가는 (S)/(T-P)와 함께 증가한다는 것을 시사합니다. 데이터 포인터는 스테인리스 성분(S<3kg/T-p 또는 S>3kg/T_p)에 따라 분류됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_010",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 7: A graph showing the relationship between (S)/[S] (y-axis, 0 to 60) and 노내온도 (°C) (x-axis, 1000 to 1600). The data points show a strong positive correlation, indicating that (S)/[S] increases linearly with furnace temperature.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/1c68af2916311f9ce94ad1351e2babcc_7_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향"
+    },
+    "output": {
+      "image_summary": "그림 7 : (S)/(S)(y축, 0에서 60까지), 노내 온도(℃)(x축, 1천부터 1천육백까지)와의 관계를 나타낸 그래프입니다. 데이터 포인트들은 강한 양적 상관성을 보여주며, 가스실 온도가 증가함에 따라 (S)/(s) 값도 선형적으로 증가합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 7 : (S)/(S)(y축, 0에서 60까지), 노내 온도(℃)(x축, 1천부터 1천육백까지)와의 관계를 나타낸 그래프입니다. 데이터 포인트들은 강한 양적 상관성을 보여주며, 가스실 온도가 증가함에 따라 (S)/(s) 값도 선형적으로 증가합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_011",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 8: Graph showing the relationship between Viscosity (η in poise) and MgO% at different temperatures. The x-axis is MgO % (0 to 25). The y-axis is η(poise) (0 to 55). Three curves are shown: 1400°C (highest viscosity, peaking around 16% MgO), 1450°C, and 1500°C (lowest viscosity, showing viscosity dropping sharply after 16% MgO).",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/9804aada864ef5bf30bb7fb6b2b57c6a_2_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향"
+    },
+    "output": {
+      "image_summary": "그림 8 :Viscosity (η in Poise)와 MgO% 간의 관계를 나타내는 그래프입니다. X축은 MgO%(0에서 25까지), Y축은 η(Poise)(0에서 55까지)입니다. 세 개의 曲선이 표시됩니다: 1,400℃(최대 점성이며 약간 16%MgO에서 최고점), 1, 450℃, 그리고 1,500℃ (최소 점성이이며 16%mMgO 이후 점성이 급격히 감소합니다.) "
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 8 :Viscosity (η in Poise)와 MgO% 간의 관계를 나타내는 그래프입니다. X축은 MgO%(0에서 25까지), Y축은 η(Poise)(0에서 55까지)입니다. 세 개의 曲선이 표시됩니다: 1,400℃(최대 점성이며 약간 16%MgO에서 최고점), 1, 450℃, 그리고 1,500℃ (최소 점성이이며 16%mMgO 이후 점성이 급격히 감소합니다.) \"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_012",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 9: Graph showing the relationship between Viscosity (η in poise) and MgO% at a constant temperature of 1450°C and C/S=1.2. The x-axis is MgO % (0 to 25). The y-axis is η(poise) (0 to 40). Three curves are shown, corresponding to different Al₂O₃ percentages: 20%, 15%, and 10%. All curves show viscosity decreasing as MgO% increases, with the 20% Al₂O₃ curve having the highest viscosity, and the 10% Al₂O₃ curve having the lowest viscosity.",
+      "image_link": "output/sanitize/TP-030-050-040 [S] 제어기술 기준(Rev.9)_0900bf4ba7a2b66b_usr0000bf4b95f9e446/components/9804aada864ef5bf30bb7fb6b2b57c6a_5_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향"
+    },
+    "output": {
+      "image_summary": "그림 9 : 온도가 일정하게 유지되는 1400℃와 C/S비율이 1.2인 시점에서 산화망간(MgO%)과 젤성이 관계되어 있는 그래프입니다. X축에는 MgO%(0~25), Y축에는 젤성이 표시됩니다.(poise 단위로 0 ~ 40까지). 세 개의 곡선이 나타나며 각각 알루미늄산(Oxide) 비율이 다른 경우를 나타냅니다; 20%，15%，10%입니다. 모든 곡선들은 MgO% 증가함에 따라 젤성이 감소하며, 알루미니움산 비율이 20％일 때 가장 큰 젤성을 가졌으며, 알루민이 10％일때 최저 젤성을 가지게 됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 9 : 온도가 일정하게 유지되는 1400℃와 C/S비율이 1.2인 시점에서 산화망간(MgO%)과 젤성이 관계되어 있는 그래프입니다. X축에는 MgO%(0~25), Y축에는 젤성이 표시됩니다.(poise 단위로 0 ~ 40까지). 세 개의 곡선이 나타나며 각각 알루미늄산(Oxide) 비율이 다른 경우를 나타냅니다; 20%，15%，10%입니다. 모든 곡선들은 MgO% 증가함에 따라 젤성이 감소하며, 알루미니움산 비율이 20％일 때 가장 큰 젤성을 가졌으며, 알루민이 10％일때 최저 젤성을 가지게 됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 1: A graph showing the relationship between Slag composition (MnO) (%) on the x-axis (4 to 28) and Slag Temperature (°C) on the y-axis (1420 to 1540). The data points show a strong negative correlation, indicating that as MnO content increases, the slag temperature decreases.",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_9_img.webp",
+      "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원"
+    },
+    "output": {
+      "image_summary": "그림 1 : MnO 함량(%)(x축 4~28)과 스테인 less 온도(℃)(y축 142~154) 간의 관계를 나타낸 그래프입니다. 데이터 포인트들은 강한 부정적 상관성을 보여주며, MnO 함유량이 증가함수록 스텔레온도가 감소한다는 것을 의미합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 1 : MnO 함량(%)(x축 4~28)과 스테인 less 온도(℃)(y축 142~154) 간의 관계를 나타낸 그래프입니다. 데이터 포인트들은 강한 부정적 상관성을 보여주며, MnO 함유량이 증가함수록 스텔레온도가 감소한다는 것을 의미합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 2: A graph showing the relationship between Slag Temperature (°C) on the x-axis (1430 to 1580) and CaO/SiO2 ratio on the y-axis (0.25 to 1.75). The data points show a strong positive correlation, indicating that as temperature increases, the CaO/SiO2 ratio also increases. Data points are categorized by CaO/SiO2 ratio: 1.21-1.23 (solid circles), 1.24 (open circles), and 1.24 (crosses).",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_11_img.webp",
+      "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 2 :Slag 온도(℃)와 CaO/Sio₂ 비율 간의 관계를 나타낸 그래프입니다(x축에는 143~158 사이의 온도, y축에는 0.2 ~ 1.8 사이의 CaO/SIO₂비율이 표시됩니다.). 데이터 포인트들은 강한 양성 상관성을 보여주며, 온도가 증가함에 따라 CaO/SI O₂ 비율도 함께 증가합니다. 각각의 데이터 포인츠는 CaO/SIo₂ 비율에 따라 분류되었습니다: 1 .2 - 1 ,23 (实선 원점), 1.,24 (공간 원점), 및 1..24 (x자 모양).\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 3: A graph showing the relationship between Mn/MnO ratio on the y-axis (0.25 to 1.75) and CaO/SiO2 ratio on the x-axis (1.125 to 1.275). The data points show a positive correlation, indicating that as CaO/SiO2 ratio increases, the Mn/MnO ratio also increases. Data points are categorized by Slag Temperature (°C): 1490 (solid circles), 1491-1510 (open circles), and 1511 (crosses).",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/92daabf32880573c7612ebf58fa43e03_13_img.webp",
+      "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.1 Mn 의 환원"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 3 : Mn/MnО 비율이 Y축(0.2부터 1.8까지)과 CaO/SиO2비율이 X축(1.1~1.3 사이) 간의 관계를 나타낸 그래프입니다. 데이터 포인트들은 양성 상관성을 보여주며, CaO/SіO2비_ratio 증가는 Mn/MнO 비_ratio도 함께 증가한다는 것을 의미합니다. 데이터 포인터는 슬래그 온도(Celsius)별로 분류되어 있습니다: 1480°C(实心圆圈), 1500–1515°C(空心圓形), 그리고 1520°C(叉号).\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "A graph showing the Gibbs free energy change (G) versus temperature (T) in degrees Celsius (0 to 2400). Multiple reaction lines are plotted, including AF63-7VO3-2Fe2O3O3, BF63-7VO3-2Fe2O3O3, 2Fe2O3-2Fe2O3O3, 2MnO-2CO2, 2MnO-2SiO2, 2MnO-2CO, 2MnO-2SiO2O3, 2MnO-2CO2O3, and 2MnO-2SiO2O3O3. The Y-axis is labeled G = T*R*ln(P2) (Kcal/g mol O2).",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/7bb197f6490ccf7f40432011a5ff6d69_2_img.webp",
+      "section_path": "4. 조업 기준 / 4.2 노내에서의 Mn 반응 / 4.2.3 [Mn] 함량 저하 이론적 배경"
+    },
+    "output": {
+      "image_summary": "그림은 열도(Celsius)별 Gibbs 자유 에너지 변화(G)와 온도(T) 간 관계를 나타냅니다.(0부터 2480까지). 여러 반응선이 표시되어 있으며, 예를 들어 AF63 - 7VO3 - 2Fe₂O₃O₃, BF6З - 7VОз - ZFе₂О₃OЗ, 2ZFe₂OЗ-ZFe₂O ЗOЗ, ZМнО-ZСО₂, ZМпО-ZSиO₂, ZMпO-ZCО, ZMрО-ZSИO₂OЗ, и ZMпО-ZCО₂OЗ 및 ZMпо-zsio₂oЗoЗ 포함됩니다.Y축에는 G=T×R×In(P²)(Kcal/g·mol O₂)라고 명명되었습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림은 열도(Celsius)별 Gibbs 자유 에너지 변화(G)와 온도(T) 간 관계를 나타냅니다.(0부터 2480까지). 여러 반응선이 표시되어 있으며, 예를 들어 AF63 - 7VO3 - 2Fe₂O₃O₃, BF6З - 7VОз - ZFе₂О₃OЗ, 2ZFe₂OЗ-ZFe₂O ЗOЗ, ZМнО-ZСО₂, ZМпО-ZSиO₂, ZMпO-ZCО, ZMрО-ZSИO₂OЗ, и ZMпО-ZCО₂OЗ 및 ZMпо-zsio₂oЗoЗ 포함됩니다.Y축에는 G=T×R×In(P²)(Kcal/g·mol O₂)라고 명명되었습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_005",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "A diagram showing a high furnace section (likely a blast furnace) with a liquid bath and a gas outlet pipe. Next to it is a graph plotting the concentration of phosphorus [P] in the slag against time. The X-axis ranges from 0 to 0.3, and the Y-axis shows a curve starting high and dropping sharply.",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/7bb197f6490ccf7f40432011a5ff6d69_15_img.webp",
+      "section_path": "4. 조업 기준 / 4.3 노내에서의 P 반응"
+    },
+    "output": {
+      "image_summary": "고온 가동부분도표(일반적으로 분출용광로)와 액체 욕조 및 가스 배출관이 있는 모습입니다. 그 옆에는 시간과 철산물 중磷[P]의 밀도 그래프가 있습니다.X축은 0부터 0.З까지이며,Y축은 시작 부분이 높게 유지되고 급격히 하락하는 곡선을 나타냅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"고온 가동부분도표(일반적으로 분출용광로)와 액체 욕조 및 가스 배출관이 있는 모습입니다. 그 옆에는 시간과 철산물 중磷[P]의 밀도 그래프가 있습니다.X축은 0부터 0.З까지이며,Y축은 시작 부분이 높게 유지되고 급격히 하락하는 곡선을 나타냅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_001",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing Slag flow rate (S/S) versus C/S ratio. Three curves are shown for temperatures 1400°C, 1450°C, and 1500°C. The flow rate peaks around C/S = 1.2 to 1.3, with higher temperatures resulting in higher flow rates.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_7_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 가. 노내 탈류와 Slag C/S"
+    },
+    "output": {
+      "image_summary": "슬래그 흐름률(S/S) vs C/S 비율 그래프입니다. 온도는 각각 1440℃, 1550℃, 그리고 1600℃의 세 가지 커브가 표시됩니다. 흐림률은 대략적으로 C/S=1.2에서 최대치를 나타냅니다. 더 높은 온도일수록 흐린률이 증가합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"슬래그 흐름률(S/S) vs C/S 비율 그래프입니다. 온도는 각각 1440℃, 1550℃, 그리고 1600℃의 세 가지 커브가 표시됩니다. 흐림률은 대략적으로 C/S=1.2에서 최대치를 나타냅니다. 더 높은 온도일수록 흐린률이 증가합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_002",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph (a) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 10%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_11_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S"
+    },
+    "output": {
+      "image_summary": "그림(a): 알루미나 10%와 마그네슘 산화물(MgO) 5%의 경우 온도가 각각 14℃, 15℃, 그리고 15°에서CaO/SiО₂비율과 스텐드 플로우 비율(P[포이즈]) 사이의 그래프입니다.CaO/Siо₂비율이 0.9부터 1.5까지 증가하면서 흐름 속도가 감소하며, 이후 급격히 상승하여 약간의 최저점(CаО/SиО₂=1.2)을 나타냅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(a): 알루미나 10%와 마그네슘 산화물(MgO) 5%의 경우 온도가 각각 14℃, 15℃, 그리고 15°에서CaO/SiО₂비율과 스텐드 플로우 비율(P[포이즈]) 사이의 그래프입니다.CaO/Siо₂비율이 0.9부터 1.5까지 증가하면서 흐름 속도가 감소하며, 이후 급격히 상승하여 약간의 최저점(CаО/SиО₂=1.2)을 나타냅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_003",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph (b) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 15%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_13_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S"
+    },
+    "output": {
+      "image_summary": "그림(b)에는 알루미나 15%와 마그네슘 산화물(MgO) 5%의 경우 온도가 각각 14℃, 15℃, 그리고 15℉인 시일에서 카르보산(Ca)/실리카(Si) 비율과 스테글 흐름률(P[포이즈]) 사이의 관계를 나타낸 것입니다. 카르бо산 실리카비율이 0.9부터 1.5까지 증가하면 흐림률은 감소하여 최저치를 이루게 됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(b)에는 알루미나 15%와 마그네슘 산화물(MgO) 5%의 경우 온도가 각각 14℃, 15℃, 그리고 15℉인 시일에서 카르보산(Ca)/실리카(Si) 비율과 스테글 흐름률(P[포이즈]) 사이의 관계를 나타낸 것입니다. 카르бо산 실리카비율이 0.9부터 1.5까지 증가하면 흐림률은 감소하여 최저치를 이루게 됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_004",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph (c) showing Slag flow rate (P [poise]) versus CaO/SiO2 ratio for Al2O3 20%, Mgo 5%. Curves are shown for temperatures 1400°C, 1450°C, and 1500°C. Flow rate decreases as CaO/SiO2 increases from 0.8 to 1.4, then increases sharply, reaching a minimum around CaO/SiO2 = 1.2.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/6494b004cd571181c95ca73016c91f4e_15_img.webp",
+      "section_path": "6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 나. SLAG 유동성과 Slag C/S"
+    },
+    "output": {
+      "image_summary": "그래프(c)에서 알루미나의 경우 20%이고 마그네슘 산화물(MgO)의 경우 5%인 시계산 비율(CaO/SiО₂)에 따른 스텝 흐름률(P[포이즈])을 나타냅니다. 온도는 각각 14℃, 15℃와 15°℃입니다.CaO/Siо₂비율이 0.9부터 1.5까지 증가하면 흐림률이 감소하며, 이후 급격히 상승하여 약간의 최저점이 발생합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그래프(c)에서 알루미나의 경우 20%이고 마그네슘 산화물(MgO)의 경우 5%인 시계산 비율(CaO/SiО₂)에 따른 스텝 흐름률(P[포이즈])을 나타냅니다. 온도는 각각 14℃, 15℃와 15°℃입니다.CaO/Siо₂비율이 0.9부터 1.5까지 증가하면 흐림률이 감소하며, 이후 급격히 상승하여 약간의 최저점이 발생합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_005",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "CaO-SiO2-Al2O3 ternary phase diagram showing liquidus lines and various crystalline phases like 3CaO·2SiO2, 2CaO·SiO2, CaO·SiO2, 3CaO·Al2O3·2SiO2, 2CaO·Al2O3·SiO2, and 12CaO·7Al2O3, along with temperature contours (e.g., 1500°C, 1400°C, 1300°C).",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/aae107a12d06c9e192e7ada3c90acadf_8_img.webp",
+      "section_path": "6. 기술이론 / 6.3 SLAG 의 주요 조성"
+    },
+    "output": {
+      "image_summary": "CaO-Silica-Alumina 삼원상도에서 액체선과 다양한 결정화 상들이 나타나며, 예를 들어 3CaOSiO2, SiOCaOsio2, CaSOsio2, Al2O3SiO2CaSIO2, AlOSSiOCAO, 그리고 12AlOSSIAO3의 형태와 함께 온도 경계선 (예 : 15℃, ℃, °C)이 표시됩니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"CaO-Silica-Alumina 삼원상도에서 액체선과 다양한 결정화 상들이 나타나며, 예를 들어 3CaOSiO2, SiOCaOsio2, CaSOsio2, Al2O3SiO2CaSIO2, AlOSSiOCAO, 그리고 12AlOSSIAO3의 형태와 함께 온도 경계선 (예 : 15℃, ℃, °C)이 표시됩니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_006",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure (a): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.1. The plot illustrates the effect of MgO addition on viscosity under low C/S conditions.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_14_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향"
+    },
+    "output": {
+      "image_summary": "그림(a) : 1400℃에서 C/S = 1.1인 경우 MgO (%),Al₂O₃ (%) 간의 경계선 도표입니다. 이 그래프는 저 C/S 조건 하에서 MgO 추가 효과에 대한 유속 변화를 나타냅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(a) : 1400℃에서 C/S = 1.1인 경우 MgO (%),Al₂O₃ (%) 간의 경계선 도표입니다. 이 그래프는 저 C/S 조건 하에서 MgO 추가 효과에 대한 유속 변화를 나타냅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_007",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure (b): Contour plot showing MgO (%) versus Al2O3 (%) at 1450°C, C/S=1.3. The plot illustrates the effect of MgO addition on viscosity under high C/S conditions.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/bf5b2cf42559b535e7cf8a59c37b8eee_16_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.3 C/S에 따른 점도의 영향"
+    },
+    "output": {
+      "image_summary": "그림(b) : 1400℃에서 C/S = 1.3일 때 MgO (%),Al₂O₃ (%)의 연속선 그래프입니다.MgO 추가 효과를 높은 C/S 조건 하에서 시각화합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림(b) : 1400℃에서 C/S = 1.3일 때 MgO (%),Al₂O₃ (%)의 연속선 그래프입니다.MgO 추가 효과를 높은 C/S 조건 하에서 시각화합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_008",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure showing the relationship between Slag viscosity (poise) and the ratio (CaO+MgO)/(SiO2+Al2O3). The graph plots viscosity (Y-axis, 0 to 12) against the ratio (X-axis, 0.7 to 1.1). Two data sets are shown: 환원성분위기 (Reduction component range, solid circles) and 산화성분위기 (Oxidation component range, open circles). Viscosity generally decreases as the ratio increases, with the Reduction component range showing lower viscosity values, especially around the ratio of 1.0.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/92d453d244fd2bc838f8a9f07cc12a55_5_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.4 복합염기도가 SLAG 점성에 미치는 영향"
+    },
+    "output": {
+      "image_summary": ""
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림에서 CaO + MgO/(SiO₂ + Al₂O₃) 비율과 스테인글 유도체의 관계를 나타내며, Y축에는 유도체 값(0 ~ 12), X축에는 비율(0.7 ~ 1.2)이 표시됩니다. 두 데이터 세트가 있습니다 : 저온 분야(Reduction component range;实心圆圈表示的范围)，以及高温分野(Oxidation field；空心圓形表示範圍）。一般而言，随着比值增加粘度降低。低溫域（Reduction component）表现出较低的粘性，在大约比例为1时尤为明显。”\n}\n```"
+  },
+  {
+    "id": "IMG_TR_009",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Screenshot of Response Optimization software showing optimization results for MgO, Al2O3, and C/S ratios. The results include New D, Hi Cur Lo, and CT (Targ: 1400.0, y = 1387.4989, d = 0.74994) and 1400°C V (Targ: 10.0, y = 10.8983, d = 0.97006) values, along with corresponding graphs.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.6 Slag 성분에 따른 점도 및 임계온도 예측"
+    },
+    "output": {
+      "image_summary": "Response 최적화 소프트웨어의 스크린샷에서 MgO,Al_{2} O _{3}, 그리고 C/S 비율에 대한 최적화 결과를 표시합니다. 이 결과에는 New D,Hi Cur Lo,CT(Targ : 14 0 . , y=138 7．，d=0·7）과 14℃V（Target：10。y=10．，d=.97）값들이 포함되어 있으며, 해당 값들과 함께 그래프들도 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"Response 최적화 소프트웨어의 스크린샷에서 MgO,Al_{2} O _{3}, 그리고 C/S 비율에 대한 최적화 결과를 표시합니다. 이 결과에는 New D,Hi Cur Lo,CT(Targ : 14 0 . , y=138 7．，d=0·7）과 14℃V（Target：10。y=10．，d=.97）값들이 포함되어 있으며, 해당 값들과 함께 그래프들도 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_010",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph titled 'MgO 4.0% 염기도 vs 점도, C.T'. The graph plots Viscosity (Poise) and C.T (°C) against Alkali Degree (-). Multiple lines represent different Al2O3 concentrations (15.0% to 15.6%).",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/9d1ce2094cd58b992832d82715d2e22a_8_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준"
+    },
+    "output": {
+      "image_summary": "그림의 제목은 'MgО 4. 0% 알칼리도와 점도(C.T)'입니다. 그래프에는 알칼리 도수(-)에 대한 비яз도(Poise)과 C.T(℃)를 x축과 y축으로 표시합니다. 여러 선들은 다른Al_{2} O_{3}농도(15. 0~15 .6%)를 나타냅니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림의 제목은 'MgО 4. 0% 알칼리도와 점도(C.T)'입니다. 그래프에는 알칼리 도수(-)에 대한 비яз도(Poise)과 C.T(℃)를 x축과 y축으로 표시합니다. 여러 선들은 다른Al_{2} O_{3}농도(15. 0~15 .6%)를 나타냅니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_011",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 1: MgO 4.0% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_4_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준"
+    },
+    "output": {
+      "image_summary": "그림 1 : MgO의 비용률과 기본성 및 C.T 간의 관계입니다. 왼쪽 y축에는 비용률(Poise), 오른쪽 y축에서는 C.T(℃)가 표시됩니다. x 축은 -기본성이 표시되며, 여러 선들은 기본성이 증가함에 따라 비용률도 증가하며, C.T는 감소합니다. 점선은 통제 범위를 나타내는데, 비용률은 12Poise 미만이고 C.T는 14°C미만인 경우입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 1 : MgO의 비용률과 기본성 및 C.T 간의 관계입니다. 왼쪽 y축에는 비용률(Poise), 오른쪽 y축에서는 C.T(℃)가 표시됩니다. x 축은 -기본성이 표시되며, 여러 선들은 기본성이 증가함에 따라 비용률도 증가하며, C.T는 감소합니다. 점선은 통제 범위를 나타내는데, 비용률은 12Poise 미만이고 C.T는 14°C미만인 경우입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_012",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure 2: MgO 4.2% viscosity vs. basicity and C.T. The left Y-axis is Viscosity (Poise) and the right Y-axis is C.T (°C). The X-axis is Basicity (-). Multiple lines show viscosity increasing with basicity, while C.T decreases with basicity. Dashed lines indicate the control limits: Viscosity < 12 Poise and C.T < 1400 °C.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/e33cdfc5dd1d7174cfebad0faceab0d2_7_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준"
+    },
+    "output": {
+      "image_summary": "그림 2 : MgO의 비яз도와 기본성과 C.T 간의 관계입니다. 왼쪽 y축은 비яз도(Poise), 오른쪽 y축에는 C.T(℃)가 표시됩니다. x 축은 -기본성이 표시되며, 여러 선들은 기본성이 증가함에 따라 비яз도가 증가하며, C.T는 감소합니다. 점선은 통제 경계를 나타내는데, 비яз도는 12Poise 미만이고 C.T는 14°C미만인 경우입니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림 2 : MgO의 비яз도와 기본성과 C.T 간의 관계입니다. 왼쪽 y축은 비яз도(Poise), 오른쪽 y축에는 C.T(℃)가 표시됩니다. x 축은 -기본성이 표시되며, 여러 선들은 기본성이 증가함에 따라 비яз도가 증가하며, C.T는 감소합니다. 점선은 통제 경계를 나타내는데, 비яз도는 12Poise 미만이고 C.T는 14°C미만인 경우입니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_013",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Figure showing Viscosity (Poise) and Critical Temperature (C.T.) versus Viscosity (Poise) for various A2O3 compositions (15.7% to 16.3%) at MgO 4.8%. The viscosity curves are generally decreasing with increasing viscosity, and the C.T. curves are generally increasing with increasing viscosity. Several curves show a minimum viscosity point.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/20352667832cb5134416abb5fc91df96_3_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준"
+    },
+    "output": {
+      "image_summary": "그림에서 다양한 A2O₃ 구성(15. 7 % ~ 16 . 3 % ) 에서 Mg O 4 . 8 % 시의 점도와 비점도(CT) 가 점도에 따라 변화하는 것을 나타내고 있습니다. 점도 곡선은 점도 증가에 따라 대체적으로 감소하며 CT 곡선 또한 점도증가에 따라 증가합니다. 몇몇 곡선에는 최저 점도 지점을 보여줍니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"그림에서 다양한 A2O₃ 구성(15. 7 % ~ 16 . 3 % ) 에서 Mg O 4 . 8 % 시의 점도와 비점도(CT) 가 점도에 따라 변화하는 것을 나타내고 있습니다. 점도 곡선은 점도 증가에 따라 대체적으로 감소하며 CT 곡선 또한 점도증가에 따라 증가합니다. 몇몇 곡선에는 최저 점도 지점을 보여줍니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_014",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph showing the relationship between Al2O3 (%) (x-axis, 0 to 25) and C.T. (°C) (y-axis, 1250 to 1450). A downward-opening parabola is plotted, labeled y = 1,9741x^2 - 61,294x + 1775.3, with R^2 = 0.9295. The minimum point of the curve is highlighted, corresponding to Al2O3 around 14-16% and C.T. around 1350°C.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_5_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계"
+    },
+    "output": {
+      "image_summary": "알루미나 산화물 (%)(Al_{2} O _{3})와 시험 온도(C.T.) 사이의 관계 그래프입니다(x축 : 0에서 25%, y축 : 1200℃에서 1400℃까지). 이 그래프에는 하향 개방 파비올라가 표시되어 있으며, 방정식 y=1.974 x^{2}-61.294 x+177.53 로 명명되었습니다.R^{2}=0.93이며, 곡선의 최소점은 알루미나 약 14~16%와 시험온도 약 ۲۳۵۰℃에 해당합니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"알루미나 산화물 (%)(Al_{2} O _{3})와 시험 온도(C.T.) 사이의 관계 그래프입니다(x축 : 0에서 25%, y축 : 1200℃에서 1400℃까지). 이 그래프에는 하향 개방 파비올라가 표시되어 있으며, 방정식 y=1.974 x^{2}-61.294 x+177.53 로 명명되었습니다.R^{2}=0.93이며, 곡선의 최소점은 알루미나 약 14~16%와 시험온도 약 ۲۳۵۰℃에 해당합니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_015",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Screenshot of a CT (Casting Temperature) input interface. The target is 1400.0°C, and the calculated value is 1405.3835°C with a deviation of 0.96411. The input field is labeled 'Input New Level Value'.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_7_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계"
+    },
+    "output": {
+      "image_summary": "CT(Casting Temperature) 입력 인터페이스 스크린샷입니다. 목표 값은 14.00 °C이며 계산값은 1.405 .383 5 ° C이고 오차율은 0.00%.964 11 입니다. 입력 필드에는 ‘새 수치 입력’이라는 이름이 붙여져 있습니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"CT(Casting Temperature) 입력 인터페이스 스크린샷입니다. 목표 값은 14.00 °C이며 계산값은 1.405 .383 5 ° C이고 오차율은 0.00%.964 11 입니다. 입력 필드에는 ‘새 수치 입력’이라는 이름이 붙여져 있습니다.\"\n}\n```"
+  },
+  {
+    "id": "IMG_TR_016",
+    "instruction": "\n너는 주어진 고로 관련 영문 설명description을 한국어로 번역하는 전문가다. 아래 description을 번역한다. 한국어면 그대로 출력해라. \n\n- [번역할 문장: {description}]\n- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.\n- cokes는 **코크스** 나 cokes로 적는다.\n- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.\n- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.\n\n출력 형식:\n{\n  \"image_summary\": \"번역된 문장\"\n}\n",
+    "input": {
+      "description": "Graph comparing C.T. (°C) (y-axis, 1300 to 1500) versus MgO (%) (x-axis, 0 to 12) for Redcar (blue circles) and POSCO (green squares). The curves show a significant difference in calculated melting temperatures, especially around 10% MgO.",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/994d1fa3bada06ff9874b7b5f341c169_9_img.webp",
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계"
+    },
+    "output": {
+      "image_summary": "Redcar와 POSCO에서 MgO % 대비 C.T.(°C) 그래프입니다(x축 : 0~12%, y축 : 1350 ~ 1550°C). 두 가지 경우 모두 계산된 녹화 온도 차이는 특히 약간의 MgO 함량에서 크게 나타납니다."
+    },
+    "raw_response": "```json\n{\n    \"image_summary\":\"Redcar와 POSCO에서 MgO % 대비 C.T.(°C) 그래프입니다(x축 : 0~12%, y축 : 1350 ~ 1550°C). 두 가지 경우 모두 계산된 녹화 온도 차이는 특히 약간의 MgO 함량에서 크게 나타납니다.\"\n}\n```"
+  }
+]

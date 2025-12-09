@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 소결광 품질 기준",
+      "filename": "소결광 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-030 소결광 품질관리 기준(Rev.12)_0900bf4ba7a2a0ca_usr0000bf4b95f9e446/components/TP-030-020-030 소결광 품질관리 기준(Rev.12)_0900bf4ba7a2a0ca_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "소결광 품질관리기준을 설정하여 관리할 필요가 있다.. # 3. 중점 관리항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 소결광 품질 기준",
+      "context_after": "(소결광 품질기준은 원료, 소결공정 기술기준 'TP-020-070-040 성품소결광 물리성상 관리기준'에 준함.) # 5. 이상판단 및 조치기준 ## 5.1 소결광의 물리, 화학적"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 정립광 입도관리 기준",
+      "filename": "정립광 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446/components/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "관리 기준을 설정하여 관리할 필요가 있다. # 3. 중점 관리항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 정립광 입도관리 기준",
+      "context_after": "## 4.2 정립광 화학성분 관리기준 (단위: %) {{TB_UNSTR_002}} # 5. 이상판단 및 조치기준 ## 가. 정립광의 물리, 화학적 품질시험 성적을"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.2 정립광 화학성분 관리기준",
+      "filename": "정립광 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446/components/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446_p001_table_03.png",
+      "context_before": "중점 관리항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 정립광 입도관리 기준 {{TB_UNSTR_001}} ## 4.2 정립광 화학성분 관리기준 (단위: %)",
+      "context_after": "# 5. 이상판단 및 조치기준 ## 가. 정립광의 물리, 화학적 품질시험 성적을 접수한 원료 당당자는 정립광 품질이 4.2 항의 기준내에있음을"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.1 정립광의 구비 조건 / 가. 철 함유량이 많을 것",
+      "filename": "정립광 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446/components/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "것이 좋다. CaO는 조제제 역할(자용광, Self-fluxing Ore)을 하기 때문에 어느 정도 함유하는 것이 유리하다. ※ 철광석내 유효, 유해성분 함유율 기준",
+      "context_after": "### 나. 해로운 불순물을 적게 함유할 것 {{TB_STR_002}} ### 다. 피환원성이 좋을 것 철광석의 피환원성은 기공율이 클수록, 입도가 작을수록, 산화도가"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 고로 사용 철광석의 하중연화특성, 열활성, RDI 비교 / 나. 철광석의 Brand 별 특성",
+      "filename": "정립광 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446/components/TP-030-020-040 정립광 품질관리 기준(Rev.10)_0900bf4ba7a2b056_usr0000bf4b95f9e446_p003_table_02.png",
+      "context_before": "사용 철광석의 하중연화특성, 열활성, RDI 비교 ### 가. 주로 사용하는 철광석 성상 비교 {{TB_STR_003}} ### 나. 철광석의 Brand 별 특성",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Pellet의 물리 화학적 특징",
+      "filename": "Pellet 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446/components/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446_p002_table_02.png",
+      "context_before": "발생(적정관리 범위 : 0.8 ~ 1.2) o SiO₂ 저하시 : 환원성 저하, Swelling 상승 ## 6.2 Pellet의 물리 화학적 특징",
+      "context_after": "## 6.3 사용개소별 Pellet 요구 조건 {{TB_STR_004}} ## 6.4 고로 사용 Pellet Brand 별 성분('19. 상반기 포함실적) {{TB_UNSTR_002}} ## 6.5"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 고로 사용 Pellet Brand 별 성분('19. 상반기 포함실적)",
+      "filename": "Pellet 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446/components/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "화학적 특징 {{TB_UNSTR_001}} ## 6.3 사용개소별 Pellet 요구 조건 {{TB_STR_004}} ## 6.4 고로 사용 Pellet Brand 별 성분('19. 상반기 포함실적)",
+      "context_after": "## 6.5 Pellet 사용시 고로조업 영향 ### 6.5.1 장입물의 경사각 {{TB_STR_005}} ### 6.5.2 노내에서의 피환원성 {{TB_UNSTR_003}} ### 6.5.3 Pellet 사용비에"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.5 Pellet 사용시 고로조업 영향 / 6.5.2 노내에서의 피환원성",
+      "filename": "Pellet 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446/components/TP-030-020-050 Pellet 품질관리 기준(Rev.11)_0900bf4ba7a2a0cc_usr0000bf4b95f9e446_p003_table_03.png",
+      "context_before": "별 성분('19. 상반기 포함실적) {{TB_UNSTR_002}} ## 6.5 Pellet 사용시 고로조업 영향 ### 6.5.1 장입물의 경사각 {{TB_STR_005}} ### 6.5.2 노내에서의 피환원성",
+      "context_after": "### 6.5.3 Pellet 사용비에 따른 Slag 성상 및 출선량의 영향 변화 #### 가. Pellet 비 증대에 따라 고로 Slag 비"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 PCI 용 Coal의 분류 및 특성('23년 기준)",
+      "filename": "고로사용 연료(Coke,Coal)의 기준",
+      "image_link": "output/sanitize/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446/components/TP-030-020-060 고로사용 연료(Coke,Coal)의 기준(Rev.11)_0900bf4ba7a2b052_usr0000bf4b95f9e446_p004_table_01.png",
+      "context_before": "제약조건외 단가저렴시 Coke 용 일반탄, PCI 용, FINEX 용, 연료용탄 회환가능. ## 6.2 PCI 용 Coal의 분류 및 특성('23년 기준)",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.2 Coal 품질 성상",
+      "filename": "COKE 및 COAL 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446/components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p001_table_03.png",
+      "context_before": "# 3. 중점관리 항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 Coke 품질관리 기준 {{TB_STR_002}} ## 4.2 Coal 품질 성상",
+      "context_after": "# 5. 이상판단 및 조치기준 ## 5.1 Coke 관리기준 초과 조치범위 {{TB_STR_003}} ### 가. Coke 품질분석 결과 Coke Wf DI"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Coal 의 특성",
+      "filename": "COKE 및 COAL 품질관리 기준",
+      "image_link": "output/sanitize/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446/components/TP-030-020-070 COKE 및 COAL 품질관리 기준(Rev.11)_0900bf4ba7a2a0ce_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "성상중에서 열량, 취발분, 파쇄성 지수, 입도, 수분, Ash 함량 등을 관리하고 있으며 Coal 수송성, 연소성, 우기시 사용성 등이 중요한 요소이다.",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.3 노열조정 ACTION 의 목",
+      "filename": "노열관리 및 보상기준",
+      "image_link": "output/sanitize/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446/components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "노열조정 ACTION 순서 {{TB_STR_003}} ### 노열 ACTION 기준 {{TB_STR_004}} -조업상황에 따라 바뀔 수 있음. ## 4.3 노열조정 ACTION 의 목",
+      "context_after": "## 4.4 각 조업지수가 연료비에 미치는 영향 (POSCO 통일식) {{TB_UNSTR_002}} ## 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 ### (1)"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.4 각 조업지수가 연료비에 미치는 영향 (POSCO 통일식)",
+      "filename": "노열관리 및 보상기준",
+      "image_link": "output/sanitize/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446/components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p002_table_02.png",
+      "context_before": "따라 바뀔 수 있음. ## 4.3 노열조정 ACTION 의 목 {{TB_UNSTR_001}} ## 4.4 각 조업지수가 연료비에 미치는 영향 (POSCO 통일식)",
+      "context_after": "## 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 ### (1) RAR.RT 의 개념 : RAR.RT (풍구선단 보정 환원제비)란 현재 고로에서의"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.6 노열 저하시 조업 기준",
+      "filename": "노열관리 및 보상기준",
+      "image_link": "output/sanitize/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446/components/TP-030-030-030 노열관리 및 보상기준(Rev.15)_0900bf4bab7f7a1a_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "측온 시, 즉각 조치 (2) 측온 기준 : 용선온도 기준 이하 시, 측온 주기 30 분으로 단축(기준 60 분마다 측정)",
+      "context_after": "※ 보상 기준은 POSCO 통일식(TP-030-030-030) 용선온도 10°C 당 연료비 영향 +2.5kg/t-p 기준에 준하여 수립하였으며, 신속한 노열복구(1,450°C 이상)를 위하여 연료비 200%"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "5. 이상판단 및 조치기준 : / 5.1.3 노황변동시 출선작업 기준",
+      "filename": "저선Level 제어 및 출선작업 기준",
+      "image_link": "output/sanitize/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446/components/TP-030-030-040 저선Level 제어 및 출선작업 기준(Rev.12 )_0900bf4ba7a443ae_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "할 것. ## 5.1.3 노황변동시 출선작업 기준 ● ○ 용융물 생성량, 용선온도에 따른 출선구 운영패턴 차별화 적용 (3,4 고로 기준)",
+      "context_after": "- 출선비 1.25 t/d/m3 이하 시 Para → Lap 출선 변경, 1.1 이하 시 Delay time 적용으로 용융물 배출 안정화"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.3 생바람(吹拔 : CHANNELING) 발생전,후 노황관리 / 4.3.3 날바람 발생전,후 조치기준 / 나. 날바람 발생후 대응 기준",
+      "filename": "노황변동시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446/components/TP-030-030-050 노황변동시 조치기준(Rev.10)_0900bf4babda91af_usr0000bf4b95f9e446_p004_table_01.png",
+      "context_before": "고로별 한계 Δ P 이상시 노정압 현상태 유지하에 감풍 실시로 Gas Vol, 유속 저하한다. #### 나. 날바람 발생후 대응 기준",
+      "context_after": "{{TB_STR_002}} ※ 날바람 단계별 비상 연락 체계 - 1,2 단계: 기준에 따른 선조치 후, 공장장 → 제선부장 → 선강부소장 계통보고"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 노내침수시 열보상 기준 / 4.2.1 노정 GAS 중 H2 % 변동에 따른 열보상량 계산 / 가. 계산 예(포항 2 고로 경우)",
+      "filename": "노내침수 판단기준 및 열보상 기준",
+      "image_link": "output/sanitize/TP-030-030-060 노내침수 판단기준 및 열보상 기준(Rev.8)_0900bf4ba7a443b0_usr0000bf4b95f9e446/components/TP-030-030-060 노내침수 판단기준 및 열보상 기준(Rev.8)_0900bf4ba7a443b0_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "= 4.83kg/t ㅇ TOTAL 입력 H2 량 = 2.55 + 4.83 = 7.38kg/t-p ㅇ 노정 GAS 중 H2 : {{IMG_SUM_001}}",
+      "context_after": "#### 나. 침수량에 따른 H2 변동 % * 위 표에서 습분 10g/N m³(Δ CR 5 kg/T-P) 증가 취입시 노정 Gas"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 노체하부 온도관리기준 (안정조업시)",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "조업기준 ## 4.1 노하부 불활성화에 의한 노황변동 Mechanism {{IMG_SUM_001}} ## 4.2 노체하부 온도관리기준 (안정조업시) {{TB_STR_002}} o 4 고로 노체온도 관리기준",
+      "context_after": "## 4.3 고로 노하부 불활성 판단기준 {{TB_UNSTR_002}} * Stave 고로인 3 고로의 경우는 냉각수 유량을 변경하므로 노체 온도 저하 보다는"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.3 고로 노하부 불활성 판단기준",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_02.png",
+      "context_before": "Mechanism {{IMG_SUM_001}} ## 4.2 노체하부 온도관리기준 (안정조업시) {{TB_STR_002}} o 4 고로 노체온도 관리기준 {{TB_UNSTR_001}} ## 4.3 고로 노하부 불활성 판단기준",
+      "context_after": "* Stave 고로인 3 고로의 경우는 냉각수 유량을 변경하므로 노체 온도 저하 보다는 Heat Load Heat Load 를 기본으로 노하부"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.4 노하부 온도저하시 조치기준 (전고로공통)",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p002_table_03.png",
+      "context_before": "노하부 원주방향의 부착물 확인시 노하부 불활성 예측 가능 → Semi Cleaning 조업 실시여부 판단 ## 4.4 노하부 온도저하시 조치기준 (전고로공통)",
+      "context_after": "## 4.5 Cleaning 조업(감광/고열)으로 부착물 미 해소시 조치기준 {{IMG_SUM_002}} ## 4.6 노하부 불활성 해소판단 기준 (Cleaning 완료 및 증광판단 기준)"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / 다. Case 3 (기간: 01.8/1~9/10)",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p009_table_01.png",
+      "context_before": "로 COKE 3Notch를 계속 사용하였기 때문에 노황부조 없이 노벽이 활성화 됨 1222222 또는 2222221 ### 다. Case 3 (기간: 01.8/1~9/10)",
+      "context_after": "o 주요 경과사항 (초기) o CR 410 kg/t-p, 3550 T/D의 고생산 조업에서 C3456789 OL6789 Os456 (Os비 15~16%), Nut COKE 1500"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_005",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●고로별 Nut-COKE와 중심COKE 사용량과 COKE 층후",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p011_table_01.png",
+      "context_before": "후 약 3hr 경과시점 부터 노하부 온도가 상승하였던 사례가 참고자료가 될 수 있음. ### ●고로별 Nut-COKE와 중심COKE 사용량과 COKE 층후",
+      "context_after": "*1고로를 제외한 타 고로는 OL Mode가 넓어 Ore의 Soft분포가 가능하며, 또한 Nut-COKE의 Os배합으로 벽부 O/C제어가 상대적으로 용이함. ### ●1고로 Nut-COKE사용시기별"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_006",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 다. Case 3 (기간: '00.11/10-12/26)",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p014_table_01.png",
+      "context_before": "가. Case 1 (기간: '99.7/1-8/31) {{IMG_SUM_003}} ### 나. Case 2 (기간: '00.4/10-5/31) {{IMG_SUM_004}} ### 다. Case 3 (기간: '00.11/10-12/26) {{IMG_SUM_005}}",
+      "context_after": "*현상: 장입물 강하 불량 (Drop 발생: 2~7회/일), 노구 및 S/F온도 온도상승 및 변동 : 상부 K 상승 (25~29%) (SP5, 6단"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_007",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / 다. Case 3 (기간: '00.11/10-12/26)",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p015_table_01.png",
+      "context_before": "심화 : ST2단 온도 저하후 Drop 빈번 발생 및 상부 K상승추세 → ST3단 활성화 위해 Mode 소폭 조정했으나, 개선기미 없었음",
+      "context_after": "● 노하부 불활성의 조기현상으로 풍압상승에 의한 감압횟수 증가 ● 상부 K 상승 및 SP5,6 단 상승 및 편차발생 ● 노구온도"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_008",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 (노하부 불활성 조치사례) / 6.2 2고로 노하부 불활성 조치실적 / o 노체온도 및 Stave 온도 관리기준",
+      "filename": "노체하부 불활성화시 조치기준",
+      "image_link": "output/sanitize/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446/components/TP-030-030-100 노체하부 불활성화시 조치기준(Rev.11)_0900bf4ba7a443ac_usr0000bf4b95f9e446_p016_table_01.png",
+      "context_before": "비해 온도저하폭이 커며, 빠른 시간내에 저하되므로 적기에 Action 을 빨리 취해주어야 한다고 판단됨 ### o 노체온도 및 Stave 온도 관리기준",
+      "context_after": "● 1차 Action: 감광 및 벽부 O/C경감차 Mode 조정 ● 2차 Action: Semi-Cleaning 등 감광폭 확대"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 출선재 배출 강화 대책 / 다. 출선비에 따른 출선 Pattern 관리방법",
+      "filename": "고출선비 조업시 출선,재 관리 기준",
+      "image_link": "output/sanitize/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446/components/TP-030-040-050 고출선비 조업시 출선,재 관리 기준(Rev.11)_0900bf4ba7a2b08e_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": ": Slag Discharging Rate 관리기준 ### 다. 출선비에 따른 출선 Pattern 관리방법 -용용물 생성량, 용선온도에 따른 출선구 운영패턴 차별화 적용",
+      "context_after": "### 라. 출선구 안정 대책 ○ Mud 충진량 증대에 의한 출선구 심도 확보 출선구 심도의 안정적 확보를 위해 충분한 용용물"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 감산조업시 조업실적 / 가. 내용적 3500 m³ 이상급 고로의 감산조업 실적(13년수집)",
+      "filename": "감산조업 사상과 감산 기준",
+      "image_link": "output/sanitize/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446/components/TP-030-040-060 감산조업 사상과 감산 기준(Rev.9)_0900bf4ba7a2b094_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "6. 기술이론 ## 6.1 감산조업 방법 {{TB_STR_003}} ## 6.2 감산조업시 조업실적 ### 가. 내용적 3500 m³ 이상급 고로의 감산조업 실적(13년수집)",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 충진원료 적용성분 (단위:%)",
+      "filename": "뱅킹(Banking) 조업시 감광 기준",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p003_table_02.png",
+      "context_before": "노황혼란 및 노체열부하의 원인이 되므로 서서히 행한다. # 6. 기술이론 ## 6.1 강광 Pattern {{TB_STR_002}} ## 6.2 충진원료 적용성분 (단위:%)",
+      "context_after": "### 가. 사전에 Sinter Ratio 100% 조업 실시 (통기성 확보 및 성분조정 유리, 단 5일 뱅킹은 제외)나. 노상 온도를 높이기"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 가. 5 일 Banking 시 감광기준",
+      "filename": "뱅킹(Banking) 조업시 감광 기준",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "따라 노벽 마모를 고려하여 추가 장입 고려 ## 6.3 Banking 기간별 감광기준 ### 가. 5 일 Banking 시 감광기준 {{IMG_TR_001}}",
+      "context_after": "### 나. 10 일 Banking 시 감광기준 {{IMG_TR_002}} {{TB_UNSTR_003}} ### 다. 1 개월(30 일) 이상 Banking 시 감광기준 {{IMG_TR_003}} {{TB_STR_003}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.3 Banking 기간별 감광기준 / 나. 10 일 Banking 시 감광기준",
+      "filename": "뱅킹(Banking) 조업시 감광 기준",
+      "image_link": "output/sanitize/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446/components/TP-030-040-090 뱅킹(Banking) 조업시 감광 기준(Rev.10)_0900bf4ba7a2b088_usr0000bf4b95f9e446_p006_table_01.png",
+      "context_before": "Banking 기간별 감광기준 ### 가. 5 일 Banking 시 감광기준 {{IMG_TR_001}} {{TB_UNSTR_002}} ### 나. 10 일 Banking 시 감광기준 {{IMG_TR_002}}",
+      "context_after": "### 다. 1 개월(30 일) 이상 Banking 시 감광기준 {{IMG_TR_003}} {{TB_STR_003}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "3. 중점 관리항목",
+      "filename": "용선 및 외판 주물선 요구품질 기준",
+      "image_link": "output/sanitize/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446/components/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446_p001_table_01.png",
+      "context_before": "한다. ● 한편, 외판주물선 제품도 고객만족 차원에서 수요자의 요구사항을 충족시킬수 있도록 엄격한 기준 설정과 관리가 필요하다. # 3. 중점 관리항목",
+      "context_after": "# 4. 조업 기준 ## 4.1 성분규격 ### 가. 용선 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 성분규격 / 가. 용선 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향",
+      "filename": "용선 및 외판 주물선 요구품질 기준",
+      "image_link": "output/sanitize/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446/components/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "기준 ## 4.1 성분규격 ### 가. 용선 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향",
+      "context_after": "● 부적합품 기준은 재강 기술기준 TP-060-040-020(용선 수입 기준)의 4.1 용선성분중 2,3 재강 용선재고<1.5 천톤(영 TLC 4 대 이하)시의 성분운영기준을 반영한"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 성분규격 / 가. 용선 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향",
+      "filename": "용선 및 외판 주물선 요구품질 기준",
+      "image_link": "output/sanitize/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446/components/TP-030-050-020 용선 및 외판 주물선 요구품질 기준(Rev.19)_0900bf4ba7a46a64_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "4.1 용선성분중 2,3 재강 용선재고<1.5 천톤(영 TLC 4 대 이하)시의 성분운영기준을 반영한 값이다. ● 내부관리기준이란 제선부에서 자체적으로 품질관리를 위해 정한기준이다.",
+      "context_after": "* 규격 FULL NAME - DCC : Ductile Cast Iron Commerical Quality - DCH : Ductile Cast Iron High-purity Quality"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4 조업기준 / 4.1 [Si] 관리기준",
+      "filename": "[Si] 제어기술 기준",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p001_table_03.png",
+      "context_before": "# 4 조업기준 ## 4.1 [Si] 관리기준 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향",
+      "context_after": "## 4.2 저[Si] 용선제조 조업기준 {{TB_STR_003}} ## 4.3 저[Si]조입 Diagram 조로 Action {{IMG_SUM_001}} ## 4.4 용선[Si] 이행촉진 주요 영향인자 {{IMG_SUM_002}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.6 노내[Si] 제어기술 / 다. SiO2 일량 제어",
+      "filename": "[Si] 제어기술 기준",
+      "image_link": "output/sanitize/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446/components/TP-030-050-030 [Si] 제어기술 기준(Rev.11)_0900bf4ba9aaaf78_usr0000bf4b95f9e446_p010_table_02.png",
+      "context_before": "펠렛의 SiO2 함량이 적으나 원가측면에서 불리하기 때문에 제강 [Si] 요구수준을 감안하여 소결광 사용량을 조절한다. ·PCI coal brand 에 따른 영향",
+      "context_after": "코크스에 비해 상대적으로 SiO2 함량이 적은 미분탄 사용량을 늘리는 것이 용선 중 저[Si] 조업에 유리하고, 미분탄 사용량이 증가할수록 탄 중"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 용선중 [Mn], [P] 성분기준",
+      "filename": "[Mn] [P] 제어기술 기준",
+      "image_link": "output/sanitize/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446/components/TP-030-050-050 [Mn] [P] 제어기술 기준(Rev.9)_0900bf4ba7a46419_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "상승할 수 있도록 관리해야 한다. # 3. 중점 관리항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 용선중 [Mn], [P] 성분기준",
+      "context_after": "## 4.2 노내에서의 Mn 반응 적하개시 후, MnO의 환원은 진행되지만 풍구하부에서 급격히 환원이 진행된다. [Si]의 환원과, [C]의 침탄반응이 Bosh 및"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_01.png",
+      "context_before": "용해온도와 점도범위] Al2O3(%)---- 8% {{TB_STR_006}} Al2O3(%)---- 9% {{TB_STR_007}} Al2O3(%)---- 10% {{TB_STR_008}} Al2O3(%)---- 11% {{TB_STR_009}} Al2O3(%)---- 12% {{TB_STR_010}} Al2O3(%)---- 13% {{TB_STR_011}}",
+      "context_after": "{{TB_UNSTR_002}} {{TB_UNSTR_003}} Al2O3(%)---- 20% {{TB_STR_012}} Al2O3(%)---- 21% {{TB_STR_013}} Al2O3(%)---- 22% {{TB_STR_014}} ※ POSCO 실제 고로 Slag 점도실험에 의한 Optimizer 대비"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_02.png",
+      "context_before": "점도범위] Al2O3(%)---- 8% {{TB_STR_006}} Al2O3(%)---- 9% {{TB_STR_007}} Al2O3(%)---- 10% {{TB_STR_008}} Al2O3(%)---- 11% {{TB_STR_009}} Al2O3(%)---- 12% {{TB_STR_010}} Al2O3(%)---- 13% {{TB_STR_011}} {{TB_UNSTR_001}}",
+      "context_after": "{{TB_UNSTR_003}} Al2O3(%)---- 20% {{TB_STR_012}} Al2O3(%)---- 21% {{TB_STR_013}} Al2O3(%)---- 22% {{TB_STR_014}} ※ POSCO 실제 고로 Slag 점도실험에 의한 Optimizer 대비 Redcar"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p016_table_03.png",
+      "context_before": "Al2O3(%)---- 8% {{TB_STR_006}} Al2O3(%)---- 9% {{TB_STR_007}} Al2O3(%)---- 10% {{TB_STR_008}} Al2O3(%)---- 11% {{TB_STR_009}} Al2O3(%)---- 12% {{TB_STR_010}} Al2O3(%)---- 13% {{TB_STR_011}} {{TB_UNSTR_001}} {{TB_UNSTR_002}}",
+      "context_after": "Al2O3(%)---- 20% {{TB_STR_012}} Al2O3(%)---- 21% {{TB_STR_013}} Al2O3(%)---- 22% {{TB_STR_014}} ※ POSCO 실제 고로 Slag 점도실험에 의한 Optimizer 대비 Redcar 정상"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계",
+      "filename": "Slag 염기도 및 유동성 관리기준",
+      "image_link": "output/sanitize/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446/components/TP-030-060-020 Slag 염기도 및 유동성 관리기준(Rev.13)_0900bf4ba7a44070_usr0000bf4b95f9e446_p018_table_07.png",
+      "context_before": "Al₂O₃ (%) MgO (%) CaO (%) {{TB_STR_019}} Al₂O₃ (%) MgO (%) CaO (%) {{TB_STR_020}} Al₂O₃ (%) MgO (%) CaO (%)",
+      "context_after": "※ 포항 3 고로 Tap 별 Slag 분석시 용해온도 및 용선온도별 정도 Guidance HMI 화면 {{IMG_SUM_009}} * 참고 : Slag의"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Al2O3 증가에 대한 C/S 변화",
+      "filename": "Slag 중 Al2O3 성분관리 기술기준",
+      "image_link": "output/sanitize/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446/components/TP-030-060-030 Slag 중 Al2O3 성분관리 기술기준(Rev.11)_0900bf4ba7a4406e_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "Al2O3 15%, MgO 5% {{IMG_TR_004}} (c) Al2O3 20%, MgO 5% - Al2O3 량에 대한 적정 염기도 범위는 다음 표와 같다.",
+      "context_after": "## 6.3 SLAG 중 MgO 와 Al₂O₃ 함량에 따른 점도변화 ▷ 다음 그림은 MgO 가 5%일때 알루미나 12, 13.5, 15%에서"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상 / 다. 적용중인 장입 방법",
+      "filename": "장입물 분포제어와 장입모드의 기본사상 기준",
+      "image_link": "output/sanitize/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446/components/TP-030-070-020 장입물 분포제어와 장입모드의 기본사상 기준(Rev.9)_0900bf4ba7a2bc7a_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "적용중에 있고 중심류 제어를 위한 Coke 중심장입, 벽부 및 중간류 제어를 위한 Nut Coke 장입기술을 적용하고 있다. {{IMG_TR_002}} 장입물 입도현황",
+      "context_after": "#### 라. 내진지수 광석, Coke 장입의 평균 Notch 를 표현하는 지수로써 다음과 같은 내진지수를 사용하고 있다. o 선회수 기준 내진지수"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4 조업기준 / 4.1 조업 실적",
+      "filename": "미분탄 취입시 조업 대책 기준",
+      "image_link": "output/sanitize/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446/components/TP-030-080-030 미분탄 취입시 조업 대책 기준(Rev.10)_0900bf4ba7a2bc2b_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "조업시 원활한 미분탄 취입과 고로조업 안정화를 도모하고자 함. # 3 중점관리 항목 {{TB_STR_001}} # 4 조업기준 ## 4.1 조업 실적",
+      "context_after": "## 4.2 예방판단 및 조치기준 {{TB_STR_002}} # 5. 이상판단 및 조치기준 ## 5.1 이상판단 및 조치기준 {{TB_STR_003}} {{TB_STR_004}} # 6."
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 치환율 산출방식 / 나. 보정 치환율",
+      "filename": "미분탄 취입시 조업기준",
+      "image_link": "output/sanitize/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446/components/TP-030-080-040 미분탄 취입시 조업기준(Rev.12)_0900bf4ba7a447e5_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "= 기준조업시 Coke 비 x 보정 Coke 비 (Kg/T-P) / 미분탄 취입량 (kg/T-P) * 보정 Coke 비는 POSCO 통일식 적용",
+      "context_after": "### 다. 포항고로 치환율 계산공식 (실행식) R = 1.992 X 0.534 X Log(PCR) PCR : Kg/T-P"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2. 미분탄 Cut 시 조업기준",
+      "filename": "미분탄 취입 및 Cut 기준",
+      "image_link": "output/sanitize/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446/components/TP-030-080-050 미분탄 취입 및 Cut 기준(Rev.12)_0900bf4ba7a2bc2d_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "정상취입 ## 4.2. 미분탄 Cut 시 조업기준 (1) 1,2 고로 미분탄 Cut 시 조업기준 (노황에 따라 가감 할 수 있다)",
+      "context_after": "주) THM : Temperature of Hot Metal (용선온도) (2) 3, 4 고로 미분탄 Cut 시 조업기준(노황에 따라 가감 할 수"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리기준 / 가. Coal 의 취발분 (Volatile Matter) / 나. Coal의 입도",
+      "filename": "Coal 연소성 향상방안 기준",
+      "image_link": "output/sanitize/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446/components/TP-030-080-060 Coal 연소성 향상방안 기준(Rev.12)_0900bf4ba7a2bc2f_usr0000bf4b95f9e446_p002_table_02.png",
+      "context_before": "때문이다. 입도에 따른 연소소요시간은 실험결과 다음과 같은 관계가 있는 것으로 나타났다. {{IMG_SUM_002}} (T = 완전연소 소요시간, D = 미분탄 입경/mm)",
+      "context_after": "Table 2. 풍구 선단에서 200mm 지점 에서의 취입비별 연소효율 변화 {{IMG_SUM_003}} 그림 3. 입도와 연소효율 변화 ### 다. 송풍온도 및"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리 기준 / 4.1.1 노체 냉각반 손상기구 / 5) 노체잔존연와에 따른 냉각반 및 철피 열부하(SIC 기준)",
+      "filename": "노체 냉각반 관리기술 기준",
+      "image_link": "output/sanitize/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446/components/TP-030-090-030 노체 냉각반 관리기술 기준(Rev.9)_0900bf4ba7a466a5_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "Pick up 비율 {{IMG_SUM_003}} #### 4) 내화물에 따른 열부하 변화 {{IMG_SUM_004}} #### 5) 노체잔존연와에 따른 냉각반 및 철피 열부하(SIC 기준)",
+      "context_after": "### 4.1.2 냉각반 손상 메커니즘 #### 가. 고 PCI 조업 및 고 출선비 조업 {{IMG_SUM_005}} #### 나. 냉각수량 감소 {{IMG_SUM_006}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Stave 의 관리기술 / 6.2.2 Stave 파손시 대책 / 마. 노 경년에 따른 Stave 손상",
+      "filename": "노체Stave 관리기술 기준",
+      "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p006_table_01.png",
+      "context_before": "을 설치, 압입을 실시한다. #### 라. 필요하면 보조냉각반 설치 및 부분적인 노체살수를 실시한다. #### 마. 노 경년에 따른 Stave 손상",
+      "context_after": "### 6.2.3 PCI 증대에 따른 Stave 노체관리 PCI 를 증대하면 풍구 상부에 열부하가 커지므로 Stave 냉각수를 최대로 공급 유지 할"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Stave 의 관리기술 / 6.2.5 Stave 온도관리 / 다. Stave 마모 급속진행: 중심류 조업 및 생산량 감소 조업 실시한다",
+      "filename": "노체Stave 관리기술 기준",
+      "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p007_table_01.png",
+      "context_before": "경우에는 19.0℃ 범위내에서 관리한다. 표 1 는 Cu-Stave의 냉각조건 관리기준에 대해서 제시하고 있다. 표 1. Cu-Stave 냉각 조건 관리 기준",
+      "context_after": "Cu-Stave의 한계 관리 온도는 다음과 같다. 표 2. Copper Stave 한계 관리 온도 {{TB_UNSTR_003}} ## 6.3 Stave 의 수질관리 기술"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 Stave 의 관리기술 / 6.2.5 Stave 온도관리 / 다. Stave 마모 급속진행: 중심류 조업 및 생산량 감소 조업 실시한다",
+      "filename": "노체Stave 관리기술 기준",
+      "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p007_table_02.png",
+      "context_before": "1. Cu-Stave 냉각 조건 관리 기준 {{TB_UNSTR_002}} Cu-Stave의 한계 관리 온도는 다음과 같다. 표 2. Copper Stave 한계 관리 온도",
+      "context_after": "## 6.3 Stave 의 수질관리 기술 ### 6.3.1 Stave 의 관리 기본 #### 가. 화입전 시운전시 반드시 Flushing 작업을 실시한다"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.3 Stave 의 수질관리 기술 / 6.3.3 각 고로별 수질관리 기준",
+      "filename": "노체Stave 관리기술 기준",
+      "image_link": "output/sanitize/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446/components/TP-030-090-040 노체Stave 관리기술 기준(Rev.11)_0900bf4ba7a2bc6e_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "Scale을 주기적으로 점검한다 ### 6.3.2 수질관리 항목 탈산제, 방식제, MDD, 염소이온, Ca경도, 전철, PH ### 6.3.3 각 고로별 수질관리 기준",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "filename": "노저파손 사고시 조치 및 복구방법 기준",
+      "image_link": "output/sanitize/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446/components/TP-030-090-090 노저파손 사고시 조치 및 복구방법 기준(Rev.9)_0900bf4ba7a2bc70_usr0000bf4b95f9e446_p004_table_01.png",
+      "context_before": "1차 시공과 동일하게 작업함 ## 6.4 필요장비 및 자재 List (노저 파손시 복구를 위한 준비된 비상자재 및 장비 List 임)",
+      "context_after": "{{TB_STR_004}} ## 6.5 외국제철소 노저 파손사례 {{TB_STR_005}} {{TB_STR_006}} {{TB_STR_007}} - 꼬. -"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 BHP Port Kembla 5 고로 냉입사고 복구 사례 / 4.1.3 냉입 복구 기본공정",
+      "filename": "노저 냉입사고 복구사례 기준",
+      "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p004_table_01.png",
+      "context_before": "1 tap hole.(Work on 2 sites gives double chance for an emergency stop. ● No plugged tuyeres between open tuyeres.",
+      "context_after": "### 4.1.4 풍구 - 출선구 Channel 형성 방법 #### 가. 75Ø Drill X 6° 각도 출선구 개공 #### 나. 출선구로"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성",
+      "filename": "노저 냉입사고 복구사례 기준",
+      "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p017_table_01.png",
+      "context_before": "노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성 {{IMG_SUM_007}} 4.3.7 휴풍실적",
+      "context_after": "{{TB_UNSTR_003}} {{TB_UNSTR_004}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성",
+      "filename": "노저 냉입사고 복구사례 기준",
+      "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p017_table_02.png",
+      "context_before": "Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성 {{IMG_SUM_007}} 4.3.7 휴풍실적 {{TB_UNSTR_002}}",
+      "context_after": "{{TB_UNSTR_004}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성",
+      "filename": "노저 냉입사고 복구사례 기준",
+      "image_link": "output/sanitize/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446/components/TP-030-090-100 노저 냉입사고 복구사례 기준(Rev.10)_0900bf4ba7a466ab_usr0000bf4b95f9e446_p018_table_01.png",
+      "context_before": "극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성 {{IMG_SUM_007}} 4.3.7 휴풍실적 {{TB_UNSTR_002}} {{TB_UNSTR_003}}",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6 기술이론 / 6.1 Zn 및 Alkali 의 이화학적 특성",
+      "filename": "Zn Alkali 입량 관리기준",
+      "image_link": "output/sanitize/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446/components/TP-030-090-110 Zn Alkali 입량 관리기준(Rev.11)_0900bf4baaeef1aa_usr0000bf4b95f9e446_p004_table_02.png",
+      "context_before": "Action {{TB_STR_003}} ### 4.1.3 Zn 및 Alkali 관리기준 {{TB_STR_004}} # 6 기술이론 ## 6.1 Zn 및 Alkali 의 이화학적 특성",
+      "context_after": "{{TB_STR_005}} 고로내에서 3 상으로 존재하며 Alkali 금속은 용점이 낮고 음이온과 전화력이 강해 금속 반응성이 크다 (Cs > Rb > K"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.1 Cleaning 조업 계획 / 다. Cleaning 조업방침 및 실적",
+      "filename": "Cleaning 조업기술",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "Cleaning 조업기간 {{TB_STR_002}} ##### 나. Cleaning 조업계획 타고로 종풍시의 Cleaning 조업실적을 근거로 조업계획을 수립한다 #### 다. Cleaning 조업방침 및 실적",
+      "context_after": "### 4.1.2 Cleaning 실적 비교 {{TB_UNSTR_002}} ### 4.1.3 Cleaning 기간중 사전휴풍시 작업사항 {{TB_UNSTR_003}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.2 Cleaning 실적 비교",
+      "filename": "Cleaning 조업기술",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "조업계획 타고로 종풍시의 Cleaning 조업실적을 근거로 조업계획을 수립한다 #### 다. Cleaning 조업방침 및 실적 {{TB_UNSTR_001}} ### 4.1.2 Cleaning 실적 비교",
+      "context_after": "### 4.1.3 Cleaning 기간중 사전휴풍시 작업사항 {{TB_UNSTR_003}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 Cleaning 조업 기준 / 4.1.3 Cleaning 기간중 사전휴풍시 작업사항",
+      "filename": "Cleaning 조업기술",
+      "image_link": "output/sanitize/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446/components/TP-030-100-020 Cleaning 조업기술(Rev.7)_0900bf4ba7a451d5_usr0000bf4b95f9e446_p003_table_02.png",
+      "context_before": "수립한다 #### 다. Cleaning 조업방침 및 실적 {{TB_UNSTR_001}} ### 4.1.2 Cleaning 실적 비교 {{TB_UNSTR_002}} ### 4.1.3 Cleaning 기간중 사전휴풍시 작업사항",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (감척시 장입물량 및 Gas 폭발 범위의 이론적 계산) / 6.2 Gas 폭발 방지 / 6.2.1 Gas 폭발 범위 / 다. 대기(Air)중 폭발한계",
+      "filename": "감척,종풍 조업기술 기준",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "상승하면 폭발범위는 대폭 넓어짐. ● 압력이 상승하면 폭발범위는 전반적으로 소폭 넓어지나, 대기압~ 5atm 까지는 다소 좁아짐. #### 다. 대기(Air)중 폭발한계",
+      "context_after": "# 2 불활성 Gas 취입시 폭발한계 {{TB_STR_004}} ## 마. 불활성/가연성 비에 따른 혼합 Gas 폭발(상,하한 용적율)범위(혼합 Gas=불활성 Gas+가연성 Gas, 나머지"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "2 불활성 Gas 취입시 폭발한계 / 가. 노정 Gas 성분설정: 감척중 가연성 Gas 량 최대, 불활성 Gas 량 최소전제",
+      "filename": "감척,종풍 조업기술 기준",
+      "image_link": "output/sanitize/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446/components/TP-030-100-030 감척,종풍 조업기술 기준(Rev.8)_0900bf4ba7a451d9_usr0000bf4b95f9e446_p009_table_02.png",
+      "context_before": "{{IMG_TR_003}} 6.2.2 감척중 노정 Gas 폭발범위 ## 가. 노정 Gas 성분설정: 감척중 가연성 Gas 량 최대, 불활성 Gas 량 최소전제",
+      "context_after": "## 나. 폭발범위 산정 (1) 노정 Gas 성분중 불활성/가연성의 비에 따른 폭발 상,하한계 용적비 도출 ◯ N₂/CO = 51%/35% ="
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.1 주수완료 판단기준 (포항 3 고로)",
+      "filename": "주수 냉각작업 기술기준",
+      "image_link": "output/sanitize/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446/components/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446_p001_table_01.png",
+      "context_before": "용이하고 안전하게 행하기 위하여 실시한다. # 4. 조업 기준 ## 4.1 조업관리 기준 ### 4.1.1 주수완료 판단기준 (포항 3 고로)",
+      "context_after": "### 4.1.2 냉각시 고려사항 #### 가. 주수냉각시 노내압력은 외부공기의 흡입으로 인한 노내 Gas 폭발을 방지하기 위하여 노내압을정압(+압)으로 유지하여야 함. ####"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 주수량 검토 / 가. 냉각물의 소요열량",
+      "filename": "주수 냉각작업 기술기준",
+      "image_link": "output/sanitize/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446/components/TP-030-100-050 주수 냉각작업 기술기준(Rev.9)_0900bf4ba7a451db_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "압력조정은 Manometer 에서 압력을 감시하며, 항상 정압(+압) 유지가 가능하도록노정 Bleeder 를 조정한다. ### 4.1.3 주수량 검토 #### 가. 냉각물의 소요열량",
+      "context_after": "{{IMG_SUM_001}} #### 나. 주수총량 산출 {{IMG_SUM_002}} (1) 저유수량 산출식 {{IMG_SUM_003}} *전제 조건 {{TB_STR_001}} {{IMG_SUM_004}} (2) 연와,Coke 의 흡습수량 산출식 {{IMG_SUM_005}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리기준 / 바. 건조중 온도관리 및 Action 기준",
+      "filename": "고로 건조계획 기준",
+      "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "균일하고 효과적인 건조를 위하여 건조풍온 및 풍량 도달시에는 Max 0.2kg/cm²로 건조를 실시 한다. ### 바. 건조중 온도관리 및 Action 기준",
+      "context_after": "### 4.1.3 건조중 설비관리 #### 가. Steam Drain 관리 1. 누풍이 있는 개소는 Cap 을 채운 후 1 일/1 회정도"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.3 승온속도",
+      "filename": "고로 건조계획 기준",
+      "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "풍운을 서서히 올리는 것이 좋으나 초기 저풍량 건조시에는 실제로 풍운 Control 이 어렵고 승풍계통 배관의 팽창도 고려하여 적정선을 선택해야 한다.",
+      "context_after": "### 4.2.4 냉각속도에 따른 영향 #### 가. 연와의 균열 50°C/Hr 에서 연와의 균열은 발생되지 않았음이 확인되었으나, 500°C/Hr 이상의 급속냉각에서는 연와"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.7 건조기간",
+      "filename": "고로 건조계획 기준",
+      "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p007_table_01.png",
+      "context_before": "결정된다. 君津 1,2 고로의 경우 연와내 400 mm 까지 건조할 때 500℃의 경우 7 일, 400℃의 경우 12 일 소요되었다.",
+      "context_after": "### 4.2.8 건조중 노정압 * 투입열량 = 승온기 열량 + 건조기 열량 + 방냉기 열량 {{IMG_SUM_003}} 高 노정압 건조는 열풍의"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.9 노정 온도",
+      "filename": "고로 건조계획 기준",
+      "image_link": "output/sanitize/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446/components/TP-030-110-020 고로 건조계획 기준(Rev.8)_0900bf4ba7a62152_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "노정 온도 고로 건조중에는 노내에 장입물이 없는 상태이므로 저풍온이라도 노정설비에 직접적인 영향을 미치므로 노정설비 관리 Max 온도인 300℃ 이하로 관리한다.",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.1 Test 실시기간",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p007_table_02.png",
+      "context_before": "이론 (고로별 고압 Leak Test 실적 ) ## 6.1 포항 2 고로 고압 Leak Test 실적 ### 6.1.1 Test 실시기간",
+      "context_after": "### 6.1.2 고압 Lesk Test 측정치 작성예 (소형고로 기준) {{TB_UNSTR_002}} o 풍량 : Test 기간중 1,485~1,539 Nm3/min 으로 계획 Max"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.2 고압 Lesk Test 측정치 작성예 (소형고로 기준)",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "2 고로 고압 Leak Test 실적 ### 6.1.1 Test 실시기간 {{TB_UNSTR_001}} ### 6.1.2 고압 Lesk Test 측정치 작성예 (소형고로 기준)",
+      "context_after": "o 풍량 : Test 기간중 1,485~1,539 Nm3/min 으로 계획 Max 1,500 Nm3/min 을 유지 o 노정압 : 1차 Test 시"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.3 노정 Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) / 가. 군압시간",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p008_table_02.png",
+      "context_before": "계획 Max 400℃를 유지 ### 6.1.3 노정 Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) #### 가. 군압시간 (1) Normal",
+      "context_after": "(2) Special {{TB_UNSTR_004}} #### 나. 배압시간 {{TB_UNSTR_005}} ### 6.1.4 노정 Bunker Leak 량 Check {{TB_UNSTR_006}} ### 6.1.5 ERV 작동 Test"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.3 노정 Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) / 가. 군압시간",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_01.png",
+      "context_before": "유지 ### 6.1.3 노정 Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) #### 가. 군압시간 (1) Normal {{TB_UNSTR_003}} (2) Special",
+      "context_after": "#### 나. 배압시간 {{TB_UNSTR_005}} ### 6.1.4 노정 Bunker Leak 량 Check {{TB_UNSTR_006}} ### 6.1.5 ERV 작동 Test {{TB_UNSTR_007}} ### 6.1.6"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_005",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.3 노정 Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) / 나. 배압시간",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_02.png",
+      "context_before": "Bunker 군, 배압시간 측정 (노정압 0.5kg/cm2 에서 실시) #### 가. 군압시간 (1) Normal {{TB_UNSTR_003}} (2) Special {{TB_UNSTR_004}} #### 나. 배압시간",
+      "context_after": "### 6.1.4 노정 Bunker Leak 량 Check {{TB_UNSTR_006}} ### 6.1.5 ERV 작동 Test {{TB_UNSTR_007}} ### 6.1.6 노정 Bleeder Auto Test"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_006",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.4 노정 Bunker Leak 량 Check",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_03.png",
+      "context_before": "#### 가. 군압시간 (1) Normal {{TB_UNSTR_003}} (2) Special {{TB_UNSTR_004}} #### 나. 배압시간 {{TB_UNSTR_005}} ### 6.1.4 노정 Bunker Leak 량 Check",
+      "context_after": "### 6.1.5 ERV 작동 Test {{TB_UNSTR_007}} ### 6.1.6 노정 Bleeder Auto Test {{TB_STR_005}} ### 6.1.7 Leak 개소 # 1 차"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_007",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술 이론 (고로별 고압 Leak Test 실적 ) / 6.1 포항 2 고로 고압 Leak Test 실적 / 6.1.5 ERV 작동 Test",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p009_table_04.png",
+      "context_before": "(2) Special {{TB_UNSTR_004}} #### 나. 배압시간 {{TB_UNSTR_005}} ### 6.1.4 노정 Bunker Leak 량 Check {{TB_UNSTR_006}} ### 6.1.5 ERV 작동 Test",
+      "context_after": "### 6.1.6 노정 Bleeder Auto Test {{TB_STR_005}} ### 6.1.7 Leak 개소 # 1 차 Test 시 총 39 개소 (노체:19,"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_008",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "1 차 Test 시 총 39 개소 (노체:19, H.S:6, 노정:8, Gas 청정:6)발견되어 조치후 노정압을 0.5 kg/cm2 상승시켜 Test 시 총 57 개소(노체:39, H.S:4, 노정:6, Gas 청정:8) Leak 개소 발생으로 용접, Bolting 등으로 조치완료후, 3 차 Test 시 H.S, 노정, Gas 청정 계통은 전부 조치완료 되었으나, 노체 Stave 배관 부위의 소량 Leak 로 4 차 Test 까지 실시하였음. / 6.2 광양 4 고로 고압 Leak Test 실적 / 6.2.2 고압 LEAK TEST 결과 / 가. 각 DATA 의 계기 측정치",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p011_table_01.png",
+      "context_before": "14:27 고압 LEAK TEST 완료 (5 차) ### 6.2.2 고압 LEAK TEST 결과 #### 가. 각 DATA 의 계기 측정치",
+      "context_after": "#### 나. 노정 HOPPER 군배압 CHECK 및 작동 TEST {{TB_UNSTR_009}} #### 다. 노정 BLEEDER AUTO TEST {{TB_STR_006}} #### 라. 열풍로"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_009",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "1 차 Test 시 총 39 개소 (노체:19, H.S:6, 노정:8, Gas 청정:6)발견되어 조치후 노정압을 0.5 kg/cm2 상승시켜 Test 시 총 57 개소(노체:39, H.S:4, 노정:6, Gas 청정:8) Leak 개소 발생으로 용접, Bolting 등으로 조치완료후, 3 차 Test 시 H.S, 노정, Gas 청정 계통은 전부 조치완료 되었으나, 노체 Stave 배관 부위의 소량 Leak 로 4 차 Test 까지 실시하였음. / 6.2 광양 4 고로 고압 Leak Test 실적 / 6.2.2 고압 LEAK TEST 결과 / 나. 노정 HOPPER 군배압 CHECK 및 작동 TEST",
+      "filename": "고압 Leak Test 기준",
+      "image_link": "output/sanitize/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446/components/TP-030-110-030 고압 Leak Test 기준(Rev.9)_0900bf4ba7a62140_usr0000bf4b95f9e446_p012_table_01.png",
+      "context_before": "LEAK TEST 결과 #### 가. 각 DATA 의 계기 측정치 {{TB_UNSTR_008}} #### 나. 노정 HOPPER 군배압 CHECK 및 작동 TEST",
+      "context_after": "#### 다. 노정 BLEEDER AUTO TEST {{TB_STR_006}} #### 라. 열풍로 군배압 TIME 측정 {{TB_STR_007}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.5 침목 소요자재 내역 / 나. 침목적 소요물량 산출",
+      "filename": "노내 침목적 작업 기술",
+      "image_link": "output/sanitize/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446/components/TP-030-110-040 노내 침목적 작업 기술(Rev.8)_0900bf4ba7a6214e_usr0000bf4b95f9e446_p011_table_01.png",
+      "context_before": "깎쇠 소요비율에 따라 적용한다. (3) 목탄은 최초 화입을 대비하여 풍구수당 적정량을 풍구전방에 배치한다. (4) 폐목은 중앙쌓기와 세워쌓기 사이의 공간에 쌓는다.",
+      "context_after": "※ 단별구성과 배치에 따라 변경가능 ## 4.2 예방판단 및 조치기준 ### 4.2.1 침목적공사 안전사고 예방 #### 가. 노내 출입시 노정온도"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.2 충진평균 O/C",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "승온을 고려하여 계획을 수립한다. o 초탕 [Si]와 총진평균 O/C 와의 관계 (내용적 3,000 Nm³ 이상) {{IMG_SUM_001}} o 고로별 초탕 [Si]실적",
+      "context_after": "### 4.1.3 총진 단구분 종래의 실적에 의하면 1 단은 침목적, 2 단은 Bosh, 3 단은 Belly 로 하고, 이후는 등고로"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.4 Top O/C 및 O/C 변화율 / 나. O/C 변화율",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p006_table_01.png",
+      "context_before": "최소화하도록 화입용 Coke 40~50%를 O/C 0 으로 하고, 나머지를 O/C 1.0 미만에 분포시키는 것이 지배적이다. o 포항고로 O/C 변화율 실적",
+      "context_after": "o 광양고로 O/C 변화율 실적 {{TB_UNSTR_003}} o 일본고로 O/C 변화율 실적 {{TB_UNSTR_004}} ### 4.1.5 압축율 압축율은 Bosh 부 15%, Top"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.4 Top O/C 및 O/C 변화율 / 나. O/C 변화율",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p007_table_01.png",
+      "context_before": "으로 하고, 나머지를 O/C 1.0 미만에 분포시키는 것이 지배적이다. o 포항고로 O/C 변화율 실적 {{TB_UNSTR_002}} o 광양고로 O/C 변화율 실적",
+      "context_after": "o 일본고로 O/C 변화율 실적 {{TB_UNSTR_004}} ### 4.1.5 압축율 압축율은 Bosh 부 15%, Top 부 5%로 하고 그 사이에는 직선적으로"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.4 Top O/C 및 O/C 변화율 / 나. O/C 변화율",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "분포시키는 것이 지배적이다. o 포항고로 O/C 변화율 실적 {{TB_UNSTR_002}} o 광양고로 O/C 변화율 실적 {{TB_UNSTR_003}} o 일본고로 O/C 변화율 실적",
+      "context_after": "### 4.1.5 압축율 압축율은 Bosh 부 15%, Top 부 5%로 하고 그 사이에는 직선적으로 변하는 것이 일반적이다. o 각 고로별"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_005",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.6 Coke Base 결정 / 나. Coke Base 검토",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p011_table_01.png",
+      "context_before": "Belly 경에 의한 Coke Base 계산 {{IMG_SUM_005}} (4) 타고로 실적에 의한 Coke Base 계산 {{IMG_SUM_006}} (5) 고로별 Coke Base 실적",
+      "context_after": "## 4.2 충진용 장입물 설정기준 ### 4.2.1 츄광석 #### 가. 소결광 ##### o 소결광 품질기준 {{TB_UNSTR_006}} ##### o 고로별 충진용"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_006",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 충진용 장입물 설정기준 / 4.2.1 츄광석 / 가. 소결광 / o 소결광 품질기준",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p012_table_01.png",
+      "context_before": "고로별 Coke Base 실적 {{TB_UNSTR_005}} ## 4.2 충진용 장입물 설정기준 ### 4.2.1 츄광석 #### 가. 소결광 ##### o 소결광 품질기준",
+      "context_after": "##### o 고로별 충진용 소결광 품질실적 {{TB_STR_005}} #### 나. 정립광 점성광, 열활성광, 자철광 등의 장입을 피하고 저 Al₂O₃%, 고품위 광석"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_007",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 충진용 장입물 설정기준 / 4.2.3 Coke",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p015_table_01.png",
+      "context_before": "입도가 커야 한다. ● Coke 입도 확보를 위해 총진시에는 Coke Screen 하단을 취외하고 사용한다. o 고로별 충진용 Coke 품질실적 (강도)",
+      "context_after": "### 4.2.4 Slag 조성 #### 가. 영기도 화입시의 Slag 성상은 저온에서의 유동성을 확보하고, 적하 체류시간 내에 재응고하지 않도록 결정되어야 한다."
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_008",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.2 충진용 장입물 설정기준 / 4.2.4 Slag 조성 / 가. 영기도",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p015_table_02.png",
+      "context_before": "너무 낮아도 유동성을 악화시키므로,저용점 Slag를 생성시키기 위하여 노하부의 영기도를 낮게 하고 노상부는 서서히 증가를 유도한다. o 고로별 Slag 영기도 실적",
+      "context_after": "#### 나. Al₂O₃ 일반적으로 슬라그중 Al₂O₃가 상승하면 점성이 증가하기 때문에 화입조업에서는 Slag 유동성 확보를 위해서 Al₂O₃ 목표를 13.0% 이하로 관리를"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_009",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6 기술이론 (장입물 총진계획시 이론적계산) / 6.1 화입용 Coke 계산 / 6.1.1 고로 승열 실적 / ○ 고로별 노저온도 승온실적",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p017_table_01.png",
+      "context_before": "약 30~45 일이 소요된다 (君津 1,3 고로의 경우 고열 조업 기간은 약 16 일 수준) #### ○ 고로별 노저온도 승온실적",
+      "context_after": "#### ○ 고로별 노정온도 승온실적 {{TB_UNSTR_010}} ### 6.1.2 화입용 COKE 량 o 화입용 Coke = Bed Coke + 승열 Coke"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_010",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6 기술이론 (장입물 총진계획시 이론적계산) / 6.1 화입용 Coke 계산 / 6.1.1 고로 승열 실적 / ○ 고로별 노정온도 승온실적",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p017_table_02.png",
+      "context_before": "고로의 경우 고열 조업 기간은 약 16 일 수준) #### ○ 고로별 노저온도 승온실적 {{TB_UNSTR_009}} #### ○ 고로별 노정온도 승온실적",
+      "context_after": "### 6.1.2 화입용 COKE 량 o 화입용 Coke = Bed Coke + 승열 Coke - Bed Coke 연소반응에 관여하지 않고"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_011",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6 기술이론 (장입물 총진계획시 이론적계산) / 6.1 화입용 Coke 계산 / 6.1.2 화입용 COKE 량 / 나. 이론적인 계산에 의한 Coke 량",
+      "filename": "장입물 충진작업 기준",
+      "image_link": "output/sanitize/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446/components/TP-030-110-050 장입물 충진작업 기준(Rev.9)_0900bf4ba7a62154_usr0000bf4b95f9e446_p022_table_01.png",
+      "context_before": "2,450 kcal/kg-COKE (C→CO) (viii) 송풍 현열 : Q8 {{IMG_SUM_018}} ※ 풍온 700℃, 공기 비열 0.33 (3) 고로별 화입용 Coke 충진실적",
+      "context_after": ""
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리기준 / 4.1.2 조사내용",
+      "filename": "장입물 분포조사 기준",
+      "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "장수명화에 기여하고자 한다. # 4. 조업기준 ## 4.1 조업관리기준 ### 4.1.1 장입물 분포조사 항목 및 계략도 {{IMG_SUM_001}} ### 4.1.2 조사내용",
+      "context_after": "### 4.1.3 조사조직 및 임무 ### 가. 조직 {{IMG_SUM_002}} #### 나. 각 Team 별 임무 {{TB_UNSTR_002}} ### 4.1.4 사용기자재 {{TB_STR_001}}"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업관리기준 / 가. 조직 / 나. 각 Team 별 임무",
+      "filename": "장입물 분포조사 기준",
+      "image_link": "output/sanitize/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446/components/TP-030-110-060 장입물 분포조사 기준(Rev.8)_0900bf4ba7a62150_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "{{IMG_SUM_001}} ### 4.1.2 조사내용 {{TB_UNSTR_001}} ### 4.1.3 조사조직 및 임무 ### 가. 조직 {{IMG_SUM_002}} #### 나. 각 Team 별 임무",
+      "context_after": "### 4.1.4 사용기자재 {{TB_STR_001}} ### 4.1.5 조사항목별 개요 및 Flow #### 가. 장입물 분화조사 (원료 및 장입 B/C 상 입도분포)"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.1 단계별 조업도 상승계획",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p001_table_01.png",
+      "context_before": "조기확보 노체, 노상부 안정적 온도상향 유도 # 4. 조업기준 ## 4.1 조업도 상승계획 수립과 실적비교 ### 4.1.1 단계별 조업도 상승계획",
+      "context_after": "### 4.1.2 화입후 24시간 조업계획 이 기간은 승열용 COKE에 의한 노내 장입물의 승열과 철광석의 환원용해가 시작되고, 노심부의 침목연소시 노저연와의 승열을"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획 / 가. 승풍량 / ※ 증풍 방법 비교",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p003_table_01.png",
+      "context_before": "Trouble에 대비하고 노정온도 상승으로 증풍이 어려운 화입 후 10~15시간 이후에는 저속증풍을 실시하여 목표승풍량을 달성한다. ##### ※ 증풍 방법 비교 {{TB_STR_001}}",
+      "context_after": "(2) 증풍방안 급속한 증풍, 장입물 총진시의 과도한 광석내진으로 인해 용착대 형성시점에 풍압급상승에 의한 Hanging 발생 방지를 위하여 중심류 지향의 총진"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획 / 나. Ore/Coke",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p006_table_01.png",
+      "context_before": "200°C에 도달하게 되는 시간), 2차 증광은 2.2로 초출선시 [Si] Level 과 용선온도를 확인 후 실시한다. o 고로별 화입 초기 증광실적",
+      "context_after": "#### 다. 습분 화입초기의 습분취입은 노열 Balance 에 중대한 영향을 미치나 너무 낮을 경우 연화용착대 형성 시점에 통기불량을 초래할 수"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획 / 다. 습분",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p007_table_01.png",
+      "context_before": "연화용착대 형성 시점에 통기불량을 초래할 수 있으므로 노황 조정수단으로 일시 습분 취입량을 증대시킬 필요가 있다. 0 고로별 화입초기 습분 취입실적",
+      "context_after": "#### 라. 송풍온도 화입초기 노저온도에 따른 용융물 배출불량현상을 해소하기 위하여 송풍초기 760℃까지 조기확 보후 800℃로 송풍온도를 유지하며 가능한 송풍온도를 최대"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_005",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.1 조업도 상승계획 수립과 실적비교 / 4.1.2 화입후 24시간 조업계획 / ○ 고로별 화입초기 송풍운도 상승실적",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "위하여 송풍초기 760℃까지 조기확 보후 800℃로 송풍온도를 유지하며 가능한 송풍온도를 최대 상승시켜 조기입열량을 증가시킨다. #### ○ 고로별 화입초기 송풍운도 상승실적",
+      "context_after": "### 4.1.3 화입후 10일간 조업계획 이 기간은 노벽 및 Race Way 용해대의 열 Level 이 정상화 되어가는 기간으로 열여유가 많은"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_006",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.3 화입조업 실적 / 4.3.1 조업도 상승기준 및 실적 / 나. 조기조업도 상승방법과 조업성적 비교",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p011_table_01.png",
+      "context_before": "형의 조업도 상승 방법을 선택 하였으며 미분탄 취입을 계기로 O/C를 상승시켰음을 알 수 있다. #### 나. 조기조업도 상승방법과 조업성적 비교",
+      "context_after": "### 4.3.2 노열판단 화입직후 노열의 상태는 노정 가스 온도 및 성분과 노체온도 변화로부터 측정할 수 있다. 화입후 고로 노열의 변화를"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_007",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 / 4.3 화입조업 실적 / 4.3.3 정상적 환원진행 판단 (노정가스안정) / 가. 노정가스 성분",
+      "filename": "조업도 상승 기준",
+      "image_link": "output/sanitize/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446/components/TP-030-110-070 조업도 상승 기준(Rev.8)_0900bf4ba7a62142_usr0000bf4b95f9e446_p012_table_01.png",
+      "context_before": "장입물 승열이 완료되었음을 의미하나 저하 폭이 큰 것은 중심류 과다로 추정할 수 있다 o 고로별 증풍속도와 노정온도 및 가스 변동추이",
+      "context_after": "#### 나. 노정가스 성분변동 및 안정의 의미 노정가스 성분의 변동은 철광석의 환원이 개시되어 Slag가 생성되기 시작함을 의미하며 노정가스성분의 안정은 정상적인"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 / 4.1 열풍로 조업관리 기준",
+      "filename": "열풍로 조업관리 기준",
+      "image_link": "output/sanitize/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446/components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "및 관리기준을 명확하게 파악하고 있어야 한다 # 3. 중점 관리항목 {{TB_STR_001}} # 4. 조업 기준 ## 4.1 열풍로 조업관리 기준",
+      "context_after": "(열풍로 운전조건에 따라 조업관리기준을 변경할 수 있음.) ## 4.2 열풍로 철피온도 관리기준 {{TB_STR_002}} (열풍로 운전조건에 따라 관리기준을 변경할 수 있음.)"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.1 연소이론 / 6.1.2 연소관련 주요 용어 / 6.1.2.11 연소계산 / 가. 단일가스의 연소표",
+      "filename": "열풍로 조업관리 기준",
+      "image_link": "output/sanitize/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446/components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "#### 6.1.2.11 연소계산 연소계산에서는 이론공기량, 실제공기량, 실제배 Gas량등 연소와관련된 기본계산이 필요하며 이러한 연소계산은 설비의 용량산정도 중요함 ##### 가. 단일가스의 연소표",
+      "context_after": "##### 나. 이론연소공기량(L₀) = 1/0.21(0.5H₂ + 0.5CO + 2CH₄ + 3C₂h₄ + 2.5C₂H₂ + … - O₂) ##### 다. 실제연소공기량(L)"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.3 열풍로 배열회수 설비 / 6.3.1 산로점 온도 관리 / 6.3.1.1 전제조건",
+      "filename": "열풍로 조업관리 기준",
+      "image_link": "output/sanitize/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446/components/TP-030-120-010 열풍로 조업관리 기준(Rev.11)_0900bf4ba7a46003_usr0000bf4b95f9e446_p007_table_01.png",
+      "context_before": "흡수시키고 HE-2,HE-3 에서 방열시킴으로 연소공기와 BFG 를 승온시켜 배열을 회수하는 성에너지 설비임 ### 6.3.1 산로점 온도 관리 #### 6.3.1.1 전제조건",
+      "context_after": "#### 6.3.1.2 계산식 {{IMG_SUM_008}} 따라서 TDP = 1,000 / 2.5121 = 398. K {{IMG_SUM_009}} #### 6.3.1.3 현조업시 산로점 온도 관리"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.1 단일가스의 연소표",
+      "filename": "열풍로 연소기술 기준",
+      "image_link": "output/sanitize/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446/components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p001_table_02.png",
+      "context_before": "목표열량, Gas Calorie, 열풍로 열효율과 관계가 있으며 그 관계는 다음과 같다 {{IMG_SUM_001}} ## 4.2 열풍로 연소계산 ### 4.2.1 단일가스의 연소표",
+      "context_after": "### 4.2.2 공기와 혼합시 가연기체의 연소범위 {{TB_UNSTR_002}} - 가연연소범위 결정 Le Chatelier 계산식 이용 L_m = 100/(P₁/n₁) + (P₂/n₂) +"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.2 공기와 혼합시 가연기체의 연소범위",
+      "filename": "열풍로 연소기술 기준",
+      "image_link": "output/sanitize/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446/components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p002_table_01.png",
+      "context_before": "그 관계는 다음과 같다 {{IMG_SUM_001}} ## 4.2 열풍로 연소계산 ### 4.2.1 단일가스의 연소표 {{TB_UNSTR_001}} ### 4.2.2 공기와 혼합시 가연기체의 연소범위",
+      "context_after": "- 가연연소범위 결정 Le Chatelier 계산식 이용 L_m = 100/(P₁/n₁) + (P₂/n₂) + (P₃/n₃) + ..., 단, P₁, P₂, P₃는"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.2 열정산 결과표",
+      "filename": "열풍로 연소기술 기준",
+      "image_link": "output/sanitize/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446/components/TP-030-120-020 열풍로 연소기술 기준(Rev.11)_0900bf4ba7a451f1_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "{{IMG_SUM_041}} ### 6.1.6 기타 방산열 (A4) {{IMG_SUM_042}} {{IMG_SUM_043}} {{IMG_SUM_044}} ### 6.1.7 열효율 {{IMG_SUM_045}} {{IMG_SUM_046}} {{IMG_SUM_047}} {{IMG_SUM_048}} ## 6.2 열정산 결과표",
+      "context_after": "## 6.3 열정산 결과 ### 가. 열풍로 열효율 80.03%로 양호 ### 나. 배 GAS 지출열 13.0% 중 배 Gas 회수량"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_001",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.1 냉각 Flow 및 냉각관리 / 4.2.1.4 냉각작업 / 가. 냉각 관리 곡선 기준은 P3R2 계획을 적용하며 냉각 일정은 25일로 한다",
+      "filename": "열풍로 개,보수기술 기준",
+      "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p005_table_01.png",
+      "context_before": "냉풍량 PC Trend 화 #### 4.2.1.4 냉각작업 ##### 가. 냉각 관리 곡선 기준은 P3R2 계획을 적용하며 냉각 일정은 25일로 한다",
+      "context_after": "#### - 냉각 관리 곡선 {{IMG_TR_003}} ##### 나. 휴로 후 Dome 온도 1000℃까지는 자연 냉각을 실시 한다 - 대기 자연방산"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_002",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.2 외연식 열풍로 보수작업 / 4.2.3 열풍로 승온 / 4.2.3.2 열풍로 승온 기본 방향 / 나. 승온 관리 기준",
+      "filename": "열풍로 개,보수기술 기준",
+      "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p008_table_01.png",
+      "context_before": "이루어져야 한다. 3. 투입 열량 및 승온일정은 DME 사의 제안 및 실적을 기준으로 한다(승온: 26일간) ##### 나. 승온 관리 기준",
+      "context_after": "##### 다. 승온 관리 곡선 {{IMG_TR_005}} #### 4.2.3.2 승온 작업 Flow 도 * 승온 순서 : Air & COG →"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_003",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "4. 조업 기준 (열풍로 보수작업) / 4.4 열풍로 냉각, 승온관리 기준(내연식 : 포)P2R2, 외연식: 포) P3R2 실적)",
+      "filename": "열풍로 개,보수기술 기준",
+      "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p015_table_01.png",
+      "context_before": "Dome 온도가 Control되지 않으면 Gas 유량을 감소 시킨다. ## 4.4 열풍로 냉각, 승온관리 기준(내연식 : 포)P2R2, 외연식: 포) P3R2 실적)",
+      "context_after": "# 6. 기술이론 ## 6.1 Koppers 규석연와 열풍로의 특성 ### 6.1.1 규석연와의 팽창 규석연와는 총열팽창률 1.2%중에서 300℃까지 약 0.9%가 팽창하므로"
+    },
+    "output": {
+      "table_summary": []
+    }
+  },
+  {
+    "id": "TB_UNSTR_004",
+    "instruction": "\n너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. \n아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 “표에서 식별 불가”라고 적시한다.\n- 파일명: {filename}\n- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)\n- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.\n- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라. 모르면 “표에서 식별 불가”로 명시.\n- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.\n\n출력 형식:\n{\n  \"table_summary\": [\n    \"문장1\",\n    \"문장2\",\n    ...\n  ]\n}\n",
+    "input": {
+      "section_path": "6. 기술이론 / 6.1 Koppers 규석연와 열풍로의 특성 / 6.1.2 규석연와의 팽창 변태점",
+      "filename": "열풍로 개,보수기술 기준",
+      "image_link": "output/sanitize/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446/components/TP-030-120-030 열풍로 개,보수기술 기준(Rev.10)_0900bf4ba7a451ef_usr0000bf4b95f9e446_p015_table_02.png",
+      "context_before": "한다. 따라서, 외연식 열풍로의 특징인 규석연와는 건조초기의 승온에 특히 주의해야하며 이는 규석연와의 팽창 변태 때문이다. ### 6.1.2 규석연와의 팽창 변태점",
+      "context_after": "### 6.1.3 규석의 변태 팽창 곡선 {{IMG_TR_008}} ### 6.1.4 열풍로용 규석연와의 열팽창 {{IMG_TR_009}} ○ 팽창 곡선을 보면 석영이 가장 크며"
+    },
+    "output": {
+      "table_summary": []
+    }
+  }
+]
