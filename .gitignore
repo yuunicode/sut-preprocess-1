@@ -8,4 +8,6 @@
 
 # 기본 데이터셋
 _dataset
-output/
+output/sanitize
+output/extract
+output/final

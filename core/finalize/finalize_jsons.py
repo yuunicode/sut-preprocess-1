@@ -221,7 +221,8 @@ def _finalize_images_generic(
         if fallback_on_invalid and INVALID_TRANS_RE.search(original or ""):
             original = comp.get("description") or ""
         if not original:
-            original = "No Description"
+            # 내용이 없으면 적재 대상에서 제외
+            continue
         prefix_parts = []
         if comp.get("filename"):
             prefix_parts.append(f"[문서: {comp.get('filename')}]")
