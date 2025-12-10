@@ -25,6 +25,7 @@ DEFAULT_DISTANCE = "cosine"
 DEFAULT_HNSW_M = 16
 DEFAULT_HNSW_EF_CONSTRUCT = 100
 DEFAULT_ON_DISK = False
+DISTANCE_CHOICES = {"cosine", "dot", "euclid", "euclidean", "l2"}
 
 
 def load_json(path: Path):
@@ -133,17 +134,56 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     parser.add_argument("--embed-model", default="snowflake-arctic-embed2", help="Ollama 임베딩 모델명")
     parser.add_argument("--collection", default=DEFAULT_COLLECTION, help="Qdrant 컬렉션명 (기본: final_embeddings)")
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--distance",
+        default=DEFAULT_DISTANCE,
+        choices=sorted(DISTANCE_CHOICES),
+        help="벡터 거리 함수 (기본: cosine)",
+    )
+    parser.add_argument(
+        "--hnsw-m",
+        type=int,
+        default=DEFAULT_HNSW_M,
+        help=f"HNSW m (기본: {DEFAULT_HNSW_M})",
+    )
+    parser.add_argument(
+        "--hnsw-ef-construct",
+        type=int,
+        default=DEFAULT_HNSW_EF_CONSTRUCT,
+        help=f"HNSW ef_construct (기본: {DEFAULT_HNSW_EF_CONSTRUCT})",
+    )
+    parser.add_argument(
+        "--on-disk",
+        action="store_true",
+        default=DEFAULT_ON_DISK,
+        help="벡터를 디스크에 저장 (기본: 메모리)",
+    )
     return parser.parse_args(argv)
-
-
-def resolve_collection_name(args: argparse.Namespace) -> str:
-    """명시된 컬렉션이 없으면 기본값 사용."""
-    return args.collection or DEFAULT_COLLECTION
 
 
 def main(argv: Optional[List[str]] = None) -> int:
     args = parse_args(argv)
-    args.collection = resolve_collection_name(args)
+    base_collection = args.collection or DEFAULT_COLLECTION
+    distance_name = (args.distance or DEFAULT_DISTANCE).lower()
+    # suffix 규칙: cosine + 기본 HNSW + on_disk False + final_embeddings 은 그대로, 나머지는 suffix 부여
+    use_defaults = (
+        base_collection == DEFAULT_COLLECTION
+        and distance_name == DEFAULT_DISTANCE
+        and args.hnsw_m == DEFAULT_HNSW_M
+        and args.hnsw_ef_construct == DEFAULT_HNSW_EF_CONSTRUCT
+        and args.on_disk == DEFAULT_ON_DISK
+    )
+    suffix_parts: list[str] = []
+    if distance_name != DEFAULT_DISTANCE:
+        suffix_parts.append(distance_name)
+    if args.hnsw_m != DEFAULT_HNSW_M or args.hnsw_ef_construct != DEFAULT_HNSW_EF_CONSTRUCT:
+        suffix_parts.append(f"m{args.hnsw_m}-ef{args.hnsw_ef_construct}")
+    if args.on_disk:
+        suffix_parts.append("disk")
+    if suffix_parts and not use_defaults:
+        args.collection = f"{base_collection}_{'_'.join(suffix_parts)}"
+    else:
+        args.collection = base_collection
     if not args.base_dir.exists():
         raise SystemExit(f"Base dir not found: {args.base_dir}")
 
@@ -155,6 +195,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     dense_size: Optional[int] = None
     processed = 0
     start_ts = time.monotonic()
+    embed_time_total = 0.0
+    upsert_time_total = 0.0
 
     def make_point_id(rec: Dict[str, object]) -> str | int:
         """
@@ -174,17 +216,19 @@ def main(argv: Optional[List[str]] = None) -> int:
         return str(uuid.uuid5(uuid.NAMESPACE_URL, key))
 
     def flush_batch():
-        nonlocal buffer, dense_vectors
+        nonlocal buffer, dense_vectors, upsert_time_total
         if not buffer:
             return
         # point ID는 payload 기반으로 생성한 UUID/int 사용
         ids: List[str | int] = []
         for rec in buffer:
             ids.append(make_point_id(rec))
+        flush_start = time.monotonic()
         client.upsert(
             collection_name=args.collection,
             points=qmodels.Batch(ids=ids, vectors={"dense": dense_vectors}, payloads=buffer),
         )
+        upsert_time_total += (time.monotonic() - flush_start)
         buffer.clear()
         dense_vectors.clear()
 
@@ -192,17 +236,19 @@ def main(argv: Optional[List[str]] = None) -> int:
         content = (record.get("text") or "").strip()
         if not content:
             continue
+        embed_start = time.monotonic()
         dense = embed_dense(content, model=args.embed_model, url=args.ollama_url)
+        embed_time_total += (time.monotonic() - embed_start)
         if dense_size is None:
             dense_size = len(dense)
             ensure_collection(
                 client,
                 args.collection,
                 dense_size,
-                DEFAULT_DISTANCE,
-                DEFAULT_HNSW_M,
-                DEFAULT_HNSW_EF_CONSTRUCT,
-                DEFAULT_ON_DISK,
+                distance_name,
+                args.hnsw_m,
+                args.hnsw_ef_construct,
+                args.on_disk,
             )
         buffer.append(record)
         dense_vectors.append(dense)
@@ -218,18 +264,20 @@ def main(argv: Optional[List[str]] = None) -> int:
             client,
             args.collection,
             dense_size,
-            DEFAULT_DISTANCE,
-            DEFAULT_HNSW_M,
-            DEFAULT_HNSW_EF_CONSTRUCT,
-            DEFAULT_ON_DISK,
+            distance_name,
+            args.hnsw_m,
+            args.hnsw_ef_construct,
+            args.on_disk,
         )
+        flush_start = time.monotonic()
         flush_batch()
+        upsert_time_total += (time.monotonic() - flush_start)
 
     elapsed = time.monotonic() - start_ts
     print(
         f"[DONE] Ingested {processed} points into collection '{args.collection}' "
-        f"(distance={DEFAULT_DISTANCE}, hnsw_m={DEFAULT_HNSW_M}, ef_construct={DEFAULT_HNSW_EF_CONSTRUCT}, on_disk={DEFAULT_ON_DISK}) "
-        f"elapsed={elapsed:.2f}s"
+        f"(distance={distance_name}, hnsw_m={args.hnsw_m}, ef_construct={args.hnsw_ef_construct}, on_disk={args.on_disk}) "
+        f"elapsed={elapsed:.2f}s embed_time={embed_time_total:.2f}s upsert_time={upsert_time_total:.2f}s"
     )
     return 0
 

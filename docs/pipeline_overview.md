@@ -38,8 +38,9 @@
 ## D. Qdrant 적재 & QA
 - **전제**: `output/final/*.json`
 - **임베딩 적재 (dense-only)**:  
-  `python3 core/qdrant/qdrant_ingest.py --base-dir output/final --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --batch-size 32`  
-  - 컬렉션: `final_embeddings` 고정, 벡터 거리함수는 cosine 기본, `text` 필드 임베딩(+메타 보존)
+  `python3 core/qdrant/qdrant_ingest.py --base-dir output/final --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --batch-size 32 [--distance dot|euclid|cosine --hnsw-m 16 --hnsw-ef-construct 100 --on-disk]`  
+  - 기본: cosine + `final_embeddings`. 다른 distance/HNSW/on-disk를 쓰면 컬렉션명 뒤에 `<distance>[_mX-efY][_disk]` suffix를 붙여 자동 분리.  
+  - 로그에 총 소요/embedding 시간/upsert 시간이 함께 출력됨. `text` 필드 임베딩(+메타 보존)
 - **QA**:  
   `python3 core/qdrant/qdrant_qa.py --csv input.csv --collection final_embeddings --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --llm-model qwen2.5:14b-instruct --top-k 7`  
   - dense 검색 7개 그대로 사용(확장/재정렬 없음)  
