@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run local Qwen2.5-VL model on LLM payloads, validate outputs, and log errors."""
+"""Run local Qwen VL model on LLM payloads, validate outputs, and log errors."""
 from __future__ import annotations
 
 import argparse
@@ -17,7 +17,7 @@ from huggingface_hub.errors import HFValidationError
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LLM_DIR = REPO_ROOT / "output" / "llm"
 LOG_DIR = REPO_ROOT / "logs"
-DEFAULT_MODEL_PATH = REPO_ROOT / ".models" / "qwen" / "Qwen2.5-VL-7B-Instruct"
+DEFAULT_MODEL_PATH = REPO_ROOT / ".models" / "qwen" / "qwen3-vl-8b"
 ERROR_LOG = LOG_DIR / "llm_errors.log"
 FAILED_LOG = LOG_DIR / "failed_llm.log"
 DEFAULT_DEVICE = "cuda"
