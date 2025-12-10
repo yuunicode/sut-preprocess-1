@@ -6,8 +6,8 @@ PYTHON_BIN="${PYTHON_BIN:-python3.12}"
 VENV_DIR="${PROJECT_ROOT}/.venv"
 MODEL_ID="${MODEL_ID:-datalab-to/chandra}"
 MODEL_DIR="${PROJECT_ROOT}/.models/datalab-to/chandra"
-QWEN_MODEL_ID="${QWEN_MODEL_ID:-Qwen/Qwen3-VL-8B}"
-QWEN_MODEL_DIR="${PROJECT_ROOT}/.models/qwen/qwen3-vl-8b"
+QWEN_MODEL_ID="${QWEN_MODEL_ID:-Qwen/Qwen3-VL-8B-Instruct}"
+QWEN_MODEL_DIR="${PROJECT_ROOT}/.models/qwen/qwen3-vl-8b-instruct"
 PYTORCH_INDEX_URL="${PYTORCH_INDEX_URL:-https://download.pytorch.org/whl/cu128}"
 
 log() {
@@ -114,6 +114,6 @@ fi
 
 # download_hf_model "Chandra 모델" "${MODEL_DIR}" "${MODEL_ID}"
 # download_hf_model "Qwen2.5-VL-7B-Instruct 모델" "${QWEN_MODEL_DIR}" "${QWEN_MODEL_ID}"
-download_hf_model "Qwen3-VL-8B 모델" "${QWEN_MODEL_DIR}" "${QWEN_MODEL_ID}"
+download_hf_model "Qwen3-VL-8B-Instruct 모델" "${QWEN_MODEL_DIR}" "${QWEN_MODEL_ID}"
 
 log "환경 구성이 완료되었습니다. 이후 실행은 'source ${VENV_DIR}/bin/activate' 후 하세요."
