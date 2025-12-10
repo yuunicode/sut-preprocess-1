@@ -186,6 +186,10 @@ def main() -> None:
     args = parser.parse_args()
 
     rows = []
+    per_row_elapsed: list[float] = []
+    per_row_embed_ms: list[float] = []
+    per_row_search_ms: list[float] = []
+    per_row_gen_ms: list[float] = []
     with args.csv.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames or []
@@ -209,6 +213,7 @@ def main() -> None:
         if not question:
             row[args.answer_col] = ""
             continue
+        row_start = time.monotonic()
         embed_start = time.monotonic()
         dense_vec = embed_dense(question, model=args.embed_model, url=args.ollama_url)
         embed_ms = (time.monotonic() - embed_start) * 1000
@@ -300,9 +305,18 @@ def main() -> None:
             ev_lines.append(f"[{idx}] {meta_part}\n{text_part}")
         evidence_text = "\n\n".join(ev_lines)
         row[args.evidence_col] = evidence_text
+        per_row_embed_ms.append(embed_ms)
+        per_row_search_ms.append(search_ms)
+        per_row_gen_ms.append(gen_ms)
+        per_row_elapsed.append(time.monotonic() - row_start)
 
     fieldnames = list(rows[0].keys()) if rows else [qcol]
-    for col in (args.answer_col, args.evidence_col):
+    # per-question total elapsed(sec) 컬럼 추가
+    elapsed_col = "qa_elapsed_sec"
+    embed_col = "qa_embed_ms"
+    search_col = "qa_search_ms"
+    gen_col = "qa_gen_ms"
+    for col in (args.answer_col, args.evidence_col, embed_col, search_col, gen_col, elapsed_col):
         if col not in fieldnames:
             fieldnames.append(col)
     # Excel 호환을 위해 utf-8-sig로 BOM 포함 저장
@@ -312,8 +326,18 @@ def main() -> None:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         if rows:
-            writer.writerows(rows)
-    print(f"[DONE] Answers written to {out_path}")
+            for idx, row in enumerate(rows):
+                if idx < len(per_row_elapsed):
+                    row[elapsed_col] = f"{per_row_elapsed[idx]:.3f}"
+                if idx < len(per_row_embed_ms):
+                    row[embed_col] = f"{per_row_embed_ms[idx]:.1f}"
+                if idx < len(per_row_search_ms):
+                    row[search_col] = f"{per_row_search_ms[idx]:.1f}"
+                if idx < len(per_row_gen_ms):
+                    row[gen_col] = f"{per_row_gen_ms[idx]:.1f}"
+                writer.writerow(row)
+    total_elapsed = sum(per_row_elapsed)
+    print(f"[DONE] Answers written to {out_path} (total_elapsed={total_elapsed:.2f}s, rows={len(rows)})")
 
 
 if __name__ == "__main__":
