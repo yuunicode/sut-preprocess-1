@@ -18,6 +18,10 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 LLM_DIR = REPO_ROOT / "output" / "llm"
 LOG_DIR = REPO_ROOT / "logs"
 DEFAULT_MODEL_PATH = REPO_ROOT / ".models" / "qwen" / "qwen3-vl-8b-instruct"
+FALLBACK_MODEL_PATHS = [
+    REPO_ROOT / ".models" / "qwen" / "qwen3-vl-8b",
+    REPO_ROOT / ".models" / "qwen" / "Qwen2.5-VL-7B-Instruct",
+]
 ERROR_LOG = LOG_DIR / "llm_errors.log"
 FAILED_LOG = LOG_DIR / "failed_llm.log"
 DEFAULT_DEVICE = "cuda"
@@ -26,6 +30,8 @@ MAX_NEW_TOKENS = 512  # 생성 토큰 수
 REPETITION_PENALTY = 1.3  # 이미 생성된 토큰 반복을 억제 (값이 클수록 반복 감소)
 NO_REPEAT_NGRAM_SIZE = 4  # 지정된 ngram 크기 반복 금지 (4-gram 반복 방지)
 RETRY_MAX_ATTEMPTS = 3  # 이미지(SUM/TRANS) 파싱 실패 시 최대 재시도 횟수
+BAD_CHAR_RE = re.compile(r"[\u4e00-\u9fff\u0400-\u04FF\u0600-\u06FF\u0660-\u0669\u06F0-\u06F9\u2070-\u209F]")
+SPACED_LETTERS_RE = re.compile(r"(?:[A-Za-z가-힣]\s+){4,}[A-Za-z가-힣]")
 
 
 # --------------------- 공통 유틸 ---------------------
@@ -43,17 +49,46 @@ def log_error(msg: str) -> None:
 def extract_json(text: str) -> Dict[str, Any]:
     """Best-effort JSON 추출: 전체 파싱 → 첫 braces 블록 시도."""
     text = text.strip()
+    # 흔한 오류: 배열/객체 끝에 붙은 trailing comma 제거
+    def _strip_trailing_commas(s: str) -> str:
+        s = re.sub(r",\s*]", "]", s)
+        s = re.sub(r",\s*}", "}", s)
+        return s
     try:
-        return json.loads(text)
+        return json.loads(_strip_trailing_commas(text))
     except Exception:
         pass
     match = re.search(r"\{.*\}", text, re.S)
     if match:
         try:
-            return json.loads(match.group(0))
+            return json.loads(_strip_trailing_commas(match.group(0)))
         except Exception:
             pass
     return {}
+
+
+def sanitize_sentences(candidate: Dict[str, Any]) -> Dict[str, Any]:
+    """문장 리스트/문자열에서 이상한 문자/띄어쓰기 포함 시 제외 또는 비움."""
+    cleaned: Dict[str, Any] = {}
+
+    def is_bad(text: str) -> bool:
+        if not text or not isinstance(text, str):
+            return True
+        if BAD_CHAR_RE.search(text):
+            return True
+        if SPACED_LETTERS_RE.search(text):
+            return True
+        return False
+
+    for k, v in (candidate or {}).items():
+        if isinstance(v, list):
+            filtered = [s for s in v if isinstance(s, str) and not is_bad(s.strip()) and s.strip()]
+            cleaned[k] = filtered
+        elif isinstance(v, str):
+            cleaned[k] = "" if is_bad(v.strip()) else v
+        else:
+            cleaned[k] = v
+    return cleaned
 
 
 def clean_response_text(text: str) -> str:
@@ -69,14 +104,22 @@ def clean_response_text(text: str) -> str:
 
 def validate_output(template: Dict[str, Any], candidate: Dict[str, Any]) -> Tuple[Dict[str, Any], bool]:
     """template 구조에 맞게 candidate를 병합. 형식 불일치 시 template 유지."""
+    candidate = sanitize_sentences(candidate)
     merged: Dict[str, Any] = {}
+    # 키 앞뒤 공백을 제거한 normalize (LLM이 " image_summary "처럼 띄어쓴 경우 대비)
+    normalized = {}
+    for k, v in (candidate or {}).items():
+        if isinstance(k, str):
+            normalized[k.strip()] = v
+        else:
+            normalized[k] = v
     ok = True
     for key, default_val in template.items():
-        if key not in candidate:
+        if key not in normalized:
             merged[key] = default_val
             ok = False
             continue
-        val = candidate[key]
+        val = normalized[key]
         if isinstance(default_val, list):
             if isinstance(val, list) and all(isinstance(x, str) for x in val):
                 merged[key] = val
@@ -108,6 +151,11 @@ def needs_image_detail_retry(file_name: str, output: Dict[str, Any]) -> bool:
         summary = " ".join([s for s in summary if isinstance(s, str)])
     summary = summary or ""
     stripped = summary.strip()
+    # 글자 사이 과도한 공백, 초/아래첨자 특수문자 포함 시 무조건 재시도
+    if re.search(r"(?:[A-Za-z가-힣]\s+){4,}[A-Za-z가-힣]", stripped):
+        return True
+    if re.search(r"[\u2070-\u209F]", stripped):
+        return True
     if is_sum and len(stripped) < 60:
         return True
     # 중국어/러시아어/아랍권 문자나 아랍-인도 숫자가 포함되면 재시도
@@ -156,7 +204,16 @@ def build_vl_messages(prompt: str, image: Image.Image | None) -> list[dict]:
 def load_qwen(model_path: Path, device: str = DEFAULT_DEVICE):
     model_path = model_path.resolve()
     if not model_path.exists():
-        raise FileNotFoundError(f"model path not found: {model_path}")
+        for alt in FALLBACK_MODEL_PATHS:
+            if alt.exists():
+                print(f"[INFO] default model not found at {model_path}, using fallback {alt}")
+                model_path = alt.resolve()
+                break
+        else:
+            raise FileNotFoundError(
+                f"model path not found: {model_path}. "
+                f"Optional fallbacks not found either: {', '.join(str(p) for p in FALLBACK_MODEL_PATHS)}"
+            )
     try:
         tokenizer = AutoTokenizer.from_pretrained(
             str(model_path), trust_remote_code=True, local_files_only=True, cache_dir=str(model_path)
