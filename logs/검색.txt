@@ -14,3 +14,11 @@
 [INFO] QA done: collection=final_embeddings_dot_m32-ef200, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200.csv, elapsed=1143s
 === QA: collection=final_embeddings_dot_m32-ef200_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200_disk.csv ===
 [INFO] QA done: collection=final_embeddings_dot_m32-ef200_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200_disk.csv, elapsed=1114s
+=== QA: collection=final_embeddings_euclid -> /home/ecminer/vscodeProject/sut-preprocess-1/output_euclid.csv ===
+[INFO] QA done: collection=final_embeddings_euclid, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_euclid.csv, elapsed=1109s
+=== QA: collection=final_embeddings_euclid_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_disk.csv ===
+[INFO] QA done: collection=final_embeddings_euclid_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_disk.csv, elapsed=1022s
+=== QA: collection=final_embeddings_euclid_m32-ef200 -> /home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_m32-ef200.csv ===
+[INFO] QA done: collection=final_embeddings_euclid_m32-ef200, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_m32-ef200.csv, elapsed=1022s
+=== QA: collection=final_embeddings_euclid_m32-ef200_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_m32-ef200_disk.csv ===
+[INFO] QA done: collection=final_embeddings_euclid_m32-ef200_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_euclid_m32-ef200_disk.csv, elapsed=1007s
