@@ -1,0 +1,26 @@
+((.venv) ) ecminer@ECMCONSULT:~/vscodeProject/sut-preprocess-1$ python3 core/qdrant/qdrant_ingest.py ((.venv) ) ecminer@ECMCONSULT:~/vscodeProject/sut-preprocess-1$ bash scripts/run_all_ingest.sh
+=== ingest: distance=cosine default memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings' (distance=cosine, hnsw_m=16, ef_construct=100, on_disk=False) elapsed=216.58s embed_time=214.54s upsert_time=1.97s
+=== ingest: distance=cosine default --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_disk' (distance=cosine, hnsw_m=16, ef_construct=100, on_disk=True) elapsed=206.02s embed_time=204.50s upsert_time=1.38s
+=== ingest: distance=cosine --hnsw-m 32 --hnsw-ef-construct 200 memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_m32-ef200' (distance=cosine, hnsw_m=32, ef_construct=200, on_disk=False) elapsed=217.55s embed_time=216.04s upsert_time=1.40s
+=== ingest: distance=cosine --hnsw-m 32 --hnsw-ef-construct 200 --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_m32-ef200_disk' (distance=cosine, hnsw_m=32, ef_construct=200, on_disk=True) elapsed=215.73s embed_time=214.34s upsert_time=1.26s
+=== ingest: distance=dot default memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_dot' (distance=dot, hnsw_m=16, ef_construct=100, on_disk=False) elapsed=221.34s embed_time=219.96s upsert_time=1.26s
+=== ingest: distance=dot default --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_dot_disk' (distance=dot, hnsw_m=16, ef_construct=100, on_disk=True) elapsed=218.50s embed_time=217.01s upsert_time=1.35s
+=== ingest: distance=dot --hnsw-m 32 --hnsw-ef-construct 200 memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_dot_m32-ef200' (distance=dot, hnsw_m=32, ef_construct=200, on_disk=False) elapsed=444.94s embed_time=443.39s upsert_time=1.40s
+=== ingest: distance=dot --hnsw-m 32 --hnsw-ef-construct 200 --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_dot_m32-ef200_disk' (distance=dot, hnsw_m=32, ef_construct=200, on_disk=True) elapsed=656.38s embed_time=654.93s upsert_time=1.26s
+=== ingest: distance=euclid default memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_euclid' (distance=euclid, hnsw_m=16, ef_construct=100, on_disk=False) elapsed=247.51s embed_time=246.01s upsert_time=1.33s
+=== ingest: distance=euclid default --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_euclid_disk' (distance=euclid, hnsw_m=16, ef_construct=100, on_disk=True) elapsed=276.38s embed_time=274.87s upsert_time=1.34s
+=== ingest: distance=euclid --hnsw-m 32 --hnsw-ef-construct 200 memory ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_euclid_m32-ef200' (distance=euclid, hnsw_m=32, ef_construct=200, on_disk=False) elapsed=262.33s embed_time=260.80s upsert_time=1.38s
+=== ingest: distance=euclid --hnsw-m 32 --hnsw-ef-construct 200 --on-disk ===
+[DONE] Ingested 3058 points into collection 'final_embeddings_euclid_m32-ef200_disk' (distance=euclid, hnsw_m=32, ef_construct=200, on_disk=True) elapsed=220.05s embed_time=218.72s upsert_time=1.19s
+

@@ -1,0 +1,16 @@
+=== QA: collection=final_embeddings -> /home/ecminer/vscodeProject/sut-preprocess-1/output_cosine.csv ===
+[INFO] QA done: collection=final_embeddings, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_cosine.csv, elapsed=1454s
+=== QA: collection=final_embeddings_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_disk.csv ===
+[INFO] QA done: collection=final_embeddings_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_disk.csv, elapsed=1301s
+=== QA: collection=final_embeddings_m32-ef200 -> /home/ecminer/vscodeProject/sut-preprocess-1/output_m32-ef200.csv ===
+[INFO] QA done: collection=final_embeddings_m32-ef200, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_m32-ef200.csv, elapsed=1188s
+=== QA: collection=final_embeddings_m32-ef200_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_m32-ef200_disk.csv ===
+[INFO] QA done: collection=final_embeddings_m32-ef200_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_m32-ef200_disk.csv, elapsed=1177s
+=== QA: collection=final_embeddings_dot -> /home/ecminer/vscodeProject/sut-preprocess-1/output_dot.csv ===
+[INFO] QA done: collection=final_embeddings_dot, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot.csv, elapsed=1132s
+=== QA: collection=final_embeddings_dot_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_dot_disk.csv ===
+[INFO] QA done: collection=final_embeddings_dot_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot_disk.csv, elapsed=1121s
+=== QA: collection=final_embeddings_dot_m32-ef200 -> /home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200.csv ===
+[INFO] QA done: collection=final_embeddings_dot_m32-ef200, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200.csv, elapsed=1143s
+=== QA: collection=final_embeddings_dot_m32-ef200_disk -> /home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200_disk.csv ===
+[INFO] QA done: collection=final_embeddings_dot_m32-ef200_disk, out=/home/ecminer/vscodeProject/sut-preprocess-1/output_dot_m32-ef200_disk.csv, elapsed=1114s

@@ -19,7 +19,6 @@ LLM_DIR = REPO_ROOT / "output" / "llm"
 LOG_DIR = REPO_ROOT / "logs"
 DEFAULT_MODEL_PATH = REPO_ROOT / ".models" / "qwen" / "qwen3-vl-8b-instruct"
 FALLBACK_MODEL_PATHS = [
-    REPO_ROOT / ".models" / "qwen" / "qwen3-vl-8b",
     REPO_ROOT / ".models" / "qwen" / "Qwen2.5-VL-7B-Instruct",
 ]
 ERROR_LOG = LOG_DIR / "llm_errors.log"
