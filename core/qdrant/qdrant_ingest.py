@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 import uuid
+import time
 
 import requests
 from qdrant_client import QdrantClient
@@ -20,6 +21,10 @@ class Collection(Enum):
 
 
 DEFAULT_COLLECTION = Collection.FINAL.value
+DEFAULT_DISTANCE = "cosine"
+DEFAULT_HNSW_M = 16
+DEFAULT_HNSW_EF_CONSTRUCT = 100
+DEFAULT_ON_DISK = False
 
 
 def load_json(path: Path):
@@ -89,10 +94,34 @@ def embed_dense(text: str, model: str, url: str, timeout: float = 120.0) -> List
     return embedding
 
 
-def ensure_collection(client: QdrantClient, name: str, dense_size: int) -> None:
+def resolve_distance(name: str) -> qmodels.Distance:
+    name = (name or "").strip().lower()
+    if name == "dot":
+        return qmodels.Distance.DOT
+    if name in {"l2", "euclid", "euclidean"}:
+        return qmodels.Distance.EUCLID
+    return qmodels.Distance.COSINE
+
+
+def ensure_collection(
+    client: QdrantClient,
+    name: str,
+    dense_size: int,
+    distance: str = "cosine",
+    hnsw_m: int = DEFAULT_HNSW_M,
+    hnsw_ef_construct: int = DEFAULT_HNSW_EF_CONSTRUCT,
+    on_disk: bool = DEFAULT_ON_DISK,
+) -> None:
     if client.collection_exists(name):
         return
-    vectors_config = {"dense": qmodels.VectorParams(size=dense_size, distance=qmodels.Distance.COSINE)}
+    vectors_config = {
+        "dense": qmodels.VectorParams(
+            size=dense_size,
+            distance=resolve_distance(distance),
+            hnsw_config=qmodels.HnswConfigDiff(m=hnsw_m, ef_construct=hnsw_ef_construct),
+            on_disk=on_disk,
+        )
+    }
     client.create_collection(collection_name=name, vectors_config=vectors_config)
 
 
@@ -107,8 +136,14 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def resolve_collection_name(args: argparse.Namespace) -> str:
+    """명시된 컬렉션이 없으면 기본값 사용."""
+    return args.collection or DEFAULT_COLLECTION
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     args = parse_args(argv)
+    args.collection = resolve_collection_name(args)
     if not args.base_dir.exists():
         raise SystemExit(f"Base dir not found: {args.base_dir}")
 
@@ -118,6 +153,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     dense_vectors: List[List[float]] = []
     sparse_vectors: List[Dict[str, List[float]]] = []
     dense_size: Optional[int] = None
+    processed = 0
+    start_ts = time.monotonic()
 
     def make_point_id(rec: Dict[str, object]) -> str | int:
         """
@@ -158,9 +195,18 @@ def main(argv: Optional[List[str]] = None) -> int:
         dense = embed_dense(content, model=args.embed_model, url=args.ollama_url)
         if dense_size is None:
             dense_size = len(dense)
-            ensure_collection(client, args.collection, dense_size)
+            ensure_collection(
+                client,
+                args.collection,
+                dense_size,
+                DEFAULT_DISTANCE,
+                DEFAULT_HNSW_M,
+                DEFAULT_HNSW_EF_CONSTRUCT,
+                DEFAULT_ON_DISK,
+            )
         buffer.append(record)
         dense_vectors.append(dense)
+        processed += 1
 
         if len(buffer) >= args.batch_size:
             flush_batch()
@@ -168,10 +214,23 @@ def main(argv: Optional[List[str]] = None) -> int:
     if buffer:
         if dense_size is None:
             raise RuntimeError("No embeddings generated.")
-        ensure_collection(client, args.collection, dense_size)
+        ensure_collection(
+            client,
+            args.collection,
+            dense_size,
+            DEFAULT_DISTANCE,
+            DEFAULT_HNSW_M,
+            DEFAULT_HNSW_EF_CONSTRUCT,
+            DEFAULT_ON_DISK,
+        )
         flush_batch()
 
-    print(f"[DONE] Ingested into collection '{args.collection}'")
+    elapsed = time.monotonic() - start_ts
+    print(
+        f"[DONE] Ingested {processed} points into collection '{args.collection}' "
+        f"(distance={DEFAULT_DISTANCE}, hnsw_m={DEFAULT_HNSW_M}, ef_construct={DEFAULT_HNSW_EF_CONSTRUCT}, on_disk={DEFAULT_ON_DISK}) "
+        f"elapsed={elapsed:.2f}s"
+    )
     return 0
 
 

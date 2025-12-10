@@ -22,6 +22,9 @@
 - **모듈/명령**: `python3 core/finalize/finalize_jsons.py`
 - **출력**: `output/final/` (요약 표)  
   - 텍스트 청크 옵션(2025-12-08 추가): `--chunk-size N --chunk-overlap M`으로 `texts_final.json`을 추가 분할할 수 있음. `{{ID}}` placeholder는 청크 경계에서 끊지 않으며 `placeholders` 매핑은 서브 청크가 그대로 상속.
+  - 이미지 번역/요약 후처리: 요약이 비어 있으면 적재에서 제외하고, 이미지 번역에 금지 문자(중국어/키릴/아랍권) 포함 시 원본 description으로 대체. 이미지 요약/번역은 `image_summary`가 리스트면 이어붙여 사용.
+  - 이미지 번역 `image_summary`는 문자열, 이미지 요약은 문장 리스트(`image_keyword` 미사용).
+  - 테이블/이미지 첫 번째 항목 건너뛰기: 테이블 STR/UNSTR은 파일별 첫 테이블을 LLM payload에서 제외.
 
 | 파일 | id 구성 | text 내용 | 비고 |
 | --- | --- | --- | --- |
@@ -36,18 +39,19 @@
 - **전제**: `output/final/*.json`
 - **임베딩 적재 (dense-only)**:  
   `python3 core/qdrant/qdrant_ingest.py --base-dir output/final --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --batch-size 32`  
-  - 컬렉션: `final_embeddings` 고정, `text` 필드 임베딩(+메타로 보존)
+  - 컬렉션: `final_embeddings` 고정, 벡터 거리함수는 cosine 기본, `text` 필드 임베딩(+메타 보존)
 - **QA**:  
-  `python3 core/qdrant/qdrant_qa.py --csv input.csv --collection final_embeddings --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --llm-model qwen2.5:14b-instruct --top-k 5`  
+  `python3 core/qdrant/qdrant_qa.py --csv input.csv --collection final_embeddings --qdrant-url http://localhost:6333 --ollama-url http://localhost:11434 --embed-model snowflake-arctic-embed2 --llm-model qwen2.5:14b-instruct --top-k 7`  
+  - dense 검색 7개 그대로 사용(확장/재정렬 없음)  
   - 상단 상수로 LLM 파라미터 조정: `SYSTEM_PROMPT`, `LLM_TEMPERATURE`, `LLM_TOP_P`, `LLM_MAX_TOKENS` (top_p는 샘플링 시만 의미)  
-  - 컨텍스트에 `{{ID}}`가 있으면 동일 컬렉션에서 해당 ID 텍스트를 조회해 추가 컨텍스트로 사용  
-  - 결과 CSV: `answer`, `evidence` 컬럼 추가 저장
+  - 컨텍스트에 `{{ID}}`가 있으면 그때그때 컬렉션에서 조회해 치환(사전 캐시 없음)  
+  - 결과 CSV: `answer`, `evidence` 컬럼 추가 저장(임베딩/검색/생성 소요 ms 포함)
 
-## LLM 입력 필드 요약
-- 테이블 STR: `row_flatten`, `filename`, `image_link` (출력: table_summary)
-- 테이블 UNSTR: `section_path`, `filename`, `image_link` (출력: table_summary)
-- 이미지 TR: `description`, `image_link` (출력: image_summary, image_keyword)
-- 이미지 SUM: `image_link`, `context_before/after` (description 없음) (출력: image_summary, image_keyword)
+## LLM 입력 필드 요약 (2025-12-08 업데이트)
+- 테이블 STR: `row_flatten`, `filename`, `image_link` (출력: table_summary) — 파일별 첫 테이블은 payload에서 제외
+- 테이블 UNSTR: `section_path`, `filename`, `image_link`, `context_before/after`(각 20토큰, `{{...}}`는 다른 테이블/이미지 존재 의미) (출력: table_summary)
+- 이미지 TR: `description`, `image_link` (출력: image_summary 문자열, `image_keyword` 미사용)
+- 이미지 SUM: `image_link`, `context_before/after` (description 없음) (출력: image_summary 리스트, `image_keyword` 미사용)
 - 이미지 FORMULA: LLM 미사용, `description`을 text로 사용
 
 ## LLM 프롬프트/튜닝 포인트
@@ -55,7 +59,13 @@
 | --- | --- | --- | --- | --- | --- |
 | `core/llm/llm_payloads.py` (`TABLE_STR_INSTRUCTIONS`) | 테이블 정형 | row_flatten, filename, image_link | table_summary | 4~8문장, 단위·조건 보존, 조업 기준/임계값 강조 | 없음(프롬프트 직접 수정) |
 | `core/llm/llm_payloads.py` (`TABLE_UNSTR_INSTRUCTIONS`) | 테이블 비정형 | section_path, filename, image_link | table_summary | 이미지 기반 재구성, 4~8문장, 단위·조건 유지 | 없음(프롬프트 직접 수정) |
-| `core/llm/llm_payloads.py` (`IMAGE_TRANS_INSTRUCTIONS`) | 이미지 번역(IMG_TR) | description, image_link, section_path | image_summary, image_keyword | ‘이 도표/그림/그래프는’ 시작, 4~5문장, 단위·수치 보존, 키워드 5~15개 | 없음(프롬프트 직접 수정) |
-| `core/llm/llm_payloads.py` (`IMAGE_SUM_INSTRUCTIONS`) | 이미지 요약(IMG_SUM) | image_link, context_before, context_after | image_summary, image_keyword | 컨텍스트 15토큰, 축/단위/추세/흐름 4~5문장, 키워드 5~15개 | 없음(프롬프트 직접 수정) |
+| `core/llm/llm_payloads.py` (`IMAGE_TRANS_INSTRUCTIONS`) | 이미지 번역(IMG_TR) | description, image_link, section_path | image_summary(문자열) | ‘이 도표/그림/그래프는’ 시작, 4~5문장, 단위·수치 보존, 키워드 미사용 | 없음(프롬프트 직접 수정) |
+| `core/llm/llm_payloads.py` (`IMAGE_SUM_INSTRUCTIONS`) | 이미지 요약(IMG_SUM) | image_link, context_before, context_after | image_summary(문장 리스트) | 컨텍스트 15토큰, 축/단위/추세/흐름 4~5문장, 키워드 미사용 | 없음(프롬프트 직접 수정) |
 | `core/llm/run_llm_payloads.py` | LLM 생성 파라미터 | payload JSON | result JSON | Qwen2.5-VL 실행, 이미지 로드 | `MAX_NEW_TOKENS`, `REPETITION_PENALTY`, `NO_REPEAT_NGRAM_SIZE` 상단 상수 |
 | `core/qdrant/qdrant_qa.py` | QA 생성 | 검색 컨텍스트 + placeholder 해석 | CSV(answer/evidence) | 시스템 프롬프트 기반 QA | 상단 상수: `SYSTEM_PROMPT`, `LLM_TEMPERATURE`, `LLM_TOP_P`, `LLM_MAX_TOKENS` (top_p는 sampling 시 의미) |
+
+### 추가 변형사항 (2025-12-08)
+- 이미지 번역은 `image_summary` 문자열만 사용, 금지 문자(중국어/키릴/아랍권) 포함 시 원본 description으로 fallback, 비어 있으면 적재 제외.
+- 이미지 요약은 `image_summary` 리스트를 이어붙여 사용, 빈 값이면 적재 제외, `image_keyword` 미사용.
+- 테이블 비정형은 컨텍스트 20토큰을 사용하며, 컨텍스트의 `{{...}}`는 다른 테이블/이미지 존재를 의미.
+- Qdrant QA는 placeholder를 인라인 치환(이미지→`[이미지 참고]`, 테이블→`[테이블 참고]`, 실패 시 `[이미지 있음]/[테이블 있음]`), dense 7개 검색만 사용(확장/재정렬 없음).
