@@ -1,0 +1,1448 @@
+﻿question,answer,evidence,qa_embed_ms,qa_search_ms,qa_gen_ms,qa_elapsed_sec
+"환원제비(Reducing agent Ratio, R.R, RAR)이 무엇입니까","환원제비(RAR)는 코크스비와 미분탄비의 합으로, 단위는 kg/t-p이다. 고로내에서 환원제로서의 연료비를 나타내는 지표로, 연료비(RAR) = 코크스비 + 미분탄비로 정의된다. RAR은 환원제비(Reduction Agent Ratio) 또는 Reductant Ratio로도 불린다. 데이터는 시간에 따른 RAR 값의 변화를 통해 환원효과를 평가한다. 고로별로 기준이 상이할 수 있으나, 컨텍스트에 구체적 수치나 조건은 제공되지 않았다.","[1] type=image_sum | file=images_sum_final.json | score=0.6578 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 노열관리 및 보상기준] [경로: 4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념] <그림>은 'RAR (Reducing Agent Ratio)'와 관련된 데이터를 나타내며, 시간(x축)과 각각의 RAR 값(y축)으로 구성되어 있습니다.'RAR'이라는 변수는 주요한 내용이며, 다양한 색깔로 표시됩니다.(예: 녹색, 파란색).데이터는 특정 시간대에서 RAR 값을 변화시키는데 초점을 맞추고 있으며, 이를 통해 RAR_RTT (Reduction Rate Target Time)에 따른 효과를 평가할 수 있습니다.
+
+[2] type=table_str | file=tables_str_final.json | score=0.5732 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] 용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.
+
+[3] type=image_formula | file=images_formula_final.json | score=0.5431 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.10 환원제비 (kg/t-p)] 4.2.10 환원제비 (kg/t-p) = 코크스비 (kg/t-p) + 미분탄비 (kg/t-p)       (또는, 연료비, Fuel Ratio, RAR: Reduction Agent Ratio, RR: Reductant Ratio 이라고도 함)
+
+[4] type=table_str | file=tables_str_final.json | score=0.5193 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] ['용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.', '용어: 피환원성 | 단위: - | 정의: 철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다.']
+
+[5] type=image_sum | file=images_sum_final.json | score=0.4769 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 노열관리 및 보상기준] [경로: 4. 조업기준 / 4.5 풍구선단 보정 환원제비 (RAR.RT)에 의한 노열보상 / (1) RAR.RT 의 개념] <그림>은 'RAR.RT'와 관련된 노열 관리 및 보상 기준을 나타내며, 시간과 온도 변화를 통해 노열 상태를 모니터링하고 있습니다.'x축'에는 시간('시간')이고,'y축'에는 온도('온도')가 표시되어 있으며, 각 데이터 점들은 특정 시간대의 온도 값을 나타냅니다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.4693 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.6 고로장입 원, 연료 성상 용어] 용어: ○ RDI(ReductionDegradationIndex) | 단위: % | 정의: - 소결광이 고로내 500~700℃의 저온역에서 환원, 분화되는 정도를 나타내는 열간 강도 지수를 나타내는 것으로 소결광의 저온환원 분화지수라고 말한다.RDI(%) = [(시험후 - 3mm중량)/(시험전중량)] × 100 | 비고:
+
+[7] type=table_str | file=tables_str_final.json | score=0.4525 | t_embed_ms=2145.8 t_search_ms=13.2 t_gen_ms=10484.2
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.3 “미분탄 취입시 조엽기준”관련 용어] 용어: ○ 치환율 | 영문 표기: - | 정의: -미분탄 취입시 기준조엽 대비 코크스 감소량에 대한 미분탄 취입량이며 PCR 이 증가할수록 저하함 | 비고:",2145.8,13.2,10484.2,12.643
+고로에 주입하는 원료는 무엇이 있습니까? ,고로에 주입하는 원,"[1] type=table_str | file=tables_str_final.json | score=0.6233 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1:  | col2:  | col3: 제조 방법: ① 위 성분을 포함하는 원료에 8~10%정도의 수분 첨가 및 흔련② Pelletizer 로 입경 10~30mm 정도의 구상형의 생펠렛 (Green Pellet) 제조③ 1200~1300℃로 가열 소성
+
+[2] type=table_str | file=tables_str_final.json | score=0.6201 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)] 용어: Coke | 단위: - | 정의: 고로용 Coke 원이 되는 원료탄 대신에 고로의 풍구로 취입하여 사용하는 저가의 일반탄(분탄)으로 입도는 200 Mesh 이하가 80% 이다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.6142 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 사문암(Serpentite) | col2: - | col3: 사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용
+
+[4] type=table_str | file=tables_str_final.json | score=0.6084 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: CIP(Combined Pellet) | col2: - | col3: 제철소 내에서 발생하는 Dust 와 결합제(시멘트)를 첨가하여 Pellet을 만들어 고상화 시킨 것
+
+[5] type=table_str | file=tables_str_final.json | score=0.6038 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 석회석(Lime Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능
+
+[6] type=table_str | file=tables_str_final.json | score=0.5976 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 규석(Silica Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 높을 때 낮추기 위해 사용 → Slag 유동성 개선 가능
+
+[7] type=table_str | file=tables_str_final.json | score=0.5928 | t_embed_ms=53.8 t_search_ms=13.0 t_gen_ms=10391.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] 용어: Pellet | 단위: - | 정의: 미분의 분철광석을 고로 원료로써 사용하기 위하여 과성광으로 만든 것이다.구성 성분: 325mesh(44μ) 이하의 분철광석을 80~90% 함유, Bentonite(석회석) 0.5% 첨가",53.8,13.0,10391.4,10.458
+원료에서 Blending을 하는 이유가 무엇입니까?,컨텍스트에 'Blending'에 대한 설명이 없어 모른다.,"[1] type=table_str | file=tables_str_final.json | score=0.5166 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] 용어: Pellet | 단위: - | 정의: 미분의 분철광석을 고로 원료로써 사용하기 위하여 과성광으로 만든 것이다.구성 성분: 325mesh(44μ) 이하의 분철광석을 80~90% 함유, Bentonite(석회석) 0.5% 첨가
+
+[2] type=table_str | file=tables_str_final.json | score=0.5064 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: CIP(Combined Pellet) | col2: - | col3: 제철소 내에서 발생하는 Dust 와 결합제(시멘트)를 첨가하여 Pellet을 만들어 고상화 시킨 것
+
+[3] type=table_str | file=tables_str_final.json | score=0.4916 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)] 용어: 점결성 | 단위: - | 정의: 석탄을 건류(乾溜) · 연소할 때 석탄입자가 연화용용(軟化溶融)하여 서로 점결하는 성질을 말한다. 자유펑창지수(FSI), 유동도(L-MF), 전팽창(TD)
+
+[4] type=text | file=texts_final.json | score=0.4908 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 2. 목적] # 2. 목적
+
+## 가. 고로공정중 장입 원, 연료에 관련된 용어를 정확하게 인식하여 공정관리자 및 조업자 상호간의 원활한 의사 소통과 정보 전달을 가능하기 위함이다.나. 고로 장입물(원, 연료)의 특성을 이해하여 입조 및 관리 기준, 재고상태 등을 파악하여, 향후 노황을 예측하여 고로에서 요구하는 양질의 원, 연료를 안정적으로 공급하기 위함이다.
+
+[5] type=table_str | file=tables_str_final.json | score=0.4877 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 망간(Manganese) | col2: - | col3: 사용 목적: 용선중 [Mn]을 높이고 Slag 유동성 개선 산소 및 황과의 친화력이 Fe 보다 크기 때문에 탈산 및 탈황 작용 발생
+
+[6] type=table_str | file=tables_str_final.json | score=0.4863 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.2 정립광 품질관리 용어] 용어: 선광(beneficiation) | 단위: - | 정의: 광석이나 그 밖의 공업원료 광물을 다른 목적광물 또는 무가치한 성분에서 물리적·기계적 방법 등으로 분리하는 작업을 말한다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.4843 | t_embed_ms=47.4 t_search_ms=10.4 t_gen_ms=7225.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1:  | col2:  | col3: 제조 방법: ① 위 성분을 포함하는 원료에 8~10%정도의 수분 첨가 및 흔련② Pelletizer 로 입경 10~30mm 정도의 구상형의 생펠렛 (Green Pellet) 제조③ 1200~1300℃로 가열 소성",47.4,10.4,7225.4,7.283
+고로 내에 부원료를 사용하는 이유는 무엇입니까?,"고로 내 부원료는 Slag 유동성 개선, 탈황능 향상, 영기도(CaO/SiO₂) 조절 등을 위해 첨가한다. 규석, 석회석, 사문암 등은 Slag의 물성과 후공정 요구에 맞는 용선 품질을 확보하기 위해 사용된다. 고로별로 Al₂O₃ 함량 및 사용량이 달라져 조업 기준에 따라 적정량을 관리한다. 저온용해 특성과 융점 조절을 위해 BALLAST를 사용하여 규석 및 석회석 사용량을 감소시킨다. 각 고로(예: P-3BF, K-1BF 등)의 부원료 사용량과 조성은 운영 조건에 따라 달라진다.","[1] type=table_str | file=tables_str_final.json | score=0.6245 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 부원료(Flux) | col2: - | col3: 고로 조업에 알맞은 Slag 제조 및 후공정 요구에 알맞은 용선 품질을 만들기 위해 첨가하는 원료의 통칭종류: 규석, 석회석, 사문암, 망간, CIP 등
+
+[2] type=table_str | file=tables_str_final.json | score=0.6156 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 사문암(Serpentite) | col2: - | col3: 사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용
+
+[3] type=table_str | file=tables_str_final.json | score=0.6085 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 석회석(Lime Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능
+
+[4] type=text | file=texts_final.json | score=0.6071 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.2 충진용 장입물 설정기준 / 4.2.2 부원료] ### 4.2.2 부원료
+
+#### 가. BALLAST
+● 고로 화입 충진시 특별제조된 Slag(BALLAST)를 사용하여 융점이 높고 열적 손실이 큰 규석 및 석회석 사용량을 저감하기 위함이다.
+● 저온용해가 타 Flux 비해 용이하므로 Al₂O₃ 목표범위내에서 최대사용을 기본개념으로 하였다. (입도는 10~30mm 수준)
+● 고로별 BALLAST 사용실적
+
+[테이블 참고] ['col1: 사용량(Ton) | P-3BF(R1): 116 | P-3BF(R2): 284.2 | K-1BF: 115 | K-2BF: 132 | K-2BF(R1): 280.7 | K-3BF: 133 | K-4BF: 155.8 | K-5BF: 170.9', 'col1: Al₂O₃ (%) | P-3BF(R1): < 13.0 | P-3BF(R2): < 11.5 | K-1BF: 12.40 | K-2BF: 12.55 | K-2BF(R1): 12.1 | K-3BF: 12.10 | K-4BF: 12.02 | K-5BF: 12.20']
+
+#### 나. 규석, 석회석
+저온용용이 어려우며, 융착대 폭을 증대시킬 우려가 있으므로 장입량을 가능한 줄인다.
+
+
+o 고로별 총진용 부원료 사용실적
+
+[테이블 참고] ['구분: 廣畑 4BF | 내용적(m³): 2,548 | Ballast(Ton): 190 | 규석(Ton): 51 | 석회석(Ton): 88 | 합계(Ton): 329', '구분: 君津 1BF | 내용적(m³): 2,708 | Ballast(Ton): 170 | 규석(Ton): 77 | 석회석(Ton): 120 | 합계(Ton): 367', '구분: 2BF | 내용적(m³): 3,018 | Ballast(Ton): 132 | 규석(Ton): 100 | 석회석(Ton): 210 | 합계(Ton): 442', '구분: 3BF | 내용적(m³): 4,063 | Ballast(Ton): 197 | 규석(Ton): 111 | 석회석(Ton): 202 | 합계(Ton): 510', '구분: 포항 1BF | 내용적(m³): 1,660 | Ballast(Ton): 88 | 규석(Ton): 48 | 석회석(Ton): 100 | 합계(Ton): 236', '구분: 1BF(R1) | 내용적(m³): 1,660 | Ballast(Ton): 82 | 규석(Ton): 49 | 석회석(Ton): 100 | 합계(Ton): 231', '구분: 1BF(R2) | 내용적(m³): 1,660 | Ballast(Ton): 62 | 규석(Ton): 54 | 석회석(Ton): 96 | 합계(Ton): 212', '구분: 2BF | 내용적(m³): 2,254 | Ballast(Ton): 89 | 규석(Ton): 64 | 석회석(Ton): 144 | 합계(Ton): 229', '구분: 2BF(R1) | 내용적(m³): 2,550 | Ballast(Ton): 80 | 규석(Ton): 68 | 석회석(Ton): 141 | 합계(Ton): 289', '구분: 2BF(R2) | 내용적(m³): 2,550 | Ballast(Ton): 118 | 규석(Ton): 71 | 석회석(Ton): 144 | 합계(Ton): 333', '구분: 3BF(R1) | 내용적(m³): 3,795 | Ballast(Ton): 116 | 규석(Ton): 105 | 석회석(Ton): 218 | 합계(Ton): 439', '구분: 3BF(R2) | 내용적(m³): 4,350 | Ballast(Ton): 284.2 | 규석(Ton): 38.3 | 석회석(Ton): 137.3 +42.1(사문암) | 합계(Ton): 501.8', '구분: 4BF | 내용적(m³): 3,795 | Ballast(Ton): 88 | 규석(Ton): 97 | 석회석(Ton): 205 | 합계(Ton): 390', '구분: 4BF(R1) | 내용적(m³): 3,795 | Ballast(Ton): 170 | 규석(Ton): 88 | 석회석(Ton): 193 | 합계(Ton): 451', '구분: 신 FBF | 내용적(m³): 1,080 | Ballast(Ton): 46 | 규석(Ton): 37 | 석회석(Ton): 65 | 합계(Ton): 148', '구분: 광양 1BF | 내용적(m³): 3,800 | Ballast(Ton): 115 | 규석(Ton): 98 | 석회석(Ton): 179 | 합계(Ton): 390', '구분: 2BF | 내용적(m³): 3,800 | Ballast(Ton): 132 | 규석(Ton): 102 | 석회석(Ton): 197 | 합계(Ton): 431', '구분: 2BF(R1) | 내용적(m³): 4,350 | Ballast(Ton): 280.7 | 규석(Ton): 35.0 | 석회석(Ton): 135.1 | 합계(Ton): 41.4', '구분: 3BF | 내용적(m³): 3,800 | Ballast(Ton): 139 | 규석(Ton): 85 | 석회석(Ton): 199 | 합계(Ton): 423', '구분: 4BF | 내용적(m³): 3,800 | Ballast(Ton): 156 | 규석(Ton): 80 | 석회석(Ton): 188 | 합계(Ton): 424', '구분: 5BF | 내용적(m³): 4,020 | Ballast(Ton): 155.8 | 규석(Ton): 64.6 | 석회석(Ton): 159.6 | 합계(Ton): 380.0']
+
+[5] type=text | file=texts_final.json | score=0.6048 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 2. 목적] # 2. 목적
+ㅇ 고로에서 사용하는 연료의 물리, 화학적 성상은 고로의 노황 및 용성품질을 결정짓는 주요소이다.
+
+ㅇ 고로 노황이 안정된 상태에서 양질의 용선이 생산되도록 연료의 특성에 대하여 이해 할 필요가 있다.
+
+[6] type=text | file=texts_final.json | score=0.5997 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입 연,원료 용어의 기준] [경로: 2. 목적] # 2. 목적
+
+## 가. 고로공정중 장입 원, 연료에 관련된 용어를 정확하게 인식하여 공정관리자 및 조업자 상호간의 원활한 의사 소통과 정보 전달을 가능하기 위함이다.나. 고로 장입물(원, 연료)의 특성을 이해하여 입조 및 관리 기준, 재고상태 등을 파악하여, 향후 노황을 예측하여 고로에서 요구하는 양질의 원, 연료를 안정적으로 공급하기 위함이다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5974 | t_embed_ms=45.4 t_search_ms=9.2 t_gen_ms=11225.9
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 규석(Silica Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 높을 때 낮추기 위해 사용 → Slag 유동성 개선 가능",45.4,9.2,11225.9,11.297
+"통기성(Permeability, K)이 무엇입니까?","통기저항지수(K)는 [(PB + 1,033)² - (PT + 1,033)²] × VBG^{1.7}으로 계산되며, Carman의 압력손실식 ΔP = K·G²⁻β에서 β=0.3을 적용한 값이다. VBG는 부스가스 부피(Nm³/min)를 나타내고, PB/PT는 압력값(g/cm²)이다. 고로의 통기성과 관련된 지표로, 노내","[1] type=image_formula | file=images_formula_final.json | score=0.5131 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.2 통기저항지수 (K)] 4.3.2 통기저항지수 (K) = [((PB + 1,033)²- (PT + 1,033)²{VBG^{1.7}} 주) VBG : Volume of Bosh Gas (Nm³/min) 대기압 : 1atm = 1,033 (g/cm²)
+
+[2] type=text | file=texts_final.json | score=0.4852 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.2 통기저항지수 (K)] ### 4.3.2 통기저항지수 (K)
+[이미지 참고] 4.3.2 통기저항지수 (K) = [((PB + 1,033)²- (PT + 1,033)²{VBG^{1.7}} 주) VBG : Volume of Bosh Gas (Nm³/min) 대기압 : 1atm = 1,033 (g/cm²)
+* Carman 의 총진층 압력손실식 Δ P = K.G²-β)/( 으로 부터 유도 (고로의 경우 β=0.3 적용)
+
+[테이블 참고] ['단구분: UK | 1 고로: TP - SP6 | 2,3,4 고로: TP - SP10', '단구분: MK | 1 고로: SP6 - SP3 | 2,3,4 고로: SP10 - SP6', '단구분: LK | 1 고로: SP3 - BP | 2,3,4 고로: SP6 - BP']
+
+[3] type=table_str | file=tables_str_final.json | score=0.4630 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.2 통기저항지수 (K)] 단구분: LK | 1 고로: SP3 - BP | 2,3,4 고로: SP6 - BP
+
+[4] type=table_str | file=tables_str_final.json | score=0.4626 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.2 통기저항지수 (K)] 단구분: MK | 1 고로: SP6 - SP3 | 2,3,4 고로: SP10 - SP6
+
+[5] type=table_str | file=tables_str_final.json | score=0.4607 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.2 SLAG 의 성분] 염기성: K2O | 산성: Mo3 | 양(兩)성:
+
+[6] type=text | file=texts_final.json | score=0.4555 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: Coke 중심장입 및 Nut Coke 장입기준] [경로: 1. 적용범위] # 1. 적용범위
+고로의 통기성 향상을 위한 장입물 분포제어 방법으로 중심 Gas 류 개선을 위한 Coke 중심장입기술 및 벽부 Gas 류 개선을 위한 Nut Coke 장입 기술에 대해 적용한다.
+
+[7] type=text | file=texts_final.json | score=0.4542 | t_embed_ms=44.6 t_search_ms=3.3 t_gen_ms=10394.4
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.2. 고로에서 요구되는 Coke의 특징 / 4.2.5 강도가 높을 것] ### 4.2.5 강도가 높을 것
+고로 노내에서 통기성을 유지하는 것이 Coke 의 중요한 역할 중의 하나인데 이를 위해서는 수송과정이나 노내 강하시 분화가 되지 않도록 강도가 높아야 한다. 특히 대형 고로일 경우 에는 노내에서 Coke 가 받는 하중이 더욱 크므로 한층 높은 강도가 요구된다.",44.6,3.3,10394.4,10.448
+Coke 품질 지표로 WF-DI30150 가 나오는데 그것이 의미하는 것이 무엇입니까?,"WF-DI30150은 고로에서 채취한 코크 샘플의 강도지수로, Coke Oven WHARF에서 측정한 Drum Index를 의미합니다. 2고로 기준은 ≥84%, 3고로 및 4고로 기준은 ≥86%입니다. 제공된 컨텍스트에는 30150이라는 구체적 수치는 언급되지 않았습니다.","[1] type=table_str | file=tables_str_final.json | score=0.6014 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.6 고로장입 원, 연료 성상 용어] 용어: ○ W/F DI(Drum Index) | 단위: % | 정의: - Coke Oven WHARF 에서 Sampling 하여 측정한 Coke 강도지수 | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.5759 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: COKE 및 COAL 품질관리 기준] [경로: 4. 조업 기준 / 4.1 Coke 품질관리 기준] 항목: Wf DI (%) | 2고로: ≥ 84 | 3고로: ≥ 86 | 4고로: ≥ 86 | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.5720 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.4 장입물 충진작업 기술] 용어: o W/F DI(Drum Index) | 단위: % | 정의: - Coke Oven WHARF 에서 Sampling 하여 측정한 Coke 강도지수 | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.5485 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: COKE 및 COAL 품질관리 기준] [경로: 4. 조업 기준 / 4.1 Coke 품질관리 기준] ['항목: Wf DI (%) | 2고로: ≥ 84 | 3고로: ≥ 86 | 4고로: ≥ 86 | 비고: ', '항목: MS (mm) | 2고로: ≥ 50 | 3고로: ≥ 50 | 4고로: ≥ 50 | 비고: ', '항목: Ash (%) | 2고로: ≤ 12.0 | 3고로: ≤ 12.0 | 4고로: ≤ 12.0 | 비고: ']
+
+[5] type=table_str | file=tables_str_final.json | score=0.5301 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: Coke 중심장입 및 Nut Coke 장입기준] [경로: 3. 중점관리 항목] ['col1: 품질영향 인자 | col2: 공정영향 인자', 'col1: [Si], [S] | col2: 풍압, 노열']
+
+[6] type=image_sum | file=images_sum_final.json | score=0.5296 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: COKE 및 COAL 품질관리 기준] [경로: 6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.3 Coke 품질에 따른 상관성 비교] <그림>은 'Coke 및 COAL품질 관리 기준'이라는 제목으로 표시되어 있으며, 각 항목들이 서로 연결된 형태로 구성되어 있습니다.'Coke 품 질 에 따 른 상 관 성 비 교'라는 부제목 아래에 위치하고 있어, coke와 관련된 다양한 데이터들을 나타내고 있는 것으로 보입니다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5253 | t_embed_ms=45.0 t_search_ms=3.4 t_gen_ms=7826.9
+[문서: COKE 및 COAL 품질관리 기준] [경로: 5. 이상판단 및 조치기준 / 5.1 Coke 관리기준 초과 조치범위] 항목: Wf DI | 2 ~ 4 고로: 관리기준 - 2% | 비고: 좌측항목안의 관리기준을 초과한 사항에 대해",45.0,3.4,7826.9,7.875
+Coke 품질 지표로 CSR이 나오는데 그것은 무슨 의미입니까?,,"[1] type=table_str | file=tables_str_final.json | score=0.7109 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.6 고로장입 원, 연료 성상 용어] 용어: ○ CSR(Coke StrengthReaction) | 단위: mm | 정의: - 열간에서 Coke가 반응하고 난 후의 강도 | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.6943 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.4 장입물 충진작업 기술] 용어: ○ CSR(Coke Strength Reaction) | 단위: % | 정의: -열간상태에서 Coke 가 반응하고 난 후의 강도 | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.6561 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.4 장입물 충진작업 기술] ['용어: ○ CSR(Coke Strength Reaction) | 단위: % | 정의: -열간상태에서 Coke 가 반응하고 난 후의 강도 | 비고: ', '용어: ○ MS(Mean Size) | 단위: mm | 정의: -Coke의 평균입도 | 비고: ', '용어: ○ BIN | 단위: - | 정의: - 원료 및 COKE 를 고로에 수송하는 과정중에 평량을 위하여 일시적으로 저장하는 장소 | 비고: ']
+
+[4] type=text | file=texts_final.json | score=0.5591 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.2. 고로에서 요구되는 Coke의 특징 / 4.2.3 [S]가 적을 것] ### 4.2.3 [S]가 적을 것
+강재 취성의 원인이 되는 [S]는 고로에 장입되는 양 중의 80~90%가 Coke 로 부터 유입된다. 따라서 Coke 중의 [S] 함량은 적을수록 좋다.
+
+[5] type=image_sum | file=images_sum_final.json | score=0.5556 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: COKE 및 COAL 품질관리 기준] [경로: 6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.3 Coke 품질에 따른 상관성 비교] <그림>은 'Coke 및 COAL품질 관리 기준'이라는 제목으로 표시되어 있으며, 각 항목들이 서로 연결된 형태로 구성되어 있습니다.'Coke 품 질 에 따 른 상 관 성 비 교'라는 부제목 아래에 위치하고 있어, coke와 관련된 다양한 데이터들을 나타내고 있는 것으로 보입니다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.5434 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.3 장입작업] 용어: ○ C.B (Coke Base) | 단위: Ton/Ch | 정의: - 고로내에 1 Charge 당 장입하는 Coke 량 | 비고:
+
+[7] type=text | file=texts_final.json | score=0.5397 | t_embed_ms=44.8 t_search_ms=3.4 t_gen_ms=10421.1
+[문서: COKE 및 COAL 품질관리 기준] [경로: 4. 조업 기준 / 4.1 Coke 품질관리 기준] ## 4.1 Coke 품질관리 기준
+
+[테이블 참고] ['항목: Wf DI (%) | 2고로: ≥ 84 | 3고로: ≥ 86 | 4고로: ≥ 86 | 비고: ', '항목: MS (mm) | 2고로: ≥ 50 | 3고로: ≥ 50 | 4고로: ≥ 50 | 비고: ', '항목: Ash (%) | 2고로: ≤ 12.0 | 3고로: ≤ 12.0 | 4고로: ≤ 12.0 | 비고: ']",44.8,3.4,10421.1,10.473
+"고로 조업의 연료로서 PC(Purverized Coal, 미분탄)를 사용하는데, 통기성에도 좋지 않는데 왜 사용비를 증가시키려고 하는 겁니까?",,"[1] type=text | file=texts_final.json | score=0.6536 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 고출선비 조업시 연,원료 품질관리 기준] [경로: 4. 조업기준 / 4.3 Coke 및 PCI Coal 품질개선 목표] ## 4.3 Coke 및 PCI Coal 품질개선 목표
+고출선비 조업시에는 노상부에 장입된 Coke 는 송풍에너지 증가 및 강한 Speed 증가에 의하여 기본적으로 분화되기 쉽고 노심 부위에 촉적된 분 Coke 는 Slag 유동성을 저하시켜 노하부 통액성에 악영향을 미치므로 입도 및 냉간, 열간 강도의 증가가 요구된다. 또한 Coke Ash 는 0.1% 저하시 출선비 0.2% 증가 효과가 있으므로 최대한 낮추어서 연료비 저감을 도모한다.
+
+PCI Coal 은 연료비와 Gas Volume 의 감소를 위하여 가능한 고발열량, 저휘발분의 반무연탄을 사용하는 것이 유리하나, 저휘발분의 반무연탄을 전량 사용시 연소성 악화에 의하여 노심에 미연소 Coal 의 촉적으로 노화학화의 위험이 있으므로 연소성을 고려하여 고 휘발분 Coal 을 일정 비율로 혼합하여 사용해야 하며, 풍구전 반응에 의한 SiO Gas 발생 최소화를 위하여 저 SiO₂ Coal 을 사용한다.
+
+[2] type=image_formula | file=images_formula_final.json | score=0.6333 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.9 미분탄비 (kg/t-p)] 4.2.9 미분탄비 (kg/t-p) = [(미분탄 사용량 (kg/d))/(이론 출선량 (t-p/d))]       (또는, Puverized Coal-injection Ratio, PC.R 이라고도 함)
+
+[3] type=text | file=texts_final.json | score=0.6203 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: Coal 연소성 향상방안 기준] [경로: 2. 목적] # 2. 목적
+미분탄 취입조업에서 미분탄 취입량 증가에 따른 노내 각 부위별 연소성 저해요인과 연소거동 변화에 대한 연소성 향상방안 수립으로 안정적인 고미분탄 취입 수행을 하기위함
+
+[4] type=table_str | file=tables_str_final.json | score=0.6191 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] ['용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고: ', '용어: ○ 미분탄비 | 영문 표기: PCR | 정의: -용선 1Ton 생산시 투입되는 미분탄량 (Kg/T-P) | 비고: ']
+
+[5] type=text | file=texts_final.json | score=0.6136 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 미분탄 취입시 조업 대책 기준] [경로: 6. 기술이론 / 6.2 하절기 미분탄 조업시 중점관리 사항] ## 6.2 하절기 미분탄 조업시 중점관리 사항
+● 대기습분 상승으로 연료비 상승 및 Coal 연소성 저하에 대한 대책수립
+● 우기로 인한 연원료의 품질변동으로 노황불안정 가능성 크므로 조업 밀착관리
+● 사용 연원료 개선: 소결광 품질(기술기준 'TP-030-020-030_소결광 품질관리 기준' 참조) Coke 품질(기술기준 'TP-030-020-070_Coke 및 Coal 품질관리 기준'참조') 확보
+● 장기간 미분탄 다량취입시 노황 Control 불량 (산소부화율 증대 및 원료품질 개선)
+● 노저온도 상승방지 및 노내 용용물 배출강화 (열풍제어변, 조벽용 Mud 재 사용)
+● 노내 적정 장입률 분포제어 실시 (노내 통기성 개선 및 분장입량 감소)
+● 연료비 저하 위한 노내 GAS 류 분포 정밀분석 필요 (수직 Probe 설치추진)
+● 광종 및 탄종 변경에 따른 노열 및 노황 변동 크므로 Pellet 및 PC 탄종 축소 필요
+
+[6] type=text | file=texts_final.json | score=0.6122 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 미분탄 취입시 노내변화 기준] [경로: 2. 목 적] # 2. 목 적
+고가의 COKE 를 저가의 유연탄으로 대체하는 미분탄 취입조업은 ALL COKE 조업과는 달리 노내 O/C 증대에 따른 통기성 악화, 노하부 GAS 류 분포조건의 변화, 노내 온도분포의 변화 등 노내상황의 변화가 발생하므로 PCR 증가에 따른 제반 상황을 미연에 설정하여 안정적인 고로조업 수행을 위한.
+
+[7] type=text | file=texts_final.json | score=0.6112 | t_embed_ms=80.0 t_search_ms=3.2 t_gen_ms=10669.9
+[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.2 조업도 상승방법 / 4.2.5 조기 PCI 조업실시] ### 4.2.5 조기 PCI 조업실시
+● 조업도 조기 상승시에 발생할수 있는 노열 부족현상에 대비
+● Po 출선량 증가에 따른 대처수단으로 가능한 조기에 미분탄취입을 실시한다(Burner 는 화입시 취부).",80.0,3.2,10669.9,10.753
+"고로의 모양을 볼 때, 노구에서 Belly 부분까지는 넓어지다가 Bosh 부분에서 다시 좁아지는데 그 이유는 무엇입니까?",컨텍스트에 해당 이유에 대한 구체적 설명이 없음.,"[1] type=text | file=texts_final.json | score=0.6073 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 노체 Profile 기본사상 기준] [경로: 6.3.5 Belly] ## 6.3.5 Belly
+Belly 부는 노상경 Bosh 각도 및 높이에 의하여 결정 되지만 Belly 경과 노상경의 비는 중형고로에서는 1.2 ~ 1.3, 대형고로 에서는 1.1 전후이다.
+
+[2] type=text | file=texts_final.json | score=0.5847 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 노체 Profile 기본사상 기준] [경로: 6.3.7 노구] ### 6.3.7 노구
+Shaft 와의 관계에 의하여 결정 되는데 장입물의 장입방법, 장입물의 분포제어, 장입장치에 의하여 결정된다. 고로의 대형화와 함께 노구경의 확대는 최근 10m 전후 대형고로 출현하여 노구경이 클 경우 중심부의 광석과 Coke 층후 확보가 곤란함과 동시에 광석에 의한 Coke의 내부 유입이 증가시 에 노정가스 분포제어가 곤란 하므로 장입장치를 Bell Type 에서 분포제어가 다양한 Bell-less Type 으로 개발 적용되고 있다.
+
+[3] type=text | file=texts_final.json | score=0.5617 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 장입물 분포제어와 연화융착대 형상기준] [경로: 4. 조업 기준 / 4.1 연화용착대 형성 및 노황에 미치는 영향 / 4.1.2 연화융착대 형상에 따른 노황 변화] ### 4.1.2 연화융착대 형상에 따른 노황 변화
+
+[이미지 있음]
+A 형: Δ L 길이가 길고, L' 길이는 짧음
+
+● 노심과 융착대 사이의 공극 확보가능(통기성 개선)
+● 융착대 ~ Skin Flow 간 Gas 흐름 용이
+
+B 형: Δ L' 길이가 짧고, L' 길이는 길
+
+● 노심과 융착대 사이의 공극 협소(통기성 악화)
+● 융착대 ~ Skin Flow 간 Gas 흐름 불리
+
+[4] type=text | file=texts_final.json | score=0.5579 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.5 압축율] ### 4.1.5 압축율
+압축율은 Bosh 부 15%, Top 부 5%로 하고 그 사이에는 직선적으로 변하는 것이 일반적이다.
+
+o 각 고로별 O/C 변화율
+
+[이미지 있음]
+
+[5] type=table_str | file=tables_str_final.json | score=0.5572 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.3 Stave 모재의 재질 변화] col1: 고 열부하 영역 및 기계적 마모부위(Shaft ~ Bosh) | col2: 고 열전도성 필요부위(풍구 ~ Hearth)
+
+[6] type=text | file=texts_final.json | score=0.5539 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 노체 Profile 기본사상 기준] [경로: 2 대기 조업결과] # 2 대기 조업결과
+
+[이미지 참고] <그림>은 'TP-0�30-螺90-螺20'이라는 제목의 프로필 기본 사상을 나타내며, 각 부분의 변화와 특징을 보여줍니다.'대기 조업 결과'라는 주제 아래, <그림>에서는 특정 시간 동안의 변화를 관찰할 수 있습니다.
+● 2 대기 15 년간 조업 결과 Bosh Profile 변동 발생
+● 보쉬에서의 노벽 탈락으로 인한 원주방향 unbalance
+● 고 PCI 조업 등에 의한 Bosh 에서의 영향에 의한 원주방향 Unbalance
+● 3 대기 Profile 설계시 Bosh 각도는 가능한 한 Profile 에 변동이 없도록 함. 즉, 노벽의 내화물 마모시 Bosh 각도가 변동되는데, 내화물 마모시에도 Bosh 각도에 변동이 생기지 않도록 고려하여 설계
+● Oita 2 고로 3 차 개수시 Bosh 각도는 1,2 대기 조업 결과를 토대로 78.69°로 결정하였으며, 연와 탈락시 Angle 을 81.54°로 설계. 연와는 냉각능 증대, 연와탈락 방지 위해 앞게 쌓음
+● Bosh 높이는 4000mm 로 설계.
+
+그림 7. Oita 2 고로 3 차 개수 Bosh Profile
+
+● Kimitsu 는 Bosh 에 4 개의 T/C 를 설치하였으나, Oita 2BF 는 Bosh 부위에 8 개의 T/C 설치.
+● Bosh Profile 설계시 우선 순위는 Bosh 각도-Bosh 높이 순임.
+
+[이미지 있음]
+
+- Bosh 에서의 온도에 의한 영향 실험 결과
+
+● 1700℃의 Gas 통과시 Stave 온도는 170℃까지 상승.
+● 1 시간 이상 Stave 온도가 140~150℃ 수준이면 연와가 없는 것으로 판단.
+● Bosh 부위 연와는 480℃ level 에서부터 침식.
+
+그림 8. Bosh 에서의 온도에 의한 영향 실험 결과
+
+[이미지 있음]
+
+[7] type=text | file=texts_final.json | score=0.5531 | t_embed_ms=45.2 t_search_ms=3.4 t_gen_ms=10814.0
+[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.1 장입물 분포제어 / 4.1.2 장입 Notch 설정근거] ### 4.1.2 장입 Notch 설정근거
+장입 Notch 설정근거는 고로내에 장입물을 분배함에 있어서 노중심을 기준하여 벽측의 단면적이 크고 중심 및 중간부위가 단면적이 상대적으로 적다. 따라서 반경방향의 거리를 벽측은 좁게하고 중간부로 갈수록 넓게 되도록 장입물을 분배시켜 각 Notch 별로 장입물이 차지하는 면적이 동일하도록 Chute 각도를 조정하였으며 이를 등면적 분할방식이라고 한다. (노 중심부로 갈수록 경동각도 차이를 크게하면 면적 배분이 벽측과 동일하게 된다)
+
+
+#### 가. 장입 Notch 별 낙하궤적 (예: 포항 고로 낙하궤적)
+
+[이미지 참고] <그림>은 '장입 모드 기본 사상'이라는 주제로 표시되어 있으며, 각 부분은 특정한 내용을 나타내고 있습니다.'벽측과 동등하다'라는 표현으로 인해, 장입 모드의 분배 방식이나 특성에 대해 논의하고 있는 것으로 보입니다.",45.2,3.4,10814.0,10.879
+단위 사용에 있어서 Nm3(노르말 누베)가 자주 나오는데 그것이 무엇입니까,컨텍스트에 Nm³에 대한 설명이 없습니다. 모르겠습니다.,"[1] type=table_str | file=tables_str_final.json | score=0.5813 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로공통] 용어: ○ 실용적 | 단위: m³ | 정의: - 고로 장입기준선에서 노저 Bottom 연와 상단까지의 노체 Stave 또는 연와 안쪽의 체적 | 비고:
+
+[2] type=text | file=texts_final.json | score=0.5197 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 노체하부 불활성화시 조치기준] [경로: 3. 중점관리항목] # 3. 중점관리항목
+
+[테이블 참고] ['품질영향인자: [Si], [S] | 공정영향인자: 풍압, 노열']
+
+[3] type=text | file=texts_final.json | score=0.4985 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 노저파손 사고시 조치 및 복구방법 기준] [경로: 3. 중점관리항목] # 3. 중점관리항목
+
+[테이블 참고] ['col1: 품질영향인자 | col2: 공정영향인자', 'col1: Si, S | col2: 풍압, 노열']
+
+[4] type=table_str | file=tables_str_final.json | score=0.4930 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 노저파손 사고시 조치 및 복구방법 기준] [경로: 3. 중점관리항목] ['col1: 품질영향인자 | col2: 공정영향인자', 'col1: Si, S | col2: 풍압, 노열']
+
+[5] type=text | file=texts_final.json | score=0.4914 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 노내Gas류 제어기술 기준] [경로: 3 중점관리 항목] # 3 중점관리 항목
+
+[테이블 참고] ['품질영향인자: [Si], [S] | 공정영향인자: 풍압, 노열']
+
+[6] type=text | file=texts_final.json | score=0.4904 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 노황변동시 조치기준] [경로: 3. 중점관리항목] # 3. 중점관리항목
+
+[테이블 참고] ['col1: 품질영향 인자 | col2: 공정영향 인자', 'col1: [Si] [S] | col2: 풍압, 노열,']
+
+[7] type=table_str | file=tables_str_final.json | score=0.4893 | t_embed_ms=49.2 t_search_ms=3.3 t_gen_ms=7060.1
+[문서: 미분탄 취입시 노내변화 기준] [경로: 3. 중점 관리항목] ['col1: 품질영향인자 | col2: 공정영향인자', 'col1: [Si], [S] | col2: 풍압, 노열']",49.2,3.3,7060.1,7.124
+ηCO라는 지표가 무엇이며 어떻게 읽는지 부탁드리겠습니다.,"ηCO는 CO Gas 이용율(%)로, ηCO = (CO₂)/(CO + CO₂) × 100으로 계산된다. 2고로와 4고로 기준은 동일 O/C에서 변동폭 0.5%/2시간 내 유지된다. 2고로와 4고로 모두 동일한 기준을 적용한다. CO와 CO₂의 비율을 통해 가스 이용 효율을 평가한다. 계산식과 기준은 원문 그대로 유지되었다.","[1] type=image_formula | file=images_formula_final.json | score=0.5364 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.15 CO Gas 이용율(%) : ηCO] 4.3.15 CO Gas 이용율(%) : ηCO = frac{CO₂{CO + CO₂ × 100
+
+[2] type=table_str | file=tables_str_final.json | score=0.5183 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 노체하부 불활성화시 조치기준] [경로: 4. 조업기준 / 4.6 노하부 불활성 해소판단 기준 (Cleaning 완료 및 증광판단 기준)] 항목: 바. η CO | 4 고로 기준: 동일 O/C 에서 변동폭0.5%/ 2 시간이내 | 2 고로 기준: 동일 O/C 에서 변동폭0.5%/ 2 시간이내 | 비고:
+
+[3] type=image_sum | file=images_sum_final.json | score=0.5063 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.4 고가동을 조업시 영향] <그림>은 'Coke와 Coal의 고로 사용 연료 기준'이라는 주제로 제공된 데이터를 나타내며, X축에는 '강도'라는 변수가 표시되어 있으며 Y축에서는 '입도'라는 값을 나타냅니다.'강도'는 800에서 1000 사이의 값으로 변환되고 있습니다.'입도'는 각각의 색깔과 모양을 통해 다르게 표현되었으며, 녹색 원형은 'Coal', 파란 사각형은 'Coking coke'를 의미합니다.
+
+[4] type=image_formula | file=images_formula_final.json | score=0.5017 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 열풍로 연소기술 기준] [경로: 6. 기술이론 / 6.1 열 정 산 / 6.1.4 총열량(A0) : 연소, 송풍 1Cycle 동안 열풍로에서 지출된 총열량] Y5 = COG 유량 × COG 중 O2 = 6437 × 0.009 = 58Nm³/Hr
+
+[5] type=image_formula | file=images_formula_final.json | score=0.5011 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 열풍로 연소기술 기준] [경로: 6. 기술이론 / 6.1 열 정 산 / 6.1.4 총열량(A0) : 연소, 송풍 1Cycle 동안 열풍로에서 지출된 총열량] Y3 = COG 유량 × (COG 중 CO2 + COG 중 CO + 2 × COG 중 C2H6 + 2 × COG 중 C2H4 +  COG 중 CH4) = 6437 × (0.024 + 0.062 + 2 × 0.0 + 2 × 0.029 + 0.249) = 2530Nm³/Hr
+
+[6] type=text | file=texts_final.json | score=0.4991 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.15 CO Gas 이용율(%) : ηCO] ### 4.3.15 CO Gas 이용율(%) : ηCO
+[이미지 참고] 4.3.15 CO Gas 이용율(%) : ηCO = frac{CO₂{CO + CO₂ × 100
+
+[7] type=image_trans | file=images_trans_final.json | score=0.4900 | t_embed_ms=46.7 t_search_ms=2.5 t_gen_ms=8763.9
+[문서: 노체하부 불활성화시 조치기준] [경로: 6. 기술이론 (노하부 불활성 조치사례) / 6.1 1고로 노하부 불활성 조치실적 / ●1고로 Nut-COKE사용시기별 S/Sonde 온도 및 ECO] 첫 번째 가로등에서 NUT-COKE 사용률이 다른 수준인 경우(#1부터#8까지의 샘플링 포인트) 에서 ECO(Y축, 20~60)과 비교되는 선 그래프입니다. ECO 값은 대체적으로 #1에서 #7까지 증가하며, 가장 높은 사용율(144kg/ch)에서는 최대값을 나타냅니다.",46.7,2.5,8763.9,8.816
+Cross sonde의 온도가 높으면 ηCO가 낮아지는데 그 현상은 무엇 때문입니까?,모른다.,"[1] type=table_str | file=tables_str_final.json | score=0.5891 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: 장입물 분포제어 용어의 기준] [경로: 4. 조업 기준 / 4.2 장입물 분포제어와 장입모드의 기본사상] 용어: o Cross Sonde | 단위: - | 정의: - 고로 상부에서 반경방향별 Gas의 온도를 측정하는 장치 | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.5546 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: COKE 및 COAL 품질관리 기준] [경로: 4. 조업 기준 / 4.1 Coke 품질관리 기준] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[3] type=text | file=texts_final.json | score=0.5534 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.5 노저 Bottom 부 온도저하시 현상 / 6.5.1 노저 Bottom 부 온도 저하시 요인 추정] ### 6.5.1 노저 Bottom 부 온도 저하시 요인 추정
+
+#### 가. 장기간 Coke 성상 불량에 따른 노심 Coke 오염Coke 중 Ash 함량 높은상태 지속 및 CSR 저하나. 노체 상부 중심온도 저하에 의한 Coke 열화 가속다. 중심부로 Ore 유입량 증가
+Ore Large 장입시 Sounding 미끄러짐 현상 주기적 발생과 Coke Terrace 길이의 감소 라. Input TiO2 상승조업 및 Hearth Wall 냉각수 온도 저하의 장기간 지속
+
+[4] type=table_str | file=tables_str_final.json | score=0.5528 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로공통] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[5] type=table_str | file=tables_str_final.json | score=0.5514 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.3 Coke 입도 및 강도의 영향] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[6] type=text | file=texts_final.json | score=0.5444 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.5 [Si]의 재 산화 반응] ## 6.5 [Si]의 재 산화 반응
+[이미지 참고] 해체조사에서 밝혀진 [Si]의 거동은 풍구 ~ Bosh 하부에서는 3% 전후, 노저에서는 1% 전후로 떨어졌다. 이는 [Si]의 재 산화반응으로 탈[Si]이 일어남을 의미한다. [Si] + 2(MO) 
+→ SiO₂ + 2[M]  *M = Fe, Mn 등
+즉 FeO 의 상승은 탈[Si]의 원인이 된다. 저 환원율의 광석이 강하하는 영역에서는 FeO 를 많이 함유한 Slag 도 동시에 강하하기 때문에 직접환원이 일어나 온도저하를 초래하고, SiO 발생 또는 SiO 와 선중 [C]와의 반응을 억제하며, FeO 함유 Slag 강하에 의해 산소분압이 상승하기 때문에 SiO 가 SiO2 로 재 산화되어 SiO 분압이 저하한다.
+
+또, 직접환원 FeO 는 [Si] + 2(FeO) → SiO₂ + 2Fe 로 [Si]을 SiO2 로 재 산화하므로 선중[Si]는 저하한다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5442 | t_embed_ms=56.9 t_search_ms=2.6 t_gen_ms=7907.3
+[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 4. 조업 기준 / 4.2 Bell Less 고로 분포제어의 기본이론 / 4.2.1 장입 Mode 기본사상 / ※ 포항 고로 장입 Mode (예)] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']",56.9,2.6,7907.3,7.970
+부도아르(Boudouard) 반응 혹은 Carbon Soluton Loss (CSL) 반응이 무엇입니까?,"부도아르 반응은 컨텍스트에 명시되지 않았습니다. Carbon Solution Loss (CSL) 반응은 고로내로 장입된 탄소 중 철광석과 직접 환원에 소비된 탄소 비율을 나타내며, 계산식은 C_Gas - C_Tuy - C_SMP로 정의됩니다. C_Tuy는 풍구 연소 및 수분 반응에 의한 탄소, C_SMP는 S, Mn, P와의 직접환원에 소모된 탄소를 계산합니다. CSL은 고로 내 탄소 소비 효율을 평가하는 지표입니다. 컨텍스트에는 부도아르 반응에 대한 설명이 없습니다.","[1] type=image_formula | file=images_formula_final.json | score=0.5694 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] = C_Gas - C_Tuy - C_SMP  = (가스화된 C) - (풍구 전 연소되는 C) - (S, Mn, P 와 직접환원에 소모되는 C)
+
+[2] type=image_formula | file=images_formula_final.json | score=0.5575 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_Dust = {(Dust 량 × 24(Hr/D) / 이론 출선량 × 1.18) × nC_Dust / 100} + 3.3
+
+[3] type=image_formula | file=images_formula_final.json | score=0.5507 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_Tuy = [ { ( VB × 0.21 ) + O₂/ 60 } × 12 / 22.4 × 2 ] + ( VB × WH₂O / 1000 × 12 / 18 ) × 60 × 24 / 이론 출선량
+
+[4] type=image_formula | file=images_formula_final.json | score=0.5445 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_SMP = {(nSi_HM / 100 × 2 × 12 / 28) + (nP_HM / 100 × 5 / 2 × 12 / 30) + (nMn_HM / 100 × 12 / 55)} × 1000
+
+[5] type=image_formula | file=images_formula_final.json | score=0.5426 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_Gas = C_IN - C_HM - C_Dust
+
+[6] type=image_formula | file=images_formula_final.json | score=0.5300 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_IN = (C.R × nC_Coke / 100) + (PCR × nC_PCR / 100) + {(석회석 장입량 / 이론 출선량) × (12/100)}
+
+[7] type=image_formula | file=images_formula_final.json | score=0.5227 | t_embed_ms=54.5 t_search_ms=2.7 t_gen_ms=9782.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.19 Carbon Solution Loss [%] : 고로내로 장입된 Carbon 중 철광석과 직접 환원으로 소비되는 Carbon 의 비를 나타냄.] C_HM = 1.3 + (2.57 × HMT / 1000) - (0.31 × nSi_HM / 100) + (0.03 × nMn_HM / 100) - {(0.33 × nP_HM / 100) - (0.40 × nS_HM / 100) × 10}",54.5,2.7,9782.4,9.840
+주상 작업시 용선에 왕겨를 투입하는 이유는 무엇입니까?,"주상 작업시 용선에 왕겨를 투입하는 이유는 고로 용선의 [Si] 함량을 저하시키기 위해 탈규작업을 수행하기 위한 것이다. 왕겨는 고체산소원으로서 [Si]를 산화시켜 제거한다. [Si] 함량이 높으면 용융물 유동성이 저하되고, 고로 연료비가 증가하며, 탈규제 소비량이 늘어난다. 또한, Slag 발생량 증가로 수선량이 감소하게 된다. 이는 고로조업의 효율성과 용선 품질 관리에 직접적인 영향을 미친다.","[1] type=text | file=texts_final.json | score=0.5760 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: 용선 품질관리 용어의 기준] [경로: 4. 조업 기준 / 4.4 주상 탈규 작업 용어] ## 4.4 주상 탈규 작업 용어
+
+### 가. 탈규작업: 고로 용선을 재강으로 이동하기 전에 용선중의 [Si] 함량 저하를 위해 주상 탕도에서 탈규용 고체산소원 (분소결광, Mill-Scale 등)을 투입하여 [Si]을 저하시키는 작업이다.나. TIM (상부 압사식 탈규방법: Top Injection Method): Mill Scale 등의 미립 탈규제를 용선중에 압사하여 탈규하는 방법다. SFM (자연낙하식 탈규방법: Soft Feeding Method): 분소결광 등 입자가 굵은 탈규제를 B/C 등을 이용하여 용선 중에 자연낙하시켜 탈규하는 방법라. 가규제: 외판 주물선 제조시 용선중의 [Si] 성분을 규격 범위내로 상승시키기 위해 투입하는 Fe-Si 등의 합금철을 말한다.
+
+[2] type=table_str | file=tables_str_final.json | score=0.5711 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5576 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 제강조업에 미치는 [S]의 영향 | col2: -제강과정에서 FeS 부유물이 발생한다.-제품후 적열취성을 일으킴으로 제강과정에서 반드시 제거해야 한다.-탈황제(CaO, CaC₂ 등) 소요량이 증가하고 처리시간이 지연되며 출강실수율 저하등 제강조업 효율을 저하시킨다.
+
+[4] type=table_str | file=tables_str_final.json | score=0.5539 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.
+
+[5] type=table_str | file=tables_str_final.json | score=0.5469 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] ['col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.', 'col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.', 'col1: ● 고로조업의 Point | col2: -고[Si] 용선이 생산되면 최근에는 고로 주상에서 고체산소원인 분소결광, Mill-Scale 등을 용선중에 투입하여 탈규를 실시하 sk, 무엇보다도 중요한 것은 노내에서 배출되는 용선의 [Si] 성분을 낮추고 성분편차([Si] Σ)가 크지 않도록 고로조업을 관리해야 한다.']
+
+[6] type=text | file=texts_final.json | score=0.5469 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: [S] 제어기술 기준] [경로: 2. 목적] # 2. 목적
+용선중 [S]는 재품후 적열취성을 일으키므로 재강과정에서 반드시 제거해야 하며, 용선중의 [S]가 높게되면 재강에서의 탈황비용이 증가하고 탈황을 위한 공정지연 등 재강조업 효율을 저하시키므로 고로공정에서부터 성분규격을 만족시키는 것이 필요하다.
+
+[7] type=text | file=texts_final.json | score=0.5469 | t_embed_ms=54.2 t_search_ms=2.7 t_gen_ms=10639.0
+[문서: [Mn] [P] 제어기술 기준] [경로: 2. 목적] # 2. 목적
+● 용선중 [Mn]은 제강공정에서 강종별 최소량의 Mn 규격이 있으므로 고로에서부터 성분규격을 설정하여 관리해야 한다.
+● 용선중 [P]는 고급강(저린강, 극저린강) 제조시 극소량까지 제어해야 하므로 고로에서부터 성분을 관리하여 제강 예비처리공정의 효율이 상승할 수 있도록 관리해야 한다.",54.2,2.7,10639.0,10.696
+"출선시, 두대의 TLC(Torperdo laddle Car)쪽으로 대탕도(runner)가 하나 있는데, 만약 한쪽의 TLC에 용선이 가득차면, 다른 쪽의 TLC에 어떻게 용선을 채울 수 있습니까?","출선시 한쪽 TLC가 가득차면, 다른 TLC로 용선을 채우는 것은 불가능합니다. 대신, Lap 출선작업을 통해 다른 출선구를 개공하여 용선 배출을 분산해야 합니다. 이는 출선구의 용선 배출 속도를 조절하는 기준에 따라 이루어집니다. 컨텍스트에 구체적인 TLC별 처리 방법은 명시되지 않았습니다. 따라서","[1] type=table_str | file=tables_str_final.json | score=0.5023 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.2 노전작업] 용어: ㅇ 용선식별번호 및 식별 Code 부여체계 | 단위: - | 정의: - 용선식별번호 및 식별 Code 는 출선구 개공 횟수 별로 발생되는 일련의 Tap 번호와 용선을 수선하는 Ladle 번호에 따른다. | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.4942 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 노저 출선작업 기술기준] [경로: 4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법 / 나. 잔선 수선방법 (예:포항 3고로)] 구분: Ladle 수선 | 장 단 점: 용선처리가 용이노저출선→Ladle 수선→타고로차입(Mixing)→제강이송임시출선구 및 탕도설치를 위한 사전작업이 필요고로노저 구조상 Ladle 수선을 위해서는 탕도거리가 너무 길고 경사각이 적어 탕도내의 용용물 응고 가능성이 높아 Over Flow 에 의한 대형사고 위험성이 높음 | 비 고: P2R1P3R1 적용
+
+[3] type=table_str | file=tables_str_final.json | score=0.4891 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.2 노전작업] 용어: ㅇ 출선 속도 | 단위: Ton/min | 정의: - 출선구에서 용선이 배출되는 속도 지표로써 단위 분당 Ladle 에 수선되는 용선량으로 표시 | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.4885 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.2 노전작업] 용어: ㅇ Lap 출선 | 단위: - | 정의: - 노내 용용물 배출이 원활하지 못한 경우, 출선중인 출선구외에 다른 출선구를 개공하여 용용물을 배출시키는 출선작업 | 비고:
+
+[5] type=text | file=texts_final.json | score=0.4871 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 저선Level 제어 및 출선작업 기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.2 용선 및 Slag 생성 속도] ### 4.1.2 용선 및 Slag 생성 속도
+
+#### 가. 용선 생성 속도(T-P/분)
+장입 계산에 의한 Charge 당 용선 생산량(T-P/Charge) X Charge 수/분
+
+#### 나. 용선 배출 속도
+출선 Speed 의 합(전 출선구)
+
+[6] type=table_str | file=tables_str_final.json | score=0.4752 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.2 고 PCR, 고출선비 고로의 조업실적] col1: 출선비(T/D.m3) | Lurea 2BF: 2.53 | Hoogo, 6BF: 2.36 | ILVA 5BF: 2.37 | Ijmuid.6BF: 2.77 | 광양 4BF: 2.34 | 포항 4BF: 2.34
+
+[7] type=table_str | file=tables_str_final.json | score=0.4667 | t_embed_ms=72.3 t_search_ms=3.3 t_gen_ms=10682.9
+[문서: 노저 출선작업 기술기준] [경로: 4. 조업기준 / 4.1 노저 출선계획 / 4.1.4 노저출선 개공위치 선정 및 잔선수선 방법 / 나. 잔선 수선방법 (예:포항 3고로)] ['구분: Ladle 수선 | 장 단 점: 용선처리가 용이노저출선→Ladle 수선→타고로차입(Mixing)→제강이송임시출선구 및 탕도설치를 위한 사전작업이 필요고로노저 구조상 Ladle 수선을 위해서는 탕도거리가 너무 길고 경사각이 적어 탕도내의 용용물 응고 가능성이 높아 Over Flow 에 의한 대형사고 위험성이 높음 | 비 고: P2R1P3R1 적용', '구분: D/P 수선 | 장 단 점: 임시출선구 및 탕도설치를 위한 사전작업이 필요Dry-Pit 에 수선하므로 우천시 대비가 필요노저 임시출선구 방향이 제한작업부하 및 사고발생등을 고려할 때 Ladle 수선보다 유리함용선처리노저출선→Dry-Pit 수선→파쇄→형선으로 사용 | 비 고: P1R1P1R2P4R1 적용', '구분: 노저 발파 | 장 단 점: 사전작업에 의한 설비휴지 불필요정확한 침식 Line 추정공란에 따른 문제점 없음발파 기술상의 문제점해체 공정상의 경제적, 시간적 유, 불리에 대해 불명확 | 비 고: 노저발파를 행한고로는 주로 개수후Stand-By 나 폐쇄고로를 대상으로실시하였음(日本)']",72.3,3.3,10682.9,10.759
+"휴풍이나, 감풍시 Penstock cover를 사용해서 풍구를 감시하는 이유는 무엇입니까?",모른다.,"[1] type=text | file=texts_final.json | score=0.6267 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 노벽보수시 감광 및 감척기준] [경로: 4. 조업기준 / 4.2 감척조업 / 4.2.2 사전 휴풍작업] ### 4.2.2 사전 휴풍작업
+
+#### 가. 사전 휴풍은 본감척 조업중 발생할수 있는 노내 침수에 대한 가능성을 사전에 방지하기 위하여 냉각반, 풍구 등 침수 관련 설비의 안정성 확인을 위하여 실시한다
+
+[2] type=text | file=texts_final.json | score=0.5764 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 감척,종풍 조업기술 기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.2 사전휴풍 작업] ### 4.1.2 사전휴풍 작업
+
+#### 가. 사전휴풍작업의 목적
+사전휴풍은 본감척조업중에 발생할 수 있는 노내침수에 대한 가능성을 사전에 방지하기 위하여 냉각반, 풍구 등 침수관련 설비의 안전성 확인을 위하여 실시한다. 감척조업시 감척조업을 대비하기 위한 별도의 휴풍이며, 사전에 모든 작업이 완료시는 생략할 수 있다.
+
+
+#### 나. 사전휴풍 기준
+사전휴풍 시간은 작업량에 따라서 결정 되어지며 휴풍기준에 의거하여 열보상을 실시한다.
+
+또한, 강척조업을 대비한 노체점검을 위하여 Stock Level 을 5~10m 저하시킨다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5750 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로공통] 용어: ○ 감풍 | 단위: N m³/min | 정의: - 정상 조업중 노황이 불안정하거나 설비 Trouble 이 발생될 경우 바람의 양을 일시적으로 줄이는 것. | 비고:
+
+[4] type=text | file=texts_final.json | score=0.5678 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.5 초기 풍운 및 풍량] ### 4.2.5 초기 풍운 및 풍량
+풍량과 풍운은 비례관계에 있으며, 노내에 급격한 열충격 방지 및 초기 승풍시는 흔냉관 만을 통과시켜야 하므로 흔냉관의 최저유량 및 최대유속을 고려하여 초기 풍운 및 승풍량을 결정한다.
+
+#### 가. 흔냉관 최대유속 : 50m/sec (Dia 1,000 mm, 안전을 고려 Max 40m/sec 관리)
+
+[5] type=text | file=texts_final.json | score=0.5517 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.3 승온속도] ### 4.2.3 승온속도
+건조중 目地부 Crack 과 연와보호를 위해서는 급격한 풍운변화나 노내온도 편류를 방지해야 하며 이를 위해서는 안정된 범위내에서 풍운을 서서히 올리는 것이 좋으나 초기 저풍량 건조시에는 실제로 풍운 Control 이 어렵고 승풍계통 배관의 팽창도 고려하여 적정선을 선택해야 한다.
+
+[테이블 참고] ['공정 단계별 스탠다드 시간과 일정이 정확히 지켜진다면, 열풍로의 승온 과정이 원활하게 진행될 것으로 예측됩니다.', ""'Air & COG' 단계부터 시작되는 승온 점차적인 순서는 안전성과 효율성을 높여줍니다.""]
+
+[6] type=table_str | file=tables_str_final.json | score=0.5407 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 감척,종풍 조업기술 기준] [경로: 4. 조업 기준 / 4.1 조업관리 기준 / 4.1.3 분감척 조업 / 마. 감척, 중풍 조업 방침] 항목: 휴풍후 조치 | 조업방침: ○노정 점화시까지 N2 취입하여 노내 점압(+) 유지 | 실시사항:  | 비고:
+
+[7] type=text | file=texts_final.json | score=0.5378 | t_embed_ms=47.3 t_search_ms=3.2 t_gen_ms=7011.7
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.5 열풍로 비상작업 / 6.5.2 전정시 비상작업] ### 6.5.2 전정시 비상작업
+공장정전인지,전정전인지 확인한다,
+
+공장정전인 경우 송풍기는 기동되고 있으므로 후속조치를 취하면되나 전정전인 경우, 송풍기가
+
+정지되므로 바로 휴풍을 해야하기 때문이다.",47.3,3.2,7011.7,7.066
+"휴풍이나, 감풍시 Coke Ratio를 증가시키는(감광하는)이유는 무엇입니까?",모,"[1] type=table_str | file=tables_str_final.json | score=0.6320 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 노황변동시 조치기준] [경로: 4. 조업기준 / 4.3 생바람(吹拔 : CHANNELING) 발생전,후 노황관리 / 4.3.3 날바람 발생전,후 조치기준 / 나. 날바람 발생후 대응 기준] 강광 및 Extra Coke 장입 기준:  | ① Extra Coke 40 톤 장입(2BF 20t, 3,4BF 40t)- 본 ch Coke x 2ch: ② 강광 O/C 4.5 | ① Extra Coke 60 톤 장입(2BF 30t, 3,4BF 60t)- 본 ch Coke x 3ch: ② 강광 O/C 4.0 | ① Extra Coke 100 톤 장입(2BF 50t, 3,4BF 100t)- 본 ch Coke x 5ch: ② 강광 O/C 3.5 | ① Extra Coke 160 톤 장입(2BF 80t, 3,4BF 160t)- 본 ch Coke x 8ch: ② 강광 O/C 3.0 | ① Extra Coke 200 톤 장입(2BF 100t, 3,4BF 200t)- 본 ch Coke x 10ch: ② 강광 O/C 2.3
+
+[2] type=table_str | file=tables_str_final.json | score=0.6306 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 노황변동시 조치기준] [경로: 4. 조업기준 / 4.3 생바람(吹拔 : CHANNELING) 발생전,후 노황관리 / 4.3.3 날바람 발생전,후 조치기준 / 나. 날바람 발생후 대응 기준] 강광 및 Extra Coke 장입 기준:  | ① Extra Coke 40 톤 장입(2BF 20t, 3,4BF 40t)- 본 ch Coke x 2ch: ② 중광: 노열 1,450℃ 확인 후 단계적 중광 | ① Extra Coke 60 톤 장입(2BF 30t, 3,4BF 60t)- 본 ch Coke x 3ch: ② 중광: 노열 1,450℃ 확인 후 단계적 중광 | ① Extra Coke 100 톤 장입(2BF 50t, 3,4BF 100t)- 본 ch Coke x 5ch: ② 중광: 노열 1,450℃ 확인 후 단계적 중광 | ① Extra Coke 160 톤 장입(2BF 80t, 3,4BF 160t)- 본 ch Coke x 8ch: ② 중광: 노열 1,450℃ 확인 후 단계적 중광 | ① Extra Coke 200 톤 장입(2BF 100t, 3,4BF 200t)- 본 ch Coke x 10ch: ② 중광: 노열 1,450℃ 확인 후 단계적 중광
+
+[3] type=text | file=texts_final.json | score=0.6248 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: COKE 및 COAL 품질관리 기준] [경로: 6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.1 Coke 회분(Ash)의 영향] ### 6.1.1 Coke 회분(Ash)의 영향
+
+#### 가. Coke 중 회분의 증가는 Slag 가 가지고 나가는 열량이 증가되어 연료비 상승 및 생산량 저하를 초래한다.
+
+#### 나. 보통 Coke 회분 1% 증가는 Coke Bt 5.6 kg/T-P 상승한다.
+
+#### 다. Coke 회분이 상승할 경우 Slag 량 및 Al₂O₃ 증가로 풍기성에 악영향을 미친다.
+
+#### 라. Coke 회분 증가는 상대적으로 탄소량을 감소시켜 노열 Balance 변화를 초래한다.
+
+[4] type=table_unstr | file=tables_unstr_final.json | score=0.6219 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 장입물 충진작업 기준] [경로: 4. 조업기준 / 4.1 충진조업기준 및 관리항목 / 4.1.6 Coke Base 결정 / 나. Coke Base 검토] ['[참고 있음]에서 보이는 데이터는 고로별 초기에 송풍 온도를 상승시키는 효과적인 방법들을 나타내며, 각 고로 별로 초기 송풍 운도 상승률이 다르게 적용되고 있습니다.', '{filename}에서는 고로 A, B, C 등 여러 개의 고로별로 송通风도 상승율이 비교되어 있으며, 그 결과는 고로마다 약간씩 차이나지만 대체적으로 송通风 도 상승이 이루어지고 있는 것으로 파악됩니다.']
+
+[5] type=text | file=texts_final.json | score=0.6203 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.1 Coke 회분(Ash)의 영향] ### 4.3.1 Coke 회분(Ash)의 영향
+● Coke 중 회분의 증가시 Slag 가 가지고 나가는 열량이 증가되어 연료비 상승 및 생산량 저하를 초래한다
+● 보통 Coke 회분 1% 증가는 Coke 를 5.6 kg/T-P 상승한다.
+● Coke 회분이 상승할 경우 Slag 량 및 Al₂O₃ 증가로 통기성에 악영향을 미친다.
+● Coke 회분 증가는 상대적으로 탄소량을 감소시켜 노열 Balance 변화를 초래한다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.6182 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.3 고출선비 조업시 문제점 및 대책] 증산 방법: ○ Input O2 량 증대- 산소부화 ↑- 풍 량 ↑ | 예상 문제점: ○ 노내 Gas 량 증가로 Coke 분화 촉진- 노저 풍액성 악화- 노저 측벽부 온도 상승 | 대책: ○ 장입물 분포 개선- 중심류 강화 (Coke 중심 장입)○ 노정압 증대○ 풍구경 확대로 풍구유속 저하○ Coke 풍질개선 (CSR, 입도)
+
+[7] type=table_str | file=tables_str_final.json | score=0.6167 | t_embed_ms=46.7 t_search_ms=2.8 t_gen_ms=11115.3
+[문서: 노황변동시 조치기준] [경로: 4. 조업기준 / 4.3 생바람(吹拔 : CHANNELING) 발생전,후 노황관리 / 4.3.3 날바람 발생전,후 조치기준 / 나. 날바람 발생후 대응 기준] 강광 및 Extra Coke 장입 기준:  | ① Extra Coke 40 톤 장입(2BF 20t, 3,4BF 40t)- 본 ch Coke x 2ch: ① 중광: 노열 1,400℃ 확인 후, 통기성 및 압력계 양호시 단계적 중광 개시 (취발분 15~20ch 이상 강하 확인) | ① Extra Coke 60 톤 장입(2BF 30t, 3,4BF 60t)- 본 ch Coke x 3ch: ① 중광: 노열 1,400℃ 확인 후, 통기성 및 압력계 양호시 단계적 중광 개시 (취발분 15~20ch 이상 강하 확인) | ① Extra Coke 100 톤 장입(2BF 50t, 3,4BF 100t)- 본 ch Coke x 5ch: ① 중광: 노열 1,400℃ 확인 후, 통기성 및 압력계 양호시 단계적 중광 개시 (취발분 15~20ch 이상 강하 확인) | ① Extra Coke 160 톤 장입(2BF 80t, 3,4BF 160t)- 본 ch Coke x 8ch: ① 중광: 노열 1,400℃ 확인 후, 통기성 및 압력계 양호시 단계적 중광 개시 (취발분 15~20ch 이상 강하 확인) | ① Extra Coke 200 톤 장입(2BF 100t, 3,4BF 200t)- 본 ch Coke x 10ch: ① 중광: 노열 1,400℃ 확인 후, 통기성 및 압력계 양호시 단계적 중광 개시 (취발분 15~20ch 이상 강하 확인)",46.7,2.8,11115.3,11.168
+"출선시, 슬라그와 용선이 분리되는 원리는 무엇입니까?","출선시 슬라그와 용선은 이온의 화학적 평형에 따른 이동으로 분리된다. 초기 단계에서 슬라그 중 Fe²⁺과 S²⁻는 용선으로, O²⁻는 슬라그로 이동한다. 탈산반응 진행 시 용선의 Mn, Si 등 탈산원소가 계면에서 반응하며 O이 제거된다. 탄소포화용선의 탈산력이 강해지면 SiO₂ 환원이 시작되고, S의 분배반응이 완료된다. 이 과정에서 슬라그와 용선의 이온 조성이 달라져 분리된다.","[1] type=table_str | file=tables_str_final.json | score=0.6192 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.2 노전작업] 용어: ㅇ Slag 분리시간 | 단위: min | 정의: - 출선구 개공 후 용용물이 배출되는 시점부터 Slag 가 대탕도에서 용선과 분리되어 Slag 탕도로 흐르기 시작하는 시점까지의 시간 | 비고:
+
+[2] type=image_trans | file=images_trans_final.json | score=0.5572 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.2 출선재 배출 강화 대책 / 나. Lap 출선 기준] 슬래그 배출 비율 계산도agram을 나타내는 도표입니다. 두 개의 수평 바가 스텝 배출 기간을 표현합니다. 상위 바에는 섹션(a,b,c)이 분류되어 있습니다. 하위 바는 섹션(b',c')으로 구분됩니다. 표시되는 조건은 a'(b'-c')>=1.0 입니다.
+
+[3] type=image_formula | file=images_formula_final.json | score=0.5369 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 고출선비 조업시 출선,재 관리 기준] [경로: 4. 조업기준 / 4.2 출선재 배출 강화 대책 / 나. Lap 출선 기준] SLAG Discharging Ratio = [(a')/((b' - c'))] ≥ 1.0
+
+[4] type=text | file=texts_final.json | score=0.5363 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 저선Level 제어 및 출선작업 기준] [경로: 5. 이상판단 및 조치기준 : / 5.1.3 노황변동시 출선작업 기준] ## 5.1.3 노황변동시 출선작업 기준
+● ○ 용융물 생성량, 용선온도에 따른 출선구 운영패턴 차별화 적용 (3,4 고로 기준)
+
+[테이블 참고] ['P3R2계획에 따라 냉却是 25日간 진행됩니다.', '- 냉却管理曲線はP3R计划に基づいています', '-', '休炉後のDome温度が100°C未満の場合は自然冷却を実施します。']
+- 출선비 1.25 t/d/m3 이하 시 Para → Lap 출선 변경, 1.1 이하 시 Delay time 적용으로 용융물 배출 안정화
+
+(단, 용선온도 1,520℃ 이상으로 Slag 최대 배출 조건 만족시 최대 배출 패턴 유지)
+
+[이미지 참고] 슬래그 배출 점 1과 2를 표시한 시계방향과 반시계 방향 이동이 포함된 팝캐스트 공정의 도표.
+
+[5] type=text | file=texts_final.json | score=0.5338 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 노심 불활성화시 조치기준] [경로: 4. 조업기준 / 4.3 Semi-Cleaning 완료판단 기준] ## 4.3 Semi-Cleaning 완료판단 기준
+출선구별 용선온도 편차 발생현상 해소 (± 15°C) 또는 SLAG 분리가 지연된 출선구의 SLAG 분리 시간이 10 분이내로 개선 및 용융물 배출현상 정상궤도진입 판단시
+
+[6] type=text | file=texts_final.json | score=0.5196 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.1 탈류반응 MECHANISM] ### 6.3.1 탈류반응 MECHANISM
+
+[이미지 참고] [MS] → (MS)
+
+[이미지 참고] (MS) + (NO) → (MO) + (NS)
+
+[이미지 참고] (MO) + [R] → [m] + (RO)
+
+[이미지 참고] m = Fe, Mn       N = Ca, Mg       R = C, Si, Mn, Al
+최근에 Slag 중의 S는 이온구조로서 존재하고 있다고 생각한다.
+
+
+<1 단계>
+
+탈류초기에는 평형에서 차이가 큰 S가 Fe 또는 Mn과 동시에 Slag에 이동하지만 탄소포화용선과의 평형식보다 높게된 Slag 중의 Fe^{2+}는 O^{2-}와 함께 용선으로 돌아온다.
+
+[이미지 참고] [S] + 2e^- → S^{2-}
+
+[이미지 참고] Fe → Fe^{2+} + 2e^-
+
+[이미지 참고] Fe^{2+} + 2e^- → [Fe]
+
+[이미지 참고] O^{2-} → [O] + 2e^-
+
+[이미지 참고] Diagram showing the initial stage of slag-metal reaction. The slag phase contains Fe^{2+} and S^{2-}. Arrows indicate the movement of O^{2-} and Fe^{2+} towards the metal phase, and S^{2-} moving towards the slag phase.
+<1 단계>
+
+이시기에는 Slag 중의 Fe 함량이 높다.
+
+<2 단계>
+
+탈류의 진행이 완만하게 된 Slag 중의 Fe 함량은 저하된다. 용선중의 Mn, Si 등의 탈산원소가 함유되면 계면 근접에서 탈산반응이 일어나고 용선으로 이동한 [O]는 제거된다.
+
+[이미지 참고] Diagram showing the second stage of slag-metal reaction. Arrows indicate movement of O^{2-}, Fe^{2+}, and S^{2-} towards the metal phase, and movement of [O], [Fe], [S], and [O] + 1/2[Si] towards the slag phase. A reaction C + [O] \rightarrow CO is shown on the right.
+<2 단계>
+
+<3 단계>
+
+반응이 늦지만 탈산력이 강한 [C]에 의한 탈류가 지배적인 시기이다. Slag의 탄소포텐셜은 저하하고, SiO₂의 환원이 시작된다. 용선중의 Si 농도 상승과 함께 천천히 탈류가 진행된다. Si의 환원평형이 성립될 때 S의 분배반응(Slag-Metal 반응)도 완료된다.
+
+[이미지 참고] 슬래그-메탈 반응 세 번째 단계를 나타내는 도표입니다. 화살표들은 O^{{}}_{2}-와 SiO_{2}, 그리고 S^{{{}}} 방향으로 급속히 움직이는 것을 표시하며, 스테인리스 스틸 페즈에서 [O]+{}/2[S], C+[O] 방향으로 움직임도 나타냅니다. 오른쪽에는 C+[O]->CO 반응이 표시되어 있습니다.
+<3 단계>
+
+[7] type=table_str | file=tables_str_final.json | score=0.5160 | t_embed_ms=48.8 t_search_ms=3.2 t_gen_ms=10620.2
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.2 노전작업] 용어: ㅇ 용선식별번호 및 식별 Code 부여체계 | 단위: - | 정의: - 용선식별번호 및 식별 Code 는 출선구 개공 횟수 별로 발생되는 일련의 Tap 번호와 용선을 수선하는 Ladle 번호에 따른다. | 비고:",48.8,3.2,10620.2,10.708
+정수시 C/S(염기도)를 낮게 관리하는 이유는 무엇입니까?,"정수시 C/S(염기도)를 낮게 관리하는 이유는 고로 SLAG 유동성과 노내 탈류능을 고려하여 염기를 1.10~1.30 범위에서 관리해야 하며, 최적 조업범위는 1.25±0.03입니다. 유동성 측면에서는 1.10~1.30을, 노내 탈류능 측면에서는 1.20~1.35까지 관리해야 합니다. 이는 SLAG 점도와 임계온도(C.T.)를 제어하기 위한 기준입니다. 염기를 낮게 유지하면 SLAG의 유동성을 높이고, 노내","[1] type=table_str | file=tables_str_final.json | score=0.5958 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 4. 조업기준 / 4.1 SLAG 염기도 관리기준] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[2] type=image_sum | file=images_sum_final.json | score=0.5876 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] <img>은 스래그의 온도와 염기가 변화하는 곡선을 나타내며, X축에는 온도(Celsius)가 표시되어 있습니다.Y축에서는 염기 도수(pH 값)가 표기되고 있으며, 각 데이터 포인트마다 색깔과 모양으로 구분됩니다.곡선은 주요 관리 기준인 'MgO' 함량이 4.5%, '점도'가 12 Poise 이하일 때의 경향을 보여줍니다.'C.T.' 또는 잠재적 변질 온도는 1,300°C 이상까지 감소하면서 염기 수치가 상승합니다.
+
+[3] type=text | file=texts_final.json | score=0.5852 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.2 Stave 의 관리기술 / 6.2.4 FCD 450 Stave 의 관리] ### 6.2.4 FCD 450 Stave 의 관리
+A1 변태점 (780 °C)에 도달하지 않도록 관리하기 위하여 본체 T/C 온도를 200 °C 이하로 관리해야 한다.
+
+● Stave 본체 온도에 따른 취성 도달시간
+
+[테이블 참고] [문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.2 Stave 의 관리기술 / 6.2.4 FCD 450 Stave 의 관리] []
+
+[4] type=text | file=texts_final.json | score=0.5793 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 4. 조업기준 / 4.1 SLAG 염기도 관리기준] ## 4.1 SLAG 염기도 관리기준
+
+[테이블 참고] ['항 목: 고로 SLAG 염기도(CaO/SiO2) | 관리범위: 1.10 ~ 1.30 | 최적 조업범위: 1.25 ± 0.03 | 노황 조건: ○용선온도 1,500 °C○SLAG 중 Al2O3 14~16 %']
+○고로 조업조건인 용선온도 1,500 °C, SLAG 중 Al2O3 10~16 % 조건에서
+
+○유동성 측면에서는 SLAG 염기도 1.10 ~ 1.30 으로 관리필요
+
+○노내 탈류능을 고려하면 SLAG 염기도 1.20 ~ 1.35 까지 관리필요
+
+○따라서 고로 SLAG 염기도 관리범위는 노내 탈류능과 SLAG 유동성을 고려하여 1.10 ~ 1.30 이다.
+
+- 필요시(통기성 불량, 정기수리, 노벽수리등)시는 上記 범위를 벗어나 일시적으로 조업할 수 있다.
+
+- SLAG 염기도 관리범위기준은 각 고로특성에 따라 변경관리할수 있다
+
+[5] type=image_sum | file=images_sum_final.json | score=0.5763 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] <img>은 스래그의 온도와 MgO 함량에 따른 점도와 임계온도(Critical Temperature; CT)의 변화를 나타내며, 각 관리기 준(MgO 4%, 4.2%, 4%)마다 점도가 12 Poise 이하이고, CT가 1, 400 °C 이하일 때의 상황을 표시하고 있습니다.'<img>'에서는 MgO 함분율이 4.0%, 4., 4.% 인 경우에 대해 각각의 관리기準에 따라 점도 및 CT 값이 어떻게 변하는지를 도출하였습니다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.5756 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: [S] 제어기술 기준] [경로: 4. 조업기준 / 4.1 용선[S] 성분기준] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[7] type=table_str | file=tables_str_final.json | score=0.5755 | t_embed_ms=45.8 t_search_ms=4.0 t_gen_ms=10889.7
+[문서: Zn Alkali 입량 관리기준] [경로: 4. 조업기준 / 4.1 조업관리기준 / 4.1.1 Zn 관리방안 / 나. 고로별 Zn 장입 관리기준 ('22년 노체불활성 실적 바탕으로 기준 개정)] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']",45.8,4.0,10889.7,10.945
+용선 온도가 높으면 대체적으로 [Si]가 높아지는 이유는 무엇입니까?,,"[1] type=text | file=texts_final.json | score=0.6333 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.5 [Si]의 재 산화 반응] ## 6.5 [Si]의 재 산화 반응
+[이미지 참고] 해체조사에서 밝혀진 [Si]의 거동은 풍구 ~ Bosh 하부에서는 3% 전후, 노저에서는 1% 전후로 떨어졌다. 이는 [Si]의 재 산화반응으로 탈[Si]이 일어남을 의미한다. [Si] + 2(MO) 
+→ SiO₂ + 2[M]  *M = Fe, Mn 등
+즉 FeO 의 상승은 탈[Si]의 원인이 된다. 저 환원율의 광석이 강하하는 영역에서는 FeO 를 많이 함유한 Slag 도 동시에 강하하기 때문에 직접환원이 일어나 온도저하를 초래하고, SiO 발생 또는 SiO 와 선중 [C]와의 반응을 억제하며, FeO 함유 Slag 강하에 의해 산소분압이 상승하기 때문에 SiO 가 SiO2 로 재 산화되어 SiO 분압이 저하한다.
+
+또, 직접환원 FeO 는 [Si] + 2(FeO) → SiO₂ + 2Fe 로 [Si]을 SiO2 로 재 산화하므로 선중[Si]는 저하한다.
+
+[2] type=table_str | file=tables_str_final.json | score=0.6190 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO
+
+[3] type=table_str | file=tables_str_final.json | score=0.6123 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[4] type=table_str | file=tables_str_final.json | score=0.6119 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] ['col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.', 'col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.', 'col1: ● 고로조업의 Point | col2: -고[Si] 용선이 생산되면 최근에는 고로 주상에서 고체산소원인 분소결광, Mill-Scale 등을 용선중에 투입하여 탈규를 실시하 sk, 무엇보다도 중요한 것은 노내에서 배출되는 용선의 [Si] 성분을 낮추고 성분편차([Si] Σ)가 크지 않도록 고로조업을 관리해야 한다.']
+
+[5] type=table_str | file=tables_str_final.json | score=0.6086 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.2 외판주물선의 품질영향] 성분: Si | 기계적 성질에 미치는 영향: Si가 높으면 단접성과 냉간가공성을 해침 | 비고:
+
+[6] type=image_formula | file=images_formula_final.json | score=0.6083 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] *철광석중의 SiO₂ Coke Ash 중 SiO₂ } + 2C → [Si] + 2CO ↑ - Qkcal
+
+[7] type=table_str | file=tables_str_final.json | score=0.6005 | t_embed_ms=47.7 t_search_ms=3.4 t_gen_ms=10741.3
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.",47.7,3.4,10741.3,10.792
+용선 온도가 높으면 대체적으로 [S]가 낮아지는 이유는 무엇입니까?,,"[1] type=table_str | file=tables_str_final.json | score=0.6088 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO
+
+[2] type=image_sum | file=images_sum_final.json | score=0.6084 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] <그림>은 온도 대비 Slag의 점도 변화를 나타내며, X축에는 온도(Celsius), Y축에는 점도(Pas)가 표시됩니다.점도는 Al2O₃ 함량과 관련되어 있으며, 각Al2O₉ (%) 비율에 따라 점도 값이 다르게 나타납니다 (예: 8%, 9%, 10%, 11%).따라서 온도가 상승할 때마다 점도는 감소하고, 알루미늄 산화물 함량이 증가하면 점도가 낮아집니다.
+
+[3] type=text | file=texts_final.json | score=0.5982 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: [Si] 제어기술 기준] [경로: 6. 기술이론 / 6.5 [Si]의 재 산화 반응] ## 6.5 [Si]의 재 산화 반응
+[이미지 참고] 해체조사에서 밝혀진 [Si]의 거동은 풍구 ~ Bosh 하부에서는 3% 전후, 노저에서는 1% 전후로 떨어졌다. 이는 [Si]의 재 산화반응으로 탈[Si]이 일어남을 의미한다. [Si] + 2(MO) 
+→ SiO₂ + 2[M]  *M = Fe, Mn 등
+즉 FeO 의 상승은 탈[Si]의 원인이 된다. 저 환원율의 광석이 강하하는 영역에서는 FeO 를 많이 함유한 Slag 도 동시에 강하하기 때문에 직접환원이 일어나 온도저하를 초래하고, SiO 발생 또는 SiO 와 선중 [C]와의 반응을 억제하며, FeO 함유 Slag 강하에 의해 산소분압이 상승하기 때문에 SiO 가 SiO2 로 재 산화되어 SiO 분압이 저하한다.
+
+또, 직접환원 FeO 는 [Si] + 2(FeO) → SiO₂ + 2Fe 로 [Si]을 SiO2 로 재 산화하므로 선중[Si]는 저하한다.
+
+[4] type=image_trans | file=images_trans_final.json | score=0.5959 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: [S] 제어기술 기준] [경로: 6. 기술이론 / 6.3 SLAG-METAL 반응에 의한 [S]의 이행 / 6.3.2 탈류반응에 미치는 SLAG 염기도 및 점성의 영향] 그림 5 : 그래프에서 (S)/(S)와 C/S 사이의 관계를 나타내며 y축에는 0부터 60까지, x축에는 60%에서 180%까지 세 개의 온도인 각각 14백도, 1백50도, 그리고 1백백도를 표시합니다. C/S 값이 증가하면 (S)/(s) 값도 상승하며 온도가 증가함수록 곡선이 더 위쪽으로 움직입니다.
+
+[5] type=text | file=texts_final.json | score=0.5942 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: [S] 제어기술 기준] [경로: 2. 목적] # 2. 목적
+용선중 [S]는 재품후 적열취성을 일으키므로 재강과정에서 반드시 제거해야 하며, 용선중의 [S]가 높게되면 재강에서의 탈황비용이 증가하고 탈황을 위한 공정지연 등 재강조업 효율을 저하시키므로 고로공정에서부터 성분규격을 만족시키는 것이 필요하다.
+
+[6] type=image_sum | file=images_sum_final.json | score=0.5937 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.7 Slag 성분에 따른 염기도 상한 관리기준] <img>은 스래그의 온도와 염기가 변화하는 곡선을 나타내며, X축에는 온도(Celsius)가 표시되어 있습니다.Y축에서는 염기 도수(pH 값)가 표기되고 있으며, 각 데이터 포인트마다 색깔과 모양으로 구분됩니다.곡선은 주요 관리 기준인 'MgO' 함량이 4.5%, '점도'가 12 Poise 이하일 때의 경향을 보여줍니다.'C.T.' 또는 잠재적 변질 온도는 1,300°C 이상까지 감소하면서 염기 수치가 상승합니다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5875 | t_embed_ms=45.1 t_search_ms=3.2 t_gen_ms=10849.1
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] ['col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO', 'col1: ● 제강조업에 미치는 [S]의 영향 | col2: -제강과정에서 FeS 부유물이 발생한다.-제품후 적열취성을 일으킴으로 제강과정에서 반드시 제거해야 한다.-탈황제(CaO, CaC₂ 등) 소요량이 증가하고 처리시간이 지연되며 출강실수율 저하등 제강조업 효율을 저하시킨다.']",45.1,3.2,10849.1,10.898
+"슬라그 점도가 증가하면, 즉 슬라그 유동도가 좋지 않으면 용선 중 [S]가 상승하는 이유는 무엇입니까? ","슬라그 유동도가 낮으면 탈황반응(FeS + CaO + C → Fe + CaS + CO) 효율이 저하되고, 슬라그 부피가 적어 S가 슬라그와 함께 배출되지 않아 용선 중 [S]가 상승한다.","[1] type=table_str | file=tables_str_final.json | score=0.7009 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO
+
+[2] type=table_str | file=tables_str_final.json | score=0.6665 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[3] type=text | file=texts_final.json | score=0.6594 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 5. 이상판단 및 조치기준] # 5. 이상판단 및 조치기준
+
+## 가. 노내 용용물(용선+SLAG)의 유동성 불량시는 SLAG 염기도, Al2O3 함량을 확인하고, C/S ≥ 1.31 이면 장입계산으로 염기도를 낮추고, Al₂O₃ ≥ 16.1 %인 경우는 소결공장에 Al₂O₃ 량을 낮추어 줄 것을 요청한다.
+
+## 나. 용선중 [S]가 평상치(0.015~0.020 %)보다 상승시는 염기도를 1.20 이상으로 상향 조정한다.
+
+## 다. SLAG 영기ido가 1.31 이상이고 노내 통기성이 악화될 때는 감광 및 계산영기ido를 낮춘다.
+-감광 및 영기ido 조정폭은 당시 고로상황에 따라 판단, 결정한다.
+
+[4] type=text | file=texts_final.json | score=0.6515 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: Slag 중 MgO 성분관리 기술기준] [경로: 5. 이상판단 및 조치기준 / 5.1 예방/이상 판단 및 조치기준] ## 5.1 예방/이상 판단 및 조치기준
+
+### 가. 용선중의 [S]상승시 1 차적으로 용선온도, SLAG 염기도, 입량 S 등을 확인한 후 이들 조업지수가 정상이면 SLAG 및 소결광중의 MgO 성분을 확인하여 노내 탈황능력을 CHECK 한다.나. 출선, 재 상태가 나빠지거나 출선, 재 분리가 악화되면 SLAG 중 염기도, Al2O3, MgO 성분을 CHECK 하여 조업관리 범위내로 유도한다.
+
+### 다. 고로 용선온도나 SLAG 염기도 조정 조치외 소결광 성분에서 MgO 를 제어 할 필요가 있다고 판단되면 소결공장에 성분조정을 요청한다.
+
+[5] type=table_str | file=tables_str_final.json | score=0.6514 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] ['col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO', 'col1: ● 제강조업에 미치는 [S]의 영향 | col2: -제강과정에서 FeS 부유물이 발생한다.-제품후 적열취성을 일으킴으로 제강과정에서 반드시 제거해야 한다.-탈황제(CaO, CaC₂ 등) 소요량이 증가하고 처리시간이 지연되며 출강실수율 저하등 제강조업 효율을 저하시킨다.']
+
+[6] type=text | file=texts_final.json | score=0.6493 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.2 고출선비 조업시 노내현상 변화] ## 4.2 고출선비 조업시 노내현상 변화
+
+[이미지 참고] <img src='output/sanitize//TP-0...eb4a9.png' alt=''/> 이 그래프는 '고출선비조업시 기본 사상 기준'이라는 주제와 관련된 데이터를 나타냅니다.'x축'에는 시간('시간')이고, 'y축'에는 '노내 현상 변동량(%)'으로 표시됩니다.그래프에서는 여러 색깔의 선들이 있으며 각 색상마다 다른 조업 상태를 의미합니다 (예: 녹색 - A 조업, 파란색 - B 조업).이 그래프에서 가장 눈여겨볼 점은 'A 조업'과 'B 조업' 사이의 격차가 큰 부분이며, 특히 시간 1000 초부터 1200초까지의 간격에서 이러한 격차를 확인할 수 있습니다.
+증산 조업시 노하부 Gas Volume 증가에 의한 승풍에너지 증가로 소결광 및 Coke의 분화를 촉진시켜 노심 통액성 악화와 Slag Flooding 현상을 일으킬 수 있으며, 노상부에서는 Gas 유속 증가로 장입물의 유동화 현상이 일어날 수 있다.
+
+또한 장입 Speed 증가에 의하여 승온 및 환원이 불균일한 장입물이 노하부로 강하하기 쉽고 환원불량에 의하여 노열저하, 용착대 부위에서 용해불량, 노상에서 용선재의 흐름 불안정을 초래하기도 하며, 용용물 생성 Speed 증가에 의하여 저선재 Level 이 쉽게 상승하는 문제점이 있어 고출선비 조업시에는 출선에 대한 강화 대책이 필요하다.
+
+소결광의 분화가 이루어지는 저온 열보존대(550~650°C) 구간이 확장되므로 연,원료의 품질개선과 통기성을 개선할 수 있는 장입물 분포제어의 개발이 필요하다. 또한 노정압증대, 미분탄취입에 의한 열류비 하향조정, Slag Volume 하향등의 조치를 취할 수도 있다.
+
+[7] type=image_trans | file=images_trans_final.json | score=0.6450 | t_embed_ms=54.7 t_search_ms=3.5 t_gen_ms=9001.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.1 노내 탈류능력과 SLAG 유동성을 고려한 SLAG 영기ido 검토 / 가. 노내 탈류와 Slag C/S] 슬래그 흐름률(S/S) vs C/S 비율 그래프입니다. 온도는 각각 1440℃, 1550℃, 그리고 1600℃의 세 가지 커브가 표시됩니다. 흐림률은 대략적으로 C/S=1.2에서 최대치를 나타냅니다. 더 높은 온도일수록 흐린률이 증가합니다.",54.7,3.5,9001.7,9.063
+"용선 중 [s]가 상승하면, 생석회, 석회석, 사문암 장입을 증가시키는데 그 이유는 무엇입니까?",,"[1] type=table_str | file=tables_str_final.json | score=0.7124 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO
+
+[2] type=table_str | file=tables_str_final.json | score=0.6814 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] ['col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO', 'col1: ● 제강조업에 미치는 [S]의 영향 | col2: -제강과정에서 FeS 부유물이 발생한다.-제품후 적열취성을 일으킴으로 제강과정에서 반드시 제거해야 한다.-탈황제(CaO, CaC₂ 등) 소요량이 증가하고 처리시간이 지연되며 출강실수율 저하등 제강조업 효율을 저하시킨다.']
+
+[3] type=table_str | file=tables_str_final.json | score=0.6584 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[4] type=table_str | file=tables_str_final.json | score=0.6376 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] ['col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.', 'col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.', 'col1: ● 고로조업의 Point | col2: -고[Si] 용선이 생산되면 최근에는 고로 주상에서 고체산소원인 분소결광, Mill-Scale 등을 용선중에 투입하여 탈규를 실시하 sk, 무엇보다도 중요한 것은 노내에서 배출되는 용선의 [Si] 성분을 낮추고 성분편차([Si] Σ)가 크지 않도록 고로조업을 관리해야 한다.']
+
+[5] type=table_str | file=tables_str_final.json | score=0.6289 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 석회석(Lime Stone) | col2: - | col3: 사용 목적: 고로 Slag 중 영기도(CaO/SiO₂)가 낮을 때 높이기 위한 목적으로 첨가효과: Slag 유동성 개선, 용선중 [S], [Si] 제어 가능
+
+[6] type=text | file=texts_final.json | score=0.6268 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.2 고출선비 조업시 노내현상 변화] ## 4.2 고출선비 조업시 노내현상 변화
+
+[이미지 참고] <img src='output/sanitize//TP-0...eb4a9.png' alt=''/> 이 그래프는 '고출선비조업시 기본 사상 기준'이라는 주제와 관련된 데이터를 나타냅니다.'x축'에는 시간('시간')이고, 'y축'에는 '노내 현상 변동량(%)'으로 표시됩니다.그래프에서는 여러 색깔의 선들이 있으며 각 색상마다 다른 조업 상태를 의미합니다 (예: 녹색 - A 조업, 파란색 - B 조업).이 그래프에서 가장 눈여겨볼 점은 'A 조업'과 'B 조업' 사이의 격차가 큰 부분이며, 특히 시간 1000 초부터 1200초까지의 간격에서 이러한 격차를 확인할 수 있습니다.
+증산 조업시 노하부 Gas Volume 증가에 의한 승풍에너지 증가로 소결광 및 Coke의 분화를 촉진시켜 노심 통액성 악화와 Slag Flooding 현상을 일으킬 수 있으며, 노상부에서는 Gas 유속 증가로 장입물의 유동화 현상이 일어날 수 있다.
+
+또한 장입 Speed 증가에 의하여 승온 및 환원이 불균일한 장입물이 노하부로 강하하기 쉽고 환원불량에 의하여 노열저하, 용착대 부위에서 용해불량, 노상에서 용선재의 흐름 불안정을 초래하기도 하며, 용용물 생성 Speed 증가에 의하여 저선재 Level 이 쉽게 상승하는 문제점이 있어 고출선비 조업시에는 출선에 대한 강화 대책이 필요하다.
+
+소결광의 분화가 이루어지는 저온 열보존대(550~650°C) 구간이 확장되므로 연,원료의 품질개선과 통기성을 개선할 수 있는 장입물 분포제어의 개발이 필요하다. 또한 노정압증대, 미분탄취입에 의한 열류비 하향조정, Slag Volume 하향등의 조치를 취할 수도 있다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.6226 | t_embed_ms=54.6 t_search_ms=2.7 t_gen_ms=11049.5
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 제강조업 영향 | col2: -예비처리공정에서 [Si]를 제거하기 위한 탈규제 소모량 증가 및 공정이 지연된다.-[Si] 제거를 위한 탈규시의 산화된 SiO₂로 인해, Slag 발생량이 증가하고, CaO 등 부원료 사용량이 증가한다.-배재시간이 늘어나 공정이 지연되고 폐기를 처리비용이 증가하며, 출강 실수율이 저하한다.",54.6,2.7,11049.5,11.107
+"용선 상부에 물을 뿌리면 폭발하지 않는데, 용선 하부에 물이 있으면 폭발이 일어나는 이유가 무엇입니까?",,"[1] type=text | file=texts_final.json | score=0.5486 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.1 연소이론 / 6.1.2 연소관련 주요 용어 / 6.1.2.5 발열량] #### 6.1.2.5 발열량
+
+##### 가. 고위발열량(총발열량) : 물의 응축(증발)장열 포함
+
+[이미지 참고] H_h(고위발열량) &= 3035 × CO + 3050 ×H₂ + 9530 × CH₄ + 15280 × C₂h₄ + 14090 × C₂H₂ + 35310 × C₆h₆
+
+##### 나. 저위발열량(진발열량) : 물의 증발장열 미포함 (실제이용 가능열량)
+
+[이미지 참고] H_l(저위발열량) &= 3035 × CO + 2570 ×H₂ + 8570 × CH₄ + 14320 × C₂h₄ + 13600 × C₂H₂ + 33870 × C₆h₆
+
+[2] type=text | file=texts_final.json | score=0.5108 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.2 目地部에서의 수분에 의한 Bursting 현상예방] ### 4.2.2 目地部에서의 수분에 의한 Bursting 현상예방
+Mortar 내 수분은 건조가 실시됨에 따라 기공율이 큰 目地部로 이동하여 급속한 가열에 의해 目地 또는 연와의 수분 증기압력이 통기 가능성보다 높게 되어 연와 또는 目地의 파손이 일어나는 Bursting 현상이 발생할 수 있다. 그러나 연와의 강도는 目地보다 10배정도 되므로 Bursting 현상은 目地部에서 일어난다고 생각된다. 일본 廣畑제철소의 실험결과에 의하면 최근 Mortar 의 강도는 2~3kg/cm² 이상이므로 승온속도를 50°C/Hr, Max 온도를 500°C로 했을 때 수분에 의한 Bursting 현상은 일어나지 않는 것으로 밝혀졌다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5090 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)] ['물질명: 물(water) | 점도 (poise): 0.01', '물질명: 흐름이 양호한 Slag | 점도 (poise): 3~6', '물질명: 용선 | 점도 (poise): 0.04~0.08']
+
+[4] type=table_str | file=tables_str_final.json | score=0.5024 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[5] type=text | file=texts_final.json | score=0.5004 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 고출선비 조업시 기본사상 기준] [경로: 4. 조업기준 / 4.2 고출선비 조업시 노내현상 변화] ## 4.2 고출선비 조업시 노내현상 변화
+
+[이미지 참고] <img src='output/sanitize//TP-0...eb4a9.png' alt=''/> 이 그래프는 '고출선비조업시 기본 사상 기준'이라는 주제와 관련된 데이터를 나타냅니다.'x축'에는 시간('시간')이고, 'y축'에는 '노내 현상 변동량(%)'으로 표시됩니다.그래프에서는 여러 색깔의 선들이 있으며 각 색상마다 다른 조업 상태를 의미합니다 (예: 녹색 - A 조업, 파란색 - B 조업).이 그래프에서 가장 눈여겨볼 점은 'A 조업'과 'B 조업' 사이의 격차가 큰 부분이며, 특히 시간 1000 초부터 1200초까지의 간격에서 이러한 격차를 확인할 수 있습니다.
+증산 조업시 노하부 Gas Volume 증가에 의한 승풍에너지 증가로 소결광 및 Coke의 분화를 촉진시켜 노심 통액성 악화와 Slag Flooding 현상을 일으킬 수 있으며, 노상부에서는 Gas 유속 증가로 장입물의 유동화 현상이 일어날 수 있다.
+
+또한 장입 Speed 증가에 의하여 승온 및 환원이 불균일한 장입물이 노하부로 강하하기 쉽고 환원불량에 의하여 노열저하, 용착대 부위에서 용해불량, 노상에서 용선재의 흐름 불안정을 초래하기도 하며, 용용물 생성 Speed 증가에 의하여 저선재 Level 이 쉽게 상승하는 문제점이 있어 고출선비 조업시에는 출선에 대한 강화 대책이 필요하다.
+
+소결광의 분화가 이루어지는 저온 열보존대(550~650°C) 구간이 확장되므로 연,원료의 품질개선과 통기성을 개선할 수 있는 장입물 분포제어의 개발이 필요하다. 또한 노정압증대, 미분탄취입에 의한 열류비 하향조정, Slag Volume 하향등의 조치를 취할 수도 있다.
+
+[6] type=text | file=texts_final.json | score=0.4917 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 열풍로 연소기술 기준] [경로: 4. 조업기준 : 열풍로 연소조건 설정 기준 / 4.2 열풍로 연소계산 / 4.2.3 Gas 발열량 계산식 / 4.2.3.3 저위발열량(진발열량) : 물의 증발잠열 미포함 (실제이용 가능열량)] #### 4.2.3.3 저위발열량(진발열량) : 물의 증발잠열 미포함 (실제이용 가능열량)
+
+[이미지 참고] H_l(저위발열량) = 3035 × CO + 2570 × H₂ + 8570 × CH₄ + 14320 × C₂H₄ + 13600 × C₂H₂ + 33870 × C₆H₆
+
+[7] type=table_str | file=tables_str_final.json | score=0.4857 | t_embed_ms=53.4 t_search_ms=3.2 t_gen_ms=11090.1
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 나. [S]] col1: ● 용선중 [S]가 상승되는 경우 | col2: -Coke 나 철광석중으로 부터의 입상[S]가 증가할 경우이다-노열이 낮거나 Slag 염기도가 극히 낮아 노내 탈황능력이 저하된 경우이다.-Slag Volume이 적어 Slag와 함께 배출되는 S가 적을경우 용선중[S]가 상승한다.*탈황반응 : FeS + CaO + C → Fe + CaS + CO",53.4,3.2,11090.1,11.155
+고로 조업에서 행잉(Hanging)이 무엇입니까?,"고로 조업에서 행잉(Hanging)은 노내 통기성이 나쁜 부위의 상승 GAS 압력이 장입물 중량을 초과해 강하가 30분 이상 중단되는 현상이다. 이로 인해 하부에 공동이 생기고, 봉락작업 시 SLIP 폭이 커진다. HANGING 확인에는 SOUNDING RECORDER의 수직 표시와 노체 압력계의 상하단 압력편차 급증을 통해 한다. 소폭 감풍 시에도 장입물이 미끄러지지 않는 경우 봉락(CHECK)을 실시해야 한다. 고로내 GAS 정체로 인해 장입물 강하가 정지되는 상태를 의미한다.","[1] type=text | file=texts_final.json | score=0.6291 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.1 HANGING의 개념] ### 4.2.1 HANGING의 개념
+
+#### 가. HANGING :
+-노내 통기성이 나쁜 부위의 상승 GAS의 압력이, 그 부분에 걸리는 장입물의 중량보다 클 경우 장입물 강하가 중지되며 이런 현상이 30분 이상 지속되는 경우가 HANGING이다.
+
+HANGING이 걸린 부분의 하부에는 공동이 생기며 HANGING 상태가 길어질 수록 공동은 커지게 되어 봉락작업시 SLIP 폭이 커지게 된다.
+
+-소폭의 감풍을 실시하거나, 실시하지 않아도 장입물이 미끄러져 내려가는 HANGING이 있으나 큰 폭으로 감풍을 하지 않으면 내려가지 않는 HANGING도 있으며, 이 때는 봉락작업(CHECK)을 실시해야 한다.
+
+#### 나. 봉락 (CHECK)
+HANGING이 발생했을 경우 송풍압을 급격히 저하시켜 강제로 장입물을 떨어뜨리는 작업이다.
+
+[2] type=table_str | file=tables_str_final.json | score=0.5904 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.5 노화관리] 용어: ○ 걸림(Hanging, 棚) | 단위: - | 정의: - 노내 장입물의 강하가 30 분 이상 정지되는 현상 | 비고:
+
+[3] type=text | file=texts_final.json | score=0.5870 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING)] ## 4.2 장입물 걸림(栅, HANGING)
+
+[4] type=text | file=texts_final.json | score=0.5846 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 장입물 강하 이상시 조치 기준] [경로: 1. 적용범위] # 1. 적용범위
+고로 조업중에 발생하는 장입물 미끄러짐(SLIP), 장입물 걸림(棚, HANGING)현상등이 발생시의 조치 기준에 대하여 적용한다
+
+[5] type=table_str | file=tables_str_final.json | score=0.5700 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 장입물 분포제어 용어의 기준] [경로: 4. 조업 기준 / 4.2 장입물 분포제어와 장입모드의 기본사상] 용어: o Hanging (얽힘) | 단위: - | 정의: - 고로내의 Gas 가 안정되게 상부로 빠져나가지 못하여 고로내부에 정체되면서 장입물 강하를 정지시키는 현상 | 비고:
+
+[6] type=text | file=texts_final.json | score=0.5574 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.2 HANGING의 확인] ### 4.2.2 HANGING의 확인
+
+#### 가. SOUNDING에 의한 판단 (RECORDER 확인)
+장입물 강하가 안되며 SOUNDING RECORDER에 수직으로 표시됨.
+
+
+### 나. 노체 압력계 및 풍압 상태
+풍압은 급상승 상태로 되며 노체압력은 HANGING 위치에서의 상, 하단 압력편차가 급격히 증가.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5549 | t_embed_ms=46.1 t_search_ms=3.2 t_gen_ms=10429.2
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 조업도 상승기술 | 단위: - | 정의: - 화입직후 고로와 고로관련 설비 운영을 통해 연원료 장입조정과 송풍을 포함한 각종 조업사항을 실시하여 건전한 노내 노내연화용착대를 형성하고, 노체의 안정적 운도상향을 유도하여 노열을 확보함으로써 정상조업에 이르게 하는 화입조업 | 비고:",46.1,3.2,10429.2,10.479
+고로 조업에서 취발(Channeling)이 무엇입니까?,"고로내 통기성이 악화되어 Gas 흐름이 원활하지 못해 약한부문에서 바람의 터널이 형성되어 고로상부로 순식간에 빠져나가는 현상으로, 일명 '취발'이라 한다. 이는 Gas 흐름이 제한되며 고로 상부로 집중되는 현상이다. 고로 조업 시 통기성 저하로 인해 발생하는 비정상적인 바람의 흐름을 의미한다. 이 현상은 고로내 압력 차이와 흐름 경로의 비대칭성으로 인해 발생한다. 조업 기준에서 생바람(Channelling)은 감척, 중풍조업과 관련된 용어로 기술된다.","[1] type=table_str | file=tables_str_final.json | score=0.6407 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 고로종풍조업 용어의 기준] [경로: 4. 조업 기준 / 4.3 감척, 중풍조업] 용어: o 생바람(Channelling) | 단위: - | 정의: - 고로내 통기성이 악화되어 Gas 흐름이 원활하지 못하여 약한부문으로 바람의 터널을 형성하여 바람이 순식간에 고로상부로 빠져나가는 현상 (일명 취발) | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.6161 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 장입물 분포제어 용어의 기준] [경로: 4. 조업 기준 / 4.2 장입물 분포제어와 장입모드의 기본사상] 용어: o Channelling(생바람) | 단위: - | 정의: - 고로내 통기성이 약화되어 Gas 흐름이 원활하지 못하여 약한부문으로 바람의 터널을 형성하여 바람이 순식간에 고로상부로 빠져나가는 현상 (일명 취발) | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.6161 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 조업도 상승기술 | 단위: - | 정의: - 화입직후 고로와 고로관련 설비 운영을 통해 연원료 장입조정과 송풍을 포함한 각종 조업사항을 실시하여 건전한 노내 노내연화용착대를 형성하고, 노체의 안정적 운도상향을 유도하여 노열을 확보함으로써 정상조업에 이르게 하는 화입조업 | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.6100 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 화입 | 단위: - | 정의: - 신설고로 및 개수고로에 조업개시를 위해 노내에 불씨를 최초로 장입하는 작업으로서, 화입조업은 사전 고로건조, Leak Test, 침목적, 장입물총진, 장입물 분포조사 및 정상조업까지 조업도 상승조업을 포함한다. | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.5960 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.6 조업도 상승기술] 용어: o 초출선 | 단위: - | 정의: - 화입후 최초로 출선하는 작업 | 비고:
+
+[6] type=text | file=texts_final.json | score=0.5954 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.2 조업도 상승방법 / 4.2.1 중풍 우선 조업도 상승] ### 4.2.1 중풍 우선 조업도 상승
+화입후 조기 상조업도 달성을 위하여 O/C 보다는 타고로 조업도 상승실적을 고려하여 풍량우선으로 조업도 상승조업을 실시한다.
+
+[7] type=text | file=texts_final.json | score=0.5928 | t_embed_ms=44.7 t_search_ms=3.4 t_gen_ms=9894.8
+[문서: 고출선비 조업시 기본사상 기준] [경로: 1. 적용범위] # 1. 적용범위
+조업 및 경영 여건 변화로 증산 조업 필요시 안정적인 고로조업을 수행하기 위한 고로내 현상 변화 및 조업방향에 대해 적용한다.",44.7,3.4,9894.8,9.943
+고로 조업에서 냉입(Chilled Hearth)이 무엇입니까?,"고로 조업에서 냉입(Chilled Hearth)은 노내 열 균형이 깨져 노저부 용융물이 응고해 출선이 불가능한 사고를 의미합니다. 이는 노내침수, 노활불량 등으로 인해 용선·슬래그 유동성이 극히 저하되거나 굴어지는 상태입니다. 냉입 시 고로 전체가 굳어 조업이 불가능해지는 최악의 사고로, 사전 조업 기술과 복구 기술 확보가 필요합니다. 외국 제철소 사례를 바탕으로 냉입 후 복구를 위한 조업 전략이 마련되었습니다.","[1] type=text | file=texts_final.json | score=0.6671 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 노저 냉입사고 복구사례 기준] [경로: 2. 목적] # 2. 목적
+고로조업에 있어서 냉입 사고는 노내 열 Balance 가 깨어져 Hearth 부의 용융물이 응고되어 출선이 불가능하게 하여 급기야는 고로 전체가 굳어 조업을 전혀 불가능하게 하는 가장 큰 사고이다
+
+이러한 사고를 외국제철소의 사례로 냉입 정후에 대한 사전 조업 Action 과 냉입시 복구를 위한 조업 기술을 확보하기 위함.
+
+[2] type=text | file=texts_final.json | score=0.6661 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 노황관리 용어의기준] [경로: 4. 조업 기준 / 4.2 저선 Level 제어 관련] ## 4.2 저선 Level 제어 관련
+
+### 가. 냉입(Chilled Hearth) : 노내침수, 노활불량 등의 원인으로 노저부에 저장된 용용물 (용선, Slag)의 유동성이 극히 나빠지거나 굴어지는 사고이다.
+
+### 나. 저선량 : 노저에 저장된 용선의량
+
+[3] type=table_str | file=tables_str_final.json | score=0.6250 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 화입 | 단위: - | 정의: - 신설고로 및 개수고로에 조업개시를 위해 노내에 불씨를 최초로 장입하는 작업으로서, 화입조업은 사전 고로건조, Leak Test, 침목적, 장입물총진, 장입물 분포조사 및 정상조업까지 조업도 상승조업을 포함한다. | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.6030 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 고로건조 | 단위: - | 정의: - 화입전 노내에 적정온도와 압력의 Air 를 송풍하여 연와 및 Mortar 의 수분제거로 접착강도 증대 및 열충격에 의한 노체연와의 손상을 방지하며 고로 송풍계통 설비의 성능을 점검하기 위한 사전조업 | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.5984 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.6 조업도 상승기술] 용어: o 장입물 승열 | 단위: - | 정의: - 고로내 충진되어 있는 상온의 장입물을 노하부에서부터 온도를 올리는 행위 | 비고:
+
+[6] type=table_str | file=tables_str_final.json | score=0.5909 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.5 장입물 분포조사 기술] 용어: ○ 국부장입(Segment 장입) | 단위: - | 정의: - 실조업종 노체와 노저의 국부적인 열부하 억제를 위한 장입물 분포 | 비고:
+
+[7] type=table_str | file=tables_str_final.json | score=0.5838 | t_embed_ms=54.1 t_search_ms=2.6 t_gen_ms=10296.0
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 노내 침목적기술 | 단위: - | 정의: - 고로 화입조업중 조기에 건전한 노심 Coke 형성과 노열 확보를 위한 고로화입전 노저에서부터 풍구하단높이까지 침목을 쌓음으로써, 노상부온도를 조기에 상승시키고 풍구 및 노벽을 장입물 낙하로부터 보호하기 위한 사전 조업 | 비고:",54.1,2.6,10296.0,10.353
+"고로 조업에서 붕락, 슬립(Slip), 드랍(Drop)의 판단 기준은 무엇입니까?",,"[1] type=text | file=texts_final.json | score=0.7184 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP)] ## 4.1 장입물 미끄러짐 (SLIP)
+
+### 가. SLIP 의 판단
+장입물 LEVEL 이 순간적으로 1.0 M 이상 저하하는 경우이며, 0.5~1.0 M 미만의 저하는 DROP 이라한다.
+
+### 나. SLIP 발생 원인과 조치기준
+
+[테이블 참고] ['원인: 과다한 외진등으로 주변 GAS 류 급저하에 따른 노벽부착물 증대 | 대책: 장입물분포 조정으로 적정주변 Gas 류 조장, 주변 GAS 류온도 300 °C이상 유지', '원인: 연, 원료성상중 ALKALIE 및 Zn 류 증가에 따른 부착물생성 | 대책: 장입물중 INPUT ALKALIE 및 Zn 장입량 최소화 & 노체온도 관리기준에 의거한 활성화조업', '원인: 소결 분율 상승으로 상부 K 가 급상승한 경우 | 대책: Ore 외진 또는 감광 Screen 효율개선 (고로, 소결)', '원인: 장기간 휴풍 및 정기수리시 장입물 정체시간 증가로 노체벽부 온도저하 | 대책: SLIP 폭에 따른 열보상 실시']
+
+
+[테이블 참고] ['원인: 노열 급상승(열목)으로 연화용착대 위치가노구쪽으로 이동하여 불충분한 GAS 분배기의역할 | 대책: 신속한 노열보상 실시', '원인: 장입물 PROFILE 이상에 따른 용착대근부비대화로 BRIDGE 형성에 따른 장입물 강하불량 | 대책: 용착대 형상 개선 : 역 V TYPE으로 유도', '원인: COKE Terrace 가 짧아 광석이 중심부로 다량흘러들어가 통기성이 급저하 | 대책: COKE Terrace 확보를 위한 COKE 내진 또는Stock Level 상향조정', '원인: 노정압이 낮거나 노정온도가 높아 노구유속이크게 증가하여 노구부 COKE Flooding 으로광석이 중심부로 유입 | 대책: 노정압 증대 또는 산소부화, PCR, 조습등노정온도 하향조치 시행 (감광 포함)', '원인: 노저 저선 Level 상승으로 노심이 연화용착대를 밀어 적하대가 축소되어 COKE 공급통로가막힌 경우 | 대책: LAP 출선실시로 용용물 적극배출']
+
+[2] type=text | file=texts_final.json | score=0.6914 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 강하 이상시 조치 기준] [경로: 1. 적용범위] # 1. 적용범위
+고로 조업중에 발생하는 장입물 미끄러짐(SLIP), 장입물 걸림(棚, HANGING)현상등이 발생시의 조치 기준에 대하여 적용한다
+
+[3] type=table_str | file=tables_str_final.json | score=0.6514 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] ['측정 원료와 코크의 양과 구성이 동일하며, 두 가지 모두 낙하 궤적이 측면됩니다.', '최종적으로 측점을 위해 오레와 코르크가 장입 단계별로 40%，60%，80%，100％까지 진행될 예정입니다。', '각 항목에는 필요한 인력을 포함하여 측령 뿐만 아니라 다양한 도구들이 필요합니다.']
+
+[4] type=table_str | file=tables_str_final.json | score=0.6512 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 분포제어 용어의 기준] [경로: 4. 조업 기준 / 4.2 장입물 분포제어와 장입모드의 기본사상] 용어: o Slip | 단위: - | 정의: - 고로내 Gas류 흐름이 불안정하여 장입물이 안정되게 강하되지 못하고 순식간에 고로하부로 내려앉는 현상 (Sounding 측정시 1m 이상 내려앉는 현상) | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.6486 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.5 노화관리] 용어: ○ 미끄러짐(Slip) | 단위: - | 정의: - 노내 장입물이 미끄러져 급강하 하는 현상 | 비고:
+
+[6] type=table_str | file=tables_str_final.json | score=0.6468 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] 원인: 연, 원료성상중 ALKALIE 및 Zn 류 증가에 따른 부착물생성 | 대책: 장입물중 INPUT ALKALIE 및 Zn 장입량 최소화 & 노체온도 관리기준에 의거한 활성화조업
+
+[7] type=table_str | file=tables_str_final.json | score=0.6466 | t_embed_ms=56.4 t_search_ms=3.3 t_gen_ms=10674.3
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] 원인: 장입물 PROFILE 이상에 따른 용착대근부비대화로 BRIDGE 형성에 따른 장입물 강하불량 | 대책: 용착대 형상 개선 : 역 V TYPE으로 유도",56.4,3.3,10674.3,10.740
+P0와 Pmax의 차이점이 무엇입니까?,"P0은 컨텍스트에 정의되지 않았으며, Pmax는 월간 용선생산량을 작업일수로 나눈 일 용선생산량을 의미합니다. P0에 대한 정보가 없어 차이점을 설명할 수 없습니다.","[1] type=table_str | file=tables_str_final.json | score=0.4410 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.4 조업지수] 용어: ○ Pmax 출선량 | 단위: T/D | 정의: - 월간 용선생산량을 S.D 및 휴지일수, 감풍 일수를 제외한 일수로 나눈 일 용선생산량 | 비고:
+
+[2] type=text | file=texts_final.json | score=0.4175 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.3 노내에서의 P 반응] ## 4.3 노내에서의 P 반응
+고로 장입 원료 중 P₂O₅ 형태로 산화철 또는 석탄과 결합해서 (FeO)₃P₂O₅—Vivianite, 또는 (CaO)₃P₂O₅—Apatite로 존재한다.
+
+Vivianite의 H₂ 에 의한 환원은 600°C에서 시작하지만 CO에 의한 환원은 더 높은 온도에서 이루어진다. 환원이 급속히 이루어지는 구간은 H₂ 에 의한 환원은 900~ 1000°C이고, CO에 의한 환원은 100~ 1200°C 구간이다. P가 환원될 때는 (FeO)₃P₂O₅ 에서 P와 Fe로 동시에 환원된다.
+
+[이미지 참고] A diagram showing a high furnace section (likely a blast furnace) with a liquid bath and a gas outlet pipe. Next to it is a graph plotting the concentration of phosphorus [P] in the slag against time. The X-axis ranges from 0 to 0.3, and the Y-axis shows a curve starting high and dropping sharply.
+<노내적하물중 [P]의 추이>
+
+
+[이미지 참고] 2Fe₃(PO₄)₂ + 16CO = 3Fe₂P + P + 16CO₂
+950~1000℃ 이상의 온도에서는 C의 존재
+
+아래서 CO₂는 불안정하고 결국;
+
+[이미지 참고] 2Fe₃(PO₄)₂ + 16C = 3Fe₂P + P + 16CO 로 반응하고 P는 용선에 녹는다.
+Apatite의 환원반응은 C, CO 및 H₂에 의한 환원이 가능하다. 1300℃에서 다음의 반응에 의해 P가 생성된다. (CaO)₃P₂O₅ + 5C = 3CaO + 2P + 5CO - 389100 kcal
+
+P₂O₅의 P가 완전히 환원되는 것은 산소와의 친화력이 비교적 적기 때문이다.
+
+용선중에 환원되는 것에서 부터 고로 노내 에의 P의 관리는 불가능하고, 원료단계에서의 관리기준을 강화하는 것이 필요하다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.4166 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.7 원, 연료 Screen 관리기준] 용어: P/P(Punched Plate) | 단위: - | 정의: 고로에 장입되는 원, 연료의 Screen Type 중 하나로 주로 Coke에 많이 사용하고 있다. (Size에 따라 상, 하부 사용)
+
+[4] type=image_sum | file=images_sum_final.json | score=0.4080 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 노체 Profile 기본사상 기준] [경로: 1 대기 조업결과] <그림>은 'TP-0ЗО-O9O-ZOO'라는 제목으로 표시된 그래프이며, X축에는 시간 (년), Y축에는 Stave 두께이며 단위는 mm입니다.'# O 대기 조임결과'와 '# Z 대기 조엄결과'라는 상황을 나타내는데, 각각의 색깔로 표현되어 있습니다.# O 대기는 주요한 변화를 보여주며, 초반에는 약 60Omm에서 시작해서 점점 감소하고 있으며, 특히 22Omm까지 급격히 줄어들었습니다.# Z 대기는 반대되는 경향을 보이고 있는데, 초기부터 낮게 유지되고 있어 전체적인 변동성이 적습니다.
+
+[5] type=table_str | file=tables_str_final.json | score=0.4071 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.4 조업지수] 용어: ○ 압력손실 (Δ P) | 단위: g/cm² | 정의: - 고로내로 들어가는 바람의 압력과 노외로 배출되는 Gas 압력과의 차이. (송풍압-노정압) | 비고:
+
+[6] type=text | file=texts_final.json | score=0.4014 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.2. 고로에서 요구되는 Coke의 특징 / 4.2.2 P₂O₅가 적을 것] ### 4.2.2 P₂O₅가 적을 것
+
+Coke 중의 P₂O₅ 는 대부분이 선철중에 고용된다. 따라서 이 [P]는 강재 품질을 악화시키므로 적은 것이 유리함.
+
+[7] type=table_str | file=tables_str_final.json | score=0.3966 | t_embed_ms=43.8 t_search_ms=3.4 t_gen_ms=8238.6
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.5 장입물 분포조사 기술] 용어: ○ 장입기준선(StockLevel Zero 점) | 단위: m | 정의: - 고로 내부를 충진하는 장입물 LEVEL 의 기준점으로, 선회 CHUTE 를 수직으로 했을때 선회 CHUTE 끝단에서1m~2m하부의 수평 Level 점을 말한다.(고로설비에 맞게 선정함) | 비고:",43.8,3.4,8238.6,8.294
+선철 보류 계수가 무엇입니까?,모른다.,"[1] type=image_formula | file=images_formula_final.json | score=0.5175 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] *철광석중의 SiO₂ Coke Ash 중 SiO₂ } + 2C → [Si] + 2CO ↑ - Qkcal
+
+[2] type=image_formula | file=images_formula_final.json | score=0.5092 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.13 열류비 (HC)] = [(0.31 × C.R + 0.22 × O.R)/({ (C_{p,H₂ × H₂+ C_{p,CO} × CO + C_{p,CO₂ × CO₂+ C_{p,N₂ × N₂) / 100 } × [(0.79 × VB)/(N₂% / 100)] / 선철생산속도}
+
+[3] type=table_str | file=tables_str_final.json | score=0.4970 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 정립광 품질관리 기준] [경로: 6. 기술이론 / 6.1 정립광의 구비 조건 / 나. 해로운 불순물을 적게 함유할 것] 불순물: S, P, Cu, As 등 | 고로내 영향: 고로내에서 환원되어 용선중에 함유됨 → 용선의 품질 저하
+
+[4] type=table_str | file=tables_str_final.json | score=0.4940 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.2 외판주물선의 품질영향] 성분: P | 기계적 성질에 미치는 영향: 냉간취성의 원인이며, 충격값을 저하시킨다. | 비고:
+
+[5] type=text | file=texts_final.json | score=0.4935 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 용선 품질관리 용어의 기준] [경로: 4. 조업 기준 / 4.2 [Si] 제어기술 용어] ## 4.2 [Si] 제어기술 용어
+
+### 가. HMR: 제강의 전로에 장입되는 용선, 고철, Scrap, 냉선 등의 전체 장입물에서 용선량이 차지하는 비율 (Hot Metal Ratio)
+
+### 나. 복규반응: 노내 탈류부의 Slag SiO₂가 노저부에서 다시 환원되어 용선 중의 [Si] 함량을 높이는 반응
+
+### 다. 가규반응: Slag SiO₂가 노내에서 C와 반응하여 Si로 환원된 후 용선중으로 함유되는 반응. 또는 주물선고로 용선을 외판용 주물선으로 제조시 Fe-Si을 탕도상에 투입하여 용선중의 [Si] 성분을 인위적으로 상승시키는 반응이다.
+
+[6] type=text | file=texts_final.json | score=0.4905 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 4. 조업 기준 / 4.1 성분규격] ## 4.1 성분규격
+
+### 가. 용선 - 후공정 [Si] 상향 요청에 따라 관리 기준 하한치 설정 및 상한치 상향
+
+[테이블 참고] ['공정 단계별 스탠다드 시간과 일정이 정확히 지켜진다면, 열풍로의 승온 과정이 원활하게 진행될 것으로 예측됩니다.', ""'Air & COG' 단계부터 시작되는 승온 점차적인 순서는 안전성과 효율성을 높여줍니다.""]
+● 부적합품 기준은 재강 기술기준 TP-060-040-020(용선 수입 기준)의 4.1 용선성분중 2,3 재강 용선재고<1.5 천톤(영 TLC 4 대 이하)시의 성분운영기준을 반영한 값이다.
+● 내부관리기준이란 제선부에서 자체적으로 품질관리를 위해 정한기준이다.
+
+
+[테이블 참고] ['{ 열풍로 내부 온도 }가 { 목표 온도 범위 } 이외의 경우 { 가스 유량 } 을 { 증감 방향 } 한다.', '{{ 열풍로 보유한 데이터 }} 의 평균 { 시간 단위 } 에서 가장 큰 { 고로별 작업량 } 과 최소값은 각각 { 대비되는 값 } 으로 나타났습니다.']
+
+* 규격 FULL NAME
+- DCC : Ductile Cast Iron Commerical Quality - DCH : Ductile Cast Iron High-purity Quality - POS : POSCO 규격, F = Foundry, 1, 2 : [Si] 성분별 분류, A, B : [Mn] 성분별 분류 - 수요가 요구사항 변경시 상기 규격외에 별도의 제품을 생산하며, 변경된 규격은 생산기술후 생산관 제로 부터 받는다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.4904 | t_embed_ms=53.0 t_search_ms=2.7 t_gen_ms=5456.6
+[문서: 노체Stave 관리기술 기준] [경로: 6. 기술이론 / 6.1 Stave 개발 기술 / 6.1.4 Stave 재질별 특성 비교] 구분: 연전도율(Kcal/mh °C) | 압연동: 320 < | 주물동: 180 < | 주철(FCD): 25 ~ 35",53.0,2.7,5456.6,5.518
+"PC 주입시, 무연탄 사용을 안 하는 이유는 무엇입니까?","PC 주입은 유연탄을 사용하며, 무연탄은 연소 시 연기를 내지 않는 특성으로 인해 PC 주입에 적합하지 않기 때문에 사용하지 않는다. (컨텍스트 4)","[1] type=table_str | file=tables_str_final.json | score=0.4737 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)] 용어: 무연탄 (anthracite) | 단위: - | 정의: 탄화가 잘 되어 연기를 내지 않고 연소하는 석탄
+
+[2] type=table_str | file=tables_str_final.json | score=0.4722 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)] 용어: 비점결탄(non-coking coal) | 단위: - | 정의: 석탄을 건류 · 연소시킬 때에, 석탄 입자가 서로 연화용용(軟化溶融)하지 않고, 점결하지 않는 석탄을 말한다. (V.M 10~12%)
+
+[3] type=table_str | file=tables_str_final.json | score=0.4521 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 미분탄 취입 용어의 기준] [경로: 3. 중점관리 항목] ['품질영향인자: 해당없음 | 공정영향인자: 해당없음']
+
+[4] type=table_str | file=tables_str_final.json | score=0.4511 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.4464 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 미분탄 취입 용어의 기준] [경로: 3. 중점관리 항목] 품질영향인자: 해당없음 | 공정영향인자: 해당없음
+
+[6] type=text | file=texts_final.json | score=0.4442 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 노체 압입작업 기술 기준] [경로: 6. 기술이론 / 6.3 압입재의 종류 / 6.3.2 수계 압입재] ### 6.3.2 수계 압입재
+모든 Castable 은 일반적으로 물을 사용하여 훈련하고 압입하게 되면 노 내부의 열에 의하여 수분이 증발 하면서 양생, 소성하면서 강도를 가지게된다
+
+6.3.2 비수계 압입재
+SIC 연와와 같이 노체의 기존 연와가 수분에 의해 화학적인 반응(산화반응) 으로 취약해지는 성질로 변하면 압입의 역효과를 가져오게된다
+
+따라서 이러한 특수한 연와의 경우는 물을 사용하지 않고 훈련해야 되므로 비수계 즉 Resin 계를 사용해야한다
+
+SIC 의 산화반응
+
+[이미지 참고] 2H₂O → 2H₂ + O₂  SiC + O₂ → SiO₂ + CO₂ ↑
+
+[7] type=text | file=texts_final.json | score=0.4435 | t_embed_ms=48.2 t_search_ms=2.6 t_gen_ms=10156.1
+[문서: 노황관리 용어의기준] [경로: 4. 조업 기준 / 4.3 PCI 취입 기술 관련] ## 4.3 PCI 취입 기술 관련
+
+### 가. All Coke 도입 : 노내에 장입되는 연료중에 풍구부로 취입되는 PCI, 중유 등의 보조연료를 사용하지 않고 순수하게 Coke 만 장입하여 열 Balance 를 유지하는 조업.
+
+### 나. 통기성, 풍액성 : 고로내 물질의 유동화 정도로써 통기성은 노하부에서 발생한 Gas 가 장입물의 충진층 사이를 빠져 나가는 정도이며 풍액성은 적하대 하부의 용용물(용선, Slag)이 노내 코크스를 빠져 나가는 정도를 말한다.",48.2,2.6,10156.1,10.210
+반무연탄을 사용하면 왜 환원제비가 떨어집니까?,컨텍스트에 반무연탄 사용과 환원제비 감소 간의 직접적 관계는 명시되지 않았습니다. 따라서 근거가 없으므로 모르겠습니다.,"[1] type=text | file=texts_final.json | score=0.4905 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.10 환원제비 (kg/t-p)] ### 4.2.10 환원제비 (kg/t-p)
+[이미지 참고] 4.2.10 환원제비 (kg/t-p) = 코크스비 (kg/t-p) + 미분탄비 (kg/t-p)       (또는, 연료비, Fuel Ratio, RAR: Reduction Agent Ratio, RR: Reductant Ratio 이라고도 함)
+
+[2] type=table_str | file=tables_str_final.json | score=0.4899 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.5 고로사용 연료의 특성 용어(Coke 및 Coal)] 용어: 무연탄 (anthracite) | 단위: - | 정의: 탄화가 잘 되어 연기를 내지 않고 연소하는 석탄
+
+[3] type=table_str | file=tables_str_final.json | score=0.4877 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] ['용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.', '용어: 피환원성 | 단위: - | 정의: 철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다.']
+
+[4] type=table_str | file=tables_str_final.json | score=0.4803 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] 용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.
+
+[5] type=text | file=texts_final.json | score=0.4774 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: [Mn] [P] 제어기술 기준] [경로: 4. 조업 기준 / 4.2 노내에서의 Mn 반응] ## 4.2 노내에서의 Mn 반응
+적하개시 후, MnO의 환원은 진행되지만 풍구하부에서 급격히 환원이 진행된다. [Si]의 환원과, [C]의 침탄반응이 Bosh 및 Belley 상부에서 급속히 진행되는 것에 비해, MnO의 환원은 노상부에서 용선과 슬래그에서 진행 된다.
+
+[이미지 있음]
+
+[6] type=image_formula | file=images_formula_final.json | score=0.4770 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.10 환원제비 (kg/t-p)] 4.2.10 환원제비 (kg/t-p) = 코크스비 (kg/t-p) + 미분탄비 (kg/t-p)       (또는, 연료비, Fuel Ratio, RAR: Reduction Agent Ratio, RR: Reductant Ratio 이라고도 함)
+
+[7] type=table_str | file=tables_str_final.json | score=0.4582 | t_embed_ms=54.1 t_search_ms=3.4 t_gen_ms=7407.4
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.2 정립광 품질관리 용어] 용어: 피환원성 | 단위: - | 정의: 철광석 중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로의 연료비 및 생산성에 큰 영향을 주는 요소이다. 따라서 피환원성이 큰 정립광을 사용하는 것이 고로조업의 효율성을 높일 수 있다.",54.1,3.4,7407.4,7.470
+조습을 증가시키면 통기성이 좋아지는 이유가 무엇입니까?,조습 증가는 고로 내 공기의 습도를 안정화하여 청결하고 효과적인 작동을 보장하지만,"[1] type=table_str | file=tables_str_final.json | score=0.5797 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.6 조업도 상승기술] 용어: o 조습(습분) | 단위: g/Nm³ | 정의: - 고로에 들어가는 바람중에 포함된 수분을 일정하게 조정하기 위하여 STEAM 으로 수분량을 조정하는 것 | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.5773 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] ['증기 증류와 증강 과정은 고로 내부의 연소 효율과 오레(Coke) 비율을 개선하는데 중요한 역할을 합니다.', '조습은 고로에 진입한 공기에 대한 습도를 안정적으로 관리하여 청결하고 효과적인 작동을 보장합니다.', 'S LAG VOLUME은 용선 생산 시 발생하는 꾸꺼 양을 측정하며 이 값은 생산성 및 재질 향상에 영향을 미칩니다.', '(초)출선은 화입 후 처음 진행되는 작업이며 이를 통해 초기 상태를 확인하고 필요한 조절을 수행합니다.']
+
+[3] type=table_str | file=tables_str_final.json | score=0.5767 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.6 조업도 상승기술] ['증기 증류와 증강 과정은 고로 내부의 연소 효율과 오레(Coke) 비율을 개선하는데 중요한 역할을 합니다.', '조습은 고로에 진입한 공기에 대한 습도를 안정적으로 관리하여 청결하고 효과적인 작동을 보장합니다.', 'S LAG VOLUME은 용선 생산 시 발생하는 꾸꺼 양을 측정하며 이 값은 생산성 및 재질 향상에 영향을 미칩니다.', '(초)출선은 화입 후 처음 진행되는 작업이며 이를 통해 초기 상태를 확인하고 필요한 조절을 수행합니다.']
+
+[4] type=text | file=texts_final.json | score=0.5634 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 장입물 분포제어와 장입모드의 기본사상 기준] [경로: 2. 목 적] # 2. 목 적
+● 노내 통기성 개선에 의한 노황안정 및 생산성 향상
+● 노체 열부하 억제에 의한 노체수명연장
+● 노심 통기, 풍액성 개선에 의한 노저 측벽부 수명연장으로 고로수명 향상
+
+[5] type=text | file=texts_final.json | score=0.5569 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 노황변동시 조치기준] [경로: 4. 조업기준 / 4.2 노황복구 수순 / 4.2.1 통기성 확보] ### 4.2.1 통기성 확보
+
+#### 가. 노내 통기성 확보는 크게 두가지로 나눌수 있는데 ①하나는 노내 과상대 ~ 적하대 사이의 통기성 개선으로 노내 O/C 저하 및 노내 분장입량 억제, 중심부 O/C 감소 (중심 Coke 증대 및 모드에 의한 광석 외진등)에 따라 가능하며
+
+[6] type=table_str | file=tables_str_final.json | score=0.5343 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.7 원, 연료 Screen 관리기준] ['증기 증류와 증강 과정은 고로 내부의 연소 효율과 오레(Coke) 비율을 개선하는데 중요한 역할을 합니다.', '조습은 고로에 진입한 공기에 대한 습도를 안정적으로 관리하여 청결하고 효과적인 작동을 보장합니다.', 'S LAG VOLUME은 용선 생산 시 발생하는 꾸꺼 양을 측정하며 이 값은 생산성 및 재질 향상에 영향을 미칩니다.', '(초)출선은 화입 후 처음 진행되는 작업이며 이를 통해 초기 상태를 확인하고 필요한 조절을 수행합니다.']
+
+[7] type=table_str | file=tables_str_final.json | score=0.5257 | t_embed_ms=51.5 t_search_ms=3.1 t_gen_ms=10475.1
+[문서: 노열관리 및 보상기준] [경로: 4. 조업기준 / 4.2 노열조정 ACTION 순서 / 노열 ACTION 기준] 조업 인자: 송풍중 습분(g/N m²) | 변동 폭: ± 10 | 용선온도 영향: ± 20 °C | 응답시간: 2Hr",51.5,3.1,10475.1,10.530
+Slag Volume을 증가시키면 환원제비가 올라가는 이유는 무엇입니까?,,"[1] type=text | file=texts_final.json | score=0.6096 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: Slag Volume 관리 기술기준] [경로: 3. 중점관리 항목] # 3. 중점관리 항목
+
+[테이블 참고] ['풍질영향 인자: [Si], [S] | 공정영향 인자: 풍압, 노열']
+Slag Volume 상승 → 노내 통기성 저해 → 감풍 → 용선[Si] 상승
+
+[2] type=text | file=texts_final.json | score=0.5718 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: Slag Volume 관리 기술기준] [경로: 4. 조업기준 / 4.1 Slag Volume 관리기준] ## 4.1 Slag Volume 관리기준
+
+[테이블 참고] ['조업조건: 출선비 2.3t/d.m²의 고출선비 조업PCR ≥ 100kg/t-p | Slag Volume 관리기준: 관리범위 : 290 ± 30kg/t-p']
+*각 고로의 특성을 고려하여 관리기준을 다르게 관리할 수 있다
+
+[3] type=text | file=texts_final.json | score=0.5717 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: Slag 성상관리 용어의 기준] [경로: 4. 조업기준 / 4.2 Slag Volume 관련 용어] ## 4.2 Slag Volume 관련 용어
+
+### 가. Slag Volume
+노내에서 생성되는 Slag 의 양으로 통상 용선 Ton 당 생성량 (kg/t-p)으로 나타낸다.
+
+### 나. SOR (Sinter Ore Ratio)
+고로 철광석 장입량 중 소결광 구성비.
+
+[4] type=table_str | file=tables_str_final.json | score=0.5617 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: Slag Volume 관리 기술기준] [경로: 4. 조업기준 / 4.1 Slag Volume 관리기준] 조업조건: 출선비 2.3t/d.m²의 고출선비 조업PCR ≥ 100kg/t-p | Slag Volume 관리기준: 관리범위 : 290 ± 30kg/t-p
+
+[5] type=table_str | file=tables_str_final.json | score=0.5596 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.5551 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.4 조업지수] 용어: ○ Slag Volume | 단위: Kg/t-p | 정의: - 용선 1Ton 을 생산시 발생하는 Slag 량 | 비고:
+
+[7] type=text | file=texts_final.json | score=0.5531 | t_embed_ms=46.3 t_search_ms=3.3 t_gen_ms=10516.0
+[문서: Slag Volume 관리 기술기준] [경로: 6 기술이론 / 6.5 향후 조업방향] ## 6.5 향후 조업방향
+
+### 가. 당사
+● SOR 상승 → Slag.V 증가 → MgO, SiO₂ 저하 → Slag.V 저하유도 → RDI 다소 상승(포항 40%, 광양 45%)
+● 고로 저원가조업을 위해 소결광 사용비를 올릴면 여기에 따라 Slag Volume 상승, 따라서 소결광중의 MgO 와 SiO₂ 를 낮추어 Slag Volume 저하를 유도함. 이때 불가피하게 RDI 는 다소 상승 할 것으로 예상됨(포항 40%, 광양 45%)
+
+
+### 나. 일본고로
+- 君津, 名古屋 : 소결능력 부족으로 SOR 낮음(74%) → Slag.V 저하 → RDI 상승 → MgO, SiO₂ 상향(사문암 미파쇄 사용) → RDI 다소 저하
+
+- 기타고로 : SOR 80% → Slag.V 증가 → MgO, SiO₂ 저하 → Slag.V 저하유도 → RDI 다소 상승 (당사 조업방향과 동일)",46.3,3.3,10516.0,10.571
+소결광 사용비를 증가시키면 환원제비가 떨어지게 되는 이유는 무엇입니까?,,"[1] type=table_str | file=tables_str_final.json | score=0.5689 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] ['용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.', '용어: 피환원성 | 단위: - | 정의: 철광석중 산소가 제거되기 쉬운 정도를 말하며, 이는 고로 연료비 및 생산성에 큰 영향을 준다.']
+
+[2] type=text | file=texts_final.json | score=0.5682 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 소결광 품질관리 기준] [경로: 6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.2 환원분화 또는 환원지수의 영향] ## 6.2 환원분화 또는 환원지수의 영향
+피환원성이 좋은 소결광은 환원측면에서 용이하나, RDI가 높아 노내에서 분화가 잘되므로 고로내에서 통기성 악화의 원인이 된다. 반면 피환원성이 나쁜 소결광이 장입될 경우 환원 불충분으로 노열저하 등이 발생할 수 있다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5622 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.3 소결광 품질관리 용어] 용어: 환원율(RI)(Reduction Index) | 단위: % | 정의: 고로내에서 소결광의 환원성을 나타내는 지수이다.
+
+[4] type=table_str | file=tables_str_final.json | score=0.5614 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] 용어: 소결광 (Sinter Ore) | 단위: - | 정의: 세립의 분광석을 용융결합에 의하여 과성광의 형태로 만든 것으로서 대량생산 방식으로 널리 채용되고 있다.
+
+[5] type=text | file=texts_final.json | score=0.5517 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 고출선비 조업시 연,원료 품질관리 기준] [경로: 4. 조업기준 / 4.4 고로 Coke 및 소결광 Bin Screen 효율향상] ## 4.4 고로 Coke 및 소결광 Bin Screen 효율향상
+고출선비 조업시 고로 소결광 및 Coke 사용량 증가로 인하여 후공정에서는 수급 Balance 를 위해 생산량을 증가시킬 것이다. 연원료 생산량 증대시 품질이 저하될 가능성 이 있으며, 고출선조업의 노황에 통기성저하등 나쁜 영향을 줄 수 있다. 따라서 고로 연원료 Bin 하부 Screen 효율을 최대한 증대시켜 고로내 분장입량을 최소화해야한다. (Bin Gate 최소화) 또한 Bin Level 관리를 철저히 하여 Bin 내부 부착광이 노내로 장입되지 않도록 한다.
+
+[6] type=text | file=texts_final.json | score=0.5330 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 소결광 품질관리 기준] [경로: 6. 기술 이론(소결광 품질이 고로 조업에 미치는 영향) / 6.4 FeO의 영향] ## 6.4 FeO의 영향
+FeO는 소결광의 피환원성을 나타내는 하나의 지수로서 고로뿐만 아니라 소결에서도 중요한 관리항목이다. 소결광의 FeO가 높으면 고로내에서 피환원성이 저하하여 노열이 저하하게 된다.
+
+[7] type=image_formula | file=images_formula_final.json | score=0.5326 | t_embed_ms=51.3 t_search_ms=3.1 t_gen_ms=10353.1
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.4 소결광비 (%)] 4.2.4 소결광비 (%) = [(소결광 사용량 (t/ch))/(주원료 사용량 (t/ch))] × 100",51.3,3.1,10353.1,10.408
+Coke의 Ash(회분)이 증가하면 환원제비가 상승하는 이유는 무엇입니까?,,"[1] type=text | file=texts_final.json | score=0.6835 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.1 Coke 회분(Ash)의 영향] ### 4.3.1 Coke 회분(Ash)의 영향
+● Coke 중 회분의 증가시 Slag 가 가지고 나가는 열량이 증가되어 연료비 상승 및 생산량 저하를 초래한다
+● 보통 Coke 회분 1% 증가는 Coke 를 5.6 kg/T-P 상승한다.
+● Coke 회분이 상승할 경우 Slag 량 및 Al₂O₃ 증가로 통기성에 악영향을 미친다.
+● Coke 회분 증가는 상대적으로 탄소량을 감소시켜 노열 Balance 변화를 초래한다.
+
+[2] type=text | file=texts_final.json | score=0.6645 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: COKE 및 COAL 품질관리 기준] [경로: 6. 기술이론 / 6.1 Coke 품질이 고로 조업에 미치는 영향 / 6.1.1 Coke 회분(Ash)의 영향] ### 6.1.1 Coke 회분(Ash)의 영향
+
+#### 가. Coke 중 회분의 증가는 Slag 가 가지고 나가는 열량이 증가되어 연료비 상승 및 생산량 저하를 초래한다.
+
+#### 나. 보통 Coke 회분 1% 증가는 Coke Bt 5.6 kg/T-P 상승한다.
+
+#### 다. Coke 회분이 상승할 경우 Slag 량 및 Al₂O₃ 증가로 풍기성에 악영향을 미친다.
+
+#### 라. Coke 회분 증가는 상대적으로 탄소량을 감소시켜 노열 Balance 변화를 초래한다.
+
+[3] type=text | file=texts_final.json | score=0.5788 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.3 Coke 품질이 고로 조업에 미치는 영향 / 4.3.2 Coke 수분의 영향] ### 4.3.2 Coke 수분의 영향
+● Coke 중 수분이 과도하게 상승할 경우 Coke 에 부착분이 발생하여 노내 통기성을 저해하거나 중성자 수분계의 수분감지 오차발생으로 노열 변동을 초래할 수 있다.
+● Yard Coke 사용시는 직송 사용시와 달리 수분 변동이 크기 때문에 노열 Balance 저해 요인이 될 수 있음.
+
+[4] type=image_formula | file=images_formula_final.json | score=0.5761 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.1. Coke의 특성 / 4.1.1 고로에서의 Coke의 역할] Coke는 대부분이 탄소로 구성되어 있는 유기화합물로서 고로내에 장입되어 산소와 반응하여 이산화탄소와 일산화탄소를 발생시키고 높은열(발열량: 7100Kcal/kg)을 내게되며 그 반응식은 다음과 같다. Fe₂O₃ + 3C 
+→ 3CO + 2Fe (직접 환원반응)
+
+[5] type=text | file=texts_final.json | score=0.5693 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.2. 고로에서 요구되는 Coke의 특징 / 4.2.3 [S]가 적을 것] ### 4.2.3 [S]가 적을 것
+강재 취성의 원인이 되는 [S]는 고로에 장입되는 양 중의 80~90%가 Coke 로 부터 유입된다. 따라서 Coke 중의 [S] 함량은 적을수록 좋다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.5633 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: COKE 및 COAL 품질관리 기준] [경로: 4. 조업 기준 / 4.1 Coke 품질관리 기준] 항목: Ash (%) | 2고로: ≤ 12.0 | 3고로: ≤ 12.0 | 4고로: ≤ 12.0 | 비고:
+
+[7] type=text | file=texts_final.json | score=0.5625 | t_embed_ms=53.3 t_search_ms=3.1 t_gen_ms=10515.1
+[문서: 고로사용 연료(Coke,Coal)의 기준] [경로: 4. 조업기준 / 4.2. 고로에서 요구되는 Coke의 특징 / 4.2.1 회분이 적을 것] ### 4.2.1 회분이 적을 것
+Coke 중 회분이 많으면 상대적으로 고정탄소가 적게되어 Coke의 발열량이 저하한다.",53.3,3.1,10515.1,10.572
+슬라그를 구성하는 맥석 성분 중 환원 속도가 빠른 순서로 나열하면 어떻게 됩니까?,"모른다. 제공된 컨텍스트는 슬라그 점도와 성분 관계, 측정 시점, 배출속도 등에 대한 정보를 포함하지만, 환원 속도에 대한 구체적인 성분 순서나 데이터는 없음.","[1] type=table_str | file=tables_str_final.json | score=0.5802 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.1 점성(점도, VISCOSITY)] ['측정 시점은 코크가 13ch부터 34ch까지이며, 대립 철광석과 소립 철강은 각각 30ch와 46ch 부터 최대 49ch와 57ch 까지를 번다.', '모든 항목은 MCG 개별 배출속도로 측면된다.', 'MCG 유형별로 동일한 준비물을 사용하며, 인원은 모두 세 명으로 구성되며, 이 중 하나는 MCR1 직원이고 두 명은 현장 직원이다.']
+
+[2] type=table_str | file=tables_str_final.json | score=0.5665 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: - | 10%: - | 12%: 1314C | 14%: 1327C | 16%: 1343B | 18%: 1366B
+
+[3] type=table_str | file=tables_str_final.json | score=0.5655 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%) > CaO(%):  | 0% > 28%: 44% | 2% > -: 1535C | 4% > -: 1544C | 6% > -: 1521B | 8% > 1338C: 1510B | 10% > 1397C: 1504B | 12% > 1471B: -
+
+[4] type=table_str | file=tables_str_final.json | score=0.5641 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%) > CaO(%):  | 0% > 28%: 30% | 2% > -: - | 4% > -: - | 6% > -: - | 8% > 1338C: 1359C | 10% > 1397C: 1423C | 12% > 1471B: 1485B
+
+[5] type=table_str | file=tables_str_final.json | score=0.5631 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%) > CaO(%):  | 0% > 28%: 46% | 2% > -: 1528C | 4% > -: 1538B | 6% > -: 1535B | 8% > 1296D: 1572B | 10% > 1319C: 1580B | 12% > 1414C: -
+
+[6] type=table_str | file=tables_str_final.json | score=0.5631 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1295D | 10%: 1309D | 12%: 1319C | 14%: 1328C | 16%: 1344B | 18%: 1363B
+
+[7] type=table_str | file=tables_str_final.json | score=0.5623 | t_embed_ms=54.7 t_search_ms=3.4 t_gen_ms=8644.7
+[문서: Slag 염기도 및 유동성 관리기준] [경로: 6. 기술이론 / 6.4 SLAG 의 유동성 / 6.4.8 Slag 성분과 점도의 관계] MgO(%): CaO(%)-- 28% | 0%: - | 2%: - | 4%: - | 6%: - | 8%: 1291D | 10%: 1306D | 12%: 1317C | 14%: 1328C | 16%: 1344B | 18%: 1363B",54.7,3.4,8644.7,8.703
+"고로 개수시, 살라만다 탭핑을 하는 이유는 무엇입니까?",모르겠습니다. 제공된 컨텍스트에는 살라만다 탭핑과 고로 개수에 대한 구체적인 설명이 없습니다.,"[1] type=text | file=texts_final.json | score=0.4643 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.2 조업도 상승방법 / 4.2.3 화입초기 입도별 장입실시] ### 4.2.3 화입초기 입도별 장입실시
+화입초기부터 입도별 장입을 실시하되 노중심부의 Coke 량을 확보하고 조기 저풍량으로 인한 장입을 경사각 변화에 대처하기 위하여 Coke 중심장입을 조기에 실시하여 안정된 중심류 확보와 Ore 내진을 용이하게 하여 조기 노열 확보를 도모한다.
+
+[2] type=table_str | file=tables_str_final.json | score=0.4601 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 장입물 분포제어 용어의 기준] [경로: 4. 조업 기준 / 4.2 장입물 분포제어와 장입모드의 기본사상] 용어: o Channelling(생바람) | 단위: - | 정의: - 고로내 통기성이 약화되어 Gas 흐름이 원활하지 못하여 약한부문으로 바람의 터널을 형성하여 바람이 순식간에 고로상부로 빠져나가는 현상 (일명 취발) | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.4567 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 고로화입조업 용어의 기준] [경로: 4. 조업기준 / 4.1 화입조업 공통] 용어: o 조업도 상승기술 | 단위: - | 정의: - 화입직후 고로와 고로관련 설비 운영을 통해 연원료 장입조정과 송풍을 포함한 각종 조업사항을 실시하여 건전한 노내 노내연화용착대를 형성하고, 노체의 안정적 운도상향을 유도하여 노열을 확보함으로써 정상조업에 이르게 하는 화입조업 | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.4564 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 고로종풍조업 용어의 기준] [경로: 4. 조업 기준 / 4.3 감척, 중풍조업] 용어: o 생바람(Channelling) | 단위: - | 정의: - 고로내 통기성이 악화되어 Gas 흐름이 원활하지 못하여 약한부문으로 바람의 터널을 형성하여 바람이 순식간에 고로상부로 빠져나가는 현상 (일명 취발) | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.4479 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로사용 원료의 종류 및 정의 (특징)] col1: 사문암(Serpentite) | col2: - | col3: 사문암의 조성은 주로 2MgO.2SiO₂.2H₂O로 구성되어 있음.사용 목적: 고로에서 Slag 유동성을 개선하여, 탈황능을 향상시키기 위하여 사용
+
+[6] type=table_str | file=tables_str_final.json | score=0.4432 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] 원인: 노저 저선 Level 상승으로 노심이 연화용착대를 밀어 적하대가 축소되어 COKE 공급통로가막힌 경우 | 대책: LAP 출선실시로 용용물 적극배출
+
+[7] type=text | file=texts_final.json | score=0.4424 | t_embed_ms=45.5 t_search_ms=2.7 t_gen_ms=7988.5
+[문서: 조업도 상승 기준] [경로: 4. 조업기준 / 4.2 조업도 상승방법 / 4.2.1 중풍 우선 조업도 상승] ### 4.2.1 중풍 우선 조업도 상승
+화입후 조기 상조업도 달성을 위하여 O/C 보다는 타고로 조업도 상승실적을 고려하여 풍량우선으로 조업도 상승조업을 실시한다.",45.5,2.7,7988.5,8.037
+왜 Tf가 높으면 (송풍)바람이 안들어 갑니까?,Tf가 높아지면,"[1] type=text | file=texts_final.json | score=0.4981 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.6 건조풍량과 풍운] ### 4.2.6 건조풍량과 풍운
+건조기간 단축과 효과적인 건조를 위해 고풍량, 고풍운건조가 바람직하나, 실제로는 노정설비 보호, 열풍로의 송풍조건, 연와의 건조물량과 수분량 및 투입열량의 과다로 인한 에너지 낭비 등의 이유로서 적정 건조풍량과 풍운을 선택한다.
+
+### o 송풍량에 따른 풍운
+환환냉풍관 통과량 제한 및 송풍량 증가에 따른 풍운상승은 노정설비 보호를 위한 노정온도 관리를 300℃이하로 할 때 건조풍량은 2000 Nm³/min 이하로 제한된다.
+
+[이미지 참고] T3 = [((T1 × CP1 × VB1) + (T2 × CP2 × VB2))/(CP3 × VB3)] = [((200 × 0.31 × 1100) + (700 × 0.33 × …))/((0.32 × 1800))] = 400°C
+T1 : 냉풍온도(200℃)
+
+T2 : 열풍로 Dome 통과온도(700℃)
+
+T3 : 건조풍운
+
+CP1 : 0.31kcal/Nm³ (풍운 200℃)
+
+CP2 : 0.33kcal/Nm³ (풍운 700℃)
+
+### o 타고로 건조실적
+
+[테이블 참고] [""고로명: 포항 2BF | 가동시기: '97.8.5(R2) | 내용적(m³): 2550 | 송풍량(Nm³/min): 1500 | 풍량/내용적: 0.59"", ""고로명: 포항 3BF | 가동시기: '06.5.4(R2) | 내용적(m³): 4350 | 송풍량(Nm³/min): 3000 | 풍량/내용적: 0.69"", ""고로명: 포항 4BF | 가동시기: '81.2.18 | 내용적(m³): 3795 | 송풍량(Nm³/min): 1800 | 풍량/내용적: 0.47"", ""고로명: 加古川 2BF | 가동시기: '80.2.17(R2) | 내용적(m³): 3850 | 송풍량(Nm³/min): 2700 | 풍량/내용적: 0.70"", ""고로명: 戶烟 4BF | 가동시기: '78.7(R2) | 내용적(m³): 4250 | 송풍량(Nm³/min): 3050 | 풍량/내용적: 0.72"", ""고로명: 水島 4BF | 가동시기: '82.1.29(R2) | 내용적(m³): 4826 | 송풍량(Nm³/min): 3050 | 풍량/내용적: 0.63"", ""고로명: 鹿島 2BF | 가동시기: '86.1(R2) | 내용적(m³): 4052 | 송풍량(Nm³/min): 2100 | 풍량/내용적: 0.52"", ""고로명: 君津 3BF | 가동시기: '87.4.17(R2) | 내용적(m³): 4063 | 송풍량(Nm³/min): 2000 | 풍량/내용적: 0.49"", ""고로명: 광양 2BF | 가동시기: '05.5.20(R1) | 내용적(m³): 4350 | 송풍량(Nm³/min): 3000 | 풍량/내용적: 0.69"", ""고로명: 광양 3BF | 가동시기: '90.12.4 | 내용적(m³): 3800 | 송풍량(Nm³/min): 1800 | 풍량/내용적: 0.47"", ""고로명: 광양 4BF | 가동시기: '90.9.25 | 내용적(m³): 3800 | 송풍량(Nm³/min): 1800 | 풍량/내용적: 0.47"", '고로명: 평균 | 가동시기: - | 내용적(m³): 3971 | 송풍량(Nm³/min): 2345 | 풍량/내용적: 0.59', ""고로명: 광양 5BF | 가동시기: '99.3(예) | 내용적(m³): 3800 | 송풍량(Nm³/min): 1800 | 풍량/내용적: 0.47""]
+
+[2] type=table_str | file=tables_str_final.json | score=0.4952 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.4 조업지수] 용어: ○ 송풍 원단위 | 단위: N m²/t-p | 정의: - 용선 1Ton 을 생산하는데 소요되는 풍량(산소량은 일반 Air 로 환산하여 계산한다.) | 비고:
+
+[3] type=image_formula | file=images_formula_final.json | score=0.4744 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / o 송풍량에 따른 풍운] T3 = [((T1 × CP1 × VB1) + (T2 × CP2 × VB2))/(CP3 × VB3)] = [((200 × 0.31 × 1100) + (700 × 0.33 × …))/((0.32 × 1800))] = 400°C
+
+[4] type=text | file=texts_final.json | score=0.4673 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.5 열풍로 비상작업 / 6.5.1 고로휴풍시 고로내 역류방지] ### 6.5.1 고로휴풍시 고로내 역류방지
+열풍변 폐로 고로휴풍이 되면 Air B/L 변을열어 역류해오는 Gas 를 대기에 방산하여야 한다.
+
+열풍변의 Sealing 은 풍압으로 이루어지나 고로휴풍시 Sealing 이 불가능하여 고로내 역류 gas 가
+
+열풍변 또는 혼합냉풍변내로 들어와 폭발을 일으킨다.
+
+[5] type=text | file=texts_final.json | score=0.4665 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.9 노정 온도] ### 4.2.9 노정 온도
+고로 건조중에는 노내에 장입물이 없는 상태이므로 저풍온이라도 노정설비에 직접적인 영향을 미치므로 노정설비 관리 Max 온도인 300℃ 이하로 관리한다.
+
+[테이블 참고] ['규석연와와 관련된 여러 파라메터들이 비교되어 있다.', ""'T'라는 단어는 'Temperature' 또는 특정 온도 조건을 나타낼 가능성이 높다."", ""'P'는 'Pressure' 혹은 압력을 가리킬 수도 있으며, 각 열풍로 시설물과 연관될 수 있는 다양한 범주들 사이의 상대적인 성능이나 상태를 나타내게 될 것이다.""]
+
+[6] type=text | file=texts_final.json | score=0.4616 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.3 개스류 및 노내반응 / 4.3.8 송풍 에너지 (kg-m/s)] ### 4.3.8 송풍 에너지 (kg-m/s)
+[이미지 참고] 4.3.8 송풍 에너지 (kg-m/s) = frac{(VB × 1.288 + O₂/60 × 1.431) × Vot²{Tu × 60 × 2 × 9.8}
+주) Vot : 풍구전 유속 (m/s)
+
+Tu : 풍구수 (EA)
+
+1.288 (g/l) : 0°C, 1 기압에서 공기의 밀도
+
+1.431 (g/l) : 0°C, 1 기압에서 산소의 밀도
+
+[7] type=table_unstr | file=tables_unstr_final.json | score=0.4541 | t_embed_ms=46.0 t_search_ms=2.7 t_gen_ms=11250.0
+[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 6. 기술이론 / 6.3 Banking 기간별 감광기준 / 나. 10 일 Banking 시 감광기준] ['{ 열풍로 내부 온도 }가 { 목표 온도 범위 } 이외의 경우 { 가스 유량 } 을 { 증감 방향 } 한다.', '[참고 있음] 의 평균 { 시간 단위 } 에서 가장 큰 { 고로별 작업량 } 과 최소값은 각각 { 대비되는 값 } 으로 나타났습니다.']",46.0,2.7,11250.0,11.313
+미분탄(PC)를 취입하면 왜 Tf가 떨어집니까?,"미분탄 취입 시 Tf가 떨어지는 이유는 열 밸런스 변화로 인한 노내 옥도 분포 변화 때문입니다. 미분탄비(P.CR) 증가로 열 분배가 달라져 Tf가 저하되며, 산소부화 능력 증대가 필요한 조업 대책입니다.","[1] type=table_str | file=tables_str_final.json | score=0.6256 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입시 조업 대책 기준] [경로: 5. 이상판단 및 조치기준 / 5.1 이상판단 및 조치기준] 현상 및 문제점: Tf 저하 및 PC 연소성 저하 | 조치 내용: 산소부화 능력증대
+
+[2] type=image_sum | file=images_sum_final.json | score=0.5491 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] <그림>은 T-P 미분 탄 취입 비율과 노내 변환 기준 사이의 관계를 나타냅니다.'PCR'이라는 변수가 'T-P 미분타취입비'라는 다른 변수에 영향을 주며, 이는 열 밸런스 변화를 통해 노내 옥도 분포에 반영됩니다.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5315 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄비 | 영문 표기: PCR | 정의: -용선 1Ton 생산시 투입되는 미분탄량 (Kg/T-P) | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.5286 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.5169 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] ['용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고: ', '용어: ○ 미분탄비 | 영문 표기: PCR | 정의: -용선 1Ton 생산시 투입되는 미분탄량 (Kg/T-P) | 비고: ']
+
+[6] type=table_str | file=tables_str_final.json | score=0.5099 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.3 “미분탄 취입시 조엽기준”관련 용어] 용어: ○ 치환율 | 영문 표기: - | 정의: -미분탄 취입시 기준조엽 대비 코크스 감소량에 대한 미분탄 취입량이며 PCR 이 증가할수록 저하함 | 비고:
+
+[7] type=image_formula | file=images_formula_final.json | score=0.5054 | t_embed_ms=53.0 t_search_ms=3.5 t_gen_ms=7406.1
+[문서: 조업공정식 해설] [경로: 4. 조업 기준 / 4.2 원료, 연료 / 4.2.9 미분탄비 (kg/t-p)] 4.2.9 미분탄비 (kg/t-p) = [(미분탄 사용량 (kg/d))/(이론 출선량 (t-p/d))]       (또는, Puverized Coal-injection Ratio, PC.R 이라고도 함)",53.0,3.5,7406.1,7.463
+풍구에 미분탄을 어떻게 취입합니까? 바람과 함께 들어가는 겁니까?,컨텍스트에 풍향과 미분탄 취입의 관계나 바람과 함께 들어가는 방법에 대한 구체적 설명이 없습니다. 따라서 해당 내용은 모릅니다.,"[1] type=text | file=texts_final.json | score=0.5918 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 미분탄 취입 및 Cut 기준] [경로: 4. 조업기준 / 4.1 송, 휴풍시 미분탄 취입기준] ## 4.1 송, 휴풍시 미분탄 취입기준
+
+### (1) 정상조업시
+
+[이미지 있음]
+
+#### (2) 설비 Trouble 에 의한 감풍 및 Hanging(걸림) 발생시
+● 설비 Trouble 조치후 정상풍량의 70% 이상시 미분탄 취입개시
+● Hanging 이 발생하여 봉락(내림)작업시는 봉락 감풍전 미분탄 Cut, 증풍시는 정상풍량의 70% 이상 복귀시 미분탄 정상취입
+
+[2] type=table_str | file=tables_str_final.json | score=0.5899 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로공통] 용어: ○ 미분탄취입조업 | 단위: - | 정의: - 유·무연탄(Coal)을 미분의 입도로 파쇄하여 풍구를 통해 노내로 취입하는 조업 | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.5875 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.5869 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.2 “미분탄 취입시 조업문제점 및 대책”관련 용어] 용어: ○ 취입단관 | 영문 표기: Lance | 정의: -미분탄을 고로에 취입시키기 위해 풍구 선단에 설치되어 있는 Pipe | 비고:
+
+[5] type=table_str | file=tables_str_final.json | score=0.5729 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 미분탄 취입시 노내변화 기준] [경로: 6. 기술이론 / 6.2 미분탄 조업시 노내상황 변화] 조입인자: 풍온 | 변동폭: + 100 °C | 노정온도 변화 (°C): - 27
+
+[6] type=text | file=texts_final.json | score=0.5724 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 미분탄 취입 및 Cut 기준] [경로: 5. 이상판단 및 조치기준 / 5.1 예방판단 및 조치기준] ## 5.1 예방판단 및 조치기준
+⊙ 상기 “4.1의 ‘송, 휴풍시 미분탄 취입기준’에 따른다.
+
+[7] type=table_str | file=tables_str_final.json | score=0.5698 | t_embed_ms=45.0 t_search_ms=2.8 t_gen_ms=7149.3
+[문서: 고로종풍조업 용어의 기준] [경로: 4. 조업 기준 / 4.3 감척, 중풍조업] 용어: o 최소유동화 풍량 | 단위: N m³/min | 정의: - 고로내의 장입물이 강하되지 못하고 장입물이 뜨는 현상이 발생되는 풍량의 최대한계치 | 비고:",45.0,2.8,7149.3,7.208
+"풍구 용손, 곡손이 발생하는 이유는 무엇입니까",,"[1] type=table_str | file=tables_str_final.json | score=0.5494 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] 원인: 노정압이 낮거나 노정온도가 높아 노구유속이크게 증가하여 노구부 COKE Flooding 으로광석이 중심부로 유입 | 대책: 노정압 증대 또는 산소부화, PCR, 조습등노정온도 하향조치 시행 (감광 포함)
+
+[2] type=table_str | file=tables_str_final.json | score=0.5470 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.1 장입물 미끄러짐 (SLIP) / 나. SLIP 발생 원인과 조치기준] 원인: 장기간 휴풍 및 정기수리시 장입물 정체시간 증가로 노체벽부 온도저하 | 대책: SLIP 폭에 따른 열보상 실시
+
+[3] type=table_str | file=tables_str_final.json | score=0.5434 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 고로종풍조업 용어의 기준] [경로: 4. 조업 기준 / 4.3 감척, 중풍조업] 용어: o 한계압손 | 단위: - | 정의: - 고로내 장입물의 순조로운 강하가 가능한 풍압과 노정압 압력차이의 최대한계치 | 비고:
+
+[4] type=text | file=texts_final.json | score=0.5414 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 고로 건조계획 기준] [경로: 4. 조업기준 / 4.2 예방판단 및 조치기준 / 4.2.3 승온속도] ### 4.2.3 승온속도
+건조중 目地부 Crack 과 연와보호를 위해서는 급격한 풍운변화나 노내온도 편류를 방지해야 하며 이를 위해서는 안정된 범위내에서 풍운을 서서히 올리는 것이 좋으나 초기 저풍량 건조시에는 실제로 풍운 Control 이 어렵고 승풍계통 배관의 팽창도 고려하여 적정선을 선택해야 한다.
+
+[테이블 참고] ['공정 단계별 스탠다드 시간과 일정이 정확히 지켜진다면, 열풍로의 승온 과정이 원활하게 진행될 것으로 예측됩니다.', ""'Air & COG' 단계부터 시작되는 승온 점차적인 순서는 안전성과 효율성을 높여줍니다.""]
+
+[5] type=table_str | file=tables_str_final.json | score=0.5404 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 고로종풍조업 용어의 기준] [경로: 4. 조업 기준 / 4.3 감척, 중풍조업] 용어: o 최소유동화 풍량 | 단위: N m³/min | 정의: - 고로내의 장입물이 강하되지 못하고 장입물이 뜨는 현상이 발생되는 풍량의 최대한계치 | 비고:
+
+[6] type=table_str | file=tables_str_final.json | score=0.5386 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 용선 및 외판 주물선 요구품질 기준] [경로: 6. 기술이론(용선 및 외판 주물선의 품질영향) / 6.1 용선품질의 영향 / 가. [Si]] col1: ● [Si]상승시 고로조업 영향 | col2: -용융물의 유동성 불량으로 풍액성상승의 원인이 된다.-[Si]환원시 열량이 필요하므로 고로 연료비가 상승된다.-주상탈규작업을 할 경우 탈규제 소비량이 많아지고, Ladle 내 Slag 발생량 증가로 수선량이 감소하게 된다.
+
+[7] type=text | file=texts_final.json | score=0.5238 | t_embed_ms=53.9 t_search_ms=2.5 t_gen_ms=10430.9
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.5 열풍로 비상작업 / 6.5.1 고로휴풍시 고로내 역류방지] ### 6.5.1 고로휴풍시 고로내 역류방지
+열풍변 폐로 고로휴풍이 되면 Air B/L 변을열어 역류해오는 Gas 를 대기에 방산하여야 한다.
+
+열풍변의 Sealing 은 풍압으로 이루어지나 고로휴풍시 Sealing 이 불가능하여 고로내 역류 gas 가
+
+열풍변 또는 혼합냉풍변내로 들어와 폭발을 일으킨다.",53.9,2.5,10430.9,10.487
+노벽보수 후 재송풍 시 8시간 후부터 풍량을 홀딩시키는 이유는 무엇입니까?,,"[1] type=text | file=texts_final.json | score=0.5655 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 노벽보수시 감광 및 감척기준] [경로: 2. 목 적] # 2. 목 적
+노벽 보수를 위하여 감척후 장시간 휴풍시 노벽의 부착물 탈락과 노벽 보수시 발생되는 보수재의 Loss량이 노내에 침적되어 노열을 급격히 저하시켜 재송풍시 노황 불량을 초래하게 된다 이를 방지하고 빠른 복적으로 정상적 노황 유지를 위하여 사전에 충분한 감광과 적정 감척 Level을 설정하기 위함
+
+[2] type=table_unstr | file=tables_unstr_final.json | score=0.5289 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 노저 냉입사고 복구사례 기준] [경로: 1 단계(5 일) : 출선구 ~ 풍구 연결2 단계(5 일) : 노열확보 및 노내 Slag 극력 배출3 단계(4 일) : 풍구 개공 및 풍량 복귀4 단계(4 일) : 조업도 달성] ['{ 열풍로 내부 온도 }가 { 목표 온도 범위 } 이외의 경우 { 가스 유량 } 을 { 증감 방향 } 한다.', '[참고 있음] 의 평균 { 시간 단위 } 에서 가장 큰 { 고로별 작업량 } 과 최소값은 각각 { 대비되는 값 } 으로 나타났습니다.']
+
+[3] type=text | file=texts_final.json | score=0.5273 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 뱅킹(Banking) 조업시 감광 기준] [경로: 2 목 적] # 2 목 적
+Banking 조업 후 재송풍시 조기예 노열을 확보하고 신속하게 풍량을 확보하여 정상조업으로 복귀하기 위하여 휴풍전에 노내부를 저 O/C로 치환하기 위한 기준을 정립하는데 목적이 있다.
+
+[4] type=text | file=texts_final.json | score=0.5259 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 장입물 강하 이상시 조치 기준] [경로: 4. 조업기준 / 4.2 장입물 걸림(栅, HANGING) / 4.2.5 봉락작업 후의 증풍] ### 4.2.5 봉락작업 후의 증풍
+
+#### 가. 봉락후는 정풍량을 기준으로 노정압을 먼저 상향조정한 후에 증풍을 실시하여 송풍압을 상향할 수 있도록 한다.
+
+#### 나. 노내 과상대 및 융착층 분포를 우선 정상적인 상태로 회복하기 위해 봉락전의 풍량의 약 70~80% 수준까지 가능한 신속히 복귀를 한다.
+
+#### 다. 노내 Gas 유속은 취방방지를 위해 정상시보다 낮은 상태로 유지한다.노열보상은 SLIP 발생크기 및 당시 노열 등을 고려 결정한다.
+
+[5] type=text | file=texts_final.json | score=0.5237 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 노심 불활성화시 조치기준] [경로: 6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착] # 6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착
+8~9 일후 풍구 Level 통과, 풍구하부 5m 지역 안착
+
+11~12 일후 노저 Bottom 도달
+
+[이미지 참고] <그림>은 '노심 불활성을 위한 조치기본'이라는 주제의 표를 나타내며, 시간대와 관련된 내용들이 포함되어 있습니다.'풍구 Level 통관 후', '풍구 하부 5미터 지점에서 안착한 경우', 그리고 '노저 Bottom 도착 후' 등의 단계적 조치사항들을 확인할 수 있습니다.
+고로 노저에서의 Coke 치환
+
+[6] type=table_str | file=tables_str_final.json | score=0.5196 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 뱅킹(Banking) 조업 기준] [경로: 4. 조업기준 / 4.1 휴풍전 조업] 구 분: ○휴풍전 안정노 황유지 | 5 일 뱅킹: ○휴풍전 노황 안정유지를 위해 분포조정○보조연료 취입량 조정 (사전 감광등) | 10 일 뱅킹:  | 10 일 이상 뱅킹:
+
+[7] type=table_str | file=tables_str_final.json | score=0.5166 | t_embed_ms=49.3 t_search_ms=3.1 t_gen_ms=10565.7
+[문서: 노심 불활성화시 조치기준] [경로: 6 일후 장입 Coke 풍구 Level 아래 3.5m 지역 안착 / 6.2.3 기타 노심활성화 대책] 관련특허, 문헌: 고로조업방법 (JP94-12908) | 기술개요: 파이프네 대립 코크스와 용액용 Flux 혼합한 것을 버드네스트부에 삽입하여 풍액, 통기성 유지 | 비고: 일회성",49.3,3.1,10565.7,10.621
+열류비가 무엇입니까?,"열류비는 ((C_{Core} × OR) + (C_{Coke} × CR)) / (C_{Gas} × V_{Top})으로 정의됩니다. 이는 PCI Cut 조업 시 노내 열 밸런스 변화를 분석하는 데 사용됩니다. 단위나 조건은 원문 그대로 유지하며, 고로별 상이한 기준은 언급되지 않았습니다. 다른 문맥에서는 열류비에 대한 설명이 없습니다.","[1] type=image_formula | file=images_formula_final.json | score=0.5872 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: PCI Cut시 조치기준] [경로: 4. 조업기준 / 4.4 PCI Cut(All Coke)조업시 노내현상 변화의 이론적 고찰 / 4.4.1 노내 열 Balance 변화] 열류비 = [((C_{Core} × OR) + (C_{Coke} × CR))/(C_{Gas} × V_{Top})]
+
+[2] type=table_str | file=tables_str_final.json | score=0.5275 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 장입 연,원료 용어의 기준] [경로: 4. 조업 기준 / 4.2 정립광 품질관리 용어] 용어: 열할성 | 단위: - | 정의: 광석의 분화 정도를 나타내는 지수를 말한다.즉 20mm 의 시료중 수분을 완전히 제거한 500g 을 가열된 (700℃)로에 30분간 유지시킨후 텅블러에 900(30rpm)회전시켜 -5mm 발생비를 측정한 것.열할성이 냉난 철광석을 고로에서 사용시 고상대에서 통기성 확보측면에서 불리함.
+
+[3] type=table_str | file=tables_str_final.json | score=0.5093 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 생산관리 용어의 기준] [경로: 4. 조업기준 / 4.1 고출선비 조업] 용어: ○ 저온 열보존대 | 단위: - | 정의: 연, 원료가 장입되어 노하부로 내려 오면서 승온 과정을 거치는데 Carbon Solution Loss 반응(흡열반응)이 발생하여 승온이 되지 않는 구간(550~650℃)을 말함. | 비고:
+
+[4] type=text | file=texts_final.json | score=0.5065 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.1 연소이론 / 6.1.2 연소관련 주요 용어 / 6.1.2.4 공기비(실제공연비와 이론공연비의 비)] #### 6.1.2.4 공기비(실제공연비와 이론공연비의 비)
+
+##### 가. 이론공기비로 연소시킬때의 공기비 1.0
+
+##### 나. 과잉 공기연소시의 공기비 > 1.0
+
+[5] type=text | file=texts_final.json | score=0.4961 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.3 열풍로 배열회수 설비 / 6.3.1 산로점 온도 관리 / 6.3.1.3 현조업시 산로점 온도 관리] #### 6.3.1.3 현조업시 산로점 온도 관리
+HE-1 Fin Tube 의 산로점 온도관리 :
+
+(HE-1 배 Gas 출구온도 + HE-1 열매입구온도) ≥ 130℃ 로써
+
+HE-1 의 배 Gas 출구온도 150℃, HE-1 의 열매입구온도 110℃ 이상으로 관리하여
+
+TDP 가 130℃ 이상으로 관리하고 있다.
+
+[6] type=table_str | file=tables_str_final.json | score=0.4946 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 노저연와 침식기구 및 잔존 계산법 기준] [경로: 6 기술이론 / 6.1 노저연와의 침식 기구 / 6.1.2 노저 해체조사에 의한 노저 침식 진행과정 분석] ['열풍로 운영 중인 경우, 연소가 시작될 때 Dome 온도는 900°C 미만이고 종료할 때는 110°C 이상이며, 역송풍이 시작될 때 Checker 수급물 온도가 30°C 이상일 필요성이 있다.', '또한, 규석 연과 최하단 온도도 연소가 진행되면서 70°C 미미하고, 역송通风 도중에는 Dome 온 도가 950°C 미안하다.', 'BFG 및 Air의 강압도 연소 시작 시 30kN/m² 이상이 요구되고, 역송风 도중 혼랭실 방산 구온도가 20kN/M² 이상이어야 한다.']
+
+[7] type=image_formula | file=images_formula_final.json | score=0.4921 | t_embed_ms=53.7 t_search_ms=3.2 t_gen_ms=9116.6
+[문서: 열풍로 개,보수기술 기준] [경로: 6. 기술이론 / 6.2 연소 Air 계산 / 6.2.5 이론 연소 온도] He + CCOG × TCOG + Ca × Ta × A₀  He: 발열량       CCOG: COG 비열       TCOG: COG 온도       Ca: 연소공기 비열  η: 연소효율       Ta: 연소공기 온도       A₀: 연소 이론공기량  Cg: 배 Gas 비열g: 배 GAS량",53.7,3.2,9116.6,9.174
+"미분탄 취입시, 고기비라는 말이 나오는데 그 의미가 무엇입니까?","컨텍스트에 ""고기비""라는 용어는 없습니다.","[1] type=table_str | file=tables_str_final.json | score=0.6276 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.2 “미분탄 취입시 조업문제점 및 대책”관련 용어] 용어: ○ 취입단관 | 영문 표기: Lance | 정의: -미분탄을 고로에 취입시키기 위해 풍구 선단에 설치되어 있는 Pipe | 비고:
+
+[2] type=table_str | file=tables_str_final.json | score=0.6169 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고:
+
+[3] type=table_str | file=tables_str_final.json | score=0.6090 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] 용어: ○ 미분탄비 | 영문 표기: PCR | 정의: -용선 1Ton 생산시 투입되는 미분탄량 (Kg/T-P) | 비고:
+
+[4] type=table_str | file=tables_str_final.json | score=0.6072 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.1 “미분탄 취입조업시 노내상황 변화”관련 용어] ['용어: ○ 미분탄 취입 | 영문 표기: P.C.I(Pulverized Coal Injection) | 정의: -고로에서 보조연료 취입수단의 하나로써 고가의 Coke를 저가의 유연탄으로 대체하는 것으로 노하부의 풍구를 통해 취입할 수 있도록 -200Mesh 가 80% 이상 되도록 파쇄한 유연탄 | 비고: ', '용어: ○ 미분탄비 | 영문 표기: PCR | 정의: -용선 1Ton 생산시 투입되는 미분탄량 (Kg/T-P) | 비고: ']
+
+[5] type=table_str | file=tables_str_final.json | score=0.5863 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 고로일반 용어의 기준] [경로: 4. 조업 기준 / 4.1 고로공통] 용어: ○ 미분탄취입조업 | 단위: - | 정의: - 유·무연탄(Coal)을 미분의 입도로 파쇄하여 풍구를 통해 노내로 취입하는 조업 | 비고:
+
+[6] type=table_str | file=tables_str_final.json | score=0.5806 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입 용어의 기준] [경로: 4. 조업기준 / 4.2 “미분탄 취입시 조업문제점 및 대책”관련 용어] ['용어: ○ 야드입조 | 영문 표기: - | 정의: -소결광 및 Coke를 고로에 장입할 때 설비 Trouble 또는 비정상적인 원인에 의해 고로까지 직접 운송되지 못할 경우 Yard에 적치되어 있는 것을 고로에 입조하는 것을 말함 | 비고: ', '용어: ○ 취입단관 | 영문 표기: Lance | 정의: -미분탄을 고로에 취입시키기 위해 풍구 선단에 설치되어 있는 Pipe | 비고: ']
+
+[7] type=text | file=texts_final.json | score=0.5615 | t_embed_ms=45.0 t_search_ms=2.6 t_gen_ms=7625.5
+[문서: 미분탄 취입시 조업기준] [경로: 2. 목 적] # 2. 목 적
+Coke 대체로의 미분탄 취입비 증가시 발생되는 노하부 통기성, 풍액성 저하와 적정 치환율 관리 및 장입 Base 관리기준을 적용하여 안정적인 취입조업을 수행하기 위함",45.0,2.6,7625.5,7.673
+노저 온도가 올라가는 이유가 무엇입니까?,"컨텍스트에 노저 온도 상승의 구체적 원인은 명시되지 않았습니다. 관련 데이터는 온도 변화 패턴을 보여주지만, 상승 이유에 대한 설명은 없습니다.","[1] type=image_sum | file=images_sum_final.json | score=0.6335 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.1 풍구경 감소와 풍구 직하부 노저온도 관계] <그림>은 '노저온도'와 관련된 데이터를 나타내며, X축에는 시간 (시간 단위), Y축에는 온도 (℃)가 표시됩니다.'노저온 도상승 및 저하시 조사 기준'이라는 제목 아래에 위치하고 있으며, 각 색깔의 선들이 특정 조치나 상태를 나타냅니다.특정한 날짜와 시간대에서는 노저온 도가 급격히 상승하면서, 다른 조치들은 이를 얽혀서 변화합니다.이러한 그래프는 저하시Action 사항을 이해하는데 있어 중요하며, 특히 풍경 경감과 풍광 직하부의 노저온 관리에 대해 논의할 때 유용합니다.
+
+[2] type=text | file=texts_final.json | score=0.6306 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 2. 목 적] # 2. 목 적
+노저온도 관리는 노저의 측벽 및 Bottom 부의 건전성 판단에 중요한 지표가 된다 온도가 이상 상승하면 노저의 열부하로 침식의 심화를 예상하며 온도가 너무 낮게 하향하면 노저의 용기 현상등 불활성화 문제가 된다 따라서 노저의 적정온도 유지가 노 장수명을 좌우 하므로 적정 온도 유지를 위한 조업 Action 기술이 필요하다
+
+[3] type=image_sum | file=images_sum_final.json | score=0.6230 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.3 열풍제어변(HBFCV)에 의한 노저온도 제어 / 6.3.3 열풍제어변에 의한 노저 측벽보호 및 출선시간 연장 메커니즘] <그림>은 '노저온도'와 관련된 데이터를 나타내며, X축에는 시간(hour), Y축에는 온도(degree Celsius)가 표시됩니다.'노저온 도상승, 저하시는 조치 기관(Rew.9)'이라는 타이틀 아래에 위치하고 있으며, 각 색깔과 모양으로 다양한 조치 상태를 구분합니다.이 그래프에서는 특정 시간대에 노저온 도가 급격히 상승함을 확인할 수 있습니다.
+
+[4] type=text | file=texts_final.json | score=0.6092 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노황관리 용어의기준] [경로: 4. 조업 기준 / 4.1 고로 조업지수 관련 용어] ## 4.1 고로 조업지수 관련 용어
+
+### 가. 한계풍압 : 고로내에서 장입물이 원활하게 강하하거나 생바람(취발)이 일어나지 않는 최고의 풍압을 말하며 통상적으로 풍압-노정압의 한계 압손으로 관리 한다.
+
+### 나. 송풍기 Surging : 송풍기 토출압력보다 고로측 풍압이 더 높을 때 발생하는 송풍기 Trouble 이다.
+
+### 다. Coke 유동화 : 노내 Gas 유속이 너무 빠르거나 상승 Gas 의 압력이 높아 충진층 내에서 COKE 가 불려 올라가거나 층이 무너지는 현상이다.
+
+### 라. 날바람(channeling, 취발) : 가스 유속이 급상승한 곳에 장입물의 유동화가 시작되면, 작은 입자들이 가스류에 의해 상부로 올라가고 이들 입자들의 대부분이 정지하는 상태까지 된 후 가스의 상승력에 의해 분원료층이 파괴되어 가스가 급상승하는 현상
+
+### 마. 걸림(Hanging, 행잉) : 고로내 통기성이 나쁜 곳에 노내 가스의 압력이 상승되어, 그 압력이 강화하는 장입물의 중량보다 클 경우, 장입물의 강화가 정체되면서 강화가 중지되는 현상이다.
+
+### 바. 풍구 대파 : 용융물에 의해 풍구가 손상되고, 손상된 부위로 용융물이나 코크스가 침투되어 냉각이 안되면서 풍구가 크게 파괴되어 노내 코크스가 풍구를 통해서 노외로 분출되는 현상이다.
+
+### 사. 풍구 곡손 : 노벽부에 벽력, Slip 등의 현상으로 상당한 무게를 가진 낙하물이 풍구 선단부를 가격하여 풍구가 변형되고 하부로 쳐지는 현상
+
+### 아. 드롭(Drop) : 0.5m ~ 1.0m 미만 급저하.
+
+### 자. 슬립(Slip) : 1.0m 이상 급저하.
+
+### 차. 내림(붕락) : 30 분 정도 걸림(Hangin) 후 장입물이 급저하, 노정온도 상승, 노정 가스압 +0.1kg/cm² 정도 상승.
+
+[5] type=text | file=texts_final.json | score=0.6078 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.5 노저 Bottom 부 온도저하시 현상 / 6.5.1 노저 Bottom 부 온도 저하시 요인 추정] ### 6.5.1 노저 Bottom 부 온도 저하시 요인 추정
+
+#### 가. 장기간 Coke 성상 불량에 따른 노심 Coke 오염Coke 중 Ash 함량 높은상태 지속 및 CSR 저하나. 노체 상부 중심온도 저하에 의한 Coke 열화 가속다. 중심부로 Ore 유입량 증가
+Ore Large 장입시 Sounding 미끄러짐 현상 주기적 발생과 Coke Terrace 길이의 감소 라. Input TiO2 상승조업 및 Hearth Wall 냉각수 온도 저하의 장기간 지속
+
+[6] type=image_sum | file=images_sum_final.json | score=0.6069 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 열풍로 조업관리 기준] [경로: 6. 기술이론 / 6.2 열풍로 철피 SCC(Stress Corrosion Crack)발생 Mechanism / 6.2.1 SCC Mechanism] <그림>은 열풍로 도메 온도와 NOx 뉘앙스 간의 관계를 나타내며, X축에는 열풍로의 도메 옥외온도 (°C), Y축에는 NOx 뇌도(mg/m³)를 표시하고 있습니다.노란색 선과 파랑색 점으로 구성된 그래프에서는 노란색 선이 열풍로 옥외 온도 변화에 따른 NOx 브레드의 상승 경향을 보여줍니다.또한, <그림>에서 열풍로 오목부의 온도는 최대 1,400 °C 까지는 지속되고 있으며, 이 온도 이상에서는 NOx 뿜어져 나오게 됩니다.
+
+[7] type=text | file=texts_final.json | score=0.6059 | t_embed_ms=44.2 t_search_ms=3.2 t_gen_ms=9301.4
+[문서: 노저온도 상승, 저하시 조치 기준] [경로: 6. 기술이론 / 6.5 노저 Bottom 부 온도저하시 현상] ## 6.5 노저 Bottom 부 온도저하시 현상
+
+### 가. 노저 측벽온도 및 HB 온도의 저하가 지속적으로 발생나. 노저 용기에 따른 출선 Tap 수 증가다. 노내 통기성 악화 및 가스류 불균일 등의 노황 불안정 지속",44.2,3.2,9301.4,9.349
