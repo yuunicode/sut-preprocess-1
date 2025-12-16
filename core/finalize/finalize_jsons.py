@@ -25,6 +25,23 @@ def save_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def display_filename_for_prefix(filename: str) -> str:
+    """
+    TP-XXX-XXX-XXX 접두어와 (Rev...) 이후는 제거해 prefix에 쓰일 문서명을 만든다.
+    """
+    if not filename:
+        return ""
+    stem = Path(filename).stem
+    rev_idx = stem.find("(Rev")
+    base = stem[:rev_idx].strip() if rev_idx != -1 else stem
+    base = re.sub(r"\s+", " ", base).strip()
+    tp_match = re.match(r"(TP-\d{3}-\d{3}-\d{3})(?:\s+(.*))?$", base)
+    if tp_match:
+        title = (tp_match.group(2) or "").strip()
+        return title or base
+    return base
+
+
 def load_table_summaries() -> Dict[str, List[str]]:
     result_path = LLM_DIR / "llm_tables_str_result.json"
     if not result_path.exists():
@@ -49,9 +66,10 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
     finals: List[Dict[str, Any]] = []
 
     for tbl in tables:
+        display_name = display_filename_for_prefix(tbl.get("filename") or "")
         prefix_parts = []
-        if tbl.get("filename"):
-            prefix_parts.append(f"[문서: {tbl.get('filename')}]")
+        if display_name:
+            prefix_parts.append(f"[문서: {display_name}]")
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
@@ -122,9 +140,10 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
     for tbl in tables:
         summary = summary_map.get(tbl.get("id"))
         fallback_text = "No Description"
+        display_name = display_filename_for_prefix(tbl.get("filename") or "")
         prefix_parts = []
-        if tbl.get("filename"):
-            prefix_parts.append(f"[문서: {tbl.get('filename')}]")
+        if display_name:
+            prefix_parts.append(f"[문서: {display_name}]")
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
@@ -156,9 +175,10 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
     comps = load_json(src_path)
     finals: List[Dict[str, Any]] = []
     for comp in comps:
+        display_name = display_filename_for_prefix(comp.get("filename") or "")
         prefix_parts = []
-        if comp.get("filename"):
-            prefix_parts.append(f"[문서: {comp.get('filename')}]")
+        if display_name:
+            prefix_parts.append(f"[문서: {display_name}]")
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
@@ -223,9 +243,10 @@ def _finalize_images_generic(
         if not original:
             # 내용이 없으면 적재 대상에서 제외
             continue
+        display_name = display_filename_for_prefix(comp.get("filename") or "")
         prefix_parts = []
-        if comp.get("filename"):
-            prefix_parts.append(f"[문서: {comp.get('filename')}]")
+        if display_name:
+            prefix_parts.append(f"[문서: {display_name}]")
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
@@ -306,10 +327,11 @@ def finalize_texts(chunk_size: int = 0, chunk_overlap: int = 0) -> List[Dict[str
     finals: List[Dict[str, Any]] = []
     for item in texts:
         filename = item.get("filename") or ""
+        display_name = display_filename_for_prefix(filename)
         section_path = item.get("section_path") or ""
         prefix_parts = []
-        if filename:
-            prefix_parts.append(f"[문서: {filename}]")
+        if display_name:
+            prefix_parts.append(f"[문서: {display_name}]")
         if section_path:
             prefix_parts.append(f"[경로: {section_path}]")
         prefix = " ".join(prefix_parts)

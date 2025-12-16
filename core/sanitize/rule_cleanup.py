@@ -39,8 +39,6 @@ PAGE_BREAK_COMMENT = "<!-- 페이지번호: {page}, 파일명: {filename} -->"
 # \frac{a}{b} 변환용
 FRAC_RE = re.compile(r"\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}")
 SQRT_RE = re.compile(r"\\sqrt\s*\{([^{}]+)\}")
-FALLBACK_FRAC_RE = re.compile(r"\\frac\s*\{([^}]*)\}\s*\{([^}]*)\}", re.DOTALL)
-UNBALANCED_FRAC_RE = re.compile(r"\\frac\s*\{([^{}]*?)\}\s*\{([^}]*)", re.DOTALL)
 
 
 def _extract_braced(text: str, start: int) -> tuple[str | None, int]:
@@ -76,16 +74,14 @@ def convert_fracs(text: str) -> tuple[str, int]:
             den, final_idx = _extract_braced(text, next_idx)
             num_conv, num_repl = convert_fracs(num)
             if den is None:
-                den_raw = text[next_idx:].lstrip("{").rstrip()
-                den_conv, den_repl = convert_fracs(den_raw)
-                out.append(f"[({num_conv})/({den_conv})]")
-                replaced += 1 + num_repl + den_repl
-                idx = len(text)
-            else:
-                den_conv, den_repl = convert_fracs(den)
-                out.append(f"[({num_conv})/({den_conv})]")
-                replaced += 1 + num_repl + den_repl
-                idx = final_idx
+                # 분모를 파싱하지 못하면 변환을 생략하고 원본을 최대한 그대로 남긴다.
+                out.append(text[idx:next_idx])
+                idx = next_idx
+                continue
+            den_conv, den_repl = convert_fracs(den)
+            out.append(f"[({num_conv})/({den_conv})]")
+            replaced += 1 + num_repl + den_repl
+            idx = final_idx
         else:
             out.append(text[idx])
             idx += 1
@@ -256,6 +252,7 @@ SECONDARY_MAP = [
     (r"\s*\\mathrm\{\s*mm\s*\}", "mm"),
     (r"\s*\\mathrm\{\s*O\s*\}", "O"),
     (r"\s*\\mathrm\{\s*cm\s*\}", "cm"),
+    (r"&amp;", "&"),
 ]
 
 INLINE_MATH_RE = re.compile(r"(<math(?![^>]*display=\"block\")[^>]*>)(.*?)(</math>)", re.IGNORECASE | re.DOTALL)
@@ -304,21 +301,18 @@ def extract_page_sections(content: str) -> list[tuple[str, str]]:
 
 def extract_display_filename(filename: str) -> str:
     """
-    파일명에서 TP-XXX-XXX-XXX 이후, (Rev.) 앞까지의 제목을 추출한다.
-    접두어는 제외하고, "(Rev" 직전에서 잘라낸다.
+    파일명에서 (Rev.) 앞까지의 제목을 추출한다.
+    TP-XXX-XXX-XXX 접두어는 메타데이터용으로 유지한다.
     """
     stem = Path(filename).stem
-    match = re.search(r"TP-\d{3}-\d{3}-\d{3}\s+(.+?)(?=\(Rev\.)", stem)
-    if match:
-        return match.group(1).strip()
     rev_idx = stem.find("(Rev")
-    if rev_idx != -1:
-        title_part = stem[:rev_idx].strip()
-        parts = title_part.split(maxsplit=1)
-        if len(parts) == 2:
-            return parts[1].strip()
-        return title_part
-    return stem
+    base = stem[:rev_idx].strip() if rev_idx != -1 else stem
+    base = re.sub(r"\s+", " ", base).strip()
+    tp_match = re.match(r"(TP-\d{3}-\d{3}-\d{3})(?:\s+(.*))?$", base)
+    if tp_match:
+        prefix, title = tp_match.group(1), (tp_match.group(2) or "").strip()
+        return f"{prefix} {title}".strip()
+    return base
 
 
 def insert_page_breaks(content: str, filename: str) -> str:
@@ -347,13 +341,9 @@ def decode_basic_entities(text: str) -> str:
 def preprocess_special_math(text: str) -> str:
     """
     파일명이 '조업공정식 해설' 계열일 때 실행:
-    1) block math 내부의 인라인 <math>...</math> 제거
-    2) block math 외부 인라인 <math>...</math> 제거
-    3) block math가 숫자형(예: 4.3.11H₂, 4.3.9 대기습분...)으로 시작하면 '=' 앞까지를 제목으로 추출해
-       해당 블록 위에 숫자형에 맞는 레벨(#/##/###)의 헤딩을 삽입
-    4) 본문에 숫자형이 포함된 <p>...</p> 또는 맨 앞 숫자형 라인은 원문을 유지한 채,
-       동일한 레벨의 헤딩을 해당 라인 바로 위에 추가
-    5) block math가 '>= ' 또는 '=' 로 시작하면 직전 헤딩 라인(마지막으로 삽입된 헤딩)을 복제해 블록 위에 한 번 더 삽입
+    - block math가 숫자형(예: 4.3.11...)으로 시작하면 '=' 앞까지를 제목으로 추출해
+      해당 블록 위에 숫자형에 맞는 레벨(#/##/###)의 헤딩을 삽입한다.
+    - 그 외 수식/기호 변환은 수행하지 않는다.
     """
     def make_heading(label: str, title: str) -> str:
         parts = parse_numeric_label(label)
@@ -390,56 +380,31 @@ def preprocess_special_math(text: str) -> str:
     text = BLOCK_MATH_RE.sub(block_repl, text)
     # 2) block math 외부 인라인 제거
     text = remove_inline_math(text)
-    # src="..." 내부는 보존하기 위해 마스킹 (아래첨자 변환 영향 제거)
-    src_placeholders: list[str] = []
-    def mask_src(match: re.Match[str]) -> str:
-        src_placeholders.append(match.group(0))
-        return f"__SRCPLACEHOLDER{len(src_placeholders)-1}__"
-    text = re.sub(r'src="[^"]*"', mask_src, text, flags=re.IGNORECASE)
-    # 4) 특수 기호/윗·아랫첨자 보정 (조업공정식 해설 전용)
-    sup_map = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
-    sub_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
-
-    def sup_repl(match: re.Match[str]) -> str:
-        digit = match.group(1)
-        return digit.translate(sup_map)
-
-    def sub_repl(match: re.Match[str]) -> str:
-        digit = match.group(1)
-        return digit.translate(sub_map)
-
-    text = re.sub(r"\^\s*\{?\s*([0-9])(?![0-9.])\s*\}?", sup_repl, text)
-    text = re.sub(r"_\s*\{?\s*([0-9])(?![0-9.])\s*\}?", sub_repl, text)
-    text = text.replace(r"\mu", "μ")
-    text = text.replace(r"\varepsilon", "ϵ")
-    text = text.replace(r"\beta", "β")
-    text = text.replace(r"\Delta", "Δ")
-    text = text.replace(r"\rightarrow", "→")
-    text = text.replace(r"rightarrow", "→")
-    text = text.replace(r"\approx", "≒")
-    text = re.sub(r"\s*\^\s*\{?\s*\\circ\s*\}?", "°", text)
-    # \underline 제거 및 간단 기호 치환
-    text = re.sub(r"\\underline\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
-    text = text.replace(r"\cdot", "·")
-    text = text.replace(r"\eta", "η")
-    text = text.replace(r"\%", "%")
-    # \text{...} 내용만 남기기 (트림)
-    text = re.sub(r"\\text\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text)
-    # 깨진 \frac{...{...} 형태 보정 후 변환
-    text = re.sub(r"\\frac\s*\{\s*([^{}]+)\s*\{\s*([^{}]+)\}\s*\}", r"\\frac{\1}{\2}", text)
-    text, _ = convert_fracs(text)
-    # 마스킹 복원
-    def restore_src(match: re.Match[str]) -> str:
-        idx = int(match.group(1))
-        return src_placeholders[idx] if 0 <= idx < len(src_placeholders) else match.group(0)
-    text = re.sub(r"__SRCPLACEHOLDER(\d+)__", restore_src, text)
     return text
 
 def normalize_math_text(text: str) -> Tuple[str, int]:
-    """1차(섭씨/그리스/수학) 후 2차(화학식/단위) 순서로 변환한다."""
+    """
+    수식 정규화 순서:
+    1) 중복 백슬래시 축소(\\frac 등 명령어 보존)
+    2) 섭씨/각도 변환 (^\\circ C, ^\\circ)
+    3) 숫자 위·아래첨자 변환(±숫자만, 괄호/괄호 없음 모두)
+    4) \\frac{...}{...} → [(...)/(...)], \\sqrt{...} → √(...)
+    5) PRIMARY_MAP, SECONDARY_MAP 치환
+    6) \\text{...} 내용만 남기고 trim
+    7) &amp; → &, 'N m³' → 'Nm³'
+    """
     total = 0
 
-    # 숫자 아래첨자/윗첨자 유니코드 변환 (_2 -> ₂, ^-2 -> ⁻²) - 한 자리 또는 음수 한 자리만 대상
+    text = re.sub(r"\\\\(?=[A-Za-z])", r"\\", text)
+
+    celsius_patterns = [
+        (r"\s*\^\s*\{?\s*\\circ\s*\}?\s*(?:\\text\{C\}|\\mathrm\{C\}|C)", "°C"),
+        (r"\s*\^\s*\{?\s*\\circ\s*\}?", "°"),
+    ]
+    for pattern, repl in celsius_patterns:
+        text, n = re.subn(pattern, repl, text, flags=re.IGNORECASE)
+        total += n
+
     sub_map = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
     sup_map = str.maketrans("-0123456789", "⁻⁰¹²³⁴⁵⁶⁷⁸⁹")
 
@@ -467,78 +432,32 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
         total += 1
         return digit.translate(sup_map)
 
-    def sup_brace_repl(match: re.Match[str]) -> str:
-        nonlocal total
-        content = match.group(1).replace(" ", "")
-        if not re.fullmatch(r"-?\d+", content):
-            return match.group(0)
-        total += 1
-        return content.translate(sup_map)
-
     def sup_paren_repl(match: re.Match[str]) -> str:
         nonlocal total
         content = match.group(1).replace(" ", "")
-        if not re.fullmatch(r"-?\d+", content):
+        norm = content.replace("−", "-")
+        if not re.fullmatch(r"[+\-]?\d+", norm):
             return match.group(0)
         total += 1
-        return content.translate(sup_map)
+        return norm.translate(sup_map)
     
-    text = re.sub(r"_(\d)", sub_digit_repl, text)
-    text = re.sub(r"\^\s*\{\s*(-?\d+)\s*\}", sup_brace_repl, text)
-    text = re.sub(r"\^\s*\(\s*(-?\d+)\s*\)", sup_paren_repl, text)
-    text = re.sub(r"\^(-?\d)", sup_digit_repl, text)
+    text = re.sub(r"_([0-9])", sub_digit_repl, text)
+    text = re.sub(r"\^\(\s*([+\-−]?\d+)\s*\)", sup_paren_repl, text)
+    text = re.sub(r"\^([+\-−]?\d)", sup_digit_repl, text)
     text = re.sub(r"<sub>(.*?)</sub>", html_sub_repl, text, flags=re.IGNORECASE | re.DOTALL)
     text = re.sub(r"<sup>(.*?)</sup>", html_sup_repl, text, flags=re.IGNORECASE | re.DOTALL)
 
-    def sum_paren_repl(match: re.Match[str]) -> str:
-        nonlocal total
-        inner = match.group(1).strip()
-        total += 1
-        return f"Σ({inner})" if inner else "Σ"
-
-    def sum_word_repl(match: re.Match[str]) -> str:
-        nonlocal total
-        total += 1
-        return "Σ"
-
-    text = re.sub(r"\\sum\s*\(\s*([^\)]*)\s*\)", sum_paren_repl, text)
-    text = re.sub(r"\\sum\b", sum_word_repl, text)
-
-    # \frac{...}{...} → [(...)/(...) ] (중첩 포함)
     text, frac_repl_count = convert_fracs(text)
     total += frac_repl_count
 
-
-    while True:
-        new_text, n = FALLBACK_FRAC_RE.subn(
-            lambda m: f"[({m.group(1).strip()})/({m.group(2).strip()})]", text
-        )
-        total += n
-        if n == 0:
-            break
-        text = new_text
-    
-    # 여전히 남은 불완전 frac 처리 (닫힘 누락 등)
-    if "\\frac" in text:
-        text, n = UNBALANCED_FRAC_RE.subn(
-            lambda m: f"[({m.group(1).strip()})/({m.group(2).strip()})]", text
-        )
-        total += n
-        
-    # \sqrt 처리 (중첩 포함)
     text, sqrt_repl_count = convert_sqrt(text)
     total += sqrt_repl_count
-
-    # \left / \right 제거 (구분자는 그대로 둠)
-    text = re.sub(r"\\left\s*", "", text)
-    text = re.sub(r"\\right\s*", "", text)
 
     for mapping in (PRIMARY_MAP, SECONDARY_MAP):
         for pattern, repl in mapping:
             text, n = re.subn(pattern, lambda m, r=repl: r, text, flags=re.IGNORECASE)
             total += n
 
-    # 최종적으로 \text{ ... } 형태를 내용만 남기고 양쪽 공백 제거
     def strip_text(match: re.Match[str]) -> str:
         nonlocal total
         inner = match.group(1).strip()
@@ -547,47 +466,66 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
 
     text = re.sub(r"\\?text\s*\{\s*(.*?)\s*\}", strip_text, text)
     text = re.sub(r"\bext\s*\{\s*(.*?)\s*\}", strip_text, text)
-    # \boxed{...}, \underlined{...} 제거 (내용만 남기고 양쪽 공백 제거)
-    text = re.sub(r"\\boxed\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
-    text = re.sub(r"\\underlined\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
 
-    # final mandatory cleanups (order-sensitive)
-    # 1) residual \frac -> [()/()] (catch any new ones)
-    text, frac_repl_tail = convert_fracs(text)
-    total += frac_repl_tail
-    # 2) tabs 제거
-    text = text.replace("\t", "")
-    # 3) \begin{aligned} 제거/ \end{aligned}, \begin{array}{l} 제거/ \end{array} 제거
-    text = text.replace(r"\begin{aligned}", "")
-    text = text.replace(r"\begin{array}{l}", "")
-    text = re.sub(r"\\end.*", "", text)
-    # 4) 남은 \\ 제거 (붙어있는 경우 포함) + \\bulet 등 제거
-    text = re.sub(r"\\\\bulet", "", text)
-    text = re.sub(r"\\\\", "", text)
-    # 5) &amp; 제거 (+ %amp; 오기까지 보정)
-    text = text.replace("&amp;", "")
-    text = text.replace("%amp;", "&")
-    # 6) h₂ -> H₂
-    text = text.replace("h₂", "H₂")
-    # 7) ^\to C 변형 -> ℃ (섭씨 기호) (whitespace 허용)
-    text = re.sub(r"\s*\^\s*\\?to\s*C", "℃", text, flags=re.IGNORECASE)
-    # 8) stray times/imes -> × (tab/escape 제거 후 깨진 경우 보정)
-    text = re.sub(r"(?<![A-Za-z])times(?![A-Za-z])", "×", text)
-    text = re.sub(r"(?<![A-Za-z])imes(?![A-Za-z])", "×", text)
-    # 9) 기타 소규모 오탈자 보정
-    text = apply_minor_fixes(text)
-    # 9-1) η_{CO} -> ηCO
-    text = re.sub(r"η\s*_\s*\{\s*CO\s*\}", "ηCO", text)
-    # 10) '\\ <<' 같은 패턴 제거 및 리터럴 '\n' 제거
-    text = re.sub(r"\\\s*<<", "", text)
-    text = text.replace(r"\n", "")
-    # 11) <begin{aligned}foo></begin{aligned}foo> → foo (태그 래핑 제거)
-    text = re.sub(r"<begin\{aligned\}([^<>]+)></begin\{aligned\}\1>", r"\1", text, flags=re.IGNORECASE)
-    # 12) 남은 역슬래시 전부 제거 (단독/붙어있는 경우 포함)
-    text = text.replace("\\bullet", "")
+    text = text.replace("&amp;", "&")
+    text = text.replace("N m³", "Nm³")
+    text = text.replace("N m²", "Nm²")
+    # aligned/배열/박스/밑줄/left-right/줄바꿈 정리
+    text = text.replace(r"\begin{aligned}", "\n")
+    text = text.replace(r"\end{aligned}", "\n")
+    text = text.replace(r"\begin{array}{l}", "\n")
+    text = text.replace(r"\end{array}", "\n")
+    text = re.sub(r"\\boxed\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+    text = re.sub(r"\\underline\s*\{\s*(.*?)\s*\}", lambda m: m.group(1).strip(), text, flags=re.DOTALL)
+    text = re.sub(r"\\left\s*", "", text)
+    text = re.sub(r"\\right\s*", "", text)
+    text = text.replace(r"\\", "\n")
+    # 추가 윗첨자 보정: ^{-1}, ^{(-1)}, ^+, ^- (정수만)
+    sup_extra_map = {"+": "⁺", "-": "⁻"}
+    def sup_final(match: re.Match[str]) -> str:
+        val = match.group(1).replace("−", "-").strip()
+        if re.fullmatch(r"[+\-]?\d+", val):
+            return val.translate(sup_map)
+        if val in sup_extra_map:
+            return sup_extra_map[val]
+        return match.group(0)
+    text = re.sub(r"\^\{\s*\(?\s*([+\-]?\d+|\+|-)\s*\)?\s*\}", sup_final, text)
+    text = re.sub(r"\^\s*([+\-])", lambda m: sup_extra_map.get(m.group(1), m.group(0)), text)
+    # 잔여 백슬래시 제거
     text = text.replace("\\", "")
     
     return text, total
+
+
+def finalize_math_text(text: str) -> str:
+    """
+    오파/파싱 오류 보정을 위한 후처리:
+    1) \\times → ×
+    2) 리터럴 탭(\\t) 제거
+    3) extbraceleft/right 잔여 문자열 제거
+    4) gammaCO/γCO/η_{CO} 변형 → ηCO
+    5) rac{...}{...} 형태를 [(...)/(...)] 로 변환
+    """
+    # 1) 곱셈 기호 (\times, times 잔재까지 보정)
+    text = text.replace(r"\times", "×")
+    text = re.sub(r"(?<![A-Za-z])times(?![A-Za-z])", "×", text)
+    # 2) 탭 제거
+    text = text.replace(r"\t", "").replace("\t", "")
+    # 탭 제거 과정에서 끊어진 'imes' 잔재 보정
+    text = re.sub(r"(?<![A-Za-z])imes(?![A-Za-z])", "×", text)
+    # 3) 잘못 파싱된 brace 토큰 제거
+    text = text.replace("extbraceleft", "").replace("extbraceright", "")
+    # 4) CO 관련 기호 보정
+    text = text.replace(r"\gammaCO", "ηCO").replace("γCO", "ηCO")
+    text = re.sub(r"η\s*_\s*\{\s*CO\s*\}", "ηCO", text)
+    # 5) 앞의 역슬래시가 빠진 rac{...}{...} 보정
+    text = re.sub(
+        r"(?<!\\)rac\s*\{\s*([^}]*)\s*\}\s*\{\s*([^}]*)\s*\}",
+        lambda m: f"[({m.group(1).strip()})/({m.group(2).strip()})]",
+        text,
+        flags=re.DOTALL,
+    )
+    return text
 
 def process_inline_math(content: str) -> Tuple[str, dict]:
     """
