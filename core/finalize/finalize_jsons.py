@@ -70,6 +70,23 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
     summaries = load_table_summaries()
     finals: List[Dict[str, Any]] = []
 
+    def should_skip(tbl: Dict[str, Any]) -> bool:
+        """
+        '품질영향인자' 또는 '공정영향인자'가(공백 무시) 포함된 셀이 있으면 테이블 전체 스킵.
+        """
+        targets = ("품질영향인자", "공정영향인자")
+        rows = tbl.get("row_flatten")
+        cells: List[str] = []
+        if isinstance(rows, list):
+            cells.extend([c for c in rows if isinstance(c, str)])
+        elif isinstance(rows, str):
+            cells.append(rows)
+        for cell in cells:
+            compact = re.sub(r"\s+", "", cell)
+            if any(t in compact for t in targets):
+                return True
+        return False
+
     def clean_summary(summary):
         if isinstance(summary, list):
             text = "".join(s for s in summary if isinstance(s, str)).strip()
@@ -87,6 +104,10 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
+
+        if should_skip(tbl):
+            continue
+
         original = tbl.get("row_flatten")
         base_text = (f"{prefix} {original}".strip() if prefix else original)
         base = {
