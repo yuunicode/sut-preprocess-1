@@ -65,6 +65,13 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
     summaries = load_table_summaries()
     finals: List[Dict[str, Any]] = []
 
+    def clean_summary(summary):
+        if isinstance(summary, list):
+            return "".join(s for s in summary if isinstance(s, str)).strip()
+        if isinstance(summary, str):
+            return summary.strip()
+        return ""
+
     for tbl in tables:
         display_name = display_filename_for_prefix(tbl.get("filename") or "")
         prefix_parts = []
@@ -106,13 +113,13 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
                 )
 
         if tbl.get("id") in summaries:
-            sum_text = summaries[tbl.get("id")]
-            sum_text = (f"{prefix} {sum_text}".strip() if prefix else sum_text)
+            sum_text_raw = clean_summary(summaries[tbl.get("id")])
+            sum_text = (f"{prefix} {sum_text_raw}".strip() if prefix else sum_text_raw)
             finals.append(
                 {
                     "id": f"{tbl.get('id')}#summary",
                     "component_type": "table_summary",
-                    "original": summaries[tbl.get("id")],
+                    "original": sum_text_raw,
                     "text": sum_text,
                     "image_link": tbl.get("image_link"),
                     "section_path": tbl.get("section_path"),
@@ -137,6 +144,13 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
         if item.get("id")
     }
     finals: List[Dict[str, Any]] = []
+    def clean_summary(summary):
+        if isinstance(summary, list):
+            return "".join(s for s in summary if isinstance(s, str)).strip()
+        if isinstance(summary, str):
+            return summary.strip()
+        return ""
+
     for tbl in tables:
         summary = summary_map.get(tbl.get("id"))
         fallback_text = "No Description"
@@ -148,8 +162,8 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
         original = (
-            summary
-            if (isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary))
+            clean_summary(summary)
+            if (summary and ((isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary)) or isinstance(summary, str)))
             else (tbl.get("full_html") or fallback_text)
         )
         base_text = f"{prefix} {original}".strip() if prefix else original
@@ -174,6 +188,12 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
         return []
     comps = load_json(src_path)
     finals: List[Dict[str, Any]] = []
+
+    def strip_math(text: str) -> str:
+        if not isinstance(text, str):
+            return ""
+        return re.sub(r"<math[^>]*>(.*?)</math>", lambda m: (m.group(1) or "").strip(), text, flags=re.IGNORECASE | re.DOTALL).strip()
+
     for comp in comps:
         display_name = display_filename_for_prefix(comp.get("filename") or "")
         prefix_parts = []
@@ -182,12 +202,12 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        original = comp.get("description") or "No Description"
+        original_raw = comp.get("description") or "No Description"
+        original = strip_math(original_raw) or "No Description"
         text_val = f"{prefix} {original}".strip() if prefix else original
         finals.append(
             {
                 "id": comp.get("id"),
-                "placeholder": comp.get("placeholder"),
                 "component_type": comp.get("component_type"),
                 "original": original,
                 "text": text_val,
