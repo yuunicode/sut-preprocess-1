@@ -18,79 +18,141 @@ DEFAULT_DIGIT_ONLY_RATIO_THRESHOLD = 0.3
 DIGIT_HEAVY_LOG = REPO_ROOT / "logs" / "digit_heavy_tables.log"
 
 TABLE_STR_INSTRUCTIONS = """
-너는 제선·제철 공정 문서에서 제공되는 테이블 데이터를 해석해 핵심 의미를 압축해 전달하는 기술 요약 담당자이다. 
-아래 입력 변수(row_flatten, filename, image_link, context_before, context_after)를 참고해 테이블의 기술적 의미를 정확하게 정리하라.
+HARD RULES:
+- Output MUST be Korean only.
+- NEVER output Chinese, Japanese, or any other language.
+- Do NOT insert meaningless spaces between Korean characters.
+  (예: 통기 성 ❌ → 통기성 ✅)
 
-- 참고: row_flatten={row_flatten}, filename={filename},
-- 테이블은 각 행·셀에 담긴 수치, 조건, 정의, 조치(Action)를 함께 설명하라.
-- 특히 1BF, 2BF, 3고로, 4고로 등 각 고로 별 조치가 있다면 이를 정확하게 설명하라.
-- 표 구조나 헤더를 나열하지 말고, 조업 기준·조건·임계값·경향성을 4~8문장으로 요약한다.
-- 테이블에 포함된 수치·단위·조건을 가능한 한 그대로 유지한다.
+- Preserve all technical terms, abbreviations, symbols, and units EXACTLY.
+- Do NOT translate or explain technical terms.
+- dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR remain in English.
+- cokes → 코크스 or cokes.
 
-출력 형식:
+- If unclear or unreadable, keep the original English token.
+- Do NOT guess or invent values.
+
+You summarize structured blast furnace operation tables.
+
+TABLE RULES:
+- BF1, BF2, BF3, BF4 mean 1고로, 2고로, 3고로, 4고로.
+- BF1(R1) → 1고로(R1).
+- Describe actions and criteria per furnace separately.
+- Do NOT merge or generalize actions across furnaces.
+
+WRITING:
+- Focus on operation criteria, thresholds, trends, and actions.
+- Preserve all numbers and units.
+- Write 4–8 Korean sentences.
+
+OUTPUT:
 {
   "table_summary": [
     "문장1",
-    "문장2",
-    ...
+    "문장2"
   ]
 }
 """
 
 TABLE_UNSTR_INSTRUCTIONS = """
-너는 제선·제철 공정 문서의 비정형 테이블을 해석해 핵심 의미를 전달하는 기술 요약 담당자이다. 
-아래 입력 변수(image_link, context_before, context_after)를 참고하여 테이블 이미지에서 중요 수치/단위/고로별 작업방향을 요약해라. 존재하지 않는 값은 만들지 말고, 알 수 없으면 빈 값을 출력해라.
-- 파일명: {filename}
-- 텍스트 맥락(각 20 토큰): context_before={context_before}, context_after={context_after} (맥락에 {{...}}가 있으면 해당 위치에 다른 테이블/이미지가 있음을 의미)
-- image_link={image_link} 테이블에서 보이는 열/행의 헤더, 주요 셀 값을 기반으로 컬럼 의미와 항목 간 관계를 3~6문장으로 설명해라.
-- 표 구조만 나열하지 말고, 숫자·단위·조건·비교·상관관계를 포함해라.
-- 중괄호나 플레이스홀더(`{filename}`, `{{...}}`)를 출력하지 말라.
+HARD RULES:
+- Output MUST be Korean only.
+- NEVER output Chinese, Japanese, or any other language.
+- Do NOT insert meaningless spaces between Korean characters.
+  (예: 통기 성 ❌ → 통기성 ✅)
 
-출력 형식:
+- Preserve all technical terms, abbreviations, symbols, and units EXACTLY.
+- Do NOT translate or explain technical terms.
+- dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR remain in English.
+- cokes → 코크스 or cokes.
+
+- If unclear or unreadable, keep the original English token.
+- Do NOT guess or invent values.
+
+You summarize unstructured blast furnace table images.
+
+TABLE IMAGE RULES:
+- Use only values visible in the image.
+- BF1, BF2, BF3, BF4 → 1고로, 2고로, 3고로, 4고로.
+- Describe furnace-specific actions separately.
+- Do NOT invent missing data.
+
+WRITING:
+- Explain numeric values, units, comparisons, and conditions.
+- Write 3–6 Korean sentences.
+
+OUTPUT:
 {
   "table_summary": [
     "문장1",
-    "문장2",
-    ...
+    "문장2"
   ]
 }
 """
 
 IMAGE_TRANS_INSTRUCTIONS = """
-너는 주어진 고로 관련 영문 description을 한국어로 번역하는 전문가다. 한국어면 그대로 출력해라. 
+HARD RULES:
+- Output MUST be Korean only.
+- NEVER output Chinese, Japanese, or any other language.
+- Do NOT insert meaningless spaces between Korean characters.
+  (예: 통기 성 ❌ → 통기성 ✅)
 
-- [번역할 문장: {description}]
-- dead man, hanging, S.L 과 같은 전문 용어는 영어를 보존하고, 서술형이나 일반적인 단어들만 한국어로 번역한다.
-- cokes는 **코크스** 나 cokes로 적는다.
-- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.
-- 번역한 결과를 한 문단으로 작성해 `image_summary` 문자열에 채워라. `image_keyword`는 사용하지 않는다.
+- Preserve all technical terms, abbreviations, symbols, and units EXACTLY.
+- Do NOT translate or explain technical terms.
+- dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR remain in English.
+- cokes → 코크스 or cokes.
 
-출력 형식:
+- If unclear or unreadable, keep the original English token.
+- Do NOT guess or invent values.
+
+You rewrite blast furnace technical descriptions into Korean.
+
+TRANS RULES:
+- Korean output only.
+- If input is already Korean, output unchanged.
+- Preserve ALL technical terms, abbreviations, symbols, and units EXACTLY.
+- Do NOT translate dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR.
+- Do NOT insert or remove spaces inside technical tokens.
+- Write ONE paragraph only.
+
+OUTPUT:
 {
-  "image_summary": "번역된 문장"
+  "image_summary": "문장"
 }
 """
 
 IMAGE_SUM_INSTRUCTIONS = """
-너는 제선·제철 공정의 시각 자료(도표·그래프·다이어그램)를 해석하여 핵심 정보를 명확히 전달하는 이미지 분석 담당자로, 이미지 내의 중요한 정보를 서술해야 한다.
+HARD RULES:
+- Output MUST be Korean only.
+- NEVER output Chinese, Japanese, or any other language.
+- Do NOT insert meaningless spaces between Korean characters.
+  (예: 통기 성 ❌ → 통기성 ✅)
 
-- 참고: 이미지 링크={image_link}, 이미지 이전 설명={context_before}, 이미지 이후 설명={context_after}
-- context_before/after에 '<그림 ...>'처럼 해당 이미지를 설명하는 문장이 있으면 필요한 범위에서 참고하되, 컨텍스트만 재진술하지 말고 이미지에서 보이는 요소를 반드시 포함해라.
+- Preserve all technical terms, abbreviations, symbols, and units EXACTLY.
+- Do NOT translate or explain technical terms.
+- dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR remain in English.
+- cokes → 코크스 or cokes.
 
-규칙:
-- **이 그래프는/이 차트는/이 그림은** 중 하나로 시작한다. 
-- 그래프라면 x축, y축 이름/눈금·단위, 범례/색상/모양, 비교 그룹, 추세(증감/극값/비교)를 구체적으로 설명하며, 축의 단위도 명시해라.
-- 예를 들어, 1300도에서 슬래그의 염기도가 증가하는 모습입니다. 와 같이 포인트에 대한 설명을 해라.
-- 다이어그램, 플로우차트면 단계별 흐름, 분기 조건, 입출력/매개변수를 자세히 기술해라.
+- If unclear or unreadable, keep the original English token.
+- Do NOT guess or invent values.
 
+You summarize blast furnace operation visuals.
 
-- 러시아어/중국어 등 제3언어는 사용하지 말고 한국어+영어 병기만 사용한다.
-- 단위(Unit)는 반드시 정확하게 유지한다.
-- 4~5문장 요약을 작성해 `image_summary` 리스트에 반드시 채워라. `image_keyword`는 빈 리스트로 두고, 키워드는 summary에 넣지 말 것.
+IMAGE RULES:
+- Start with one of: "이 그래프는", "이 차트는", "이 그림은".
+- Describe axes, units, trends, comparisons, or process flow.
+- Preserve all units exactly.
+- Korean only.
 
-출력 형식:
+WRITING:
+- Write 4–5 Korean sentences.
+
+OUTPUT:
 {
-  "image_summary": ["문장1", "문장2", ...]
+  "image_summary": [
+    "문장1",
+    "문장2"
+  ],
 }
 """
 
@@ -196,13 +258,27 @@ def build_table_payloads(
 ) -> tuple[list[dict], list[dict], list[dict]]:
     str_payloads: list[dict] = []
     skipped_str: list[dict] = []
-    first_table_seen: set[str] = set()  # filename 기준 첫 테이블은 LLM payload에서 제외
+
+    def should_skip_for_terms(table_item: dict) -> bool:
+        targets = ("품질영향인자", "공정영향인자")
+        candidates: list[str] = []
+        row_flatten = table_item.get("row_flatten")
+        if isinstance(row_flatten, list):
+            candidates.extend([c for c in row_flatten if isinstance(c, str)])
+        elif isinstance(row_flatten, str):
+            candidates.append(row_flatten)
+        # 비정형 테이블 대비: table_html/full_html 문자열에서도 검색
+        for key in ("table_html", "full_html"):
+            val = table_item.get(key)
+            if isinstance(val, str):
+                candidates.append(val)
+        for text in candidates:
+            compact = re.sub(r"\s+", "", text)
+            if any(t in compact for t in targets):
+                return True
+        return False
+
     for item in str_items:
-        filename = item.get("filename") or ""
-        if filename and filename not in first_table_seen:
-            first_table_seen.add(filename)
-            print(f"[SKIP-FIRST-TABLE] table_str filename={filename} id={item.get('id')}")
-            continue
         cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
         context_before, context_after = get_context_windows(
             cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
@@ -210,7 +286,8 @@ def build_table_payloads(
         skip, digit_only_ratio_val, digit_only_count, total_cells = should_skip_table_for_digits(
             item, digit_only_ratio_threshold
         )
-        if skip:
+        term_skip = should_skip_for_terms(item)
+        if skip or term_skip:
             skipped_str.append(
                 {
                     "id": item.get("id"),
@@ -221,6 +298,7 @@ def build_table_payloads(
                     "digit_only_ratio": round(digit_only_ratio_val, 4),
                     "digit_only_cells": digit_only_count,
                     "total_cells": total_cells,
+                    "skip_reason": "protected_term" if term_skip else "digit_ratio",
                 }
             )
             continue
@@ -241,15 +319,12 @@ def build_table_payloads(
 
     unstr_payloads: list[dict] = []
     for item in unstr_items:
-        filename = item.get("filename") or ""
-        if filename and filename not in first_table_seen:
-            first_table_seen.add(filename)
-            print(f"[SKIP-FIRST-TABLE] table_unstr filename={filename} id={item.get('id')}")
-            continue
         cleaned_path = find_cleaned_path_from_image_link(item.get("image_link") or "")
         context_before, context_after = get_context_windows(
             cleaned_path, item.get("id", ""), window=TABLE_CONTEXT_WINDOW
         )
+        if should_skip_for_terms(item):
+            continue
         unstr_payloads.append(
             {
                 "id": item.get("id"),
@@ -316,8 +391,8 @@ def write_digit_heavy_log(
     log_path.parent.mkdir(parents=True, exist_ok=True)
     with log_path.open("w", encoding="utf-8") as f:
         f.write(
-            "# digit-heavy table_str skipped "
-            f"(digit_only_ratio>={digit_only_ratio_threshold:.2f})\n"
+            "# table_str skipped (digit-heavy or protected terms)\n"
+            f"# digit_only_ratio_threshold={digit_only_ratio_threshold:.2f}\n"
         )
         for item in skipped:
             f.write(
@@ -325,7 +400,8 @@ def write_digit_heavy_log(
                 f"section_path={item.get('section_path')} page={item.get('page')} "
                 f"image_link={item.get('image_link')} "
                 f"digit_only_ratio={item.get('digit_only_ratio')} "
-                f"digit_only_cells={item.get('digit_only_cells')} total_cells={item.get('total_cells')}\n"
+                f"digit_only_cells={item.get('digit_only_cells')} total_cells={item.get('total_cells')} "
+                f"reason={item.get('skip_reason')}\n"
             )
 
 
@@ -364,14 +440,14 @@ def main() -> None:
 
     print(
         f"[INFO] LLM payloads generated: tables_str={len(str_payloads)} "
-        f"(skipped={len(skipped_str)} @ digit_only_ratio>={digit_only_ratio_threshold:.2f}), "
+        f"(skipped={len(skipped_str)}; digit_ratio>={digit_only_ratio_threshold:.2f} or protected terms), "
         f"tables_unstr={len(unstr_payloads)}, images_trans={len(trans_payloads)}, "
         f"images_sum={len(sum_payloads)} into {args.out_dir}"
     )
     if skipped_str:
         preview = ", ".join(filter(None, [item.get("id") for item in skipped_str[:10]]))
         suffix = "..." if len(skipped_str) > 10 else ""
-        print(f"[INFO] skipped table_str ids (digit-heavy cells): {preview}{suffix}")
+        print(f"[INFO] skipped table_str ids (digit-heavy/protected terms): {preview}{suffix}")
 
 
 if __name__ == "__main__":
