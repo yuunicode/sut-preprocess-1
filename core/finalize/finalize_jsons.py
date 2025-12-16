@@ -14,6 +14,7 @@ LLM_DIR = REPO_ROOT / "output" / "llm"
 FINAL_DIR = REPO_ROOT / "output" / "final"
 PLACEHOLDER_SPAN_RE = re.compile(r"\{\{[^{}]+\}\}")
 INVALID_TRANS_RE = re.compile(r"[\u4e00-\u9fff\u0400-\u04FF\u0600-\u06FF\u0660-\u0669\u06F0-\u06F9]")
+LONG_CJK_RE = re.compile(r"[\u4e00-\u9fff]{8,}")
 
 
 def load_json(path: Path) -> Any:
@@ -23,6 +24,10 @@ def load_json(path: Path) -> Any:
 def save_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def has_long_cjk(text: str) -> bool:
+    return bool(LONG_CJK_RE.search(text or ""))
 
 
 def display_filename_for_prefix(filename: str) -> str:
@@ -67,10 +72,12 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
 
     def clean_summary(summary):
         if isinstance(summary, list):
-            return "".join(s for s in summary if isinstance(s, str)).strip()
-        if isinstance(summary, str):
-            return summary.strip()
-        return ""
+            text = "".join(s for s in summary if isinstance(s, str)).strip()
+        elif isinstance(summary, str):
+            text = summary.strip()
+        else:
+            return ""
+        return "" if has_long_cjk(text) else text
 
     for tbl in tables:
         display_name = display_filename_for_prefix(tbl.get("filename") or "")
@@ -114,19 +121,20 @@ def finalize_tables_str() -> List[Dict[str, Any]]:
 
         if tbl.get("id") in summaries:
             sum_text_raw = clean_summary(summaries[tbl.get("id")])
-            sum_text = (f"{prefix} {sum_text_raw}".strip() if prefix else sum_text_raw)
-            finals.append(
-                {
-                    "id": f"{tbl.get('id')}#summary",
-                    "component_type": "table_summary",
-                    "original": sum_text_raw,
-                    "text": sum_text,
-                    "image_link": tbl.get("image_link"),
-                    "section_path": tbl.get("section_path"),
-                    "filename": tbl.get("filename"),
-                    "page": tbl.get("page"),
-                }
-            )
+            if sum_text_raw:
+                sum_text = (f"{prefix} {sum_text_raw}".strip() if prefix else sum_text_raw)
+                finals.append(
+                    {
+                        "id": f"{tbl.get('id')}#summary",
+                        "component_type": "table_summary",
+                        "original": sum_text_raw,
+                        "text": sum_text,
+                        "image_link": tbl.get("image_link"),
+                        "section_path": tbl.get("section_path"),
+                        "filename": tbl.get("filename"),
+                        "page": tbl.get("page"),
+                    }
+                )
 
     return finals
 
@@ -146,10 +154,12 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
     finals: List[Dict[str, Any]] = []
     def clean_summary(summary):
         if isinstance(summary, list):
-            return "".join(s for s in summary if isinstance(s, str)).strip()
-        if isinstance(summary, str):
-            return summary.strip()
-        return ""
+            text = "".join(s for s in summary if isinstance(s, str)).strip()
+        elif isinstance(summary, str):
+            text = summary.strip()
+        else:
+            return ""
+        return "" if has_long_cjk(text) else text
 
     for tbl in tables:
         summary = summary_map.get(tbl.get("id"))
@@ -161,11 +171,11 @@ def finalize_tables_unstr() -> List[Dict[str, Any]]:
         if tbl.get("section_path"):
             prefix_parts.append(f"[경로: {tbl.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        original = (
-            clean_summary(summary)
-            if (summary and ((isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary)) or isinstance(summary, str)))
-            else (tbl.get("full_html") or fallback_text)
-        )
+        original = ""
+        if summary and ((isinstance(summary, list) and any(isinstance(s, str) and s.strip() for s in summary)) or isinstance(summary, str)):
+            original = clean_summary(summary)
+        if not original:
+            original = tbl.get("full_html") or fallback_text
         base_text = f"{prefix} {original}".strip() if prefix else original
         entry = {
             "id": tbl.get("id"),
@@ -252,7 +262,7 @@ def _finalize_images_generic(
             original = "".join([s for s in summary if isinstance(s, str)]).strip()
         else:
             original = summary if isinstance(summary, str) and summary.strip() else ""
-        if fallback_on_invalid and INVALID_TRANS_RE.search(original or ""):
+        if fallback_on_invalid and has_long_cjk(original or ""):
             original = comp.get("description") or ""
         if not original:
             # 내용이 없으면 적재 대상에서 제외
