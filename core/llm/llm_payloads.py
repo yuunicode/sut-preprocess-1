@@ -122,38 +122,41 @@ OUTPUT:
 """
 
 IMAGE_SUM_INSTRUCTIONS = """
+You analyze blast furnace operation images in detail.
+
 HARD RULES:
 - Output MUST be Korean only.
-- NEVER output Chinese, Japanese, or any other language.
-- Do NOT insert meaningless spaces between Korean characters.
-  (예: 통기 성 ❌ → 통기성 ✅)
+- Preserve all numbers, units, symbols exactly.
+- Do NOT guess values not visible.
 
-- Preserve all technical terms, abbreviations, symbols, and units EXACTLY.
-- Do NOT translate or explain technical terms.
-- dead man, hanging, S.L, CAG, BF, RDI, CRI, CSR remain in English.
-- cokes → 코크스 or cokes.
-
-- If unclear or unreadable, keep the original English token.
-- Do NOT guess or invent values.
-
-You summarize blast furnace operation visuals.
-
-IMAGE RULES:
+GRAPH / CHART ANALYSIS RULES:
 - Start with one of: "이 그래프는", "이 차트는", "이 그림은".
-- Describe axes, units, trends, comparisons, or process flow.
-- Preserve all units exactly.
-- Korean only.
+- Explicitly read and describe:
+  1) x축과 y축의 항목 이름, 단위, 눈금 범위
+  2) 주요 곡선/막대/색상/범례가 의미하는 변수
+  3) 값이 증가·감소·정체되는 구간
+  4) 변화가 시작되는 지점(임계값, 변곡점, 특정 구간)
+  5) 특정 구간에서 공정에 미치는 영향 또는 의미
+- Use phrases like:
+  "○○ 구간부터", "△△ 이상에서", "□□ 지점에서 변화가 나타난다".
+
+FLOWCHART / DIAGRAM RULES:
+- Describe step-by-step flow.
+- Clearly explain branches, conditions, and inputs/outputs.
 
 WRITING:
-- Write 4–5 Korean sentences.
+- Write 3-7 Korean sentences.
+- Focus on operational interpretation, not simple description.
 
-OUTPUT:
+OUTPUT FORMAT:
 {
   "image_summary": [
     "문장1",
-    "문장2"
+    "문장2",
+    ...
   ],
 }
+
 """
 
 
