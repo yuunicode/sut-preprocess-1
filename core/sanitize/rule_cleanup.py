@@ -252,7 +252,8 @@ SECONDARY_MAP = [
     (r"\s*\\mathrm\{\s*mm\s*\}", "mm"),
     (r"\s*\\mathrm\{\s*O\s*\}", "O"),
     (r"\s*\\mathrm\{\s*cm\s*\}", "cm"),
-    (r"&amp;", "&"),
+    (r"&amp;", "    "),
+    (r"&lt;", "<"),
 ]
 
 INLINE_MATH_RE = re.compile(r"(<math(?![^>]*display=\"block\")[^>]*>)(.*?)(</math>)", re.IGNORECASE | re.DOTALL)
@@ -447,6 +448,25 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"<sub>(.*?)</sub>", html_sub_repl, text, flags=re.IGNORECASE | re.DOTALL)
     text = re.sub(r"<sup>(.*?)</sup>", html_sup_repl, text, flags=re.IGNORECASE | re.DOTALL)
 
+    # sum → Σ 변환 (백슬래시 유무 모두 처리)
+    def sum_paren_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        inner = match.group(1).strip()
+        total += 1
+        return f"Σ({inner})" if inner else "Σ"
+
+    def sum_word_repl(match: re.Match[str]) -> str:
+        nonlocal total
+        inner = (match.group(1) or "").strip() if match.lastindex else ""
+        total += 1
+        return f"Σ {inner}".strip()
+
+    text = re.sub(r"\\sum\s*\(\s*([^\)]*)\s*\)", sum_paren_repl, text, flags=re.IGNORECASE)
+    text = re.sub(r"\\sum\b", lambda m: sum_word_repl(re.match(r"(\\sum)", m.group(0))), text, flags=re.IGNORECASE)
+    text = re.sub(r"(?<![A-Za-z])sum\s*\(\s*([^\)]*)\s*\)", sum_paren_repl, text, flags=re.IGNORECASE)
+    text = re.sub(r"(?<![A-Za-z])sum\s+([A-Za-z0-9_]+)", sum_word_repl, text, flags=re.IGNORECASE)
+    text = re.sub(r"Σ\s+Σ", "Σ", text)
+
     text, frac_repl_count = convert_fracs(text)
     total += frac_repl_count
 
@@ -467,7 +487,7 @@ def normalize_math_text(text: str) -> Tuple[str, int]:
     text = re.sub(r"\\?text\s*\{\s*(.*?)\s*\}", strip_text, text)
     text = re.sub(r"\bext\s*\{\s*(.*?)\s*\}", strip_text, text)
 
-    text = text.replace("&amp;", "&")
+    text = text.replace("&amp;", "    ")
     text = text.replace("N m³", "Nm³")
     text = text.replace("N m²", "Nm²")
     # aligned/배열/박스/밑줄/left-right/줄바꿈 정리
@@ -518,6 +538,7 @@ def finalize_math_text(text: str) -> str:
     # 4) CO 관련 기호 보정
     text = text.replace(r"\gammaCO", "ηCO").replace("γCO", "ηCO")
     text = re.sub(r"η\s*_\s*\{\s*CO\s*\}", "ηCO", text)
+    text = re.sub(r"η\s*_\s*\{\s*CO₂\s*\}", "ηCO", text)
     # 5) 앞의 역슬래시가 빠진 rac{...}{...} 보정
     text = re.sub(
         r"(?<!\\)rac\s*\{\s*([^}]*)\s*\}\s*\{\s*([^}]*)\s*\}",
