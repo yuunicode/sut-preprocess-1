@@ -188,12 +188,6 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
         return []
     comps = load_json(src_path)
     finals: List[Dict[str, Any]] = []
-
-    def strip_math(text: str) -> str:
-        if not isinstance(text, str):
-            return ""
-        return re.sub(r"<math[^>]*>(.*?)</math>", lambda m: (m.group(1) or "").strip(), text, flags=re.IGNORECASE | re.DOTALL).strip()
-
     for comp in comps:
         display_name = display_filename_for_prefix(comp.get("filename") or "")
         prefix_parts = []
@@ -202,12 +196,12 @@ def finalize_images_formula() -> List[Dict[str, Any]]:
         if comp.get("section_path"):
             prefix_parts.append(f"[경로: {comp.get('section_path')}]")
         prefix = " ".join(prefix_parts)
-        original_raw = comp.get("description") or "No Description"
-        original = strip_math(original_raw) or "No Description"
+        original = comp.get("description") or "No Description"
         text_val = f"{prefix} {original}".strip() if prefix else original
         finals.append(
             {
                 "id": comp.get("id"),
+                "placeholder": comp.get("placeholder"),
                 "component_type": comp.get("component_type"),
                 "original": original,
                 "text": text_val,
