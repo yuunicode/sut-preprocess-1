@@ -122,41 +122,30 @@ OUTPUT:
 """
 
 IMAGE_SUM_INSTRUCTIONS = """
-You analyze blast furnace operation images in detail.
+You analyze blast furnace operation images.
 
 HARD RULES:
-- Output MUST be Korean only.
-- Preserve all numbers, units, symbols exactly.
-- Do NOT guess values not visible.
+- Korean only. Keep all numbers/units/symbols exactly. Do NOT guess unseen values.
 
-GRAPH / CHART ANALYSIS RULES:
-- Start with one of: "이 그래프는", "이 차트는", "이 그림은".
-- Explicitly read and describe:
-  1) x축과 y축의 항목 이름, 단위, 눈금 범위
-  2) 주요 곡선/막대/색상/범례가 의미하는 변수
-  3) 값이 증가·감소·정체되는 구간
-  4) 변화가 시작되는 지점(임계값, 변곡점, 특정 구간)
-  5) 특정 구간에서 공정에 미치는 영향 또는 의미
-- Use phrases like:
-  "○○ 구간부터", "△△ 이상에서", "□□ 지점에서 변화가 나타난다".
+GRAPH / CHART:
+- Start with: "이 그래프는", "이 차트는", or "이 그림은".
+- Mention x/y축 이름·단위·범위, 주요 곡선/막대/범례 의미, 증가/감소 구간, 임계·변곡 지점, 공정상 의미.
 
-FLOWCHART / DIAGRAM RULES:
-- Describe step-by-step flow.
-- Clearly explain branches, conditions, and inputs/outputs.
+FLOW / DIAGRAM:
+- Explain 단계 흐름, 분기 조건, 입력/출력.
 
 WRITING:
-- Write 3-7 Korean sentences.
-- Focus on operational interpretation, not simple description.
+- 5–7 Korean sentences. Focus on operational interpretation.
 
-OUTPUT FORMAT:
+OUTPUT:
 {
   "image_summary": [
     "문장1",
     "문장2",
     ...
   ],
+  "image_keyword": []
 }
-
 """
 
 

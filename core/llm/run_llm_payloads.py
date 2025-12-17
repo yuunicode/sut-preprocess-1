@@ -31,24 +31,6 @@ NO_REPEAT_NGRAM_SIZE = 4  # 지정된 ngram 크기 반복 금지 (4-gram 반복 
 RETRY_MAX_ATTEMPTS = 3  # 이미지(SUM/TRANS) 파싱 실패 시 최대 재시도 횟수
 BAD_CHAR_RE = re.compile(r"[\u4e00-\u9fff\u0400-\u04FF\u0600-\u06FF\u0660-\u0669\u06F0-\u06F9\u2070-\u209F]")
 SPACED_LETTERS_RE = re.compile(r"(?:[A-Za-z가-힣]\s+){4,}[A-Za-z가-힣]")
-CJK_RE = re.compile(r"[\u4e00-\u9fff]")
-JP_RE = re.compile(r"[\u3040-\u30ff]")
-RU_RE = re.compile(r"[\u0400-\u04FF]")
-# 단어 내부 공백이 끊어진 한국어 감지(예: '온 도', '통 기 성')
-KOR_SPLIT_RE = re.compile(r"(?:[가-힣]\s+){1,3}[가-힣]")
-FULLWIDTH_DIGITS_MAP = str.maketrans("０１２３４５６７８９", "0123456789")
-SUB_SUP_DIGITS_MAP = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉", "01234567890123456789")
-CORRECTION_PROMPT = """
-CORRECTION:
-Your previous output violated the language rules.
-
-- Output Korean only.
-- Replace any Chinese characters with correct Korean.
-- Do NOT insert spaces between Korean characters.
-- Keep technical terms in English.
-
-Rewrite the output correctly.
-""".strip()
 
 
 # --------------------- 공통 유틸 ---------------------
@@ -71,10 +53,6 @@ def extract_json(text: str) -> Dict[str, Any]:
         s = re.sub(r",\s*]", "]", s)
         s = re.sub(r",\s*}", "}", s)
         return s
-
-    def _strip_stray_quotes(s: str) -> str:
-        # 응답 끝/앞에 붙은 따옴표나 백틱을 제거해 파싱을 돕는다.
-        return s.strip(" \n\r\t'\"`")
     try:
         return json.loads(_strip_trailing_commas(text))
     except Exception:
@@ -82,8 +60,7 @@ def extract_json(text: str) -> Dict[str, Any]:
     match = re.search(r"\{.*\}", text, re.S)
     if match:
         try:
-            candidate = _strip_trailing_commas(_strip_stray_quotes(match.group(0)))
-            return json.loads(candidate)
+            return json.loads(_strip_trailing_commas(match.group(0)))
         except Exception:
             pass
     return {}
@@ -92,15 +69,6 @@ def extract_json(text: str) -> Dict[str, Any]:
 def sanitize_sentences(candidate: Dict[str, Any]) -> Dict[str, Any]:
     """문장 리스트/문자열에서 이상한 문자/띄어쓰기 포함 시 제외 또는 비움."""
     cleaned: Dict[str, Any] = {}
-
-    def normalize_text(text: str) -> str:
-        # 전각 숫자, 특수 공백(U+202F, NBSP 등), 윗/아랫첨자 숫자 정규화
-        return (
-            text.replace("\u202f", " ")
-            .replace("\u00a0", " ")
-            .translate(FULLWIDTH_DIGITS_MAP)
-            .translate(SUB_SUP_DIGITS_MAP)
-        )
 
     def is_bad(text: str) -> bool:
         if not text or not isinstance(text, str):
@@ -113,19 +81,10 @@ def sanitize_sentences(candidate: Dict[str, Any]) -> Dict[str, Any]:
 
     for k, v in (candidate or {}).items():
         if isinstance(v, list):
-            normalized_list = []
-            for s in v:
-                if not isinstance(s, str):
-                    continue
-                normed = normalize_text(s)
-                if is_bad(normed.strip()):
-                    continue
-                if normed.strip():
-                    normalized_list.append(normed)
-            cleaned[k] = normalized_list
+            filtered = [s for s in v if isinstance(s, str) and not is_bad(s.strip()) and s.strip()]
+            cleaned[k] = filtered
         elif isinstance(v, str):
-            normed = normalize_text(v)
-            cleaned[k] = "" if is_bad(normed.strip()) else normed
+            cleaned[k] = "" if is_bad(v.strip()) else v
         else:
             cleaned[k] = v
     return cleaned
@@ -140,35 +99,6 @@ def clean_response_text(text: str) -> str:
     # 탭 제거
     cleaned = cleaned.replace("\t", "")
     return cleaned.strip()
-
-
-def has_language_violation(text: str) -> bool:
-    if not text:
-        return False
-    if CJK_RE.search(text):
-        return True
-    if JP_RE.search(text):
-        return True
-    if RU_RE.search(text):
-        return True
-    # 과도한 한글 분리(단어 내부 공백) 감지
-    if KOR_SPLIT_RE.search(text):
-        return True
-    return False
-
-
-def output_has_language_violation(output: Dict[str, Any]) -> bool:
-    """JSON 출력 내 문자열 필드에서 언어 위반을 감지한다."""
-    if not isinstance(output, dict):
-        return False
-    for val in output.values():
-        if isinstance(val, str) and has_language_violation(val):
-            return True
-        if isinstance(val, list):
-            for item in val:
-                if isinstance(item, str) and has_language_violation(item):
-                    return True
-    return False
 
 
 def validate_output(template: Dict[str, Any], candidate: Dict[str, Any]) -> Tuple[Dict[str, Any], bool]:
@@ -239,21 +169,6 @@ def needs_image_detail_retry(file_name: str, output: Dict[str, Any]) -> bool:
 
 def build_prompt(instruction: str, input_payload: Dict[str, Any]) -> str:
     return f"""{instruction}
-
-입력:
-{json.dumps(input_payload, ensure_ascii=False, indent=2)}
-
-출력은 위 출력 형식에 맞는 JSON만 반환하라."""
-
-
-def build_correction_prompt(original_instruction: str, input_payload: Dict[str, Any], prev_output: Dict[str, Any]) -> str:
-    return f"""{CORRECTION_PROMPT}
-
-Previous output:
-{json.dumps(prev_output, ensure_ascii=False, indent=2)}
-
-Original instruction:
-{original_instruction}
 
 입력:
 {json.dumps(input_payload, ensure_ascii=False, indent=2)}
@@ -384,15 +299,9 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
         merged = template_output
         success = False
         last_reason = "empty_response"
-        base_instruction = instruction
-        use_correction = False
-        prev_output_for_correction: Dict[str, Any] | None = None
         for attempt in range(1, attempts + 1):
             try:
-                if use_correction and prev_output_for_correction is not None:
-                    prompt = build_correction_prompt(base_instruction, input_payload, prev_output_for_correction)
-                else:
-                    prompt = build_prompt(base_instruction, input_payload)
+                prompt = build_prompt(instruction, input_payload)
                 resp_text = run_chat(model, tokenizer, prompt, image=image_obj)
             except Exception as exc:  # pragma: no cover
                 log_error(f"file={path.name} id={entry_id} attempt={attempt} error=LLM call failed: {exc}")
@@ -408,14 +317,6 @@ def process_file(path: Path, tokenizer, model, max_new_tokens: int) -> None:
                     last_reason = "weak_image_summary"
                     log_error(
                         f"file={path.name} id={entry_id} attempt={attempt} error=weak_image_summary resp='{resp_text[:200]}'"
-                    )
-                if ok and output_has_language_violation(merged):
-                    ok = False
-                    last_reason = "language_violation"
-                    prev_output_for_correction = merged
-                    use_correction = True
-                    log_error(
-                        f"file={path.name} id={entry_id} attempt={attempt} error=language_violation resp='{resp_text[:200]}'"
                     )
                 if ok:
                     print(f"[출력성공] {path.name} id={entry_id} attempt={attempt}")
